@@ -1009,7 +1009,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc310/10-sets/1-what-are-sets-/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/10-sets/1-what-are-sets-/index.html</guid>
-      <description>A set is a collection of elements that are usually related to each other. They can be sets of numbers, letters, people, cars, or even sets themselves! Thus, the elements stored in a stack, queue or list can all be considered as sets. When we define the elements in a set, we typically enclose them in curly brackets as follows.
+      <description>YouTube Video
+A set is a collection of elements that are usually related to each other. They can be sets of numbers, letters, people, cars, or even sets themselves! Thus, the elements stored in a stack, queue or list can all be considered as sets. When we define the elements in a set, we typically enclose them in curly brackets as follows.
 $$ \text{A} = { \text{Emily}, \text{Don}, \text{Mohammed}, \text{Huichen} } $$</description>
     </item>
     <item>
@@ -1025,7 +1026,8 @@ Union $\cup$ &amp;mdash; a set with all the elements from both sets, Intersectio
       <link>https://ksu-cs-textbooks.github.io/cc310/10-sets/3-sets-in-code/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/10-sets/3-sets-in-code/index.html</guid>
-      <description>Different data structures can be used to represents sets and efficiently support their operations. Among the data structures considered so far, it is possible to use both lists and arrays to represent sets. Even though sets by definition are unordered, we could store the elements in order, which has its pros and cons. Storing elements in order will speed up the contains operation since we won&amp;rsquo;t have to check each element in the set.</description>
+      <description>YouTube Video
+Different data structures can be used to represents sets and efficiently support their operations. Among the data structures considered so far, it is possible to use both lists and arrays to represent sets. Even though sets by definition are unordered, we could store the elements in order, which has its pros and cons. Storing elements in order will speed up the contains operation since we won&amp;rsquo;t have to check each element in the set.</description>
     </item>
     <item>
       <title>Set Operations</title>
@@ -1040,7 +1042,8 @@ mySet = new doubleLinkedList()Contains The first operation we will look at is th
       <link>https://ksu-cs-textbooks.github.io/cc310/10-sets/5-using-sets/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/10-sets/5-using-sets/index.html</guid>
-      <description>One of the most common uses of set operations is in database systems. While we will not create a full database system here, we will show you the basics of how they work using our set operations. Assume you have three sets of people:
+      <description>YouTube Video
+One of the most common uses of set operations is in database systems. While we will not create a full database system here, we will show you the basics of how they work using our set operations. Assume you have three sets of people:
 $$ \text{Students} = { \text{&amp;ldquo;Vanessa&amp;rdquo;}, \text{&amp;ldquo;Travis&amp;rdquo;}, \text{&amp;ldquo;Lu&amp;rdquo;}, \text{&amp;ldquo;Cole&amp;rdquo;}, \text{&amp;ldquo;Jordan&amp;rdquo;}, \text{&amp;ldquo;Elaine&amp;rdquo;}, \text{&amp;ldquo;Caleb&amp;rdquo;} } \ \text{Family} = { \text{&amp;ldquo;Amy&amp;rdquo;}, \text{&amp;ldquo;Scott&amp;rdquo;}, \text{&amp;ldquo;Vanessa&amp;rdquo;}, \text{&amp;ldquo;Lauren&amp;rdquo;}, \text{&amp;ldquo;Zachary&amp;rdquo;}, \text{&amp;ldquo;Jordan&amp;rdquo;}, \text{&amp;ldquo;Caleb&amp;rdquo;} } \ \text{Workers} = {\text{&amp;ldquo;Lauren&amp;rdquo;}, \text{&amp;ldquo;Amy&amp;rdquo;}, \text{&amp;ldquo;Felix&amp;rdquo;}, \text{&amp;ldquo;Zachary&amp;rdquo;}, \text{&amp;ldquo;Quinn&amp;rdquo;}, \text{&amp;ldquo;Jordan&amp;rdquo;}, \text{&amp;ldquo;Gabrielle&amp;rdquo;} } $$</description>
     </item>
     <item>

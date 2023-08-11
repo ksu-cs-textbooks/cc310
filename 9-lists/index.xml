@@ -1009,7 +1009,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/1-what-is-a-list-/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/1-what-is-a-list-/index.html</guid>
-      <description>A list is a data structure that holds a sequence of data, such as the shopping list shown below. Each list has a head item and a tail item, with all other items placed linearly between the head and the tail. As we pick up items in the store, we will remove them, or cross them off the list. Likewise, if we get a text from our housemate to get some cookies, we can add them to the list as well.</description>
+      <description>YouTube Video
+A list is a data structure that holds a sequence of data, such as the shopping list shown below. Each list has a head item and a tail item, with all other items placed linearly between the head and the tail. As we pick up items in the store, we will remove them, or cross them off the list. Likewise, if we get a text from our housemate to get some cookies, we can add them to the list as well.</description>
     </item>
     <item>
       <title>Lists in the Real World</title>
@@ -1032,7 +1033,8 @@ However, there are other lists in the real world that we might not even think of
       <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/4-singly-linked-lists/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/4-singly-linked-lists/index.html</guid>
-      <description>Linked Node To solve the disadvantages of arrays, we need a data structure that allows us to insert and remove items in an ordered collection in constant time, independently from the number of items in the data structure.
+      <description>YouTube Video
+Linked Node To solve the disadvantages of arrays, we need a data structure that allows us to insert and remove items in an ordered collection in constant time, independently from the number of items in the data structure.
 The solution lies in creating our own specialized data structure where each node contains the data of interest as well as a reference, or pointer to the next node in the list.</description>
     </item>
     <item>
@@ -1040,7 +1042,8 @@ The solution lies in creating our own specialized data structure where each node
       <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/5-singly-linked-lists-insertion/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/5-singly-linked-lists-insertion/index.html</guid>
-      <description>Given the structure of our linked list, we can easily insert a new node at any location in the list. However, for our purposes we are generally interested in inserting new nodes at the beginning of the list, at some specific location in the list, or in the appropriate order if the list is sorted.
+      <description>YouTube Video
+Given the structure of our linked list, we can easily insert a new node at any location in the list. However, for our purposes we are generally interested in inserting new nodes at the beginning of the list, at some specific location in the list, or in the appropriate order if the list is sorted.
 Inserting at the Beginning Inserting a node at the beginning of a list is straightforward.</description>
     </item>
     <item>
@@ -1064,14 +1067,16 @@ function isEmpty() returns boolean return head == NULL (1) end functionpeek The 
       <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/8-list-based-stacks/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/8-list-based-stacks/index.html</guid>
-      <description>If we implement a stack using a singly linked list, we can simplify many things about the implementation. First of all, we can totally remove the isFull, doubleCapacity, and halveCapacity operations since we can grow and shrink our list-based stack as needed. The rest of the operations can be implemented directly with list operations. The front of the list will be the top of the stack since the operations to insert and remove items from the front of list are very efficient.</description>
+      <description>YouTube Video
+If we implement a stack using a singly linked list, we can simplify many things about the implementation. First of all, we can totally remove the isFull, doubleCapacity, and halveCapacity operations since we can grow and shrink our list-based stack as needed. The rest of the operations can be implemented directly with list operations. The front of the list will be the top of the stack since the operations to insert and remove items from the front of list are very efficient.</description>
     </item>
     <item>
       <title>Doubly Linked Lists</title>
       <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/9-doubly-linked-lists/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/9-doubly-linked-lists/index.html</guid>
-      <description>With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list. However, we often had to use two pointers when manipulating the list to allow us to access the previous node in the list as well as the current node.</description>
+      <description>YouTube Video
+With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list. However, we often had to use two pointers when manipulating the list to allow us to access the previous node in the list as well as the current node.</description>
     </item>
     <item>
       <title>Doubly Linked Lists - Insertion</title>
@@ -1094,14 +1099,16 @@ we simply modify the next pointer in node &amp;ldquo;-2&amp;rdquo; to point to n
       <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/12-list-iterators/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/12-list-iterators/index.html</guid>
-      <description>An iterator is a set of operations a data structure provides to allow users to access the items in the data structure sequentially, without requiring them to know its underlying representation. There are many reasons users might want to access the data in a list. For instance, users may want to make a copy of their list or count the number of times a piece of data was stored in the list.</description>
+      <description>YouTube Video
+An iterator is a set of operations a data structure provides to allow users to access the items in the data structure sequentially, without requiring them to know its underlying representation. There are many reasons users might want to access the data in a list. For instance, users may want to make a copy of their list or count the number of times a piece of data was stored in the list.</description>
     </item>
     <item>
       <title>List-Based Queues</title>
       <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/13-list-based-queues/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/13-list-based-queues/index.html</guid>
-      <description>Implementing a queue with a doubly linked list is straightforward and efficient. The core queue operations (enqueue, dequeue, isEmpty, and peek) can all be implemented by directly calling list operations that run in constant time. The only other major operation is the toString operation, which is also implemented by directly calling the list toString operation; however, it runs in order $N$ time due to the fact that the list toString operation must iterate through each item in the list.</description>
+      <description>YouTube Video
+Implementing a queue with a doubly linked list is straightforward and efficient. The core queue operations (enqueue, dequeue, isEmpty, and peek) can all be implemented by directly calling list operations that run in constant time. The only other major operation is the toString operation, which is also implemented by directly calling the list toString operation; however, it runs in order $N$ time due to the fact that the list toString operation must iterate through each item in the list.</description>
     </item>
     <item>
       <title>Lists Summary</title>

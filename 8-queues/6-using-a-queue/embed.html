@@ -1010,18 +1010,18 @@
     <link href="https://ksu-cs-textbooks.github.io/cc310/8-queues/6-using-a-queue/index.print.html" rel="alternate" type="text/html" title="Using a Queue :: CC 310 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc310/8-queues/6-using-a-queue/tele.html" rel="alternate" type="text/html" title="Using a Queue :: CC 310 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781708" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1691781708" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781708" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1691781708" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781708" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1691781708" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1691781708" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1691781708" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1691781708" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1691781708" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1691781708"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1691781708"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781771" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781771" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781771" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1691781771" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1691781771" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1691781771" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1691781771"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1691781771"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -1040,7 +1040,7 @@
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1691781708" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1691781771" rel="stylesheet">
 
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc310/8-queues/6-using-a-queue/embed.html">
@@ -1067,10 +1067,10 @@
 <p>Ideally, as cars come to the windshield station, we would be able to put their windshields in and send them to the next station before we received the next car. However, this is rarely the case. Since putting on windshields often requires special attention, cars tend to line up to get their windows installed. This is when their priority comes into account. Instead of using a simple queue to line cars up first-come, first-served in FIFO order, we would like to jump high priority cars to the head of the line.</p>
 <p>While we could build a sophisticated queueing mechanism that would automatically insert cars in the appropriate order based on priority and then arrival time, we could also use a queue to handle each set of car priorities. A figure illustrating this situation is shown below. As cars come in, they are put in one of three queues: high priority, medium priority, or low priority. When the windshield station completes a car it then takes the next car from the highest priority queue.</p>
 <p>
-<a href="#image-17d3504b3fde1aedf5c1eb3fed8a5a18" class="lightbox-link">
+<a href="#image-fe97872a4180da9dc085f2a09dfdbcc1" class="lightbox-link">
 <img src="../../images/8/8.7.model.png" alt="Car Windshield Installation Model" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-17d3504b3fde1aedf5c1eb3fed8a5a18">
+<a href="javascript:history.back();" class="lightbox" id="image-fe97872a4180da9dc085f2a09dfdbcc1">
 <img src="../../images/8/8.7.model.png" alt="Car Windshield Installation Model" class="lightbox-image" loading="lazy">
 </a></p>
 <p>The interesting part of the problem is the controller at the windshield station that determines which car will be selected to be worked on next. The controller will need to have the following interface:</p>
@@ -1141,8 +1141,8 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1691781711" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1691781711" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1691781711" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1691781773" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1691781773" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1691781773" defer></script>
   </body>
 </html>

@@ -1009,7 +1009,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/1-programming-by-contract/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/1-programming-by-contract/index.html</guid>
-      <description>In this course, we will learn how to develop several different data structures, and then use those data structures in programs that implement several different types of algorithms. However, one of the most difficult parts of programming is clearly explaining what a program should do and how it should perform.
+      <description>YouTube Video
+In this course, we will learn how to develop several different data structures, and then use those data structures in programs that implement several different types of algorithms. However, one of the most difficult parts of programming is clearly explaining what a program should do and how it should perform.
 So far, we&amp;rsquo;ve used UML class diagrams to discuss the structure of a program. It can give us information about the classes, attributes, and methods that our program will contain, as well as the overall relationships between the classes.</description>
     </item>
     <item>
@@ -1032,7 +1033,8 @@ Info If the preconditions of a method are all true when a method is called, then
       <link>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/4-invariants/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/4-invariants/index.html</guid>
-      <description>Another concept related to preconditions and postconditions is the loop invariant. A loop invariant is a statement should be true after each iteration of a loop, provided the loop&amp;rsquo;s preconditions are all true before the start of the loop. Yes, that&amp;rsquo;s right&amp;mdash;we can think of a loop as a miniature method within a method, with its own set of preconditions and postconditions.
+      <description>YouTube Video
+Another concept related to preconditions and postconditions is the loop invariant. A loop invariant is a statement should be true after each iteration of a loop, provided the loop&amp;rsquo;s preconditions are all true before the start of the loop. Yes, that&amp;rsquo;s right&amp;mdash;we can think of a loop as a miniature method within a method, with its own set of preconditions and postconditions.
 Example - Maximum For this example, let&amp;rsquo;s consider a method maximum(numbers) that gets an array of numbers as input, and returns the maximum value stored in that list.</description>
     </item>
     <item>
@@ -1040,7 +1042,8 @@ Example - Maximum For this example, let&amp;rsquo;s consider a method maximum(nu
       <link>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/5-correctness/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/5-correctness/index.html</guid>
-      <description>If we have defined the correct preconditions, postconditions, and invariants for our code, we can then use those to prove that our code correctly performs its intended operation.
+      <description>YouTube Video
+If we have defined the correct preconditions, postconditions, and invariants for our code, we can then use those to prove that our code correctly performs its intended operation.
 In this course, we won&amp;rsquo;t ask you to do any of this yourself, but it is important to understand what is going on in the background and how this process works. We can use the concepts of preconditions and postconditions when grading your code using our Autograder&amp;mdash;in fact, that&amp;rsquo;s really how it works!</description>
     </item>
     <item>
@@ -1064,7 +1067,8 @@ For example, one simple problem involves finding the largest sum of contiguous e
       <link>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/8-max-and-min-linear/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/8-max-and-min-linear/index.html</guid>
-      <description>Let’s start by considering one number from the list at a time.
+      <description>YouTube Video
+Let’s start by considering one number from the list at a time.
 Base Case When we have received just one number, this number is both the maximum and the minimum. In the initial state, you have max holding the maximum, and min holding the minimum. The invariant is the following:
 The variable max holds the maximum of all the numbers considered so far The variable min holds the minimum of all the numbers considered so far The algorithm is depicted by the following flowchart and pseudocode:</description>
     </item>
@@ -1073,7 +1077,8 @@ The variable max holds the maximum of all the numbers considered so far The vari
       <link>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/9-max-and-min-pairs/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/9-max-and-min-pairs/index.html</guid>
-      <description>Another solution consists of comparing the numbers in pairs, instead of one at a time.
+      <description>YouTube Video
+Another solution consists of comparing the numbers in pairs, instead of one at a time.
 Base Case When we have received just one number, this number is both the maximum and the minimum. In the initial state, you have max holding the maximum, and min holding the minimum. The invariant is the following:
 The variable max holds the maximum of all the numbers considered so far The variable min holds the minimum of all the numbers considered so far The algorithm is depicted by the following flowchart and pseudocode:</description>
     </item>
@@ -1082,7 +1087,8 @@ The variable max holds the maximum of all the numbers considered so far The vari
       <link>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/10-time-complexity/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/10-time-complexity/index.html</guid>
-      <description>It is very useful to compare the two solutions to choose one. In general, you can compare the two solutions by considering:
+      <description>YouTube Video
+It is very useful to compare the two solutions to choose one. In general, you can compare the two solutions by considering:
 The time required to execute it The amount of memory it requires The number of instructions used, and also the understandability of the code Time Complexity To compare programs in terms of the time we can estimate the running time, or time it takes to complete its work.</description>
     </item>
     <item>

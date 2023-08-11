@@ -1019,7 +1019,8 @@ Each Java program must contain at least one class, which is declared in a file t
       <link>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/2-compile-run-code/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/2-compile-run-code/index.html</guid>
-      <description>Now that we&amp;rsquo;ve written our first Java program, we must compile and run the program to see the fruits of our labors. There are many different ways to do this using the Codio platform. We&amp;rsquo;ll discuss each of them in detail here.
+      <description>YouTube Video
+Now that we&amp;rsquo;ve written our first Java program, we must compile and run the program to see the fruits of our labors. There are many different ways to do this using the Codio platform. We&amp;rsquo;ll discuss each of them in detail here.
 Terminal Codio includes a built-in Linux terminal, which allows us to perform actions directly on a command-line interface just like we would on an actual computer running Linux.</description>
     </item>
     <item>
@@ -1035,21 +1036,24 @@ To use the debugger, find the Debug Menu at the top of the Codio window. It is t
       <link>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/4-variables/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/4-variables/index.html</guid>
-      <description>A variable in a programming language is an abstraction that allows storing one value in each instant of time, but this value can change along with the program execution. A variable can be represented as a box holding a value. If the variable is a container, e.g., a list (or array or vector), a matrix, a tuple, or a set of values, each box in the container contains a single value.</description>
+      <description>YouTube Video
+A variable in a programming language is an abstraction that allows storing one value in each instant of time, but this value can change along with the program execution. A variable can be represented as a box holding a value. If the variable is a container, e.g., a list (or array or vector), a matrix, a tuple, or a set of values, each box in the container contains a single value.</description>
     </item>
     <item>
       <title>Conditionals</title>
       <link>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/5-conditionals/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/5-conditionals/index.html</guid>
-      <description>The conditional statement, also known as the If-Then statement, is used to control the program&amp;rsquo;s flow by checking the value of a Boolean statement and determining if a block of code should be executed based on that value. This is the simplest conditional instruction. If the condition is true, the block enclosed within the statement is executed. If it is false, then the code in the block is skipped.</description>
+      <description>YouTube Video
+The conditional statement, also known as the If-Then statement, is used to control the program&amp;rsquo;s flow by checking the value of a Boolean statement and determining if a block of code should be executed based on that value. This is the simplest conditional instruction. If the condition is true, the block enclosed within the statement is executed. If it is false, then the code in the block is skipped.</description>
     </item>
     <item>
       <title>Loops</title>
       <link>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/6-loops/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/6-loops/index.html</guid>
-      <description>Loops are another way we can control the flow of our program, this time by repeating steps based on a given criteria. A computer is able to repeat the same instructions many times. There are several ways to tell a computer to repeat a sequence of instructions:
+      <description>YouTube Video
+Loops are another way we can control the flow of our program, this time by repeating steps based on a given criteria. A computer is able to repeat the same instructions many times. There are several ways to tell a computer to repeat a sequence of instructions:
 Repeat an infinite number of times, e.g. while true. This construct is useful in software applications such as servers that will offer a service.</description>
     </item>
     <item>
@@ -1066,7 +1070,8 @@ The program should compute and print the sum of all integers from 1 up to and in
       <link>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/8-arrays/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/8-arrays/index.html</guid>
-      <description>^[File:USPS Post office boxes 1.jpg. (2017, May 17). Wikimedia Commons, the free media repository. Retrieved 18:17, November 5, 2018 from https://commons.wikimedia.org/w/index.php?title=File:USPS_Post_office_boxes_1.jpg&amp;amp;oldid=244476438.]
+      <description>YouTube Video
+^[File:USPS Post office boxes 1.jpg. (2017, May 17). Wikimedia Commons, the free media repository. Retrieved 18:17, November 5, 2018 from https://commons.wikimedia.org/w/index.php?title=File:USPS_Post_office_boxes_1.jpg&amp;amp;oldid=244476438.]
 Arrays allow us to store multiple values in the same variable, using an index to determine which value we wish to store or retrieve from the array. We can think of arrays like a set of post office boxes. Each one has the same physical address, the post office, but within the post office we can find an individual box based on its own box number.</description>
     </item>
     <item>
@@ -1082,16 +1087,17 @@ To help us understand these roles, let&amp;rsquo;s review them in detail here. A
       <link>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/10-strings/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/10-strings/index.html</guid>
-      <description>Strings are another very important data type in programming. A string is simply a set of characters that represent text in our programs. We can then write programs that use and manipulate strings in a variety of ways, allowing us to easily work with textual data.
-Strings in Flowcharts &amp;amp; Pseudocode The table below lists the flowchart blocks used to represent strings, as well as the corresponding pseudocode:
-Operation Flowchart Pseudocode Create String STR = &amp;ldquo;abc&amp;rdquo; Access Character C = STR[0] String Length X = size of STR Strings in Java Let&amp;rsquo;s review the syntax for working with strings in Java.</description>
+      <description>YouTube Video
+Strings are another very important data type in programming. A string is simply a set of characters that represent text in our programs. We can then write programs that use and manipulate strings in a variety of ways, allowing us to easily work with textual data.
+Strings in Flowcharts &amp;amp; Pseudocode The table below lists the flowchart blocks used to represent strings, as well as the corresponding pseudocode:</description>
     </item>
     <item>
       <title>Exceptions</title>
       <link>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/11-exceptions/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/3-java/11-exceptions/index.html</guid>
-      <description>An exception is an error that a program encounters when it is running. While some errors cannot be dealt with directly by the program, many of these exceptions can be caught and handled directly in our programs.
+      <description>YouTube Video
+An exception is an error that a program encounters when it is running. While some errors cannot be dealt with directly by the program, many of these exceptions can be caught and handled directly in our programs.
 Exceptions in Flowcharts &amp;amp; Pseudocode There isn&amp;rsquo;t really a standard way to display exceptions in flowcharts and pseudocode, but we can easily create a system that works well for our needs. Below are the flowchart blocks and pseudocode examples we&amp;rsquo;ll use in this course to represent exceptions and exception handling:</description>
     </item>
     <item>

@@ -1009,7 +1009,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc310/12-performance/1-choosing-the-right-structures/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/12-performance/1-choosing-the-right-structures/index.html</guid>
-      <description>There are several linear data structures that we can use in our programs, including stacks, queues, lists, sets, and hash tables. In this course, we have covered each of these structures in detail. However, as a programmer, one of the most difficult decisions we will make when developing a program is the choice of which data structure to use. Sometimes the choice may be obvious based on the data we plan to store or the algorithms we need to perform, but in practice that happens very rarely.</description>
+      <description>YouTube Video
+There are several linear data structures that we can use in our programs, including stacks, queues, lists, sets, and hash tables. In this course, we have covered each of these structures in detail. However, as a programmer, one of the most difficult decisions we will make when developing a program is the choice of which data structure to use. Sometimes the choice may be obvious based on the data we plan to store or the algorithms we need to perform, but in practice that happens very rarely.</description>
     </item>
     <item>
       <title>Data Structure Performance</title>
@@ -1024,7 +1025,8 @@ We will not worry about memory usage at this point, since most of the memory use
       <link>https://ksu-cs-textbooks.github.io/cc310/12-performance/3-comparing-data-structures/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/12-performance/3-comparing-data-structures/index.html</guid>
-      <description>One of the best ways to compare data structures is to look at the common operations that they can perform. For this analysis, we&amp;rsquo;ve chosen to analyze the following four operations:
+      <description>YouTube Video
+One of the best ways to compare data structures is to look at the common operations that they can perform. For this analysis, we&amp;rsquo;ve chosen to analyze the following four operations:
 Insert – inserting a specific element into the structure, either in sorted order, or at the appropriate place as required by the definition of a stack or queue. Access – accessing a desired element. For general data structures, this is the process of accessing an element by its index or key in the structure.</description>
     </item>
     <item>
@@ -1032,14 +1034,16 @@ Insert – inserting a specific element into the structure, either in sorted ord
       <link>https://ksu-cs-textbooks.github.io/cc310/12-performance/4-arrays/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/12-performance/4-arrays/index.html</guid>
-      <description>Unsorted Array An unsorted array is the most basic data structure, and it is supported by nearly every programming language available. Inserting elements into the array is always a constant time operation since we can simply place it at the end of the array. Of course, this assumes that the array is large enough to hold all our data without needing to be resized. Since we are not worried about memory usage, this is a safe assumption.</description>
+      <description>YouTube Video
+Unsorted Array An unsorted array is the most basic data structure, and it is supported by nearly every programming language available. Inserting elements into the array is always a constant time operation since we can simply place it at the end of the array. Of course, this assumes that the array is large enough to hold all our data without needing to be resized. Since we are not worried about memory usage, this is a safe assumption.</description>
     </item>
     <item>
       <title>Lists</title>
       <link>https://ksu-cs-textbooks.github.io/cc310/12-performance/5-lists/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/12-performance/5-lists/index.html</guid>
-      <description>Unsorted Linked List The next data structure we learned about is the linked list. Specifically, we will look at the doubly linked list in this example, but in most instances the performance of a singly linked list is comparable.
+      <description>YouTube Video
+Unsorted Linked List The next data structure we learned about is the linked list. Specifically, we will look at the doubly linked list in this example, but in most instances the performance of a singly linked list is comparable.
 With a linked list, the process of inserting an element at either the beginning or the end is a constant time operation since we maintain both a head and a tail reference.</description>
     </item>
     <item>
@@ -1047,15 +1051,17 @@ With a linked list, the process of inserting an element at either the beginning 
       <link>https://ksu-cs-textbooks.github.io/cc310/12-performance/6-hash-tables/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/12-performance/6-hash-tables/index.html</guid>
-      <description>Hash Tables Analyzing the performance of a hash table is a bit trickier than the other data structures, mainly due to how a hash table tries to use its complex structure to get a &amp;ldquo;best of both worlds&amp;rdquo; performance outcome.
-For example, consider the insert operation. In the best case, the hash table has a capacity that is large enough to guarantee that there are not any hash collisions. Each entry in the array of the hash table will be an empty list and inserting an element into an empty list is done in constant time, so the whole operation runs in the order of constant time.</description>
+      <description>YouTube Video
+Hash Tables Analyzing the performance of a hash table is a bit trickier than the other data structures, mainly due to how a hash table tries to use its complex structure to get a &amp;ldquo;best of both worlds&amp;rdquo; performance outcome.
+For example, consider the insert operation. In the best case, the hash table has a capacity that is large enough to guarantee that there are not any hash collisions.</description>
     </item>
     <item>
       <title>Algorithms</title>
       <link>https://ksu-cs-textbooks.github.io/cc310/12-performance/7-algorithms/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/12-performance/7-algorithms/index.html</guid>
-      <description>We can examine the performance of the algorithms we use in a similar manner. Once again, we are concerned with both the memory usage and processing time of the algorithm. In this case, we are concerned with the amount of memory required to perform the algorithm that is above and beyond the memory used to store the data in the first place.
+      <description>YouTube Video
+We can examine the performance of the algorithms we use in a similar manner. Once again, we are concerned with both the memory usage and processing time of the algorithm. In this case, we are concerned with the amount of memory required to perform the algorithm that is above and beyond the memory used to store the data in the first place.
 When analyzing searching and sorting algorithms, we&amp;rsquo;ll assume that we are using arrays as our data structure, since they give us the best performance for accessing and swapping random elements quickly.</description>
     </item>
     <item>

@@ -1010,18 +1010,18 @@
     <link href="https://ksu-cs-textbooks.github.io/cc310/8-queues/3-queues-in-code/index.print.html" rel="alternate" type="text/html" title="Queues in Code :: CC 310 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc310/8-queues/3-queues-in-code/tele.html" rel="alternate" type="text/html" title="Queues in Code :: CC 310 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781708" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1691781708" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781708" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1691781708" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781708" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1691781708" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1691781708" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1691781708" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1691781708" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1691781708" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1691781708"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1691781708"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781771" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781771" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781771" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1691781771" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1691781771" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1691781771" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1691781771"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1691781771"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -1040,7 +1040,7 @@
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1691781708" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1691781771" rel="stylesheet">
 
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc310/8-queues/3-queues-in-code/embed.html">
@@ -1060,10 +1060,10 @@
 <p>How do we implement queues in code? Like we did with stacks, we will use an array, which is an easily understandable way to implement queues. We will store data directly in the array and use special <code>start</code> and <code>end</code> variables to keep track of the start of the queue and the end of the queue.</p>
 <p>The following figure shows how we might implement a queue with an array. First, we define our array <code>myQueue</code> to be an array that can hold 10 numbers, with an index of 0 to 9. Then we create a <code>start</code> variable to keep track of the index at the start of the queue and an <code>end</code> variable to keep track of the end of the array.</p>
 <p>
-<a href="#image-74fd0797d76e62142a32908e3ed562e3" class="lightbox-link">
+<a href="#image-a3cc67962e7abc8665ea393451328791" class="lightbox-link">
 <img src="../../images/8/8.3.empty.png" alt="Empty Queue" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-74fd0797d76e62142a32908e3ed562e3">
+<a href="javascript:history.back();" class="lightbox" id="image-a3cc67962e7abc8665ea393451328791">
 <img src="../../images/8/8.3.empty.png" alt="Empty Queue" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Notice that since we have not put any items into the queue, we initialize <code>start</code> to be <code>-1</code>. Although this is not a legal index into the array, we can use it like we did with stacks to recognize when we have not yet put anything into the queue. As we will see, this also makes manipulating items in the array much simpler. However, to make our use of the array more efficient, <code>-1</code> will not always indicate that the queue is empty. We will allow the queue to wrap around the array from the <code>start</code> index to the <code>end</code> index. We&rsquo;ll see an example of this behavior later.</p>
@@ -1079,26 +1079,26 @@
 	end if
 end function</code></pre></div><p>Given our initial configuration above, if we performed an <code>enqueue(7)</code> function call, the result would look like the following.</p>
 <p>
-<a href="#image-55dbf05cd39f78aa21ed2c0cec5864be" class="lightbox-link">
+<a href="#image-0c5a957578835f0fedbcf51012e94d09" class="lightbox-link">
 <img src="../../images/8/8.3.enqueue1.png" alt="Queue with 1 Element" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-55dbf05cd39f78aa21ed2c0cec5864be">
+<a href="javascript:history.back();" class="lightbox" id="image-0c5a957578835f0fedbcf51012e94d09">
 <img src="../../images/8/8.3.enqueue1.png" alt="Queue with 1 Element" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Notice that the value 7 was stored at <code>myQueue[0]</code> in line 3, <code>end</code> was updated to <code>1</code> in line 4, and <code>start</code> was set to <code>0</code> in line 7. Now, let&rsquo;s assume we continue to perform <code>enqueue</code> operations until <code>myQueue</code> is almost filled as shown below.</p>
 <p>
-<a href="#image-680ccb6ee86a6304a88c73a5c884d70e" class="lightbox-link">
+<a href="#image-3600403ff64771ea521fbc9de8fff128" class="lightbox-link">
 <img src="../../images/8/8.3.enqueue9.png" alt="Queue with 9 Elements" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-680ccb6ee86a6304a88c73a5c884d70e">
+<a href="javascript:history.back();" class="lightbox" id="image-3600403ff64771ea521fbc9de8fff128">
 <img src="../../images/8/8.3.enqueue9.png" alt="Queue with 9 Elements" class="lightbox-image" loading="lazy">
 </a></p>
 <p>If at this point, we enqueue another number, say <code>-35</code>, the modulo operator in line 4 would help us wrap the end of the list around the array and back to the beginning as expected.  The result of this function call is shown below.</p>
 <p>
-<a href="#image-5f686982440e8aecc3f3bae1d8539ae5" class="lightbox-link">
+<a href="#image-49a1a6c7137fa2632d81d038369fe0e6" class="lightbox-link">
 <img src="../../images/8/8.3.enqueue10.png" alt="Queue with 10 Elements" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-5f686982440e8aecc3f3bae1d8539ae5">
+<a href="javascript:history.back();" class="lightbox" id="image-49a1a6c7137fa2632d81d038369fe0e6">
 <img src="../../images/8/8.3.enqueue10.png" alt="Queue with 10 Elements" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Now we have a problem! The array is full of numbers and if we try to enqueue another number, the <code>enqueue</code> function will raise an exception in line 2. However, this example also gives us insight into what the <code>isFull</code> condition should be. Notice that both <code>start</code>, and <code>end</code> are pointing at the same array index. You may want to think about this a little, but you should be able to convince yourself that whenever <code>start == end</code> we will be in a situation like the one above where the array is full, and we cannot safely enqueue another number.</p>
@@ -1126,8 +1126,8 @@ end function</code></pre></div><p>Line 1 checks if the queue is empty and raises
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1691781711" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1691781711" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1691781711" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1691781773" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1691781773" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1691781773" defer></script>
   </body>
 </html>

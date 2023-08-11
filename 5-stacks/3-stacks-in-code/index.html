@@ -1010,18 +1010,18 @@
     <link href="https://ksu-cs-textbooks.github.io/cc310/5-stacks/3-stacks-in-code/tele.html" rel="alternate" type="text/html" title="Stacks in Code :: CC 310 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc310/5-stacks/3-stacks-in-code/embed.html" rel="alternate" type="text/html" title="Stacks in Code :: CC 310 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781700" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781700" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1691781700" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781700" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781700" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1691781700" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781700" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781700" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1691781700" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1691781700" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1691781700" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1691781700" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1691781700" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1691781700"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1691781700"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781763" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781763" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1691781763" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781763" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781763" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1691781763" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781763" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781763" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1691781763" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1691781763" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1691781763" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1691781763" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1691781763" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1691781763"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1691781763"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -1040,7 +1040,7 @@
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1691781700" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1691781763" rel="stylesheet">
 
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc310/5-stacks/3-stacks-in-code/index.html">
@@ -1100,10 +1100,10 @@
 <p>How do we implement stacks in code? One way would be to use something we already understand, an array. Remember that arrays allow us to store multiple items, where each entry in the array has a unique index number. This is a great way to implement stacks. We can store items directly in the array and use a special <code>top</code> variable to hold the index of the top of the stack.</p>
 <p>The following figure shows how we might implement a stack with an array. First, we define our array <code>myStack</code> to be an array that can hold 10 numbers, with an index of 0 to 9. Then we create a <code>top</code> variable that keeps track of the index at the top of the array.</p>
 <p>
-<a href="#image-6a9c196cfefcff8a85eddb0f35c4747f" class="lightbox-link">
+<a href="#image-7da5d4d3c24d4580071ba671e93252e4" class="lightbox-link">
 <img src="../../images/5/5.3.empty.png" alt="Empty Stack" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-6a9c196cfefcff8a85eddb0f35c4747f">
+<a href="javascript:history.back();" class="lightbox" id="image-7da5d4d3c24d4580071ba671e93252e4">
 <img src="../../images/5/5.3.empty.png" alt="Empty Stack" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Notice that since we have not put any items onto the stack, we initialize <code>top</code> to be <code>-1</code>. Although this is not a legal index into the array, we can use it to recognize when the stack is empty, and it makes manipulating items in the array much simpler. When we want to <code>push</code> an item onto the stack, we follow a simple procedure as shown below. Of course, since our array has a fixed size, we need to make sure that we don&rsquo;t try to put an item in a full array. Thus, the precondition is that the array cannot be full. Enforcing this precondition is the function of the <code>if</code> statement at the beginning of the function. If the array is already full, then we&rsquo;ll throw an exception and let the user handle the situation. Next, we increment the <code>top</code> variable to point to the next available location to store our data. Then it is just a matter of storing the item into the array at the index stored in <code>top</code>.</p>
@@ -1115,10 +1115,10 @@
 </span></span><span style="display:flex;"><span>    MYSTACK[TOP] = ITEM
 </span></span><span style="display:flex;"><span>end function</span></span></code></pre></div><p>If we call the function <code>push(a)</code> and follow the pseudocode above, we will get an array with <code>a</code> stored in <code>myStack[0]</code> and <code>top</code> will have the value <code>0</code> as shown below.</p>
 <p>
-<a href="#image-cb94d697e05d859caed0805ffae1bec1" class="lightbox-link">
+<a href="#image-1c37448b5b785f5b76ad9103e7c30b16" class="lightbox-link">
 <img src="../../images/5/5.3.one.png" alt="One Item" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-cb94d697e05d859caed0805ffae1bec1">
+<a href="javascript:history.back();" class="lightbox" id="image-1c37448b5b785f5b76ad9103e7c30b16">
 <img src="../../images/5/5.3.one.png" alt="One Item" class="lightbox-image" loading="lazy">
 </a></p>
 <p>As we push items onto the stack, we continue to increment <code>top</code> and store the items on the stack. The figure below shows how the stack would look if we performed the following <code>push</code> operations.</p>
@@ -1126,18 +1126,18 @@
 </span></span><span style="display:flex;"><span>push(&#34;c&#34;)
 </span></span><span style="display:flex;"><span>push(&#34;d&#34;)
 </span></span><span style="display:flex;"><span>push(&#34;e&#34;)</span></span></code></pre></div><p>
-<a href="#image-2c482c53c9f5c6f295e711a9c9d67cbc" class="lightbox-link">
+<a href="#image-1f179bc52e9c0a9d1f4c4c329c9f7868" class="lightbox-link">
 <img src="../../images/5/5.3.partial.png" alt="Partial Stack" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-2c482c53c9f5c6f295e711a9c9d67cbc">
+<a href="javascript:history.back();" class="lightbox" id="image-1f179bc52e9c0a9d1f4c4c329c9f7868">
 <img src="../../images/5/5.3.partial.png" alt="Partial Stack" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Although we are implementing our stack with an array, we often show stacks vertically instead of horizontally as shown below. In this way the semantics of <code>top</code> makes more sense.</p>
 <p>
-<a href="#image-0c601a8fd4cd44c22adebff562657ea3" class="lightbox-link">
+<a href="#image-bf77bf193ef87312bbabe439deadb145" class="lightbox-link">
 <img src="../../images/5/5.3.vertical.png" alt="Vertical Stack" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-0c601a8fd4cd44c22adebff562657ea3">
+<a href="javascript:history.back();" class="lightbox" id="image-bf77bf193ef87312bbabe439deadb145">
 <img src="../../images/5/5.3.vertical.png" alt="Vertical Stack" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Of course, the next question you might ask is &ldquo;how do we get items off the stack?”. As discussed above, we have a special operation called <code>pop</code> to take care of that for us. The pseudocode for the <code>pop</code> operation is shown below and is similar in structure to the <code>push</code> operation.</p>
@@ -1150,10 +1150,10 @@
 </span></span><span style="display:flex;"><span>end function</span></span></code></pre></div><p>However, instead of checking to see if the stack is full, we need to check if the stack is empty. Thus, our precondition is that the stack is not empty, which we evaluate by checking if <code>top</code> is equal to <code>-1</code>. If it is, we simply throw an exception and let the user handle it. If <code>myStack</code> is not empty, then we can go ahead and perform the <code>pop</code> function. We simply decrement the value of <code>top</code> and return the value stored in <code>myStack[top+1]</code>.</p>
 <p>Now, if we perform three straight <code>pop</code> operations, we get the following stack.</p>
 <p>
-<a href="#image-642b97efa255a8bb899cdc04abd8c91c" class="lightbox-link">
+<a href="#image-2d5854da1dcddb61eb63fdb985f9c15c" class="lightbox-link">
 <img src="../../images/5/5.3.popped.png" alt="Popped Stack" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-642b97efa255a8bb899cdc04abd8c91c">
+<a href="javascript:history.back();" class="lightbox" id="image-2d5854da1dcddb61eb63fdb985f9c15c">
 <img src="../../images/5/5.3.popped.png" alt="Popped Stack" class="lightbox-image" loading="lazy">
 </a></p>
 
@@ -1192,12 +1192,12 @@
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/auto-complete.js?1691781705" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.min.js?1691781705" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.stemmer.support.min.js?1691781705" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.multi.min.js?1691781705" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.en.min.js?1691781705" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/search.js?1691781705" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/auto-complete.js?1691781767" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.min.js?1691781767" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.stemmer.support.min.js?1691781767" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.multi.min.js?1691781767" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.en.min.js?1691781767" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/search.js?1691781767" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics enlarge morespace collapsible-menu">
@@ -1456,16 +1456,15 @@
   #footer p {
       margin: 0;
   }
-</style>
-  
-<p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/K-State-Computational-Core/hugo-theme-relearn/tree/main">Hugo Relearn Theme</a>.</p>
-<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a></p>
-
+  </style>
+      
+  <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p>
         </div>
       </div>
     </aside>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1691781705" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1691781705" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1691781705" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1691781767" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1691781767" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1691781767" defer></script>
   </body>
 </html>

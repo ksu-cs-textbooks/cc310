@@ -1010,18 +1010,18 @@
     <link href="https://ksu-cs-textbooks.github.io/cc310/9-lists/9-doubly-linked-lists/index.print.html" rel="alternate" type="text/html" title="Doubly Linked Lists :: CC 310 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc310/9-lists/9-doubly-linked-lists/tele.html" rel="alternate" type="text/html" title="Doubly Linked Lists :: CC 310 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781708" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1691781708" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781708" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1691781708" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781708" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1691781708" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1691781708" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1691781708" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1691781708" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1691781708" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1691781708"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1691781708"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781771" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781771" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781771" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1691781771" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1691781771" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1691781771" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1691781771"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1691781771"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -1040,7 +1040,7 @@
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1691781708" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1691781771" rel="stylesheet">
 
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc310/9-lists/9-doubly-linked-lists/embed.html">
@@ -1060,19 +1060,19 @@
 <p>With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list. However, we often had to use two pointers when manipulating the list to allow us to access the previous node in the list as well as the current node. One way to solve this problem and make our list even more flexible is to allow a node to point at both the previous node in the list as well as the next node in the list. We call this a doubly linked list.</p>
 <p>The concept of a doubly linked list is shown below. Here, each node in the list has a link to the next node and a link to the previous node. If there is no previous or next node, we set the pointers to null.</p>
 <p>
-<a href="#image-305f36f5661a86a2f10edb5aee8eeebc" class="lightbox-link">
+<a href="#image-765d76f2d4925da4d5ca90ff71db25d1" class="lightbox-link">
 <img src="../../images/9/9.3.double.png" alt="Doubly Linked List" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-305f36f5661a86a2f10edb5aee8eeebc">
+<a href="javascript:history.back();" class="lightbox" id="image-765d76f2d4925da4d5ca90ff71db25d1">
 <img src="../../images/9/9.3.double.png" alt="Doubly Linked List" class="lightbox-image" loading="lazy">
 </a></p>
 <h2 id="doubly-linked-node">Doubly Linked Node</h2>
 <p>A doubly linked list node is the same as a singly linked list node with the addition of the <code>previous</code> attribute that points to the previous node in the list as shown below.</p>
 <p>
-<a href="#image-e86b2ffbc9591bb3fe80c6b58d9fa52b" class="lightbox-link">
+<a href="#image-bea489731e34a5e0b1b28b4fa8f78f06" class="lightbox-link">
 <img src="../../images/9/9.10.doublenode.png" alt="Doubly Linked List Node" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-e86b2ffbc9591bb3fe80c6b58d9fa52b">
+<a href="javascript:history.back();" class="lightbox" id="image-bea489731e34a5e0b1b28b4fa8f78f06">
 <img src="../../images/9/9.10.doublenode.png" alt="Doubly Linked List Node" class="lightbox-image" loading="lazy">
 </a></p>
 <p>The class representation of a doubly linked list <code>Node</code> is shown below. As discussed above, we have three attributes:</p>
@@ -1083,20 +1083,20 @@
 </ul>
 <p>We also use a constructor and the standard <code>toString</code> operation to create a string for the data stored in the node.</p>
 <p>
-<a href="#image-19c4d1e113a3f57edf992aaa7d8544d2" class="lightbox-link">
+<a href="#image-babad34444fbb3ce4513544edb40aa89" class="lightbox-link">
 <img src="../../images/9/9.10.doublenodeuml.png" alt="Doubly Linked List Node UML" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-19c4d1e113a3f57edf992aaa7d8544d2">
+<a href="javascript:history.back();" class="lightbox" id="image-babad34444fbb3ce4513544edb40aa89">
 <img src="../../images/9/9.10.doublenodeuml.png" alt="Doubly Linked List Node UML" class="lightbox-image" loading="lazy">
 </a></p>
 <h2 id="doubly-linked-list">Doubly Linked List</h2>
 <p>As with our singly linked list, we start off a doubly linked list with a pointer to the first node in the list, which we call <code>head</code>. However, if we also store the pointer to the last node in the list, we can simplify some of our insertion and removal operations as well as reduce the time complexity of operations that insert, remove, or peek at the last node in the list.</p>
 <p>The figure below shows a doubly linked list with five nodes. The variable <code>head</code> points to the first node in the list, while the variable <code>tail</code> points to the last node in the list. Each node in the list now has two pointers, <code>next</code> and <code>previous</code>, which point to the appropriate node in the list. Notice that the first node&rsquo;s <code>previous</code> pointer is null, while the last node&rsquo;s <code>next</code> pointer is also null.</p>
 <p>
-<a href="#image-0a6635deb1b29f61acce3d8adf1bbabf" class="lightbox-link">
+<a href="#image-e1a0c5e80058250ced0ab17018965189" class="lightbox-link">
 <img src="../../images/9/9.10.double.png" alt="Doubly Linked List Detail" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-0a6635deb1b29f61acce3d8adf1bbabf">
+<a href="javascript:history.back();" class="lightbox" id="image-e1a0c5e80058250ced0ab17018965189">
 <img src="../../images/9/9.10.double.png" alt="Doubly Linked List Detail" class="lightbox-image" loading="lazy">
 </a></p>
 <h2 id="doubly-linked-list-class">Doubly Linked List Class</h2>
@@ -1122,8 +1122,8 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1691781711" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1691781711" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1691781711" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1691781774" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1691781774" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1691781774" defer></script>
   </body>
 </html>
