@@ -1,7 +1,6 @@
 +++
-title = "Homepage"
-date = 2021-08-17
+title = "CC 310 Textbook"
+archetype = "home"
 +++
 
-### Welcome!
-This page is meant to be edited to display course welcome info so if your instructor has not done so, tell them they should
+This is the homepage
