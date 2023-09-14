@@ -1016,8 +1016,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc310/4-data-structures-and-algorithms/2-linear-structures/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/4-data-structures-and-algorithms/2-linear-structures/index.html</guid>
-      <description>YouTube Video
-First, we can broadly separate the data structures we&amp;rsquo;re going to learn about into two types, linear and non-linear data structures.
+      <description>First, we can broadly separate the data structures we&amp;rsquo;re going to learn about into two types, linear and non-linear data structures.
 A linear data structure typically stores data in a single dimension, just like an array. By using a linear data structure, we would know that a particular element in the data structure comes before another element or vice-versa, but that&amp;rsquo;s about it. A great example is seen in the image above.</description>
     </item>
     <item>
@@ -1049,8 +1048,7 @@ A set cannot contain duplicate elements. Each element must be unique in the set.
       <link>https://ksu-cs-textbooks.github.io/cc310/4-data-structures-and-algorithms/6-maps/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/4-data-structures-and-algorithms/6-maps/index.html</guid>
-      <description>YouTube Video
-The last of the linear data structures may seem linear from the outside, but inside it can be quite a bit more complex.
+      <description>The last of the linear data structures may seem linear from the outside, but inside it can be quite a bit more complex.
 The map data structure is an example of a key-value data structure, also known as a dictionary or associative array. In the simplest case, a map data structure keeps track of a key that uniquely identifies a particular value, and stores that value along with the key in the data structure.</description>
     </item>
     <item>
@@ -1058,8 +1056,7 @@ The map data structure is an example of a key-value data structure, also known a
       <link>https://ksu-cs-textbooks.github.io/cc310/4-data-structures-and-algorithms/7-non-linear-structures/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/4-data-structures-and-algorithms/7-non-linear-structures/index.html</guid>
-      <description>YouTube Video
-^[File:6n-graf.svg. (2020, January 12). Wikimedia Commons, the free media repository. Retrieved 02:53, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:6n-graf.svg&amp;amp;oldid=386942400.]
+      <description>^[File:6n-graf.svg. (2020, January 12). Wikimedia Commons, the free media repository. Retrieved 02:53, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:6n-graf.svg&amp;amp;oldid=386942400.]
 The other type of data structure we can use in our programs is the non-linear data structure.
 Broadly speaking, non-linear data structures allow us to store data across multiple dimensions, and there may be multiple paths through the data to get from one item to another. In fact, much of the information stored in the data structure has to do with the paths between elements more than the elements themselves.</description>
     </item>

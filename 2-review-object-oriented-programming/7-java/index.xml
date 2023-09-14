@@ -1009,21 +1009,19 @@
       <link>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/7-java/1-functions/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/7-java/1-functions/index.html</guid>
-      <description>YouTube Video
-In Java, each piece of code is broken down into functions, which are individual routines that we can call in our code. Let&amp;rsquo;s review how to create functions in Java.
+      <description>In Java, each piece of code is broken down into functions, which are individual routines that we can call in our code. Let&amp;rsquo;s review how to create functions in Java.
 Functions in Flowcharts &amp;amp; Pseudocode The table below lists the flowchart blocks used to represent functions, as well as the corresponding pseudocode:
 Operation Flowchart Pseudocode Declare Function function FOO(X)
 X = X + 5
 return X
-end function Call Function X = FOO(5) Functions in Java Declaring Functions YouTube Video</description>
+end function Call Function X = FOO(5) Functions in Java Declaring Functions In general, a function declaration in Java needs a few elements.</description>
     </item>
     <item>
       <title>Overloading</title>
       <link>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/7-java/2-overloading/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/7-java/2-overloading/index.html</guid>
-      <description>YouTube Video
-Java allows us to create multiple functions using the same name, or identifier, as long as they have different parameters. This could include a different number of parameters, different data types for each parameter, or a different ordering of types. The names of the parameters, however, does not matter here. This is called function overloading.
+      <description>Java allows us to create multiple functions using the same name, or identifier, as long as they have different parameters. This could include a different number of parameters, different data types for each parameter, or a different ordering of types. The names of the parameters, however, does not matter here. This is called function overloading.
 Function Overloading For example, we could create a function named max() that could take either two or three parameters:</description>
     </item>
     <item>
@@ -1040,8 +1038,7 @@ The program&amp;rsquo;s input will consist of a list of 100 integers, one per li
       <link>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/7-java/4-classes/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/7-java/4-classes/index.html</guid>
-      <description>YouTube Video
-In programming, a class describes an individual entity or part of the program. In many cases, the class can be used to describe an actual thing, such as a person, a vehicle, or a game board, or a more abstract thing such as a set of rules for a game, or even an artificial intelligence engine for making business decisions.
+      <description>In programming, a class describes an individual entity or part of the program. In many cases, the class can be used to describe an actual thing, such as a person, a vehicle, or a game board, or a more abstract thing such as a set of rules for a game, or even an artificial intelligence engine for making business decisions.
 In object-oriented programming, a class is the basic building block of a larger program.</description>
     </item>
     <item>
@@ -1049,8 +1046,7 @@ In object-oriented programming, a class is the basic building block of a larger 
       <link>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/7-java/5-attributes/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/7-java/5-attributes/index.html</guid>
-      <description>YouTube Video
-Of course, our classes are not very useful at this point because they don&amp;rsquo;t include any attributes or methods. Including attributes in a class is one of the simplest uses of classes, so let&amp;rsquo;s start there.
+      <description>Of course, our classes are not very useful at this point because they don&amp;rsquo;t include any attributes or methods. Including attributes in a class is one of the simplest uses of classes, so let&amp;rsquo;s start there.
 Adding Attributes To add an attribute to a class, we can simply declare a variable inside of our class declaration:
 public class Person{ String lastName; String firstName; int age; } That&amp;rsquo;s really all there is to it!</description>
     </item>
@@ -1059,16 +1055,14 @@ public class Person{ String lastName; String firstName; int age; } That&amp;rsqu
       <link>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/7-java/6-methods/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/7-java/6-methods/index.html</guid>
-      <description>YouTube Video
-We can also add methods to our classes. These methods are used either to modify the attributes of the class or to perform actions based on the attributes stored in the class. Finally, we can even use those methods to perform actions on data provided as arguments. In essence, the sky is the limit with methods in classes, so we&amp;rsquo;ll be able to do just about anything we need to do in these methods.</description>
+      <description>We can also add methods to our classes. These methods are used either to modify the attributes of the class or to perform actions based on the attributes stored in the class. Finally, we can even use those methods to perform actions on data provided as arguments. In essence, the sky is the limit with methods in classes, so we&amp;rsquo;ll be able to do just about anything we need to do in these methods.</description>
     </item>
     <item>
       <title>Inheritance and Polymorphism</title>
       <link>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/7-java/7-inheritance-and-polymorphism/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/7-java/7-inheritance-and-polymorphism/index.html</guid>
-      <description>YouTube Video
-We can also build classes that inherit attributes and methods from another class. This allows us to build more complex structures in our code, better representing the relationships between real world objects.
+      <description>We can also build classes that inherit attributes and methods from another class. This allows us to build more complex structures in our code, better representing the relationships between real world objects.
 Inheritance in UML As we learned earlier in this chapter, we can represent an inheritance relationship with an open arrow in our UML diagrams, as shown below:
 In this diagram, the Student class inherits from, or is a subclass of, the Person class.</description>
     </item>

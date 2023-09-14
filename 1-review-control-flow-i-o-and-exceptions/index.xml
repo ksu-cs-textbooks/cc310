@@ -1009,8 +1009,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/1-programming-overview/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/1-programming-overview/index.html</guid>
-      <description>YouTube Video
-Programming ^[https://pxhere.com/en/photo/1172040]
+      <description>Programming ^[https://pxhere.com/en/photo/1172040]
 Programming is the act of writing source code for a computer program in such a way that a modern computer can understand and perform the steps described in the code. There are many different programming languages that can be used, such as high-level languages like Java and Python.
 To run code written in those languages, we can use a compiler to convert the code to a low-level language that can be directly executed by the computer, or we can use an interpreter to read the code and perform the requested operations on the computer.</description>
     </item>

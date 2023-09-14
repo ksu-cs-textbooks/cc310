@@ -1010,18 +1010,18 @@
     <link href="https://ksu-cs-textbooks.github.io/cc310/9-lists/10-doubly-linked-lists-insertion/index.print.html" rel="alternate" type="text/html" title="Doubly Linked Lists - Insertion :: CC 310 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc310/9-lists/10-doubly-linked-lists-insertion/tele.html" rel="alternate" type="text/html" title="Doubly Linked Lists - Insertion :: CC 310 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781771" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1691781771" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781771" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1691781771" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781771" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1691781771" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1691781771" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1691781771" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1691781771" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1691781771" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1691781771"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1691781771"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1694711078" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1694711078" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1694711078" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1694711078" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1694711078" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1694711078" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1694711078" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1694711078" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1694711078" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1694711078" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1694711078" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1694711078" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1694711078" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1694711078"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1694711078"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -1040,7 +1040,7 @@
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1691781771" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1694711078" rel="stylesheet">
 
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc310/9-lists/10-doubly-linked-lists-insertion/embed.html">
@@ -1062,42 +1062,42 @@
 <h2 id="inserting-at-the-beginning">Inserting at the Beginning</h2>
 <p>Inserting at the beginning of a doubly linked list is almost as straightforward as in a singly linked list. We just need to make sure that we update the <code>previous</code> pointer in each affected node. After creating the new <code>node</code> in line 1, we check to see if the list is empty in line 2. If it is empty, then we only have to worry about updating the <code>head</code> and <code>tail</code> pointers to both point at <code>node</code> in lines 3 and 4. If the list is not empty, we have the situation shown below.</p>
 <p>
-<a href="#image-81c92484536979e5202f3aa91cc3c994" class="lightbox-link">
+<a href="#image-579a2ee8de7d97e99c78fdc66a38d433" class="lightbox-link">
 <img src="../../images/9/9.11.insert1.png" alt="Doubly Linked List Insert 1" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-81c92484536979e5202f3aa91cc3c994">
+<a href="javascript:history.back();" class="lightbox" id="image-579a2ee8de7d97e99c78fdc66a38d433">
 <img src="../../images/9/9.11.insert1.png" alt="Doubly Linked List Insert 1" class="lightbox-image" loading="lazy">
 </a></p>
 <p>To insert a node at the beginning of the list, we set <code>head.previous</code> (the <code>previous</code> pointer in the first node in the list) to point to the new node in line 5.</p>
 <p>
-<a href="#image-76e70c40280a88a9a7682876528846f9" class="lightbox-link">
+<a href="#image-37ed62fd39e88922d43da7853d677486" class="lightbox-link">
 <img src="../../images/9/9.11.insert2.png" alt="Doubly Linked List Insert 2" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-76e70c40280a88a9a7682876528846f9">
+<a href="javascript:history.back();" class="lightbox" id="image-37ed62fd39e88922d43da7853d677486">
 <img src="../../images/9/9.11.insert2.png" alt="Doubly Linked List Insert 2" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Next, we set the <code>next</code> pointer in the new node to point to where <code>head</code> is currently pointing in line 6, which is the first node in the list.</p>
 <p>
-<a href="#image-c1f275f2132a653d2d7304c965e98ca0" class="lightbox-link">
+<a href="#image-1dc3b940943ef92f15b65d2404108820" class="lightbox-link">
 <img src="../../images/9/9.11.insert3.png" alt="Doubly Linked List Insert 3" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-c1f275f2132a653d2d7304c965e98ca0">
+<a href="javascript:history.back();" class="lightbox" id="image-1dc3b940943ef92f15b65d2404108820">
 <img src="../../images/9/9.11.insert3.png" alt="Doubly Linked List Insert 3" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Finally, we update <code>head</code> to point to the new <code>node</code> and then increment the size in line 8.</p>
 <p>
-<a href="#image-a36febf4b9b24326f5bfb78b1a59379a" class="lightbox-link">
+<a href="#image-739c6a0ffead9509cb54cf1b3ae1efc4" class="lightbox-link">
 <img src="../../images/9/9.11.insert4.png" alt="Doubly Linked List Insert 4" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-a36febf4b9b24326f5bfb78b1a59379a">
+<a href="javascript:history.back();" class="lightbox" id="image-739c6a0ffead9509cb54cf1b3ae1efc4">
 <img src="../../images/9/9.11.insert4.png" alt="Doubly Linked List Insert 4" class="lightbox-image" loading="lazy">
 </a></p>
 <p>With a little bit of reformatting, we can see that we&rsquo;ve successfully inserted our new node in the list.</p>
 <p>
-<a href="#image-ea254e1c213c0eeeeefa425d395363c6" class="lightbox-link">
+<a href="#image-5fb76fced4b596bc96459e8b02231d39" class="lightbox-link">
 <img src="../../images/9/9.11.insert5.png" alt="Doubly Linked List Insert 5" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-ea254e1c213c0eeeeefa425d395363c6">
+<a href="javascript:history.back();" class="lightbox" id="image-5fb76fced4b596bc96459e8b02231d39">
 <img src="../../images/9/9.11.insert5.png" alt="Doubly Linked List Insert 5" class="lightbox-image" loading="lazy">
 </a></p>
 <p>The pseudocode for this operation is given below.</p>
@@ -1169,8 +1169,8 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1691781774" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1691781774" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1691781774" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1694711082" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1694711082" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1694711082" defer></script>
   </body>
 </html>

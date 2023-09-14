@@ -1010,18 +1010,18 @@
     <link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/20-quicksort-time-complexity/tele.html" rel="alternate" type="text/html" title="Quicksort Time Complexity :: CC 310 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/20-quicksort-time-complexity/embed.html" rel="alternate" type="text/html" title="Quicksort Time Complexity :: CC 310 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781763" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781763" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1691781763" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781763" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781763" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1691781763" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781763" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781763" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1691781763" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1691781763" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1691781763" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1691781763" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1691781763" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1691781763"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1691781763"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1694711071" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1694711071" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1694711071" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1694711071" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1694711071" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1694711071" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1694711071" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1694711071" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1694711071" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1694711071" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1694711071" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1694711071" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1694711071" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1694711071"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1694711071"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -1040,7 +1040,7 @@
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1691781763" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1694711071" rel="stylesheet">
 
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/20-quicksort-time-complexity/index.html">
@@ -1112,10 +1112,10 @@
 <p>With those two assumptions in hand, we see that something interesting happens. If we choose the average value as our pivot value, quicksort will perfectly partition the array into two equal sized halves! This is a great result, because it means that each recursive call to the function will be working with data that is half the initial array.</p>
 <p>If we consider an array that initially contains $15$ elements, and make sure that we always choose the average element as our pivot point, we&rsquo;d end up with a tree of recursive calls that resembles the diagram below.</p>
 <p>
-<a href="#image-0c0954f528c43491a468c9d5f5ab0eda" class="lightbox-link">
+<a href="#image-be5bf8377d542660850e564c74677a8b" class="lightbox-link">
 <img src="../../images/7/7.20.quicktime.png" alt="Quicksort Time Tree 1" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-0c0954f528c43491a468c9d5f5ab0eda">
+<a href="javascript:history.back();" class="lightbox" id="image-be5bf8377d542660850e564c74677a8b">
 <img src="../../images/7/7.20.quicktime.png" alt="Quicksort Time Tree 1" class="lightbox-image" loading="lazy">
 </a></p>
 <p>In this diagram, we see that each level of the tree looks at around $N$ elements. (It is actually fewer, but not by a significant amount so we can just round up to $N$ each time). We also notice that there are 4 levels to the tree, which is closely approximated by $\text{lg}(N)$. This is the same result we observed when analyzing the merge sort algorithm earlier in this module.</p>
@@ -1125,10 +1125,10 @@
 <p>Consider the situation where the pivot value is chosen to be the maximum value in the array. What would happen in that case?</p>
 <p>Looking at the code, we would see that each recursive call would contain one empty partition, and the other partition would be just one less than the size of the original array. So, if our original array only contained 8 elements, our tree recursion diagram would look similar to the following.</p>
 <p>
-<a href="#image-0dc9ce49def610131a06b263a3cda144" class="lightbox-link">
+<a href="#image-d25d4a90ed801b6330552ef07f3131d5" class="lightbox-link">
 <img src="../../images/7/7.20.quicktime2.png" alt="Quicksort Time Tree 2" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-0dc9ce49def610131a06b263a3cda144">
+<a href="javascript:history.back();" class="lightbox" id="image-d25d4a90ed801b6330552ef07f3131d5">
 <img src="../../images/7/7.20.quicktime2.png" alt="Quicksort Time Tree 2" class="lightbox-image" loading="lazy">
 </a></p>
 <p>This is an entirely different result! In this case, since we are only reducing the size of our array by 1 at each level, it would take $N$ recursive calls to complete. However, at each level, we are looking at one fewer element. Is this better or worse than the average case?</p>
@@ -1175,12 +1175,12 @@ $$</p>
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/auto-complete.js?1691781768" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.min.js?1691781768" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.stemmer.support.min.js?1691781768" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.multi.min.js?1691781768" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.en.min.js?1691781768" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/search.js?1691781768" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/auto-complete.js?1694711076" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.min.js?1694711076" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.stemmer.support.min.js?1694711076" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.multi.min.js?1694711076" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.en.min.js?1694711076" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/search.js?1694711076" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics enlarge morespace collapsible-menu">
@@ -1446,8 +1446,8 @@ $$</p>
         </div>
       </div>
     </aside>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1691781768" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1691781768" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1691781768" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1694711076" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1694711076" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1694711076" defer></script>
   </body>
 </html>

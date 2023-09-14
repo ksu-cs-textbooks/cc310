@@ -1010,18 +1010,18 @@
     <link href="https://ksu-cs-textbooks.github.io/cc310/6-recursion/3-implementing-recursion/tele.html" rel="alternate" type="text/html" title="Implementing Recursion :: CC 310 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc310/6-recursion/3-implementing-recursion/embed.html" rel="alternate" type="text/html" title="Implementing Recursion :: CC 310 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781763" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1691781763" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1691781763" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781763" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1691781763" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1691781763" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781763" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1691781763" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1691781763" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1691781763" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1691781763" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1691781763" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1691781763" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1691781763"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1691781763"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1694711071" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fontawesome-all.min.css?1694711071" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/nucleus.css?1694711071" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1694711071" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/auto-complete.css?1694711071" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/perfect-scrollbar.min.css?1694711071" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1694711071" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc310/css/fonts.css?1694711071" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme.css?1694711071" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/theme-auto.css?1694711071" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/variant.css?1694711071" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/print.css?1694711071" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/ie.css?1694711071" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/url.js?1694711071"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/variant.js?1694711071"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -1040,7 +1040,7 @@
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1691781763" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc310/css/custom.css?1694711071" rel="stylesheet">
 
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc310/6-recursion/3-implementing-recursion/index.html">
@@ -1178,10 +1178,10 @@ Returning from OUTPUT 2		(i)
 </span></span><span style="display:flex;"><span>    return						(7)
 </span></span><span style="display:flex;"><span>end function</span></span></code></pre></div><p>When we run <code>MAIN</code>, the only record on the activation stack is the record for <code>MAIN</code>. Since it has not been &ldquo;called&rdquo; from another function, it does not contain a return address. It also has no local variables, so the record is basically empty as shown below.</p>
 <p>
-<a href="#image-d0d1e33bb26df56b762a763f3c8eb375" class="lightbox-link">
+<a href="#image-28606e4ec10cf054df8ac0042049d1e0" class="lightbox-link">
 <img src="../../images/6/6.4.mainstack.png" alt="Main Activation Record" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-d0d1e33bb26df56b762a763f3c8eb375">
+<a href="javascript:history.back();" class="lightbox" id="image-28606e4ec10cf054df8ac0042049d1e0">
 <img src="../../images/6/6.4.mainstack.png" alt="Main Activation Record" class="lightbox-image" loading="lazy">
 </a></p>
 <p>However, when we execute line 1 in <code>MAIN</code>, we call the function <code>OUTPUT</code> with a parameter of <code>3</code>. This causes the creation of a new function activation record with the return address of line 3 in the calling <code>MAIN</code> function and a parameter for <code>N</code>, which is <code>3</code>. Again, there are no local variables in <code>OUTPUT</code>. The stack activation is shown in figure <strong>a</strong> below.</p>
@@ -1197,31 +1197,31 @@ Returning from OUTPUT 2		(i)
 <tbody>
 <tr>
 <td style="text-align:center">
-<a href="#image-0aa81d64d8eade14cc612eb21b03aa8c" class="lightbox-link">
+<a href="#image-33753e476f5c3b770fd466fe45a65729" class="lightbox-link">
 <img src="../../images/6/6.4.stack1.png" alt="Activation Stack 1" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-0aa81d64d8eade14cc612eb21b03aa8c">
+<a href="javascript:history.back();" class="lightbox" id="image-33753e476f5c3b770fd466fe45a65729">
 <img src="../../images/6/6.4.stack1.png" alt="Activation Stack 1" class="lightbox-image" loading="lazy">
 </a></td>
 <td style="text-align:center">
-<a href="#image-e1093f85b72d7989d109e9711fff8274" class="lightbox-link">
+<a href="#image-d00c179f01118380b6c756ad5bd5e3df" class="lightbox-link">
 <img src="../../images/6/6.4.stack2.png" alt="Activation Stack 2" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-e1093f85b72d7989d109e9711fff8274">
+<a href="javascript:history.back();" class="lightbox" id="image-d00c179f01118380b6c756ad5bd5e3df">
 <img src="../../images/6/6.4.stack2.png" alt="Activation Stack 2" class="lightbox-image" loading="lazy">
 </a></td>
 <td style="text-align:center">
-<a href="#image-d77b04b01de23bd5f6d655723a99db72" class="lightbox-link">
+<a href="#image-6b2acf03c8abf65e112e252d19710dea" class="lightbox-link">
 <img src="../../images/6/6.4.stack3.png" alt="Activation Stack 3" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-d77b04b01de23bd5f6d655723a99db72">
+<a href="javascript:history.back();" class="lightbox" id="image-6b2acf03c8abf65e112e252d19710dea">
 <img src="../../images/6/6.4.stack3.png" alt="Activation Stack 3" class="lightbox-image" loading="lazy">
 </a></td>
 <td style="text-align:center">
-<a href="#image-6e74136027c51f35dc4c808f0c4f20a4" class="lightbox-link">
+<a href="#image-9bb7d77dbc32cb6c23f427ba0df2f2f3" class="lightbox-link">
 <img src="../../images/6/6.4.stack4.png" alt="Activation Stack 4" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-6e74136027c51f35dc4c808f0c4f20a4">
+<a href="javascript:history.back();" class="lightbox" id="image-9bb7d77dbc32cb6c23f427ba0df2f2f3">
 <img src="../../images/6/6.4.stack4.png" alt="Activation Stack 4" class="lightbox-image" loading="lazy">
 </a></td>
 </tr>
@@ -1242,31 +1242,31 @@ Returning from OUTPUT 2		(i)
 <tbody>
 <tr>
 <td style="text-align:center">
-<a href="#image-1f1d2b45c55c2404b525da5ae2eace89" class="lightbox-link">
+<a href="#image-2ae09ab525aed584c15e2c5b2a07fd25" class="lightbox-link">
 <img src="../../images/6/6.4.stack3.png" alt="Activation Stack 3" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-1f1d2b45c55c2404b525da5ae2eace89">
+<a href="javascript:history.back();" class="lightbox" id="image-2ae09ab525aed584c15e2c5b2a07fd25">
 <img src="../../images/6/6.4.stack3.png" alt="Activation Stack 3" class="lightbox-image" loading="lazy">
 </a></td>
 <td style="text-align:center">
-<a href="#image-0c03c192f1d284ef809cb07d823967d1" class="lightbox-link">
+<a href="#image-5003e32a0bfb618ebbbd385b56770498" class="lightbox-link">
 <img src="../../images/6/6.4.stack2.png" alt="Activation Stack 2" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-0c03c192f1d284ef809cb07d823967d1">
+<a href="javascript:history.back();" class="lightbox" id="image-5003e32a0bfb618ebbbd385b56770498">
 <img src="../../images/6/6.4.stack2.png" alt="Activation Stack 2" class="lightbox-image" loading="lazy">
 </a></td>
 <td style="text-align:center">
-<a href="#image-e1b93753a42d38d19c16f5f2f9c1e8f7" class="lightbox-link">
+<a href="#image-f4c6bdd56a37bcf1c79ab6a479da9a5b" class="lightbox-link">
 <img src="../../images/6/6.4.stack1.png" alt="Activation Stack 1" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-e1b93753a42d38d19c16f5f2f9c1e8f7">
+<a href="javascript:history.back();" class="lightbox" id="image-f4c6bdd56a37bcf1c79ab6a479da9a5b">
 <img src="../../images/6/6.4.stack1.png" alt="Activation Stack 1" class="lightbox-image" loading="lazy">
 </a></td>
 <td style="text-align:center">
-<a href="#image-fe565e2c8d4609cb9176ecc3366214ec" class="lightbox-link">
+<a href="#image-289860aeaad534c2638acb5bbe9f8497" class="lightbox-link">
 <img src="../../images/6/6.4.mainstack.png" alt="Main Activation Record" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-fe565e2c8d4609cb9176ecc3366214ec">
+<a href="javascript:history.back();" class="lightbox" id="image-289860aeaad534c2638acb5bbe9f8497">
 <img src="../../images/6/6.4.mainstack.png" alt="Main Activation Record" class="lightbox-image" loading="lazy">
 </a></td>
 </tr>
@@ -1313,12 +1313,12 @@ Returning from OUTPUT 2		(i)
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/auto-complete.js?1691781767" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.min.js?1691781767" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.stemmer.support.min.js?1691781767" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.multi.min.js?1691781767" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.en.min.js?1691781767" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc310/js/search.js?1691781767" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/auto-complete.js?1694711076" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.min.js?1694711076" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.stemmer.support.min.js?1694711076" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.multi.min.js?1694711076" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/lunr/lunr.en.min.js?1694711076" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc310/js/search.js?1694711076" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics enlarge morespace collapsible-menu">
@@ -1584,8 +1584,8 @@ Returning from OUTPUT 2		(i)
         </div>
       </div>
     </aside>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1691781767" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1691781767" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1691781767" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/clipboard.min.js?1694711076" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/perfect-scrollbar.min.js?1694711076" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc310/js/theme.js?1694711076" defer></script>
   </body>
 </html>
