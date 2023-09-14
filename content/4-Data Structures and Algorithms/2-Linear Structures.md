@@ -3,7 +3,7 @@ title: "Linear Structures"
 weight: 10
 pre: "2. "
 ---
-{{% youtube akOjfTCel1o %}}
+{{% youtube cJ4LHC3Czvk %}}
 
 ![List Data Structure](../../images/4/4.2.list.png)
 
