@@ -3,7 +3,7 @@ title: "Heaps"
 weight: 50
 pre: "10. "
 ---
-![Heap Data Structure](../../images/4/4.10.heap.svg)^[File:Max-Heap.svg. (2014, December 28). Wikimedia Commons, the free media repository. Retrieved 03:25, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Max-Heap.svg&oldid=144372033.]
+![Heap Data Structure](/images/4/4.10.heap.svg)^[File:Max-Heap.svg. (2014, December 28). Wikimedia Commons, the free media repository. Retrieved 03:25, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Max-Heap.svg&oldid=144372033.]
 
 The last non-linear data structure we'll talk about is the _heap_, which is a specialized version of a tree. In a _heap_, we try to accomplish a few goals:
 

@@ -3,7 +3,7 @@ title: "Recursion"
 weight: 75
 pre: "15. "
 ---
-![Google Recursion](../../images/4/4.16.google.png)
+![Google Recursion](/images/4/4.16.google.png)
 
 The next algorithmic technique we'll discuss is _recursion_. Recursion is closely related to the divide and conquer method we discussed earlier. However, _recursion_ itself is a very complicated term to understand. It usually presents one of the most difficult challenges for a novice programmer to overcome when learning to write more advanced programs. Don't worry! We'll spend an entire module on recursion later in this course.
 

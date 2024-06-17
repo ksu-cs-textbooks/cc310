@@ -9,7 +9,7 @@ For object 'a' to be able to call a method in object 'b', object 'a' must have a
 
 As we discussed earlier, objects are instances of classes. To represent this in a UML class diagram, we use the notion of an _association_, which is shown as a line connecting to two classes. More precisely, a link is an instance of an association. The figure belows shows three examples of an association between class 'A' and class 'B'. 
 
-![Associations in UML](../../images/2/2.6.associations.png)
+![Associations in UML](/images/2/2.6.associations.png)
 
 The top example shows the basic layout of an association in UML. The line between the two classes denotes the association itself. The diagram specifies that 'ClassA' is _associated with_ 'ClassB' and vice versa. We can name the association as well as place multiplicities on the relationships. The multiplicities show exactly how many links an object of one class must have to objects of the associated class. The general form a multiplicity is 'n .. m', which means that an object must store at least 'n', but no more than 'm' references to other objects of the associated class; if only one number is given such as 'n', then the object must store exactly 'n' references to objects in the associated class. 
 

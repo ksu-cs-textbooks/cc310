@@ -26,7 +26,7 @@ Here's the key: when searching for minimum or maximum values, the search will al
 
 To build a worst-case input for the `find` function, we would search for the situation where the value to find is either the last value in the array, or it is not present at all. For example, consider the array we've been using to explore each linear search algorithm so far.
  
-![Array of Numbers](../../images/7/7.7.array.png)
+![Array of Numbers](/images/7/7.7.array.png)
 
 What if we are trying to find the value 55 in this array? In that case, we'll end up looking at 4 of the 8 elements in the array. This would take $N/2$ steps. Can we think of another input that would be worse?
 
@@ -40,13 +40,13 @@ We could say that in the worst-case, a linear search algorithm requires "on the 
 
 Our question now becomes, "Is a search that takes on the order of $N$ time really all that bad?". Actually, it depends. Obviously, if $N$ is a small number (less than 1000 or so) it may not be a big deal, if you only do a single search. However, what if we need to do many searches? Is there something we can do to make the process of searching for elements even easier? 
 
-![Stack of Files](../../images/7/7.7.files.png)^[File:FileStack retouched.jpg. (2019, January 17). Wikimedia Commons, the free media repository. Retrieved 22:12, March 23, 2020 from https://commons.wikimedia.org/w/index.php?title=File:FileStack_retouched.jpg&oldid=335159723.]
+![Stack of Files](/images/7/7.7.files.png)^[File:FileStack retouched.jpg. (2019, January 17). Wikimedia Commons, the free media repository. Retrieved 22:12, March 23, 2020 from https://commons.wikimedia.org/w/index.php?title=File:FileStack_retouched.jpg&oldid=335159723.]
 
 Let's consider the real world once again for some insights. For example, think of a pile of loose papers on the floor. If we wanted to find a specific paper, how would we do it?
 
 In most cases, we would simply have to perform a linear search, picking up each paper one at a time and seeing if it is the one we need. This is pretty inefficient, especially if the pile of papers is large.
 
-![File Cabinet](../../images/7/7.7.cabinet.png)^[File:Istituto agronomico per l'oltremare, int., biblioteca, schedario 05.JPG. (2016, May 1). Wikimedia Commons, the free media repository. Retrieved 22:11, March 23, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Istituto_agronomico_per_l%27oltremare,_int.,_biblioteca,_schedario_05.JPG&oldid=194959053.]
+![File Cabinet](/images/7/7.7.cabinet.png)^[File:Istituto agronomico per l'oltremare, int., biblioteca, schedario 05.JPG. (2016, May 1). Wikimedia Commons, the free media repository. Retrieved 22:11, March 23, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Istituto_agronomico_per_l%27oltremare,_int.,_biblioteca,_schedario_05.JPG&oldid=194959053.]
 
 What if we stored the papers in a filing cabinet and organized them somehow? For example, could we sort the papers by title in alphabetical order? Then, when we want to find a particular paper, we can just skip to the section that contains files with the desired first letter and go from there. In fact, we could even do this for the second and third letter, continuing to jump forward in the filing cabinet until we found the paper we need.
 

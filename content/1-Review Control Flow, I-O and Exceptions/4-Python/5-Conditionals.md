@@ -60,8 +60,8 @@ The table below lists the flowchart blocks used to represent conditional stateme
 
 | Operation | Flowchart | Pseudocode |
 |:---------:|:---------:|:-----------|
-| If-Then | ![If-Then Flowchart Block](../../../images/1/1.3.x.5.conditional1.png) | <pre><code>if A &lt; 5 then<br>    A = 5<br>end if</code></pre> |
-| If-Then-Else | ![If-Then-Else Flowchart Block](../../../images/1/1.3.x.5.conditional2.png) | <pre><code>if A &lt; 5 then<br>    A = 5<br>else<br>    A = 10<br>end if</code></pre> |
+| If-Then | ![If-Then Flowchart Block](/images/1/1.3.x.5.conditional1.png) | <pre><code>if A &lt; 5 then<br>    A = 5<br>end if</code></pre> |
+| If-Then-Else | ![If-Then-Else Flowchart Block](/images/1/1.3.x.5.conditional2.png) | <pre><code>if A &lt; 5 then<br>    A = 5<br>else<br>    A = 10<br>end if</code></pre> |
 
 ## Conditionals in Practice
 
@@ -72,7 +72,7 @@ The mechanism for determining which block an **If-Then-Else** statement executes
 
 To understand how a conditional statement works, let's look at this example of a simple **If-Then-Else** statement. Consider the following flowchart:
 
-![If-Then-Else Flowchart Block](../../../images/1/1.3.x.5.conditional0.png)
+![If-Then-Else Flowchart Block](/images/1/1.3.x.5.conditional0.png)
 
 In this case, if `a` is less than zero, the output message will be "The value of a is less than zero". Otherwise, if a is not less than zero (that is, if a is greater than or equal to zero), the output message will be "The value of a is greater than or equal to zero". 
 
@@ -82,7 +82,7 @@ We can also nest conditional statements together, making more complex programs.
 
 Consider the following flowchart:
 
-![If-Then-Else Nested Flowchart Block](../../../images/1/1.3.x.5.conditionalnest.png)
+![If-Then-Else Nested Flowchart Block](/images/1/1.3.x.5.conditionalnest.png)
 
 In this case, if a is less than zero the output message will be "The value of a is less than zero". Otherwise (that is, if a is not less than zero so if a is greater than or equal to zero) the block checks whether a is equal to zero; if so, the output message will be "The value of a is equal to zero". Otherwise (that is, if the first condition is false, i.e. `a >= 0` and the second condition is false, i.e. is nonzero; the two conditions must be both true as if they were bound by a logical and, and they are the same as the condition `a > 0`) the output message will be "The value of a is greater than zero".
 
@@ -90,14 +90,14 @@ In this case, if a is less than zero the output message will be "The value of a 
 
 To see how conditional statements look in Python, let's recreate them from the flowcharts shown above.
 
-![If-Then Flowchart Block](../../../images/1/1.3.x.5.conditional1.png)
+![If-Then Flowchart Block](/images/1/1.3.x.5.conditional1.png)
 
 ```python
 if a < 5:
     a = 5
 ```
 
-![If-Then-Else Flowchart Block](../../../images/1/1.3.x.5.conditional2.png) 
+![If-Then-Else Flowchart Block](/images/1/1.3.x.5.conditional2.png) 
 
 ```python
 if a < 5:
@@ -106,7 +106,7 @@ else:
     a = 10
 ```
 
-![If-Then-Else Nested Flowchart Block](../../../images/1/1.3.x.5.conditionalnest.png)
+![If-Then-Else Nested Flowchart Block](/images/1/1.3.x.5.conditionalnest.png)
 
 ```python
 if a < 0:

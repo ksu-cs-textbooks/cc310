@@ -7,7 +7,7 @@ pre: "26. "
 
 Let's go back and look at the performance of our sorting algorithms, now that we know how quickly binary search can find a particular value in an array. Let's add the function $\text{lg}(N)$ to our graph from earlier, shown below.
 
-![Graph 2](../../images/7/7.26.graph2.png)
+![Graph 2](/images/7/7.26.graph2.png)
  
 As we can see, the function $\text{lg}(N)$ is even smaller than $N$. So performing a binary search is much faster than a linear search, which we already know runs in the order of $N$ time. 
 
@@ -17,7 +17,7 @@ This is a difficult question to answer since it depends on many factors. However
 
 In the graph below, the topmost line colored in red shows the approximate running time of $10$ linear search operations, while the bottom line in black shows the running time of performing a merge sort before $10$ binary search operations. 
 
-![Graph 3](../../images/7/7.26.graph3.png)
+![Graph 3](/images/7/7.26.graph3.png)
  
 As we can see, it is more efficient to perform a merge sort, which runs in $N * \text{lg}(N)$ time, then perform $10$ binary searches running in $\text{lg}(N)$ time, than it is to perform $10$ linear searches running in $N$ time. The savings become more pronounced as the size of the input gets larger, as indicated by the X axis on the graph.
 

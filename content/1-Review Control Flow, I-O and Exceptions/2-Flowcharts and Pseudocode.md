@@ -15,7 +15,7 @@ A great example is a recipe for baking. Each step is written clearly and concise
 
 ## Flowcharts
 
-![Programming Flowchart Template](../../images/1/1.2.template.png)
+![Programming Flowchart Template](/images/1/1.2.template.png)
 
 One method of representing computer programs is through the use of _flowcharts_. A flowchart consists of graphical blocks representing individual operations to be performed, connected with arrows which describe the flow of the program. The image above gives the basic building blocks of the flowcharts that will be used in this course. We will mostly follow the flowchart design used by the [Flowgorithm](http://www.flowgorithm.org/) program available online. The following pages in this chapter will introduce and discuss each block in detail. 
 

@@ -5,7 +5,7 @@ pre: "2. "
 ---
 {{% youtube cJ4LHC3Czvk %}}
 
-![List Data Structure](../../images/4/4.2.list.png)
+![List Data Structure](/images/4/4.2.list.png)
 
 First, we can broadly separate the data structures we're going to learn about into two types, _linear_ and _non-linear_ data structures.
 
@@ -13,7 +13,7 @@ A _linear_ data structure typically stores data in a single dimension, just like
 
 ## Linear Data Structure Hierarchy
 
-![Linear Data Structures](../../images/4/4.2.linear.png)
+![Linear Data Structures](/images/4/4.2.linear.png)
 
 Linear data structures can further be divided into two types: arrays, which are typically finite sized; and linked lists, which can be infinitely sized. We've already worked with arrays extensively by this point, but linked lists are most likely a new concept. That's fine! We'll explore how to build our own later in this course.
 

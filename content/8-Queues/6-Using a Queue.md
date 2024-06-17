@@ -17,7 +17,7 @@ Ideally, as cars come to the windshield station, we would be able to put their w
 
 While we could build a sophisticated queueing mechanism that would automatically insert cars in the appropriate order based on priority and then arrival time, we could also use a queue to handle each set of car priorities. A figure illustrating this situation is shown below. As cars come in, they are put in one of three queues: high priority, medium priority, or low priority. When the windshield station completes a car it then takes the next car from the highest priority queue.
 
-![Car Windshield Installation Model](../../images/8/8.7.model.png)
+![Car Windshield Installation Model](/images/8/8.7.model.png)
 
 The interesting part of the problem is the controller at the windshield station that determines which car will be selected to be worked on next. The controller will need to have the following interface:
 

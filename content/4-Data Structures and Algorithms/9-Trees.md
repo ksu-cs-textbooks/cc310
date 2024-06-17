@@ -3,7 +3,7 @@ title: "Trees"
 weight: 45
 pre: "9. "
 ---
-![Tree Data Structure](../../images/4/4.9.tree.svg)^[File:Tree (computer science).svg. (2019, October 20). Wikimedia Commons, the free media repository. Retrieved 03:13, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Tree_(computer_science).svg&oldid=371240902.]
+![Tree Data Structure](/images/4/4.9.tree.svg)^[File:Tree (computer science).svg. (2019, October 20). Wikimedia Commons, the free media repository. Retrieved 03:13, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Tree_(computer_science).svg&oldid=371240902.]
 
 A _tree_ is a more constrained version of a graph data structure. Specifically, a tree is a graph that can be shown as a hierarchical structure, where each node in the tree is itself the root of a smaller tree. Each node in the tree can have one or more child nodes and exactly one parent node, except for the topmost node or _root_ node, which has no parent nodes. 
 
@@ -15,7 +15,7 @@ Another commonly used tree data structure is the _trie_, which is a special type
 
 Below is a small example of a trie data structure:
 
-![Trie Data Structure](../../images/4/4.9.trie.svg)^[File:Trie example.svg. (2014, March 2). Wikimedia Commons, the free media repository. Retrieved 03:22, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Trie_example.svg&oldid=117843653.]
+![Trie Data Structure](/images/4/4.9.trie.svg)^[File:Trie example.svg. (2014, March 2). Wikimedia Commons, the free media repository. Retrieved 03:22, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Trie_example.svg&oldid=117843653.]
 
 This trie contains the words "to", "tea", "ted", "ten", "i", "in", "inn" and "A" in just a few nodes and edges. Imagine creating a trie that could store the entire English language! While it might be large, we can hopefully see how it would be much more efficient to search and store that data in a trie instead of a linear data structure. 
 

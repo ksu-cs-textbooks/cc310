@@ -7,7 +7,7 @@ pre: "6. "
 
 ## Hash Tables
 
-![Hash Table](../../images/12/12.6.hashtable.svg)
+![Hash Table](/images/12/12.6.hashtable.svg)
 
 Analyzing the performance of a hash table is a bit trickier than the other data structures, mainly due to how a hash table tries to use its complex structure to get a "best of both worlds" performance outcome.
 

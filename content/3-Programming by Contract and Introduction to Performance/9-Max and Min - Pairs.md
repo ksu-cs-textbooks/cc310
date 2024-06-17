@@ -16,7 +16,7 @@ When we have received just one number, this number is both the maximum and the m
 
 The algorithm is depicted by the following flowchart and pseudocode:
 
-![Min Max Flowchart Base](../../images/3/3.9.base.png)
+![Min Max Flowchart Base](/images/3/3.9.base.png)
 
 ```tex
 print "Enter a Number:"
@@ -31,7 +31,7 @@ In this program, instead of just considering one number at a time, we'll ask the
 
 The algorithm is depicted by the following flowchart and pseudocode:
  	 
-![Min Max Pairs Loop](../../images/3/3.10.loop.png)
+![Min Max Pairs Loop](/images/3/3.10.loop.png)
 
 ```tex
 loop I from 1 to 10 step by 2:
@@ -70,6 +70,6 @@ Once again, we can easily show that the same loop preconditions, postconditions,
 
 A full flowchart of this program can be found by clicking the following link:
 
-[Min Max Flowchart](../../images/3/3.10.flow.png)
+[Min Max Flowchart](/images/3/3.10.flow.png)
 
 It is helpful to have this diagram available in a second browser tab for review on the next few pages. 

@@ -21,19 +21,19 @@ end function
 ```
 We show this process in the following example. The figure below shows the initial state as we enter the `prepend` operation. Our list has three items in it, an "a", "W", and "Q" and we want to add the new node "M" in front of item "a". 
 
-![Singly Linked List Prepend 1](../../images/9/9.5.singleinsert1.png)
+![Singly Linked List Prepend 1](/images/9/9.5.singleinsert1.png)
  
 The figure below shows the effect of the first step of the operation. This step creates a new node for "M" and changes `next` to point at the same node as the pointer held by `head`, which is the address of the first item in the list, "a". 
 
-![Singly Linked List Prepend 2](../../images/9/9.5.singleinsert2.png)
+![Singly Linked List Prepend 2](/images/9/9.5.singleinsert2.png)
  
 The result of performing line 3 in the operation is shown below. In line 3 we simply change `head` to point to our new node, instead of node "a". Notice now that the new node has been fully inserted into the list.
 
-![Singly Linked List Prepend 3](../../images/9/9.5.singleinsert3.png)
+![Singly Linked List Prepend 3](/images/9/9.5.singleinsert3.png)
  
 And, if we redraw our diagram a bit, we get a nice neat list!
 
-![Singly Linked List Prepend 4](../../images/9/9.5.singleinsert4.png)
+![Singly Linked List Prepend 4](/images/9/9.5.singleinsert4.png)
  
 Since there are no loops in the `prepend` operation, `prepend` runs in constant time.
 
@@ -68,15 +68,15 @@ Lines 4 and 5 check to see if the `index` is 0, which means that we want to inse
 
 The operation uses `curr` to keep track of which node in the list we are currently looking at, thus we initialize `curr` to point at the first node in the list in line 6.  To allow us to swap pointers once we find the appropriate place in the list, we keep track of the node previous to `curr` as well by using the variable `pre`. This variable is initialized to `head` in line 7, and line 8 creates the new node we will insert into our list. After line 8, our `list`, `node`, and `previous` pointers would look like the following (assuming the index passed in was `2`).
 
-![Singly Linked List Insert 1](../../images/9/9.5.insertat1.png)
+![Singly Linked List Insert 1](/images/9/9.5.insertat1.png)
  
 At this point we start our walk through the list using the `for` loop in lines 9 - 12. Specifically, with an `index` of 2 we will actually go through the loop exactly one time, from `1 to 1`. Each time through the loop, lines 10 and 11 will cause `curr` and `prev` to point at the next nodes in the list. At the end of one time through our loop, our example will be as shown below.
 
-![Singly Linked List Insert 2](../../images/9/9.5.insertat2.png)
+![Singly Linked List Insert 2](/images/9/9.5.insertat2.png)
  
 Now, the only thing left to do is update the `next` pointer of node "3" to point at `node` (line 13), and `node.next` to point at `curr` node (line 14), while line 15 increments the size attribute. The updated list is shown below.
 
-![Singly Linked List Insert 3](../../images/9/9.5.insertat3.png)
+![Singly Linked List Insert 3](/images/9/9.5.insertat3.png)
  
 The `insertAt` operation, while being quite flexible and useful, can potentially loop through each node in the list. Therefore, it runs in order $N$ time.
 

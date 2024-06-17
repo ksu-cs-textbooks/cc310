@@ -11,6 +11,6 @@ In that instance, how many times do we look at the middle element in the array? 
 
 Consider the situation where we start with 15 elements in the array. How many times can we divide the array in half before we are down to just a single element? The diagram below shows what this might look like.
 
-![Binary Search Time Complexity](../../images/7/7.25.binarytime.png)
+![Binary Search Time Complexity](/images/7/7.25.binarytime.png)
  
 As it turns out, this is similar to the analysis we did on merge sort and quick sort. If we divide the array in half each time, we will do this $\text{lg}(N)$ times. The only difference is that we are only looking at a single element, the shaded element, at each level. So the overall time complexity of binary search is on the order of $\text{lg}(N)$. That's pretty fast!

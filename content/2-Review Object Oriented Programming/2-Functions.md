@@ -31,7 +31,7 @@ The lifecycle of a function is as follows.
 
 When the function is called, the _arguments_, or _actual parameters_, are copied to the function's _formal parameters_ and program execution jumps from the "call" statement to the function. When the function finishes execution, execution resumes at the statement following the "call" statement. 
 
-![Function Call Diagram](../../images/2/2.2.function1.png)
+![Function Call Diagram](/images/2/2.2.function1.png)
 
 In general, parameters are passed to functions _by value_, which means that the value of the calling program's actual parameter is copied into the function's formal parameter. This allows the function to modify the value of the formal parameter without affecting the actual parameter in the calling program.
 

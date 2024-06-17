@@ -7,7 +7,7 @@ pre: "4. "
 
 ## Unsorted Array
 
-![Unsorted Array](../../images/12/12.4.uarray.png)
+![Unsorted Array](/images/12/12.4.uarray.png)
  
 An unsorted array is the most basic data structure, and it is supported by nearly every programming language available. Inserting elements into the array is always a constant time operation since we can simply place it at the end of the array. Of course, this assumes that the array is large enough to hold all our data without needing to be resized. Since we are not worried about memory usage, this is a safe assumption. 
 
@@ -21,7 +21,7 @@ Unsorted arrays work best when we simply need to store and access data quickly, 
 
 ## Sorted Array
 
-![Sorted Array](../../images/12/12.4.sarray.png)
+![Sorted Array](/images/12/12.4.sarray.png)
  
 We can improve on some aspects of the performance of an unsorted array by sorting it. Thankfully, we can make it easier by just sorting the data as we insert it into the array! However, by doing so, our insert operation now runs in the order of $\text{lg}(N)$ time in the best case.  This is because it must use a binary search process to figure out where to insert the data into the array. However, in the worst case, it must also shift all the elements after the inserted element back one space, which will make the insert operation run in the order of $N$ time. 
 
@@ -34,9 +34,9 @@ So, while having a sorted array allows us to improve the performance of finding 
 
 ## Array Stack (LIFO) and Array Queue (FIFO)
 
-![Stack](../../images/12/12.4.stack.png)
+![Stack](/images/12/12.4.stack.png)
 
-![Queue](../../images/12/12.4.queue.png)
+![Queue](/images/12/12.4.queue.png)
  
 Our array-based implementations of a stack and a queue are very performant examples of data structures based on arrays, simply because we can limit the operations that we perform to the most efficient ones possible.
 

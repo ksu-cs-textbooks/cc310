@@ -198,7 +198,7 @@ Like the `doubleCapacity` operation, `halveCapacity` is not a constant time oper
 
 The `toString` function returns a string that concatenates the strings representing all the items stored in an array. In most programming languages, each object class must implement the `toString` operation. For instance, in the queue below where each item is a character, if we called `myQueue.toString()`, we would expect to be returned the string `"Wildcats"`.
 
-![Queue Containing Wildcats](../../images/8/8.4.wildcats.png)
+![Queue Containing Wildcats](/images/8/8.4.wildcats.png)
  
 Notice that we must read the queue array from `start` to `end` to get the proper output string. 
 

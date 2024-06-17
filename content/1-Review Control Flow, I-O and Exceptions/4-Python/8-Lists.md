@@ -5,7 +5,7 @@ pre: "8. "
 ---
 {{% youtube 9rzcp1hw_kg %}}
 
-![Post Office Boxes](../../../images/1/1.3.x.8.postofficeboxes.wikimedia.jpg)^[File:USPS Post office boxes 1.jpg. (2017, May 17). Wikimedia Commons, the free media repository. Retrieved 18:17, November 5, 2018 from https://commons.wikimedia.org/w/index.php?title=File:USPS_Post_office_boxes_1.jpg&oldid=244476438.]
+![Post Office Boxes](/images/1/1.3.x.8.postofficeboxes.wikimedia.jpg)^[File:USPS Post office boxes 1.jpg. (2017, May 17). Wikimedia Commons, the free media repository. Retrieved 18:17, November 5, 2018 from https://commons.wikimedia.org/w/index.php?title=File:USPS_Post_office_boxes_1.jpg&oldid=244476438.]
 
 Arrays allow us to store multiple values in the same variable, using an _index_ to determine which value we wish to store or retrieve from the array. We can think of arrays like a set of post office boxes. Each one has the same physical address, the post office, but within the post office we can find an individual box based on its own box number. 
 
@@ -19,9 +19,9 @@ The table below lists the flowchart blocks used to represent arrays, as well as 
 
 | Operation | Flowchart | Pseudocode |
 |:---------:|:---------:|:-----------|
-| Declare Array | ![Declare Array Flowchart Block](../../../images/1/1.3.x.8.array1.png) | <pre><code>ARR = new array[5]</code></pre> |
-| Store Item | ![Store Item in Array Flowchart Block](../../../images/1/1.3.x.8.array2.png) | <pre><code>ARR[0] = 5 </code></pre> |
-| Retrieve Item | ![Retrieve Item from Array Flowchart Block](../../../images/1/1.3.x.8.array3.png) | <pre><code>X = ARR[0]</code></pre> |
+| Declare Array | ![Declare Array Flowchart Block](/images/1/1.3.x.8.array1.png) | <pre><code>ARR = new array[5]</code></pre> |
+| Store Item | ![Store Item in Array Flowchart Block](/images/1/1.3.x.8.array2.png) | <pre><code>ARR[0] = 5 </code></pre> |
+| Retrieve Item | ![Retrieve Item from Array Flowchart Block](/images/1/1.3.x.8.array3.png) | <pre><code>X = ARR[0]</code></pre> |
 
 ## Lists in Python
 

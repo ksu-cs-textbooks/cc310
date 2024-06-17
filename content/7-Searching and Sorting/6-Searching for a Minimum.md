@@ -41,7 +41,7 @@ end function									(12)
 
 Next, we will walk through the algorithm using our example array in the figure below. Step 1 shows the initial time through the loop. In line 5, `min` is set to `0` by default and in line 6, `index` is set equal to `1`. Line 7 then computes whether `array[1] < array[0]`. In this case, it is and we set `min = 1` (which is reflected in the next step where `min` has the value `1`). 
 
-![Finding Minimum Diagram](../../images/7/7.6.minimum.png)
+![Finding Minimum Diagram](/images/7/7.6.minimum.png)
  
 Step 2 will end up comparing `array[2] < array[1]`, since `min` is now 1 and `index` has been incremented to 2 via the `for` loop. In this case, `array[2]` is less than `array[1]` so we update `min` again, this time to 2.
 

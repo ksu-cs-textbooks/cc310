@@ -13,11 +13,11 @@ The solution lies in creating our own specialized data structure where each node
 
 The figure below shows how we can construct a linked list data structure. The `head` entity shown in the figure is a variable that contains a pointer to the first node in the list, in this case the node containing `-2`. Each node in the list is an object that has two main parts: the data that it holds, and a pointer to the next item in the list. 
 
-![Linked Node](../../images/9/9.4.listnode.png)
+![Linked Node](/images/9/9.4.listnode.png)
  
 The class representation of a singly linked list `Node` is shown below. As discussed above, we have two attributes: `data`, which holds the data of the node, and `next`, which is a reference or pointer to the next node. We also use a constructor and a standard `toString` operation to appropriately create a string representation for the data stored in the node.
 
-![Linked Node UML](../../images/9/9.4.listnodeuml.png)
+![Linked Node UML](/images/9/9.4.listnodeuml.png)
  
 ## Linked List
 
@@ -25,7 +25,7 @@ A list is represented by a special variable `head` that contains a pointer to th
 
 However, if we have items in the list, `head` will point to a node as shown in the figure below. This node has some data (in this case `-2`) and its own pointer that points to the next node in the list. As we can see in our example, `head` points to a sequence of five nodes that makes up our list. The node with the data 67 in it is the last item in the list since its pointer is `null`. We often refer to this condition as having a `null` pointer.
 
-![Linked List Example](../../images/9/9.4.single.png)
+![Linked List Example](/images/9/9.4.single.png)
  
 While we will not show them explicitly in this module, each pointer is actually an address in memory. If we have a pointer to node `X` in our node, that means that we actually store the address of `X` in memory in our node.
 
@@ -46,8 +46,8 @@ While we would normally create getter and setter methods for each attribute in t
 
 | Use | Meaning |
 |:---:|:-------:|
-| `node` | ![Node](../../images/9/9.4.node.png) |  
-| `node.next` | ![Node](../../images/9/9.4.node.next.png) |  
-| `node.next.next` | ![Node](../../images/9/9.4.node.next.next.png) |  
-| `head` | ![Node](../../images/9/9.4.head.png) |  
-| `head.next` | ![Node](../../images/9/9.4.head.next.png) |  
+| `node` | ![Node](/images/9/9.4.node.png) |  
+| `node.next` | ![Node](/images/9/9.4.node.next.png) |  
+| `node.next.next` | ![Node](/images/9/9.4.node.next.next.png) |  
+| `head` | ![Node](/images/9/9.4.head.png) |  
+| `head.next` | ![Node](/images/9/9.4.head.next.png) |  

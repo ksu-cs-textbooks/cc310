@@ -9,13 +9,13 @@ With singly linked lists, each node in the list had a pointer to the next node i
 
 The concept of a doubly linked list is shown below. Here, each node in the list has a link to the next node and a link to the previous node. If there is no previous or next node, we set the pointers to null.
 
-![Doubly Linked List](../../images/9/9.3.double.png)
+![Doubly Linked List](/images/9/9.3.double.png)
  
 ## Doubly Linked Node
 
 A doubly linked list node is the same as a singly linked list node with the addition of the `previous` attribute that points to the previous node in the list as shown below.
 
-![Doubly Linked List Node](../../images/9/9.10.doublenode.png)
+![Doubly Linked List Node](/images/9/9.10.doublenode.png)
  
 The class representation of a doubly linked list `Node` is shown below. As discussed above, we have three attributes: 
 
@@ -25,7 +25,7 @@ The class representation of a doubly linked list `Node` is shown below. As discu
 
 We also use a constructor and the standard `toString` operation to create a string for the data stored in the node.
 
-![Doubly Linked List Node UML](../../images/9/9.10.doublenodeuml.png)
+![Doubly Linked List Node UML](/images/9/9.10.doublenodeuml.png)
  
 ## Doubly Linked List
 
@@ -33,7 +33,7 @@ As with our singly linked list, we start off a doubly linked list with a pointer
 
 The figure below shows a doubly linked list with five nodes. The variable `head` points to the first node in the list, while the variable `tail` points to the last node in the list. Each node in the list now has two pointers, `next` and `previous`, which point to the appropriate node in the list. Notice that the first node's `previous` pointer is null, while the last node's `next` pointer is also null. 
 
-![Doubly Linked List Detail](../../images/9/9.10.double.png)
+![Doubly Linked List Detail](/images/9/9.10.double.png)
  
 ## Doubly Linked List Class
 

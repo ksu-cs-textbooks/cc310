@@ -3,7 +3,7 @@ title: "Stacks in the Real World"
 weight: 10
 pre: "2. "
 ---
-![Stack of Chairs](../../images/5/5.2.chairs.jpg)
+![Stack of Chairs](/images/5/5.2.chairs.jpg)
 
 So, where do we see stacks in the real world? A great example is repairing an automobile. It is much easier to put a car back together if we put the pieces back on in the reverse order we took them off. Thus, as we take parts off a car, it is highly recommended that we lay them out in a line. Then, when we are ready to put things back together, we can just start at the last piece we took off and work our way back. This operation is exactly how a stack works.
 

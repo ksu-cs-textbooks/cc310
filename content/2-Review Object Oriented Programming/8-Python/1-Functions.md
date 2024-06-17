@@ -13,8 +13,8 @@ The table below lists the flowchart blocks used to represent functions, as well 
 
 | Operation | Flowchart | Pseudocode |
 |:---------:|:---------:|:-----------|
-| Declare Function | ![Declare Function Flowchart Block](../../../images/2/2.17.x.1.function1.png) | <pre><code>function FOO(X)<br>    X = X + 5<br>    return X<br>end function</code></pre> |
-| Call Function | ![Call Function Flowchart Block](../../../images/2/2.17.x.1.function2.png) | <pre><code>X = FOO(5)</code></pre> |
+| Declare Function | ![Declare Function Flowchart Block](/images/2/2.17.x.1.function1.png) | <pre><code>function FOO(X)<br>    X = X + 5<br>    return X<br>end function</code></pre> |
+| Call Function | ![Call Function Flowchart Block](/images/2/2.17.x.1.function2.png) | <pre><code>X = FOO(5)</code></pre> |
 
 ## Functions in Python
 

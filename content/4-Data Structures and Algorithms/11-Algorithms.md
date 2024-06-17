@@ -3,7 +3,7 @@ title: "Algorithms"
 weight: 55
 pre: "11. "
 ---
-![Euclid's Algorithm](../../images/4/4.12.euclid.svg)^[File:Euclid flowchart.svg. (2019, January 8). Wikimedia Commons, the free media repository. Retrieved 21:43, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Euclid_flowchart.svg&oldid=334007111.]
+![Euclid's Algorithm](/images/4/4.12.euclid.svg)^[File:Euclid flowchart.svg. (2019, January 8). Wikimedia Commons, the free media repository. Retrieved 21:43, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Euclid_flowchart.svg&oldid=334007111.]
 
 The other major topic covered in this course is the use of _algorithms_ to manipulate the data stored in our data structures. 
 

@@ -9,7 +9,7 @@ To help us understand these roles, let's review them in detail here. As we move 
 
 ## Container
 
-![Container Variable Role Flowchart](../../../images/1/1.3.x.9.variables1.png)
+![Container Variable Role Flowchart](/images/1/1.3.x.9.variables1.png)
 
 ```tex
 OPERAND = 1
@@ -22,7 +22,7 @@ In this role, the variable is used to hold a value. This value can be changed du
 
 ## Counter
 
-![Counter Variable Role Flowchart](../../../images/1/1.3.x.9.variables2.png)
+![Counter Variable Role Flowchart](/images/1/1.3.x.9.variables2.png)
 
 ```tex
 loop COUNTER from 1 to 10
@@ -34,7 +34,7 @@ In this role, variables are used to hold a sequence of values known beforehand. 
 
 ## Accumulator
 
-![Accumulator Variable Role Flowchart](../../../images/1/1.3.x.9.variables3.png)
+![Accumulator Variable Role Flowchart](/images/1/1.3.x.9.variables3.png)
 
 ```tex
 SUM = 0
@@ -48,7 +48,7 @@ In this role, the variable is used to hold a value that aggregates, summarizes, 
 
 ## Recent Value
 
-![Recent Value Variable Role Flowchart](../../../images/1/1.3.x.9.variables4.png)
+![Recent Value Variable Role Flowchart](/images/1/1.3.x.9.variables4.png)
 
 ```tex
 ANSWER = 0
@@ -61,7 +61,7 @@ In this role, the variable `answer` contains the last value encountered so far i
 
 ## Extreme Value
 
-![Extreme Value Variable Role Flowchart](../../../images/1/1.3.x.9.variables5.png)
+![Extreme Value Variable Role Flowchart](/images/1/1.3.x.9.variables5.png)
 
 ```tex
 COUNTER = 0
@@ -80,7 +80,7 @@ In this role, the variable contains the value that is most appropriate for the p
 
 ## Follower
 
-![Follower Variable Role Flowchart](../../../images/1/1.3.x.9.variables6.png)
+![Follower Variable Role Flowchart](/images/1/1.3.x.9.variables6.png)
 
 ```tex
 COUNTER = 0
@@ -103,7 +103,7 @@ A variable, such as `second`, to which you assign the value of another variable 
 
 ## Flag
 
-![Flag Variable Role Flowchart](../../../images/1/1.3.x.9.variables7.png)
+![Flag Variable Role Flowchart](/images/1/1.3.x.9.variables7.png)
 
 ```tex
 MISTAKE = false
@@ -120,7 +120,7 @@ A flag variable is used to report the occurrence or not of a particular conditio
 
 ## Temporary
 
-![Temporary Variable Role Flowchart](../../../images/1/1.3.x.9.variables8.png)
+![Temporary Variable Role Flowchart](/images/1/1.3.x.9.variables8.png)
 
 ```tex
 TEMP = FIRST
@@ -132,7 +132,7 @@ A variable used to hold a temporary value. For example, to exchange two variable
 
 ## Index
 
-![Index Variable Role Flowchart](../../../images/1/1.3.x.9.variables9.png)
+![Index Variable Role Flowchart](/images/1/1.3.x.9.variables9.png)
 
 ```tex
 SCORES = new array[10]

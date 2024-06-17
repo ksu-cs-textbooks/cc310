@@ -17,7 +17,7 @@ With those two assumptions in hand, we see that something interesting happens. I
 
 If we consider an array that initially contains $15$ elements, and make sure that we always choose the average element as our pivot point, we'd end up with a tree of recursive calls that resembles the diagram below.
 
-![Quicksort Time Tree 1](../../images/7/7.20.quicktime.png)
+![Quicksort Time Tree 1](/images/7/7.20.quicktime.png)
  
 In this diagram, we see that each level of the tree looks at around $N$ elements. (It is actually fewer, but not by a significant amount so we can just round up to $N$ each time). We also notice that there are 4 levels to the tree, which is closely approximated by $\text{lg}(N)$. This is the same result we observed when analyzing the merge sort algorithm earlier in this module. 
 
@@ -31,7 +31,7 @@ Consider the situation where the pivot value is chosen to be the maximum value i
 
 Looking at the code, we would see that each recursive call would contain one empty partition, and the other partition would be just one less than the size of the original array. So, if our original array only contained 8 elements, our tree recursion diagram would look similar to the following. 
 
-![Quicksort Time Tree 2](../../images/7/7.20.quicktime2.png)
+![Quicksort Time Tree 2](/images/7/7.20.quicktime2.png)
  
 This is an entirely different result! In this case, since we are only reducing the size of our array by 1 at each level, it would take $N$ recursive calls to complete. However, at each level, we are looking at one fewer element. Is this better or worse than the average case?
 

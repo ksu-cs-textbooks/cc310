@@ -5,11 +5,11 @@ pre: "11. "
 ---
 The process of removing a node from a doubly linked list is really no more difficult than from a singly linked list. The only difference is that instead of changing just one pointer, we now also need to modify the `previous` pointer in the node following the node we want to remove. For instance, if we want to remove node "3" from the following list,
  
-![Doubly Linked List Detail](../../images/9/9.10.double.png)
+![Doubly Linked List Detail](/images/9/9.10.double.png)
  
 we simply modify the `next` pointer in node "-2" to point to node "23". Then, we modify the `previous` pointer in node "23" to point to node "-2". We then return the data in that node to the requesting function. 
 
-![Doubly Linked List Remove](../../images/9/9.12.remove.png)
+![Doubly Linked List Remove](/images/9/9.12.remove.png)
  
 ## Removing at the Beginning
 

@@ -17,7 +17,7 @@ Let's consider a bigger example program, just to see the impact of space complex
 
 One possible solution would be to pre-compute all possible answers in a 10 by 10 array, which would contain 100 elements. A diagram of this is shown below.
 
-![Multiplication Table](../../images/3/3.12.mult_table_wiki.png)^[Wikipedia contributors. (2020, January 25). Multiplication table. In Wikipedia, The Free Encyclopedia. Retrieved 02:06, January 28, 2020, from https://en.wikipedia.org/w/index.php?title=Multiplication_table&oldid=937470066]
+![Multiplication Table](/images/3/3.12.mult_table_wiki.png)^[Wikipedia contributors. (2020, January 25). Multiplication table. In Wikipedia, The Free Encyclopedia. Retrieved 02:06, January 28, 2020, from https://en.wikipedia.org/w/index.php?title=Multiplication_table&oldid=937470066]
 
 This is a very inefficient program in terms of space complexity, since it requires $N^2$ spaces in memory for $N$ possible operand values. 
 

@@ -9,7 +9,7 @@ Simply put, a brute force algorithm will try all possible solutions to the probl
 
 ## Example - Closest Pair
 
-![Closest Pair of Points](../../images/4/4.13.pair.png)^[File:Closest pair of points.svg. (2018, October 20). Wikimedia Commons, the free media repository. Retrieved 22:29, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Closest_pair_of_points.svg&oldid=324759130.]
+![Closest Pair of Points](/images/4/4.13.pair.png)^[File:Closest pair of points.svg. (2018, October 20). Wikimedia Commons, the free media repository. Retrieved 22:29, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Closest_pair_of_points.svg&oldid=324759130.]
 
 A great example of a brute force algorithm is finding the closest pair of points in a multidimensional space. This could be as simple as finding the two closest cities on a map, or the two closest stars in a galaxy.
 

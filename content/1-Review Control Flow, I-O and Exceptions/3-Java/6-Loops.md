@@ -19,16 +19,16 @@ The table below lists the flowchart blocks used to represent loop statements, as
 
 | Operation | Flowchart | Pseudocode |
 |:---------:|:---------:|:-----------|
-| While Loop | ![While Loop Flowchart Block](../../../images/1/1.3.x.6.loop1.png) | <pre><code>loop while A &lt; 5<br>    A = A + 1<br>end loop</code></pre> |
-| For Loop | ![For Loop Flowchart Block](../../../images/1/1.3.x.6.loop2.png) | <pre><code>loop I from 1 to 10<br>    A = A + I<br>end loop</code></pre> |
-| For Loop with Step | ![For Loop with Step Flowchart Block](../../../images/1/1.3.x.6.loop3.png) | <pre><code>loop I from 1 to 10 step by 2<br>    A = A + I<br>end loop</code></pre> |
-| For Each Loop | ![For Each Loop Flowchart Block](../../../images/1/1.3.x.6.loop4.png) | <pre><code>loop each I in LIST<br>    A = A + I<br>end loop</code></pre> |
+| While Loop | ![While Loop Flowchart Block](/images/1/1.3.x.6.loop1.png) | <pre><code>loop while A &lt; 5<br>    A = A + 1<br>end loop</code></pre> |
+| For Loop | ![For Loop Flowchart Block](/images/1/1.3.x.6.loop2.png) | <pre><code>loop I from 1 to 10<br>    A = A + I<br>end loop</code></pre> |
+| For Loop with Step | ![For Loop with Step Flowchart Block](/images/1/1.3.x.6.loop3.png) | <pre><code>loop I from 1 to 10 step by 2<br>    A = A + I<br>end loop</code></pre> |
+| For Each Loop | ![For Each Loop Flowchart Block](/images/1/1.3.x.6.loop4.png) | <pre><code>loop each I in LIST<br>    A = A + I<br>end loop</code></pre> |
 
 ## Loops in Java
 
 To see how loops look in Java, let's recreate them from the flowcharts shown above.
 
-![While Loop Flowchart Block](../../../images/1/1.3.x.6.loop1.png)
+![While Loop Flowchart Block](/images/1/1.3.x.6.loop1.png)
 
 ```java
 while(a < 5){
@@ -36,7 +36,7 @@ while(a < 5){
 }
 ```
 
-![For Loop Flowchart Block](../../../images/1/1.3.x.6.loop2.png)
+![For Loop Flowchart Block](/images/1/1.3.x.6.loop2.png)
 
 ```java
 for(int i = 1; i <= 10; i++){
@@ -44,7 +44,7 @@ for(int i = 1; i <= 10; i++){
 }
 ```
 
-![For Loop with Step Flowchart Block](../../../images/1/1.3.x.6.loop3.png)
+![For Loop with Step Flowchart Block](/images/1/1.3.x.6.loop3.png)
 
 ```java
 for(int i = 1; i <= 10; i += 2){
@@ -52,7 +52,7 @@ for(int i = 1; i <= 10; i += 2){
 }
 ```
 
-![For Each Loop Flowchart Block](../../../images/1/1.3.x.6.loop4.png)
+![For Each Loop Flowchart Block](/images/1/1.3.x.6.loop4.png)
 
 ```java
 for(int i : list){

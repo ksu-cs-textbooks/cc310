@@ -17,7 +17,7 @@ We can also determine if we expect the length to be whole numbers or floating-po
 
 When looking at preconditions, determining the types and expected range of values of each parameter is a major first step. However, sometimes we must also look at the relationship between the parameters to find additional preconditions that we must consider.
 
-![Triangle Inequality](../../images/3/3.2.triangleinequal_wiki.svg)^[File:TriangleInequality.svg. (2015, July 10). Wikimedia Commons, the free media repository. Retrieved 23:22, January 21, 2020 from https://commons.wikimedia.org/w/index.php?title=File:TriangleInequality.svg&oldid=165448754.]
+![Triangle Inequality](/images/3/3.2.triangleinequal_wiki.svg)^[File:TriangleInequality.svg. (2015, July 10). Wikimedia Commons, the free media repository. Retrieved 23:22, January 21, 2020 from https://commons.wikimedia.org/w/index.php?title=File:TriangleInequality.svg&oldid=165448754.]
 
 For example, the [triangle inequality](https://en.wikipedia.org/wiki/Triangle_inequality) states that the longest side of a triangle must be strictly shorter than the sum of the other two sides. Otherwise, those sides will not create a triangle. So, another precondition must state that the sides satisfy the triangle inequality. 
 

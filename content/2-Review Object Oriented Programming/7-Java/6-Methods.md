@@ -7,7 +7,7 @@ pre: "6. "
 
 We can also add methods to our classes. These methods are used either to modify the attributes of the class or to perform actions based on the attributes stored in the class. Finally, we can even use those methods to perform actions on data provided as arguments. In essence, the sky is the limit with methods in classes, so we'll be able to do just about anything we need to do in these methods. Let's see how we can add methods to our classes.
 
-![Person UML Diagram](../../../images/2/2.17.j.4.personuml.png)
+![Person UML Diagram](/images/2/2.17.j.4.personuml.png)
 
 ## Adding Methods
 

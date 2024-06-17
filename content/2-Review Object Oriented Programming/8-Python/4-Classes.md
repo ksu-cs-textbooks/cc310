@@ -13,7 +13,7 @@ In _object-oriented programming_, a class is the basic building block of a large
 
 We can represent the contents of a class in a UML Class Diagram. Below is an example of a class called `Person`:
 
-![Person UML Diagram](../../../images/2/2.17.p.4.personuml.png)
+![Person UML Diagram](/images/2/2.17.p.4.personuml.png)
 
 Throughout the next few pages, we will realize the design of this class in code.
 

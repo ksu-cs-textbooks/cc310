@@ -20,7 +20,7 @@ We can always use the debugger to help us find problems in our code.
 
 ## Visualizer
 
-![Codio Visualizer](../../../images/1/1.3.x.3.visualizer.png)^[https://www.codio.com/blog/python-tutor-codio-visualizer]
+![Codio Visualizer](/images/1/1.3.x.3.visualizer.png)^[https://www.codio.com/blog/python-tutor-codio-visualizer]
 
 Codio now includes support for [Python Tutor](http://pythontutor.com/), allowing us to visualize what is happening in our code. We can see that output in the second tab that is open to the left.
 

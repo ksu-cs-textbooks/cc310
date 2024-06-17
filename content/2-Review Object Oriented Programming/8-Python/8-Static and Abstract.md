@@ -109,7 +109,7 @@ This becomes extremely useful in our `main()` method. Since we aren't instantiat
 
 Another major feature of class inheritance is the ability to define a method in a parent class, but not provide any code that implements that function. In effect, we are saying that all objects of that type must include that method, but it is up to the child classes to provide the code. These methods are called _abstract_ methods, and the classes that contain them are _abstract_ classes. Let's look at how they work!
 
-![Vehicle UML Diagram](../../../images/2/2.17.p.8.uml.png)
+![Vehicle UML Diagram](/images/2/2.17.p.8.uml.png)
 
 ### Abstract in Python
 

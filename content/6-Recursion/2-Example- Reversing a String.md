@@ -34,7 +34,7 @@ If the `CHARACTER` we read in was not an `*`, line 6 will recursively call `REVE
 
 Now let's look at what happens within the computer when we run `REVERSE`. Let's say the program user wants to enter the three characters from the keyboard: `n`, `o`, and `w` followed by the `*` character. The following figure illustrates the basic concept of what is going on in the computer. 
 
-![Reverse Head Recursive Activation Stack](../../images/6/6.2.reverse-head.png)
+![Reverse Head Recursive Activation Stack](/images/6/6.2.reverse-head.png)
  
 The arrows in the figure represent the order of execution of the statements in the computer. Each time we execute the recursive call to `REVERSE` in line 6, we create a new instance of the function, which starts its execution back at the beginning of the function (line 2). Then, when the function executes `return`, control reverts back to the next statement to be executed (line 7) in the calling instance of the function. 
 

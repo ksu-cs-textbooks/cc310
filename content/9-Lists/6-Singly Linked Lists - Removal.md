@@ -5,7 +5,7 @@ pre: "6. "
 ---
 The process of removing a node from a linked list is fairly straightforward. First, we find the node we want to remove from the list and then change the `next` pointer from the previous node in the list to the next node in the list.  This effectively bypasses the node we want to remove. For instance, if we want to remove node "3" from the following list,
 
-![Linked List Remove 1](../../images/9/9.6.remove1.png)
+![Linked List Remove 1](/images/9/9.6.remove1.png)
  
 we simply change the `next` pointer in the "-2" node to point to node "18" instead of node "3". Since no other nodes are pointing at node "3" it is effectively removed from our list as shown below. We then return the data in that node to the requesting function. Eventually, the garbage collector will come along and realize that nothing is referencing node "3" and put it back into available memory.
 

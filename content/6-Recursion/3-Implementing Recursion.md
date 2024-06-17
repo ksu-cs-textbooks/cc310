@@ -101,13 +101,13 @@ end function
 
 When we run `MAIN`, the only record on the activation stack is the record for `MAIN`. Since it has not been "called" from another function, it does not contain a return address. It also has no local variables, so the record is basically empty as shown below.
 
-![Main Activation Record](../../images/6/6.4.mainstack.png)
+![Main Activation Record](/images/6/6.4.mainstack.png)
  
 However, when we execute line 1 in `MAIN`, we call the function `OUTPUT` with a parameter of `3`. This causes the creation of a new function activation record with the return address of line 3 in the calling `MAIN` function and a parameter for `N`, which is `3`. Again, there are no local variables in `OUTPUT`. The stack activation is shown in figure **a** below. 
  	 	 	 
 | **a** | **b** | **c** | **d** |
 |:-:|:-:|:-:|:-:|
-| ![Activation Stack 1](../../images/6/6.4.stack1.png) | ![Activation Stack 2](../../images/6/6.4.stack2.png) | ![Activation Stack 3](../../images/6/6.4.stack3.png) | ![Activation Stack 4](../../images/6/6.4.stack4.png) | 
+| ![Activation Stack 1](/images/6/6.4.stack1.png) | ![Activation Stack 2](/images/6/6.4.stack2.png) | ![Activation Stack 3](/images/6/6.4.stack3.png) | ![Activation Stack 4](/images/6/6.4.stack4.png) | 
              
 Following the execution for `OUTPUT`, we will eventually make our recursive call to `OUTPUT` in line 4, which creates a new activation record on the stack as shown above in **b**. This time, the return address will be line 5 and the parameter `N` is `2`. 
 
@@ -117,7 +117,7 @@ Finally, the execution of the fourth instance of `OUTPUT` will reach our base ca
  	 	 	 
 | **e** | **f** | **g** | **h** |
 |:-:|:-:|:-:|:-:|
-| ![Activation Stack 3](../../images/6/6.4.stack3.png) | ![Activation Stack 2](../../images/6/6.4.stack2.png) | ![Activation Stack 1](../../images/6/6.4.stack1.png) | ![Main Activation Record](../../images/6/6.4.mainstack.png) | 
+| ![Activation Stack 3](/images/6/6.4.stack3.png) | ![Activation Stack 2](/images/6/6.4.stack2.png) | ![Activation Stack 1](/images/6/6.4.stack1.png) | ![Main Activation Record](/images/6/6.4.mainstack.png) | 
 
 When execution begins in the third instance of `OUTPUT` at line 5, we again write the current value of `N`, which is `1`, and we then `return`. We follow this same process, returning to the second instance of `OUTPUT`, then the first instance of `OUTPUT`. Once the initial instance of `OUTPUT` completes, it returns to line 2 in `MAIN`, where the `print("Done")` statement is executed and `MAIN` ends.
 

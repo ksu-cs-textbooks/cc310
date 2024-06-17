@@ -20,7 +20,7 @@ To try to solve the problem let's start by considering a simple case: we want to
 
 The following figure shows how the algorithm works.
 
-![Tower of Hanoi](../../images/6/6.9.tower.png)
+![Tower of Hanoi](/images/6/6.9.tower.png)
  
 It is a little more difficult with three discs, but after a few tries the proper algorithm emerges. With our knowledge of recursion, we can come up with a simple and concise solution. Since we already know how to move two discs from one place to another, we can solve the problem recursively.
 

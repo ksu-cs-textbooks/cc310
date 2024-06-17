@@ -7,7 +7,7 @@ pre: "5. "
 
 ## Unsorted Linked List
 
-![Unsorted Linked List](../../images/12/12.5.ulist.png)
+![Unsorted Linked List](/images/12/12.5.ulist.png)
  
 The next data structure we learned about is the linked list. Specifically, we will look at the doubly linked list in this example, but in most instances the performance of a singly linked list is comparable.
 
@@ -21,7 +21,7 @@ Finally, if we want to find and delete an element, that also runs in order $N$ t
 
 ## Sorted Linked List
 
-![Sorted Linked List](../../images/12/12.5.slinked.png)
+![Sorted Linked List](/images/12/12.5.slinked.png)
  
 We have not directly analyzed the performance of a sorted linked list in this course, but hopefully the analysis makes sense based on what we have learned before. Since the process of iterating through a linked list runs in order of $N$ time, every operation required to build a sorted linked list is limited by that fact.
 
@@ -39,7 +39,7 @@ For example, if we are searching for a particular element in a sorted list, we c
 
 ## Linked List Stack (LIFO) and Linked List Queue (FIFO)
  
- ![Unsorted Linked List](../../images/12/12.5.ulist.png)
+ ![Unsorted Linked List](/images/12/12.5.ulist.png)
  
 We already saw how to use the operations from a linked list to implement both a stack and a queue. Since those data structures restrict the operations we can perform a bit, it turns out that we can use a linked list to implement a stack and a queue with comparable performance to an array implementation. 
 

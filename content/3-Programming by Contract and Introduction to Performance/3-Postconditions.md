@@ -38,7 +38,7 @@ So, what if the preconditions are not met? Then what happens?
 
 As we discussed on the previous page, if the preconditions are not met, then we cannot guarantee that the postcondition will be true once the method executes. In fact, it may be decidedly incorrect, depending on how we implement the method.
 
-![Heron's Formula](../../images/3/3.3.triangle_wiki.png)^[File:Triangle with notations 2 without points.svg. (2018, December 5). Wikimedia Commons, the free media repository. Retrieved 00:03, January 22, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Triangle_with_notations_2_without_points.svg&oldid=330397605.]
+![Heron's Formula](/images/3/3.3.triangle_wiki.png)^[File:Triangle with notations 2 without points.svg. (2018, December 5). Wikimedia Commons, the free media repository. Retrieved 00:03, January 22, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Triangle_with_notations_2_without_points.svg&oldid=330397605.]
 
 For example, the simplest way to find the area of a triangle given the lengths of all three sides is [Heron's formula](https://en.wikipedia.org/wiki/Heron%27s_formula), which can be written mathematically as:
 

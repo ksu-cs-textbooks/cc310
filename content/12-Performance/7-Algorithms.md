@@ -13,11 +13,11 @@ When analyzing searching and sorting algorithms, we'll assume that we are using 
 
 There are two basic searching algorithms: linear search and binary search.
 
-![Linear Search](../../images/12/12.7.linear.png)
+![Linear Search](/images/12/12.7.linear.png)
 
 For linear search, we are simply iterating through the entire data structure until we find the desired item. So, while we can stop looking as soon as it is found, in the worst case we will have to look at all the elements in the structure, meaning the algorithm runs in order $N$ time. 
 
-![Binary Search](../../images/12/12.7.binary.png)
+![Binary Search](/images/12/12.7.binary.png)
  
 Binary search, on the other hand, takes advantage of a sorted array to jump around quickly. In effect, each element we analyze allows us to eliminate half of the remaining elements in our search. With as few as 8 steps, we can search through an array that contains 64 elements. When we analyze this algorithm, we find that it runs in order $\text{lg}(N)$ time, which is a vast improvement over binary search. 
 
@@ -35,15 +35,15 @@ Bubble sort is similar, but instead of finding the smallest or largest element i
 
 Both selection sort and bubble sort are inefficient as sorting algorithms go, yet their main value is their simplicity. They are also very nice in that they do not require any additional memory usage to run. They are easy to implement and understand and make a good academic example when learning about algorithms. While they are not used often in practice, later in this module we will discuss a couple of situations where we may consider them useful. 
 
-![Merge Sort](../../images/12/12.7.merge.png)
+![Merge Sort](/images/12/12.7.merge.png)
  
 Merge sort is a very powerful divide and conquer algorithm, which splits the array to be sorted into progressively smaller parts until each one contains just one or two elements. Then, once those smaller parts are sorted, it slowly merges them back together until the entire array is sorted. We must look at each element in the array at least once per "level" of the algorithm in the diagram above, so overall this algorithm runs in the order of $N * \text{lg}(N)$ time. This is quite a bit faster than selection sort and bubble sort. However, most implementations of merge sort require at least a second array for storing data as it is merged together, so the additional memory usage is also on the order of $N$. 
 
-![Quicksort Best Case](../../images/12/7.20.quicktime.png)
+![Quicksort Best Case](/images/12/7.20.quicktime.png)
  
 Quicksort is a very clever algorithm, which involves selecting a "pivot" element from the data, and then dividing the data into two halves, one containing all elements less than the pivot, and another with all items greater than the pivot. Then, the process repeats on each half until the entire structure is sorted. 
 In the ideal scenario, shown in the diagram above, quicksort runs on the order of $N * \text{lg}(N)$ time, similar to merge sort. However, this depends on the choice of the pivot element being close to the median element of the structure, which we cannot always guarantee. Thankfully, in practice, we can just choose a random element (such as the last element in the structure) and we'll see performance that is close to the $N * \text{lg}(N)$ target.
  
- ![Quicksort Worst Case](../../images/12/7.20.quicktime2.png)
+ ![Quicksort Worst Case](/images/12/7.20.quicktime2.png)
  
 However, if we choose our pivot element poorly, the worst case scenario shown in the diagram above can occur, causing the run time to be on the order of $N^2$ instead. This means that quicksort has a troublesome, but rare, worst case performance scenario.

@@ -12,23 +12,23 @@ Insertion in doubly linked lists is similar to what we saw in the singly linked 
 
 Inserting at the beginning of a doubly linked list is almost as straightforward as in a singly linked list. We just need to make sure that we update the `previous` pointer in each affected node. After creating the new `node` in line 1, we check to see if the list is empty in line 2. If it is empty, then we only have to worry about updating the `head` and `tail` pointers to both point at `node` in lines 3 and 4. If the list is not empty, we have the situation shown below.
 
-![Doubly Linked List Insert 1](../../images/9/9.11.insert1.png)
+![Doubly Linked List Insert 1](/images/9/9.11.insert1.png)
  
 To insert a node at the beginning of the list, we set `head.previous` (the `previous` pointer in the first node in the list) to point to the new node in line 5.
   
-![Doubly Linked List Insert 2](../../images/9/9.11.insert2.png)
+![Doubly Linked List Insert 2](/images/9/9.11.insert2.png)
   
 Next, we set the `next` pointer in the new node to point to where `head` is currently pointing in line 6, which is the first node in the list.
 
-![Doubly Linked List Insert 3](../../images/9/9.11.insert3.png)
+![Doubly Linked List Insert 3](/images/9/9.11.insert3.png)
  
 Finally, we update `head` to point to the new `node` and then increment the size in line 8. 
 
-![Doubly Linked List Insert 4](../../images/9/9.11.insert4.png)
+![Doubly Linked List Insert 4](/images/9/9.11.insert4.png)
 
 With a little bit of reformatting, we can see that we've successfully inserted our new node in the list.
 
-![Doubly Linked List Insert 5](../../images/9/9.11.insert5.png)
+![Doubly Linked List Insert 5](/images/9/9.11.insert5.png)
 
 The pseudocode for this operation is given below.
 

@@ -7,7 +7,7 @@ pre: "5. "
 
 Of course, our classes are not very useful at this point because they don't include any attributes or methods. Including attributes in a class is one of the simplest uses of classes, so let's start there.
 
-![Person UML Diagram](../../../images/2/2.17.j.4.personuml.png)
+![Person UML Diagram](/images/2/2.17.j.4.personuml.png)
 
 ## Adding Attributes
 

@@ -16,7 +16,7 @@ When we have received just one number, this number is both the maximum and the m
 
 The algorithm is depicted by the following flowchart and pseudocode:
 
-![Min Max Flowchart Base](../../images/3/3.9.base.png)
+![Min Max Flowchart Base](/images/3/3.9.base.png)
 
 ```tex
 print "Enter a Number:"
@@ -34,7 +34,7 @@ Then, our program will enter a loop to read 10 more numbers from the user. So, w
 
 This part of the program is depicted by the following flowchart and pseudocode: 
 
-![Min Max Flowchart Loop](../../images/3/3.9.loop.png)
+![Min Max Flowchart Loop](/images/3/3.9.loop.png)
 
 ```tex
 loop I from 1 to 10
@@ -66,6 +66,6 @@ You can then generalize the solution for the `n`th input: when you consider the 
 
 A full flowchart of this program can be found by clicking the following link:
 
-[Min Max Flowchart](../../images/3/3.9.flow.png)
+[Min Max Flowchart](/images/3/3.9.flow.png)
 
 It is helpful to have this diagram available in a second browser tab for review on the next few pages. 

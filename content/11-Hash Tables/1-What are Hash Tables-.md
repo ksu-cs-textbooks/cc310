@@ -24,7 +24,7 @@ Storing a key-value pair in a hash table uses the following procedure.
 1. The key is run through a hash function, which generates an index into the hash table's array. 
 1. The key-value pair is stored in the bucket (linked list) referenced at that index. 
 
-![Hash Table Linked List](../../images/11/11.1.list.svg)
+![Hash Table Linked List](/images/11/11.1.list.svg)
  
 Retrieving a key-value pair from the hash table follows a similar procedure.
 

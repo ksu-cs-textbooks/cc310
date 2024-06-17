@@ -15,7 +15,7 @@ In this section we will investigate another type of recursion called _tree recur
 
 Our process recursively decomposes the problem by searching for the maximum in the first $N/2$ elements and the second $N/2$ elements until we reach the base case. In this problem, the base case is when we either have 1 or 2 elements in the array. If we just have 1, we return that value. If we have 2, we return the larger of those two values. An overview of the process is shown below. 
  
-![Tree Recursion](../../images/6/6.6.tree.png)
+![Tree Recursion](/images/6/6.6.tree.png)
  
 The pseudocode for the algorithm is shown below.
 

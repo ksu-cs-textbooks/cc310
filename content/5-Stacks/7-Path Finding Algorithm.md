@@ -3,7 +3,7 @@ title: "Path Finding Algorithm"
 weight: 35
 pre: "7. "
 ---
-![Maze Step 3](../../images/5/5.7.maze4.png)
+![Maze Step 3](/images/5/5.7.maze4.png)
 
 The pseudocode for finding the initial path using the stack is shown below. We assume the enclosing class has already defined a stack called `myStack` and the datatype called `Cell`, which represents the squares in the maze. The algorithm also uses three helper functions as described below:
 

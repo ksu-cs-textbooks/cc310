@@ -40,9 +40,9 @@ The table below lists the flowchart blocks used to represent variables, as well 
 
 | Operation | Flowchart | Pseudocode |
 |:---------:|:---------:|:-----------|
-| Declare | ![Declare Variable Flowchart Block](../../../images/1/1.3.x.4.variable1.png) | `X = 0` |
-| Assign | ![Assign Variable Flowchart Block](../../../images/1/1.3.x.4.variable2.png) | `X = 5` |
-| Declare & Assign |  ![Declare and Assign Variable Flowchart Block](../../../images/1/1.3.x.4.variable3.png) | `X = 5` |
+| Declare | ![Declare Variable Flowchart Block](/images/1/1.3.x.4.variable1.png) | `X = 0` |
+| Assign | ![Assign Variable Flowchart Block](/images/1/1.3.x.4.variable2.png) | `X = 5` |
+| Declare & Assign |  ![Declare and Assign Variable Flowchart Block](/images/1/1.3.x.4.variable3.png) | `X = 5` |
 
 Notice that variables must be assigned a value when declared in pseudocode. By default, most programming languages automatically assign the value $0$ to a new integer variable, so we'll use that value in our pseudocode as well.
 

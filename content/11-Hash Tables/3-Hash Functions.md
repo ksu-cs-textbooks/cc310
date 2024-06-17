@@ -36,7 +36,7 @@ In many cases, we can use a hash function to do just that. When we first enter o
 
 Then, when we try to log in to the website in the future, we provide the same password, and the website is able to calculate the hash again and verify that they match. As long as the hash function is properly designed, it is very unlikely for two passwords to result in the same hash, even if they are very similar.
 
-![Hash Function](../../images/11/11.3.hash.png)
+![Hash Function](/images/11/11.3.hash.png)
 
 In practice, most websites add additional random data to the password before hashing it, just to decrease the chances of two passwords hashing to the same value. This is referred to as "salting" the password. 
 

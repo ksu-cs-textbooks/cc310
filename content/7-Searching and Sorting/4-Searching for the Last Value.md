@@ -5,7 +5,7 @@ pre: "4. "
 ---
 Our `find` algorithm above will find the first instance of `number` in the `array` and return the index of that instance. However, we might also be interested in finding the last instance of `number` in `array`. Looking at our original `find` algorithm, it should be easy to find the last value by simply searching the array in reverse order, as shown in the following figure.
 
-![Linear Search Last Value](../../images/7/7.4.linearreverse.png)
+![Linear Search Last Value](/images/7/7.4.linearreverse.png)
  
 We will use the same example as above, except we will start searching backwards from the end of the array. In Step 1, we see that `index` is initialized to 7 and we compare `array[7]` against `number`, which are not the same. Thus, we continue to Step 2, where we decrement `index` to 6. Here `array[6]` is still not equal to `number`, so we continue in the loop. Finally, in Step 3, we decrement `index` to 5. Now `array[5]` contains the number `3`, which is equal to our `number` and we return the current `index` value.
 

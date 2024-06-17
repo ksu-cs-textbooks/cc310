@@ -13,7 +13,7 @@ Let's build a quick program following the MVC architecture style to review worki
 
 The program should conform to the following UML diagram:
 
-![MVC Exercise UML Diagram](../../../images/2/2.17.j.9.exerciseuml.png)
+![MVC Exercise UML Diagram](/images/2/2.17.j.9.exerciseuml.png)
 
 _Right-click and select "Open image in new tab" to view larger_
 
@@ -72,7 +72,7 @@ The purpose of each method will be further described below.
 
 A sample execution of the program is shown below. 
 
-![Sample Program Execution](../../../images/2/2.17.j.9.sample.png)
+![Sample Program Execution](/images/2/2.17.j.9.sample.png)
 
 ## Grading
 

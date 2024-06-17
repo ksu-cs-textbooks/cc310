@@ -7,7 +7,7 @@ pre: "1. "
 
 In this course, we will learn how to develop several different data structures, and then use those data structures in programs that implement several different types of algorithms. However, one of the most difficult parts of programming is clearly explaining what a program should do and how it should perform.
 
-![UML Diagram Example](../../images/3/3.1.videouml.png)
+![UML Diagram Example](/images/3/3.1.videouml.png)
 
 So far, we've used UML class diagrams to discuss the structure of a program. It can give us information about the classes, attributes, and methods that our program will contain, as well as the overall relationships between the classes. We can even learn if attributes and methods are private or public, and more.
 

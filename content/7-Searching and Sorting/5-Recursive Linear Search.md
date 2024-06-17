@@ -25,6 +25,6 @@ An example of using the `findR` function is shown below. The top half of the fig
 
 In instance 2, the same thing happens as in instance 1 and we fall down to the `else` part of the `if` statement. Once again, we call a new instance of `findR`, this time with `index` set at 2. Now, in instance 3, `array[index]` is equal to `number` in line 4 and so we execute the `return index` statement in line 5.  The value of `index` (2) is returned to instance 2, which, in line 7, simply returns the value of 2 to instance 1. Again, in line 7, instance 1 returns that same value (2) to the original calling function. 
  
-![Recursive Linear Search](../../images/7/7.5.recursivelinear.png)
+![Recursive Linear Search](/images/7/7.5.recursivelinear.png)
  
 Notice that the actual process of searching the array is the same for both the iterative and recursive functions. It is only the implementation of that process that is different between the two.

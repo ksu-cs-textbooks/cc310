@@ -27,6 +27,6 @@ The following table compares the best- and worst-case processing time for many c
 
 We can also compare these processing times by graphing the equations used to describe them. The graph below shows several of the common orders that we have seen so far.
 
-![Graph](../../images/12/12.3.graph.png)
+![Graph](/images/12/12.3.graph.png)
  
 On the next few pages, we will discuss each data structure in brief, using this table to compare the performance of the various data structures we've covered in this course.

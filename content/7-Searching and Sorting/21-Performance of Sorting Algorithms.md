@@ -19,7 +19,7 @@ We have expressed the amount of time each algorithm takes to complete in terms o
 
 One of the easiest ways to compare two functions is to graph them, just like we've learned to do in our math classes. The diagram below shows a graph containing the functions $N$, $N^2$, and $N * \text{lg}(N)$.
 
-![Graph 1](../../images/7/7.21.graph.png)
+![Graph 1](/images/7/7.21.graph.png)
  
 First, notice that the scale along the X axis (representing values of $N$) goes from 0 to 10, while the Y axis (representing the function outputs) goes from 0 to 30. This graph has been adjusted a bit to better show the relationship between these functions, but in actuality they have a much steeper slope than is shown here.
 

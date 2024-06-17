@@ -9,7 +9,7 @@ How do we implement queues in code? Like we did with stacks, we will use an arra
 
 The following figure shows how we might implement a queue with an array. First, we define our array `myQueue` to be an array that can hold 10 numbers, with an index of 0 to 9. Then we create a `start` variable to keep track of the index at the start of the queue and an `end` variable to keep track of the end of the array.
 
-![Empty Queue](../../images/8/8.3.empty.png)
+![Empty Queue](/images/8/8.3.empty.png)
  
 Notice that since we have not put any items into the queue, we initialize `start` to be `-1`. Although this is not a legal index into the array, we can use it like we did with stacks to recognize when we have not yet put anything into the queue. As we will see, this also makes manipulating items in the array much simpler. However, to make our use of the array more efficient, `-1` will not always indicate that the queue is empty. We will allow the queue to wrap around the array from the `start` index to the `end` index. We'll see an example of this behavior later.
 
@@ -30,15 +30,15 @@ end function
 
 Given our initial configuration above, if we performed an `enqueue(7)` function call, the result would look like the following. 
 
-![Queue with 1 Element](../../images/8/8.3.enqueue1.png)
+![Queue with 1 Element](/images/8/8.3.enqueue1.png)
  
 Notice that the value 7 was stored at `myQueue[0]` in line 3, `end` was updated to `1` in line 4, and `start` was set to `0` in line 7. Now, let's assume we continue to perform `enqueue` operations until `myQueue` is almost filled as shown below.
 
-![Queue with 9 Elements](../../images/8/8.3.enqueue9.png)
+![Queue with 9 Elements](/images/8/8.3.enqueue9.png)
   
 If at this point, we enqueue another number, say `-35`, the modulo operator in line 4 would help us wrap the end of the list around the array and back to the beginning as expected.  The result of this function call is shown below.
 
-![Queue with 10 Elements](../../images/8/8.3.enqueue10.png)
+![Queue with 10 Elements](/images/8/8.3.enqueue10.png)
  
 Now we have a problem! The array is full of numbers and if we try to enqueue another number, the `enqueue` function will raise an exception in line 2. However, this example also gives us insight into what the `isFull` condition should be. Notice that both `start`, and `end` are pointing at the same array index. You may want to think about this a little, but you should be able to convince yourself that whenever `start == end` we will be in a situation like the one above where the array is full, and we cannot safely enqueue another number. 
 

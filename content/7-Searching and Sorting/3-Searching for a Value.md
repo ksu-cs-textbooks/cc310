@@ -24,4 +24,4 @@ The second time through the `for` loop is shown as Step 2 in the figure. We foll
 
 In Step 3, `index` is incremented to `2`, thus pointing at `array[2]`, whose value is `3`. Since this value is equal to the value of `number`, we carry out the `if` part of the statement. Line 4 returns the value of `2`, which is the first location in `array` that holds the value of `number`.
 
-![Linear Search Diagram](../../images/7/7.3.linear.png)
+![Linear Search Diagram](/images/7/7.3.linear.png)

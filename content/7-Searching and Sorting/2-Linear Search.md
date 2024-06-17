@@ -16,7 +16,7 @@ In this module, we will develop a couple of examples of searching an array for a
 
 Finding the first occurrence of a number in an unordered array is a fairly straightforward process. A black box depiction of this function is shown below. There are two inputs--`array` and `number`--and a single output, the `index` of the first occurrence of the `number` in `array`. 
 
-![Function Diagram](../../images/7/7.2.function.png)
+![Function Diagram](/images/7/7.2.function.png)
  
 We can also include the search function as a method inside of the container itself. In that case, we don’t have to accept the container as a parameter, since the method will know to refer to the object it is part of. 
 

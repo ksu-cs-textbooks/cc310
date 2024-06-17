@@ -51,7 +51,7 @@ If we analyze the computation required for the 6th Fibonacci number in both the 
 
 To clarify our ideas further, we can consider the recursive tree resulting from the trace of the program to calculate the 6th Fibonacci number. Each of the computations highlighted in the diagram will have been computed previously.
 
-![Fibonacci Tree Recursion](../../images/6/6.8.fib1.png)
+![Fibonacci Tree Recursion](/images/6/6.8.fib1.png)
  
 If we count the recomputations, we can see how we calculate the 4th Fibonacci number twice, the 3rd Fibonacci number three times, and the 2nd Fibonacci five times. All of this is due to the fact the we do not consider the work done by other recursive calls. Furthermore, the higher our initial number, the worse the situation grows, and at a very rapid pace.
 
@@ -80,4 +80,4 @@ We assume that each element in `FA` has been initialized to `-1`. We also assume
 
 As shown in our original call tree below, using the `FIBOPT` function, none of the function calls in red will be made at all. While the function calls in yellow will be made, they will simply return a precomputed value from the `FA` array. Notice that for `N = 6`, we save 14 of the original 25 function calls required for the `FIB` function, or a $56\%$ savings. As `N` increases, the savings grow even more.
 
-![Fibonacci Tree Recursion with Memoization](../../images/6/6.8.fib2.png)
+![Fibonacci Tree Recursion with Memoization](/images/6/6.8.fib2.png)

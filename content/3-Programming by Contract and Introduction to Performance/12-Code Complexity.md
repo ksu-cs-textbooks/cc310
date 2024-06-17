@@ -50,7 +50,7 @@ Unfortunately, that is a difficult question to answer. In general, we want to re
 
 The world of business uses a simple triad to understand these trade-offs, as shown in the diagram below:
 
-![Business Triad Diagram](../../images/3/3.13.triad_wiki.svg)^[File:Project-triangle.svg. (2020, January 12). Wikimedia Commons, the free media repository. Retrieved 02:41, January 28, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Project-triangle.svg&oldid=386979544.]
+![Business Triad Diagram](/images/3/3.13.triad_wiki.svg)^[File:Project-triangle.svg. (2020, January 12). Wikimedia Commons, the free media repository. Retrieved 02:41, January 28, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Project-triangle.svg&oldid=386979544.]
 
 Along with this diagram comes the saying: "Fast. Good. Cheap. Pick any two." It helps express the difficulty in finding a perfect program that does not contain at least one level of complexity. 
 

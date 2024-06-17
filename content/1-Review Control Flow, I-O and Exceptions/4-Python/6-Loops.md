@@ -19,37 +19,37 @@ The table below lists the flowchart blocks used to represent loop statements, as
 
 | Operation | Flowchart | Pseudocode |
 |:---------:|:---------:|:-----------|
-| While Loop | ![While Loop Flowchart Block](../../../images/1/1.3.x.6.loop1.png) | <pre><code>loop while A &lt; 5<br>    A = A + 1<br>end loop</code></pre> |
-| For Loop | ![For Loop Flowchart Block](../../../images/1/1.3.x.6.loop2.png) | <pre><code>loop I from 1 to 10<br>    A = A + I<br>end loop</code></pre> |
-| For Loop with Step | ![For Loop with Step Flowchart Block](../../../images/1/1.3.x.6.loop3.png) | <pre><code>loop I from 1 to 10 step by 2<br>    A = A + I<br>end loop</code></pre> |
-| For Each Loop | ![For Each Loop Flowchart Block](../../../images/1/1.3.x.6.loop4.png) | <pre><code>loop each I in LIST<br>    A = A + I<br>end loop</code></pre> |
+| While Loop | ![While Loop Flowchart Block](/images/1/1.3.x.6.loop1.png) | <pre><code>loop while A &lt; 5<br>    A = A + 1<br>end loop</code></pre> |
+| For Loop | ![For Loop Flowchart Block](/images/1/1.3.x.6.loop2.png) | <pre><code>loop I from 1 to 10<br>    A = A + I<br>end loop</code></pre> |
+| For Loop with Step | ![For Loop with Step Flowchart Block](/images/1/1.3.x.6.loop3.png) | <pre><code>loop I from 1 to 10 step by 2<br>    A = A + I<br>end loop</code></pre> |
+| For Each Loop | ![For Each Loop Flowchart Block](/images/1/1.3.x.6.loop4.png) | <pre><code>loop each I in LIST<br>    A = A + I<br>end loop</code></pre> |
 
 ## Loops in Python
 
 To see how loops look in Python, let's recreate them from the flowcharts shown above.
 
-![While Loop Flowchart Block](../../../images/1/1.3.x.6.loop1.png)
+![While Loop Flowchart Block](/images/1/1.3.x.6.loop1.png)
 
 ```python
 while a < 5:
     a = a + 1
 ```
 
-![For Loop Flowchart Block](../../../images/1/1.3.x.6.loop2.png)
+![For Loop Flowchart Block](/images/1/1.3.x.6.loop2.png)
 
 ```python
 for i in range(1, 11):
     a = a + i
 ```
 
-![For Loop with Step Flowchart Block](../../../images/1/1.3.x.6.loop3.png)
+![For Loop with Step Flowchart Block](/images/1/1.3.x.6.loop3.png)
 
 ```python
 for i in range(1, 11, 2):
     a = a + i
 ```
 
-![For Each Loop Flowchart Block](../../../images/1/1.3.x.6.loop4.png)
+![For Each Loop Flowchart Block](/images/1/1.3.x.6.loop4.png)
 
 ```python
 for i in list:

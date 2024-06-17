@@ -19,15 +19,15 @@ One important way to classify data structures is by the operations they can perf
 
 For example, let's look at the **insert** operation. Assume we have the list shown in the following diagram:
 
-![List Data Structure](../../images/4/4.2.list.png)
+![List Data Structure](/images/4/4.2.list.png)
 
 Then, we decide we'd like to add the element $4$ at index $3$ in this list. So, we can think of this like trying to place the element in the list as shown below:
 
-![List Before Insert](../../images/4/4.3.before.png)
+![List Before Insert](/images/4/4.3.before.png)
 
 Once we insert that element, we then shift all of the other elements back one position, making the list one element larger. The final version is shown below:
 
-![List After Insert](../../images/4/4.3.after.png)
+![List After Insert](/images/4/4.3.after.png)
 
 Lists are a very powerful data structure, and one of the most commonly used in a variety of programs. While arrays may seem very flexible, their static size and limited operations can sometimes make them more difficult to use than they are worth. Many programmers choose to use the more flexible list data structure instead. 
 

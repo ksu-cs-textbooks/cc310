@@ -7,7 +7,7 @@ pre: "1. "
 
 ## Programming
 
-![Computer Code](../../images/1/1.1.programming.jpg)^[https://pxhere.com/en/photo/1172040]
+![Computer Code](/images/1/1.1.programming.jpg)^[https://pxhere.com/en/photo/1172040]
 
 _Programming_ is the act of writing _source code_ for a computer program in such a way that a modern computer can understand and perform the steps described in the code. There are many different _programming languages_ that can be used, such as _high-level languages_ like Java and Python.
 

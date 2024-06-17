@@ -11,7 +11,7 @@ We can also build classes that _inherit_ attributes and methods from another cla
 
 As we learned earlier in this chapter, we can represent an inheritance relationship with an open arrow in our UML diagrams, as shown below:
 
-![Person Student UML Diagram](../../../images/2/2.17.j.7.studentuml.png)
+![Person Student UML Diagram](/images/2/2.17.j.7.studentuml.png)
 
 In this diagram, the `Student` class inherits from, or is a subclass of, the `Person` class. 
 

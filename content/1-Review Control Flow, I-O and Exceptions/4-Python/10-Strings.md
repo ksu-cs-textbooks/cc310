@@ -13,9 +13,9 @@ The table below lists the flowchart blocks used to represent strings, as well as
 
 | Operation | Flowchart | Pseudocode |
 |:---------:|:---------:|:-----------|
-| Create String | ![Create String Flowchart Block](../../../images/1/1.3.x.10.string1.png) | <pre><code>STR = "abc"</code></pre> |
-| Access Character | ![Access Character in String Flowchart Block](../../../images/1/1.3.x.10.string2.png) | <pre><code>C = STR[0]</code></pre> |
-| String Length | ![String Length Flowchart Block](../../../images/1/1.3.x.10.string3.png) | <pre><code>X = size of STR</code></pre> |
+| Create String | ![Create String Flowchart Block](/images/1/1.3.x.10.string1.png) | <pre><code>STR = "abc"</code></pre> |
+| Access Character | ![Access Character in String Flowchart Block](/images/1/1.3.x.10.string2.png) | <pre><code>C = STR[0]</code></pre> |
+| String Length | ![String Length Flowchart Block](/images/1/1.3.x.10.string3.png) | <pre><code>X = size of STR</code></pre> |
 
 ## Strings in Python
 

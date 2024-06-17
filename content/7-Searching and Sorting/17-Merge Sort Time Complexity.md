@@ -7,13 +7,13 @@ Now that we've reviewed the pseudocode for the merge sort algorithm, let's see i
 
 For starters, let's consider a diagram that shows all of the different recursive calls made by merge sort, as shown below. 
 
-![Merge Sort Time Complexity Diagram 1](../../images/7/7.17.mergetree.png)
+![Merge Sort Time Complexity Diagram 1](/images/7/7.17.mergetree.png)
  
 The first thing we should do is consider the worst-case input for merge sort. What would that look like? Put another way, would the values or the ordering of those values change anything about how merge sort operates?
 
 The only real impact that the input would have is on the number of swaps made by merge sort. If we had an input that caused each of the base cases with exactly two elements to swap them, that would be a few more steps than any other input. Consider the highlighted entries below.
 
-![Merge Sort Time Complexity Diagram 2](../../images/7/7.17.mergetree2.png)
+![Merge Sort Time Complexity Diagram 2](/images/7/7.17.mergetree2.png)
  
 If each of those pairs were reversed, we'd end up doing that many swaps. So, how many swaps would that be? As it turns out, a good estimate would be $N / 2$ times. If we have an array with exactly 16 elements, there are at most 8 swaps we could make. With 10 elements, we can make at most 4. So, the number of swaps is on the order of N time complexity.
 
@@ -48,7 +48,7 @@ If we double the size of the array, we'll now have $32$ elements. However, even 
 
 With that in mind, we can say that the merge operation runs on the order of $N * \text{lg}(N)$ time. That is because there are ${\text{lg}(N)}$ levels in the tree, and each level of the tree performs $N$ operations to merge various parts of the array together. The diagram below gives a good graphical representation of how we can come to that conclusion. 
 
-![Merge Sort Time Complexity Diagram 3](../../images/7/7.17.mergetree3.png)
+![Merge Sort Time Complexity Diagram 3](/images/7/7.17.mergetree3.png)
  
 Putting it all together, we have $N/2$ swaps, and $N * \text{lg}(N)$ steps for the merge. Since the value $N * \text{lg}(N)$ is larger than $N$, we would say that total running time of merge sort is on the order of $N * \text{lg}(N)$. 
 

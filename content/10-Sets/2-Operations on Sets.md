@@ -20,7 +20,7 @@ We will describe each of these operations in more detail below.
 
 The union of two sets, $\text{A}$ and $\text{B}$, is the set of elements that belongs to either $\text{A}$ or to $\text{B}$. The following figure shows the Venn Diagram for the union of set $\text{A}$ and set $\text{B}$. In this diagram, the blue color denotes the elements of the set that are in $\text{A} \cup \text{B}$.
 
-![Set Union](../../images/10/10.2.union.png)
+![Set Union](/images/10/10.2.union.png)
 
 For our example sets $\text{A}$ and $\text{B}$ above, the union would be equivalent to the following.
 
@@ -32,7 +32,7 @@ $$
 
 The intersection of two sets, $\text{A}$ and $\text{B}$, includes all the elements that belong to both $\text{A}$ and $\text{B}$. The following figure shows the Venn Diagram for the intersection of set $\text{A}$ and set B. In this diagram, the blue color denotes the elements of the set that are in $\text{A} \cap \text{B}$.
  
-![Set Union](../../images/10/10.2.intersect.png) 
+![Set Union](/images/10/10.2.intersect.png) 
 
 For our example sets $\text{A}$ and $\text{B}$ above, the union would be equivalent to the following.
 
@@ -44,7 +44,7 @@ $$
 
 The difference of two sets, $\text{A}$ and $\text{B}$, includes all the elements in $\text{A}$ that are not in $\text{B}$. The following figure shows the Venn Diagram for the difference between set $\text{A}$ and set $\text{B}$. In this diagram, the blue color denotes the elements of the set that are in $\text{A} \setminus \text{B}$.
 
-![Set Difference A](../../images/10/10.2.adiffb.png) 
+![Set Difference A](/images/10/10.2.adiffb.png) 
  
 For our example sets $\text{A}$ and $\text{B}$ above, $\text{A} \setminus \text{B}$ would be equivalent to the following.
 
@@ -54,7 +54,7 @@ $$
 
 It is important to realize that the set difference is not symmetrical, which means that the operation $\text{A} \setminus \text{B}$ does not result in the same set as $\text{B} \setminus \text{A}$. $\text{B} \setminus \text{A}$ is the set composed of the elements that belong to $\text{B}$ but not to $\text{A}$. The following figure shows the Ven Diagrams for $\text{B} \setminus \text{A}$.
 
-![Set Difference B](../../images/10/10.2.bdiffa.png) 
+![Set Difference B](/images/10/10.2.bdiffa.png) 
  
 For our example sets $\text{A}$ and $\text{B}$ above, $\text{B} \setminus \text{A}$ would be equivalent to the following.
 
@@ -66,7 +66,7 @@ $$
 
 We say two sets are disjoint it they have no common elements. The `isDisjoint` operation returns `true` if two sets are disjoint and `false` if they are not. For example, sets $\text{A}$ and $\text{B}$ below are disjoint since they do not share any of the same numbers. A simple way of computing the value of `isDisjoint` is just to check to see if the intersection of the two sets is the empty set. If it is, then the two sets are disjoint.
 
-![Set Disjoint](../../images/10/10.2.disjoint.svg) 
+![Set Disjoint](/images/10/10.2.disjoint.svg) 
 
 $$
 \text{A} \cap \text{B} = \emptyset \implies \text{A and B are disjoint}
@@ -76,7 +76,7 @@ $$
 
 We say a set $\text{B}$ is a subset of set $\text{A}$ if all of the elements of set $\text{B}$ are also elements of set A. The `isSubset` operation is an operation that determines if the subset relationship is `true` or `false` for any two sets. In the example below, set $\text{B}$ is a subset of set $\text{A}$ since all the elements of $\text{B}$ are also in the set A. Notice also that if set $\text{A}$ and $\text{B}$ are equal, then $\text{A}$ is a subset of $\text{B}$ and $\text{B}$ is a subset of $\text{A}$ as well!
 
-![Set Subset](../../images/10/10.2.subset.svg) 
+![Set Subset](/images/10/10.2.subset.svg) 
  
 Like the `isDisjoint` operation above, we can compute the `isSubset` operation using the intersection of sets $\text{A}$ and $\text{B}$. If set $\text{B}$ is equal to the intersection of sets $\text{A}$ and $\text{B}$, then $\text{B}$ is a subset of $\text{A}$.
 
@@ -119,7 +119,7 @@ $$
 
 Another way to think about the product is to consider a matrix where the columns are the elements of the first set and the rows are elements of the second set. Then, each cell in the matrix contains the ordered pair where the first element is the column and the second element is the row. The matrix for our example would look like the following.
 
-![Product Table](../../images/10/10.2.product.svg)
+![Product Table](/images/10/10.2.product.svg)
  
 ## Powerset 
 

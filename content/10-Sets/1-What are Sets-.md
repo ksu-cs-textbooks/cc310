@@ -27,7 +27,7 @@ There are also a couple of important sets that we need to know.
 
 If we want to visualize sets and the relationships between them, we can view them using a Venn Diagram as shown below.
 
-![Set Venn Diagram](../../images/10/10.1.set.svg)
+![Set Venn Diagram](/images/10/10.1.set.svg)
 
 The drawing is equivalent to saying the following.
 
@@ -38,9 +38,9 @@ $$
 
 If we overlap the two sets so that the common elements (in this case, 15 and 32) are in the overlapping section, we see that we do not get two copies of 15 and 32, but that we have just one copy of each. Thus, we have preserved the property that sets do not have duplicates. This overlapping area is called the intersection of the two sets.
 
-![Set Venn Diagram Overlap](../../images/10/10.1.overlap.svg)
+![Set Venn Diagram Overlap](/images/10/10.1.overlap.svg)
  
 In the following operations on sets, we will use variants of the diagram below, which shows set $\text{A}$ and set $\text{B}$ overlapping. The yellow part of set $\text{A}$ denotes elements of set $\text{A}$ that are not in set $\text{B}$, while the green part of $\text{B}$ denotes elements of set $\text{B}$ that are not in set $\text{A}$. The orange part of the diagram denotes the intersection of $\text{A}$ and $\text{B}$, which includes elements of the sets that exist in both set $\text{A}$ and set $\text{B}$.
 
-![Set Union Venn Diagram](../../images/10/10.1.union.png)
+![Set Union Venn Diagram](/images/10/10.1.union.png)
  

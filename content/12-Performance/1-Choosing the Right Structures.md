@@ -21,7 +21,7 @@ By answering the questions above in the order they are presented, we should be a
 
 As it turns out, these three questions are very similar to a classic (trilemma)[https://en.wikipedia.org/wiki/Trilemma] from the world of business, as shown in the diagram below.
 
-![Trilemma Diagram](../../images/12/12.1.trilemma.svg)^[File:Project-triangle.svg. (2020, January 12). Wikimedia Commons, the free media repository. Retrieved 21:09, April 30, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Project-triangle.svg&oldid=386979544.]
+![Trilemma Diagram](/images/12/12.1.trilemma.svg)^[File:Project-triangle.svg. (2020, January 12). Wikimedia Commons, the free media repository. Retrieved 21:09, April 30, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Project-triangle.svg&oldid=386979544.]
  
 In the world of software engineering, it is said that the process of developing a new program can only have two of the three factors of "good", "fast", and "cheap". The three questions above form a similar trilemma. Put another way, there will always be competing tradeoffs when selecting a data structure for our programs. 
 

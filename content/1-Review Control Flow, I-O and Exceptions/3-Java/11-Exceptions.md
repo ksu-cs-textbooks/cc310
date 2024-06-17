@@ -13,9 +13,9 @@ There isn't really a standard way to display exceptions in flowcharts and pseudo
 
 | Operation | Flowchart | Pseudocode |
 |:---------:|:---------:|:-----------|
-| Throw Exception | ![Throw Exception Flowchart Block](../../../images/1/1.3.x.11.exception1.png) | <pre><code>throw INPUT EXCEPTION</code></pre> |
-| Catch Exception | ![Catch Exception in String Flowchart Block](../../../images/1/1.3.x.11.exception2.png) | <pre><code>catch INPUT EXCEPTION</code></pre> |
-| Try-Catch Example | ![Try-Catch Example Flowchart Blocks](../../../images/1/1.3.x.11.exception3.png) | <pre><code>X = 0<br>try<br>    input X<br>    if X &lt; 0<br>        throw INPUT EXCEPTION<br>    end if<br>    print X<br>catch INPUT EXCEPTION<br>    print "Error"<br>end try</code></pre> |
+| Throw Exception | ![Throw Exception Flowchart Block](/images/1/1.3.x.11.exception1.png) | <pre><code>throw INPUT EXCEPTION</code></pre> |
+| Catch Exception | ![Catch Exception in String Flowchart Block](/images/1/1.3.x.11.exception2.png) | <pre><code>catch INPUT EXCEPTION</code></pre> |
+| Try-Catch Example | ![Try-Catch Example Flowchart Blocks](/images/1/1.3.x.11.exception3.png) | <pre><code>X = 0<br>try<br>    input X<br>    if X &lt; 0<br>        throw INPUT EXCEPTION<br>    end if<br>    print X<br>catch INPUT EXCEPTION<br>    print "Error"<br>end try</code></pre> |
 
 ## Exceptions in Java
 
