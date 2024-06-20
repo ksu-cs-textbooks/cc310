@@ -3,7 +3,7 @@ title: "Max and Min - Linear"
 weight: 40
 pre: "8. "
 ---
-{{% youtube dByG6Fv9VB4 %}}
+{{< youtube dByG6Fv9VB4  >}}
 
 Let’s start by considering one number from the list at a time. 
 

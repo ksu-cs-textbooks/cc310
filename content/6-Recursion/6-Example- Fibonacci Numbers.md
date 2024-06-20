@@ -3,7 +3,7 @@ title: "Example: Fibonacci Numbers"
 weight: 30
 pre: "6. "
 ---
-{{% youtube Qw_SJrtYI88 %}}
+{{< youtube Qw_SJrtYI88  >}}
 
 Next, we will look at calculating Fibonacci numbers using a tree recursive algorithm. Fibonacci numbers are given by the following recursive formula. 
 $$

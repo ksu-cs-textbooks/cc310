@@ -3,7 +3,7 @@ title: "Choosing the Right Structures"
 weight: 5
 pre: "1. "
 ---
-{{% youtube kP_7u0Aw10w %}}
+{{< youtube kP_7u0Aw10w  >}}
 
 There are several linear data structures that we can use in our programs, including stacks, queues, lists, sets, and hash tables. In this course, we have covered each of these structures in detail. However, as a programmer, one of the most difficult decisions we will make when developing a program is the choice of which data structure to use. Sometimes the choice may be obvious based on the data we plan to store or the algorithms we need to perform, but in practice that happens very rarely. Instead, we are faced with competing tradeoffs between various factors such as ease of use, performance, and simplicity. 
 

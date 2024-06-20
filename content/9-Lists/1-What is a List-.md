@@ -3,7 +3,7 @@ title: "What is a List?"
 weight: 5
 pre: "1. "
 ---
-{{% youtube F1uVJeej-WM %}}
+{{< youtube F1uVJeej-WM  >}}
 
 A list is a data structure that holds a sequence of data, such as the shopping list shown below. Each list has a head item and a tail item, with all other items placed linearly between the head and the tail. As we pick up items in the store, we will remove them, or cross them off the list. Likewise, if we get a text from our housemate to get some cookies, we can add them to the list as well.
 

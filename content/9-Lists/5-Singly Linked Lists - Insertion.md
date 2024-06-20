@@ -3,7 +3,7 @@ title: "Singly Linked Lists - Insertion"
 weight: 25
 pre: "5. "
 ---
-{{% youtube 2TVtKD6jvQw %}}
+{{< youtube 2TVtKD6jvQw  >}}
 
 Given the structure of our linked list, we can easily insert a new node at any location in the list. However, for our purposes we are generally interested in inserting new nodes at the beginning of the list, at some specific location in the list, or in the appropriate order if the list is sorted.
 

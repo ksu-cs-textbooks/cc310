@@ -3,7 +3,7 @@ title: "Tree Recursion"
 weight: 25
 pre: "5. "
 ---
-{{% youtube R6rXXaVx7DU %}}
+{{< youtube R6rXXaVx7DU  >}}
 
 In the previous examples we saw recursive functions that call themselves one time within the code. This type of recursion is called _linear recursion_, where head and tail recursion are two specific types of linear recursion.
 

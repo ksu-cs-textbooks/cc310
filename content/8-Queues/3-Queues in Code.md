@@ -3,7 +3,7 @@ title: "Queues in Code"
 weight: 15
 pre: "3. "
 ---
-{{% youtube J0wMfzsq42c %}}
+{{< youtube J0wMfzsq42c  >}}
 
 How do we implement queues in code? Like we did with stacks, we will use an array, which is an easily understandable way to implement queues. We will store data directly in the array and use special `start` and `end` variables to keep track of the start of the queue and the end of the queue.
 

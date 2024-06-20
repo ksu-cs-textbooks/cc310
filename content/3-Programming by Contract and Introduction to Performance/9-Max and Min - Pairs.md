@@ -3,7 +3,7 @@ title: "Max and Min - Pairs"
 weight: 45
 pre: "9. "
 ---
-{{% youtube C0yA_0H2rdg %}}
+{{< youtube C0yA_0H2rdg  >}}
 
 Another solution consists of comparing the numbers in pairs, instead of one at a time.
 

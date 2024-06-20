@@ -3,7 +3,7 @@ title: "Stacks in Code"
 weight: 15
 pre: "3. "
 ---
-{{% youtube MBAZYibDwfk %}}
+{{< youtube MBAZYibDwfk  >}}
 
 How do we implement stacks in code? One way would be to use something we already understand, an array. Remember that arrays allow us to store multiple items, where each entry in the array has a unique index number. This is a great way to implement stacks. We can store items directly in the array and use a special `top` variable to hold the index of the top of the stack.
 

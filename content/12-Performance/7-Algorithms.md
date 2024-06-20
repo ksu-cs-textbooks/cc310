@@ -3,7 +3,7 @@ title: "Algorithms"
 weight: 35
 pre: "7. "
 ---
-{{% youtube pu5SPVUescU %}}
+{{< youtube pu5SPVUescU  >}}
 
 We can examine the performance of the algorithms we use in a similar manner. Once again, we are concerned with both the memory usage and processing time of the algorithm. In this case, we are concerned with the amount of memory required to perform the algorithm that is above and beyond the memory used to store the data in the first place.
 

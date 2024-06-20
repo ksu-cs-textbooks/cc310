@@ -3,7 +3,7 @@ title: "What is a Stack?"
 weight: 5
 pre: "1. "
 ---
-{{% youtube QgA-q4kOgjk %}}
+{{< youtube QgA-q4kOgjk  >}}
 
 A stack is a data structure with two main operations that are simple in concept. One is the `push` operation that lets you put data into the data structure and the other is the `pop` operation that lets you get data out of the structure. 
 

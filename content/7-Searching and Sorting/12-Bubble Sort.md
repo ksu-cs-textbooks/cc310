@@ -3,7 +3,7 @@ title: "Bubble Sort"
 weight: 60
 pre: "12. "
 ---
-{{% youtube IyyfpADUpaU %}}
+{{< youtube IyyfpADUpaU  >}}
 
 Next, let's look at another sorting algorithm, bubble sort. The basic idea behind bubble sort is to continuously iterate through the array and swap adjacent elements that are out of order. As a side effect of this process, the largest element in the array will be "bubbled" to the end of the array after the first iteration. Subsequent iterations will do the same for each of the next largest elements, until eventually the entire list is sorted.  
 

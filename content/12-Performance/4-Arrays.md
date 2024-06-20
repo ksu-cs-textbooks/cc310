@@ -3,7 +3,7 @@ title: "Arrays"
 weight: 20
 pre: "4. "
 ---
-{{% youtube An_SzFppNJA %}}
+{{< youtube An_SzFppNJA  >}}
 
 ## Unsorted Array
 

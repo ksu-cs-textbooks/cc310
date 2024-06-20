@@ -3,7 +3,7 @@ title: "Using Sets"
 weight: 25
 pre: "5. "
 ---
-{{% youtube TAkdPSAv1OA %}}
+{{< youtube TAkdPSAv1OA  >}}
 
 One of the most common uses of set operations is in database systems. While we will not create a full database system here, we will show you the basics of how they work using our set operations. Assume you have three sets of people:
 

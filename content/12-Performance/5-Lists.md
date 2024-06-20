@@ -3,7 +3,7 @@ title: "Lists"
 weight: 25
 pre: "5. "
 ---
-{{% youtube f8jtcC4p6BM %}}
+{{< youtube f8jtcC4p6BM  >}}
 
 ## Unsorted Linked List
 

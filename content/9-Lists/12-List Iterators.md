@@ -3,7 +3,7 @@ title: "List Iterators"
 weight: 60
 pre: "12. "
 ---
-{{% youtube iHeF6fzVIL8 %}}
+{{< youtube iHeF6fzVIL8  >}}
 
 An iterator is a set of operations a data structure provides to allow users to access the items in the data structure sequentially, without requiring them to know its underlying representation. There are many reasons users might want to access the data in a list. For instance, users may want to make a copy of their list or count the number of times a piece of data was stored in the list. Or, the user might want to delete all data from a list that matches a certain specification. All of these can be handled by the user using an iterator. 
 

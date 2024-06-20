@@ -13,7 +13,7 @@ In this course, however, we're going to look specifically at the algorithms and 
 
 ## Algorithmic Techniques
 
-{{% youtube u-GYlZYCG-8 %}}
+{{< youtube u-GYlZYCG-8  >}}
 
 An _algorithmic technique_, sometimes referred to as a _methodology_ or _paradigm_, is a particular way to design an algorithm. While there are a few commonly used algorithms across different data structures, many times each program may need a unique algorithm, or at least an adaptation of an existing algorithm. to perform its work.
 

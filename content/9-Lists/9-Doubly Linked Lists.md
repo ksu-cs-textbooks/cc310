@@ -3,7 +3,7 @@ title: "Doubly Linked Lists"
 weight: 45
 pre: "9. "
 ---
-{{% youtube qMF9aPVFwNo %}}
+{{< youtube qMF9aPVFwNo  >}}
 
 With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list. However, we often had to use two pointers when manipulating the list to allow us to access the previous node in the list as well as the current node. One way to solve this problem and make our list even more flexible is to allow a node to point at both the previous node in the list as well as the next node in the list. We call this a doubly linked list.
 

@@ -3,7 +3,7 @@ title: "Quicksort"
 weight: 90
 pre: "18. "
 ---
-{{% youtube 8_jc6gP0RXY %}}
+{{< youtube 8_jc6gP0RXY  >}}
 
 The last sorting algorithm we will review in this module is quicksort. Quicksort is another example of a recursive, divide and conquer sorting algorithm, and at first glance it may look very similar to merge sort. However, quicksort uses a different process for dividing the array, and that can produce some very interesting results. 
 

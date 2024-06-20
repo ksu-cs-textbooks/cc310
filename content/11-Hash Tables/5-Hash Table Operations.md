@@ -3,7 +3,7 @@ title: "Hash Table Operations"
 weight: 25
 pre: "5. "
 ---
-{{% youtube tpEPdUwW4M8 %}}
+{{< youtube tpEPdUwW4M8  >}}
 
 The `HashTable` class has three attributes that provide the basic data structure and parameters we need to efficiently manage our table. 
 

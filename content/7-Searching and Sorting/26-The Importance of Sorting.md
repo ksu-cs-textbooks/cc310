@@ -3,7 +3,7 @@ title: "The Importance of Sorting"
 weight: 130
 pre: "26. "
 ---
-{{% youtube 09ziwYSD1vc %}}
+{{< youtube 09ziwYSD1vc  >}}
 
 Let's go back and look at the performance of our sorting algorithms, now that we know how quickly binary search can find a particular value in an array. Let's add the function $\text{lg}(N)$ to our graph from earlier, shown below.
 

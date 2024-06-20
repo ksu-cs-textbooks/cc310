@@ -3,7 +3,7 @@ title: "Singly Linked Lists"
 weight: 20
 pre: "4. "
 ---
-{{% youtube U-abMlixblw %}}
+{{< youtube U-abMlixblw  >}}
 
 ## Linked Node
 

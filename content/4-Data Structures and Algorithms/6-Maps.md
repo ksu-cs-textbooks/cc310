@@ -3,7 +3,7 @@ title: "Maps"
 weight: 30
 pre: "6. "
 ---
-{{% youtube 4W8-6Feqk8k %}}
+{{< youtube 4W8-6Feqk8k  >}}
 
 ![Map Diagram](/images/4/4.6.map.png)
 

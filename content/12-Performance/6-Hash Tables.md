@@ -3,7 +3,7 @@ title: "Hash Tables"
 weight: 30
 pre: "6. "
 ---
-{{% youtube 3l7NGg0YsBk %}}
+{{< youtube 3l7NGg0YsBk  >}}
 
 ## Hash Tables
 

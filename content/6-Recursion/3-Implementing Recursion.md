@@ -3,7 +3,7 @@ title: "Implementing Recursion"
 weight: 15
 pre: "3. "
 ---
-{{% youtube CwAAKKRSWI0 %}}
+{{< youtube CwAAKKRSWI0  >}}
 
 ```tex
 function REVERSE2()			    (1)

@@ -3,7 +3,7 @@ title: "Programming by Contract"
 weight: 5
 pre: "1. "
 ---
-{{% youtube Ir93pt3KO7c %}}
+{{< youtube Ir93pt3KO7c  >}}
 
 In this course, we will learn how to develop several different data structures, and then use those data structures in programs that implement several different types of algorithms. However, one of the most difficult parts of programming is clearly explaining what a program should do and how it should perform.
 

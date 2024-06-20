@@ -3,7 +3,7 @@ title: "Queues in the Real World"
 weight: 10
 pre: "2. "
 ---
-{{% youtube mkXpzkxGjz4 %}}
+{{< youtube mkXpzkxGjz4  >}}
 
 The name for queues comes the word in British English used to describe a line of people. Instead of forming lines to wait for some service, British form queues. Thus, when we think of queues, often the first picture to come to mind is a group of people standing in a line. Of course, this is exactly how a computer queue operates as well. The first person in line gets served first. If I get into line before you do, then I will be served before you do.
 

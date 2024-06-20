@@ -3,7 +3,7 @@ title: "Sets in Code"
 weight: 15
 pre: "3. "
 ---
-{{% youtube qaO4iLtGo4o %}}
+{{< youtube qaO4iLtGo4o  >}}
 
 Different data structures can be used to represents sets and efficiently support their operations. Among the data structures considered so far, it is possible to use both lists and arrays to represent sets. Even though sets by definition are unordered, we could store the elements in order, which has its pros and cons. Storing elements in order will speed up the `contains` operation since we won't have to check each element in the set. However, it will also slow down insertions since we have to insert the elements in order. 
 

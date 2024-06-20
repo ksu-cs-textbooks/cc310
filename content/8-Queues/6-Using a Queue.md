@@ -3,7 +3,7 @@ title: "Using a Queue"
 weight: 30
 pre: "6. "
 ---
-{{% youtube 05zPOJ8B5cA %}}
+{{< youtube 05zPOJ8B5cA  >}}
 
 Queues are useful in many applications. Classic real-world software which uses queues includes the scheduling of tasks, sharing of resources, and processing of messages in the proper order. A common need is to schedule tasks to be executed based on their priority. This type of scheduling can be done in a computer or on an assembly line floor, but the basic concept is the same. 
 

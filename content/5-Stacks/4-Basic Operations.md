@@ -3,7 +3,7 @@ title: "Basic Operations"
 weight: 20
 pre: "4. "
 ---
-{{% youtube _VILq37deuY %}}
+{{< youtube _VILq37deuY  >}}
 
 We have already seen two basic stack operations: `push` and `pop`. However, there are others that make the stack much easier to use. These basic operations are:
 

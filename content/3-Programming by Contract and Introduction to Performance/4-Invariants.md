@@ -3,7 +3,7 @@ title: "Invariants"
 weight: 20
 pre: "4. "
 ---
-{{% youtube KxNJqvU31oI %}}
+{{< youtube KxNJqvU31oI  >}}
 
 Another concept related to preconditions and postconditions is the _loop invariant_. A loop invariant is a statement should be true after each iteration of a loop, provided the loop's _preconditions_ are all true before the start of the loop. Yes, that's right---we can think of a loop as a miniature method within a method, with its own set of preconditions and postconditions. 
 

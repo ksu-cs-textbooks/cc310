@@ -3,7 +3,7 @@ title: "1 Java Standard Library"
 weight: 5
 pre: "1. "
 ---
-{{% youtube O82V_nPufjc %}}
+{{< youtube O82V_nPufjc  >}}
 
 Both Java and Python include standard implementations of each of the data structures we have learned about in this course. While it is very useful and interesting from an academic perspective to build our own linked lists and hash tables, in practice we would rarely do so. In this section, we will briefly introduce the standard library versions of each data structure and provide references to where we can find more information about each one and how to use them.
 

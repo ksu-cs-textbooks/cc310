@@ -3,7 +3,7 @@ title: "Hash Table Based Sets"
 weight: 30
 pre: "6. "
 ---
-{{% youtube j5TWEWJgJkk %}}
+{{< youtube j5TWEWJgJkk  >}}
 
 In this section, we walk through the pseudocode for some basic set operations built on our hash table class above. In this new version of the set class, we declare `mySet` as a hash table and use that throughout our operations.
 

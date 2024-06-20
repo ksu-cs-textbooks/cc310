@@ -3,7 +3,7 @@ title: "Selection Sort"
 weight: 45
 pre: "9. "
 ---
-{{% youtube 76NNveliJQM %}}
+{{< youtube 76NNveliJQM  >}}
 
 The first sorting algorithm we'll learn about is _selection sort_. The basic idea behind selection sort is to search for the minimum value in the whole container, and place it in the first index. Then, repeat the process for the second smallest value and the second index, and so on until the container is sorted. 
 

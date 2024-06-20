@@ -3,7 +3,7 @@ title: "Linear Search"
 weight: 10
 pre: "2. "
 ---
-{{% youtube -V75q4CnlXw %}}
+{{< youtube -V75q4CnlXw  >}}
 
 When searching for a number in an unordered array, our search algorithms are typically designed as functions that take two parameters:
 

@@ -3,7 +3,7 @@ title: "Time Complexity"
 weight: 50
 pre: "10. "
 ---
-{{% youtube J_o9ud01yHU %}}
+{{< youtube J_o9ud01yHU  >}}
 
 It is very useful to compare the two solutions to choose one. In general, you can compare the two solutions by considering:
 

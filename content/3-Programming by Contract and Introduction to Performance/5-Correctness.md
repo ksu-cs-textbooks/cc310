@@ -3,7 +3,7 @@ title: "Correctness"
 weight: 25
 pre: "5. "
 ---
-{{% youtube Yc1u0ja3iVY %}}
+{{< youtube Yc1u0ja3iVY  >}}
 
 If we have defined the correct preconditions, postconditions, and invariants for our code, we can then use those to prove that our code correctly performs its intended operation.
 

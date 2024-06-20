@@ -3,7 +3,7 @@ title: "Comparing Data Structures"
 weight: 15
 pre: "3. "
 ---
-{{% youtube Zxn0f78fH0w %}}
+{{< youtube Zxn0f78fH0w  >}}
 
 One of the best ways to compare data structures is to look at the common operations that they can perform. For this analysis, we've chosen to analyze the following four operations:
 

@@ -3,7 +3,7 @@ title: "List-Based Stacks"
 weight: 40
 pre: "8. "
 ---
-{{% youtube Chs-MJlCbdg %}}
+{{< youtube Chs-MJlCbdg  >}}
 
 If we implement a stack using a singly linked list, we can simplify many things about the implementation. First of all, we can totally remove the `isFull`, `doubleCapacity`, and `halveCapacity` operations since we can grow and shrink our list-based stack as needed. The rest of the operations can be implemented directly with list operations. The front of the list will be the top of the stack since the operations to insert and remove items from the front of list are very efficient.
 

@@ -3,7 +3,7 @@ title: "What are Sets?"
 weight: 5
 pre: "1. "
 ---
-{{% youtube XJSPN3tx7As %}}
+{{< youtube XJSPN3tx7As  >}}
 
 A set is a collection of elements that are usually related to each other. They can be sets of numbers, letters, people, cars, or even sets themselves!  Thus, the elements stored in a stack, queue or list can all be considered as sets. When we define the elements in a set, we typically enclose them in curly brackets as follows. 
 

@@ -3,7 +3,7 @@ title: "List-Based Queues"
 weight: 65
 pre: "13. "
 ---
-{{% youtube abQW7BnD4_c %}}
+{{< youtube abQW7BnD4_c  >}}
 
 Implementing a queue with a doubly linked list is straightforward and efficient. The core queue operations (`enqueue`, `dequeue`, `isEmpty`, and `peek`) can all be implemented by directly calling list operations that run in constant time. The only other major operation is the `toString` operation, which is also implemented by directly calling the list `toString` operation; however, it runs in order $N$ time due to the fact that the list `toString` operation must iterate through each item in the list.
 

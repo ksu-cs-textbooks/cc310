@@ -3,7 +3,7 @@ title: "Basic Operations"
 weight: 20
 pre: "4. "
 ---
-{{% youtube htP3pacx1fI %}}
+{{< youtube htP3pacx1fI  >}}
 
 We have already seen the pseudocode for the two key operations for queues: `enqueue` and `dequeue`. However, there are several others that make the queue data structure much easier to use:
 

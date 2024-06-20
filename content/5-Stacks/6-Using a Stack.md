@@ -3,7 +3,7 @@ title: "Using a Stack"
 weight: 30
 pre: "6. "
 ---
-{{% youtube z-W8VdeqjbE %}}
+{{< youtube z-W8VdeqjbE  >}}
 
 Stacks are useful in many applications. Classic real-world software that uses stacks includes the undo feature in a text editor, or the forward and back features of web browsers. In a text editor, each user action is pushed onto the stack as it is performed. Then, if the user wants to undo an action, the text editor simply pops the stack to get the last action performed, and then undoes the action. The redo command can be implemented as a second stack. In this case, when actions are popped from the stack in order to undo them, they are pushed onto the redo stack.
 
