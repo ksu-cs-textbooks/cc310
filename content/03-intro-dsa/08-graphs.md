@@ -3,7 +3,10 @@ title: "Graphs"
 weight: 40
 pre: "8. "
 ---
-![Graph Data Structure](/images/4/4.8.graph.svg)^[File:Directed acyclic graph 2.svg. (2016, May 3). Wikimedia Commons, the free media repository. Retrieved 03:05, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Directed_acyclic_graph_2.svg&oldid=195167720.]
+
+![Graph Data Structure](/images/4/4.8.graph.svg)[^1]
+
+[^1]: File:Directed acyclic graph 2.svg. (2016, May 3). Wikimedia Commons, the free media repository. Retrieved 03:05, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Directed_acyclic_graph_2.svg&oldid=195167720.
 
 The most general version of a non-linear data structure is the _graph_, as shown in the diagram above. A graph is a set of _nodes_ that contain data, as well as a set of _edges_ that link two nodes together. Edges themselves may also contain data.  
 

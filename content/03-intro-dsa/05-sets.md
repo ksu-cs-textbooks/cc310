@@ -3,6 +3,7 @@ title: "Sets"
 weight: 25
 pre: "5. "
 ---
+
 ![Set Diagram](/images/4/4.5.set.png)
 
 Another linear data structure is known as a _set_. A _set_ is very similar to a list, but with two major differences:
@@ -25,13 +26,17 @@ Again, many of these operations may be familiar from their use in various math c
 
 In addition, we can easily think of set operations as boolean logic operators. For example, the set operation **union** is very similar to the boolean operator **or**, as seen in the diagram below.
 
-![Set Union](/images/4/4.5.union.svg)^[File:Venn0111.svg. (2019, November 15). Wikimedia Commons, the free media repository. Retrieved 02:37, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Venn0111.svg&oldid=375571745.]
+![Set Union](/images/4/4.5.union.svg)[^1]
+
+[^1]: File:Venn0111.svg. (2019, November 15). Wikimedia Commons, the free media repository. Retrieved 02:37, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Venn0111.svg&oldid=375571745.
 
 As long as an item is contained in one set _or_ the other, it is included in the union of the sets. 
 
 Similarly, the same comparison works for the set operation **intersection** and the boolean **and** operator.
 
-![Set Intersection](/images/4/4.5.intersect.svg)^[File:Venn0001.svg. (2019, November 15). Wikimedia Commons, the free media repository. Retrieved 02:37, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Venn0001.svg&oldid=375571733.]
+![Set Intersection](/images/4/4.5.intersect.svg)[^2]
+
+[^2]: File:Venn0001.svg. (2019, November 15). Wikimedia Commons, the free media repository. Retrieved 02:37, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Venn0001.svg&oldid=375571733.
 
 Once again, if an item is contained in the first set _and_ the second set, it is contained in the intersection of those sets.
 

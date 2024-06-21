@@ -2,7 +2,9 @@
 title: "Divide and Conquer"
 weight: 65
 pre: "13. "
+disableMathJax: false
 ---
+
 The next most common algorithmic technique is _divide and conquer_. A divide and conquer algorithm works just like it sounds. First, it will divide the problem into at least two or more smaller problems, and then it will try to solve each of those problems individually. It might even try to subdivide those smaller problems again and again to finally get to a small enough problem that it is easy to solve.
 
 A great real-world example of using a divide and conquer approach to solving a problem is when we need to look for something that we've lost around the house. Instead of trying to search the entire house, we can subdivide the problem into smaller parts by looking in each room separately. Then, within each room, we can even further subdivide the problem by looking at each piece of furniture individually. By reducing the problem's size and complexity, it becomes easier to search through each individual piece of furniture in the house, either finding our lost object or eliminating that area as the likely location it will be found.

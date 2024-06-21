@@ -3,6 +3,7 @@ title: "Maps"
 weight: 30
 pre: "6. "
 ---
+
 {{< youtube 4W8-6Feqk8k  >}}
 
 ![Map Diagram](/images/4/4.6.map.png)
@@ -32,7 +33,9 @@ Later in this course, we'll devote an entire module to learning how to build our
 
 ## Hash Table
 
-![Hash Table Diagram](/images/4/4.6.hash.svg)^[File:Hash table 3 1 1 0 1 0 0 SP.svg. (2019, August 21). Wikimedia Commons, the free media repository. Retrieved 02:46, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Hash_table_3_1_1_0_1_0_0_SP.svg&oldid=362787583.]
+![Hash Table Diagram](/images/4/4.6.hash.svg)[^1]
+
+[^1]: File:Hash table 3 1 1 0 1 0 0 SP.svg. (2019, August 21). Wikimedia Commons, the free media repository. Retrieved 02:46, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Hash_table_3_1_1_0_1_0_0_SP.svg&oldid=362787583.
 
 One of the most common ways to implement the map data structure is through the use of a _hash table_. A hash table uses an array to store the _values_ in the map, and uses a special function called a _hash function_ to convert the given key to a simple number. This number represents the array index for the _value_. In that way, the same key will always find the value that was given.
 

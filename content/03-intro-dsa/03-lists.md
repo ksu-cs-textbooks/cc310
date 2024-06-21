@@ -2,6 +2,7 @@
 title: "Lists"
 weight: 15
 pre: "3. "
+disableMathJax: false
 ---
 The _list_ data structure is the simplest form of a linear data structure. As we can guess from the definition, a list is simply a grouping of data that is presented in a given order. With lists, not only do the elements in the list matter, but the order matters as well. It's not simply enough to state that elements $8$, $6$ and $7$ are in the list, but generally we also know that $8$ comes before $6$, which comes before $7$.
 

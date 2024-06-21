@@ -2,10 +2,14 @@
 title: "Greedy"
 weight: 70
 pre: "14. "
+disableMathJax: false
 ---
+
 Another algorithmic technique that we'll learn about is the _greedy_ technique. In a greedy algorithm, the program tries to build a solution one piece at a time. At each step, it will act "greedy" by choosing the piece that it thinks is the best choice for the solution based on the available information. Instead of trying every possible solution like a brute force algorithm or dividing the problem into smaller parts like the divide and conquer approach, a greedy algorithm will just try to construct the one best answer it can. 
 
-![Greedy Coins](/images/4/4.15.coins.png)^[File:Greedy algorithm 36 cents.svg. (2019, April 27). Wikimedia Commons, the free media repository. Retrieved 23:19, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Greedy_algorithm_36_cents.svg&oldid=347456702.]
+![Greedy Coins](/images/4/4.15.coins.png)[^1]
+
+[^1]: File:Greedy algorithm 36 cents.svg. (2019, April 27). Wikimedia Commons, the free media repository. Retrieved 23:19, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Greedy_algorithm_36_cents.svg&oldid=347456702.
 
 ## Example
 

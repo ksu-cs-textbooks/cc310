@@ -1,7 +1,7 @@
 ---
 title: "Programming by Contract"
-weight: 5
-pre: "1. "
+weight: 85
+pre: "17. "
 ---
 {{< youtube Ir93pt3KO7c  >}}
 

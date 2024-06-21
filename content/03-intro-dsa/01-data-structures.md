@@ -3,11 +3,14 @@ title: "Data Structures"
 weight: 5
 pre: "1. "
 ---
+
 One way to look at a computer program is to think of it as a list of instructions that the computer should follow. However, in another sense, many computer programs are simply ways to manipulate data to achieve a desired result. We've already written many programs that do this, from calculating the minimum and maximum values of a list of numbers, to storing and retrieving data about students and teachers in a school.
 
 As we start to consider our programs as simply ways to manipulate data, we may quickly realize that we are performing the same actions over and over again, or even treating data in many similar ways. Over time, these ideas have become the basis for several common _data structures_ that we may use in our programs. 
 
-![Tree Graphic](/images/4/4.1.tree_wiki.svg)^[File:Binary tree.svg. (2019, September 14). Wikimedia Commons, the free media repository. Retrieved 22:18, February 7, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Binary_tree.svg&oldid=365739199.]
+![Tree Graphic](/images/4/4.1.tree_wiki.svg)[^1]
+
+[^1]: File:Binary tree.svg. (2019, September 14). Wikimedia Commons, the free media repository. Retrieved 22:18, February 7, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Binary_tree.svg&oldid=365739199.
 
 ## Data Structure
 

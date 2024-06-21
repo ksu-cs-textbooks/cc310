@@ -502,6 +502,12 @@ cleanDestinationDir = true
     [markup.goldmark.renderer]
       # Render raw HTML
       unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
 
 ## Import Theme as Module
 ## https://mcshelby.github.io/hugo-theme-relearn/basics/installation/index.html#using-hugos-module-system

@@ -1,8 +1,9 @@
 ---
 title: "Unit Testing"
-weight: 30
-pre: "6. "
+weight: 100
+pre: "20. "
 ---
+
 Once we've written a program, how can we verify that it works correctly? There are many ways to do this, but one of the most common is _unit testing_.
 
 ## Unit Testing
@@ -32,9 +33,7 @@ Of course, this is a very simplistic unit test, and it would take several more u
 
 However, it is important to understand how this test relates to the preconditions and postconditions that were established on previous pages. Here, the unit tests creates a variable `ARRAY` which is an array of at least one numerical value. Therefore, it has met the preconditions for the `maximum()` method, so we can assume that if `maximum()` is written correctly, then the postconditions will be true once it is has executed. This is the key assumption behind unit tests.
 
-{{% notice tip %}}
-
-# Why Does This Matter?
+{{% notice tip "Why Does This Matter?" %}}
 
 In this course, you will be asked to build several data structures and implement algorithms that use those data structures. In the assignment descriptions, we may describe these methods using the preconditions and postconditions applied to them. Similarly, we'll learn about _structural invariants_ of data structures, which help us ensure that your data structures are always valid.
 
