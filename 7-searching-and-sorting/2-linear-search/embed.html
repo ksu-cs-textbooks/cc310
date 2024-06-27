@@ -13,7 +13,6 @@
 
   
 	
-		
 	  
 
   
@@ -23,6 +22,8 @@
 
   
 	
+		
+		
 	  
 
   
@@ -32,52 +33,52 @@
 
   
 	
-		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
 	
 		
+		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -98,11 +99,16 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -153,6 +159,10 @@
   
 	
 		
+	  
+
+  
+	
 	  
 
   
@@ -178,17 +188,26 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -219,10 +238,17 @@
   
 	
 		
+		
+		
+	  
+
+  
+	
 	  
 
   
 	
+		
 	  
 
   
@@ -248,6 +274,10 @@
   
 	
 		
+	  
+
+  
+	
 	  
 
   
@@ -268,11 +298,16 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -288,6 +323,7 @@
   
 	
 		
+		
 	  
 
   
@@ -318,6 +354,10 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
@@ -374,11 +414,11 @@
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -394,11 +434,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -1023,13 +1063,13 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
     <meta property="og:locale" content="en-us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Searching and Sorting">
-    <meta property="article:modified_time" content="2024-06-17T14:46:21-05:00">
+    <meta property="article:modified_time" content="2024-06-20T09:14:34-05:00">
     <meta itemprop="name" content="Linear Search :: CC 310 Textbook">
     <meta itemprop="description" content="When searching for a number in an unordered array, our search algorithms are typically designed as functions that take two parameters:
 the number to find, and the array to search. Our search functions then return an index to the number within the array.
 In this module, we will develop a couple of examples of searching an array for a specific number.
 Finding the first occurrence of a number in an unordered array is a fairly straightforward process.">
-    <meta itemprop="dateModified" content="2024-06-17T14:46:21-05:00">
+    <meta itemprop="dateModified" content="2024-06-20T09:14:34-05:00">
     <meta itemprop="wordCount" content="367">
     <title>Linear Search :: CC 310 Textbook</title>
     <link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/2-linear-search/" rel="canonical" type="text/html" title="Linear Search :: CC 310 Textbook">
@@ -1037,19 +1077,19 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
     <link href="/cc310/7-searching-and-sorting/2-linear-search/index.print.html" rel="alternate" type="text/html" title="Linear Search :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/2-linear-search/tele.html" rel="alternate" type="text/html" title="Linear Search :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1718653702" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1718653702" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1718653702" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1718653702" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1718653702" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1718653702" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1718653702" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1718653702" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1718653702" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1719521870" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521870" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1719521870" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1719521870" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521870" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1719521870" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1719521870" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521870" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1719521870" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1718653702" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1718653702" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1718653702" rel="stylesheet">
-  <link href="/cc310/css/print.css?1718653702" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1719521870" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1719521870" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1719521870" rel="stylesheet">
+  <link href="/cc310/css/print.css?1719521870" rel="stylesheet" media="print">
   
   
   
@@ -1072,7 +1112,7 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1718653702" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1719521870" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/7-searching-and-sorting/2-linear-search/embed.html">
@@ -1089,9 +1129,11 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
     
     
 
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/-V75q4CnlXw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
+
 <p>When searching for a number in an unordered array, our search algorithms are typically designed as functions that take two parameters:</p>
 <ol>
 <li>the number to find, and</li>
@@ -1100,8 +1142,8 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
 <p>Our search functions then return an index to the number within the array.</p>
 <p>In this module, we will develop a couple of examples of searching an array for a specific number.</p>
 <p>Finding the first occurrence of a number in an unordered array is a fairly straightforward process. A black box depiction of this function is shown below. There are two inputs&ndash;<code>array</code> and <code>number</code>&ndash;and a single output, the <code>index</code> of the first occurrence of the <code>number</code> in <code>array</code>.</p>
-<p><a href="#R-image-3a2eb508e1f790003748eac8eb68c105" class="lightbox-link"><img alt="Function Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.2.function.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3a2eb508e1f790003748eac8eb68c105"><img alt="Function Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.2.function.png"></a></p>
+<p><a href="#R-image-53d9982ed9032c2ec8619093cfbbbff8" class="lightbox-link"><img alt="Function Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.2.function.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-53d9982ed9032c2ec8619093cfbbbff8"><img alt="Function Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.2.function.png"></a></p>
 <p>We can also include the search function as a method inside of the container itself. In that case, we don’t have to accept the container as a parameter, since the method will know to refer to the object it is part of.</p>
 <p>Of course, when we begin designing an algorithm for our function we should think about two items immediately: the preconditions and the postconditions of the function. For this function, they are fairly simple.</p>
 <p>The precondition for <code>find</code> is that the <code>number</code> provided as input is compatible with the type of data held by the provided <code>array</code>. In this case, we have no real stipulations on <code>array</code>. It does not need to actually have any data in it, nor does it have to be ordered or unordered.</p>
@@ -1129,10 +1171,10 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
 
 
 
-<script src="/cc310/js/clipboard.min.js?1718653702" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1718653702" defer></script>
-<script src="/cc310/js/theme.js?1718653702" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719521870" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719521870" defer></script>
+<script src="/cc310/js/theme.js?1719521870" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1718653702" defer></script>
+<script src="/cc310/js/embed-iframe.js?1719521870" defer></script>
 </body>
 </html>

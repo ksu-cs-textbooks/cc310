@@ -13,7 +13,6 @@
 
   
 	
-		
 	  
 
   
@@ -23,6 +22,8 @@
 
   
 	
+		
+		
 	  
 
   
@@ -32,52 +33,52 @@
 
   
 	
-		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
 	
 		
+		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -98,11 +99,16 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -153,6 +159,10 @@
   
 	
 		
+	  
+
+  
+	
 	  
 
   
@@ -178,17 +188,26 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -219,10 +238,17 @@
   
 	
 		
+		
+		
+	  
+
+  
+	
 	  
 
   
 	
+		
 	  
 
   
@@ -248,6 +274,10 @@
   
 	
 		
+	  
+
+  
+	
 	  
 
   
@@ -268,11 +298,16 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -288,6 +323,7 @@
   
 	
 		
+		
 	  
 
   
@@ -318,6 +354,10 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
@@ -374,11 +414,11 @@
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -394,11 +434,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -1003,7 +1043,7 @@
     <description>Welcome! This page is the main page for Recursion</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2024 14:46:21 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 09:14:34 -0500</lastBuildDate>
     <atom:link href="https://ksu-cs-textbooks.github.io/cc310/6-recursion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing Recursion</title>
@@ -1031,7 +1071,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc310/6-recursion/4-example--factorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/6-recursion/4-example--factorials/</guid>
-      <description>The most popular example of using recursion is calculating the factorial of a positive integer $N$. The factorial of a positive integer $N$ is just the product of all the integers from $1$ to $N$. For example, the factorial of $5$, written as $5!$, is calculated as $5 * 4 * 3 * 2 * 1 = 120$. The definition of the factorial function itself is recursive. $$ \text{fact}(N) = N * \text{fact}(N - 1) $$ The corresponding pseudocode is shown below.</description>
+      <description>The most popular example of using recursion is calculating the factorial of a positive integer $N$. The factorial of a positive integer $N$ is just the product of all the integers from $1$ to $N$. For example, the factorial of $5$, written as $5!$, is calculated as $5 * 4 * 3 * 2 * 1 = 120$. The definition of the factorial function itself is recursive. $$&#xD;\text{fact}(N) = N * \text{fact}(N - 1)&#xD;$$ The corresponding pseudocode is shown below.</description>
     </item>
     <item>
       <title>Tree Recursion</title>
@@ -1045,7 +1085,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc310/6-recursion/6-example--fibonacci-numbers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/6-recursion/6-example--fibonacci-numbers/</guid>
-      <description>Next, we will look at calculating Fibonacci numbers using a tree recursive algorithm. Fibonacci numbers are given by the following recursive formula. $$ f_n = f_{n-1} + f_{n-2} $$ Notice that Fibonacci numbers are defined recursively, so they should be a perfect application of tree recursion! However, there are cases where recursive functions are too inefficient compared to an iterative version to be of practical use. This typically happens when the recursive solutions to a problem end up solving the same subproblems multiple times.</description>
+      <description>Next, we will look at calculating Fibonacci numbers using a tree recursive algorithm. Fibonacci numbers are given by the following recursive formula. $$&#xD;f_n = f_{n-1} + f_{n-2}&#xD;$$ Notice that Fibonacci numbers are defined recursively, so they should be a perfect application of tree recursion! However, there are cases where recursive functions are too inefficient compared to an iterative version to be of practical use. This typically happens when the recursive solutions to a problem end up solving the same subproblems multiple times.</description>
     </item>
     <item>
       <title>Example: Tower of Hanoi</title>

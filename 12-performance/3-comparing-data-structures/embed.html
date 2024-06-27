@@ -13,7 +13,6 @@
 
   
 	
-		
 	  
 
   
@@ -23,6 +22,8 @@
 
   
 	
+		
+		
 	  
 
   
@@ -32,52 +33,52 @@
 
   
 	
-		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
 	
 		
+		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -98,11 +99,16 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -153,6 +159,10 @@
   
 	
 		
+	  
+
+  
+	
 	  
 
   
@@ -178,17 +188,26 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -219,10 +238,17 @@
   
 	
 		
+		
+		
+	  
+
+  
+	
 	  
 
   
 	
+		
 	  
 
   
@@ -248,6 +274,10 @@
   
 	
 		
+	  
+
+  
+	
 	  
 
   
@@ -268,11 +298,16 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -288,6 +323,7 @@
   
 	
 		
+		
 	  
 
   
@@ -318,6 +354,10 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
@@ -374,11 +414,11 @@
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -394,11 +434,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -1017,11 +1057,11 @@ Insert – inserting a specific element into the structure, either in sorted ord
     <meta property="og:locale" content="en-us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Performance">
-    <meta property="article:modified_time" content="2024-06-17T14:46:21-05:00">
+    <meta property="article:modified_time" content="2024-06-20T09:14:34-05:00">
     <meta itemprop="name" content="Comparing Data Structures :: CC 310 Textbook">
     <meta itemprop="description" content="One of the best ways to compare data structures is to look at the common operations that they can perform. For this analysis, we’ve chosen to analyze the following four operations:
 Insert – inserting a specific element into the structure, either in sorted order, or at the appropriate place as required by the definition of a stack or queue. Access – accessing a desired element. For general data structures, this is the process of accessing an element by its index or key in the structure.">
-    <meta itemprop="dateModified" content="2024-06-17T14:46:21-05:00">
+    <meta itemprop="dateModified" content="2024-06-20T09:14:34-05:00">
     <meta itemprop="wordCount" content="370">
     <title>Comparing Data Structures :: CC 310 Textbook</title>
     <link href="https://ksu-cs-textbooks.github.io/cc310/12-performance/3-comparing-data-structures/" rel="canonical" type="text/html" title="Comparing Data Structures :: CC 310 Textbook">
@@ -1029,19 +1069,19 @@ Insert – inserting a specific element into the structure, either in sorted ord
     <link href="/cc310/12-performance/3-comparing-data-structures/index.print.html" rel="alternate" type="text/html" title="Comparing Data Structures :: CC 310 Textbook">
     <link href="/cc310/12-performance/3-comparing-data-structures/tele.html" rel="alternate" type="text/html" title="Comparing Data Structures :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1718653700" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1718653700" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1718653700" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1718653700" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1718653700" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1718653700" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1718653700" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1718653700" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1718653700" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1719521869" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521869" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1719521869" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1719521869" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521869" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1719521869" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1719521869" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521869" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1719521869" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1718653700" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1718653700" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1718653700" rel="stylesheet">
-  <link href="/cc310/css/print.css?1718653700" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1719521869" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1719521869" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1719521869" rel="stylesheet">
+  <link href="/cc310/css/print.css?1719521869" rel="stylesheet" media="print">
   
   
   
@@ -1064,7 +1104,7 @@ Insert – inserting a specific element into the structure, either in sorted ord
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1718653700" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1719521869" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/12-performance/3-comparing-data-structures/embed.html">
@@ -1081,9 +1121,11 @@ Insert – inserting a specific element into the structure, either in sorted ord
     
     
 
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/Zxn0f78fH0w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
+
 <p>One of the best ways to compare data structures is to look at the common operations that they can perform. For this analysis, we&rsquo;ve chosen to analyze the following four operations:</p>
 <ul>
 <li><strong>Insert</strong> – inserting a specific element into the structure, either in sorted order, or at the appropriate place as required by the definition of a stack or queue.</li>
@@ -1209,8 +1251,8 @@ Insert – inserting a specific element into the structure, either in sorted ord
 </tbody>
 </table>
 <p>We can also compare these processing times by graphing the equations used to describe them. The graph below shows several of the common orders that we have seen so far.</p>
-<p><a href="#R-image-56eeb603eebbb24a440e3fdbbd3b39be" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.3.graph.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-56eeb603eebbb24a440e3fdbbd3b39be"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.3.graph.png"></a></p>
+<p><a href="#R-image-1fad5b80ac7806bef4d2a5b3823696ff" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.3.graph.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1fad5b80ac7806bef4d2a5b3823696ff"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.3.graph.png"></a></p>
 <p>On the next few pages, we will discuss each data structure in brief, using this table to compare the performance of the various data structures we&rsquo;ve covered in this course.</p>
 
             <footer class="footline">
@@ -1226,10 +1268,10 @@ Insert – inserting a specific element into the structure, either in sorted ord
 
 
 
-<script src="/cc310/js/clipboard.min.js?1718653700" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1718653700" defer></script>
-<script src="/cc310/js/theme.js?1718653700" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719521869" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719521869" defer></script>
+<script src="/cc310/js/theme.js?1719521869" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1718653700" defer></script>
+<script src="/cc310/js/embed-iframe.js?1719521869" defer></script>
 </body>
 </html>

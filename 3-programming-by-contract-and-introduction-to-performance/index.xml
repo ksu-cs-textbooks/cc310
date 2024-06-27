@@ -13,7 +13,6 @@
 
   
 	
-		
 	  
 
   
@@ -23,6 +22,8 @@
 
   
 	
+		
+		
 	  
 
   
@@ -32,52 +33,52 @@
 
   
 	
-		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
 	
 		
+		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -98,11 +99,16 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -153,6 +159,10 @@
   
 	
 		
+	  
+
+  
+	
 	  
 
   
@@ -178,17 +188,26 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -219,10 +238,17 @@
   
 	
 		
+		
+		
+	  
+
+  
+	
 	  
 
   
 	
+		
 	  
 
   
@@ -248,6 +274,10 @@
   
 	
 		
+	  
+
+  
+	
 	  
 
   
@@ -268,11 +298,16 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -288,6 +323,7 @@
   
 	
 		
+		
 	  
 
   
@@ -318,6 +354,10 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
@@ -374,11 +414,11 @@
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -394,11 +434,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -1003,29 +1043,8 @@
     <description>Welcome! This page is the main page for Programming by Contract and Introduction to Performance</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2024 14:46:21 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 09:14:34 -0500</lastBuildDate>
     <atom:link href="https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Programming by Contract</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/1-programming-by-contract/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/1-programming-by-contract/</guid>
-      <description>In this course, we will learn how to develop several different data structures, and then use those data structures in programs that implement several different types of algorithms. However, one of the most difficult parts of programming is clearly explaining what a program should do and how it should perform.&#xA;So far, we’ve used UML class diagrams to discuss the structure of a program. It can give us information about the classes, attributes, and methods that our program will contain, as well as the overall relationships between the classes.</description>
-    </item>
-    <item>
-      <title>Preconditions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/2-preconditions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/2-preconditions/</guid>
-      <description>First, let’s discuss preconditions. A precondition is an expectation applied to any parameters and existing variables when a method or function is called. Phrased a different way, the preconditions should all be true before the method is called. If all of the preconditions are met, the function can proceed and is expected to function properly. However, if any one of the preconditions are not met, the function may either reach an exception, prompt the user to correct the issue, or produce invalid output, depending on how it is written.</description>
-    </item>
-    <item>
-      <title>Postconditions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/3-postconditions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/3-postconditions/</guid>
-      <description>Next, we can discuss postconditions. A postcondition is a statement that is guaranteed to be true after a method is executed, provided all of the preconditions were met. If any one of the preconditions were not met, then we can’t count on the postcondition being true either. This is the most important concept surrounding preconditions and postconditions.&#xA;Info If the preconditions of a method are all true when a method is called, then we may assume the postconditions are true after the method is complete, provided it is written correctly.</description>
-    </item>
     <item>
       <title>Invariants</title>
       <link>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/4-invariants/</link>
@@ -1039,13 +1058,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/5-correctness/</guid>
       <description>If we have defined the correct preconditions, postconditions, and invariants for our code, we can then use those to prove that our code correctly performs its intended operation.&#xA;In this course, we won’t ask you to do any of this yourself, but it is important to understand what is going on in the background and how this process works. We can use the concepts of preconditions and postconditions when grading your code using our Autograder—in fact, that’s really how it works!</description>
-    </item>
-    <item>
-      <title>Unit Testing</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/6-unit-testing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/6-unit-testing/</guid>
-      <description>Once we’ve written a program, how can we verify that it works correctly? There are many ways to do this, but one of the most common is unit testing.&#xA;Unit Testing Unit testing a program involves writing code that actually runs the program and verifies that it works correctly. In addition, many unit tests will also check that the program produces appropriate errors when given bad input, or even that it won’t crash when given invalid input.</description>
     </item>
     <item>
       <title>Performance of Algorithms</title>

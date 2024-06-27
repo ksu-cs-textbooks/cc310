@@ -13,7 +13,6 @@
 
   
 	
-		
 	  
 
   
@@ -23,6 +22,8 @@
 
   
 	
+		
+		
 	  
 
   
@@ -32,52 +33,52 @@
 
   
 	
-		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
 	
 		
+		
 	  
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -98,11 +99,16 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -153,6 +159,10 @@
   
 	
 		
+	  
+
+  
+	
 	  
 
   
@@ -178,17 +188,26 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -219,10 +238,17 @@
   
 	
 		
+		
+		
+	  
+
+  
+	
 	  
 
   
 	
+		
 	  
 
   
@@ -248,6 +274,10 @@
   
 	
 		
+	  
+
+  
+	
 	  
 
   
@@ -268,11 +298,16 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
 	  
 
   
@@ -288,6 +323,7 @@
   
 	
 		
+		
 	  
 
   
@@ -318,6 +354,10 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
@@ -374,11 +414,11 @@
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -394,11 +434,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -1005,18 +1045,25 @@
     <language>en-us</language>
     <atom:link href="https://ksu-cs-textbooks.github.io/cc310/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Review Control Flow, I/O and Exceptions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/</link>
-      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/1-review-control-flow-i-o-and-exceptions/</guid>
-      <description>Welcome! This page is the main page for Review Control Flow, I/O and Exceptions</description>
+      <title>Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cc310/00-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc310/00-introduction/</guid>
+      <description>Welcome to CC 310!</description>
     </item>
     <item>
-      <title>Review Object Oriented Programming</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/</link>
-      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/2-review-object-oriented-programming/</guid>
-      <description>Welcome! This page is the main page for Review Object Oriented Programming</description>
+      <title>Python Review</title>
+      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/</guid>
+      <description>All the stuff you should know already!</description>
+    </item>
+    <item>
+      <title>OOP Review</title>
+      <link>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/</guid>
+      <description>Review Object-Oriented Programming in Python</description>
     </item>
     <item>
       <title>Programming by Contract and Introduction to Performance</title>
@@ -1026,11 +1073,11 @@
       <description>Welcome! This page is the main page for Programming by Contract and Introduction to Performance</description>
     </item>
     <item>
-      <title>Data Structures and Algorithms</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/4-data-structures-and-algorithms/</link>
-      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/4-data-structures-and-algorithms/</guid>
-      <description>Welcome! This page is the main page for Data Structures and Algorithms</description>
+      <title>Introduction to Data Structures &amp; Algorithms</title>
+      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/</guid>
+      <description>The big introduction to new content!</description>
     </item>
     <item>
       <title>Stacks</title>
