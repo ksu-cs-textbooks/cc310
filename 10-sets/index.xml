@@ -1050,7 +1050,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/10-sets/1-what-are-sets-/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/10-sets/1-what-are-sets-/</guid>
-      <description>A set is a collection of elements that are usually related to each other. They can be sets of numbers, letters, people, cars, or even sets themselves! Thus, the elements stored in a stack, queue or list can all be considered as sets. When we define the elements in a set, we typically enclose them in curly brackets as follows.&#xA;$$&#xD;\text{A} = \{ \text{Emily}, \text{Don}, \text{Mohammed}, \text{Huichen} \}&#xD;$$ Here, $\text{A}$ is the name of the set and Emily, Don, Mohammed, and Huichen are members of set $\text{A}$.</description>
+      <description>YouTube Video A set is a collection of elements that are usually related to each other. They can be sets of numbers, letters, people, cars, or even sets themselves! Thus, the elements stored in a stack, queue or list can all be considered as sets. When we define the elements in a set, we typically enclose them in curly brackets as follows.&#xA;$$&#xD;\text{A} = \{ \text{Emily}, \text{Don}, \text{Mohammed}, \text{Huichen} \}&#xD;$$ Here, $\text{A}$ is the name of the set and Emily, Don, Mohammed, and Huichen are members of set $\text{A}$.</description>
     </item>
     <item>
       <title>Operations on Sets</title>
@@ -1064,7 +1064,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/10-sets/3-sets-in-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/10-sets/3-sets-in-code/</guid>
-      <description>Different data structures can be used to represents sets and efficiently support their operations. Among the data structures considered so far, it is possible to use both lists and arrays to represent sets. Even though sets by definition are unordered, we could store the elements in order, which has its pros and cons. Storing elements in order will speed up the contains operation since we won’t have to check each element in the set.</description>
+      <description>YouTube Video Different data structures can be used to represents sets and efficiently support their operations. Among the data structures considered so far, it is possible to use both lists and arrays to represent sets. Even though sets by definition are unordered, we could store the elements in order, which has its pros and cons. Storing elements in order will speed up the contains operation since we won’t have to check each element in the set.</description>
     </item>
     <item>
       <title>Set Operations</title>
@@ -1078,7 +1078,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/10-sets/5-using-sets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/10-sets/5-using-sets/</guid>
-      <description>One of the most common uses of set operations is in database systems. While we will not create a full database system here, we will show you the basics of how they work using our set operations. Assume you have three sets of people:&#xA;$$&#xD;\text{Students} = \{ \text{&#34;Vanessa&#34;}, \text{&#34;Travis&#34;}, \text{&#34;Lu&#34;}, \text{&#34;Cole&#34;}, \text{&#34;Jordan&#34;}, \text{&#34;Elaine&#34;}, \text{&#34;Caleb&#34;} \} \\&#xD;\text{Family} = \{ \text{&#34;Amy&#34;}, \text{&#34;Scott&#34;}, \text{&#34;Vanessa&#34;}, \text{&#34;Lauren&#34;}, \text{&#34;Zachary&#34;}, \text{&#34;Jordan&#34;}, \text{&#34;Caleb&#34;} \} \\&#xD;\text{Workers} = \{\text{&#34;</description>
+      <description>YouTube Video One of the most common uses of set operations is in database systems. While we will not create a full database system here, we will show you the basics of how they work using our set operations. Assume you have three sets of people:&#xA;$$&#xD;\text{Students} = \{ \text{&#34;Vanessa&#34;}, \text{&#34;Travis&#34;}, \text{&#34;Lu&#34;}, \text{&#34;Cole&#34;}, \text{&#34;Jordan&#34;}, \text{&#34;Elaine&#34;}, \text{&#34;Caleb&#34;} \} \\&#xD;\text{Family} = \{ \text{&#34;Amy&#34;}, \text{&#34;Scott&#34;}, \text{&#34;Vanessa&#34;}, \text{&#34;Lauren&#34;}, \text{&#34;Zachary&#34;}, \text{&#34;Jordan&#34;}, \text{&#34;Caleb&#34;} \} \\&#xD;\text{Workers} = \{\text{&#34;</description>
     </item>
     <item>
       <title>Sets Summary</title>

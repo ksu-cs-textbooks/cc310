@@ -1040,7 +1040,7 @@
   <channel>
     <title>Choosing the Right Structures :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/12-performance/1-choosing-the-right-structures/</link>
-    <description>There are several linear data structures that we can use in our programs, including stacks, queues, lists, sets, and hash tables. In this course, we have covered each of these structures in detail. However, as a programmer, one of the most difficult decisions we will make when developing a program is the choice of which data structure to use. Sometimes the choice may be obvious based on the data we plan to store or the algorithms we need to perform, but in practice that happens very rarely.</description>
+    <description>YouTube Video There are several linear data structures that we can use in our programs, including stacks, queues, lists, sets, and hash tables. In this course, we have covered each of these structures in detail. However, as a programmer, one of the most difficult decisions we will make when developing a program is the choice of which data structure to use. Sometimes the choice may be obvious based on the data we plan to store or the algorithms we need to perform, but in practice that happens very rarely.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/12-performance/1-choosing-the-right-structures/index.xml" rel="self" type="application/rss+xml" />

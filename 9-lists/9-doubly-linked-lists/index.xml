@@ -1040,7 +1040,7 @@
   <channel>
     <title>Doubly Linked Lists :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/9-lists/9-doubly-linked-lists/</link>
-    <description>With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list. However, we often had to use two pointers when manipulating the list to allow us to access the previous node in the list as well as the current node.</description>
+    <description>YouTube Video With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list. However, we often had to use two pointers when manipulating the list to allow us to access the previous node in the list as well as the current node.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/9-lists/9-doubly-linked-lists/index.xml" rel="self" type="application/rss+xml" />

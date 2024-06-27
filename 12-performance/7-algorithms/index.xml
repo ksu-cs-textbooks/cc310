@@ -1040,7 +1040,7 @@
   <channel>
     <title>Algorithms :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/12-performance/7-algorithms/</link>
-    <description>We can examine the performance of the algorithms we use in a similar manner. Once again, we are concerned with both the memory usage and processing time of the algorithm. In this case, we are concerned with the amount of memory required to perform the algorithm that is above and beyond the memory used to store the data in the first place.&#xA;When analyzing searching and sorting algorithms, we’ll assume that we are using arrays as our data structure, since they give us the best performance for accessing and swapping random elements quickly.</description>
+    <description>YouTube Video We can examine the performance of the algorithms we use in a similar manner. Once again, we are concerned with both the memory usage and processing time of the algorithm. In this case, we are concerned with the amount of memory required to perform the algorithm that is above and beyond the memory used to store the data in the first place.&#xA;When analyzing searching and sorting algorithms, we’ll assume that we are using arrays as our data structure, since they give us the best performance for accessing and swapping random elements quickly.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/12-performance/7-algorithms/index.xml" rel="self" type="application/rss+xml" />

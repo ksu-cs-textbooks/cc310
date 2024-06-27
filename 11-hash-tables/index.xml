@@ -1050,7 +1050,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/1-what-are-hash-tables-/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/1-what-are-hash-tables-/</guid>
-      <description>A hash table is an unordered collection of key-value pairs, where each key is unique. The great thing about hash tables is that they provide efficient insertion, removal and lookup operations that arrays and linked lists cannot match, such as:&#xA;Retrieval operations in an unsorted array run in order $N$ time, Retrieval operations in a sorted array using binary search run in constant time, but insertion operations run in order $N$ time, and Insertion operations run in constant time in linked lists, but retrieval operations run in order $N$ time.</description>
+      <description>YouTube Video A hash table is an unordered collection of key-value pairs, where each key is unique. The great thing about hash tables is that they provide efficient insertion, removal and lookup operations that arrays and linked lists cannot match, such as:&#xA;Retrieval operations in an unsorted array run in order $N$ time, Retrieval operations in a sorted array using binary search run in constant time, but insertion operations run in order $N$ time, and Insertion operations run in constant time in linked lists, but retrieval operations run in order $N$ time.</description>
     </item>
     <item>
       <title>Hash Tables in Code</title>
@@ -1078,14 +1078,14 @@
       <link>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/5-hash-table-operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/5-hash-table-operations/</guid>
-      <description>The HashTable class has three attributes that provide the basic data structure and parameters we need to efficiently manage our table.&#xA;size - captures the number of tuples stored in the table. It is initialized to 0 in line 7 of the constructor. loadFactor - is the load factor used to determine when to increase the capacity of the array. It is initialized to 0.75 in line 8 of the constructor.</description>
+      <description>YouTube Video The HashTable class has three attributes that provide the basic data structure and parameters we need to efficiently manage our table.&#xA;size - captures the number of tuples stored in the table. It is initialized to 0 in line 7 of the constructor. loadFactor - is the load factor used to determine when to increase the capacity of the array. It is initialized to 0.75 in line 8 of the constructor.</description>
     </item>
     <item>
       <title>Hash Table Based Sets</title>
       <link>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/6-hash-table-based-sets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/6-hash-table-based-sets/</guid>
-      <description>In this section, we walk through the pseudocode for some basic set operations built on our hash table class above. In this new version of the set class, we declare mySet as a hash table and use that throughout our operations.&#xA;mySet = new HashTable() When using a hash table to implement sets, one of the most important choices we must make is what to use for a key. This is really difficult in the case of sets since we do not know exactly what types of objects may be put into the set.</description>
+      <description>YouTube Video In this section, we walk through the pseudocode for some basic set operations built on our hash table class above. In this new version of the set class, we declare mySet as a hash table and use that throughout our operations.&#xA;mySet = new HashTable() When using a hash table to implement sets, one of the most important choices we must make is what to use for a key.</description>
     </item>
     <item>
       <title>Hash Tables Summary</title>

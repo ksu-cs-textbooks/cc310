@@ -1040,7 +1040,7 @@
   <channel>
     <title>Non-Linear Structures :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/07-non-linear/</link>
-    <description>1&#xA;The other type of data structure we can use in our programs is the non-linear data structure.&#xA;Broadly speaking, non-linear data structures allow us to store data across multiple dimensions, and there may be multiple paths through the data to get from one item to another. In fact, much of the information stored in the data structure has to do with the paths between elements more than the elements themselves.</description>
+    <description>YouTube Video 1&#xA;The other type of data structure we can use in our programs is the non-linear data structure.&#xA;Broadly speaking, non-linear data structures allow us to store data across multiple dimensions, and there may be multiple paths through the data to get from one item to another. In fact, much of the information stored in the data structure has to do with the paths between elements more than the elements themselves.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/07-non-linear/index.xml" rel="self" type="application/rss+xml" />

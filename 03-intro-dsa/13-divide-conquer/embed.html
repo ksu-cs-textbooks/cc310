@@ -1065,19 +1065,19 @@
     <link href="/cc310/03-intro-dsa/13-divide-conquer/index.print.html" rel="alternate" type="text/html" title="Divide and Conquer :: CC 310 Textbook">
     <link href="/cc310/03-intro-dsa/13-divide-conquer/tele.html" rel="alternate" type="text/html" title="Divide and Conquer :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1719522164" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522164" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1719522164" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1719522164" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522164" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1719522164" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1719522164" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522164" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1719522164" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1719522548" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522548" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1719522548" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1719522548" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522548" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1719522548" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1719522548" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522548" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1719522548" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1719522164" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1719522164" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1719522164" rel="stylesheet">
-  <link href="/cc310/css/print.css?1719522164" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1719522548" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1719522548" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1719522548" rel="stylesheet">
+  <link href="/cc310/css/print.css?1719522548" rel="stylesheet" media="print">
   
   
   
@@ -1100,7 +1100,7 @@
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1719522164" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1719522548" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/03-intro-dsa/13-divide-conquer/embed.html">
@@ -1120,16 +1120,16 @@
 <p>The next most common algorithmic technique is <em>divide and conquer</em>. A divide and conquer algorithm works just like it sounds. First, it will divide the problem into at least two or more smaller problems, and then it will try to solve each of those problems individually. It might even try to subdivide those smaller problems again and again to finally get to a small enough problem that it is easy to solve.</p>
 <p>A great real-world example of using a divide and conquer approach to solving a problem is when we need to look for something that we&rsquo;ve lost around the house. Instead of trying to search the entire house, we can subdivide the problem into smaller parts by looking in each room separately. Then, within each room, we can even further subdivide the problem by looking at each piece of furniture individually. By reducing the problem&rsquo;s size and complexity, it becomes easier to search through each individual piece of furniture in the house, either finding our lost object or eliminating that area as the likely location it will be found.</p>
 <h2 id="example---binary-search">Example - Binary Search</h2>
-<p><a href="#R-image-690e6ad56926957e5233d775572b2141" class="lightbox-link"><img alt="Sorted List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.14.list1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-690e6ad56926957e5233d775572b2141"><img alt="Sorted List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.14.list1.png"></a></p>
+<p><a href="#R-image-1db97febc0733f3fc85ca3d915b1558c" class="lightbox-link"><img alt="Sorted List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.14.list1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1db97febc0733f3fc85ca3d915b1558c"><img alt="Sorted List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.14.list1.png"></a></p>
 <p>One great example of a divide and conquer algorithm is the <em>binary search</em> algorithm. If we have a list of data that has already been sorted, as seen in the figure above, we can easily find any item in the list using a divide and conquer process.</p>
 <p>For example, let&rsquo;s say we want to find the value $19$ in that list. First, we can look at the item in the middle of the list, which is $23$. Is it our desired number? Unfortunately, it is not. So, we need to figure out how we can use it to divide our input into a smaller problem. Thankfully, we know the list is sorted, so we can use that to our advantage. If our desired number is less than the middle number, we know that it must exist in the first half of the list. Likewise, if it is greater than the middle number, it must be in the second half. In this case, since $19$ is less than $23$, we must only look at the first half of the list.</p>
-<p><a href="#R-image-d5e513ded015b002597d3d4ffa23fe22" class="lightbox-link"><img alt="Sorted List 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.14.list2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d5e513ded015b002597d3d4ffa23fe22"><img alt="Sorted List 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.14.list2.png"></a></p>
+<p><a href="#R-image-a6691bad88b65d6d8f54dbc3df948bc2" class="lightbox-link"><img alt="Sorted List 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.14.list2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a6691bad88b65d6d8f54dbc3df948bc2"><img alt="Sorted List 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.14.list2.png"></a></p>
 <p>Now we can just repeat that process, this time using only the first half of the original list. This is the powerful feature of a divide and conquer algorithm. Once we&rsquo;ve figured out how to divide our data, we can usually follow the same steps again to solve the smaller problems as well.</p>
 <p>Once again, we ask ourselves if $12$, the centermost number in the list, is the one we are looking for. Once again, it is not, but we know that $19$ is greater than $12$, so we&rsquo;ll need to look in the second half of the list.</p>
-<p><a href="#R-image-eb38ca39ef832542cb6fd3019739ef1b" class="lightbox-link"><img alt="Sorted List 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.14.list3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-eb38ca39ef832542cb6fd3019739ef1b"><img alt="Sorted List 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.14.list3.png"></a></p>
+<p><a href="#R-image-ec23b09be5d205f4c2efda21b9b8af9c" class="lightbox-link"><img alt="Sorted List 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.14.list3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ec23b09be5d205f4c2efda21b9b8af9c"><img alt="Sorted List 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.14.list3.png"></a></p>
 <p>Finally, we have reduced our problem to the simplest, or <em>base case</em> of the problem. Here, we simply need to determine if the single item in the list is the number we are looking for. In this case, it is! So, we can return that our original list did indeed include the number $19$.</p>
 <p>We&rsquo;ll explore many ways of using divide and conquer algorithms in this course, especially when we learn to sort and search through lists of values.</p>
 
@@ -1146,8 +1146,8 @@
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719522164" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719522164" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719522548" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719522548" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1162,9 +1162,9 @@
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719522164"></script>
-<script src="/cc310/js/theme.js?1719522164" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719522548"></script>
+<script src="/cc310/js/theme.js?1719522548" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1719522164" defer></script>
+<script src="/cc310/js/embed-iframe.js?1719522548" defer></script>
 </body>
 </html>

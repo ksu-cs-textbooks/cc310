@@ -1040,7 +1040,7 @@
   <channel>
     <title>The Importance of Sorting :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/26-the-importance-of-sorting/</link>
-    <description>Let’s go back and look at the performance of our sorting algorithms, now that we know how quickly binary search can find a particular value in an array. Let’s add the function $\text{lg}(N)$ to our graph from earlier, shown below.&#xA;As we can see, the function $\text{lg}(N)$ is even smaller than $N$. So performing a binary search is much faster than a linear search, which we already know runs in the order of $N$ time.</description>
+    <description>YouTube Video Let’s go back and look at the performance of our sorting algorithms, now that we know how quickly binary search can find a particular value in an array. Let’s add the function $\text{lg}(N)$ to our graph from earlier, shown below.&#xA;As we can see, the function $\text{lg}(N)$ is even smaller than $N$. So performing a binary search is much faster than a linear search, which we already know runs in the order of $N$ time.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/26-the-importance-of-sorting/index.xml" rel="self" type="application/rss+xml" />

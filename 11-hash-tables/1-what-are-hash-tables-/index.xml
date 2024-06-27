@@ -1040,7 +1040,7 @@
   <channel>
     <title>What are Hash Tables? :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/1-what-are-hash-tables-/</link>
-    <description>A hash table is an unordered collection of key-value pairs, where each key is unique. The great thing about hash tables is that they provide efficient insertion, removal and lookup operations that arrays and linked lists cannot match, such as:&#xA;Retrieval operations in an unsorted array run in order $N$ time, Retrieval operations in a sorted array using binary search run in constant time, but insertion operations run in order $N$ time, and Insertion operations run in constant time in linked lists, but retrieval operations run in order $N$ time.</description>
+    <description>YouTube Video A hash table is an unordered collection of key-value pairs, where each key is unique. The great thing about hash tables is that they provide efficient insertion, removal and lookup operations that arrays and linked lists cannot match, such as:&#xA;Retrieval operations in an unsorted array run in order $N$ time, Retrieval operations in a sorted array using binary search run in constant time, but insertion operations run in order $N$ time, and Insertion operations run in constant time in linked lists, but retrieval operations run in order $N$ time.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/11-hash-tables/1-what-are-hash-tables-/index.xml" rel="self" type="application/rss+xml" />

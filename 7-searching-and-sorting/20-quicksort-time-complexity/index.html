@@ -1064,17 +1064,17 @@
     <link href="/cc310/7-searching-and-sorting/20-quicksort-time-complexity/index.print.html" rel="alternate" type="text/html" title="Quicksort Time Complexity :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/20-quicksort-time-complexity/tele.html" rel="alternate" type="text/html" title="Quicksort Time Complexity :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/20-quicksort-time-complexity/embed.html" rel="alternate" type="text/html" title="Quicksort Time Complexity :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719522160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522160" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719522160" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719522160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522160" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719522160" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719522160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522160" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719522160" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719522160" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719522160" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719522160" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719522160" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719522160"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719522544" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522544" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719522544" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719522544" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522544" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719522544" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719522544" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522544" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719522544" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719522544" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719522544" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719522544" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719522544" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719522544"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1094,7 +1094,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719522160" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719522544" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/7-searching-and-sorting/20-quicksort-time-complexity/">
     <div id="R-body" class="default-animation">
@@ -1161,16 +1161,16 @@
 <p>Second, we can also assume that our chosen pivot value is close to the average value in the array. If the array is equally distributed and we choose a value at random, we have a $50\%$ chance of that value being closer to the average than either the minimum or the maximum value, so this is a pretty safe assumption.</p>
 <p>With those two assumptions in hand, we see that something interesting happens. If we choose the average value as our pivot value, quicksort will perfectly partition the array into two equal sized halves! This is a great result, because it means that each recursive call to the function will be working with data that is half the initial array.</p>
 <p>If we consider an array that initially contains $15$ elements, and make sure that we always choose the average element as our pivot point, we&rsquo;d end up with a tree of recursive calls that resembles the diagram below.</p>
-<p><a href="#R-image-9150c2316129155bec6276eb21815e29" class="lightbox-link"><img alt="Quicksort Time Tree 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.20.quicktime.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9150c2316129155bec6276eb21815e29"><img alt="Quicksort Time Tree 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.20.quicktime.png"></a></p>
+<p><a href="#R-image-c38ea9e9c8ba3fda8dd7d3e4ddeb7aeb" class="lightbox-link"><img alt="Quicksort Time Tree 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.20.quicktime.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c38ea9e9c8ba3fda8dd7d3e4ddeb7aeb"><img alt="Quicksort Time Tree 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.20.quicktime.png"></a></p>
 <p>In this diagram, we see that each level of the tree looks at around $N$ elements. (It is actually fewer, but not by a significant amount so we can just round up to $N$ each time). We also notice that there are 4 levels to the tree, which is closely approximated by $\text{lg}(N)$. This is the same result we observed when analyzing the merge sort algorithm earlier in this module.</p>
 <p>So, in the average case, we&rsquo;d say that quicksort runs in the order of $N * \text{lg}(N)$ time.</p>
 <h2 id="worst-case-complexity">Worst case complexity</h2>
 <p>To consider the worst-case situation for quicksort, we must come up with a way to define what the worst-case input would be. It turns out that the selection of our pivot value is the key here.</p>
 <p>Consider the situation where the pivot value is chosen to be the maximum value in the array. What would happen in that case?</p>
 <p>Looking at the code, we would see that each recursive call would contain one empty partition, and the other partition would be just one less than the size of the original array. So, if our original array only contained 8 elements, our tree recursion diagram would look similar to the following.</p>
-<p><a href="#R-image-8a5f4d8b06822d5e96d7d41bcf61048e" class="lightbox-link"><img alt="Quicksort Time Tree 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.20.quicktime2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8a5f4d8b06822d5e96d7d41bcf61048e"><img alt="Quicksort Time Tree 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.20.quicktime2.png"></a></p>
+<p><a href="#R-image-32f9f7941be36cd5af25ddc4ba4961aa" class="lightbox-link"><img alt="Quicksort Time Tree 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.20.quicktime2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-32f9f7941be36cd5af25ddc4ba4961aa"><img alt="Quicksort Time Tree 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.20.quicktime2.png"></a></p>
 <p>This is an entirely different result! In this case, since we are only reducing the size of our array by 1 at each level, it would take $N$ recursive calls to complete. However, at each level, we are looking at one fewer element. Is this better or worse than the average case?</p>
 <p>It turns out that it is much worse. As we learned in our analysis of selection sort and bubble sort, the series</p>
 $$
@@ -1222,12 +1222,12 @@ $$
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1719522160" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1719522160" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719522160" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1719522160" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1719522160" defer></script>
-        <script src="/cc310/js/search.js?1719522160" defer></script>
+        <script src="/cc310/js/auto-complete.js?1719522544" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1719522544" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719522544" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1719522544" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1719522544" defer></script>
+        <script src="/cc310/js/search.js?1719522544" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1462,8 +1462,8 @@ $$
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1719522160" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719522160" defer></script>
-    <script src="/cc310/js/theme.js?1719522160" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719522544" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719522544" defer></script>
+    <script src="/cc310/js/theme.js?1719522544" defer></script>
   </body>
 </html>

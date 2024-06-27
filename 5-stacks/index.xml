@@ -1050,7 +1050,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/5-stacks/1-what-is-a-stack-/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/5-stacks/1-what-is-a-stack-/</guid>
-      <description>A stack is a data structure with two main operations that are simple in concept. One is the push operation that lets you put data into the data structure and the other is the pop operation that lets you get data out of the structure.&#xA;Why do we call it a stack? Think about a stack of boxes. When you stack boxes, you can do one of two things: put boxes onto the stack and take boxes off of the stack.</description>
+      <description>YouTube Video A stack is a data structure with two main operations that are simple in concept. One is the push operation that lets you put data into the data structure and the other is the pop operation that lets you get data out of the structure.&#xA;Why do we call it a stack? Think about a stack of boxes. When you stack boxes, you can do one of two things: put boxes onto the stack and take boxes off of the stack.</description>
     </item>
     <item>
       <title>Stacks in the Real World</title>
@@ -1064,14 +1064,14 @@
       <link>https://textbooks.cs.ksu.edu/cc310/5-stacks/3-stacks-in-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/5-stacks/3-stacks-in-code/</guid>
-      <description>How do we implement stacks in code? One way would be to use something we already understand, an array. Remember that arrays allow us to store multiple items, where each entry in the array has a unique index number. This is a great way to implement stacks. We can store items directly in the array and use a special top variable to hold the index of the top of the stack.</description>
+      <description>YouTube Video How do we implement stacks in code? One way would be to use something we already understand, an array. Remember that arrays allow us to store multiple items, where each entry in the array has a unique index number. This is a great way to implement stacks. We can store items directly in the array and use a special top variable to hold the index of the top of the stack.</description>
     </item>
     <item>
       <title>Basic Operations</title>
       <link>https://textbooks.cs.ksu.edu/cc310/5-stacks/4-basic-operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/5-stacks/4-basic-operations/</guid>
-      <description>We have already seen two basic stack operations: push and pop. However, there are others that make the stack much easier to use. These basic operations are:&#xA;push: places an item on top of the stack, pop: removes the item on the top of the stack and returns it, peek: returns the item on the top of the stack without removing it from the stack, isEmpty: returns true if there are no items on the stack, and isFull: returns true if our stack array is full.</description>
+      <description>YouTube Video We have already seen two basic stack operations: push and pop. However, there are others that make the stack much easier to use. These basic operations are:&#xA;push: places an item on top of the stack, pop: removes the item on the top of the stack and returns it, peek: returns the item on the top of the stack without removing it from the stack, isEmpty: returns true if there are no items on the stack, and isFull: returns true if our stack array is full.</description>
     </item>
     <item>
       <title>Using Operations</title>
@@ -1085,7 +1085,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/5-stacks/6-using-a-stack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/5-stacks/6-using-a-stack/</guid>
-      <description>Stacks are useful in many applications. Classic real-world software that uses stacks includes the undo feature in a text editor, or the forward and back features of web browsers. In a text editor, each user action is pushed onto the stack as it is performed. Then, if the user wants to undo an action, the text editor simply pops the stack to get the last action performed, and then undoes the action.</description>
+      <description>YouTube Video Stacks are useful in many applications. Classic real-world software that uses stacks includes the undo feature in a text editor, or the forward and back features of web browsers. In a text editor, each user action is pushed onto the stack as it is performed. Then, if the user wants to undo an action, the text editor simply pops the stack to get the last action performed, and then undoes the action.</description>
     </item>
     <item>
       <title>Path Finding Algorithm</title>

@@ -1040,7 +1040,7 @@
   <channel>
     <title>Tree Recursion :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/6-recursion/5-tree-recursion/</link>
-    <description>In the previous examples we saw recursive functions that call themselves one time within the code. This type of recursion is called linear recursion, where head and tail recursion are two specific types of linear recursion.&#xA;In this section we will investigate another type of recursion called tree recursion, which occurs when a function calls itself two or more times to solve a single problem. To illustrate tree recursion, we will use a simple recursive function MAX, which finds the maximum of $N$ elements in an array.</description>
+    <description>YouTube Video In the previous examples we saw recursive functions that call themselves one time within the code. This type of recursion is called linear recursion, where head and tail recursion are two specific types of linear recursion.&#xA;In this section we will investigate another type of recursion called tree recursion, which occurs when a function calls itself two or more times to solve a single problem. To illustrate tree recursion, we will use a simple recursive function MAX, which finds the maximum of $N$ elements in an array.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/6-recursion/5-tree-recursion/index.xml" rel="self" type="application/rss+xml" />
