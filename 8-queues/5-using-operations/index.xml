@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Using Operations :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/8-queues/5-using-operations/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/8-queues/5-using-operations/</link>
     <description>The following table shows an example of how to use the above operations to create and manipulate a queue. It assumes the steps are performed sequentially and the result of the operation is shown.&#xA;Step Operation Effect 1 Constructor Creates an empty queue of capacity 3. 2 isFull() Returns false since start is not equal to end 3 isEmpty() Returns true since start is equal to -1. 4 enqueue(1) Places item 1 onto queue at the end and increments end by 1.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/8-queues/5-using-operations/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/8-queues/5-using-operations/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

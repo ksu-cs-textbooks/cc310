@@ -1040,7 +1040,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="We may also want to search through a data structure to find an item with a specific property. For example, we could search for the student with the maximum age, or the minimum GPA. For this example, let’s consider the case where we’d like to find the minimum value in an array of integers.
 Searching for the minimum number in an unordered array is a different problem than searching for a specific number.">
@@ -1049,7 +1049,7 @@ Searching for the minimum number in an unordered array is a different problem th
     <meta name="twitter:title" content="Searching for a Minimum :: CC 310 Textbook">
     <meta name="twitter:description" content="We may also want to search through a data structure to find an item with a specific property. For example, we could search for the student with the maximum age, or the minimum GPA. For this example, let’s consider the case where we’d like to find the minimum value in an array of integers.
 Searching for the minimum number in an unordered array is a different problem than searching for a specific number.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/6-searching-for-a-minimum/embed.html">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/6-searching-for-a-minimum/embed.html">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="Searching for a Minimum :: CC 310 Textbook">
     <meta property="og:description" content="We may also want to search through a data structure to find an item with a specific property. For example, we could search for the student with the maximum age, or the minimum GPA. For this example, let’s consider the case where we’d like to find the minimum value in an array of integers.
@@ -1064,24 +1064,24 @@ Searching for the minimum number in an unordered array is a different problem th
     <meta itemprop="dateModified" content="2024-06-17T14:46:21-05:00">
     <meta itemprop="wordCount" content="700">
     <title>Searching for a Minimum :: CC 310 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/6-searching-for-a-minimum/" rel="canonical" type="text/html" title="Searching for a Minimum :: CC 310 Textbook">
+    <link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/6-searching-for-a-minimum/" rel="canonical" type="text/html" title="Searching for a Minimum :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/6-searching-for-a-minimum/index.xml" rel="alternate" type="application/rss+xml" title="Searching for a Minimum :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/6-searching-for-a-minimum/index.print.html" rel="alternate" type="text/html" title="Searching for a Minimum :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/6-searching-for-a-minimum/tele.html" rel="alternate" type="text/html" title="Searching for a Minimum :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1719521870" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521870" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1719521870" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1719521870" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521870" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1719521870" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1719521870" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521870" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1719521870" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1719522166" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522166" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1719522166" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1719522166" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522166" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1719522166" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1719522166" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522166" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1719522166" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1719521870" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1719521870" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1719521870" rel="stylesheet">
-  <link href="/cc310/css/print.css?1719521870" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1719522166" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1719522166" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1719522166" rel="stylesheet">
+  <link href="/cc310/css/print.css?1719522166" rel="stylesheet" media="print">
   
   
   
@@ -1089,7 +1089,7 @@ Searching for the minimum number in an unordered array is a different problem th
     window.relearn = window.relearn || {};
     window.relearn.relBasePath='..\/..';
     window.relearn.relBaseUri='..\/..\/..';
-    window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+    window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
     window.index_js_url="/cc310/index.search.js";
     // variant stuff
     window.variants && variants.init( [ 'light-theme' ] );
@@ -1104,7 +1104,7 @@ Searching for the minimum number in an unordered array is a different problem th
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1719521870" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1719522166" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/7-searching-and-sorting/6-searching-for-a-minimum/embed.html">
@@ -1148,8 +1148,8 @@ Searching for the minimum number in an unordered array is a different problem th
 </span></span><span class="line"><span class="cl">    end for									    (10)
 </span></span><span class="line"><span class="cl">    return MIN								    (11)
 </span></span><span class="line"><span class="cl">end function									(12)</span></span></code></pre></div><p>Next, we will walk through the algorithm using our example array in the figure below. Step 1 shows the initial time through the loop. In line 5, <code>min</code> is set to <code>0</code> by default and in line 6, <code>index</code> is set equal to <code>1</code>. Line 7 then computes whether <code>array[1] &lt; array[0]</code>. In this case, it is and we set <code>min = 1</code> (which is reflected in the next step where <code>min</code> has the value <code>1</code>).</p>
-<p><a href="#R-image-13c84c57bbac2c915938041d0999b94f" class="lightbox-link"><img alt="Finding Minimum Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.6.minimum.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-13c84c57bbac2c915938041d0999b94f"><img alt="Finding Minimum Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.6.minimum.png"></a></p>
+<p><a href="#R-image-b8f29e7391a89f40add7552025848d5f" class="lightbox-link"><img alt="Finding Minimum Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.6.minimum.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b8f29e7391a89f40add7552025848d5f"><img alt="Finding Minimum Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.6.minimum.png"></a></p>
 <p>Step 2 will end up comparing <code>array[2] &lt; array[1]</code>, since <code>min</code> is now 1 and <code>index</code> has been incremented to 2 via the <code>for</code> loop. In this case, <code>array[2]</code> is less than <code>array[1]</code> so we update <code>min</code> again, this time to 2.</p>
 <p>Step 3 follows the same process; however, this time the value in <code>array[3]</code> is 55, which is greater than the current minimum of 3 in <code>array[2]</code>. Therefore, <code>min</code> is not updated. Step 4 finds the minimum value in the array of <code>-3</code> at index 4 and so updates <code>min</code> to 4. However, steps 5, 6, and 7 do not find new minimum values. Thus, when the loop exits after Step 6, <code>min</code> is set to 4 and this value is returned to the calling program in line 11.</p>
 
@@ -1166,10 +1166,10 @@ Searching for the minimum number in an unordered array is a different problem th
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719521870" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719521870" defer></script>
-<script src="/cc310/js/theme.js?1719521870" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719522166" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719522166" defer></script>
+<script src="/cc310/js/theme.js?1719522166" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1719521870" defer></script>
+<script src="/cc310/js/embed-iframe.js?1719522166" defer></script>
 </body>
 </html>

@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Merge Sort Time Complexity :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/</link>
     <description>Now that we’ve reviewed the pseudocode for the merge sort algorithm, let’s see if we can analyze the time it takes to complete. Analyzing a recursive algorithm requires quite a bit of math and understanding to do it properly, but we can get a pretty close answer using a bit of intuition about what it does.&#xA;For starters, let’s consider a diagram that shows all of the different recursive calls made by merge sort, as shown below.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1040,14 +1040,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="Sorting is the process we use to organize an ordered container in a way that we understand what the ordering of the values represents. Recall that an ordered container just enforces an ordering between values, but that ordering may appear to be random. By sorting an ordered container, we can enforce a specific ordering on the elements in the container, allowing us to more quickly find specific elements as we’ll see later in this chapter.">
     <meta name="author" content="Russell Feldhausen">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Sorting :: CC 310 Textbook">
     <meta name="twitter:description" content="Sorting is the process we use to organize an ordered container in a way that we understand what the ordering of the values represents. Recall that an ordered container just enforces an ordering between values, but that ordering may appear to be random. By sorting an ordered container, we can enforce a specific ordering on the elements in the container, allowing us to more quickly find specific elements as we’ll see later in this chapter.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/8-sorting/embed.html">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/8-sorting/embed.html">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="Sorting :: CC 310 Textbook">
     <meta property="og:description" content="Sorting is the process we use to organize an ordered container in a way that we understand what the ordering of the values represents. Recall that an ordered container just enforces an ordering between values, but that ordering may appear to be random. By sorting an ordered container, we can enforce a specific ordering on the elements in the container, allowing us to more quickly find specific elements as we’ll see later in this chapter.">
@@ -1060,24 +1060,24 @@
     <meta itemprop="dateModified" content="2021-08-17T10:22:02-05:00">
     <meta itemprop="wordCount" content="391">
     <title>Sorting :: CC 310 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/8-sorting/" rel="canonical" type="text/html" title="Sorting :: CC 310 Textbook">
+    <link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/8-sorting/" rel="canonical" type="text/html" title="Sorting :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/8-sorting/index.xml" rel="alternate" type="application/rss+xml" title="Sorting :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/8-sorting/index.print.html" rel="alternate" type="text/html" title="Sorting :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/8-sorting/tele.html" rel="alternate" type="text/html" title="Sorting :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1719521871" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521871" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1719521871" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1719521871" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521871" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1719521871" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1719521871" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521871" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1719521871" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1719522166" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522166" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1719522166" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1719522166" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522166" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1719522166" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1719522166" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522166" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1719522166" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1719521871" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1719521871" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1719521871" rel="stylesheet">
-  <link href="/cc310/css/print.css?1719521871" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1719522166" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1719522166" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1719522166" rel="stylesheet">
+  <link href="/cc310/css/print.css?1719522166" rel="stylesheet" media="print">
   
   
   
@@ -1085,7 +1085,7 @@
     window.relearn = window.relearn || {};
     window.relearn.relBasePath='..\/..';
     window.relearn.relBaseUri='..\/..\/..';
-    window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+    window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
     window.index_js_url="/cc310/index.search.js";
     // variant stuff
     window.variants && variants.init( [ 'light-theme' ] );
@@ -1100,7 +1100,7 @@
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1719521871" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1719522166" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/7-searching-and-sorting/8-sorting/embed.html">
@@ -1151,10 +1151,10 @@ $$
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719521871" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719521871" defer></script>
-<script src="/cc310/js/theme.js?1719521871" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719522166" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719522166" defer></script>
+<script src="/cc310/js/theme.js?1719522166" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1719521871" defer></script>
+<script src="/cc310/js/embed-iframe.js?1719522166" defer></script>
 </body>
 </html>

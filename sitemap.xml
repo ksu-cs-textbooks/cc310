@@ -1038,705 +1038,705 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/00-introduction/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/10-java-libraries/1-1-java-standard-library/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/10-java-libraries/1-1-java-standard-library/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/1-choosing-the-right-structures/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/1-choosing-the-right-structures/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/01-data-structures/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/01-data-structures/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/6-recursion/1-introducing-recursion/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/6-recursion/1-introducing-recursion/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/01-oop/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/01-oop/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/01-overview/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/01-overview/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/11-python-libraries/1-python-standard-types/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/11-python-libraries/1-python-standard-types/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/1-searching/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/1-searching/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/11-hash-tables/1-what-are-hash-tables-/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/1-what-are-hash-tables-/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/10-sets/1-what-are-sets-/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/1-what-are-sets-/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/1-what-is-a-list-/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/1-what-is-a-list-/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/8-queues/1-what-is-a-queue-/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/8-queues/1-what-is-a-queue-/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/5-stacks/1-what-is-a-stack-/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/5-stacks/1-what-is-a-stack-/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/00-introduction/01-introduction/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/01-introduction/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/2-data-structure-performance/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/2-data-structure-performance/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/6-recursion/2-example--reversing-a-string/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/6-recursion/2-example--reversing-a-string/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/02-flowchart-pseudocode/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/02-flowchart-pseudocode/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/02-functions/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/02-functions/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/11-hash-tables/2-hash-tables-in-code/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/2-hash-tables-in-code/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/2-linear-search/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/2-linear-search/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/02-linear-structures/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/02-linear-structures/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/2-lists-in-the-real-world/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/2-lists-in-the-real-world/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/10-sets/2-operations-on-sets/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/2-operations-on-sets/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/8-queues/2-queues-in-the-real-world/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/8-queues/2-queues-in-the-real-world/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/5-stacks/2-stacks-in-the-real-world/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/5-stacks/2-stacks-in-the-real-world/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/3-programming-by-contract-and-introduction-to-performance/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/03-class-object/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/03-class-object/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/3-comparing-data-structures/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/3-comparing-data-structures/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/11-hash-tables/3-hash-functions/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/3-hash-functions/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/6-recursion/3-implementing-recursion/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/6-recursion/3-implementing-recursion/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/03-lists/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/03-lists/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/3-lists-in-code/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/3-lists-in-code/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/8-queues/3-queues-in-code/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/8-queues/3-queues-in-code/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/3-searching-for-a-value/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/3-searching-for-a-value/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/10-sets/3-sets-in-code/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/3-sets-in-code/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/5-stacks/3-stacks-in-code/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/5-stacks/3-stacks-in-code/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/03-syntax/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/03-syntax/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/00-introduction/02-navigating-canvas-codio/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/02-navigating-canvas-codio/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/4-arrays/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/4-arrays/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/5-stacks/4-basic-operations/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/5-stacks/4-basic-operations/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/8-queues/4-basic-operations/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/8-queues/4-basic-operations/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/6-recursion/4-example--factorials/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/6-recursion/4-example--factorials/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/04-info-hiding/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/04-info-hiding/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/4-invariants/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/3-programming-by-contract-and-introduction-to-performance/4-invariants/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/04-run-code/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/04-run-code/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/4-searching-for-the-last-value/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/4-searching-for-the-last-value/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/10-sets/4-set-operations/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/4-set-operations/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/4-singly-linked-lists/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/4-singly-linked-lists/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/04-stacks-queues/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/04-stacks-queues/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/11-hash-tables/4-tuples/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/4-tuples/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/5-stacks/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/5-stacks/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/5-correctness/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/3-programming-by-contract-and-introduction-to-performance/5-correctness/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/05-debugging/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/05-debugging/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/11-hash-tables/5-hash-table-operations/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/5-hash-table-operations/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/05-inheritance/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/05-inheritance/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/5-lists/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/5-lists/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/5-recursive-linear-search/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/5-recursive-linear-search/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/05-sets/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/05-sets/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/5-singly-linked-lists---insertion/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/5-singly-linked-lists---insertion/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/6-recursion/5-tree-recursion/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/6-recursion/5-tree-recursion/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/5-stacks/5-using-operations/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/5-stacks/5-using-operations/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/8-queues/5-using-operations/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/8-queues/5-using-operations/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/10-sets/5-using-sets/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/5-using-sets/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/6-recursion/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/6-recursion/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/00-introduction/03-where-to-find-help/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/03-where-to-find-help/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/06-associations/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/06-associations/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/6-recursion/6-example--fibonacci-numbers/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/6-recursion/6-example--fibonacci-numbers/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/11-hash-tables/6-hash-table-based-sets/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/6-hash-table-based-sets/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/6-hash-tables/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/6-hash-tables/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/06-maps/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/06-maps/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/6-searching-for-a-minimum/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/6-searching-for-a-minimum/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/10-sets/6-sets-summary/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/6-sets-summary/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/6-singly-linked-lists---removal/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/6-singly-linked-lists---removal/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/8-queues/6-using-a-queue/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/8-queues/6-using-a-queue/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/5-stacks/6-using-a-stack/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/5-stacks/6-using-a-stack/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/06-variables/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/06-variables/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/7-algorithms/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/7-algorithms/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/07-conditionals/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/07-conditionals/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/6-recursion/7-example--tower-of-hanoi/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/6-recursion/7-example--tower-of-hanoi/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/07-functions/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/07-functions/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/11-hash-tables/7-hash-tables-summary/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/7-hash-tables-summary/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/7-linear-search-time-complexity/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/7-linear-search-time-complexity/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/07-non-linear/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/07-non-linear/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/5-stacks/7-path-finding-algorithm/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/5-stacks/7-path-finding-algorithm/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/7-performance-of-algorithms/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/3-programming-by-contract-and-introduction-to-performance/7-performance-of-algorithms/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/7-singly-linked-lists---other-operations/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/7-singly-linked-lists---other-operations/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/8-queues/7-windshield-station-example/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/8-queues/7-windshield-station-example/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/8-queues/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/8-queues/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/8-choosing-an-algorithm/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/8-choosing-an-algorithm/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/6-recursion/8-converting-recursion-to-iteration/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/6-recursion/8-converting-recursion-to-iteration/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/08-graphs/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/08-graphs/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/8-list-based-stacks/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/8-list-based-stacks/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/08-loops/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/08-loops/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/8-max-and-min---linear/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/3-programming-by-contract-and-introduction-to-performance/8-max-and-min---linear/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/08-overloading/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/08-overloading/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/8-queues/8-queues-summary/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/8-queues/8-queues-summary/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/8-sorting/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/8-sorting/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/5-stacks/8-stacks-summary/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/5-stacks/8-stacks-summary/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/09-classes/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/09-classes/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/9-data-structure-uses/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/9-data-structure-uses/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/9-doubly-linked-lists/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/9-doubly-linked-lists/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/9-max-and-min---pairs/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/3-programming-by-contract-and-introduction-to-performance/9-max-and-min---pairs/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/6-recursion/9-recursion-summary/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/6-recursion/9-recursion-summary/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/9-selection-sort/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/9-selection-sort/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/09-trees/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/09-trees/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/10-java-libraries/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/10-java-libraries/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/10-sets/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/00-introduction/05-how-to-learn-programming/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/05-how-to-learn-programming/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/10-attributes/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/10-attributes/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/10-doubly-linked-lists---insertion/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/10-doubly-linked-lists---insertion/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/10-heaps/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/10-heaps/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/09-lists/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/09-lists/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/10-time-complexity/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/3-programming-by-contract-and-introduction-to-performance/10-time-complexity/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/11-hash-tables/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/11-python-libraries/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/11-python-libraries/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/11-algorithms/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/11-algorithms/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/11-doubly-linked-lists---removal-and-peek/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/11-doubly-linked-lists---removal-and-peek/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/11-methods/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/11-methods/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/11-selection-sort-time-complexity/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/11-selection-sort-time-complexity/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/11-space-complexity/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/3-programming-by-contract-and-introduction-to-performance/11-space-complexity/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/10-variable-roles/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/10-variable-roles/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/12-brute-force/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/12-brute-force/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/12-bubble-sort/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/12-bubble-sort/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/12-code-complexity/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/3-programming-by-contract-and-introduction-to-performance/12-code-complexity/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/12-polymorphism/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/12-polymorphism/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/12-list-iterators/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/12-list-iterators/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/00-introduction/06-syllabus/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/06-syllabus/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/11-strings/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/11-strings/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/12-performance/12-summary/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/12-summary/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/13-hold-for-cc-410/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/13-hold-for-cc-410/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/13-bubble-sort-pseudocode/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/13-bubble-sort-pseudocode/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/13-divide-conquer/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/13-divide-conquer/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/12-exceptions/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/12-exceptions/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/13-list-based-queues/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/13-list-based-queues/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/13-programming-by-contract-and-performance-summary/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/3-programming-by-contract-and-introduction-to-performance/13-programming-by-contract-and-performance-summary/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/13-static-abstract/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/13-static-abstract/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/00-introduction/07-plagiarism/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/07-plagiarism/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/14-bubble-sort-time-complexity/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/14-bubble-sort-time-complexity/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/14-greedy/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/14-greedy/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/13-io/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/13-io/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/9-lists/14-lists-summary/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/9-lists/14-lists-summary/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/14-summary/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/14-summary/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/14-documentation/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/14-documentation/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/15-merge-sort/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/15-merge-sort/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/15-recursion/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/15-recursion/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/16-graph-traversals/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/16-graph-traversals/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/16-merge-sort-pseudocode/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/16-merge-sort-pseudocode/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/15-style/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/15-style/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/17-contracts/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/17-contracts/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/18-preconditions/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/18-preconditions/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/18-quicksort/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/18-quicksort/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/01-review/16-summary/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/01-review/16-summary/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/19-postconditions/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/19-postconditions/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/19-quicksort-pseudocode/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/19-quicksort-pseudocode/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/20-quicksort-time-complexity/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/20-quicksort-time-complexity/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/20-unit-test/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/20-unit-test/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/21-dsa-summary/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/21-dsa-summary/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/21-performance-of-sorting-algorithms/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/21-performance-of-sorting-algorithms/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/22-binary-search/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/22-binary-search/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/23-iterative-binary-search/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/23-iterative-binary-search/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/24-recursive-binary-search/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/24-recursive-binary-search/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/25-binary-search-time-complexity/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/25-binary-search-time-complexity/</loc>
     <lastmod>2024-06-17T14:46:21-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/26-the-importance-of-sorting/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/26-the-importance-of-sorting/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/27-searching-and-sorting-summary/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/27-searching-and-sorting-summary/</loc>
     <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/categories/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/categories/</loc>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/</loc>
     <lastmod>2023-08-11T14:18:07-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc310/tags/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/tags/</loc>
   </url>
 </urlset>

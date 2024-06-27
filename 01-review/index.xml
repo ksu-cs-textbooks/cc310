@@ -1039,121 +1039,121 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python Review :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/01-review/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/01-review/</link>
     <description>All the stuff you should know already!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/01-review/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/01-review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programming Overview</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/01-overview/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/01-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/01-overview/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/01-overview/</guid>
       <description>Programming 1&#xA;Programming is the act of writing source code for a computer program in such a way that a modern computer can understand and perform the steps described in the code. There are many different programming languages that can be used, such as high-level languages like Java and Python.&#xA;To run code written in those languages, we can use a compiler to convert the code to a low-level language that can be directly executed by the computer, or we can use an interpreter to read the code and perform the requested operations on the computer.</description>
     </item>
     <item>
       <title>Flowcharts and Pseudocode</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/02-flowchart-pseudocode/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/02-flowchart-pseudocode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/02-flowchart-pseudocode/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/02-flowchart-pseudocode/</guid>
       <description>In this course, we will primarily be learning different ways to store and manipulate data in our programs. Of course, we could do this using the source code of our chosen programming language, but in many cases that would defeat the purpose of learning how to do it ourselves!&#xA;Instead, we will use several different ways to represent the steps required to build our programs. Let’s review a couple of them now.</description>
     </item>
     <item>
       <title>Syntax Overview</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/03-syntax/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/03-syntax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/03-syntax/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/03-syntax/</guid>
       <description>Let’s discuss some of the basic concepts we need to understand about the Python programming language.&#xA;Program Structure To begin, let’s look at a simple Hello World program written in Python:&#xA;def main(): print(&#34;Hello World!&#34;) # main guard if __name__ == &#34;__main__&#34;: main()This program contains multiple important parts:&#xA;First, we define a function called main(). Python does not require us to do this, since we can write our code directly in the file and it will execute.</description>
     </item>
     <item>
       <title>Running Code</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/04-run-code/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/04-run-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/04-run-code/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/04-run-code/</guid>
       <description>Now that we’ve written our first Python program, we must run the program to see the fruits of our labors. There are many different ways to do this using the Codio platform. We’ll discuss each of them in detail here.&#xA;Terminal Codio includes a built-in Linux terminal, which allows us to perform actions directly on a command-line interface just like we would on an actual computer running Linux. We can access the Terminal in many ways:</description>
     </item>
     <item>
       <title>Debugging</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/05-debugging/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/05-debugging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/05-debugging/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/05-debugging/</guid>
       <description>Codio also includes an integrated debugger, which is very helpful when we want to determine if there is an error in our code. We can also use the debugger to see what values are stored in each variable at any point in our program.&#xA;To use the debugger, find the Debug Menu at the top of the Codio window. It is to the right of the Run Menu we’ve already been using.</description>
     </item>
     <item>
       <title>Variables</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/06-variables/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/06-variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/06-variables/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/06-variables/</guid>
       <description>A variable in a programming language is an abstraction that allows storing one value in each instant of time, but this value can change along with the program execution. A variable can be represented as a box holding a value. If the variable is a container, e.g., a list (or array or vector), a matrix, a tuple, or a set of values, each box in the container contains a single value.</description>
     </item>
     <item>
       <title>Conditionals</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/07-conditionals/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/07-conditionals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/07-conditionals/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/07-conditionals/</guid>
       <description>The conditional statement, also known as the If-Then statement, is used to control the program’s flow by checking the value of a Boolean statement and determining if a block of code should be executed based on that value. This is the simplest conditional instruction. If the condition is true, the block enclosed within the statement is executed. If it is false, then the code in the block is skipped.</description>
     </item>
     <item>
       <title>Loops</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/08-loops/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/08-loops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/08-loops/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/08-loops/</guid>
       <description>Loops are another way we can control the flow of our program, this time by repeating steps based on a given criteria. A computer is able to repeat the same instructions many times. There are several ways to tell a computer to repeat a sequence of instructions:&#xA;Repeat an infinite number of times, e.g. while true. This construct is useful in software applications such as servers that will offer a service.</description>
     </item>
     <item>
       <title>Lists</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/09-lists/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/09-lists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/09-lists/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/09-lists/</guid>
       <description>^[File:USPS Post office boxes 1.jpg. (2017, May 17). Wikimedia Commons, the free media repository. Retrieved 18:17, November 5, 2018 from https://commons.wikimedia.org/w/index.php?title=File:USPS_Post_office_boxes_1.jpg&amp;oldid=244476438.]&#xA;Arrays allow us to store multiple values in the same variable, using an index to determine which value we wish to store or retrieve from the array. We can think of arrays like a set of post office boxes. Each one has the same physical address, the post office, but within the post office we can find an individual box based on its own box number.</description>
     </item>
     <item>
       <title>Variable Roles</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/10-variable-roles/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/10-variable-roles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/10-variable-roles/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/10-variable-roles/</guid>
       <description>Variables in our programs can be used in a variety of different roles. The simplest role for any variable is to store a value that does not change throughout the entire program. Most variables, however, fit into one of several roles throughout the program.&#xA;To help us understand these roles, let’s review them in detail here. As we move forward in this course, we’ll see many different data structures that use variables in these ways, so it helps to know each of them early on!</description>
     </item>
     <item>
       <title>Strings</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/11-strings/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/11-strings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/11-strings/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/11-strings/</guid>
       <description>Strings are another very important data type in programming. A string is simply a set of characters that represent text in our programs. We can then write programs that use and manipulate strings in a variety of ways, allowing us to easily work with textual data.&#xA;Strings in Flowcharts &amp; Pseudocode The table below lists the flowchart blocks used to represent strings, as well as the corresponding pseudocode:&#xA;Operation Flowchart Pseudocode Create String STR = “abc” Access Character C = STR[0] String Length X = size of STR Strings in Python Let’s review the syntax for working with strings in Python.</description>
     </item>
     <item>
       <title>Exceptions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/12-exceptions/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/12-exceptions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/12-exceptions/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/12-exceptions/</guid>
       <description>An exception is an error that a program encounters when it is running. While some errors cannot be dealt with directly by the program, many of these exceptions can be caught and handled directly in our programs.&#xA;Exceptions in Flowcharts &amp; Pseudocode There isn’t really a standard way to display exceptions in flowcharts and pseudocode, but we can easily create a system that works well for our needs. Below are the flowchart blocks and pseudocode examples we’ll use in this course to represent exceptions and exception handling:</description>
     </item>
     <item>
       <title>I/O</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/13-io/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/13-io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/13-io/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/13-io/</guid>
       <description>One of the major features of a modern computer is the ability to store and retrieve data from the computer’s file system. So, we need to be able to access the file system in our code in order to build useful programs. Thankfully, most modern programming languages include a way to do this.&#xA;I/O in Flowcharts &amp; Pseudocode Most operations working with files in code take the form of method calls.</description>
     </item>
     <item>
       <title>Documentation</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/14-documentation/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/14-documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/14-documentation/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/14-documentation/</guid>
       <description>It is important both to easily grasp the design choice and the code structure of a project even long after it has been completed. The documentation process starts by commenting the code. Code comments are usually intended for software developers and aim at clarifying the code by giving details of how it works. They are usually performed using inline or multiple lines comments using the language syntax.&#xA;Single Line Comments As we’ve seen before, we can add single-line comments to our Python programs using a hash symbol # before a line in our source file:</description>
     </item>
     <item>
       <title>Style</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/15-style/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/15-style/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/15-style/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/15-style/</guid>
       <description>To make your code easier to read, many textbooks and companies use a style guide that defines some of the formating rules that you should follow in your source code. In Python, these rules are very important, as the structure of your code is defined by the layout. We’ll learn more about that in a later module.&#xA;For this book, most of the examples will be presented using the guidelines in the Style Guide for Python.</description>
     </item>
     <item>
       <title>Review Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/01-review/16-summary/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/01-review/16-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/01-review/16-summary/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/01-review/16-summary/</guid>
       <description>That’s a quick overview of the basics we’ll need to know before starting the new content in this course. The next module will provide a quick review of object-oriented programming concepts as well as the model-view-controller or MVC architecture, both of which will be used heavily in this course.</description>
     </item>
   </channel>

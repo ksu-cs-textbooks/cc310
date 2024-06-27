@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Merge Sort Pseudocode :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/16-merge-sort-pseudocode/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/16-merge-sort-pseudocode/</link>
     <description>Now that we’ve seen how merge sort works by going through an example, let’s look at the pseudocode of a merge sort function.&#xA;function MERGESORT(ARRAY, START, END)&#x9;(1) # base case size == 1&#x9;if END - START + 1 == 1 then&#x9;(2)&#x9;return&#x9;(3) end if&#x9;(4) # base case size == 2 if END - START + 1 == 2 then&#x9;(5) # check if elements are out of order if ARRAY[START] &gt; ARRAY[END] then&#x9;(6) # swap if so TEMP = ARRAY[START]&#x9;(7) ARRAY[START] = ARRAY[END]&#x9;(8) ARRAY[END] = TEMP&#x9;(9) end if&#x9;(10) return&#x9;(11) end if&#x9;(12) # find midpoint HALF = int((START + END) / 2)&#x9;(13) # sort first half MERGESORT(ARRAY, START, HALF)&#x9;(14) # sort second half MERGESORT(ARRAY, HALF + 1, END)&#x9;(15) # merge halves MERGE(ARRAY, START, HALF, END)&#x9;(16) end function&#x9;(17)This function is a recursive function which has two base cases.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/16-merge-sort-pseudocode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/16-merge-sort-pseudocode/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1039,108 +1039,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lists :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/9-lists/</link>
     <description>Welcome! This page is the main page for Lists</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jun 2024 09:14:34 -0500</lastBuildDate>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/9-lists/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/9-lists/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is a List?</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/1-what-is-a-list-/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/1-what-is-a-list-/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/1-what-is-a-list-/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/1-what-is-a-list-/</guid>
       <description>A list is a data structure that holds a sequence of data, such as the shopping list shown below. Each list has a head item and a tail item, with all other items placed linearly between the head and the tail. As we pick up items in the store, we will remove them, or cross them off the list. Likewise, if we get a text from our housemate to get some cookies, we can add them to the list as well.</description>
     </item>
     <item>
       <title>Lists in the Real World</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/2-lists-in-the-real-world/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/2-lists-in-the-real-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/2-lists-in-the-real-world/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/2-lists-in-the-real-world/</guid>
       <description>Most of us see and use lists every day. We have a list for shopping as we saw above, but we may also have a “to do” list, a list of homework assignments, or a list of movies we want to watch. Some of us are list-makers and some are not, but we all know a list when we see it.&#xA;^[Source: https://wiki.videolan.org/index.php?title=File:Basic_playlist_default.png&amp;oldid=59730]&#xA;However, there are other lists in the real world that we might not even think of as a list.</description>
     </item>
     <item>
       <title>Lists in Code</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/3-lists-in-code/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/3-lists-in-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/3-lists-in-code/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/3-lists-in-code/</guid>
       <description>The Problem With Arrays To this point, we have been using arrays as our underlying data structures for implementing linear data structures such as stacks and queues. Given that with stacks and queues we only put items into the array and remove from either the start or end of the data structure, we have been able to make arrays work. However, there are some drawbacks to using arrays for stacks and queues as well as for more general data structures.</description>
     </item>
     <item>
       <title>Singly Linked Lists</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/4-singly-linked-lists/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/4-singly-linked-lists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/4-singly-linked-lists/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/4-singly-linked-lists/</guid>
       <description>Linked Node To solve the disadvantages of arrays, we need a data structure that allows us to insert and remove items in an ordered collection in constant time, independently from the number of items in the data structure.&#xA;The solution lies in creating our own specialized data structure where each node contains the data of interest as well as a reference, or pointer to the next node in the list.</description>
     </item>
     <item>
       <title>Singly Linked Lists - Insertion</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/5-singly-linked-lists---insertion/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/5-singly-linked-lists---insertion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/5-singly-linked-lists---insertion/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/5-singly-linked-lists---insertion/</guid>
       <description>Given the structure of our linked list, we can easily insert a new node at any location in the list. However, for our purposes we are generally interested in inserting new nodes at the beginning of the list, at some specific location in the list, or in the appropriate order if the list is sorted.&#xA;Inserting at the Beginning Inserting a node at the beginning of a list is straightforward.</description>
     </item>
     <item>
       <title>Singly Linked Lists - Removal</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/6-singly-linked-lists---removal/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/6-singly-linked-lists---removal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/6-singly-linked-lists---removal/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/6-singly-linked-lists---removal/</guid>
       <description>The process of removing a node from a linked list is fairly straightforward. First, we find the node we want to remove from the list and then change the next pointer from the previous node in the list to the next node in the list. This effectively bypasses the node we want to remove. For instance, if we want to remove node “3” from the following list,&#xA;we simply change the next pointer in the “-2” node to point to node “18” instead of node “3”.</description>
     </item>
     <item>
       <title>Singly Linked Lists - Other Operations</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/7-singly-linked-lists---other-operations/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/7-singly-linked-lists---other-operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/7-singly-linked-lists---other-operations/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/7-singly-linked-lists---other-operations/</guid>
       <description>isEmpty The list isEmpty operation is rather straightforward. We simply need to return the truth of whether head.next has a null pointer. Obviously, isEmpty runs in constant time.&#xA;function isEmpty() returns boolean return head == NULL (1) end functionpeek The peek operation is designed to return the data from the last node inserted into the list, which is the node pointed at by head. This is easy to do; however, we must ensure that we check to see if the list is empty in line 1 before we return the head.</description>
     </item>
     <item>
       <title>List-Based Stacks</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/8-list-based-stacks/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/8-list-based-stacks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/8-list-based-stacks/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/8-list-based-stacks/</guid>
       <description>If we implement a stack using a singly linked list, we can simplify many things about the implementation. First of all, we can totally remove the isFull, doubleCapacity, and halveCapacity operations since we can grow and shrink our list-based stack as needed. The rest of the operations can be implemented directly with list operations. The front of the list will be the top of the stack since the operations to insert and remove items from the front of list are very efficient.</description>
     </item>
     <item>
       <title>Doubly Linked Lists</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/9-doubly-linked-lists/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/9-doubly-linked-lists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/9-doubly-linked-lists/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/9-doubly-linked-lists/</guid>
       <description>With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list. However, we often had to use two pointers when manipulating the list to allow us to access the previous node in the list as well as the current node.</description>
     </item>
     <item>
       <title>Doubly Linked Lists - Insertion</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/10-doubly-linked-lists---insertion/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/10-doubly-linked-lists---insertion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/10-doubly-linked-lists---insertion/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/10-doubly-linked-lists---insertion/</guid>
       <description>Insertion in doubly linked lists is similar to what we saw in the singly linked list with two exceptions:&#xA;We must update both the previous and next pointers in all affected nodes. We can use the tail pointer to make the insertion of data at the end of the list very efficient. Inserting at the Beginning Inserting at the beginning of a doubly linked list is almost as straightforward as in a singly linked list.</description>
     </item>
     <item>
       <title>Doubly Linked Lists - Removal and Peek</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/11-doubly-linked-lists---removal-and-peek/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/11-doubly-linked-lists---removal-and-peek/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/11-doubly-linked-lists---removal-and-peek/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/11-doubly-linked-lists---removal-and-peek/</guid>
       <description>The process of removing a node from a doubly linked list is really no more difficult than from a singly linked list. The only difference is that instead of changing just one pointer, we now also need to modify the previous pointer in the node following the node we want to remove. For instance, if we want to remove node “3” from the following list,&#xA;we simply modify the next pointer in node “-2” to point to node “23”.</description>
     </item>
     <item>
       <title>List Iterators</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/12-list-iterators/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/12-list-iterators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/12-list-iterators/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/12-list-iterators/</guid>
       <description>An iterator is a set of operations a data structure provides to allow users to access the items in the data structure sequentially, without requiring them to know its underlying representation. There are many reasons users might want to access the data in a list. For instance, users may want to make a copy of their list or count the number of times a piece of data was stored in the list.</description>
     </item>
     <item>
       <title>List-Based Queues</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/13-list-based-queues/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/13-list-based-queues/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/13-list-based-queues/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/13-list-based-queues/</guid>
       <description>Implementing a queue with a doubly linked list is straightforward and efficient. The core queue operations (enqueue, dequeue, isEmpty, and peek) can all be implemented by directly calling list operations that run in constant time. The only other major operation is the toString operation, which is also implemented by directly calling the list toString operation; however, it runs in order $N$ time due to the fact that the list toString operation must iterate through each item in the list.</description>
     </item>
     <item>
       <title>Lists Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/14-lists-summary/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/9-lists/14-lists-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/9-lists/14-lists-summary/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/9-lists/14-lists-summary/</guid>
       <description>In this module, we introduced the concept of a linked list, discussing both singly and doubly linked lists. Both kinds of lists are made up of nodes that hold data as well as references (also known as pointers) to other nodes in the list. Singly linked lists use only a single pointer, next, to connect each node to the next node in the list. While simple, we saw that a singly linked list allowed us to efficiently implement a stack without any artificial bounds on the number of items in the list.</description>
     </item>
   </channel>

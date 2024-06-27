@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Selection Sort Pseudocode :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/</link>
     <description>To describe our selection sort algorithm, we can start with these basic preconditions and postconditions.&#xA;Preconditions:&#xA;The array stores a type of elements which can be ordered. Postconditions:&#xA;The array will be sorted in ascending order. We can then represent this algorithm using the following pseudocode.&#xA;function SELECTIONSORT(ARRAY)&#x9;(1) loop INDEX from 0 to size of ARRAY – 2&#x9;(2) MININDEX = 0&#x9;(3) # find minimum index&#x9;loop INDEX2 from INDEX to size of ARRAY – 1&#x9;(4) if ARRAY[INDEX2] &lt; ARRAY[MININDEX] then&#x9;(5) MININDEX = INDEX&#x9;(6) end if&#x9;(7) end loop&#x9;(8) # swap elements TEMP = ARRAY[MININDEX]&#x9;(9) ARRAY[MININDEX] = ARRAY[INDEX]&#x9;(10) ARRAY[INDEX] = TEMP&#x9;(11) end loop&#x9;(12) end function&#x9;(13)In this code, we begin by looping through every element in the array except the last one, as seen on line 2.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hash Table Based Sets :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/11-hash-tables/6-hash-table-based-sets/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/6-hash-table-based-sets/</link>
     <description>In this section, we walk through the pseudocode for some basic set operations built on our hash table class above. In this new version of the set class, we declare mySet as a hash table and use that throughout our operations.&#xA;mySet = new HashTable() When using a hash table to implement sets, one of the most important choices we must make is what to use for a key. This is really difficult in the case of sets since we do not know exactly what types of objects may be put into the set.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/11-hash-tables/6-hash-table-based-sets/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/11-hash-tables/6-hash-table-based-sets/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stacks in the Real World :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/5-stacks/2-stacks-in-the-real-world/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/5-stacks/2-stacks-in-the-real-world/</link>
     <description>So, where do we see stacks in the real world? A great example is repairing an automobile. It is much easier to put a car back together if we put the pieces back on in the reverse order we took them off. Thus, as we take parts off a car, it is highly recommended that we lay them out in a line. Then, when we are ready to put things back together, we can just start at the last piece we took off and work our way back.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/5-stacks/2-stacks-in-the-real-world/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/5-stacks/2-stacks-in-the-real-world/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

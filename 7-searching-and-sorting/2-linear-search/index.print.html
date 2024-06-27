@@ -1040,7 +1040,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="YouTube Video When searching for a number in an unordered array, our search algorithms are typically designed as functions that take two parameters:
 the number to find, and the array to search. Our search functions then return an index to the number within the array.
@@ -1053,7 +1053,7 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
 the number to find, and the array to search. Our search functions then return an index to the number within the array.
 In this module, we will develop a couple of examples of searching an array for a specific number.
 Finding the first occurrence of a number in an unordered array is a fairly straightforward process.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/2-linear-search/">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/2-linear-search/">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="Linear Search :: CC 310 Textbook">
     <meta property="og:description" content="YouTube Video When searching for a number in an unordered array, our search algorithms are typically designed as functions that take two parameters:
@@ -1072,27 +1072,27 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
     <meta itemprop="dateModified" content="2024-06-20T09:14:34-05:00">
     <meta itemprop="wordCount" content="369">
     <title>Linear Search :: CC 310 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/2-linear-search/" rel="canonical" type="text/html" title="Linear Search :: CC 310 Textbook">
+    <link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/2-linear-search/" rel="canonical" type="text/html" title="Linear Search :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/2-linear-search/index.xml" rel="alternate" type="application/rss+xml" title="Linear Search :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/2-linear-search/tele.html" rel="alternate" type="text/html" title="Linear Search :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/2-linear-search/embed.html" rel="alternate" type="text/html" title="Linear Search :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719521876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521876" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719521876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521876" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719521876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521876" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719521876" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719521876" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719521876" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1719521876" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1719521876"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719522172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522172" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719522172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522172" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719522172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522172" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719522172" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719522172" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719522172" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1719522172" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1719522172"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
       window.index_js_url="/cc310/index.search.js";
       // variant stuff
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
@@ -1107,7 +1107,7 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719521876" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719522172" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/7-searching-and-sorting/2-linear-search/">
     <div id="R-body" class="default-animation">
@@ -1151,8 +1151,8 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
 <p>Our search functions then return an index to the number within the array.</p>
 <p>In this module, we will develop a couple of examples of searching an array for a specific number.</p>
 <p>Finding the first occurrence of a number in an unordered array is a fairly straightforward process. A black box depiction of this function is shown below. There are two inputs&ndash;<code>array</code> and <code>number</code>&ndash;and a single output, the <code>index</code> of the first occurrence of the <code>number</code> in <code>array</code>.</p>
-<p><a href="#R-image-4b6582b6bab2a04b05dc61205adaddf5" class="lightbox-link"><img alt="Function Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.2.function.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4b6582b6bab2a04b05dc61205adaddf5"><img alt="Function Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.2.function.png"></a></p>
+<p><a href="#R-image-7bb260e8c2f498859b417c5d825fe057" class="lightbox-link"><img alt="Function Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.2.function.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7bb260e8c2f498859b417c5d825fe057"><img alt="Function Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.2.function.png"></a></p>
 <p>We can also include the search function as a method inside of the container itself. In that case, we don’t have to accept the container as a parameter, since the method will know to refer to the object it is part of.</p>
 <p>Of course, when we begin designing an algorithm for our function we should think about two items immediately: the preconditions and the postconditions of the function. For this function, they are fairly simple.</p>
 <p>The precondition for <code>find</code> is that the <code>number</code> provided as input is compatible with the type of data held by the provided <code>array</code>. In this case, we have no real stipulations on <code>array</code>. It does not need to actually have any data in it, nor does it have to be ordered or unordered.</p>
@@ -1182,14 +1182,14 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
   <p class="theme-version-footer">6.0.0</p>
   <p>Last modified by: 
               <i class='fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/310/generic/textbook/-/commit/4a467f98a630678a7116227e7d7ed3fa893d2136">Jun 20, 2024</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc310/commit/4a467f98a630678a7116227e7d7ed3fa893d2136">Jun 20, 2024</a>
   </p>
   </div>
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1719521876" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719521876" defer></script>
-    <script src="/cc310/js/theme.js?1719521876" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719522172" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719522172" defer></script>
+    <script src="/cc310/js/theme.js?1719522172" defer></script>
   </body>
 </html>

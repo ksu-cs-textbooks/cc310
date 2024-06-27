@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Brute Force :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/12-brute-force/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/12-brute-force/</link>
     <description>The first algorithmic technique we’ll use is the brute force technique. This is the algorithmic technique that most of us are most familiar with, even if we don’t realize it.&#xA;Simply put, a brute force algorithm will try all possible solutions to the problem, only stopping when it finds one that is the actual solution. A great example of a brute force algorithm in action is plugging in a USB cable.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/12-brute-force/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/12-brute-force/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

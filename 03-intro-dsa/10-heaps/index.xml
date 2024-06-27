@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Heaps :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/10-heaps/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/10-heaps/</link>
     <description>1&#xA;The last non-linear data structure we’ll talk about is the heap, which is a specialized version of a tree. In a heap, we try to accomplish a few goals:&#xA;Store either the largest or smallest element in the heap at the root node, Ensure that each parent node is either larger or smaller than all of its children, and Minimize the height, or number of levels, of the tree.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/10-heaps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/10-heaps/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

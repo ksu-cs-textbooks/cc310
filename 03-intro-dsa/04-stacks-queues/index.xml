@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stacks and Queues :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/04-stacks-queues/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/04-stacks-queues/</link>
     <description>The next two data structures we’ll look at are stacks and queues. They are both very similar to lists in most respects, but each one puts a specific limitation on how the data structure operates that make them very useful in certain situations.&#xA;Stack 1&#xA;A stack is one special version of a list. Specifically, a stack is a Last In, First Out or LIFO data structure.&#xA;So, what does that mean?</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/04-stacks-queues/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/04-stacks-queues/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

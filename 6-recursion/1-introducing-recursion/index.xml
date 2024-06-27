@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introducing Recursion :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/6-recursion/1-introducing-recursion/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/6-recursion/1-introducing-recursion/</link>
     <description>We are now used to using functions in our programs that allow us to decompose complex problems into smaller problems that are easier to solve. Now, we will look at a slight wrinkle in how we use functions. Instead of simply having functions call other functions, we now allow for the fact that a function can actually call itself! When a function calls itself, we call it recursion.&#xA;Using recursion often allows us to solve complex problems elegantly—with only a few lines of code.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/6-recursion/1-introducing-recursion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/6-recursion/1-introducing-recursion/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

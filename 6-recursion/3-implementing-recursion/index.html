@@ -1040,14 +1040,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="function REVERSE2()	(1) read CHARACTER	(2) if CHARACTER == `*` then	(3) return	(4) else	(5) print CHARACTER	(6a) REVERSE2()	(7a) return	(8) end if (9) end function	(10)The REVERSE2 function in the previous quiz actually prints the characters entered by the user in the same order in which they are typed. Notice how this small variation in the instruction order significantly changed the outcome of the function. To get a better understanding of why this occurs, we will delve into the order of execution in a little more depth.">
     <meta name="author" content="Russell Feldhausen">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Implementing Recursion :: CC 310 Textbook">
     <meta name="twitter:description" content="function REVERSE2()	(1) read CHARACTER	(2) if CHARACTER == `*` then	(3) return	(4) else	(5) print CHARACTER	(6a) REVERSE2()	(7a) return	(8) end if (9) end function	(10)The REVERSE2 function in the previous quiz actually prints the characters entered by the user in the same order in which they are typed. Notice how this small variation in the instruction order significantly changed the outcome of the function. To get a better understanding of why this occurs, we will delve into the order of execution in a little more depth.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/6-recursion/3-implementing-recursion/">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/6-recursion/3-implementing-recursion/">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="Implementing Recursion :: CC 310 Textbook">
     <meta property="og:description" content="function REVERSE2()	(1) read CHARACTER	(2) if CHARACTER == `*` then	(3) return	(4) else	(5) print CHARACTER	(6a) REVERSE2()	(7a) return	(8) end if (9) end function	(10)The REVERSE2 function in the previous quiz actually prints the characters entered by the user in the same order in which they are typed. Notice how this small variation in the instruction order significantly changed the outcome of the function. To get a better understanding of why this occurs, we will delve into the order of execution in a little more depth.">
@@ -1064,22 +1064,22 @@
     <link href="/cc310/6-recursion/3-implementing-recursion/index.print.html" rel="alternate" type="text/html" title="Implementing Recursion :: CC 310 Textbook">
     <link href="/cc310/6-recursion/3-implementing-recursion/tele.html" rel="alternate" type="text/html" title="Implementing Recursion :: CC 310 Textbook">
     <link href="/cc310/6-recursion/3-implementing-recursion/embed.html" rel="alternate" type="text/html" title="Implementing Recursion :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719521864" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521864" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719521864" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719521864" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521864" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719521864" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719521864" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521864" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719521864" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719521864" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719521864" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719521864" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719521864" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719521864"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719522159" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522159" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719522159" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719522159" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522159" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719522159" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719522159" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522159" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719522159" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719522159" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719522159" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719522159" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719522159" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719522159"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
       window.index_js_url="/cc310/index.search.js";
       // variant stuff
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
@@ -1094,7 +1094,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719521864" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719522159" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/6-recursion/3-implementing-recursion/">
     <div id="R-body" class="default-animation">
@@ -1125,7 +1125,7 @@
             itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Implementing Recursion</span><meta itemprop="position" content="2"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://gitlab.cs.ksu.edu/-/ide/project/cc/310/generic/textbook/edit/master/-/content/6-Recursion/3-Implementing%20Recursion.md" target="_blank" title="Edit (CTRL&#43;ALT&#43;w)"><i class="fa-fw fas fa-pen"></i></a>
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc310/edit/main/content/6-Recursion/3-Implementing%20Recursion.md" target="_blank" title="Edit (CTRL&#43;ALT&#43;w)"><i class="fa-fw fas fa-pen"></i></a>
             </div>
             <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc310/6-recursion/3-implementing-recursion/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
             </div>
@@ -1232,8 +1232,8 @@ Returning from OUTPUT 2		(i)
 </span></span><span class="line"><span class="cl">    end if 						(6)
 </span></span><span class="line"><span class="cl">    return						(7)
 </span></span><span class="line"><span class="cl">end function</span></span></code></pre></div><p>When we run <code>MAIN</code>, the only record on the activation stack is the record for <code>MAIN</code>. Since it has not been &ldquo;called&rdquo; from another function, it does not contain a return address. It also has no local variables, so the record is basically empty as shown below.</p>
-<p><a href="#R-image-85616a144eb3db13c0b55d5ebbd1d195" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-85616a144eb3db13c0b55d5ebbd1d195"><img alt="Main Activation Record" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png"></a></p>
+<p><a href="#R-image-74cf7c03112bede6bc8b84de6edbbd5b" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-74cf7c03112bede6bc8b84de6edbbd5b"><img alt="Main Activation Record" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png"></a></p>
 <p>However, when we execute line 1 in <code>MAIN</code>, we call the function <code>OUTPUT</code> with a parameter of <code>3</code>. This causes the creation of a new function activation record with the return address of line 3 in the calling <code>MAIN</code> function and a parameter for <code>N</code>, which is <code>3</code>. Again, there are no local variables in <code>OUTPUT</code>. The stack activation is shown in figure <strong>a</strong> below.</p>
 <table>
 <thead>
@@ -1246,14 +1246,14 @@ Returning from OUTPUT 2		(i)
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><a href="#R-image-2cb1ff8fa7750762c03fb309314323af" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2cb1ff8fa7750762c03fb309314323af"><img alt="Activation Stack 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png"></a></td>
-<td style="text-align:center"><a href="#R-image-0ddd092913861b577486f8aa9f86a1d1" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0ddd092913861b577486f8aa9f86a1d1"><img alt="Activation Stack 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png"></a></td>
-<td style="text-align:center"><a href="#R-image-8dbbf15770b5749b2bd1464fada326d7" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8dbbf15770b5749b2bd1464fada326d7"><img alt="Activation Stack 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png"></a></td>
-<td style="text-align:center"><a href="#R-image-1d01347cfa6575e09cb1b97f3a739d05" class="lightbox-link"><img alt="Activation Stack 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1d01347cfa6575e09cb1b97f3a739d05"><img alt="Activation Stack 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack4.png"></a></td>
+<td style="text-align:center"><a href="#R-image-7918cbf1713b4a06289f9f9470b30007" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7918cbf1713b4a06289f9f9470b30007"><img alt="Activation Stack 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png"></a></td>
+<td style="text-align:center"><a href="#R-image-e918b6ea08dd3417a684b9687c83fc8d" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e918b6ea08dd3417a684b9687c83fc8d"><img alt="Activation Stack 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png"></a></td>
+<td style="text-align:center"><a href="#R-image-8323798225779891a87636ca6f148567" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8323798225779891a87636ca6f148567"><img alt="Activation Stack 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png"></a></td>
+<td style="text-align:center"><a href="#R-image-116c8eee7f3e8305983c8733287ea979" class="lightbox-link"><img alt="Activation Stack 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-116c8eee7f3e8305983c8733287ea979"><img alt="Activation Stack 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack4.png"></a></td>
 </tr>
 </tbody>
 </table>
@@ -1271,14 +1271,14 @@ Returning from OUTPUT 2		(i)
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><a href="#R-image-d8a17e490281ddc2e0f6b90cf854b051" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d8a17e490281ddc2e0f6b90cf854b051"><img alt="Activation Stack 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png"></a></td>
-<td style="text-align:center"><a href="#R-image-86f36de06fd864b7149ddb364ba49ac1" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-86f36de06fd864b7149ddb364ba49ac1"><img alt="Activation Stack 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png"></a></td>
-<td style="text-align:center"><a href="#R-image-62e484837db78a0da2fcb394a884dde2" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-62e484837db78a0da2fcb394a884dde2"><img alt="Activation Stack 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png"></a></td>
-<td style="text-align:center"><a href="#R-image-43f1f1c2d0d68d2fdb390e6620a0f611" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-43f1f1c2d0d68d2fdb390e6620a0f611"><img alt="Main Activation Record" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png"></a></td>
+<td style="text-align:center"><a href="#R-image-698352735eccf3c9def7dcefec1f07f9" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-698352735eccf3c9def7dcefec1f07f9"><img alt="Activation Stack 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png"></a></td>
+<td style="text-align:center"><a href="#R-image-cea67dcef20577edc36115c360f4d8f2" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cea67dcef20577edc36115c360f4d8f2"><img alt="Activation Stack 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png"></a></td>
+<td style="text-align:center"><a href="#R-image-a7941dbbb554cc5edc8441f2be414c4b" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a7941dbbb554cc5edc8441f2be414c4b"><img alt="Activation Stack 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png"></a></td>
+<td style="text-align:center"><a href="#R-image-b312e9e7b43be7eb156e6cd47b4597e4" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b312e9e7b43be7eb156e6cd47b4597e4"><img alt="Main Activation Record" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png"></a></td>
 </tr>
 </tbody>
 </table>
@@ -1302,7 +1302,7 @@ Returning from OUTPUT 2		(i)
   <p class="theme-version-footer">6.0.0</p>
   <p>Last modified by: 
               <i class='fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/310/generic/textbook/-/commit/4a467f98a630678a7116227e7d7ed3fa893d2136">Jun 20, 2024</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc310/commit/4a467f98a630678a7116227e7d7ed3fa893d2136">Jun 20, 2024</a>
   </p>
   </div>
   
@@ -1330,12 +1330,12 @@ Returning from OUTPUT 2		(i)
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1719521864" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1719521864" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719521864" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1719521864" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1719521864" defer></script>
-        <script src="/cc310/js/search.js?1719521864" defer></script>
+        <script src="/cc310/js/auto-complete.js?1719522159" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1719522159" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719522159" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1719522159" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1719522159" defer></script>
+        <script src="/cc310/js/search.js?1719522159" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1564,28 +1564,14 @@ Returning from OUTPUT 2		(i)
               </li>
             </ul>
           </div>
-          <div id="R-footer" class="footerFooter showFooter"><style>
-  #footer {
-      font-size: 13px;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 2rem 1rem;
-      min-width: 230px;
-      max-width: 300px;
-  }
-  #footer p {
-      margin: 0;
-  }
-  </style>
-      
-  <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
-  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p>
+          <div id="R-footer" class="footerFooter showFooter"><p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p>
           </div>
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1719521864" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719521864" defer></script>
-    <script src="/cc310/js/theme.js?1719521864" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719522159" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719522159" defer></script>
+    <script src="/cc310/js/theme.js?1719522159" defer></script>
   </body>
 </html>

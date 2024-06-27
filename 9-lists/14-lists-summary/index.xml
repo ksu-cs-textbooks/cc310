@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lists Summary :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/14-lists-summary/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/9-lists/14-lists-summary/</link>
     <description>In this module, we introduced the concept of a linked list, discussing both singly and doubly linked lists. Both kinds of lists are made up of nodes that hold data as well as references (also known as pointers) to other nodes in the list. Singly linked lists use only a single pointer, next, to connect each node to the next node in the list. While simple, we saw that a singly linked list allowed us to efficiently implement a stack without any artificial bounds on the number of items in the list.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/9-lists/14-lists-summary/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/9-lists/14-lists-summary/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

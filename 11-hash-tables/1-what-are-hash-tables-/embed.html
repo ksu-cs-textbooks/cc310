@@ -1040,7 +1040,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="A hash table is an unordered collection of key-value pairs, where each key is unique. The great thing about hash tables is that they provide efficient insertion, removal and lookup operations that arrays and linked lists cannot match, such as:
 Retrieval operations in an unsorted array run in order $N$ time, Retrieval operations in a sorted array using binary search run in constant time, but insertion operations run in order $N$ time, and Insertion operations run in constant time in linked lists, but retrieval operations run in order $N$ time.">
@@ -1049,7 +1049,7 @@ Retrieval operations in an unsorted array run in order $N$ time, Retrieval opera
     <meta name="twitter:title" content="What are Hash Tables? :: CC 310 Textbook">
     <meta name="twitter:description" content="A hash table is an unordered collection of key-value pairs, where each key is unique. The great thing about hash tables is that they provide efficient insertion, removal and lookup operations that arrays and linked lists cannot match, such as:
 Retrieval operations in an unsorted array run in order $N$ time, Retrieval operations in a sorted array using binary search run in constant time, but insertion operations run in order $N$ time, and Insertion operations run in constant time in linked lists, but retrieval operations run in order $N$ time.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/11-hash-tables/1-what-are-hash-tables-/embed.html">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/11-hash-tables/1-what-are-hash-tables-/embed.html">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="What are Hash Tables? :: CC 310 Textbook">
     <meta property="og:description" content="A hash table is an unordered collection of key-value pairs, where each key is unique. The great thing about hash tables is that they provide efficient insertion, removal and lookup operations that arrays and linked lists cannot match, such as:
@@ -1064,24 +1064,24 @@ Retrieval operations in an unsorted array run in order $N$ time, Retrieval opera
     <meta itemprop="dateModified" content="2024-06-20T09:14:34-05:00">
     <meta itemprop="wordCount" content="538">
     <title>What are Hash Tables? :: CC 310 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/11-hash-tables/1-what-are-hash-tables-/" rel="canonical" type="text/html" title="What are Hash Tables? :: CC 310 Textbook">
+    <link href="https://textbooks.cs.ksu.edu/cc310/11-hash-tables/1-what-are-hash-tables-/" rel="canonical" type="text/html" title="What are Hash Tables? :: CC 310 Textbook">
     <link href="/cc310/11-hash-tables/1-what-are-hash-tables-/index.xml" rel="alternate" type="application/rss+xml" title="What are Hash Tables? :: CC 310 Textbook">
     <link href="/cc310/11-hash-tables/1-what-are-hash-tables-/index.print.html" rel="alternate" type="text/html" title="What are Hash Tables? :: CC 310 Textbook">
     <link href="/cc310/11-hash-tables/1-what-are-hash-tables-/tele.html" rel="alternate" type="text/html" title="What are Hash Tables? :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1719521869" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521869" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1719521869" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1719521869" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521869" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1719521869" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1719521869" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521869" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1719521869" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1719522164" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522164" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1719522164" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1719522164" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522164" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1719522164" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1719522164" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522164" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1719522164" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1719521869" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1719521869" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1719521869" rel="stylesheet">
-  <link href="/cc310/css/print.css?1719521869" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1719522164" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1719522164" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1719522164" rel="stylesheet">
+  <link href="/cc310/css/print.css?1719522164" rel="stylesheet" media="print">
   
   
   
@@ -1089,7 +1089,7 @@ Retrieval operations in an unsorted array run in order $N$ time, Retrieval opera
     window.relearn = window.relearn || {};
     window.relearn.relBasePath='..\/..';
     window.relearn.relBaseUri='..\/..\/..';
-    window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+    window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
     window.index_js_url="/cc310/index.search.js";
     // variant stuff
     window.variants && variants.init( [ 'light-theme' ] );
@@ -1104,7 +1104,7 @@ Retrieval operations in an unsorted array run in order $N$ time, Retrieval opera
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1719521869" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1719522164" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/11-hash-tables/1-what-are-hash-tables-/embed.html">
@@ -1145,8 +1145,8 @@ Storing a key-value pair in a hash table uses the following procedure.</p>
 <li>The key is run through a hash function, which generates an index into the hash table&rsquo;s array.</li>
 <li>The key-value pair is stored in the bucket (linked list) referenced at that index.</li>
 </ol>
-<p><a href="#R-image-e5af34710267a8ed307e3a20ef69a42f" class="lightbox-link"><img alt="Hash Table Linked List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/11/11.1.list.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e5af34710267a8ed307e3a20ef69a42f"><img alt="Hash Table Linked List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/11/11.1.list.svg"></a></p>
+<p><a href="#R-image-6a49220a5f0b49a515b4c48b2338c265" class="lightbox-link"><img alt="Hash Table Linked List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/11/11.1.list.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6a49220a5f0b49a515b4c48b2338c265"><img alt="Hash Table Linked List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/11/11.1.list.svg"></a></p>
 <p>Retrieving a key-value pair from the hash table follows a similar procedure.</p>
 <ol>
 <li>The user presents the key to the key-value pair to be retrieved.</li>
@@ -1178,10 +1178,10 @@ Storing a key-value pair in a hash table uses the following procedure.</p>
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719521869" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719521869" defer></script>
-<script src="/cc310/js/theme.js?1719521869" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719522164" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719522164" defer></script>
+<script src="/cc310/js/theme.js?1719522164" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1719521869" defer></script>
+<script src="/cc310/js/embed-iframe.js?1719522164" defer></script>
 </body>
 </html>

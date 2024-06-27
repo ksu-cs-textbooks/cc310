@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Summary :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/12-performance/12-summary/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/12-performance/12-summary/</link>
     <description>In this module, we reviewed each of the data structures we have explored in this class. Most importantly, we looked at how they compare in terms of performance and discussed some of the best and most efficient ways to use them in our programs.&#xA;Using that information, we introduced the standard collection libraries for both Java and Python, and saw how those professional implementations closely follow the same ideas and analysis that we saw in our own structures.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/12-performance/12-summary/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/12-performance/12-summary/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

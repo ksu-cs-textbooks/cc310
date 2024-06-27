@@ -1040,7 +1040,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="Another concept related to preconditions and postconditions is the loop invariant. A loop invariant is a statement should be true after each iteration of a loop, provided the loop’s preconditions are all true before the start of the loop. Yes, that’s right—we can think of a loop as a miniature method within a method, with its own set of preconditions and postconditions.
 Example - Maximum For this example, let’s consider a method maximum(numbers) that gets an array of numbers as input, and returns the maximum value stored in that list.">
@@ -1049,7 +1049,7 @@ Example - Maximum For this example, let’s consider a method maximum(numbers) t
     <meta name="twitter:title" content="Invariants :: CC 310 Textbook">
     <meta name="twitter:description" content="Another concept related to preconditions and postconditions is the loop invariant. A loop invariant is a statement should be true after each iteration of a loop, provided the loop’s preconditions are all true before the start of the loop. Yes, that’s right—we can think of a loop as a miniature method within a method, with its own set of preconditions and postconditions.
 Example - Maximum For this example, let’s consider a method maximum(numbers) that gets an array of numbers as input, and returns the maximum value stored in that list.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/3-programming-by-contract-and-introduction-to-performance/4-invariants/">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/3-programming-by-contract-and-introduction-to-performance/4-invariants/">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="Invariants :: CC 310 Textbook">
     <meta property="og:description" content="Another concept related to preconditions and postconditions is the loop invariant. A loop invariant is a statement should be true after each iteration of a loop, provided the loop’s preconditions are all true before the start of the loop. Yes, that’s right—we can think of a loop as a miniature method within a method, with its own set of preconditions and postconditions.
@@ -1068,22 +1068,22 @@ Example - Maximum For this example, let’s consider a method maximum(numbers) t
     <link href="/cc310/3-programming-by-contract-and-introduction-to-performance/4-invariants/index.print.html" rel="alternate" type="text/html" title="Invariants :: CC 310 Textbook">
     <link href="/cc310/3-programming-by-contract-and-introduction-to-performance/4-invariants/tele.html" rel="alternate" type="text/html" title="Invariants :: CC 310 Textbook">
     <link href="/cc310/3-programming-by-contract-and-introduction-to-performance/4-invariants/embed.html" rel="alternate" type="text/html" title="Invariants :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719521864" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521864" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719521864" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719521864" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521864" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719521864" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719521864" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521864" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719521864" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719521864" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719521864" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719521864" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719521864" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719521864"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719522159" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522159" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719522159" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719522159" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522159" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719522159" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719522159" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522159" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719522159" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719522159" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719522159" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719522159" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719522159" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719522159"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
       window.index_js_url="/cc310/index.search.js";
       // variant stuff
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
@@ -1098,7 +1098,7 @@ Example - Maximum For this example, let’s consider a method maximum(numbers) t
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719521864" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719522159" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/3-programming-by-contract-and-introduction-to-performance/4-invariants/">
     <div id="R-body" class="default-animation">
@@ -1132,7 +1132,7 @@ Example - Maximum For this example, let’s consider a method maximum(numbers) t
             itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Invariants</span><meta itemprop="position" content="2"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://gitlab.cs.ksu.edu/-/ide/project/cc/310/generic/textbook/edit/master/-/content/3-Programming%20by%20Contract%20and%20Introduction%20to%20Performance/4-Invariants.md" target="_blank" title="Edit (CTRL&#43;ALT&#43;w)"><i class="fa-fw fas fa-pen"></i></a>
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc310/edit/main/content/3-Programming%20by%20Contract%20and%20Introduction%20to%20Performance/4-Invariants.md" target="_blank" title="Edit (CTRL&#43;ALT&#43;w)"><i class="fa-fw fas fa-pen"></i></a>
             </div>
             <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc310/3-programming-by-contract-and-introduction-to-performance/4-invariants/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
             </div>
@@ -1239,7 +1239,7 @@ Example - Maximum For this example, let’s consider a method maximum(numbers) t
   <p class="theme-version-footer">6.0.0</p>
   <p>Last modified by: 
               <i class='fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/310/generic/textbook/-/commit/4a467f98a630678a7116227e7d7ed3fa893d2136">Jun 20, 2024</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc310/commit/4a467f98a630678a7116227e7d7ed3fa893d2136">Jun 20, 2024</a>
   </p>
   </div>
   
@@ -1267,12 +1267,12 @@ Example - Maximum For this example, let’s consider a method maximum(numbers) t
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1719521864" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1719521864" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719521864" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1719521864" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1719521864" defer></script>
-        <script src="/cc310/js/search.js?1719521864" defer></script>
+        <script src="/cc310/js/auto-complete.js?1719522159" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1719522159" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719522159" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1719522159" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1719522159" defer></script>
+        <script src="/cc310/js/search.js?1719522159" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1501,28 +1501,14 @@ Example - Maximum For this example, let’s consider a method maximum(numbers) t
               </li>
             </ul>
           </div>
-          <div id="R-footer" class="footerFooter showFooter"><style>
-  #footer {
-      font-size: 13px;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 2rem 1rem;
-      min-width: 230px;
-      max-width: 300px;
-  }
-  #footer p {
-      margin: 0;
-  }
-  </style>
-      
-  <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
-  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p>
+          <div id="R-footer" class="footerFooter showFooter"><p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p>
           </div>
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1719521864" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719521864" defer></script>
-    <script src="/cc310/js/theme.js?1719521864" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719522159" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719522159" defer></script>
+    <script src="/cc310/js/theme.js?1719522159" defer></script>
   </body>
 </html>

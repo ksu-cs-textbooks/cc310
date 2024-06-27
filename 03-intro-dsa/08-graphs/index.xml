@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graphs :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/08-graphs/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/08-graphs/</link>
     <description>1&#xA;The most general version of a non-linear data structure is the graph, as shown in the diagram above. A graph is a set of nodes that contain data, as well as a set of edges that link two nodes together. Edges themselves may also contain data.&#xA;Graphs are great for storing and visualizing not just data, but also the relationships between data. For example, each node in the graph could represent a city on the map, with the edges representing the travel time between the two cities.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/08-graphs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/08-graphs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

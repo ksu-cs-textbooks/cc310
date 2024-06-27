@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stacks in Code :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/5-stacks/3-stacks-in-code/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/5-stacks/3-stacks-in-code/</link>
     <description>How do we implement stacks in code? One way would be to use something we already understand, an array. Remember that arrays allow us to store multiple items, where each entry in the array has a unique index number. This is a great way to implement stacks. We can store items directly in the array and use a special top variable to hold the index of the top of the stack.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/5-stacks/3-stacks-in-code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/5-stacks/3-stacks-in-code/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1040,7 +1040,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="Next, we can discuss postconditions. A postcondition is a statement that is guaranteed to be true after a method is executed, provided all of the preconditions were met. If any one of the preconditions were not met, then we can’t count on the postcondition being true either. This is the most important concept surrounding preconditions and postconditions.
 Info If the preconditions of a method are all true when a method is called, then we may assume the postconditions are true after the method is complete, provided it is written correctly.">
@@ -1049,7 +1049,7 @@ Info If the preconditions of a method are all true when a method is called, then
     <meta name="twitter:title" content="Postconditions :: CC 310 Textbook">
     <meta name="twitter:description" content="Next, we can discuss postconditions. A postcondition is a statement that is guaranteed to be true after a method is executed, provided all of the preconditions were met. If any one of the preconditions were not met, then we can’t count on the postcondition being true either. This is the most important concept surrounding preconditions and postconditions.
 Info If the preconditions of a method are all true when a method is called, then we may assume the postconditions are true after the method is complete, provided it is written correctly.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/19-postconditions/">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/19-postconditions/">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="Postconditions :: CC 310 Textbook">
     <meta property="og:description" content="Next, we can discuss postconditions. A postcondition is a statement that is guaranteed to be true after a method is executed, provided all of the preconditions were met. If any one of the preconditions were not met, then we can’t count on the postcondition being true either. This is the most important concept surrounding preconditions and postconditions.
@@ -1064,26 +1064,26 @@ Info If the preconditions of a method are all true when a method is called, then
     <meta itemprop="dateModified" content="2024-06-21T09:30:00-05:00">
     <meta itemprop="wordCount" content="578">
     <title>Postconditions :: CC 310 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/19-postconditions/" rel="canonical" type="text/html" title="Postconditions :: CC 310 Textbook">
+    <link href="https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/19-postconditions/" rel="canonical" type="text/html" title="Postconditions :: CC 310 Textbook">
     <link href="/cc310/03-intro-dsa/19-postconditions/index.xml" rel="alternate" type="application/rss+xml" title="Postconditions :: CC 310 Textbook">
     <link href="/cc310/03-intro-dsa/19-postconditions/index.print.html" rel="alternate" type="text/html" title="Postconditions :: CC 310 Textbook">
     <link href="/cc310/03-intro-dsa/19-postconditions/embed.html" rel="alternate" type="text/html" title="Postconditions :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719521878" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521878" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719521878" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719521878" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521878" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719521878" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719521878" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521878" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719521878" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719521878" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719521878" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719521878" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719521878" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719521878"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719522174" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522174" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719522174" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719522174" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522174" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719522174" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719522174" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522174" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719522174" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719522174" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719522174" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719522174" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719522174" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719522174"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
       window.index_js_url="/cc310/index.search.js";
       // variant stuff
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
@@ -1098,7 +1098,7 @@ Info If the preconditions of a method are all true when a method is called, then
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719521878" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719522174" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc310/03-intro-dsa/19-postconditions/">
     
@@ -1149,8 +1149,8 @@ Info If the preconditions of a method are all true when a method is called, then
 <h2 id="precondition-failures-incorrect-output">Precondition Failures: Incorrect Output</h2>
 <p>So, what if the preconditions are not met? Then what happens?</p>
 <p>As we discussed on the previous page, if the preconditions are not met, then we cannot guarantee that the postcondition will be true once the method executes. In fact, it may be decidedly incorrect, depending on how we implement the method.</p>
-<p><a href="#R-image-67e68110ebb61a246327ad13ba4d39b0" class="lightbox-link"><img alt="Heron&rsquo;s Formula" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/3/3.3.triangle_wiki.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-67e68110ebb61a246327ad13ba4d39b0"><img alt="Heron&rsquo;s Formula" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/3/3.3.triangle_wiki.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-065f5e2de82d3d9de1888aadb9fbd5bf" class="lightbox-link"><img alt="Heron&rsquo;s Formula" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/3/3.3.triangle_wiki.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-065f5e2de82d3d9de1888aadb9fbd5bf"><img alt="Heron&rsquo;s Formula" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/3/3.3.triangle_wiki.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>For example, the simplest way to find the area of a triangle given the lengths of all three sides is <a href="https://en.wikipedia.org/wiki/Heron%27s_formula" rel="external" target="_blank">Heron&rsquo;s formula</a>, which can be written mathematically as:</p>
 $$
 A = 1/4 \sqrt{(a + b + c)(-a + b + c)(a - b + c)(a + b - c)}
@@ -1181,8 +1181,8 @@ $$
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719521878" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719521878" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719522174" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719522174" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1197,10 +1197,10 @@ $$
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719521878"></script>
-<script src="/cc310/js/theme.js?1719521878" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719522174"></script>
+<script src="/cc310/js/theme.js?1719522174" defer></script>
 
-<script src="/cc310/js/tele-scroll.js?1719521878" defer></script>
+<script src="/cc310/js/tele-scroll.js?1719522174" defer></script>
 
 </body>
 </html>

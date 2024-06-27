@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Variable Roles :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/01-review/10-variable-roles/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/01-review/10-variable-roles/</link>
     <description>Variables in our programs can be used in a variety of different roles. The simplest role for any variable is to store a value that does not change throughout the entire program. Most variables, however, fit into one of several roles throughout the program.&#xA;To help us understand these roles, let’s review them in detail here. As we move forward in this course, we’ll see many different data structures that use variables in these ways, so it helps to know each of them early on!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/01-review/10-variable-roles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/01-review/10-variable-roles/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>I/O :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/01-review/17-java/12-i-o/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/01-review/17-java/12-i-o/</link>
     <description>One of the major features of a modern computer is the ability to store and retrieve data from the computer’s file system. So, we need to be able to access the file system in our code in order to build useful programs. Thankfully, most modern programming languages include a way to do this.&#xA;I/O in Flowcharts &amp; Pseudocode Most operations working with files in code take the form of method calls.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/01-review/17-java/12-i-o/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/01-review/17-java/12-i-o/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

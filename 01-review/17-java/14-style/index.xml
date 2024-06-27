@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Style :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/01-review/17-java/14-style/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/01-review/17-java/14-style/</link>
     <description>To make your code easier to read, many textbooks and companies use a style guide that defines some of the formating rules that you should follow in your source code. However, this is a point of contention, and many folks disagree over what is the best format. These formatting rules do not affect the actual code itself, only how easy it is to read.&#xA;For this book, most of the examples will be presented in a variant of the K&amp;R Style used by most Java developers, which places the opening brace on the same line as the declaration, but the closing brace is placed on a line by itself and indented at the same level as the declaration.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/01-review/17-java/14-style/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/01-review/17-java/14-style/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

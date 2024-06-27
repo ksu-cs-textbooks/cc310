@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recursive Linear Search :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/5-recursive-linear-search/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/5-recursive-linear-search/</link>
     <description>We looked at an iterative version of the find function above. But what would it take to turn that function into a recursive function? While for this particular function, there is not a lot to be gained from the recursive version, it is still instructive to see how we would do it. We will find recursive functions more useful later on in the module.&#xA;In this case, to implement a recursive version of the function, we need to add a third parameter, index, to tell us where to check in the array.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/5-recursive-linear-search/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/5-recursive-linear-search/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

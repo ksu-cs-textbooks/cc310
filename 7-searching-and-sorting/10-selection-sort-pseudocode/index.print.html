@@ -1040,7 +1040,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="To describe our selection sort algorithm, we can start with these basic preconditions and postconditions.
 Preconditions:
@@ -1055,7 +1055,7 @@ Preconditions:
 The array stores a type of elements which can be ordered. Postconditions:
 The array will be sorted in ascending order. We can then represent this algorithm using the following pseudocode.
 function SELECTIONSORT(ARRAY)	(1) loop INDEX from 0 to size of ARRAY – 2	(2) MININDEX = 0	(3) # find minimum index	loop INDEX2 from INDEX to size of ARRAY – 1	(4) if ARRAY[INDEX2] &lt; ARRAY[MININDEX] then	(5) MININDEX = INDEX	(6) end if	(7) end loop	(8) # swap elements TEMP = ARRAY[MININDEX]	(9) ARRAY[MININDEX] = ARRAY[INDEX]	(10) ARRAY[INDEX] = TEMP	(11) end loop	(12) end function	(13)In this code, we begin by looping through every element in the array except the last one, as seen on line 2.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="Selection Sort Pseudocode :: CC 310 Textbook">
     <meta property="og:description" content="To describe our selection sort algorithm, we can start with these basic preconditions and postconditions.
@@ -1076,27 +1076,27 @@ function SELECTIONSORT(ARRAY)	(1) loop INDEX from 0 to size of ARRAY – 2	(2) M
     <meta itemprop="dateModified" content="2021-08-17T10:22:02-05:00">
     <meta itemprop="wordCount" content="359">
     <title>Selection Sort Pseudocode :: CC 310 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/" rel="canonical" type="text/html" title="Selection Sort Pseudocode :: CC 310 Textbook">
+    <link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/" rel="canonical" type="text/html" title="Selection Sort Pseudocode :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/index.xml" rel="alternate" type="application/rss+xml" title="Selection Sort Pseudocode :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/tele.html" rel="alternate" type="text/html" title="Selection Sort Pseudocode :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/embed.html" rel="alternate" type="text/html" title="Selection Sort Pseudocode :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719521876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521876" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719521876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521876" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719521876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521876" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719521876" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719521876" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719521876" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1719521876" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1719521876"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719522172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522172" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719522172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522172" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719522172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522172" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719522172" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719522172" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719522172" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1719522172" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1719522172"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
       window.index_js_url="/cc310/index.search.js";
       // variant stuff
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
@@ -1111,7 +1111,7 @@ function SELECTIONSORT(ARRAY)	(1) loop INDEX from 0 to size of ARRAY – 2	(2) M
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719521876" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719522172" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/">
     <div id="R-body" class="default-animation">
@@ -1193,14 +1193,14 @@ function SELECTIONSORT(ARRAY)	(1) loop INDEX from 0 to size of ARRAY – 2	(2) M
   <p class="theme-version-footer">6.0.0</p>
   <p>Last modified by: 
               <i class='fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/310/generic/textbook/-/commit/301ec8aaa3405c30b07aa146ef1fa7f85a5af97c">Aug 17, 2021</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc310/commit/301ec8aaa3405c30b07aa146ef1fa7f85a5af97c">Aug 17, 2021</a>
   </p>
   </div>
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1719521876" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719521876" defer></script>
-    <script src="/cc310/js/theme.js?1719521876" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719522172" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719522172" defer></script>
+    <script src="/cc310/js/theme.js?1719522172" defer></script>
   </body>
 </html>

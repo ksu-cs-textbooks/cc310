@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Variables :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/01-review/06-variables/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/01-review/06-variables/</link>
     <description>A variable in a programming language is an abstraction that allows storing one value in each instant of time, but this value can change along with the program execution. A variable can be represented as a box holding a value. If the variable is a container, e.g., a list (or array or vector), a matrix, a tuple, or a set of values, each box in the container contains a single value.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/01-review/06-variables/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/01-review/06-variables/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

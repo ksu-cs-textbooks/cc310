@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Singly Linked Lists :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/9-lists/4-singly-linked-lists/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/9-lists/4-singly-linked-lists/</link>
     <description>Linked Node To solve the disadvantages of arrays, we need a data structure that allows us to insert and remove items in an ordered collection in constant time, independently from the number of items in the data structure.&#xA;The solution lies in creating our own specialized data structure where each node contains the data of interest as well as a reference, or pointer to the next node in the list.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/9-lists/4-singly-linked-lists/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/9-lists/4-singly-linked-lists/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

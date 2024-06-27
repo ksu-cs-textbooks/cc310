@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Functions :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/02-functions/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/02-functions/</link>
     <description>Functions are small pieces of reusable code that allow you to divide complex programs into smaller subprograms. Ideally, functions perform a single task and return a single value. (It should be noted that some programming languages allow for procedures, which are similar to functions but return no values. Except for the return value, it is safe to group them with functions in our discussion below.)&#xA;Functions can be thought of as black boxes.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/02-oop-review/02-functions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/02-oop-review/02-functions/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

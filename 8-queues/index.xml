@@ -1039,66 +1039,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Queues :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/8-queues/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/8-queues/</link>
     <description>Welcome! This page is the main page for Queues</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jun 2024 09:14:34 -0500</lastBuildDate>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/8-queues/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/8-queues/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is a Queue?</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/8-queues/1-what-is-a-queue-/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/8-queues/1-what-is-a-queue-/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/8-queues/1-what-is-a-queue-/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/8-queues/1-what-is-a-queue-/</guid>
       <description>A queue (pronounced like the letter “q”) data structure organizes data in a First In, First Out (FIFO) order: the first piece of data put into the queue is the first piece of data available to remove from the queue. A queue functions just like the line you would get into to go into a ballgame, movie, or concert: the person that arrives first is the first to get into the venue.</description>
     </item>
     <item>
       <title>Queues in the Real World</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/8-queues/2-queues-in-the-real-world/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/8-queues/2-queues-in-the-real-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/8-queues/2-queues-in-the-real-world/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/8-queues/2-queues-in-the-real-world/</guid>
       <description>The name for queues comes the word in British English used to describe a line of people. Instead of forming lines to wait for some service, British form queues. Thus, when we think of queues, often the first picture to come to mind is a group of people standing in a line. Of course, this is exactly how a computer queue operates as well. The first person in line gets served first.</description>
     </item>
     <item>
       <title>Queues in Code</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/8-queues/3-queues-in-code/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/8-queues/3-queues-in-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/8-queues/3-queues-in-code/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/8-queues/3-queues-in-code/</guid>
       <description>How do we implement queues in code? Like we did with stacks, we will use an array, which is an easily understandable way to implement queues. We will store data directly in the array and use special start and end variables to keep track of the start of the queue and the end of the queue.&#xA;The following figure shows how we might implement a queue with an array. First, we define our array myQueue to be an array that can hold 10 numbers, with an index of 0 to 9.</description>
     </item>
     <item>
       <title>Basic Operations</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/8-queues/4-basic-operations/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/8-queues/4-basic-operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/8-queues/4-basic-operations/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/8-queues/4-basic-operations/</guid>
       <description>We have already seen the pseudocode for the two key operations for queues: enqueue and dequeue. However, there are several others that make the queue data structure much easier to use:&#xA;enqueue—places an item on the end of the queue, dequeue—removes and returns the item at the start of the queue, peek—returns the item at the start of the queue without removing it, isEmpty—returns true if there are no items in the queue, isFull—returns true if our queue array is full, and size—returns the number of items in the queue.</description>
     </item>
     <item>
       <title>Using Operations</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/8-queues/5-using-operations/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/8-queues/5-using-operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/8-queues/5-using-operations/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/8-queues/5-using-operations/</guid>
       <description>The following table shows an example of how to use the above operations to create and manipulate a queue. It assumes the steps are performed sequentially and the result of the operation is shown.&#xA;Step Operation Effect 1 Constructor Creates an empty queue of capacity 3. 2 isFull() Returns false since start is not equal to end 3 isEmpty() Returns true since start is equal to -1. 4 enqueue(1) Places item 1 onto queue at the end and increments end by 1.</description>
     </item>
     <item>
       <title>Using a Queue</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/8-queues/6-using-a-queue/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/8-queues/6-using-a-queue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/8-queues/6-using-a-queue/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/8-queues/6-using-a-queue/</guid>
       <description>Queues are useful in many applications. Classic real-world software which uses queues includes the scheduling of tasks, sharing of resources, and processing of messages in the proper order. A common need is to schedule tasks to be executed based on their priority. This type of scheduling can be done in a computer or on an assembly line floor, but the basic concept is the same.&#xA;Let’s assume that we are putting windshields onto new cars in a production line.</description>
     </item>
     <item>
       <title>Windshield Station Example</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/8-queues/7-windshield-station-example/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/8-queues/7-windshield-station-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/8-queues/7-windshield-station-example/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/8-queues/7-windshield-station-example/</guid>
       <description>The following example shows how the Controller class would work, given specific calls to receiveCar and getCar.&#xA;Step Operation Effect 1 Constructor Creates 3 priority queues. 2 getCar() Raises an exception since all three queues will be empty. 3 receiveCar(a, low) Places car a into the low queue. 4 receiveCar(b, low) Places car b into the low queue. 5 receiveCar(f, high) Places car f into the high queue. 6 receiveCar(d, medium) Places car d into the medium queue.</description>
     </item>
     <item>
       <title>Queues Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/8-queues/8-queues-summary/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/8-queues/8-queues-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/8-queues/8-queues-summary/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/8-queues/8-queues-summary/</guid>
       <description>In this module we looked at the queue data structure. Queues are a “first in first out” data structure that use two main operations, enqueue and dequeue, to put data into the queue and to remove data from the queue. Queues are useful in many applications including the scheduling of tasks, sharing of resources, and processing of messages in the proper order.</description>
     </item>
   </channel>

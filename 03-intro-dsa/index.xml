@@ -1039,156 +1039,156 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction to Data Structures &amp; Algorithms :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/</link>
     <description>The big introduction to new content!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Structures</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/01-data-structures/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/01-data-structures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/01-data-structures/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/01-data-structures/</guid>
       <description>One way to look at a computer program is to think of it as a list of instructions that the computer should follow. However, in another sense, many computer programs are simply ways to manipulate data to achieve a desired result. We’ve already written many programs that do this, from calculating the minimum and maximum values of a list of numbers, to storing and retrieving data about students and teachers in a school.</description>
     </item>
     <item>
       <title>Linear Structures</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/02-linear-structures/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/02-linear-structures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/02-linear-structures/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/02-linear-structures/</guid>
       <description>First, we can broadly separate the data structures we’re going to learn about into two types, linear and non-linear data structures.&#xA;A linear data structure typically stores data in a single dimension, just like an array. By using a linear data structure, we would know that a particular element in the data structure comes before another element or vice-versa, but that’s about it. A great example is seen in the image above.</description>
     </item>
     <item>
       <title>Lists</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/03-lists/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/03-lists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/03-lists/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/03-lists/</guid>
       <description>The list data structure is the simplest form of a linear data structure. As we can guess from the definition, a list is simply a grouping of data that is presented in a given order. With lists, not only do the elements in the list matter, but the order matters as well. It’s not simply enough to state that elements $8$, $6$ and $7$ are in the list, but generally we also know that $8$ comes before $6$, which comes before $7$.</description>
     </item>
     <item>
       <title>Stacks and Queues</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/04-stacks-queues/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/04-stacks-queues/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/04-stacks-queues/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/04-stacks-queues/</guid>
       <description>The next two data structures we’ll look at are stacks and queues. They are both very similar to lists in most respects, but each one puts a specific limitation on how the data structure operates that make them very useful in certain situations.&#xA;Stack 1&#xA;A stack is one special version of a list. Specifically, a stack is a Last In, First Out or LIFO data structure.&#xA;So, what does that mean?</description>
     </item>
     <item>
       <title>Sets</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/05-sets/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/05-sets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/05-sets/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/05-sets/</guid>
       <description>Another linear data structure is known as a set. A set is very similar to a list, but with two major differences:&#xA;A set cannot contain duplicate elements. Each element must be unique in the set. A set does not necessarily keep track of the ordering of the elements within the set. In fact, the term set comes from mathematics. We’ve probably seen sets already in a math class.</description>
     </item>
     <item>
       <title>Maps</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/06-maps/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/06-maps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/06-maps/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/06-maps/</guid>
       <description>The last of the linear data structures may seem linear from the outside, but inside it can be quite a bit more complex.&#xA;The map data structure is an example of a key-value data structure, also known as a dictionary or associative array. In the simplest case, a map data structure keeps track of a key that uniquely identifies a particular value, and stores that value along with the key in the data structure.</description>
     </item>
     <item>
       <title>Non-Linear Structures</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/07-non-linear/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/07-non-linear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/07-non-linear/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/07-non-linear/</guid>
       <description>1&#xA;The other type of data structure we can use in our programs is the non-linear data structure.&#xA;Broadly speaking, non-linear data structures allow us to store data across multiple dimensions, and there may be multiple paths through the data to get from one item to another. In fact, much of the information stored in the data structure has to do with the paths between elements more than the elements themselves.</description>
     </item>
     <item>
       <title>Graphs</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/08-graphs/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/08-graphs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/08-graphs/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/08-graphs/</guid>
       <description>1&#xA;The most general version of a non-linear data structure is the graph, as shown in the diagram above. A graph is a set of nodes that contain data, as well as a set of edges that link two nodes together. Edges themselves may also contain data.&#xA;Graphs are great for storing and visualizing not just data, but also the relationships between data. For example, each node in the graph could represent a city on the map, with the edges representing the travel time between the two cities.</description>
     </item>
     <item>
       <title>Trees</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/09-trees/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/09-trees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/09-trees/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/09-trees/</guid>
       <description>[^1]&#xA;File:Tree (computer science).svg. (2019, October 20). Wikimedia Commons, the free media repository. Retrieved 03:13, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Tree_(computer_science).svg&amp;oldid=371240902.&#xA;A tree is a more constrained version of a graph data structure. Specifically, a tree is a graph that can be shown as a hierarchical structure, where each node in the tree is itself the root of a smaller tree. Each node in the tree can have one or more child nodes and exactly one parent node, except for the topmost node or root node, which has no parent nodes.</description>
     </item>
     <item>
       <title>Heaps</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/10-heaps/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/10-heaps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/10-heaps/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/10-heaps/</guid>
       <description>1&#xA;The last non-linear data structure we’ll talk about is the heap, which is a specialized version of a tree. In a heap, we try to accomplish a few goals:&#xA;Store either the largest or smallest element in the heap at the root node, Ensure that each parent node is either larger or smaller than all of its children, and Minimize the height, or number of levels, of the tree.</description>
     </item>
     <item>
       <title>Algorithms</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/11-algorithms/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/11-algorithms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/11-algorithms/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/11-algorithms/</guid>
       <description>1&#xA;The other major topic covered in this course is the use of algorithms to manipulate the data stored in our data structures.&#xA;An algorithm is best defined as a finite list of specific instructions for performing a task. In the real world, we see algorithms all the time. A recipe for cooking your favorite dish, instructions for how to fix a broken car, or a method for solving a complex mathematical equation can all be considered examples of an algorithm.</description>
     </item>
     <item>
       <title>Brute Force</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/12-brute-force/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/12-brute-force/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/12-brute-force/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/12-brute-force/</guid>
       <description>The first algorithmic technique we’ll use is the brute force technique. This is the algorithmic technique that most of us are most familiar with, even if we don’t realize it.&#xA;Simply put, a brute force algorithm will try all possible solutions to the problem, only stopping when it finds one that is the actual solution. A great example of a brute force algorithm in action is plugging in a USB cable.</description>
     </item>
     <item>
       <title>Divide and Conquer</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/13-divide-conquer/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/13-divide-conquer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/13-divide-conquer/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/13-divide-conquer/</guid>
       <description>The next most common algorithmic technique is divide and conquer. A divide and conquer algorithm works just like it sounds. First, it will divide the problem into at least two or more smaller problems, and then it will try to solve each of those problems individually. It might even try to subdivide those smaller problems again and again to finally get to a small enough problem that it is easy to solve.</description>
     </item>
     <item>
       <title>Greedy</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/14-greedy/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/14-greedy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/14-greedy/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/14-greedy/</guid>
       <description>Another algorithmic technique that we’ll learn about is the greedy technique. In a greedy algorithm, the program tries to build a solution one piece at a time. At each step, it will act “greedy” by choosing the piece that it thinks is the best choice for the solution based on the available information. Instead of trying every possible solution like a brute force algorithm or dividing the problem into smaller parts like the divide and conquer approach, a greedy algorithm will just try to construct the one best answer it can.</description>
     </item>
     <item>
       <title>Recursion</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/15-recursion/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/15-recursion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/15-recursion/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/15-recursion/</guid>
       <description>The next algorithmic technique we’ll discuss is recursion. Recursion is closely related to the divide and conquer method we discussed earlier. However, recursion itself is a very complicated term to understand. It usually presents one of the most difficult challenges for a novice programmer to overcome when learning to write more advanced programs. Don’t worry! We’ll spend an entire module on recursion later in this course.&#xA;What is Recursion? There are many different ways to define recursion.</description>
     </item>
     <item>
       <title>Graph Traversal</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/16-graph-traversals/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/16-graph-traversals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/16-graph-traversals/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/16-graph-traversals/</guid>
       <description>Beyond the algorithmic techniques we’ve introduced so far, there are a number of techniques that deal specifically with data stored in non-linear data structures based on graphs. Generally speaking, we can group all of these algorithms under the heading graph traversal algorithms.&#xA;A graph traversal algorithm constructs an answer to a problem by moving between nodes in a graph using the graph’s edges, thereby traversing the graph. For example, a graph traversal algorithm could be used by a mapping program to construct a route from one city to another on a map, or to determine friends in common on a social networking website.</description>
     </item>
     <item>
       <title>Programming by Contract</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/17-contracts/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/17-contracts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/17-contracts/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/17-contracts/</guid>
       <description>In this course, we will learn how to develop several different data structures, and then use those data structures in programs that implement several different types of algorithms. However, one of the most difficult parts of programming is clearly explaining what a program should do and how it should perform.&#xA;So far, we’ve used UML class diagrams to discuss the structure of a program. It can give us information about the classes, attributes, and methods that our program will contain, as well as the overall relationships between the classes.</description>
     </item>
     <item>
       <title>Preconditions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/18-preconditions/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/18-preconditions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/18-preconditions/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/18-preconditions/</guid>
       <description>First, let’s discuss preconditions. A precondition is an expectation applied to any parameters and existing variables when a method or function is called. Phrased a different way, the preconditions should all be true before the method is called. If all of the preconditions are met, the function can proceed and is expected to function properly. However, if any one of the preconditions are not met, the function may either reach an exception, prompt the user to correct the issue, or produce invalid output, depending on how it is written.</description>
     </item>
     <item>
       <title>Postconditions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/19-postconditions/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/19-postconditions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/19-postconditions/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/19-postconditions/</guid>
       <description>Next, we can discuss postconditions. A postcondition is a statement that is guaranteed to be true after a method is executed, provided all of the preconditions were met. If any one of the preconditions were not met, then we can’t count on the postcondition being true either. This is the most important concept surrounding preconditions and postconditions.&#xA;Info If the preconditions of a method are all true when a method is called, then we may assume the postconditions are true after the method is complete, provided it is written correctly.</description>
     </item>
     <item>
       <title>Unit Testing</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/20-unit-test/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/20-unit-test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/20-unit-test/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/20-unit-test/</guid>
       <description>Once we’ve written a program, how can we verify that it works correctly? There are many ways to do this, but one of the most common is unit testing.&#xA;Unit Testing Unit testing a program involves writing code that actually runs the program and verifies that it works correctly. In addition, many unit tests will also check that the program produces appropriate errors when given bad input, or even that it won’t crash when given invalid input.</description>
     </item>
     <item>
       <title>Data Structures &amp; Algorithms Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/21-dsa-summary/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/21-dsa-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc310/03-intro-dsa/21-dsa-summary/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/21-dsa-summary/</guid>
       <description>In this chapter, we introduced a number of different data structures that we can use in our programs. In addition, we explored several algorithmic techniques we can use to develop algorithms that manipulate these data structures to allow us to solve complex problems in our code.&#xA;Throughout the rest of this course, as well as a subsequent course, we’ll explore many of these data structures and techniques in detail. We hope that introducing them all at the same time here will allow us to compare and contrast each one as we learn more about it, while still keeping in mind that there are many different structures and techniques that will be available to us in the future.</description>
     </item>
   </channel>

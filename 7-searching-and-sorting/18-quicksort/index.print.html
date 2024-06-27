@@ -1040,7 +1040,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="YouTube Video The last sorting algorithm we will review in this module is quicksort. Quicksort is another example of a recursive, divide and conquer sorting algorithm, and at first glance it may look very similar to merge sort. However, quicksort uses a different process for dividing the array, and that can produce some very interesting results.
 The basic idea of quicksort is as follows:
@@ -1051,7 +1051,7 @@ Choose a pivot value, called pivotValue.">
     <meta name="twitter:description" content="YouTube Video The last sorting algorithm we will review in this module is quicksort. Quicksort is another example of a recursive, divide and conquer sorting algorithm, and at first glance it may look very similar to merge sort. However, quicksort uses a different process for dividing the array, and that can produce some very interesting results.
 The basic idea of quicksort is as follows:
 Choose a pivot value, called pivotValue.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/18-quicksort/">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/18-quicksort/">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="Quicksort :: CC 310 Textbook">
     <meta property="og:description" content="YouTube Video The last sorting algorithm we will review in this module is quicksort. Quicksort is another example of a recursive, divide and conquer sorting algorithm, and at first glance it may look very similar to merge sort. However, quicksort uses a different process for dividing the array, and that can produce some very interesting results.
@@ -1068,27 +1068,27 @@ Choose a pivot value, called pivotValue.">
     <meta itemprop="dateModified" content="2024-06-20T09:14:34-05:00">
     <meta itemprop="wordCount" content="924">
     <title>Quicksort :: CC 310 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/18-quicksort/" rel="canonical" type="text/html" title="Quicksort :: CC 310 Textbook">
+    <link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/18-quicksort/" rel="canonical" type="text/html" title="Quicksort :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/18-quicksort/index.xml" rel="alternate" type="application/rss+xml" title="Quicksort :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/18-quicksort/tele.html" rel="alternate" type="text/html" title="Quicksort :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/18-quicksort/embed.html" rel="alternate" type="text/html" title="Quicksort :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719521876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521876" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719521876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521876" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719521876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521876" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719521876" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719521876" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719521876" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1719521876" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1719521876"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719522172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522172" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719522172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522172" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719522172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522172" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719522172" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719522172" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719522172" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1719522172" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1719522172"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
       window.index_js_url="/cc310/index.search.js";
       // variant stuff
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
@@ -1103,7 +1103,7 @@ Choose a pivot value, called pivotValue.">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719521876" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719522172" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/7-searching-and-sorting/18-quicksort/">
     <div id="R-body" class="default-animation">
@@ -1159,53 +1159,53 @@ Choose a pivot value, called pivotValue.">
 <li>Once the recursive calls are complete, the entire container should be sorted.</li>
 </ol>
 <p>As with all of the other examples we&rsquo;ve looked at in this module, Wikipedia provides yet another excellent animation showing this process.</p>
-<p><a href="#R-image-cbfe60ef18f785825beb7a485b99aa7e" class="lightbox-link"><img alt="Quicksort GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quicksort.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-cbfe60ef18f785825beb7a485b99aa7e"><img alt="Quicksort GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quicksort.gif"></a>^[File:Sorting quicksort anim.gif. (2019, July 30). Wikimedia Commons, the free media repository. Retrieved 01:14, March 24, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Sorting_quicksort_anim.gif&amp;oldid=359998181.]</p>
+<p><a href="#R-image-596ae40b117821c5e1a4a2ab56a1ad97" class="lightbox-link"><img alt="Quicksort GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quicksort.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-596ae40b117821c5e1a4a2ab56a1ad97"><img alt="Quicksort GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quicksort.gif"></a>^[File:Sorting quicksort anim.gif. (2019, July 30). Wikimedia Commons, the free media repository. Retrieved 01:14, March 24, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Sorting_quicksort_anim.gif&amp;oldid=359998181.]</p>
 <h2 id="quicksort-example">Quicksort Example</h2>
 <p>Let&rsquo;s look at an example of the quicksort algorithm in action to see how it works. Unlike the other sorting algorithms we&rsquo;ve seen, this one may appear to be just randomly swapping elements around at first glance. However, as we move through the example, we should start to see how it achieves a sorted result, usually very quickly!</p>
 <p>We can start with our same initial array, shown below.</p>
-<p><a href="#R-image-f84ff210e6f5c7293ed30e1f32fc5d6c" class="lightbox-link"><img alt="Quicksort Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f84ff210e6f5c7293ed30e1f32fc5d6c"><img alt="Quicksort Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick1.png"></a></p>
+<p><a href="#R-image-9be9a9f7359396b4bcdc7e2f20a887d9" class="lightbox-link"><img alt="Quicksort Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9be9a9f7359396b4bcdc7e2f20a887d9"><img alt="Quicksort Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick1.png"></a></p>
 <p>The first step is to choose a pivot value. As we discussed above, we can choose any random value in the array. However, to make it simple, we&rsquo;ll just use the last value. We will create two variables, <code>pivotValue</code> and <code>pivotIndex</code>, to help us keep track of things. We&rsquo;ll set <code>pivotValue</code> to the last value in the array, and <code>pivotIndex</code> will initially be set to 0. We&rsquo;ll see why in a few steps.</p>
-<p><a href="#R-image-ba289dbf20bac5af6df4fdc7aee3cea4" class="lightbox-link"><img alt="Quicksort Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ba289dbf20bac5af6df4fdc7aee3cea4"><img alt="Quicksort Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick2.png"></a></p>
+<p><a href="#R-image-70d831f8b8a38801ad82fa81a499d979" class="lightbox-link"><img alt="Quicksort Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-70d831f8b8a38801ad82fa81a499d979"><img alt="Quicksort Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick2.png"></a></p>
 <p>Now, the algorithm will iterate across each element in the array, comparing it with the value in <code>pivotValue</code>. If that value is less than or equal to the <code>pivotValue</code>, we should swap the element at <code>pivotIndex</code> with the value we are looking at in the array. Let&rsquo;s see how this would work.</p>
-<p><a href="#R-image-27256e5d1b4ff530d435f1bc904d7801" class="lightbox-link"><img alt="Quicksort Example 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-27256e5d1b4ff530d435f1bc904d7801"><img alt="Quicksort Example 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick3.png"></a></p>
+<p><a href="#R-image-049c600f87f987b169386586aa9da788" class="lightbox-link"><img alt="Quicksort Example 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-049c600f87f987b169386586aa9da788"><img alt="Quicksort Example 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick3.png"></a></p>
 <p>We&rsquo;d start by looking at the value at index 0 of the array, which is 8. Since that value is greater than the <code>pivotValue</code>, we do nothing and just look at the next item.</p>
-<p><a href="#R-image-ff3f713900d52064ff76d2a4966d1645" class="lightbox-link"><img alt="Quicksort Example 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ff3f713900d52064ff76d2a4966d1645"><img alt="Quicksort Example 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick4.png"></a></p>
+<p><a href="#R-image-d993f47555121a177c9ddbbc37f4ace1" class="lightbox-link"><img alt="Quicksort Example 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d993f47555121a177c9ddbbc37f4ace1"><img alt="Quicksort Example 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick4.png"></a></p>
 <p>Here, we are considering the value 5, which is at index 1 in the array. In this case, that value is less than or equal to the <code>pivotValue</code>. So, we want to swap the current element with the element at our <code>pivotIndex</code>, which is currently 0. Once we do that, we&rsquo;ll also increment our <code>pivotIndex</code> by 1. The diagram below shows these changes before they happen.</p>
-<p><a href="#R-image-91b7681ca5682aba763ddee40e3043af" class="lightbox-link"><img alt="Quicksort Example 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick5.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-91b7681ca5682aba763ddee40e3043af"><img alt="Quicksort Example 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick5.png"></a></p>
+<p><a href="#R-image-0ba22d58a2c227341926a73a7811750e" class="lightbox-link"><img alt="Quicksort Example 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick5.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0ba22d58a2c227341926a73a7811750e"><img alt="Quicksort Example 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick5.png"></a></p>
 <p>Once we make those changes, our array should look like the following diagram, and we&rsquo;ll be ready to examine the value at index 2.</p>
-<p><a href="#R-image-210e508960e66f41bc60c4b2b6f3f09e" class="lightbox-link"><img alt="Quicksort Example 6" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick6.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-210e508960e66f41bc60c4b2b6f3f09e"><img alt="Quicksort Example 6" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick6.png"></a></p>
+<p><a href="#R-image-980d74e41360d0a0b9608d52c46afee2" class="lightbox-link"><img alt="Quicksort Example 6" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick6.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-980d74e41360d0a0b9608d52c46afee2"><img alt="Quicksort Example 6" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick6.png"></a></p>
 <p>Once again, the value 2 at index 2 of the array is less than or equal to the pivot value. So, we&rsquo;ll swap them, increment <code>pivotValue</code>, and move to the next element.</p>
-<p><a href="#R-image-80acee3644eaa3130e2fdee5a4665021" class="lightbox-link"><img alt="Quicksort Example 7" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick7.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-80acee3644eaa3130e2fdee5a4665021"><img alt="Quicksort Example 7" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick7.png"></a></p>
+<p><a href="#R-image-9b027b85ec05edea7f1938991b4c1cb0" class="lightbox-link"><img alt="Quicksort Example 7" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick7.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9b027b85ec05edea7f1938991b4c1cb0"><img alt="Quicksort Example 7" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick7.png"></a></p>
 <p>We&rsquo;ll continue this process, comparing the next element in the array with the <code>pivotValue</code>, and then swapping that element and the element at the <code>pivotIndex</code> if needed, incrementing the <code>pivotIndex</code> after each swap. The diagrams below show the next few steps. First, since 6 is less than or equal to our <code>pivotValue</code>, we&rsquo;ll swap it with the pivot index and increment.</p>
-<p><a href="#R-image-003a35d2d4b9bf261345478b5080d2f3" class="lightbox-link"><img alt="Quicksort Example 8" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick8.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-003a35d2d4b9bf261345478b5080d2f3"><img alt="Quicksort Example 8" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick8.png"></a></p>
+<p><a href="#R-image-83c1f53b8455625c0640f5c40e6442f4" class="lightbox-link"><img alt="Quicksort Example 8" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick8.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-83c1f53b8455625c0640f5c40e6442f4"><img alt="Quicksort Example 8" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick8.png"></a></p>
 <p>However, since 9 is greater than the pivot index, we&rsquo;ll just leave it as is for now and move to the next element.</p>
-<p><a href="#R-image-7fd28036647294cfe1cb0a65417f5b75" class="lightbox-link"><img alt="Quicksort Example 9" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick9.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7fd28036647294cfe1cb0a65417f5b75"><img alt="Quicksort Example 9" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick9.png"></a></p>
+<p><a href="#R-image-8f05a31ca2d495eae6ada16276cec81c" class="lightbox-link"><img alt="Quicksort Example 9" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick9.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8f05a31ca2d495eae6ada16276cec81c"><img alt="Quicksort Example 9" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick9.png"></a></p>
 <p>3 is less than or equal to the pivot value, so we&rsquo;ll swap the element at index 3 with the 3 at index 5.</p>
-<p><a href="#R-image-ef03619a692b6965adebc0a8d6fa4a30" class="lightbox-link"><img alt="Quicksort Example 10" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick10.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ef03619a692b6965adebc0a8d6fa4a30"><img alt="Quicksort Example 10" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick10.png"></a></p>
+<p><a href="#R-image-8f511990d90bffe7cc4349c067492568" class="lightbox-link"><img alt="Quicksort Example 10" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick10.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8f511990d90bffe7cc4349c067492568"><img alt="Quicksort Example 10" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick10.png"></a></p>
 <p>We&rsquo;ll see that the elements at indexes 6, 7 and 8 are all less than or equal to the pivot value. So, we&rsquo;ll end up making some swaps until we reach the end of the list.</p>
-<p><a href="#R-image-dda151ccd4c6904b3d8151022cae7655" class="lightbox-link"><img alt="Quicksort Example 11" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick11.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dda151ccd4c6904b3d8151022cae7655"><img alt="Quicksort Example 11" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick11.png"></a></p>
-<p><a href="#R-image-e825f34fc21f0f2fafaf63b81b95bbfe" class="lightbox-link"><img alt="Quicksort Example 12" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick12.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e825f34fc21f0f2fafaf63b81b95bbfe"><img alt="Quicksort Example 12" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick12.png"></a></p>
-<p><a href="#R-image-01d80eaa71a69170f633ac51104ec921" class="lightbox-link"><img alt="Quicksort Example 13" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick13.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-01d80eaa71a69170f633ac51104ec921"><img alt="Quicksort Example 13" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick13.png"></a></p>
+<p><a href="#R-image-fc94948a21e3ace4ad2d67333232ecb8" class="lightbox-link"><img alt="Quicksort Example 11" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick11.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fc94948a21e3ace4ad2d67333232ecb8"><img alt="Quicksort Example 11" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick11.png"></a></p>
+<p><a href="#R-image-5baf63c7016684cc1f062de31d544604" class="lightbox-link"><img alt="Quicksort Example 12" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick12.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5baf63c7016684cc1f062de31d544604"><img alt="Quicksort Example 12" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick12.png"></a></p>
+<p><a href="#R-image-83020002699275ac93a340c61780a515" class="lightbox-link"><img alt="Quicksort Example 13" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick13.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-83020002699275ac93a340c61780a515"><img alt="Quicksort Example 13" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick13.png"></a></p>
 <p>Finally, we have reached the end of the array, which contains our <code>pivotValue</code> in the last element. Thankfully, we can just continue our process one more step. Since the <code>pivotValue</code> is less than or equal to itself, we swap it with the element at the <code>pivotIndex</code>, and increment that index one last time.</p>
-<p><a href="#R-image-d7b6011d653a1db5ba375493677eaba5" class="lightbox-link"><img alt="Quicksort Example 14" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick14.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d7b6011d653a1db5ba375493677eaba5"><img alt="Quicksort Example 14" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick14.png"></a></p>
+<p><a href="#R-image-5941ea0458482075fb50d1769803088f" class="lightbox-link"><img alt="Quicksort Example 14" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick14.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5941ea0458482075fb50d1769803088f"><img alt="Quicksort Example 14" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick14.png"></a></p>
 <p>At this point, we have partitioned the initial array into two sections. The first section contains all of the values which are less than or equal to the pivot value, and the second section contains all values greater than the pivot value.</p>
-<p><a href="#R-image-8a9c2dece4532b53259b54e4afb9a01c" class="lightbox-link"><img alt="Quicksort Example 15" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick15.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8a9c2dece4532b53259b54e4afb9a01c"><img alt="Quicksort Example 15" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick15.png"></a></p>
+<p><a href="#R-image-ba161359ec4a8a6deaf4850386b0a4db" class="lightbox-link"><img alt="Quicksort Example 15" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.18.quick15.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ba161359ec4a8a6deaf4850386b0a4db"><img alt="Quicksort Example 15" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.18.quick15.png"></a></p>
 <p>This demonstrates the powerful way that quicksort can quickly partition an array based on a pivot value! With just a single pass through the array, we have created our two halves and done at least some preliminary sorting. The last step is to make two recursive calls to quicksort, one that sorts the items from the beginning of the array through the element right before the <code>pivotValue</code>. The other will sort the elements starting after the <code>pivotValue</code> through the end of the array.</p>
 <p>Once each of those recursive calls is complete, the entire array will be sorted!</p>
 
@@ -1224,14 +1224,14 @@ Choose a pivot value, called pivotValue.">
   <p class="theme-version-footer">6.0.0</p>
   <p>Last modified by: 
               <i class='fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/310/generic/textbook/-/commit/4a467f98a630678a7116227e7d7ed3fa893d2136">Jun 20, 2024</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc310/commit/4a467f98a630678a7116227e7d7ed3fa893d2136">Jun 20, 2024</a>
   </p>
   </div>
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1719521876" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719521876" defer></script>
-    <script src="/cc310/js/theme.js?1719521876" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719522172" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719522172" defer></script>
+    <script src="/cc310/js/theme.js?1719522172" defer></script>
   </body>
 </html>

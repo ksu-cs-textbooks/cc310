@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>What is a Stack? :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/5-stacks/1-what-is-a-stack-/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/5-stacks/1-what-is-a-stack-/</link>
     <description>A stack is a data structure with two main operations that are simple in concept. One is the push operation that lets you put data into the data structure and the other is the pop operation that lets you get data out of the structure.&#xA;Why do we call it a stack? Think about a stack of boxes. When you stack boxes, you can do one of two things: put boxes onto the stack and take boxes off of the stack.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/5-stacks/1-what-is-a-stack-/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/5-stacks/1-what-is-a-stack-/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

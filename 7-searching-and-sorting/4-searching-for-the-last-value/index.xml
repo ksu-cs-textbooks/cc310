@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Searching for the Last Value :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/4-searching-for-the-last-value/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/4-searching-for-the-last-value/</link>
     <description>Our find algorithm above will find the first instance of number in the array and return the index of that instance. However, we might also be interested in finding the last instance of number in array. Looking at our original find algorithm, it should be easy to find the last value by simply searching the array in reverse order, as shown in the following figure.&#xA;We will use the same example as above, except we will start searching backwards from the end of the array.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/4-searching-for-the-last-value/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/4-searching-for-the-last-value/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

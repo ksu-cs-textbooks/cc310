@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bubble Sort Time Complexity :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/14-bubble-sort-time-complexity/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/14-bubble-sort-time-complexity/</link>
     <description>Once again, let’s look at the time complexity of the bubble sort algorithm and see how it compares to selection sort.&#xA;Bubble sort is a bit trickier to analyze than selection sort, because there are really two parts to the algorithm:&#xA;The number of comparisons, and The number of swaps. Let’s look at each one individually. First, is there a way to reduce the number of comparisons made by this algorithm just by changing the input?</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/14-bubble-sort-time-complexity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/14-bubble-sort-time-complexity/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

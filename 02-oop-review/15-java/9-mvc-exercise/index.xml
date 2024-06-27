@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MVC Exercise :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/15-java/9-mvc-exercise/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/15-java/9-mvc-exercise/</link>
     <description>Let’s build a quick program following the MVC architecture style to review working with classes, object, inheritance, and polymorphism.&#xA;Problem Statement Write a program to store a list of students and teachers at a school. The program should have methods to add a student or a teacher, as well as a method to print the entire list.&#xA;UML Diagram The program should conform to the following UML diagram:&#xA;Right-click and select “Open image in new tab” to view larger</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/02-oop-review/15-java/9-mvc-exercise/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/02-oop-review/15-java/9-mvc-exercise/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

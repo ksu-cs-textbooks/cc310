@@ -1040,14 +1040,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="YouTube Video There are several linear data structures that we can use in our programs, including stacks, queues, lists, sets, and hash tables. In this course, we have covered each of these structures in detail. However, as a programmer, one of the most difficult decisions we will make when developing a program is the choice of which data structure to use. Sometimes the choice may be obvious based on the data we plan to store or the algorithms we need to perform, but in practice that happens very rarely.">
     <meta name="author" content="Russell Feldhausen">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Choosing the Right Structures :: CC 310 Textbook">
     <meta name="twitter:description" content="YouTube Video There are several linear data structures that we can use in our programs, including stacks, queues, lists, sets, and hash tables. In this course, we have covered each of these structures in detail. However, as a programmer, one of the most difficult decisions we will make when developing a program is the choice of which data structure to use. Sometimes the choice may be obvious based on the data we plan to store or the algorithms we need to perform, but in practice that happens very rarely.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/12-performance/1-choosing-the-right-structures/">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/12-performance/1-choosing-the-right-structures/">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="Choosing the Right Structures :: CC 310 Textbook">
     <meta property="og:description" content="YouTube Video There are several linear data structures that we can use in our programs, including stacks, queues, lists, sets, and hash tables. In this course, we have covered each of these structures in detail. However, as a programmer, one of the most difficult decisions we will make when developing a program is the choice of which data structure to use. Sometimes the choice may be obvious based on the data we plan to store or the algorithms we need to perform, but in practice that happens very rarely.">
@@ -1060,26 +1060,26 @@
     <meta itemprop="dateModified" content="2024-06-20T09:14:34-05:00">
     <meta itemprop="wordCount" content="856">
     <title>Choosing the Right Structures :: CC 310 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/12-performance/1-choosing-the-right-structures/" rel="canonical" type="text/html" title="Choosing the Right Structures :: CC 310 Textbook">
+    <link href="https://textbooks.cs.ksu.edu/cc310/12-performance/1-choosing-the-right-structures/" rel="canonical" type="text/html" title="Choosing the Right Structures :: CC 310 Textbook">
     <link href="/cc310/12-performance/1-choosing-the-right-structures/index.xml" rel="alternate" type="application/rss+xml" title="Choosing the Right Structures :: CC 310 Textbook">
     <link href="/cc310/12-performance/1-choosing-the-right-structures/index.print.html" rel="alternate" type="text/html" title="Choosing the Right Structures :: CC 310 Textbook">
     <link href="/cc310/12-performance/1-choosing-the-right-structures/embed.html" rel="alternate" type="text/html" title="Choosing the Right Structures :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719521879" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521879" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719521879" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719521879" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521879" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719521879" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719521879" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521879" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719521879" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719521879" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719521879" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719521879" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719521879" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719521879"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719522174" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522174" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719522174" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719522174" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522174" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719522174" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719522174" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522174" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719522174" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719522174" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719522174" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719522174" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719522174" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719522174"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
       window.index_js_url="/cc310/index.search.js";
       // variant stuff
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
@@ -1094,7 +1094,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719521879" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719522174" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc310/12-performance/1-choosing-the-right-structures/">
     
@@ -1128,8 +1128,8 @@
 </ol>
 <p>By answering the questions above in the order they are presented, we should be able to make good decisions about which data structures would work best in our program. We are purposely putting more focus on writing working and understandable code instead of worrying about performance. This is because many programs are only used with small data sets on powerful modern computers, so performance is not the most important aspect. However, there are instances where performance becomes much more important, and in those cases more focus can be placed on finding the most performant solution as well.</p>
 <p>As it turns out, these three questions are very similar to a classic (trilemma)[https://en.wikipedia.org/wiki/Trilemma] from the world of business, as shown in the diagram below.</p>
-<p><a href="#R-image-9a30b6004cb6e283cee181d647f84560" class="lightbox-link"><img alt="Trilemma Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.1.trilemma.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9a30b6004cb6e283cee181d647f84560"><img alt="Trilemma Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.1.trilemma.svg"></a>^[File:Project-triangle.svg. (2020, January 12). Wikimedia Commons, the free media repository. Retrieved 21:09, April 30, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Project-triangle.svg&amp;oldid=386979544.]</p>
+<p><a href="#R-image-fef3d40e35ce7c7149531e51658c1d92" class="lightbox-link"><img alt="Trilemma Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.1.trilemma.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fef3d40e35ce7c7149531e51658c1d92"><img alt="Trilemma Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.1.trilemma.svg"></a>^[File:Project-triangle.svg. (2020, January 12). Wikimedia Commons, the free media repository. Retrieved 21:09, April 30, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Project-triangle.svg&amp;oldid=386979544.]</p>
 <p>In the world of software engineering, it is said that the process of developing a new program can only have two of the three factors of &ldquo;good&rdquo;, &ldquo;fast&rdquo;, and &ldquo;cheap&rdquo;. The three questions above form a similar trilemma. Put another way, there will always be competing tradeoffs when selecting a data structure for our programs.</p>
 <p>For example, the most performant option may not be as easy to understand, and it may be more difficult to debug and ensure that it works correctly. A great example of this is matrix multiplication, a very common operation in the world of high-performance computing. A simple solution requires just three loops and is very easy to understand. However, the most performant solution requires hundreds of lines of code, assembly instructions, and a deep understanding of the hardware on which the program will be executed. That program will be fast and efficient, but it is much more difficult to understand and debug.</p>
 
@@ -1149,11 +1149,11 @@
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719521879" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719521879" defer></script>
-<script src="/cc310/js/theme.js?1719521879" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719522174" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719522174" defer></script>
+<script src="/cc310/js/theme.js?1719522174" defer></script>
 
-<script src="/cc310/js/tele-scroll.js?1719521879" defer></script>
+<script src="/cc310/js/tele-scroll.js?1719522174" defer></script>
 
 </body>
 </html>

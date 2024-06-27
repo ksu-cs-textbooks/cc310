@@ -1040,7 +1040,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="Now that we’ve reviewed the pseudocode for the merge sort algorithm, let’s see if we can analyze the time it takes to complete. Analyzing a recursive algorithm requires quite a bit of math and understanding to do it properly, but we can get a pretty close answer using a bit of intuition about what it does.
 For starters, let’s consider a diagram that shows all of the different recursive calls made by merge sort, as shown below.">
@@ -1049,7 +1049,7 @@ For starters, let’s consider a diagram that shows all of the different recursi
     <meta name="twitter:title" content="Merge Sort Time Complexity :: CC 310 Textbook">
     <meta name="twitter:description" content="Now that we’ve reviewed the pseudocode for the merge sort algorithm, let’s see if we can analyze the time it takes to complete. Analyzing a recursive algorithm requires quite a bit of math and understanding to do it properly, but we can get a pretty close answer using a bit of intuition about what it does.
 For starters, let’s consider a diagram that shows all of the different recursive calls made by merge sort, as shown below.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="Merge Sort Time Complexity :: CC 310 Textbook">
     <meta property="og:description" content="Now that we’ve reviewed the pseudocode for the merge sort algorithm, let’s see if we can analyze the time it takes to complete. Analyzing a recursive algorithm requires quite a bit of math and understanding to do it properly, but we can get a pretty close answer using a bit of intuition about what it does.
@@ -1064,27 +1064,27 @@ For starters, let’s consider a diagram that shows all of the different recursi
     <meta itemprop="dateModified" content="2024-06-17T14:46:21-05:00">
     <meta itemprop="wordCount" content="737">
     <title>Merge Sort Time Complexity :: CC 310 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/" rel="canonical" type="text/html" title="Merge Sort Time Complexity :: CC 310 Textbook">
+    <link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/" rel="canonical" type="text/html" title="Merge Sort Time Complexity :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/index.xml" rel="alternate" type="application/rss+xml" title="Merge Sort Time Complexity :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/tele.html" rel="alternate" type="text/html" title="Merge Sort Time Complexity :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/embed.html" rel="alternate" type="text/html" title="Merge Sort Time Complexity :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719521876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521876" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719521876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521876" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719521876" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521876" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719521876" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719521876" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719521876" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719521876" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1719521876" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1719521876"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719522172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522172" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719522172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522172" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719522172" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522172" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719522172" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719522172" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719522172" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719522172" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1719522172" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1719522172"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
       window.index_js_url="/cc310/index.search.js";
       // variant stuff
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
@@ -1099,7 +1099,7 @@ For starters, let’s consider a diagram that shows all of the different recursi
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719521876" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719522172" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/">
     <div id="R-body" class="default-animation">
@@ -1134,12 +1134,12 @@ For starters, let’s consider a diagram that shows all of the different recursi
 
 <p>Now that we&rsquo;ve reviewed the pseudocode for the merge sort algorithm, let&rsquo;s see if we can analyze the time it takes to complete. Analyzing a recursive algorithm requires quite a bit of math and understanding to do it properly, but we can get a pretty close answer using a bit of intuition about what it does.</p>
 <p>For starters, let&rsquo;s consider a diagram that shows all of the different recursive calls made by merge sort, as shown below.</p>
-<p><a href="#R-image-9a896608505412b38a46c633d3d5b9b3" class="lightbox-link"><img alt="Merge Sort Time Complexity Diagram 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.17.mergetree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9a896608505412b38a46c633d3d5b9b3"><img alt="Merge Sort Time Complexity Diagram 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.17.mergetree.png"></a></p>
+<p><a href="#R-image-18080950cfd855dc0eb3c2d7746676b4" class="lightbox-link"><img alt="Merge Sort Time Complexity Diagram 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.17.mergetree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-18080950cfd855dc0eb3c2d7746676b4"><img alt="Merge Sort Time Complexity Diagram 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.17.mergetree.png"></a></p>
 <p>The first thing we should do is consider the worst-case input for merge sort. What would that look like? Put another way, would the values or the ordering of those values change anything about how merge sort operates?</p>
 <p>The only real impact that the input would have is on the number of swaps made by merge sort. If we had an input that caused each of the base cases with exactly two elements to swap them, that would be a few more steps than any other input. Consider the highlighted entries below.</p>
-<p><a href="#R-image-b1faecd264aa5663e2370f6797322333" class="lightbox-link"><img alt="Merge Sort Time Complexity Diagram 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.17.mergetree2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b1faecd264aa5663e2370f6797322333"><img alt="Merge Sort Time Complexity Diagram 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.17.mergetree2.png"></a></p>
+<p><a href="#R-image-e3b076c8f55b4b2aa6cc0d62782455fa" class="lightbox-link"><img alt="Merge Sort Time Complexity Diagram 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.17.mergetree2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e3b076c8f55b4b2aa6cc0d62782455fa"><img alt="Merge Sort Time Complexity Diagram 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.17.mergetree2.png"></a></p>
 <p>If each of those pairs were reversed, we&rsquo;d end up doing that many swaps. So, how many swaps would that be? As it turns out, a good estimate would be $N / 2$ times. If we have an array with exactly 16 elements, there are at most 8 swaps we could make. With 10 elements, we can make at most 4. So, the number of swaps is on the order of N time complexity.</p>
 <p>What about the merge operation? How many steps does that take? This is a bit trickier to answer, but let&rsquo;s look at each row of the diagram above. Across all of the calls to merge sort on each row, we&rsquo;ll end up merging all $N$ elements in the original array at least once. Therefore, we know that it would take around $N$ steps for each row in the diagram. We&rsquo;ll just need to figure out how many rows there are.</p>
 <p>A better way to phrase that question might be &ldquo;how many times can we recursively divide an array of $N$ elements in half?&rdquo; As it turns out, the answer to that question lies in the use of the logarithm.</p>
@@ -1167,8 +1167,8 @@ $$
 <p>To get an idea of how that works, consider the case where the array contains exactly $16$ elements. In that case, the value $\text{lg}(16)$ is $4$, since $2^4 = 16$. If we use the diagram above as a model, we can draw a similar diagram for an array containing $16$ elements and find that it indeed has $4$ levels.</p>
 <p>If we double the size of the array, we&rsquo;ll now have $32$ elements. However, even by doubling the size of the array, the value of $\text{lg}(32)$ is just $5$, so it has only increased by $1$. In fact, each time we double the size of the array, the value of $\text{lg}(N)$ will only go up by $1$.</p>
 <p>With that in mind, we can say that the merge operation runs on the order of $N * \text{lg}(N)$ time. That is because there are ${\text{lg}(N)}$ levels in the tree, and each level of the tree performs $N$ operations to merge various parts of the array together. The diagram below gives a good graphical representation of how we can come to that conclusion.</p>
-<p><a href="#R-image-9c733209f24eefcc190861546b91293b" class="lightbox-link"><img alt="Merge Sort Time Complexity Diagram 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.17.mergetree3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9c733209f24eefcc190861546b91293b"><img alt="Merge Sort Time Complexity Diagram 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.17.mergetree3.png"></a></p>
+<p><a href="#R-image-743ff1e60de46525c5f02b46629ebdd6" class="lightbox-link"><img alt="Merge Sort Time Complexity Diagram 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.17.mergetree3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-743ff1e60de46525c5f02b46629ebdd6"><img alt="Merge Sort Time Complexity Diagram 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.17.mergetree3.png"></a></p>
 <p>Putting it all together, we have $N/2$ swaps, and $N * \text{lg}(N)$ steps for the merge. Since the value $N * \text{lg}(N)$ is larger than $N$, we would say that total running time of merge sort is on the order of $N * \text{lg}(N)$.</p>
 <p>Later on in this chapter we&rsquo;ll discuss how that compares to the running time of selection sort and bubble sort and how that impacts our programs.</p>
 
@@ -1187,14 +1187,14 @@ $$
   <p class="theme-version-footer">6.0.0</p>
   <p>Last modified by: 
               <i class='fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/310/generic/textbook/-/commit/c87cfe3b4d1798f01831240b8b0e5ffcbf11253d">Jun 17, 2024</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc310/commit/c87cfe3b4d1798f01831240b8b0e5ffcbf11253d">Jun 17, 2024</a>
   </p>
   </div>
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1719521876" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719521876" defer></script>
-    <script src="/cc310/js/theme.js?1719521876" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719522172" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719522172" defer></script>
+    <script src="/cc310/js/theme.js?1719522172" defer></script>
   </body>
 </html>

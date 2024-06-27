@@ -1040,7 +1040,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="Let’s look at the time complexity of the selection sort algorithm, just so we can get a feel for how much time this operation takes.
 First, we must determine if there is a worst-case input for selection sort. Can we think of any particular input which would require more steps to complete?
@@ -1051,7 +1051,7 @@ In this case, each iteration of selection sort will look at the same number of e
     <meta name="twitter:description" content="Let’s look at the time complexity of the selection sort algorithm, just so we can get a feel for how much time this operation takes.
 First, we must determine if there is a worst-case input for selection sort. Can we think of any particular input which would require more steps to complete?
 In this case, each iteration of selection sort will look at the same number of elements, no matter what they are.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/11-selection-sort-time-complexity/embed.html">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/11-selection-sort-time-complexity/embed.html">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="Selection Sort Time Complexity :: CC 310 Textbook">
     <meta property="og:description" content="Let’s look at the time complexity of the selection sort algorithm, just so we can get a feel for how much time this operation takes.
@@ -1068,24 +1068,24 @@ In this case, each iteration of selection sort will look at the same number of e
     <meta itemprop="dateModified" content="2021-08-17T10:22:02-05:00">
     <meta itemprop="wordCount" content="401">
     <title>Selection Sort Time Complexity :: CC 310 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/7-searching-and-sorting/11-selection-sort-time-complexity/" rel="canonical" type="text/html" title="Selection Sort Time Complexity :: CC 310 Textbook">
+    <link href="https://textbooks.cs.ksu.edu/cc310/7-searching-and-sorting/11-selection-sort-time-complexity/" rel="canonical" type="text/html" title="Selection Sort Time Complexity :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/11-selection-sort-time-complexity/index.xml" rel="alternate" type="application/rss+xml" title="Selection Sort Time Complexity :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/11-selection-sort-time-complexity/index.print.html" rel="alternate" type="text/html" title="Selection Sort Time Complexity :: CC 310 Textbook">
     <link href="/cc310/7-searching-and-sorting/11-selection-sort-time-complexity/tele.html" rel="alternate" type="text/html" title="Selection Sort Time Complexity :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1719521870" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521870" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1719521870" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1719521870" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521870" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1719521870" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1719521870" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521870" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1719521870" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1719522165" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522165" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1719522165" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1719522165" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522165" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1719522165" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1719522165" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522165" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1719522165" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1719521870" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1719521870" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1719521870" rel="stylesheet">
-  <link href="/cc310/css/print.css?1719521870" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1719522165" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1719522165" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1719522165" rel="stylesheet">
+  <link href="/cc310/css/print.css?1719522165" rel="stylesheet" media="print">
   
   
   
@@ -1093,7 +1093,7 @@ In this case, each iteration of selection sort will look at the same number of e
     window.relearn = window.relearn || {};
     window.relearn.relBasePath='..\/..';
     window.relearn.relBaseUri='..\/..\/..';
-    window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+    window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
     window.index_js_url="/cc310/index.search.js";
     // variant stuff
     window.variants && variants.init( [ 'light-theme' ] );
@@ -1108,7 +1108,7 @@ In this case, each iteration of selection sort will look at the same number of e
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1719521870" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1719522165" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/7-searching-and-sorting/11-selection-sort-time-complexity/embed.html">
@@ -1159,10 +1159,10 @@ $$
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719521870" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719521870" defer></script>
-<script src="/cc310/js/theme.js?1719521870" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719522165" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719522165" defer></script>
+<script src="/cc310/js/theme.js?1719522165" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1719521870" defer></script>
+<script src="/cc310/js/embed-iframe.js?1719522165" defer></script>
 </body>
 </html>

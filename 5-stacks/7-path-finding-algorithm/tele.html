@@ -1040,7 +1040,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.126.1">
+    <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
     <meta name="description" content="The pseudocode for finding the initial path using the stack is shown below. We assume the enclosing class has already defined a stack called myStack and the datatype called Cell, which represents the squares in the maze. The algorithm also uses three helper functions as described below:
 getNextCell(maze, topCell): computes the next cell based on our current cell’s location and direction; incrementDirection(topCell): increments a cell’s direction attribute following the clockwise sequence of up, right, down, left, and then finally done, which means that we’ve tried all directions; and valid(nextCell): determines if a cell is valid.">
@@ -1049,7 +1049,7 @@ getNextCell(maze, topCell): computes the next cell based on our current cell’s
     <meta name="twitter:title" content="Path Finding Algorithm :: CC 310 Textbook">
     <meta name="twitter:description" content="The pseudocode for finding the initial path using the stack is shown below. We assume the enclosing class has already defined a stack called myStack and the datatype called Cell, which represents the squares in the maze. The algorithm also uses three helper functions as described below:
 getNextCell(maze, topCell): computes the next cell based on our current cell’s location and direction; incrementDirection(topCell): increments a cell’s direction attribute following the clockwise sequence of up, right, down, left, and then finally done, which means that we’ve tried all directions; and valid(nextCell): determines if a cell is valid.">
-    <meta property="og:url" content="https://ksu-cs-textbooks.github.io/cc310/5-stacks/7-path-finding-algorithm/">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc310/5-stacks/7-path-finding-algorithm/">
     <meta property="og:site_name" content="CC 310 Textbook">
     <meta property="og:title" content="Path Finding Algorithm :: CC 310 Textbook">
     <meta property="og:description" content="The pseudocode for finding the initial path using the stack is shown below. We assume the enclosing class has already defined a stack called myStack and the datatype called Cell, which represents the squares in the maze. The algorithm also uses three helper functions as described below:
@@ -1064,26 +1064,26 @@ getNextCell(maze, topCell): computes the next cell based on our current cell’s
     <meta itemprop="dateModified" content="2024-06-17T14:46:21-05:00">
     <meta itemprop="wordCount" content="661">
     <title>Path Finding Algorithm :: CC 310 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc310/5-stacks/7-path-finding-algorithm/" rel="canonical" type="text/html" title="Path Finding Algorithm :: CC 310 Textbook">
+    <link href="https://textbooks.cs.ksu.edu/cc310/5-stacks/7-path-finding-algorithm/" rel="canonical" type="text/html" title="Path Finding Algorithm :: CC 310 Textbook">
     <link href="/cc310/5-stacks/7-path-finding-algorithm/index.xml" rel="alternate" type="application/rss+xml" title="Path Finding Algorithm :: CC 310 Textbook">
     <link href="/cc310/5-stacks/7-path-finding-algorithm/index.print.html" rel="alternate" type="text/html" title="Path Finding Algorithm :: CC 310 Textbook">
     <link href="/cc310/5-stacks/7-path-finding-algorithm/embed.html" rel="alternate" type="text/html" title="Path Finding Algorithm :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719521879" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719521879" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719521879" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719521879" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719521879" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719521879" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719521879" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719521879" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719521879" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719521879" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719521879" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719521879" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719521879" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719521879"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719522174" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719522174" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719522174" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719522174" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719522174" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719522174" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719522174" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719522174" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719522174" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719522174" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719522174" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719522174" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719522174" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719522174"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/ksu-cs-textbooks.github.io\/cc310';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc310';
       window.index_js_url="/cc310/index.search.js";
       // variant stuff
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
@@ -1098,7 +1098,7 @@ getNextCell(maze, topCell): computes the next cell based on our current cell’s
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719521879" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719522174" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc310/5-stacks/7-path-finding-algorithm/">
     
@@ -1118,8 +1118,8 @@ getNextCell(maze, topCell): computes the next cell based on our current cell’s
 
 <h1 id="path-finding-algorithm">Path Finding Algorithm</h1>
 
-<p><a href="#R-image-af98a503a2b55e5dbded20cdfc8e9f67" class="lightbox-link"><img alt="Maze Step 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.maze4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-af98a503a2b55e5dbded20cdfc8e9f67"><img alt="Maze Step 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.maze4.png"></a></p>
+<p><a href="#R-image-1df2469a51a3bc01e339364a20bf3349" class="lightbox-link"><img alt="Maze Step 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.maze4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1df2469a51a3bc01e339364a20bf3349"><img alt="Maze Step 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.maze4.png"></a></p>
 <p>The pseudocode for finding the initial path using the stack is shown below. We assume the enclosing class has already defined a stack called <code>myStack</code> and the datatype called <code>Cell</code>, which represents the squares in the maze. The algorithm also uses three helper functions as described below:</p>
 <ul>
 <li><code>getNextCell(maze, topCell)</code>: computes the next cell based on our current cell&rsquo;s location and direction;</li>
@@ -1170,11 +1170,11 @@ getNextCell(maze, topCell): computes the next cell based on our current cell’s
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719521879" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719521879" defer></script>
-<script src="/cc310/js/theme.js?1719521879" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719522174" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719522174" defer></script>
+<script src="/cc310/js/theme.js?1719522174" defer></script>
 
-<script src="/cc310/js/tele-scroll.js?1719521879" defer></script>
+<script src="/cc310/js/tele-scroll.js?1719522174" defer></script>
 
 </body>
 </html>

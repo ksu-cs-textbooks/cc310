@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Object Oriented Programming Summary :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/02-oop-review/14-summary/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/14-summary/</link>
     <description>This chapter covered the rest of the programming basics we’ll need to know before starting on the new content of this course. By now we should be pretty familiar with the basic syntax of the language we’ve chosen, as well as the concepts of classes, objects, inheritance, and polymorphism in object-oriented programming. Finally, we’ve explored the Model-View-Controller (MVC) architecture, which will be used extensively in this course.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/02-oop-review/14-summary/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/02-oop-review/14-summary/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

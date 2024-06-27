@@ -1039,10 +1039,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flowcharts and Pseudocode :: CC 310 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc310/01-review/02-flowchart-pseudocode/</link>
+    <link>https://textbooks.cs.ksu.edu/cc310/01-review/02-flowchart-pseudocode/</link>
     <description>In this course, we will primarily be learning different ways to store and manipulate data in our programs. Of course, we could do this using the source code of our chosen programming language, but in many cases that would defeat the purpose of learning how to do it ourselves!&#xA;Instead, we will use several different ways to represent the steps required to build our programs. Let’s review a couple of them now.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ksu-cs-textbooks.github.io/cc310/01-review/02-flowchart-pseudocode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc310/01-review/02-flowchart-pseudocode/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
