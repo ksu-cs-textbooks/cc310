@@ -2,6 +2,7 @@
 title: "Strings"
 weight: 50
 pre: "10. "
+disableMathJax: false
 ---
 {{< youtube ur4m3QjbBHE  >}}
 

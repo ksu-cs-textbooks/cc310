@@ -2,6 +2,7 @@
 title: "Merge Sort Time Complexity"
 weight: 85
 pre: "17. "
+disableMathJax: false
 ---
 Now that we've reviewed the pseudocode for the merge sort algorithm, let's see if we can analyze the time it takes to complete. Analyzing a recursive algorithm requires quite a bit of math and understanding to do it properly, but we can get a pretty close answer using a bit of intuition about what it does. 
 

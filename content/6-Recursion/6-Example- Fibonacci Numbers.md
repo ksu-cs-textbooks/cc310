@@ -2,6 +2,7 @@
 title: "Example: Fibonacci Numbers"
 weight: 30
 pre: "6. "
+disableMathJax: false
 ---
 {{< youtube Qw_SJrtYI88  >}}
 

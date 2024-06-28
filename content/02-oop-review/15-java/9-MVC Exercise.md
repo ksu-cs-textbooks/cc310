@@ -2,6 +2,7 @@
 title: "MVC Exercise"
 weight: 45
 pre: "9. "
+disableMathJax: false
 ---
 Let's build a quick program following the MVC architecture style to review working with classes, object, inheritance, and polymorphism. 
 

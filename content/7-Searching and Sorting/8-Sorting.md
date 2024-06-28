@@ -2,6 +2,7 @@
 title: "Sorting"
 weight: 40
 pre: "8. "
+disableMathJax: false
 ---
 Sorting is the process we use to organize an ordered container in a way that we understand what the ordering of the values represents. Recall that an ordered container just enforces an ordering between values, but that ordering may appear to be random. By sorting an ordered container, we can enforce a specific ordering on the elements in the container, allowing us to more quickly find specific elements as we'll see later in this chapter. 
 

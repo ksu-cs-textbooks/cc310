@@ -2,6 +2,7 @@
 title: "Selection Sort Time Complexity"
 weight: 55
 pre: "11. "
+disableMathJax: false
 ---
 Let's look at the time complexity of the selection sort algorithm, just so we can get a feel for how much time this operation takes. 
 

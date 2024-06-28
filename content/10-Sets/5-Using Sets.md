@@ -2,6 +2,7 @@
 title: "Using Sets"
 weight: 25
 pre: "5. "
+disableMathJax: false
 ---
 {{< youtube TAkdPSAv1OA  >}}
 

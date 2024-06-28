@@ -2,6 +2,7 @@
 title: "What are Sets?"
 weight: 5
 pre: "1. "
+disableMathJax: false
 ---
 {{< youtube XJSPN3tx7As  >}}
 

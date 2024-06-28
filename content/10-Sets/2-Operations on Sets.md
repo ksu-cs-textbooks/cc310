@@ -2,6 +2,7 @@
 title: "Operations on Sets"
 weight: 10
 pre: "2. "
+disableMathJax: false
 ---
 Now that we can create and show sets of various types of elements, there are a few interesting operations that we can perform on sets. Given two sets, $\text{A}$ and $\text{B}$, we can perform the following operations:
 

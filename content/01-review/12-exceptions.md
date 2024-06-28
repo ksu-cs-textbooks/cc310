@@ -2,6 +2,7 @@
 title: "Exceptions"
 weight: 65
 pre: "12. "
+disableMathJax: false
 ---
 
 {{< youtube Tp9jbKRVqQI  >}}

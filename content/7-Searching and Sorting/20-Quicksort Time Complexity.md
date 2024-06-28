@@ -2,6 +2,7 @@
 title: "Quicksort Time Complexity"
 weight: 100
 pre: "20. "
+disableMathJax: false
 ---
 To wrap up our analysis of the quicksort algorithm, let's take a look at the time complexity of the algorithm. Quicksort is a very difficult algorithm to analyze, especially since the selection of the pivot value is random and can greatly affect the performance of the algorithm. So, we'll talk about quicksort's time complexity in terms of two cases, the worst case and the average case. Let's look at the average case first
 

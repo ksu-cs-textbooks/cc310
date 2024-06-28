@@ -2,6 +2,7 @@
 title: "Binary Search"
 weight: 110
 pre: "22. "
+disableMathJax: false
 ---
 {{< youtube D64RE4R2keI  >}}
 

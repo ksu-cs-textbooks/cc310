@@ -2,6 +2,7 @@
 title: "Variables"
 weight: 30
 pre: "6. "
+disableMathJax: false
 ---
 
 {{< youtube nk4XkiGKick  >}}

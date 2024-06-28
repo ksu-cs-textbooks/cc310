@@ -2,6 +2,7 @@
 title: "Loops"
 weight: 40
 pre: "8. "
+disableMathJax: false
 ---
 
 {{< youtube yLPFAGYV1Kw  >}}
