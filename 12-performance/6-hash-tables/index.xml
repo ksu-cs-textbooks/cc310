@@ -414,11 +414,6 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
@@ -478,12 +473,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -524,11 +519,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -569,11 +564,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -583,7 +578,6 @@
 
   
 	
-		
 	  
 
   
@@ -619,21 +613,22 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
 	
+		
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -678,12 +673,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -759,11 +754,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -804,11 +799,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -818,12 +813,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -854,11 +849,11 @@
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -879,11 +874,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -893,12 +888,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -914,11 +909,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -948,7 +943,6 @@
 
   
 	
-		
 	  
 
   
@@ -964,20 +958,12 @@
   
 	
 		
-	  
-
-  
-	
 		
 	  
 
   
 	
 		
-	  
-
-  
-	
 		
 	  
 
@@ -988,7 +974,6 @@
 
   
 	
-		
 	  
 
   
@@ -1008,39 +993,39 @@
 
   
 	
+		
 	  
 
   
 	
-		
 		
 	  
 
   
 	
+		
 	  
 
   
 	
-		
 		
 	  
 
   
 	
 		
-		
 	  
 
   
 	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hash Tables :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/12-performance/6-hash-tables/</link>
-    <description>YouTube Video Hash Tables Analyzing the performance of a hash table is a bit trickier than the other data structures, mainly due to how a hash table tries to use its complex structure to get a “best of both worlds” performance outcome.&#xA;For example, consider the insert operation. In the best case, the hash table has a capacity that is large enough to guarantee that there are not any hash collisions.</description>
+    <description>Hash Tables Analyzing the performance of a hash table is a bit trickier than the other data structures, mainly due to how a hash table tries to use its complex structure to get a “best of both worlds” performance outcome.&#xA;For example, consider the insert operation. In the best case, the hash table has a capacity that is large enough to guarantee that there are not any hash collisions. Each entry in the array of the hash table will be an empty list and inserting an element into an empty list is done in constant time, so the whole operation runs in the order of constant time.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/12-performance/6-hash-tables/index.xml" rel="self" type="application/rss+xml" />

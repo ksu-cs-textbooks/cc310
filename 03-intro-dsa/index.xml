@@ -414,11 +414,6 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
@@ -478,12 +473,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -524,11 +519,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -569,11 +564,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -583,7 +578,6 @@
 
   
 	
-		
 	  
 
   
@@ -619,21 +613,22 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
 	
+		
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -678,12 +673,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -759,11 +754,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -804,11 +799,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -818,12 +813,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -854,11 +849,11 @@
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -879,11 +874,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -893,12 +888,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -914,11 +909,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -948,7 +943,6 @@
 
   
 	
-		
 	  
 
   
@@ -964,20 +958,12 @@
   
 	
 		
-	  
-
-  
-	
 		
 	  
 
   
 	
 		
-	  
-
-  
-	
 		
 	  
 
@@ -988,7 +974,6 @@
 
   
 	
-		
 	  
 
   
@@ -1008,32 +993,32 @@
 
   
 	
+		
 	  
 
   
 	
-		
 		
 	  
 
   
 	
+		
 	  
 
   
 	
-		
 		
 	  
 
   
 	
 		
-		
 	  
 
   
 	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -1056,7 +1041,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/02-linear-structures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/02-linear-structures/</guid>
-      <description>YouTube Video First, we can broadly separate the data structures we’re going to learn about into two types, linear and non-linear data structures.&#xA;A linear data structure typically stores data in a single dimension, just like an array. By using a linear data structure, we would know that a particular element in the data structure comes before another element or vice-versa, but that’s about it. A great example is seen in the image above.</description>
+      <description>First, we can broadly separate the data structures we’re going to learn about into two types, linear and non-linear data structures.&#xA;A linear data structure typically stores data in a single dimension, just like an array. By using a linear data structure, we would know that a particular element in the data structure comes before another element or vice-versa, but that’s about it. A great example is seen in the image above.</description>
     </item>
     <item>
       <title>Lists</title>
@@ -1084,14 +1069,14 @@
       <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/06-maps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/06-maps/</guid>
-      <description>YouTube Video The last of the linear data structures may seem linear from the outside, but inside it can be quite a bit more complex.&#xA;The map data structure is an example of a key-value data structure, also known as a dictionary or associative array. In the simplest case, a map data structure keeps track of a key that uniquely identifies a particular value, and stores that value along with the key in the data structure.</description>
+      <description>The last of the linear data structures may seem linear from the outside, but inside it can be quite a bit more complex.&#xA;The map data structure is an example of a key-value data structure, also known as a dictionary or associative array. In the simplest case, a map data structure keeps track of a key that uniquely identifies a particular value, and stores that value along with the key in the data structure.</description>
     </item>
     <item>
       <title>Non-Linear Structures</title>
       <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/07-non-linear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/07-non-linear/</guid>
-      <description>YouTube Video 1&#xA;The other type of data structure we can use in our programs is the non-linear data structure.&#xA;Broadly speaking, non-linear data structures allow us to store data across multiple dimensions, and there may be multiple paths through the data to get from one item to another. In fact, much of the information stored in the data structure has to do with the paths between elements more than the elements themselves.</description>
+      <description>1&#xA;The other type of data structure we can use in our programs is the non-linear data structure.&#xA;Broadly speaking, non-linear data structures allow us to store data across multiple dimensions, and there may be multiple paths through the data to get from one item to another. In fact, much of the information stored in the data structure has to do with the paths between elements more than the elements themselves.</description>
     </item>
     <item>
       <title>Graphs</title>
@@ -1161,7 +1146,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/17-contracts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/17-contracts/</guid>
-      <description>YouTube Video In this course, we will learn how to develop several different data structures, and then use those data structures in programs that implement several different types of algorithms. However, one of the most difficult parts of programming is clearly explaining what a program should do and how it should perform.&#xA;So far, we’ve used UML class diagrams to discuss the structure of a program. It can give us information about the classes, attributes, and methods that our program will contain, as well as the overall relationships between the classes.</description>
+      <description>In this course, we will learn how to develop several different data structures, and then use those data structures in programs that implement several different types of algorithms. However, one of the most difficult parts of programming is clearly explaining what a program should do and how it should perform.&#xA;So far, we’ve used UML class diagrams to discuss the structure of a program. It can give us information about the classes, attributes, and methods that our program will contain, as well as the overall relationships between the classes.</description>
     </item>
     <item>
       <title>Preconditions</title>

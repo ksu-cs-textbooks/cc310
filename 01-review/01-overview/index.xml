@@ -414,11 +414,6 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
@@ -478,12 +473,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -524,11 +519,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -569,11 +564,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -583,7 +578,6 @@
 
   
 	
-		
 	  
 
   
@@ -619,21 +613,22 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
 	
+		
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -678,12 +673,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -759,11 +754,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -804,11 +799,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -818,12 +813,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -854,11 +849,11 @@
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -879,11 +874,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -893,12 +888,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -914,11 +909,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -948,7 +943,6 @@
 
   
 	
-		
 	  
 
   
@@ -964,20 +958,12 @@
   
 	
 		
-	  
-
-  
-	
 		
 	  
 
   
 	
 		
-	  
-
-  
-	
 		
 	  
 
@@ -988,7 +974,6 @@
 
   
 	
-		
 	  
 
   
@@ -1008,39 +993,39 @@
 
   
 	
+		
 	  
 
   
 	
-		
 		
 	  
 
   
 	
+		
 	  
 
   
 	
-		
 		
 	  
 
   
 	
 		
-		
 	  
 
   
 	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming Overview :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/01-review/01-overview/</link>
-    <description>YouTube Video Programming 1&#xA;Programming is the act of writing source code for a computer program in such a way that a modern computer can understand and perform the steps described in the code. There are many different programming languages that can be used, such as high-level languages like Java and Python.&#xA;To run code written in those languages, we can use a compiler to convert the code to a low-level language that can be directly executed by the computer, or we can use an interpreter to read the code and perform the requested operations on the computer.</description>
+    <description>Programming 1&#xA;Programming is the act of writing source code for a computer program in such a way that a modern computer can understand and perform the steps described in the code. There are many different programming languages that can be used, such as high-level languages like Java and Python.&#xA;To run code written in those languages, we can use a compiler to convert the code to a low-level language that can be directly executed by the computer, or we can use an interpreter to read the code and perform the requested operations on the computer.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/01-review/01-overview/index.xml" rel="self" type="application/rss+xml" />

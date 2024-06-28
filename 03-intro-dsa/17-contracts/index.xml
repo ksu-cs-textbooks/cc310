@@ -414,11 +414,6 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
@@ -478,12 +473,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -524,11 +519,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -569,11 +564,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -583,7 +578,6 @@
 
   
 	
-		
 	  
 
   
@@ -619,21 +613,22 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
 	
+		
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -678,12 +673,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -759,11 +754,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -804,11 +799,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -818,12 +813,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -854,11 +849,11 @@
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -879,11 +874,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -893,12 +888,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -914,11 +909,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -948,7 +943,6 @@
 
   
 	
-		
 	  
 
   
@@ -964,20 +958,12 @@
   
 	
 		
-	  
-
-  
-	
 		
 	  
 
   
 	
 		
-	  
-
-  
-	
 		
 	  
 
@@ -988,7 +974,6 @@
 
   
 	
-		
 	  
 
   
@@ -1008,39 +993,39 @@
 
   
 	
+		
 	  
 
   
 	
-		
 		
 	  
 
   
 	
+		
 	  
 
   
 	
-		
 		
 	  
 
   
 	
 		
-		
 	  
 
   
 	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming by Contract :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/17-contracts/</link>
-    <description>YouTube Video In this course, we will learn how to develop several different data structures, and then use those data structures in programs that implement several different types of algorithms. However, one of the most difficult parts of programming is clearly explaining what a program should do and how it should perform.&#xA;So far, we’ve used UML class diagrams to discuss the structure of a program. It can give us information about the classes, attributes, and methods that our program will contain, as well as the overall relationships between the classes.</description>
+    <description>In this course, we will learn how to develop several different data structures, and then use those data structures in programs that implement several different types of algorithms. However, one of the most difficult parts of programming is clearly explaining what a program should do and how it should perform.&#xA;So far, we’ve used UML class diagrams to discuss the structure of a program. It can give us information about the classes, attributes, and methods that our program will contain, as well as the overall relationships between the classes.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/17-contracts/index.xml" rel="self" type="application/rss+xml" />

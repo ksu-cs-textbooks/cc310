@@ -414,11 +414,6 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
@@ -478,12 +473,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -524,11 +519,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -569,11 +564,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -583,7 +578,6 @@
 
   
 	
-		
 	  
 
   
@@ -619,21 +613,22 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
 	
+		
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -678,12 +673,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -759,11 +754,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -804,11 +799,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -818,12 +813,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -854,11 +849,11 @@
   
 	
 		
+		
 	  
 
   
 	
-		
 	  
 
   
@@ -879,11 +874,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -893,12 +888,12 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
 	  
 
   
@@ -914,11 +909,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -948,7 +943,6 @@
 
   
 	
-		
 	  
 
   
@@ -964,20 +958,12 @@
   
 	
 		
-	  
-
-  
-	
 		
 	  
 
   
 	
 		
-	  
-
-  
-	
 		
 	  
 
@@ -988,7 +974,6 @@
 
   
 	
-		
 	  
 
   
@@ -1008,39 +993,39 @@
 
   
 	
+		
 	  
 
   
 	
-		
 		
 	  
 
   
 	
+		
 	  
 
   
 	
-		
 		
 	  
 
   
 	
 		
-		
 	  
 
   
 	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hash Table Operations :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/5-hash-table-operations/</link>
-    <description>YouTube Video The HashTable class has three attributes that provide the basic data structure and parameters we need to efficiently manage our table.&#xA;size - captures the number of tuples stored in the table. It is initialized to 0 in line 7 of the constructor. loadFactor - is the load factor used to determine when to increase the capacity of the array. It is initialized to 0.75 in line 8 of the constructor.</description>
+    <description>The HashTable class has three attributes that provide the basic data structure and parameters we need to efficiently manage our table.&#xA;size - captures the number of tuples stored in the table. It is initialized to 0 in line 7 of the constructor. loadFactor - is the load factor used to determine when to increase the capacity of the array. It is initialized to 0.75 in line 8 of the constructor.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/11-hash-tables/5-hash-table-operations/index.xml" rel="self" type="application/rss+xml" />
