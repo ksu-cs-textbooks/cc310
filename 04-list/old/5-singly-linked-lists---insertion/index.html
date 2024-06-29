@@ -1050,17 +1050,17 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
     <meta itemprop="dateModified" content="2024-06-28T15:58:53-05:00">
     <meta itemprop="wordCount" content="1258">
     <title>Singly Linked Lists - Insertion :: CC 310 Textbook</title>
-    <link href="/cc310/css/fontawesome-all.min.css?1719671485" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719671485" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719671485" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719671485" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719671485" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719671485" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719671485" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719671485" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719671485" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719671485" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719671485" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719671485" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719671485" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719671485"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719688922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719688922" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719688922" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719688922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719688922" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719688922" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719688922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719688922" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719688922" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719688922" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719688922" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719688922" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719688922" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719688922"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -1080,7 +1080,7 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719671485" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719688922" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/04-list/old/5-singly-linked-lists---insertion/">
     <div id="R-body" class="default-animation">
@@ -1159,17 +1159,17 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
 </span></span><span class="line"><span class="cl">	head = node			    (3)
 </span></span><span class="line"><span class="cl">	size = size + 1		    (4)
 </span></span><span class="line"><span class="cl">end function</span></span></code></pre></div><p>We show this process in the following example. The figure below shows the initial state as we enter the <code>prepend</code> operation. Our list has three items in it, an &ldquo;a&rdquo;, &ldquo;W&rdquo;, and &ldquo;Q&rdquo; and we want to add the new node &ldquo;M&rdquo; in front of item &ldquo;a&rdquo;.</p>
-<p><a href="#R-image-5e6bbc858c9568b64906fa024333d5e3" class="lightbox-link"><img alt="Singly Linked List Prepend 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5e6bbc858c9568b64906fa024333d5e3"><img alt="Singly Linked List Prepend 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert1.png"></a></p>
+<p><a href="#R-image-a2646c68127ceef768ed55acca893fe3" class="lightbox-link"><img alt="Singly Linked List Prepend 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a2646c68127ceef768ed55acca893fe3"><img alt="Singly Linked List Prepend 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert1.png"></a></p>
 <p>The figure below shows the effect of the first step of the operation. This step creates a new node for &ldquo;M&rdquo; and changes <code>next</code> to point at the same node as the pointer held by <code>head</code>, which is the address of the first item in the list, &ldquo;a&rdquo;.</p>
-<p><a href="#R-image-ee68db5dd8ebf2646edf22fab6bd0fb7" class="lightbox-link"><img alt="Singly Linked List Prepend 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ee68db5dd8ebf2646edf22fab6bd0fb7"><img alt="Singly Linked List Prepend 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert2.png"></a></p>
+<p><a href="#R-image-4171ea3ee66b03cc015f78c8dfd7f494" class="lightbox-link"><img alt="Singly Linked List Prepend 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4171ea3ee66b03cc015f78c8dfd7f494"><img alt="Singly Linked List Prepend 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert2.png"></a></p>
 <p>The result of performing line 3 in the operation is shown below. In line 3 we simply change <code>head</code> to point to our new node, instead of node &ldquo;a&rdquo;. Notice now that the new node has been fully inserted into the list.</p>
-<p><a href="#R-image-4b5740b21a1b5b3f27045f64bca7fa49" class="lightbox-link"><img alt="Singly Linked List Prepend 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4b5740b21a1b5b3f27045f64bca7fa49"><img alt="Singly Linked List Prepend 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert3.png"></a></p>
+<p><a href="#R-image-590ee3f108d8148e4d9ae521cdd9293c" class="lightbox-link"><img alt="Singly Linked List Prepend 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-590ee3f108d8148e4d9ae521cdd9293c"><img alt="Singly Linked List Prepend 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert3.png"></a></p>
 <p>And, if we redraw our diagram a bit, we get a nice neat list!</p>
-<p><a href="#R-image-0c282f9f28f09fe18e2cefdde218617f" class="lightbox-link"><img alt="Singly Linked List Prepend 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0c282f9f28f09fe18e2cefdde218617f"><img alt="Singly Linked List Prepend 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert4.png"></a></p>
+<p><a href="#R-image-1a787891dd9da9d44ef0ec6699dc6f0d" class="lightbox-link"><img alt="Singly Linked List Prepend 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1a787891dd9da9d44ef0ec6699dc6f0d"><img alt="Singly Linked List Prepend 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert4.png"></a></p>
 <p>Since there are no loops in the <code>prepend</code> operation, <code>prepend</code> runs in constant time.</p>
 <h2 id="inserting-in-the-middle">Inserting in the Middle</h2>
 <p>Inserting a node at a given index in the linked list is a little more difficult than inserting a node at the beginning of the list. First, we have to find the proper location to insert the new node before we can actually insert it. However, since we are given an index number, we simply need to follow the linked list to the appropriate index and then perform the insertion.</p>
@@ -1193,14 +1193,14 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
 </span></span><span class="line"><span class="cl">	end if
 </span></span><span class="line"><span class="cl">end function</span></span></code></pre></div><p>Lines 4 and 5 check to see if the <code>index</code> is 0, which means that we want to insert it as the first item in the list. Since this is the same as the <code>prepend</code> operation we&rsquo;ve already defined, we simply call that operation. While this may not seem like a big deal, it is actually more efficient and helps us to simplify the code in the rest of the operation.</p>
 <p>The operation uses <code>curr</code> to keep track of which node in the list we are currently looking at, thus we initialize <code>curr</code> to point at the first node in the list in line 6.  To allow us to swap pointers once we find the appropriate place in the list, we keep track of the node previous to <code>curr</code> as well by using the variable <code>pre</code>. This variable is initialized to <code>head</code> in line 7, and line 8 creates the new node we will insert into our list. After line 8, our <code>list</code>, <code>node</code>, and <code>previous</code> pointers would look like the following (assuming the index passed in was <code>2</code>).</p>
-<p><a href="#R-image-77777c007f2d100134cf9d759d919724" class="lightbox-link"><img alt="Singly Linked List Insert 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.insertat1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-77777c007f2d100134cf9d759d919724"><img alt="Singly Linked List Insert 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.insertat1.png"></a></p>
+<p><a href="#R-image-f69e8714d737f164e81c3ce77b0c14c3" class="lightbox-link"><img alt="Singly Linked List Insert 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.insertat1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f69e8714d737f164e81c3ce77b0c14c3"><img alt="Singly Linked List Insert 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.insertat1.png"></a></p>
 <p>At this point we start our walk through the list using the <code>for</code> loop in lines 9 - 12. Specifically, with an <code>index</code> of 2 we will actually go through the loop exactly one time, from <code>1 to 1</code>. Each time through the loop, lines 10 and 11 will cause <code>curr</code> and <code>prev</code> to point at the next nodes in the list. At the end of one time through our loop, our example will be as shown below.</p>
-<p><a href="#R-image-4cf2ebfde3facbddb2fbb55162014840" class="lightbox-link"><img alt="Singly Linked List Insert 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.insertat2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4cf2ebfde3facbddb2fbb55162014840"><img alt="Singly Linked List Insert 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.insertat2.png"></a></p>
+<p><a href="#R-image-5ab3d6434e1fa965f84c931e2dc24800" class="lightbox-link"><img alt="Singly Linked List Insert 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.insertat2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5ab3d6434e1fa965f84c931e2dc24800"><img alt="Singly Linked List Insert 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.insertat2.png"></a></p>
 <p>Now, the only thing left to do is update the <code>next</code> pointer of node &ldquo;3&rdquo; to point at <code>node</code> (line 13), and <code>node.next</code> to point at <code>curr</code> node (line 14), while line 15 increments the size attribute. The updated list is shown below.</p>
-<p><a href="#R-image-53c1bb31675f441c298e75b08a94a5aa" class="lightbox-link"><img alt="Singly Linked List Insert 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.insertat3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-53c1bb31675f441c298e75b08a94a5aa"><img alt="Singly Linked List Insert 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.insertat3.png"></a></p>
+<p><a href="#R-image-fe1bb5bdccf91afb4531054936f60803" class="lightbox-link"><img alt="Singly Linked List Insert 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.insertat3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fe1bb5bdccf91afb4531054936f60803"><img alt="Singly Linked List Insert 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.insertat3.png"></a></p>
 <p>The <code>insertAt</code> operation, while being quite flexible and useful, can potentially loop through each node in the list. Therefore, it runs in order $N$ time.</p>
 <h2 id="inserting-in-order">Inserting in Order</h2>
 <p>When we want to insert an item into an ordered list, we need to find the right place in the list to actually insert the new node. Essentially, we need to search the list to find two adjacent nodes where the first node&rsquo;s data is less than or equal to <code>data</code> and the second node&rsquo;s data is greater than <code>data</code>. This process requires a linear search of the list.</p>
@@ -1259,12 +1259,12 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1719671485" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1719671485" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719671485" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1719671485" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1719671485" defer></script>
-        <script src="/cc310/js/search.js?1719671485" defer></script>
+        <script src="/cc310/js/auto-complete.js?1719688922" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1719688922" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719688922" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1719688922" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1719688922" defer></script>
+        <script src="/cc310/js/search.js?1719688922" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1363,7 +1363,7 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
           <li data-nav-id="/cc310/04-list/old/8-list-based-stacks/" class=""><a class="padding" href="/cc310/04-list/old/8-list-based-stacks/">8. List-Based Stacks</a></li>
           <li data-nav-id="/cc310/04-list/old/10-doubly-linked-lists---insertion/" class=""><a class="padding" href="/cc310/04-list/old/10-doubly-linked-lists---insertion/">10. Doubly Linked Lists - Insertion</a></li>
           <li data-nav-id="/cc310/04-list/old/11-doubly-linked-lists---removal-and-peek/" class=""><a class="padding" href="/cc310/04-list/old/11-doubly-linked-lists---removal-and-peek/">11. Doubly Linked Lists - Removal and Peek</a></li></ul></li></ul></li>
-          <li data-nav-id="/cc310/05-recursion/" class=""><input type="checkbox" id="R-section-923c54850c638524f999109589ebf64d" aria-controls="R-subsections-923c54850c638524f999109589ebf64d"><label for="R-section-923c54850c638524f999109589ebf64d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Recursion</span></label><a class="padding" href="/cc310/05-recursion/"><b>6.  </b>Recursion</a><ul id="R-subsections-923c54850c638524f999109589ebf64d" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/05-recursion/" class=""><input type="checkbox" id="R-section-923c54850c638524f999109589ebf64d" aria-controls="R-subsections-923c54850c638524f999109589ebf64d"><label for="R-section-923c54850c638524f999109589ebf64d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Recursion</span></label><a class="padding" href="/cc310/05-recursion/"><b>5.  </b>Recursion</a><ul id="R-subsections-923c54850c638524f999109589ebf64d" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/05-recursion/01-recursion-intro/" class=""><a class="padding" href="/cc310/05-recursion/01-recursion-intro/">1. Introducing Recursion</a></li>
           <li data-nav-id="/cc310/05-recursion/02-string-example/" class=""><a class="padding" href="/cc310/05-recursion/02-string-example/">2. Example: Reversing a String</a></li>
           <li data-nav-id="/cc310/05-recursion/03-implementing/" class=""><a class="padding" href="/cc310/05-recursion/03-implementing/">3. Implementing Recursion</a></li>
@@ -1373,34 +1373,34 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
           <li data-nav-id="/cc310/05-recursion/07-hanoi-example/" class=""><a class="padding" href="/cc310/05-recursion/07-hanoi-example/">7. Example: Tower of Hanoi</a></li>
           <li data-nav-id="/cc310/05-recursion/08-recusion-to-iteration/" class=""><a class="padding" href="/cc310/05-recursion/08-recusion-to-iteration/">8. Converting Recursion to Iteration</a></li>
           <li data-nav-id="/cc310/05-recursion/09-summary/" class=""><a class="padding" href="/cc310/05-recursion/09-summary/">9. Recursion Summary</a></li></ul></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/" class=""><input type="checkbox" id="R-section-2c9a1bd1bf29a089ddde115266500a83" aria-controls="R-subsections-2c9a1bd1bf29a089ddde115266500a83"><label for="R-section-2c9a1bd1bf29a089ddde115266500a83"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Searching and Sorting</span></label><a class="padding" href="/cc310/7-searching-and-sorting/"><b>7.  </b>Searching and Sorting</a><ul id="R-subsections-2c9a1bd1bf29a089ddde115266500a83" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/7-searching-and-sorting/1-searching/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/1-searching/">1. Searching</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/2-linear-search/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/2-linear-search/">2. Linear Search</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/3-searching-for-a-value/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/3-searching-for-a-value/">3. Searching for a Value</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/4-searching-for-the-last-value/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/4-searching-for-the-last-value/">4. Searching for the Last Value</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/5-recursive-linear-search/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/5-recursive-linear-search/">5. Recursive Linear Search</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/6-searching-for-a-minimum/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/6-searching-for-a-minimum/">6. Searching for a Minimum</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/7-linear-search-time-complexity/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/7-linear-search-time-complexity/">7. Linear Search Time Complexity</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/8-sorting/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/8-sorting/">8. Sorting</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/9-selection-sort/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/9-selection-sort/">9. Selection Sort</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/10-selection-sort-pseudocode/">10. Selection Sort Pseudocode</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/11-selection-sort-time-complexity/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/11-selection-sort-time-complexity/">11. Selection Sort Time Complexity</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/12-bubble-sort/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/12-bubble-sort/">12. Bubble Sort</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/13-bubble-sort-pseudocode/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/13-bubble-sort-pseudocode/">13. Bubble Sort Pseudocode</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/14-bubble-sort-time-complexity/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/14-bubble-sort-time-complexity/">14. Bubble Sort Time Complexity</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/15-merge-sort/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/15-merge-sort/">15. Merge Sort</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/16-merge-sort-pseudocode/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/16-merge-sort-pseudocode/">16. Merge Sort Pseudocode</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/17-merge-sort-time-complexity/">17. Merge Sort Time Complexity</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/18-quicksort/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/18-quicksort/">18. Quicksort</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/19-quicksort-pseudocode/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/19-quicksort-pseudocode/">19. Quicksort Pseudocode</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/20-quicksort-time-complexity/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/20-quicksort-time-complexity/">20. Quicksort Time Complexity</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/21-performance-of-sorting-algorithms/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/21-performance-of-sorting-algorithms/">21. Performance of Sorting Algorithms</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/22-binary-search/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/22-binary-search/">22. Binary Search</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/23-iterative-binary-search/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/23-iterative-binary-search/">23. Iterative Binary Search</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/24-recursive-binary-search/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/24-recursive-binary-search/">24. Recursive Binary Search</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/25-binary-search-time-complexity/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/25-binary-search-time-complexity/">25. Binary Search Time Complexity</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/26-the-importance-of-sorting/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/26-the-importance-of-sorting/">26. The Importance of Sorting</a></li>
-          <li data-nav-id="/cc310/7-searching-and-sorting/27-searching-and-sorting-summary/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/27-searching-and-sorting-summary/">27. Searching and Sorting Summary</a></li></ul></li>
+          <li data-nav-id="/cc310/06-search-sort/" class=""><input type="checkbox" id="R-section-53bdfd1d7e7858a88381e555c7c3ef83" aria-controls="R-subsections-53bdfd1d7e7858a88381e555c7c3ef83"><label for="R-section-53bdfd1d7e7858a88381e555c7c3ef83"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Searching &amp; Sorting</span></label><a class="padding" href="/cc310/06-search-sort/"><b>6.  </b>Searching &amp; Sorting</a><ul id="R-subsections-53bdfd1d7e7858a88381e555c7c3ef83" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/06-search-sort/01-searching/" class=""><a class="padding" href="/cc310/06-search-sort/01-searching/">1. Searching</a></li>
+          <li data-nav-id="/cc310/06-search-sort/02-linear-search/" class=""><a class="padding" href="/cc310/06-search-sort/02-linear-search/">2. Linear Search</a></li>
+          <li data-nav-id="/cc310/06-search-sort/03-searching/" class=""><a class="padding" href="/cc310/06-search-sort/03-searching/">3. Searching for a Value</a></li>
+          <li data-nav-id="/cc310/06-search-sort/04-last-value/" class=""><a class="padding" href="/cc310/06-search-sort/04-last-value/">4. Searching for the Last Value</a></li>
+          <li data-nav-id="/cc310/06-search-sort/05-recursive-linear/" class=""><a class="padding" href="/cc310/06-search-sort/05-recursive-linear/">5. Recursive Linear Search</a></li>
+          <li data-nav-id="/cc310/06-search-sort/06-minimum/" class=""><a class="padding" href="/cc310/06-search-sort/06-minimum/">6. Searching for a Minimum</a></li>
+          <li data-nav-id="/cc310/06-search-sort/07-linear-time/" class=""><a class="padding" href="/cc310/06-search-sort/07-linear-time/">7. Linear Search Time Complexity</a></li>
+          <li data-nav-id="/cc310/06-search-sort/08-sorting/" class=""><a class="padding" href="/cc310/06-search-sort/08-sorting/">8. Sorting</a></li>
+          <li data-nav-id="/cc310/06-search-sort/09-selection/" class=""><a class="padding" href="/cc310/06-search-sort/09-selection/">9. Selection Sort</a></li>
+          <li data-nav-id="/cc310/06-search-sort/10-selection-pseudocode/" class=""><a class="padding" href="/cc310/06-search-sort/10-selection-pseudocode/">10. Selection Sort Pseudocode</a></li>
+          <li data-nav-id="/cc310/06-search-sort/11-selection-time/" class=""><a class="padding" href="/cc310/06-search-sort/11-selection-time/">11. Selection Sort Time Complexity</a></li>
+          <li data-nav-id="/cc310/06-search-sort/12-bubble/" class=""><a class="padding" href="/cc310/06-search-sort/12-bubble/">12. Bubble Sort</a></li>
+          <li data-nav-id="/cc310/06-search-sort/13-bubble-pseudocode/" class=""><a class="padding" href="/cc310/06-search-sort/13-bubble-pseudocode/">13. Bubble Sort Pseudocode</a></li>
+          <li data-nav-id="/cc310/06-search-sort/14-bubble-time/" class=""><a class="padding" href="/cc310/06-search-sort/14-bubble-time/">14. Bubble Sort Time Complexity</a></li>
+          <li data-nav-id="/cc310/06-search-sort/15-merge/" class=""><a class="padding" href="/cc310/06-search-sort/15-merge/">15. Merge Sort</a></li>
+          <li data-nav-id="/cc310/06-search-sort/16-merge-pseudocode/" class=""><a class="padding" href="/cc310/06-search-sort/16-merge-pseudocode/">16. Merge Sort Pseudocode</a></li>
+          <li data-nav-id="/cc310/06-search-sort/17-merge-time/" class=""><a class="padding" href="/cc310/06-search-sort/17-merge-time/">17. Merge Sort Time Complexity</a></li>
+          <li data-nav-id="/cc310/06-search-sort/18-quicksort/" class=""><a class="padding" href="/cc310/06-search-sort/18-quicksort/">18. Quicksort</a></li>
+          <li data-nav-id="/cc310/06-search-sort/19-quicksort-pseudocode/" class=""><a class="padding" href="/cc310/06-search-sort/19-quicksort-pseudocode/">19. Quicksort Pseudocode</a></li>
+          <li data-nav-id="/cc310/06-search-sort/20-quicksort-time/" class=""><a class="padding" href="/cc310/06-search-sort/20-quicksort-time/">20. Quicksort Time Complexity</a></li>
+          <li data-nav-id="/cc310/06-search-sort/21-sort-performance/" class=""><a class="padding" href="/cc310/06-search-sort/21-sort-performance/">21. Performance of Sorting Algorithms</a></li>
+          <li data-nav-id="/cc310/06-search-sort/22-binary-search/" class=""><a class="padding" href="/cc310/06-search-sort/22-binary-search/">22. Binary Search</a></li>
+          <li data-nav-id="/cc310/06-search-sort/23-iterative-binary/" class=""><a class="padding" href="/cc310/06-search-sort/23-iterative-binary/">23. Iterative Binary Search</a></li>
+          <li data-nav-id="/cc310/06-search-sort/24-recursive-binary/" class=""><a class="padding" href="/cc310/06-search-sort/24-recursive-binary/">24. Recursive Binary Search</a></li>
+          <li data-nav-id="/cc310/06-search-sort/25-binary-time/" class=""><a class="padding" href="/cc310/06-search-sort/25-binary-time/">25. Binary Search Time Complexity</a></li>
+          <li data-nav-id="/cc310/06-search-sort/26-sort-important/" class=""><a class="padding" href="/cc310/06-search-sort/26-sort-important/">26. The Importance of Sorting</a></li>
+          <li data-nav-id="/cc310/06-search-sort/27-summary/" class=""><a class="padding" href="/cc310/06-search-sort/27-summary/">27. Searching &amp; Sorting Summary</a></li></ul></li>
           <li data-nav-id="/cc310/10-sets/" class=""><input type="checkbox" id="R-section-63177ba05c2eb183b654d591894dd2f5" aria-controls="R-subsections-63177ba05c2eb183b654d591894dd2f5"><label for="R-section-63177ba05c2eb183b654d591894dd2f5"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Sets</span></label><a class="padding" href="/cc310/10-sets/"><b>10.  </b>Sets</a><ul id="R-subsections-63177ba05c2eb183b654d591894dd2f5" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/10-sets/1-what-are-sets-/" class=""><a class="padding" href="/cc310/10-sets/1-what-are-sets-/">1. What are Sets?</a></li>
           <li data-nav-id="/cc310/10-sets/2-operations-on-sets/" class=""><a class="padding" href="/cc310/10-sets/2-operations-on-sets/">2. Operations on Sets</a></li>
@@ -1496,8 +1496,8 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1719671485" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719671485" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719688922" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719688922" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1512,7 +1512,7 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719671485"></script>
-    <script src="/cc310/js/theme.js?1719671485" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719688922"></script>
+    <script src="/cc310/js/theme.js?1719688922" defer></script>
   </body>
 </html>

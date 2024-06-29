@@ -1039,28 +1039,28 @@
     <meta property="og:locale" content="en-us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Recursion">
-    <meta property="article:modified_time" content="2024-06-29T09:30:52-05:00">
+    <meta property="article:modified_time" content="2024-06-29T14:21:25-05:00">
     <meta itemprop="name" content="Implementing Recursion :: CC 310 Textbook">
     <meta itemprop="description" content="YouTube Video 1function REVERSE2() 2 read CHARACTER 3 if CHARACTER == `*` then 4 return 5 else 6 print CHARACTER 7 REVERSE2() 8 return 9 end if 10end function The REVERSE2 function in the previous quiz actually prints the characters entered by the user in the same order in which they are typed. Notice how this small variation in the instruction order significantly changed the outcome of the function. To get a better understanding of why this occurs, we will delve into the order of execution in a little more depth.">
-    <meta itemprop="dateModified" content="2024-06-29T09:30:52-05:00">
+    <meta itemprop="dateModified" content="2024-06-29T14:21:25-05:00">
     <meta itemprop="wordCount" content="1510">
     <title>Implementing Recursion :: CC 310 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc310/05-recursion/03-implementing/" rel="canonical" type="text/html" title="Implementing Recursion :: CC 310 Textbook">
     <link href="/cc310/05-recursion/03-implementing/index.xml" rel="alternate" type="application/rss+xml" title="Implementing Recursion :: CC 310 Textbook">
     <link href="/cc310/05-recursion/03-implementing/tele.html" rel="alternate" type="text/html" title="Implementing Recursion :: CC 310 Textbook">
     <link href="/cc310/05-recursion/03-implementing/embed.html" rel="alternate" type="text/html" title="Implementing Recursion :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719671497" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719671497" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719671497" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719671497" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719671497" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719671497" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719671497" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719671497" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719671497" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719671497" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719671497" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719671497" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719671497" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1719671497" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1719671497"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719688935" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719688935" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719688935" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719688935" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719688935" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719688935" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719688935" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719688935" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719688935" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719688935" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719688935" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719688935" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719688935" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1719688935" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1719688935"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1080,7 +1080,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719671497" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719688935" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/05-recursion/03-implementing/">
     <div id="R-body" class="default-animation">
@@ -1145,16 +1145,16 @@
 </span></span><span class="line"><span class="ln">10</span><span class="cl">    <span class="k">return</span>
 </span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="n">end</span> <span class="n">function</span></span></span></code></pre></div>
 <p>Notice that we have added some extra <code>print</code> statements (lines 5 and 7) to the function just to help us keep track of when we have called <code>OUTPUT</code> and when that call has returned. This function is very similar to the <code>REVERSE</code> function above, we just don&rsquo;t have to worry about reading a character each time the function runs. Now, if we call <code>OUTPUT</code> with an initial parameter of <code>3</code>, we get the following output. We&rsquo;ve also marked these lines with letters to make the following discussion simpler.</p>
-<div class="highlight"><pre tabindex="0"><code>Calling to OUTPUT 2			(a)
-Calling to OUTPUT 1			(b)
-Calling to OUTPUT 0			(c)
-0					        (d)
-Returning from OUTPUT 0		(e)
-1					        (f)
-Returning from OUTPUT 1		(g)
-2					        (h)
-Returning from OUTPUT 2		(i)
-3					        (j)</code></pre></div><p>Lines a, b, and c show how the function makes all the recursive calls before any output or computation is performed. Thus, this is an example of head recursion which produces a LIFO ordering.</p>
+<div class="highlight"><pre tabindex="0"><code>Calling to OUTPUT 2         (a)
+Calling to OUTPUT 1         (b)
+Calling to OUTPUT 0         (c)
+0                           (d)
+Returning from OUTPUT 0     (e)
+1                           (f)
+Returning from OUTPUT 1     (g)
+2                           (h)
+Returning from OUTPUT 2     (i)
+3                           (j)</code></pre></div><p>Lines a, b, and c show how the function makes all the recursive calls before any output or computation is performed. Thus, this is an example of head recursion which produces a LIFO ordering.</p>
 <p>Once we get to the call of <code>OUTPUT(0)</code>, the function prints out <code>0</code> (line d) and we start the return process. When we return from the call to <code>OUTPUT(0)</code> we immediately print out <code>N</code>, which is <code>1</code> and return. We continue this return process from lines g through j and eventually return from the original call to <code>OUTPUT</code> having completed the task.</p>
 <h2 id="looking-under-the-covers">Looking Under the Covers</h2>
 <p>Now that we have seen how recursion works in practice, we will pull back the covers and take a quick look at what is going on underneath. To be able to call the same function over and over, we need to be able to store the appropriate data related to each function call to ensure we can treat it as a unique instance of the function. While we do not make copies of the code, we do need to make copies of other data. Specifically, when function <code>A</code> calls function <code>B</code>, we must save the following information:</p>
@@ -1186,8 +1186,8 @@ Returning from OUTPUT 2		(i)
 </span></span><span class="line"><span class="ln">13</span><span class="cl">    <span class="k">return</span>
 </span></span><span class="line"><span class="ln">14</span><span class="cl"><span class="n">end</span> <span class="n">function</span></span></span></code></pre></div>
 <p>When we run <code>MAIN</code>, the only record on the activation stack is the record for <code>MAIN</code>. Since it has not been &ldquo;called&rdquo; from another function, it does not contain a return address. It also has no local variables, so the record is basically empty as shown below.</p>
-<p><a href="#R-image-1c1c670c8b0ae0ae267e65e180fd8874" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1c1c670c8b0ae0ae267e65e180fd8874"><img alt="Main Activation Record" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png"></a></p>
+<p><a href="#R-image-01075fd7bb550db8d32e83ae5671787f" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-01075fd7bb550db8d32e83ae5671787f"><img alt="Main Activation Record" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png"></a></p>
 <p>However, when we execute line 2 in <code>MAIN</code>, we call the function <code>OUTPUT</code> with a parameter of <code>3</code>. This causes the creation of a new function activation record with the return address of line 3 in the calling <code>MAIN</code> function and a parameter for <code>N</code>, which is <code>3</code>. Again, there are no local variables in <code>OUTPUT</code>. The stack activation is shown in figure <strong>a</strong> below.</p>
 <table>
 <thead>
@@ -1200,14 +1200,14 @@ Returning from OUTPUT 2		(i)
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><a href="#R-image-9c8e52696509f96be4d88cd777798348" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9c8e52696509f96be4d88cd777798348"><img alt="Activation Stack 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png"></a></td>
-<td style="text-align:center"><a href="#R-image-affe3d38d42c71712e3eca2823436eec" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-affe3d38d42c71712e3eca2823436eec"><img alt="Activation Stack 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png"></a></td>
-<td style="text-align:center"><a href="#R-image-fb2155e8aa359e94fe4ef143984841c0" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fb2155e8aa359e94fe4ef143984841c0"><img alt="Activation Stack 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png"></a></td>
-<td style="text-align:center"><a href="#R-image-9b766aea565f6d1a6e70cce0ab6a7b0b" class="lightbox-link"><img alt="Activation Stack 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9b766aea565f6d1a6e70cce0ab6a7b0b"><img alt="Activation Stack 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack4.png"></a></td>
+<td style="text-align:center"><a href="#R-image-e8a684f89e1fb0033f1b74110acdbae9" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e8a684f89e1fb0033f1b74110acdbae9"><img alt="Activation Stack 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png"></a></td>
+<td style="text-align:center"><a href="#R-image-9b02fd8c9cf61aaacb27612d3d84e961" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9b02fd8c9cf61aaacb27612d3d84e961"><img alt="Activation Stack 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png"></a></td>
+<td style="text-align:center"><a href="#R-image-12350447a9d83ba4c876758bccaef449" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-12350447a9d83ba4c876758bccaef449"><img alt="Activation Stack 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png"></a></td>
+<td style="text-align:center"><a href="#R-image-73b17dd4202f03d9debaacdf34a8bb69" class="lightbox-link"><img alt="Activation Stack 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-73b17dd4202f03d9debaacdf34a8bb69"><img alt="Activation Stack 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack4.png"></a></td>
 </tr>
 </tbody>
 </table>
@@ -1225,14 +1225,14 @@ Returning from OUTPUT 2		(i)
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><a href="#R-image-719fd983cbf6ba78cc703bb65f1f3129" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-719fd983cbf6ba78cc703bb65f1f3129"><img alt="Activation Stack 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png"></a></td>
-<td style="text-align:center"><a href="#R-image-d2e0abafc92d1171b8a7ded6cab32773" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d2e0abafc92d1171b8a7ded6cab32773"><img alt="Activation Stack 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png"></a></td>
-<td style="text-align:center"><a href="#R-image-c126808fb9fa6f9c9d37a44aa491d5eb" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c126808fb9fa6f9c9d37a44aa491d5eb"><img alt="Activation Stack 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png"></a></td>
-<td style="text-align:center"><a href="#R-image-4284a79759a516734b1ef6098b088dc7" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4284a79759a516734b1ef6098b088dc7"><img alt="Main Activation Record" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png"></a></td>
+<td style="text-align:center"><a href="#R-image-f39a531a55526d96de4262926a159d0f" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f39a531a55526d96de4262926a159d0f"><img alt="Activation Stack 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png"></a></td>
+<td style="text-align:center"><a href="#R-image-41f76b64a61d2b821e84e5ceafdcd72d" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-41f76b64a61d2b821e84e5ceafdcd72d"><img alt="Activation Stack 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png"></a></td>
+<td style="text-align:center"><a href="#R-image-05d7ca9f0d00ef25d37d5393fea0144e" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-05d7ca9f0d00ef25d37d5393fea0144e"><img alt="Activation Stack 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png"></a></td>
+<td style="text-align:center"><a href="#R-image-28b720d869cf5fb9db92ef2625083e7c" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-28b720d869cf5fb9db92ef2625083e7c"><img alt="Main Activation Record" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png"></a></td>
 </tr>
 </tbody>
 </table>
@@ -1257,14 +1257,14 @@ Returning from OUTPUT 2		(i)
   <p class="theme-version-footer">6.0.0</p>
   <p>Last modified by: 
               <i class='fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc310/commit/43f9a7ee1c28f145d9e6a5cddfd1b2e94a91c865">Jun 29, 2024</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc310/commit/05c48f27a6bd3fa923b5f7511c2110a0ab3257a7">Jun 29, 2024</a>
   </p>
   </div>
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1719671497" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719671497" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719688935" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719688935" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1279,7 +1279,7 @@ Returning from OUTPUT 2		(i)
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719671497"></script>
-    <script src="/cc310/js/theme.js?1719671497" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719688935"></script>
+    <script src="/cc310/js/theme.js?1719688935" defer></script>
   </body>
 </html>

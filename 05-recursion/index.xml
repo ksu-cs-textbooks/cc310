@@ -1025,10 +1025,9 @@
   <channel>
     <title>Recursion :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/05-recursion/</link>
-    <description>Welcome! This page is the main page for Recursion</description>
+    <description>def: recursion (noun) - see recursion</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jun 2024 09:30:52 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/05-recursion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing Recursion</title>
