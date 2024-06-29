@@ -1050,18 +1050,18 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
     <meta itemprop="dateModified" content="2024-06-28T15:58:53-05:00">
     <meta itemprop="wordCount" content="1260">
     <title>Singly Linked Lists - Insertion :: CC 310 Textbook</title>
-    <link href="/cc310/css/fontawesome-all.min.css?1719608378" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719608378" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719608378" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719608378" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719608378" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719608378" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719608378" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719608378" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719608378" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719608378" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719608378" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719608378" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719608378" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1719608378" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1719608378"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719671497" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719671497" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719671497" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719671497" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719671497" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719671497" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719671497" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719671497" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719671497" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719671497" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719671497" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719671497" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719671497" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1719671497" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1719671497"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -1081,7 +1081,7 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719608378" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719671497" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/04-list/old/5-singly-linked-lists---insertion/">
     <div id="R-body" class="default-animation">
@@ -1127,17 +1127,17 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
 </span></span><span class="line"><span class="cl">	head = node			    (3)
 </span></span><span class="line"><span class="cl">	size = size + 1		    (4)
 </span></span><span class="line"><span class="cl">end function</span></span></code></pre></div><p>We show this process in the following example. The figure below shows the initial state as we enter the <code>prepend</code> operation. Our list has three items in it, an &ldquo;a&rdquo;, &ldquo;W&rdquo;, and &ldquo;Q&rdquo; and we want to add the new node &ldquo;M&rdquo; in front of item &ldquo;a&rdquo;.</p>
-<p><a href="#R-image-befafabac0cb912860ef1dd190446b3b" class="lightbox-link"><img alt="Singly Linked List Prepend 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-befafabac0cb912860ef1dd190446b3b"><img alt="Singly Linked List Prepend 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert1.png"></a></p>
+<p><a href="#R-image-ee4483b283944ba4352882815466ff19" class="lightbox-link"><img alt="Singly Linked List Prepend 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ee4483b283944ba4352882815466ff19"><img alt="Singly Linked List Prepend 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert1.png"></a></p>
 <p>The figure below shows the effect of the first step of the operation. This step creates a new node for &ldquo;M&rdquo; and changes <code>next</code> to point at the same node as the pointer held by <code>head</code>, which is the address of the first item in the list, &ldquo;a&rdquo;.</p>
-<p><a href="#R-image-3dacaf6a370fa92090c84eb1f3dad0c7" class="lightbox-link"><img alt="Singly Linked List Prepend 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3dacaf6a370fa92090c84eb1f3dad0c7"><img alt="Singly Linked List Prepend 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert2.png"></a></p>
+<p><a href="#R-image-885258483c45d42c727e362c97526f4a" class="lightbox-link"><img alt="Singly Linked List Prepend 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-885258483c45d42c727e362c97526f4a"><img alt="Singly Linked List Prepend 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert2.png"></a></p>
 <p>The result of performing line 3 in the operation is shown below. In line 3 we simply change <code>head</code> to point to our new node, instead of node &ldquo;a&rdquo;. Notice now that the new node has been fully inserted into the list.</p>
-<p><a href="#R-image-6d5f0c792412b8e7b711c45c25f2b882" class="lightbox-link"><img alt="Singly Linked List Prepend 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6d5f0c792412b8e7b711c45c25f2b882"><img alt="Singly Linked List Prepend 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert3.png"></a></p>
+<p><a href="#R-image-463e6fb9d61ba2ff199d04a0b0006e08" class="lightbox-link"><img alt="Singly Linked List Prepend 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-463e6fb9d61ba2ff199d04a0b0006e08"><img alt="Singly Linked List Prepend 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert3.png"></a></p>
 <p>And, if we redraw our diagram a bit, we get a nice neat list!</p>
-<p><a href="#R-image-72585d703d543bb67a6f4f36c9c70c0e" class="lightbox-link"><img alt="Singly Linked List Prepend 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-72585d703d543bb67a6f4f36c9c70c0e"><img alt="Singly Linked List Prepend 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert4.png"></a></p>
+<p><a href="#R-image-1c89c4f0b6f6a6566bfa0dad8595cca8" class="lightbox-link"><img alt="Singly Linked List Prepend 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1c89c4f0b6f6a6566bfa0dad8595cca8"><img alt="Singly Linked List Prepend 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.singleinsert4.png"></a></p>
 <p>Since there are no loops in the <code>prepend</code> operation, <code>prepend</code> runs in constant time.</p>
 <h2 id="inserting-in-the-middle">Inserting in the Middle</h2>
 <p>Inserting a node at a given index in the linked list is a little more difficult than inserting a node at the beginning of the list. First, we have to find the proper location to insert the new node before we can actually insert it. However, since we are given an index number, we simply need to follow the linked list to the appropriate index and then perform the insertion.</p>
@@ -1161,14 +1161,14 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
 </span></span><span class="line"><span class="cl">	end if
 </span></span><span class="line"><span class="cl">end function</span></span></code></pre></div><p>Lines 4 and 5 check to see if the <code>index</code> is 0, which means that we want to insert it as the first item in the list. Since this is the same as the <code>prepend</code> operation we&rsquo;ve already defined, we simply call that operation. While this may not seem like a big deal, it is actually more efficient and helps us to simplify the code in the rest of the operation.</p>
 <p>The operation uses <code>curr</code> to keep track of which node in the list we are currently looking at, thus we initialize <code>curr</code> to point at the first node in the list in line 6.  To allow us to swap pointers once we find the appropriate place in the list, we keep track of the node previous to <code>curr</code> as well by using the variable <code>pre</code>. This variable is initialized to <code>head</code> in line 7, and line 8 creates the new node we will insert into our list. After line 8, our <code>list</code>, <code>node</code>, and <code>previous</code> pointers would look like the following (assuming the index passed in was <code>2</code>).</p>
-<p><a href="#R-image-fd1d8f93dde262a1ecab5ccbc6e0f3ed" class="lightbox-link"><img alt="Singly Linked List Insert 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.insertat1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fd1d8f93dde262a1ecab5ccbc6e0f3ed"><img alt="Singly Linked List Insert 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.insertat1.png"></a></p>
+<p><a href="#R-image-f5e19817b30ae726ff0896f3ee2c279e" class="lightbox-link"><img alt="Singly Linked List Insert 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.insertat1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f5e19817b30ae726ff0896f3ee2c279e"><img alt="Singly Linked List Insert 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.insertat1.png"></a></p>
 <p>At this point we start our walk through the list using the <code>for</code> loop in lines 9 - 12. Specifically, with an <code>index</code> of 2 we will actually go through the loop exactly one time, from <code>1 to 1</code>. Each time through the loop, lines 10 and 11 will cause <code>curr</code> and <code>prev</code> to point at the next nodes in the list. At the end of one time through our loop, our example will be as shown below.</p>
-<p><a href="#R-image-50eb5498f6a6e6259639b270574b4ead" class="lightbox-link"><img alt="Singly Linked List Insert 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.insertat2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-50eb5498f6a6e6259639b270574b4ead"><img alt="Singly Linked List Insert 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.insertat2.png"></a></p>
+<p><a href="#R-image-603b042f0ba4a382697379654f936673" class="lightbox-link"><img alt="Singly Linked List Insert 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.insertat2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-603b042f0ba4a382697379654f936673"><img alt="Singly Linked List Insert 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.insertat2.png"></a></p>
 <p>Now, the only thing left to do is update the <code>next</code> pointer of node &ldquo;3&rdquo; to point at <code>node</code> (line 13), and <code>node.next</code> to point at <code>curr</code> node (line 14), while line 15 increments the size attribute. The updated list is shown below.</p>
-<p><a href="#R-image-020e34858f99c9b5b0094d0a789a3742" class="lightbox-link"><img alt="Singly Linked List Insert 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.insertat3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-020e34858f99c9b5b0094d0a789a3742"><img alt="Singly Linked List Insert 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.insertat3.png"></a></p>
+<p><a href="#R-image-96b51b0ba24f2c892839156ecbc3da89" class="lightbox-link"><img alt="Singly Linked List Insert 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.5.insertat3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-96b51b0ba24f2c892839156ecbc3da89"><img alt="Singly Linked List Insert 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.5.insertat3.png"></a></p>
 <p>The <code>insertAt</code> operation, while being quite flexible and useful, can potentially loop through each node in the list. Therefore, it runs in order $N$ time.</p>
 <h2 id="inserting-in-order">Inserting in Order</h2>
 <p>When we want to insert an item into an ordered list, we need to find the right place in the list to actually insert the new node. Essentially, we need to search the list to find two adjacent nodes where the first node&rsquo;s data is less than or equal to <code>data</code> and the second node&rsquo;s data is greater than <code>data</code>. This process requires a linear search of the list.</p>
@@ -1206,8 +1206,8 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1719608378" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719608378" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719671497" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719671497" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1222,7 +1222,7 @@ Inserting at the Beginning Inserting a node at the beginning of a list is straig
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719608378"></script>
-    <script src="/cc310/js/theme.js?1719608378" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719671497"></script>
+    <script src="/cc310/js/theme.js?1719671497" defer></script>
   </body>
 </html>

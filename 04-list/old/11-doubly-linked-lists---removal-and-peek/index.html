@@ -1050,17 +1050,17 @@ we simply modify the next pointer in node “-2” to point to node “23”.">
     <meta itemprop="dateModified" content="2024-06-28T15:58:53-05:00">
     <meta itemprop="wordCount" content="788">
     <title>Doubly Linked Lists - Removal and Peek :: CC 310 Textbook</title>
-    <link href="/cc310/css/fontawesome-all.min.css?1719608366" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719608366" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719608366" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719608366" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719608366" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719608366" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719608366" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719608366" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719608366" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719608366" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719608366" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719608366" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719608366" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719608366"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719671484" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719671484" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719671484" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719671484" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719671484" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719671484" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719671484" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719671484" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719671484" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719671484" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719671484" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719671484" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719671484" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719671484"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -1080,7 +1080,7 @@ we simply modify the next pointer in node “-2” to point to node “23”.">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719608366" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719671484" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/04-list/old/11-doubly-linked-lists---removal-and-peek/">
     <div id="R-body" class="default-animation">
@@ -1117,7 +1117,7 @@ we simply modify the next pointer in node “-2” to point to node “23”.">
             </div>
             <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc310/04-list/old/10-doubly-linked-lists---insertion/" title="Doubly Linked Lists - Insertion (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc310/6-recursion/" title="Recursion (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc310/05-recursion/" title="Recursion (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -1144,11 +1144,11 @@ we simply modify the next pointer in node “-2” to point to node “23”.">
 <h1 id="doubly-linked-lists---removal-and-peek">Doubly Linked Lists - Removal and Peek</h1>
 
 <p>The process of removing a node from a doubly linked list is really no more difficult than from a singly linked list. The only difference is that instead of changing just one pointer, we now also need to modify the <code>previous</code> pointer in the node following the node we want to remove. For instance, if we want to remove node &ldquo;3&rdquo; from the following list,</p>
-<p><a href="#R-image-59f7982f06ec747314e91d929009e2fa" class="lightbox-link"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.double.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-59f7982f06ec747314e91d929009e2fa"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.double.png"></a></p>
+<p><a href="#R-image-ceab76f64a976e1886c856cff228c02b" class="lightbox-link"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.double.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ceab76f64a976e1886c856cff228c02b"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.double.png"></a></p>
 <p>we simply modify the <code>next</code> pointer in node &ldquo;-2&rdquo; to point to node &ldquo;23&rdquo;. Then, we modify the <code>previous</code> pointer in node &ldquo;23&rdquo; to point to node &ldquo;-2&rdquo;. We then return the data in that node to the requesting function.</p>
-<p><a href="#R-image-f9bbdb63e99703125ab78260b33f82b7" class="lightbox-link"><img alt="Doubly Linked List Remove" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.12.remove.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f9bbdb63e99703125ab78260b33f82b7"><img alt="Doubly Linked List Remove" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.12.remove.png"></a></p>
+<p><a href="#R-image-2594330585646498b20754c473530ab7" class="lightbox-link"><img alt="Doubly Linked List Remove" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.12.remove.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2594330585646498b20754c473530ab7"><img alt="Doubly Linked List Remove" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.12.remove.png"></a></p>
 <h2 id="removing-at-the-beginning">Removing at the Beginning</h2>
 <p>The <code>remove</code> operation removes the first node in the list. First, we check to ensure that there is at least one node in the list in line 1 and raise an exception if there is not. Now, the process is simple. We simply create a temporary pointer <code>temp</code> that points to the node we are going to delete in line 3 and then point <code>head</code> to <code>head.next</code>, which is the second node in the list. Then, in line 5, we check to see if the list is empty (<code>head == null</code>) and set <code>tail</code> to <code>null</code> if it is (it was pointing at the node we just removed). If the list is not empty, we do not need to worry about updating <code>tail</code>; however, we do need to set the <code>previous</code> pointer of the first node in the list to <code>null</code> (it was also pointing at the node we just removed). Finally, we decrement <code>size</code> in line 8 and then return the data in the node we just removed in line 9. Obviously, the operation runs in constant time since there are no loops.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">function remove() returns data
@@ -1252,12 +1252,12 @@ If we have no special conditions, we create a temporary pointer <code>curr</code
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1719608366" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1719608366" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719608366" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1719608366" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1719608366" defer></script>
-        <script src="/cc310/js/search.js?1719608366" defer></script>
+        <script src="/cc310/js/auto-complete.js?1719671484" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1719671484" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719671484" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1719671484" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1719671484" defer></script>
+        <script src="/cc310/js/search.js?1719671484" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1356,16 +1356,16 @@ If we have no special conditions, we create a temporary pointer <code>curr</code
           <li data-nav-id="/cc310/04-list/old/8-list-based-stacks/" class=""><a class="padding" href="/cc310/04-list/old/8-list-based-stacks/">8. List-Based Stacks</a></li>
           <li data-nav-id="/cc310/04-list/old/10-doubly-linked-lists---insertion/" class=""><a class="padding" href="/cc310/04-list/old/10-doubly-linked-lists---insertion/">10. Doubly Linked Lists - Insertion</a></li>
           <li data-nav-id="/cc310/04-list/old/11-doubly-linked-lists---removal-and-peek/" class="active"><a class="padding" href="/cc310/04-list/old/11-doubly-linked-lists---removal-and-peek/">11. Doubly Linked Lists - Removal and Peek</a></li></ul></li></ul></li>
-          <li data-nav-id="/cc310/6-recursion/" class=""><input type="checkbox" id="R-section-5bfeac116470b396e89fc0bf5264c490" aria-controls="R-subsections-5bfeac116470b396e89fc0bf5264c490"><label for="R-section-5bfeac116470b396e89fc0bf5264c490"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Recursion</span></label><a class="padding" href="/cc310/6-recursion/"><b>6.  </b>Recursion</a><ul id="R-subsections-5bfeac116470b396e89fc0bf5264c490" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/6-recursion/1-introducing-recursion/" class=""><a class="padding" href="/cc310/6-recursion/1-introducing-recursion/">1. Introducing Recursion</a></li>
-          <li data-nav-id="/cc310/6-recursion/2-example--reversing-a-string/" class=""><a class="padding" href="/cc310/6-recursion/2-example--reversing-a-string/">2. Example: Reversing a String</a></li>
-          <li data-nav-id="/cc310/6-recursion/3-implementing-recursion/" class=""><a class="padding" href="/cc310/6-recursion/3-implementing-recursion/">3. Implementing Recursion</a></li>
-          <li data-nav-id="/cc310/6-recursion/4-example--factorials/" class=""><a class="padding" href="/cc310/6-recursion/4-example--factorials/">4. Example: Factorials</a></li>
-          <li data-nav-id="/cc310/6-recursion/5-tree-recursion/" class=""><a class="padding" href="/cc310/6-recursion/5-tree-recursion/">5. Tree Recursion</a></li>
-          <li data-nav-id="/cc310/6-recursion/6-example--fibonacci-numbers/" class=""><a class="padding" href="/cc310/6-recursion/6-example--fibonacci-numbers/">6. Example: Fibonacci Numbers</a></li>
-          <li data-nav-id="/cc310/6-recursion/7-example--tower-of-hanoi/" class=""><a class="padding" href="/cc310/6-recursion/7-example--tower-of-hanoi/">7. Example: Tower of Hanoi</a></li>
-          <li data-nav-id="/cc310/6-recursion/8-converting-recursion-to-iteration/" class=""><a class="padding" href="/cc310/6-recursion/8-converting-recursion-to-iteration/">8. Converting Recursion to Iteration</a></li>
-          <li data-nav-id="/cc310/6-recursion/9-recursion-summary/" class=""><a class="padding" href="/cc310/6-recursion/9-recursion-summary/">9. Recursion Summary</a></li></ul></li>
+          <li data-nav-id="/cc310/05-recursion/" class=""><input type="checkbox" id="R-section-923c54850c638524f999109589ebf64d" aria-controls="R-subsections-923c54850c638524f999109589ebf64d"><label for="R-section-923c54850c638524f999109589ebf64d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Recursion</span></label><a class="padding" href="/cc310/05-recursion/"><b>6.  </b>Recursion</a><ul id="R-subsections-923c54850c638524f999109589ebf64d" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/05-recursion/01-recursion-intro/" class=""><a class="padding" href="/cc310/05-recursion/01-recursion-intro/">1. Introducing Recursion</a></li>
+          <li data-nav-id="/cc310/05-recursion/02-string-example/" class=""><a class="padding" href="/cc310/05-recursion/02-string-example/">2. Example: Reversing a String</a></li>
+          <li data-nav-id="/cc310/05-recursion/03-implementing/" class=""><a class="padding" href="/cc310/05-recursion/03-implementing/">3. Implementing Recursion</a></li>
+          <li data-nav-id="/cc310/05-recursion/04-factorial-example/" class=""><a class="padding" href="/cc310/05-recursion/04-factorial-example/">4. Example: Factorials</a></li>
+          <li data-nav-id="/cc310/05-recursion/05-tree-recursion/" class=""><a class="padding" href="/cc310/05-recursion/05-tree-recursion/">5. Tree Recursion</a></li>
+          <li data-nav-id="/cc310/05-recursion/06-fibonacci-example/" class=""><a class="padding" href="/cc310/05-recursion/06-fibonacci-example/">6. Example: Fibonacci Numbers</a></li>
+          <li data-nav-id="/cc310/05-recursion/07-hanoi-example/" class=""><a class="padding" href="/cc310/05-recursion/07-hanoi-example/">7. Example: Tower of Hanoi</a></li>
+          <li data-nav-id="/cc310/05-recursion/08-recusion-to-iteration/" class=""><a class="padding" href="/cc310/05-recursion/08-recusion-to-iteration/">8. Converting Recursion to Iteration</a></li>
+          <li data-nav-id="/cc310/05-recursion/09-summary/" class=""><a class="padding" href="/cc310/05-recursion/09-summary/">9. Recursion Summary</a></li></ul></li>
           <li data-nav-id="/cc310/7-searching-and-sorting/" class=""><input type="checkbox" id="R-section-2c9a1bd1bf29a089ddde115266500a83" aria-controls="R-subsections-2c9a1bd1bf29a089ddde115266500a83"><label for="R-section-2c9a1bd1bf29a089ddde115266500a83"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Searching and Sorting</span></label><a class="padding" href="/cc310/7-searching-and-sorting/"><b>7.  </b>Searching and Sorting</a><ul id="R-subsections-2c9a1bd1bf29a089ddde115266500a83" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/7-searching-and-sorting/1-searching/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/1-searching/">1. Searching</a></li>
           <li data-nav-id="/cc310/7-searching-and-sorting/2-linear-search/" class=""><a class="padding" href="/cc310/7-searching-and-sorting/2-linear-search/">2. Linear Search</a></li>
@@ -1489,8 +1489,8 @@ If we have no special conditions, we create a temporary pointer <code>curr</code
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1719608366" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719608366" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719671484" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719671484" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1505,7 +1505,7 @@ If we have no special conditions, we create a temporary pointer <code>curr</code
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719608366"></script>
-    <script src="/cc310/js/theme.js?1719608366" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719671484"></script>
+    <script src="/cc310/js/theme.js?1719671484" defer></script>
   </body>
 </html>

@@ -1053,18 +1053,18 @@ A graph traversal algorithm constructs an answer to a problem by moving between 
     <link href="/cc310/03-intro-dsa/16-graph-traversals/index.xml" rel="alternate" type="application/rss+xml" title="Graph Traversal :: CC 310 Textbook">
     <link href="/cc310/03-intro-dsa/16-graph-traversals/tele.html" rel="alternate" type="text/html" title="Graph Traversal :: CC 310 Textbook">
     <link href="/cc310/03-intro-dsa/16-graph-traversals/embed.html" rel="alternate" type="text/html" title="Graph Traversal :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719608378" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719608378" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719608378" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719608378" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719608378" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719608378" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719608378" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719608378" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719608378" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719608378" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719608378" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719608378" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719608378" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1719608378" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1719608378"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719671496" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719671496" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719671496" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719671496" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719671496" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719671496" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719671496" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719671496" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719671496" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719671496" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719671496" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719671496" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719671496" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1719671496" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1719671496"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1084,7 +1084,7 @@ A graph traversal algorithm constructs an answer to a problem by moving between 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719608378" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719671496" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/03-intro-dsa/16-graph-traversals/">
     <div id="R-body" class="default-animation">
@@ -1117,16 +1117,16 @@ A graph traversal algorithm constructs an answer to a problem by moving between 
 
 <h1 id="graph-traversal">Graph Traversal</h1>
 
-<p><a href="#R-image-3ed70352fd176156cdd8d9548add2a56" class="lightbox-link"><img alt="Graph Traversals" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.17.graph.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3ed70352fd176156cdd8d9548add2a56"><img alt="Graph Traversals" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.17.graph.png"></a></p>
+<p><a href="#R-image-87c97794ca0edb5bb49c180152b4930c" class="lightbox-link"><img alt="Graph Traversals" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.17.graph.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-87c97794ca0edb5bb49c180152b4930c"><img alt="Graph Traversals" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.17.graph.png"></a></p>
 <p>Beyond the algorithmic techniques we&rsquo;ve introduced so far, there are a number of techniques that deal specifically with data stored in non-linear data structures based on graphs. Generally speaking, we can group all of these algorithms under the heading <em>graph traversal</em> algorithms.</p>
 <p>A graph traversal algorithm constructs an answer to a problem by moving between nodes in a graph using the graph&rsquo;s edges, thereby <em>traversing</em> the graph. For example, a graph traversal algorithm could be used by a mapping program to construct a route from one city to another on a map, or to determine friends in common on a social networking website.</p>
 <h2 id="example---dijkstras-algorithm">Example - Dijkstra&rsquo;s Algorithm</h2>
-<p><a href="#R-image-783510bfaa1d868cc0d2dc44db54d2e5" class="lightbox-link"><img alt="Dijkstra&rsquo;s Algorithm on a Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.17.dijkstra1.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-783510bfaa1d868cc0d2dc44db54d2e5"><img alt="Dijkstra&rsquo;s Algorithm on a Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.17.dijkstra1.gif"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-a77ca433bb56620a88770056647e26b3" class="lightbox-link"><img alt="Dijkstra&rsquo;s Algorithm on a Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.17.dijkstra1.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a77ca433bb56620a88770056647e26b3"><img alt="Dijkstra&rsquo;s Algorithm on a Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.17.dijkstra1.gif"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>A great example of a graph traversal algorithm is <a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" rel="external" target="_blank">Dijkstra&rsquo;s Algorithm</a>, which can be used to find the shortest path between two selected nodes in a graph. In the image above, we can see the process of running Dijkstra&rsquo;s Algorithm on a graph that contains just a few nodes.</p>
-<p><a href="#R-image-54266d3afa49ae488e73dea1db3fcd8e" class="lightbox-link"><img alt="Dijkstra&rsquo;s Algorithm in a Plane" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.17.dijkstra.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-54266d3afa49ae488e73dea1db3fcd8e"><img alt="Dijkstra&rsquo;s Algorithm in a Plane" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.17.dijkstra.gif"></a><sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-265c1d895d1a8ac817d1dd851cd7e2cd" class="lightbox-link"><img alt="Dijkstra&rsquo;s Algorithm in a Plane" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.17.dijkstra.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-265c1d895d1a8ac817d1dd851cd7e2cd"><img alt="Dijkstra&rsquo;s Algorithm in a Plane" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.17.dijkstra.gif"></a><sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>Of course, we can use the same approach on any open space, as seen in this animation. Starting at the lower left corner, the algorithm slowly works toward the goal node, but it eventually runs into an obstacle. So, it must find a way around the obstacle while still finding the shortest path to the goal.</p>
 <p>Algorithms such as Dijkstra&rsquo;s Algorithm, and a more refined version called the <a href="https://en.wikipedia.org/wiki/A*_search_algorithm" rel="external" target="_blank">A* Algorithm</a> are used in many different computer programs to help find a path between two points, especially in video games.</p>
 <div class="footnotes" role="doc-endnotes">
@@ -1159,8 +1159,8 @@ A graph traversal algorithm constructs an answer to a problem by moving between 
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1719608378" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719608378" defer></script>
-    <script src="/cc310/js/theme.js?1719608378" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719671496" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719671496" defer></script>
+    <script src="/cc310/js/theme.js?1719671496" defer></script>
   </body>
 </html>

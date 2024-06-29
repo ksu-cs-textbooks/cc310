@@ -1053,17 +1053,17 @@ For example, consider the insert operation. In the best case, the hash table has
     <link href="/cc310/12-performance/6-hash-tables/index.xml" rel="alternate" type="application/rss+xml" title="Hash Tables :: CC 310 Textbook">
     <link href="/cc310/12-performance/6-hash-tables/index.print.html" rel="alternate" type="text/html" title="Hash Tables :: CC 310 Textbook">
     <link href="/cc310/12-performance/6-hash-tables/embed.html" rel="alternate" type="text/html" title="Hash Tables :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719608381" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719608381" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719608381" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719608381" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719608381" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719608381" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719608381" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719608381" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719608381" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719608381" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719608381" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719608381" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719608381" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719608381"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719671500" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719671500" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719671500" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719671500" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719671500" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719671500" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719671500" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719671500" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719671500" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719671500" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719671500" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719671500" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719671500" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719671500"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1083,7 +1083,7 @@ For example, consider the insert operation. In the best case, the hash table has
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719608381" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719671500" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc310/12-performance/6-hash-tables/">
     
@@ -1107,8 +1107,8 @@ For example, consider the insert operation. In the best case, the hash table has
 <a href="https://www.youtube.com/watch?v=3l7NGg0YsBk">YouTube Video</a>
 
 <h2 id="hash-tables">Hash Tables</h2>
-<p><a href="#R-image-354dc6a3a9a90907f239a846c65c4955" class="lightbox-link"><img alt="Hash Table" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.6.hashtable.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-354dc6a3a9a90907f239a846c65c4955"><img alt="Hash Table" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.6.hashtable.svg"></a></p>
+<p><a href="#R-image-a9538a8d2426c0768f38e02db517f4ad" class="lightbox-link"><img alt="Hash Table" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.6.hashtable.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a9538a8d2426c0768f38e02db517f4ad"><img alt="Hash Table" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.6.hashtable.svg"></a></p>
 <p>Analyzing the performance of a hash table is a bit trickier than the other data structures, mainly due to how a hash table tries to use its complex structure to get a &ldquo;best of both worlds&rdquo; performance outcome.</p>
 <p>For example, consider the insert operation. In the best case, the hash table has a capacity that is large enough to guarantee that there are not any hash collisions. Each entry in the array of the hash table will be an empty list and inserting an element into an empty list is done in constant time, so the whole operation runs in the order of constant time.</p>
 <p>The worst case for inserting an item into a hash table would be when every element has the same hash, so every element in the hash table is contained in the same list. In that case, we must iterate through the entire list to make sure the key has not already been used, which would be in the order of $N$ time.</p>
@@ -1136,11 +1136,11 @@ For example, consider the insert operation. In the best case, the hash table has
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719608381" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719608381" defer></script>
-<script src="/cc310/js/theme.js?1719608381" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719671500" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719671500" defer></script>
+<script src="/cc310/js/theme.js?1719671500" defer></script>
 
-<script src="/cc310/js/tele-scroll.js?1719608381" defer></script>
+<script src="/cc310/js/tele-scroll.js?1719671500" defer></script>
 
 </body>
 </html>
