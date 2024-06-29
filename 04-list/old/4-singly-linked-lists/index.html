@@ -849,16 +849,16 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
 	
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1050,17 +1050,17 @@ The solution lies in creating our own specialized data structure where each node
     <meta itemprop="dateModified" content="2024-06-28T15:58:53-05:00">
     <meta itemprop="wordCount" content="513">
     <title>Singly Linked Lists :: CC 310 Textbook</title>
-    <link href="/cc310/css/fontawesome-all.min.css?1719688922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719688922" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719688922" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719688922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719688922" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719688922" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719688922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719688922" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719688922" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719688922" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719688922" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719688922" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719688922" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719688922"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719695044" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719695044" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719695044" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719695044" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719695044" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719695044" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719695044" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719695044" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719695044" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719695044" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719695044" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719695044" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719695044" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719695044"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -1080,7 +1080,7 @@ The solution lies in creating our own specialized data structure where each node
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719688922" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719695044" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/04-list/old/4-singly-linked-lists/">
     <div id="R-body" class="default-animation">
@@ -1154,16 +1154,16 @@ The solution lies in creating our own specialized data structure where each node
 <p>To solve the disadvantages of arrays, we need a data structure that allows us to insert and remove items in an ordered collection in constant time, independently from the number of items in the data structure.</p>
 <p>The solution lies in creating our own specialized data structure where each node contains the data of interest as well as a reference, or pointer to the next node in the list. Of course, we would also need to have a pointer to the first node in the list, which we call the <code>head</code>.</p>
 <p>The figure below shows how we can construct a linked list data structure. The <code>head</code> entity shown in the figure is a variable that contains a pointer to the first node in the list, in this case the node containing <code>-2</code>. Each node in the list is an object that has two main parts: the data that it holds, and a pointer to the next item in the list.</p>
-<p><a href="#R-image-5b9a18b051c90082465cfe162e71a5a7" class="lightbox-link"><img alt="Linked Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.listnode.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5b9a18b051c90082465cfe162e71a5a7"><img alt="Linked Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.listnode.png"></a></p>
+<p><a href="#R-image-de8f34c710db50040b7b0615a3f88b2a" class="lightbox-link"><img alt="Linked Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.listnode.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-de8f34c710db50040b7b0615a3f88b2a"><img alt="Linked Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.listnode.png"></a></p>
 <p>The class representation of a singly linked list <code>Node</code> is shown below. As discussed above, we have two attributes: <code>data</code>, which holds the data of the node, and <code>next</code>, which is a reference or pointer to the next node. We also use a constructor and a standard <code>toString</code> operation to appropriately create a string representation for the data stored in the node.</p>
-<p><a href="#R-image-dd4d1622d884cbb7f56561a461837302" class="lightbox-link"><img alt="Linked Node UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.listnodeuml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dd4d1622d884cbb7f56561a461837302"><img alt="Linked Node UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.listnodeuml.png"></a></p>
+<p><a href="#R-image-15aeb91806d70554c2a56ae8dba967ed" class="lightbox-link"><img alt="Linked Node UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.listnodeuml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-15aeb91806d70554c2a56ae8dba967ed"><img alt="Linked Node UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.listnodeuml.png"></a></p>
 <h2 id="linked-list">Linked List</h2>
 <p>A list is represented by a special variable <code>head</code> that contains a pointer to the first item in the list. If the <code>head</code> is <code>null</code> (equal to <code>0</code>), then we have an empty list, which is a list with no items in it.</p>
 <p>However, if we have items in the list, <code>head</code> will point to a node as shown in the figure below. This node has some data (in this case <code>-2</code>) and its own pointer that points to the next node in the list. As we can see in our example, <code>head</code> points to a sequence of five nodes that makes up our list. The node with the data 67 in it is the last item in the list since its pointer is <code>null</code>. We often refer to this condition as having a <code>null</code> pointer.</p>
-<p><a href="#R-image-985d60760b8937f93977a55f71deb2c2" class="lightbox-link"><img alt="Linked List Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.single.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-985d60760b8937f93977a55f71deb2c2"><img alt="Linked List Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.single.png"></a></p>
+<p><a href="#R-image-bee86189b49533e2d4579e3e1ad2883f" class="lightbox-link"><img alt="Linked List Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.single.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bee86189b49533e2d4579e3e1ad2883f"><img alt="Linked List Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.single.png"></a></p>
 <p>While we will not show them explicitly in this module, each pointer is actually an address in memory. If we have a pointer to node <code>X</code> in our node, that means that we actually store the address of <code>X</code> in memory in our node.</p>
 <h2 id="linked-list-class">Linked List Class</h2>
 <p>To capture the necessary details for a singly linked list, we put everything into a class. The singly linked list class has two attributes:</p>
@@ -1184,28 +1184,28 @@ The solution lies in creating our own specialized data structure where each node
 <tbody>
 <tr>
 <td style="text-align:center"><code>node</code></td>
-<td style="text-align:center"><a href="#R-image-c5ee201d067ca48bd8b25ec849be5526" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.node.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c5ee201d067ca48bd8b25ec849be5526"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.node.png"></a></td>
+<td style="text-align:center"><a href="#R-image-5450ab51a240fe76f07d56a8ce05a9b0" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.node.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5450ab51a240fe76f07d56a8ce05a9b0"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.node.png"></a></td>
 </tr>
 <tr>
 <td style="text-align:center"><code>node.next</code></td>
-<td style="text-align:center"><a href="#R-image-1fda90ef0f0f019b564eb349dc4a6469" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.node.next.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1fda90ef0f0f019b564eb349dc4a6469"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.node.next.png"></a></td>
+<td style="text-align:center"><a href="#R-image-7b42b52c1c71c93523bdfbf1f5fd9395" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.node.next.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7b42b52c1c71c93523bdfbf1f5fd9395"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.node.next.png"></a></td>
 </tr>
 <tr>
 <td style="text-align:center"><code>node.next.next</code></td>
-<td style="text-align:center"><a href="#R-image-054ee7916339d0de7196a0d01e56fc91" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.node.next.next.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-054ee7916339d0de7196a0d01e56fc91"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.node.next.next.png"></a></td>
+<td style="text-align:center"><a href="#R-image-1d81b42f4fa64031ec380138419be708" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.node.next.next.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1d81b42f4fa64031ec380138419be708"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.node.next.next.png"></a></td>
 </tr>
 <tr>
 <td style="text-align:center"><code>head</code></td>
-<td style="text-align:center"><a href="#R-image-66b9b99d7a343322c91ada873d1015f8" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.head.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-66b9b99d7a343322c91ada873d1015f8"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.head.png"></a></td>
+<td style="text-align:center"><a href="#R-image-335adf61db5169bd51b8c1d0e2b5ad9e" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.head.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-335adf61db5169bd51b8c1d0e2b5ad9e"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.head.png"></a></td>
 </tr>
 <tr>
 <td style="text-align:center"><code>head.next</code></td>
-<td style="text-align:center"><a href="#R-image-3383fd182fc3ec63f6327c1fcd14c025" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.head.next.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3383fd182fc3ec63f6327c1fcd14c025"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.head.next.png"></a></td>
+<td style="text-align:center"><a href="#R-image-9ad97e22185c2ec67dd72fa4e5806653" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.head.next.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9ad97e22185c2ec67dd72fa4e5806653"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.head.next.png"></a></td>
 </tr>
 </tbody>
 </table>
@@ -1252,12 +1252,12 @@ The solution lies in creating our own specialized data structure where each node
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1719688922" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1719688922" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719688922" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1719688922" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1719688922" defer></script>
-        <script src="/cc310/js/search.js?1719688922" defer></script>
+        <script src="/cc310/js/auto-complete.js?1719695044" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1719695044" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719695044" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1719695044" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1719695044" defer></script>
+        <script src="/cc310/js/search.js?1719695044" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1394,6 +1394,14 @@ The solution lies in creating our own specialized data structure where each node
           <li data-nav-id="/cc310/06-search-sort/25-binary-time/" class=""><a class="padding" href="/cc310/06-search-sort/25-binary-time/">25. Binary Search Time Complexity</a></li>
           <li data-nav-id="/cc310/06-search-sort/26-sort-important/" class=""><a class="padding" href="/cc310/06-search-sort/26-sort-important/">26. The Importance of Sorting</a></li>
           <li data-nav-id="/cc310/06-search-sort/27-summary/" class=""><a class="padding" href="/cc310/06-search-sort/27-summary/">27. Searching &amp; Sorting Summary</a></li></ul></li>
+          <li data-nav-id="/cc310/07-hash-tables/" class=""><input type="checkbox" id="R-section-715c0a98509803fdb7584d2d426db3ca" aria-controls="R-subsections-715c0a98509803fdb7584d2d426db3ca"><label for="R-section-715c0a98509803fdb7584d2d426db3ca"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hash Tables</span></label><a class="padding" href="/cc310/07-hash-tables/"><b>7.  </b>Hash Tables</a><ul id="R-subsections-715c0a98509803fdb7584d2d426db3ca" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/07-hash-tables/01-hash-table-intro/" class=""><a class="padding" href="/cc310/07-hash-tables/01-hash-table-intro/">1. What are Hash Tables?</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/02-hash-table-code/" class=""><a class="padding" href="/cc310/07-hash-tables/02-hash-table-code/">2. Hash Tables in Code</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/03-hash-functions/" class=""><a class="padding" href="/cc310/07-hash-tables/03-hash-functions/">3. Hash Functions</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/04-tuples/" class=""><a class="padding" href="/cc310/07-hash-tables/04-tuples/">4. Tuples</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/05-hash-table-operations/" class=""><a class="padding" href="/cc310/07-hash-tables/05-hash-table-operations/">5. Hash Table Operations</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/06-hash-table-sets/" class=""><a class="padding" href="/cc310/07-hash-tables/06-hash-table-sets/">6. Hash Table Based Sets</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/07-summary/" class=""><a class="padding" href="/cc310/07-hash-tables/07-summary/">7. Hash Tables Summary</a></li></ul></li>
           <li data-nav-id="/cc310/10-sets/" class=""><input type="checkbox" id="R-section-63177ba05c2eb183b654d591894dd2f5" aria-controls="R-subsections-63177ba05c2eb183b654d591894dd2f5"><label for="R-section-63177ba05c2eb183b654d591894dd2f5"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Sets</span></label><a class="padding" href="/cc310/10-sets/"><b>10.  </b>Sets</a><ul id="R-subsections-63177ba05c2eb183b654d591894dd2f5" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/10-sets/1-what-are-sets-/" class=""><a class="padding" href="/cc310/10-sets/1-what-are-sets-/">1. What are Sets?</a></li>
           <li data-nav-id="/cc310/10-sets/2-operations-on-sets/" class=""><a class="padding" href="/cc310/10-sets/2-operations-on-sets/">2. Operations on Sets</a></li>
@@ -1401,14 +1409,6 @@ The solution lies in creating our own specialized data structure where each node
           <li data-nav-id="/cc310/10-sets/4-set-operations/" class=""><a class="padding" href="/cc310/10-sets/4-set-operations/">4. Set Operations</a></li>
           <li data-nav-id="/cc310/10-sets/5-using-sets/" class=""><a class="padding" href="/cc310/10-sets/5-using-sets/">5. Using Sets</a></li>
           <li data-nav-id="/cc310/10-sets/6-sets-summary/" class=""><a class="padding" href="/cc310/10-sets/6-sets-summary/">6. Sets Summary</a></li></ul></li>
-          <li data-nav-id="/cc310/11-hash-tables/" class=""><input type="checkbox" id="R-section-8d15114a1b5ea550f02010063ebd805e" aria-controls="R-subsections-8d15114a1b5ea550f02010063ebd805e"><label for="R-section-8d15114a1b5ea550f02010063ebd805e"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hash Tables</span></label><a class="padding" href="/cc310/11-hash-tables/"><b>11.  </b>Hash Tables</a><ul id="R-subsections-8d15114a1b5ea550f02010063ebd805e" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/11-hash-tables/1-what-are-hash-tables-/" class=""><a class="padding" href="/cc310/11-hash-tables/1-what-are-hash-tables-/">1. What are Hash Tables?</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/2-hash-tables-in-code/" class=""><a class="padding" href="/cc310/11-hash-tables/2-hash-tables-in-code/">2. Hash Tables in Code</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/3-hash-functions/" class=""><a class="padding" href="/cc310/11-hash-tables/3-hash-functions/">3. Hash Functions</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/4-tuples/" class=""><a class="padding" href="/cc310/11-hash-tables/4-tuples/">4. Tuples</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/5-hash-table-operations/" class=""><a class="padding" href="/cc310/11-hash-tables/5-hash-table-operations/">5. Hash Table Operations</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/6-hash-table-based-sets/" class=""><a class="padding" href="/cc310/11-hash-tables/6-hash-table-based-sets/">6. Hash Table Based Sets</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/7-hash-tables-summary/" class=""><a class="padding" href="/cc310/11-hash-tables/7-hash-tables-summary/">7. Hash Tables Summary</a></li></ul></li>
           <li data-nav-id="/cc310/12-performance/" class=""><input type="checkbox" id="R-section-4645a01812be8a3ded8fdeb88cd9da9d" aria-controls="R-subsections-4645a01812be8a3ded8fdeb88cd9da9d"><label for="R-section-4645a01812be8a3ded8fdeb88cd9da9d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Performance</span></label><a class="padding" href="/cc310/12-performance/"><b>12.  </b>Performance</a><ul id="R-subsections-4645a01812be8a3ded8fdeb88cd9da9d" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/12-performance/1-choosing-the-right-structures/" class=""><a class="padding" href="/cc310/12-performance/1-choosing-the-right-structures/">1. Choosing the Right Structures</a></li>
           <li data-nav-id="/cc310/12-performance/2-data-structure-performance/" class=""><a class="padding" href="/cc310/12-performance/2-data-structure-performance/">2. Data Structure Performance</a></li>
@@ -1489,8 +1489,8 @@ The solution lies in creating our own specialized data structure where each node
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1719688922" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719688922" defer></script>
-    <script src="/cc310/js/theme.js?1719688922" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719695044" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719695044" defer></script>
+    <script src="/cc310/js/theme.js?1719695044" defer></script>
   </body>
 </html>

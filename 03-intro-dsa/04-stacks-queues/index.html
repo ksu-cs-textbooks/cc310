@@ -849,16 +849,16 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
 	
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1061,17 +1061,17 @@ So, what does that mean?">
     <link href="/cc310/03-intro-dsa/04-stacks-queues/index.print.html" rel="alternate" type="text/html" title="Stacks and Queues :: CC 310 Textbook">
     <link href="/cc310/03-intro-dsa/04-stacks-queues/tele.html" rel="alternate" type="text/html" title="Stacks and Queues :: CC 310 Textbook">
     <link href="/cc310/03-intro-dsa/04-stacks-queues/embed.html" rel="alternate" type="text/html" title="Stacks and Queues :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719688920" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719688920" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719688920" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719688920" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719688920" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719688920" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719688920" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719688920" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719688920" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719688920" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719688920" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719688920" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719688920" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719688920"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719695042" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719695042" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719695042" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719695042" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719695042" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719695042" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719695042" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719695042" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719695042" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719695042" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719695042" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719695042" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719695042" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719695042"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1091,7 +1091,7 @@ So, what does that mean?">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719688920" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719695042" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/03-intro-dsa/04-stacks-queues/">
     <div id="R-body" class="default-animation">
@@ -1155,13 +1155,13 @@ So, what does that mean?">
 
 <p>The next two data structures we&rsquo;ll look at are <em>stacks</em> and <em>queues</em>. They are both very similar to lists in most respects, but each one puts a specific limitation on how the data structure operates that make them very useful in certain situations.</p>
 <h2 id="stack">Stack</h2>
-<p><a href="#R-image-a77a44ea82ad45855480e2011e5c301a" class="lightbox-link"><img alt="Stack Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.stack_wiki.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a77a44ea82ad45855480e2011e5c301a"><img alt="Stack Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.stack_wiki.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-cb62f3251319affcf75d8f2dbd4e8221" class="lightbox-link"><img alt="Stack Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.stack_wiki.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cb62f3251319affcf75d8f2dbd4e8221"><img alt="Stack Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.stack_wiki.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>A <em>stack</em> is one special version of a list. Specifically, a stack is a <strong>Last In, First Out</strong> or <strong>LIFO</strong> data structure.</p>
 <p>So, what does that mean? Basically, we can only add elements to the end, or <em>top</em> of the stack. Then, when we want to get an element from the stack, we can only take the one from the top&ndash;the one that was most recently added.</p>
 <p>A great way to think of a stack is like a stack of plates, such as the one pictured below:</p>
-<p><a href="#R-image-373da2292ac0ee3745725c7f5414b321" class="lightbox-link"><img alt="Stack of Plates" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.plates_wiki.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-373da2292ac0ee3745725c7f5414b321"><img alt="Stack of Plates" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.plates_wiki.jpg"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p><a href="#R-image-a849900b9f35d56f02a005c5824c01ad" class="lightbox-link"><img alt="Stack of Plates" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.plates_wiki.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a849900b9f35d56f02a005c5824c01ad"><img alt="Stack of Plates" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.plates_wiki.jpg"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>When we want to add a new plate to the stack, we can just set it on top. Likewise, if we need a plate, we&rsquo;ll just take the top one off and use it.</p>
 <p>A stack supports three major unique operations:</p>
 <ul>
@@ -1171,13 +1171,13 @@ So, what does that mean?">
 </ul>
 <p>Many stacks also include additional operations such as <strong>size</strong> and <strong>find</strong> as well.</p>
 <h2 id="queue">Queue</h2>
-<p><a href="#R-image-78f22b718244e81e45cbc239ae6ad65a" class="lightbox-link"><img alt="Queue Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.queue_wiki.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-78f22b718244e81e45cbc239ae6ad65a"><img alt="Queue Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.queue_wiki.svg"></a><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p><a href="#R-image-d643ea14cd314e540b56f3db8c27b521" class="lightbox-link"><img alt="Queue Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.queue_wiki.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d643ea14cd314e540b56f3db8c27b521"><img alt="Queue Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.queue_wiki.svg"></a><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
 <p>A <em>queue</em> is another special version of a list, this time representing a <strong>First In, First Out</strong> or <strong>FIFO</strong> data structure.</p>
 <p>As seen in the diagram above, new items are added to the <em>back</em> of the queue. But, when we need to take an item from a queue, we&rsquo;ll take the item that is in the <em>front</em>, which is the one that was added first.</p>
 <p>Where have we seen this before? A great example is waiting our turn in line at the train station,</p>
-<p><a href="#R-image-22cd6f445058f23590487709547dede9" class="lightbox-link"><img alt="Waiting in Line" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.line_wiki.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-22cd6f445058f23590487709547dede9"><img alt="Waiting in Line" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.line_wiki.jpg"></a><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p><a href="#R-image-ac7eed9f1e0503ca78a0ed453a6ffc67" class="lightbox-link"><img alt="Waiting in Line" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.line_wiki.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ac7eed9f1e0503ca78a0ed453a6ffc67"><img alt="Waiting in Line" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.line_wiki.jpg"></a><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
 <p>In many parts of the world, the term <em>queueing</em> is commonly used to refer to the act of standing in line. So, it makes perfect sense to use that same word to refer to a data structure.</p>
 <h2 id="when-to-use-a-stack-or-a-queue">When to Use a Stack or a Queue</h2>
 <p>As we can probably guess, we would definitely want to use a stack if we need our data structure to follow the last in, first out, or LIFO ordering. Similarly, we&rsquo;d use a queue if we need first in, first out or FIFO ordering.</p>
@@ -1247,12 +1247,12 @@ So, what does that mean?">
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1719688920" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1719688920" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719688920" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1719688920" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1719688920" defer></script>
-        <script src="/cc310/js/search.js?1719688920" defer></script>
+        <script src="/cc310/js/auto-complete.js?1719695042" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1719695042" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719695042" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1719695042" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1719695042" defer></script>
+        <script src="/cc310/js/search.js?1719695042" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1379,6 +1379,14 @@ So, what does that mean?">
           <li data-nav-id="/cc310/06-search-sort/25-binary-time/" class=""><a class="padding" href="/cc310/06-search-sort/25-binary-time/">25. Binary Search Time Complexity</a></li>
           <li data-nav-id="/cc310/06-search-sort/26-sort-important/" class=""><a class="padding" href="/cc310/06-search-sort/26-sort-important/">26. The Importance of Sorting</a></li>
           <li data-nav-id="/cc310/06-search-sort/27-summary/" class=""><a class="padding" href="/cc310/06-search-sort/27-summary/">27. Searching &amp; Sorting Summary</a></li></ul></li>
+          <li data-nav-id="/cc310/07-hash-tables/" class=""><input type="checkbox" id="R-section-715c0a98509803fdb7584d2d426db3ca" aria-controls="R-subsections-715c0a98509803fdb7584d2d426db3ca"><label for="R-section-715c0a98509803fdb7584d2d426db3ca"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hash Tables</span></label><a class="padding" href="/cc310/07-hash-tables/"><b>7.  </b>Hash Tables</a><ul id="R-subsections-715c0a98509803fdb7584d2d426db3ca" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/07-hash-tables/01-hash-table-intro/" class=""><a class="padding" href="/cc310/07-hash-tables/01-hash-table-intro/">1. What are Hash Tables?</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/02-hash-table-code/" class=""><a class="padding" href="/cc310/07-hash-tables/02-hash-table-code/">2. Hash Tables in Code</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/03-hash-functions/" class=""><a class="padding" href="/cc310/07-hash-tables/03-hash-functions/">3. Hash Functions</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/04-tuples/" class=""><a class="padding" href="/cc310/07-hash-tables/04-tuples/">4. Tuples</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/05-hash-table-operations/" class=""><a class="padding" href="/cc310/07-hash-tables/05-hash-table-operations/">5. Hash Table Operations</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/06-hash-table-sets/" class=""><a class="padding" href="/cc310/07-hash-tables/06-hash-table-sets/">6. Hash Table Based Sets</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/07-summary/" class=""><a class="padding" href="/cc310/07-hash-tables/07-summary/">7. Hash Tables Summary</a></li></ul></li>
           <li data-nav-id="/cc310/10-sets/" class=""><input type="checkbox" id="R-section-63177ba05c2eb183b654d591894dd2f5" aria-controls="R-subsections-63177ba05c2eb183b654d591894dd2f5"><label for="R-section-63177ba05c2eb183b654d591894dd2f5"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Sets</span></label><a class="padding" href="/cc310/10-sets/"><b>10.  </b>Sets</a><ul id="R-subsections-63177ba05c2eb183b654d591894dd2f5" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/10-sets/1-what-are-sets-/" class=""><a class="padding" href="/cc310/10-sets/1-what-are-sets-/">1. What are Sets?</a></li>
           <li data-nav-id="/cc310/10-sets/2-operations-on-sets/" class=""><a class="padding" href="/cc310/10-sets/2-operations-on-sets/">2. Operations on Sets</a></li>
@@ -1386,14 +1394,6 @@ So, what does that mean?">
           <li data-nav-id="/cc310/10-sets/4-set-operations/" class=""><a class="padding" href="/cc310/10-sets/4-set-operations/">4. Set Operations</a></li>
           <li data-nav-id="/cc310/10-sets/5-using-sets/" class=""><a class="padding" href="/cc310/10-sets/5-using-sets/">5. Using Sets</a></li>
           <li data-nav-id="/cc310/10-sets/6-sets-summary/" class=""><a class="padding" href="/cc310/10-sets/6-sets-summary/">6. Sets Summary</a></li></ul></li>
-          <li data-nav-id="/cc310/11-hash-tables/" class=""><input type="checkbox" id="R-section-8d15114a1b5ea550f02010063ebd805e" aria-controls="R-subsections-8d15114a1b5ea550f02010063ebd805e"><label for="R-section-8d15114a1b5ea550f02010063ebd805e"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hash Tables</span></label><a class="padding" href="/cc310/11-hash-tables/"><b>11.  </b>Hash Tables</a><ul id="R-subsections-8d15114a1b5ea550f02010063ebd805e" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/11-hash-tables/1-what-are-hash-tables-/" class=""><a class="padding" href="/cc310/11-hash-tables/1-what-are-hash-tables-/">1. What are Hash Tables?</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/2-hash-tables-in-code/" class=""><a class="padding" href="/cc310/11-hash-tables/2-hash-tables-in-code/">2. Hash Tables in Code</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/3-hash-functions/" class=""><a class="padding" href="/cc310/11-hash-tables/3-hash-functions/">3. Hash Functions</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/4-tuples/" class=""><a class="padding" href="/cc310/11-hash-tables/4-tuples/">4. Tuples</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/5-hash-table-operations/" class=""><a class="padding" href="/cc310/11-hash-tables/5-hash-table-operations/">5. Hash Table Operations</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/6-hash-table-based-sets/" class=""><a class="padding" href="/cc310/11-hash-tables/6-hash-table-based-sets/">6. Hash Table Based Sets</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/7-hash-tables-summary/" class=""><a class="padding" href="/cc310/11-hash-tables/7-hash-tables-summary/">7. Hash Tables Summary</a></li></ul></li>
           <li data-nav-id="/cc310/12-performance/" class=""><input type="checkbox" id="R-section-4645a01812be8a3ded8fdeb88cd9da9d" aria-controls="R-subsections-4645a01812be8a3ded8fdeb88cd9da9d"><label for="R-section-4645a01812be8a3ded8fdeb88cd9da9d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Performance</span></label><a class="padding" href="/cc310/12-performance/"><b>12.  </b>Performance</a><ul id="R-subsections-4645a01812be8a3ded8fdeb88cd9da9d" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/12-performance/1-choosing-the-right-structures/" class=""><a class="padding" href="/cc310/12-performance/1-choosing-the-right-structures/">1. Choosing the Right Structures</a></li>
           <li data-nav-id="/cc310/12-performance/2-data-structure-performance/" class=""><a class="padding" href="/cc310/12-performance/2-data-structure-performance/">2. Data Structure Performance</a></li>
@@ -1474,8 +1474,8 @@ So, what does that mean?">
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1719688920" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719688920" defer></script>
-    <script src="/cc310/js/theme.js?1719688920" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719695042" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719695042" defer></script>
+    <script src="/cc310/js/theme.js?1719695042" defer></script>
   </body>
 </html>

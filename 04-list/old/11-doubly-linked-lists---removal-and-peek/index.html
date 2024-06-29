@@ -849,16 +849,16 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
 	
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1050,17 +1050,17 @@ we simply modify the next pointer in node “-2” to point to node “23”.">
     <meta itemprop="dateModified" content="2024-06-28T15:58:53-05:00">
     <meta itemprop="wordCount" content="788">
     <title>Doubly Linked Lists - Removal and Peek :: CC 310 Textbook</title>
-    <link href="/cc310/css/fontawesome-all.min.css?1719688922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719688922" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719688922" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719688922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719688922" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719688922" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719688922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719688922" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719688922" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719688922" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719688922" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719688922" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719688922" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719688922"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719695044" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719695044" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719695044" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719695044" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719695044" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719695044" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719695044" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719695044" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719695044" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719695044" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719695044" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719695044" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719695044" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719695044"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -1080,7 +1080,7 @@ we simply modify the next pointer in node “-2” to point to node “23”.">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719688922" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719695044" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/04-list/old/11-doubly-linked-lists---removal-and-peek/">
     <div id="R-body" class="default-animation">
@@ -1144,11 +1144,11 @@ we simply modify the next pointer in node “-2” to point to node “23”.">
 <h1 id="doubly-linked-lists---removal-and-peek">Doubly Linked Lists - Removal and Peek</h1>
 
 <p>The process of removing a node from a doubly linked list is really no more difficult than from a singly linked list. The only difference is that instead of changing just one pointer, we now also need to modify the <code>previous</code> pointer in the node following the node we want to remove. For instance, if we want to remove node &ldquo;3&rdquo; from the following list,</p>
-<p><a href="#R-image-88f4392ee6b252b63dfde569b915d200" class="lightbox-link"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.double.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-88f4392ee6b252b63dfde569b915d200"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.double.png"></a></p>
+<p><a href="#R-image-add20eabfb728bce0ba92578d9cc1a30" class="lightbox-link"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.double.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-add20eabfb728bce0ba92578d9cc1a30"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.double.png"></a></p>
 <p>we simply modify the <code>next</code> pointer in node &ldquo;-2&rdquo; to point to node &ldquo;23&rdquo;. Then, we modify the <code>previous</code> pointer in node &ldquo;23&rdquo; to point to node &ldquo;-2&rdquo;. We then return the data in that node to the requesting function.</p>
-<p><a href="#R-image-09ac47d198145664efc384dbfc5dc74b" class="lightbox-link"><img alt="Doubly Linked List Remove" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.12.remove.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-09ac47d198145664efc384dbfc5dc74b"><img alt="Doubly Linked List Remove" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.12.remove.png"></a></p>
+<p><a href="#R-image-a0aec302fde6d5281ab73c25c2401dfb" class="lightbox-link"><img alt="Doubly Linked List Remove" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.12.remove.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a0aec302fde6d5281ab73c25c2401dfb"><img alt="Doubly Linked List Remove" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.12.remove.png"></a></p>
 <h2 id="removing-at-the-beginning">Removing at the Beginning</h2>
 <p>The <code>remove</code> operation removes the first node in the list. First, we check to ensure that there is at least one node in the list in line 1 and raise an exception if there is not. Now, the process is simple. We simply create a temporary pointer <code>temp</code> that points to the node we are going to delete in line 3 and then point <code>head</code> to <code>head.next</code>, which is the second node in the list. Then, in line 5, we check to see if the list is empty (<code>head == null</code>) and set <code>tail</code> to <code>null</code> if it is (it was pointing at the node we just removed). If the list is not empty, we do not need to worry about updating <code>tail</code>; however, we do need to set the <code>previous</code> pointer of the first node in the list to <code>null</code> (it was also pointing at the node we just removed). Finally, we decrement <code>size</code> in line 8 and then return the data in the node we just removed in line 9. Obviously, the operation runs in constant time since there are no loops.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">function remove() returns data
@@ -1252,12 +1252,12 @@ If we have no special conditions, we create a temporary pointer <code>curr</code
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1719688922" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1719688922" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719688922" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1719688922" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1719688922" defer></script>
-        <script src="/cc310/js/search.js?1719688922" defer></script>
+        <script src="/cc310/js/auto-complete.js?1719695044" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1719695044" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1719695044" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1719695044" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1719695044" defer></script>
+        <script src="/cc310/js/search.js?1719695044" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1394,6 +1394,14 @@ If we have no special conditions, we create a temporary pointer <code>curr</code
           <li data-nav-id="/cc310/06-search-sort/25-binary-time/" class=""><a class="padding" href="/cc310/06-search-sort/25-binary-time/">25. Binary Search Time Complexity</a></li>
           <li data-nav-id="/cc310/06-search-sort/26-sort-important/" class=""><a class="padding" href="/cc310/06-search-sort/26-sort-important/">26. The Importance of Sorting</a></li>
           <li data-nav-id="/cc310/06-search-sort/27-summary/" class=""><a class="padding" href="/cc310/06-search-sort/27-summary/">27. Searching &amp; Sorting Summary</a></li></ul></li>
+          <li data-nav-id="/cc310/07-hash-tables/" class=""><input type="checkbox" id="R-section-715c0a98509803fdb7584d2d426db3ca" aria-controls="R-subsections-715c0a98509803fdb7584d2d426db3ca"><label for="R-section-715c0a98509803fdb7584d2d426db3ca"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hash Tables</span></label><a class="padding" href="/cc310/07-hash-tables/"><b>7.  </b>Hash Tables</a><ul id="R-subsections-715c0a98509803fdb7584d2d426db3ca" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/07-hash-tables/01-hash-table-intro/" class=""><a class="padding" href="/cc310/07-hash-tables/01-hash-table-intro/">1. What are Hash Tables?</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/02-hash-table-code/" class=""><a class="padding" href="/cc310/07-hash-tables/02-hash-table-code/">2. Hash Tables in Code</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/03-hash-functions/" class=""><a class="padding" href="/cc310/07-hash-tables/03-hash-functions/">3. Hash Functions</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/04-tuples/" class=""><a class="padding" href="/cc310/07-hash-tables/04-tuples/">4. Tuples</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/05-hash-table-operations/" class=""><a class="padding" href="/cc310/07-hash-tables/05-hash-table-operations/">5. Hash Table Operations</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/06-hash-table-sets/" class=""><a class="padding" href="/cc310/07-hash-tables/06-hash-table-sets/">6. Hash Table Based Sets</a></li>
+          <li data-nav-id="/cc310/07-hash-tables/07-summary/" class=""><a class="padding" href="/cc310/07-hash-tables/07-summary/">7. Hash Tables Summary</a></li></ul></li>
           <li data-nav-id="/cc310/10-sets/" class=""><input type="checkbox" id="R-section-63177ba05c2eb183b654d591894dd2f5" aria-controls="R-subsections-63177ba05c2eb183b654d591894dd2f5"><label for="R-section-63177ba05c2eb183b654d591894dd2f5"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Sets</span></label><a class="padding" href="/cc310/10-sets/"><b>10.  </b>Sets</a><ul id="R-subsections-63177ba05c2eb183b654d591894dd2f5" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/10-sets/1-what-are-sets-/" class=""><a class="padding" href="/cc310/10-sets/1-what-are-sets-/">1. What are Sets?</a></li>
           <li data-nav-id="/cc310/10-sets/2-operations-on-sets/" class=""><a class="padding" href="/cc310/10-sets/2-operations-on-sets/">2. Operations on Sets</a></li>
@@ -1401,14 +1409,6 @@ If we have no special conditions, we create a temporary pointer <code>curr</code
           <li data-nav-id="/cc310/10-sets/4-set-operations/" class=""><a class="padding" href="/cc310/10-sets/4-set-operations/">4. Set Operations</a></li>
           <li data-nav-id="/cc310/10-sets/5-using-sets/" class=""><a class="padding" href="/cc310/10-sets/5-using-sets/">5. Using Sets</a></li>
           <li data-nav-id="/cc310/10-sets/6-sets-summary/" class=""><a class="padding" href="/cc310/10-sets/6-sets-summary/">6. Sets Summary</a></li></ul></li>
-          <li data-nav-id="/cc310/11-hash-tables/" class=""><input type="checkbox" id="R-section-8d15114a1b5ea550f02010063ebd805e" aria-controls="R-subsections-8d15114a1b5ea550f02010063ebd805e"><label for="R-section-8d15114a1b5ea550f02010063ebd805e"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hash Tables</span></label><a class="padding" href="/cc310/11-hash-tables/"><b>11.  </b>Hash Tables</a><ul id="R-subsections-8d15114a1b5ea550f02010063ebd805e" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/11-hash-tables/1-what-are-hash-tables-/" class=""><a class="padding" href="/cc310/11-hash-tables/1-what-are-hash-tables-/">1. What are Hash Tables?</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/2-hash-tables-in-code/" class=""><a class="padding" href="/cc310/11-hash-tables/2-hash-tables-in-code/">2. Hash Tables in Code</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/3-hash-functions/" class=""><a class="padding" href="/cc310/11-hash-tables/3-hash-functions/">3. Hash Functions</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/4-tuples/" class=""><a class="padding" href="/cc310/11-hash-tables/4-tuples/">4. Tuples</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/5-hash-table-operations/" class=""><a class="padding" href="/cc310/11-hash-tables/5-hash-table-operations/">5. Hash Table Operations</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/6-hash-table-based-sets/" class=""><a class="padding" href="/cc310/11-hash-tables/6-hash-table-based-sets/">6. Hash Table Based Sets</a></li>
-          <li data-nav-id="/cc310/11-hash-tables/7-hash-tables-summary/" class=""><a class="padding" href="/cc310/11-hash-tables/7-hash-tables-summary/">7. Hash Tables Summary</a></li></ul></li>
           <li data-nav-id="/cc310/12-performance/" class=""><input type="checkbox" id="R-section-4645a01812be8a3ded8fdeb88cd9da9d" aria-controls="R-subsections-4645a01812be8a3ded8fdeb88cd9da9d"><label for="R-section-4645a01812be8a3ded8fdeb88cd9da9d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Performance</span></label><a class="padding" href="/cc310/12-performance/"><b>12.  </b>Performance</a><ul id="R-subsections-4645a01812be8a3ded8fdeb88cd9da9d" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/12-performance/1-choosing-the-right-structures/" class=""><a class="padding" href="/cc310/12-performance/1-choosing-the-right-structures/">1. Choosing the Right Structures</a></li>
           <li data-nav-id="/cc310/12-performance/2-data-structure-performance/" class=""><a class="padding" href="/cc310/12-performance/2-data-structure-performance/">2. Data Structure Performance</a></li>
@@ -1489,8 +1489,8 @@ If we have no special conditions, we create a temporary pointer <code>curr</code
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1719688922" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719688922" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719695044" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719695044" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1505,7 +1505,7 @@ If we have no special conditions, we create a temporary pointer <code>curr</code
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719688922"></script>
-    <script src="/cc310/js/theme.js?1719688922" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719695044"></script>
+    <script src="/cc310/js/theme.js?1719695044" defer></script>
   </body>
 </html>

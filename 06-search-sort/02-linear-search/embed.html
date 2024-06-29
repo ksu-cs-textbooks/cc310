@@ -849,16 +849,16 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
 	
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1062,19 +1062,19 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
     <link href="/cc310/06-search-sort/02-linear-search/index.print.html" rel="alternate" type="text/html" title="Linear Search :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/02-linear-search/tele.html" rel="alternate" type="text/html" title="Linear Search :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1719688930" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719688930" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1719688930" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1719688930" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719688930" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1719688930" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1719688930" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719688930" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1719688930" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1719695052" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719695052" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1719695052" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1719695052" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719695052" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1719695052" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1719695052" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719695052" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1719695052" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1719688930" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1719688930" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1719688930" rel="stylesheet">
-  <link href="/cc310/css/print.css?1719688930" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1719695052" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1719695052" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1719695052" rel="stylesheet">
+  <link href="/cc310/css/print.css?1719695052" rel="stylesheet" media="print">
   
   
   
@@ -1097,7 +1097,7 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1719688930" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1719695052" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/06-search-sort/02-linear-search/embed.html">
@@ -1127,8 +1127,8 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
 <p>Our search functions then return an index to the number within the array.</p>
 <p>In this module, we will develop a couple of examples of searching an array for a specific number.</p>
 <p>Finding the first occurrence of a number in an unordered array is a fairly straightforward process. A black box depiction of this function is shown below. There are two inputs, <code>array</code> and <code>number</code>, and a single output, the <code>index</code> of the first occurrence of the <code>number</code> in <code>array</code>.</p>
-<p><a href="#R-image-b04c790f923beafa36bd4bce1ef5b1a9" class="lightbox-link"><img alt="Function Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.2.function.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b04c790f923beafa36bd4bce1ef5b1a9"><img alt="Function Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.2.function.png"></a></p>
+<p><a href="#R-image-ead800c07bc5a0cbe473e6cbda751201" class="lightbox-link"><img alt="Function Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.2.function.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ead800c07bc5a0cbe473e6cbda751201"><img alt="Function Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.2.function.png"></a></p>
 <p>We can also include the search function as a method inside of the container itself. In that case, we don’t have to accept the container as a parameter, since the method will know to refer to the object it is part of.</p>
 <p>Of course, when we begin designing an algorithm for our function we should think about two items immediately: the preconditions and the postconditions of the function. For this function, they are fairly simple.</p>
 <p>The precondition for <code>find</code> is that the <code>number</code> provided as input is compatible with the type of data held by the provided <code>array</code>. In this case, we have no real stipulations on <code>array</code>. It does not need to actually have any data in it, nor does it have to be ordered or unordered.</p>
@@ -1156,10 +1156,10 @@ Finding the first occurrence of a number in an unordered array is a fairly strai
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719688930" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719688930" defer></script>
-<script src="/cc310/js/theme.js?1719688930" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719695052" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719695052" defer></script>
+<script src="/cc310/js/theme.js?1719695052" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1719688930" defer></script>
+<script src="/cc310/js/embed-iframe.js?1719695052" defer></script>
 </body>
 </html>

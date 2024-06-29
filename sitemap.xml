@@ -849,16 +849,16 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
 	
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1063,8 +1063,8 @@
     <lastmod>2024-06-29T14:21:25-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/1-what-are-hash-tables-/</loc>
-    <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/01-hash-table-intro/</loc>
+    <lastmod>2024-06-29T16:03:19-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/1-what-are-sets-/</loc>
@@ -1095,8 +1095,8 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/2-hash-tables-in-code/</loc>
-    <lastmod>2024-06-17T14:46:21-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/02-hash-table-code/</loc>
+    <lastmod>2024-06-29T16:03:19-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/06-search-sort/02-linear-search/</loc>
@@ -1127,8 +1127,8 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/3-hash-functions/</loc>
-    <lastmod>2024-06-17T14:46:21-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/03-hash-functions/</loc>
+    <lastmod>2024-06-29T16:03:19-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/05-recursion/03-implementing/</loc>
@@ -1203,8 +1203,8 @@
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/4-tuples/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/04-tuples/</loc>
+    <lastmod>2024-06-29T16:03:19-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/</loc>
@@ -1215,8 +1215,8 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/5-hash-table-operations/</loc>
-    <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/05-hash-table-operations/</loc>
+    <lastmod>2024-06-29T16:03:19-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/05-inheritance/</loc>
@@ -1263,8 +1263,8 @@
     <lastmod>2024-06-29T09:30:52-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/6-hash-table-based-sets/</loc>
-    <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/06-hash-table-sets/</loc>
+    <lastmod>2024-06-29T16:03:19-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/6-hash-tables/</loc>
@@ -1311,8 +1311,12 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/7-hash-tables-summary/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/</loc>
+    <lastmod>2024-06-29T16:03:19-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/07-summary/</loc>
+    <lastmod>2024-06-29T16:03:19-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/06-search-sort/07-linear-time/</loc>
@@ -1425,10 +1429,6 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/10-queue-operations/</loc>
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/11-python-libraries/</loc>

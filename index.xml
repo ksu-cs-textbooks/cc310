@@ -849,16 +849,16 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
 	
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1079,18 +1079,18 @@
       <description>Methods for finding and organizing data!</description>
     </item>
     <item>
+      <title>Hash Tables</title>
+      <link>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/</guid>
+      <description>Maps, Hash Tables, and Dictionaries!</description>
+    </item>
+    <item>
       <title>Sets</title>
       <link>https://textbooks.cs.ksu.edu/cc310/10-sets/</link>
       <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/10-sets/</guid>
       <description>Welcome! This page is the main page for Sets</description>
-    </item>
-    <item>
-      <title>Hash Tables</title>
-      <link>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/</link>
-      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc310/11-hash-tables/</guid>
-      <description>Welcome! This page is the main page for Hash Tables</description>
     </item>
     <item>
       <title>Performance</title>

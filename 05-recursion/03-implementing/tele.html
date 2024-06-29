@@ -849,16 +849,16 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
 	
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1049,17 +1049,17 @@
     <link href="/cc310/05-recursion/03-implementing/index.xml" rel="alternate" type="application/rss+xml" title="Implementing Recursion :: CC 310 Textbook">
     <link href="/cc310/05-recursion/03-implementing/index.print.html" rel="alternate" type="text/html" title="Implementing Recursion :: CC 310 Textbook">
     <link href="/cc310/05-recursion/03-implementing/embed.html" rel="alternate" type="text/html" title="Implementing Recursion :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719688938" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719688938" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719688938" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719688938" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719688938" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719688938" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719688938" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719688938" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719688938" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719688938" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719688938" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719688938" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719688938" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719688938"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719695060" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719695060" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719695060" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719695060" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719695060" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719695060" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719695060" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719695060" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719695060" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719695060" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719695060" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719695060" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719695060" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719695060"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1079,7 +1079,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719688938" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719695060" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc310/05-recursion/03-implementing/">
     
@@ -1172,8 +1172,8 @@ Returning from OUTPUT 2     (i)
 </span></span><span class="line"><span class="ln">13</span><span class="cl">    <span class="k">return</span>
 </span></span><span class="line"><span class="ln">14</span><span class="cl"><span class="n">end</span> <span class="n">function</span></span></span></code></pre></div>
 <p>When we run <code>MAIN</code>, the only record on the activation stack is the record for <code>MAIN</code>. Since it has not been &ldquo;called&rdquo; from another function, it does not contain a return address. It also has no local variables, so the record is basically empty as shown below.</p>
-<p><a href="#R-image-70343dce3fc38b83bfd7b18c0f95ef49" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-70343dce3fc38b83bfd7b18c0f95ef49"><img alt="Main Activation Record" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png"></a></p>
+<p><a href="#R-image-24b882d11f1bd52a27d27dc9e657fa15" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-24b882d11f1bd52a27d27dc9e657fa15"><img alt="Main Activation Record" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png"></a></p>
 <p>However, when we execute line 2 in <code>MAIN</code>, we call the function <code>OUTPUT</code> with a parameter of <code>3</code>. This causes the creation of a new function activation record with the return address of line 3 in the calling <code>MAIN</code> function and a parameter for <code>N</code>, which is <code>3</code>. Again, there are no local variables in <code>OUTPUT</code>. The stack activation is shown in figure <strong>a</strong> below.</p>
 <table>
 <thead>
@@ -1186,14 +1186,14 @@ Returning from OUTPUT 2     (i)
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><a href="#R-image-fb601bdc60e42b392e8e8149358333ba" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fb601bdc60e42b392e8e8149358333ba"><img alt="Activation Stack 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png"></a></td>
-<td style="text-align:center"><a href="#R-image-3fe3b476d7771c9cc7a998284614d4eb" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3fe3b476d7771c9cc7a998284614d4eb"><img alt="Activation Stack 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png"></a></td>
-<td style="text-align:center"><a href="#R-image-2fecc9e8b615c468ef506eb536e6810c" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2fecc9e8b615c468ef506eb536e6810c"><img alt="Activation Stack 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png"></a></td>
-<td style="text-align:center"><a href="#R-image-a5e42b3fb3df2d6803b7866caf70782a" class="lightbox-link"><img alt="Activation Stack 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a5e42b3fb3df2d6803b7866caf70782a"><img alt="Activation Stack 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack4.png"></a></td>
+<td style="text-align:center"><a href="#R-image-33b483e0565be225742aff7de80e10c2" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-33b483e0565be225742aff7de80e10c2"><img alt="Activation Stack 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png"></a></td>
+<td style="text-align:center"><a href="#R-image-f6cdd4bb398c852909c99920a67c1de7" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f6cdd4bb398c852909c99920a67c1de7"><img alt="Activation Stack 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png"></a></td>
+<td style="text-align:center"><a href="#R-image-2b679a0399562441044b37b51c59295a" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2b679a0399562441044b37b51c59295a"><img alt="Activation Stack 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png"></a></td>
+<td style="text-align:center"><a href="#R-image-9dcc61583ea7ed2bdb2d5c8cb8c7f095" class="lightbox-link"><img alt="Activation Stack 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9dcc61583ea7ed2bdb2d5c8cb8c7f095"><img alt="Activation Stack 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack4.png"></a></td>
 </tr>
 </tbody>
 </table>
@@ -1211,14 +1211,14 @@ Returning from OUTPUT 2     (i)
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><a href="#R-image-640ba0dfb1b8154db01e59e78d8d2dd8" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-640ba0dfb1b8154db01e59e78d8d2dd8"><img alt="Activation Stack 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png"></a></td>
-<td style="text-align:center"><a href="#R-image-42c6629989a66801e9da578bd356f7a8" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-42c6629989a66801e9da578bd356f7a8"><img alt="Activation Stack 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png"></a></td>
-<td style="text-align:center"><a href="#R-image-08f1f2f6951916ed419868e1849a1786" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-08f1f2f6951916ed419868e1849a1786"><img alt="Activation Stack 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png"></a></td>
-<td style="text-align:center"><a href="#R-image-4304bf12c2d1bb390dd667b9713489bf" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4304bf12c2d1bb390dd667b9713489bf"><img alt="Main Activation Record" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png"></a></td>
+<td style="text-align:center"><a href="#R-image-cabc7313065eba3a0c267507bec60ef1" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cabc7313065eba3a0c267507bec60ef1"><img alt="Activation Stack 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack3.png"></a></td>
+<td style="text-align:center"><a href="#R-image-532d414a66ec54f61d6fe9f6dbf15c8f" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-532d414a66ec54f61d6fe9f6dbf15c8f"><img alt="Activation Stack 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack2.png"></a></td>
+<td style="text-align:center"><a href="#R-image-5d9ec631758d03944ff68f5c4533004c" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5d9ec631758d03944ff68f5c4533004c"><img alt="Activation Stack 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.stack1.png"></a></td>
+<td style="text-align:center"><a href="#R-image-2224e8d2d20be2ac4dabc96a906e6a89" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2224e8d2d20be2ac4dabc96a906e6a89"><img alt="Main Activation Record" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.4.mainstack.png"></a></td>
 </tr>
 </tbody>
 </table>
@@ -1244,8 +1244,8 @@ Returning from OUTPUT 2     (i)
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719688938" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719688938" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719695060" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719695060" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1260,10 +1260,10 @@ Returning from OUTPUT 2     (i)
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719688938"></script>
-<script src="/cc310/js/theme.js?1719688938" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719695060"></script>
+<script src="/cc310/js/theme.js?1719695060" defer></script>
 
-<script src="/cc310/js/tele-scroll.js?1719688938" defer></script>
+<script src="/cc310/js/tele-scroll.js?1719695060" defer></script>
 
 </body>
 </html>
