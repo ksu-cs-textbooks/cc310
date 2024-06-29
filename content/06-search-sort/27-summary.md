@@ -1,5 +1,5 @@
 ---
-title: "Searching and Sorting Summary"
+title: "Searching & Sorting Summary"
 weight: 135
 pre: "27. "
 ---

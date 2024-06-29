@@ -51,16 +51,16 @@ end function
 Notice that we have added some extra `print` statements (lines 5 and 7) to the function just to help us keep track of when we have called `OUTPUT` and when that call has returned. This function is very similar to the `REVERSE` function above, we just don't have to worry about reading a character each time the function runs. Now, if we call `OUTPUT` with an initial parameter of `3`, we get the following output. We've also marked these lines with letters to make the following discussion simpler.
 
 ```
-Calling to OUTPUT 2			(a)
-Calling to OUTPUT 1			(b)
-Calling to OUTPUT 0			(c)
-0					        (d)
-Returning from OUTPUT 0		(e)
-1					        (f)
-Returning from OUTPUT 1		(g)
-2					        (h)
-Returning from OUTPUT 2		(i)
-3					        (j)
+Calling to OUTPUT 2         (a)
+Calling to OUTPUT 1         (b)
+Calling to OUTPUT 0         (c)
+0                           (d)
+Returning from OUTPUT 0     (e)
+1                           (f)
+Returning from OUTPUT 1     (g)
+2                           (h)
+Returning from OUTPUT 2     (i)
+3                           (j)
 ```
 
 Lines a, b, and c show how the function makes all the recursive calls before any output or computation is performed. Thus, this is an example of head recursion which produces a LIFO ordering.

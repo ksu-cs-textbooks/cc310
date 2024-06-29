@@ -4,6 +4,7 @@ weight: 70
 pre: "14. "
 disableMathJax: false
 ---
+
 Once again, let's look at the time complexity of the bubble sort algorithm and see how it compares to selection sort. 
 
 Bubble sort is a bit trickier to analyze than selection sort, because there are really two parts to the algorithm:

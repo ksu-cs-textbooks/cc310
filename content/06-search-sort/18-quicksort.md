@@ -3,6 +3,7 @@ title: "Quicksort"
 weight: 90
 pre: "18. "
 ---
+
 {{< youtube 8_jc6gP0RXY  >}}
 
 The last sorting algorithm we will review in this module is quicksort. Quicksort is another example of a recursive, divide and conquer sorting algorithm, and at first glance it may look very similar to merge sort. However, quicksort uses a different process for dividing the array, and that can produce some very interesting results. 
@@ -21,7 +22,9 @@ The basic idea of quicksort is as follows:
 
 As with all of the other examples we've looked at in this module, Wikipedia provides yet another excellent animation showing this process.
 
-![Quicksort GIF](/images/7/7.18.quicksort.gif)^[File:Sorting quicksort anim.gif. (2019, July 30). Wikimedia Commons, the free media repository. Retrieved 01:14, March 24, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Sorting_quicksort_anim.gif&oldid=359998181.]
+![Quicksort GIF](/images/7/7.18.quicksort.gif)[^1]
+
+[^1]: File:Sorting quicksort anim.gif. (2019, July 30). Wikimedia Commons, the free media repository. Retrieved 01:14, March 24, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Sorting_quicksort_anim.gif&oldid=359998181.
 
 ## Quicksort Example
 Let's look at an example of the quicksort algorithm in action to see how it works. Unlike the other sorting algorithms we've seen, this one may appear to be just randomly swapping elements around at first glance. However, as we move through the example, we should start to see how it achieves a sorted result, usually very quickly!

@@ -2,7 +2,9 @@
 title: "The Importance of Sorting"
 weight: 130
 pre: "26. "
+disableMathJax: false
 ---
+
 {{< youtube 09ziwYSD1vc  >}}
 
 Let's go back and look at the performance of our sorting algorithms, now that we know how quickly binary search can find a particular value in an array. Let's add the function $\text{lg}(N)$ to our graph from earlier, shown below.
@@ -23,9 +25,7 @@ As we can see, it is more efficient to perform a merge sort, which runs in $N * 
 
 In fact, this analysis suggests that it may only take as few as 7 searches to see this benefit, even on smaller data sets. So, if we are writing a program that needs to search for a specific value in an array more than about 7 times, it is probably a good idea to sort the array before doing our searches, at least from a performance standpoint.
 
-{{% notice tip %}}
-
-# Faster Sorting
+{{% notice tip "Faster Sorting" %}}
 
 So far we've looked at sorting algorithms that run in $N * \text{lg}(N)$ time. However, what if we try to sort the data as we add it to the array? In a later course, we'll learn how we can use an advanced data structure known as a _heap_ to create a sorted array in nearly linear time (with some important caveats, of course)!
 

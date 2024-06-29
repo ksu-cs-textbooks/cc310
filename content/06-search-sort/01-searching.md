@@ -3,6 +3,7 @@ title: "Searching"
 weight: 5
 pre: "1. "
 ---
+
 In this course, we are learning about many different ways we can store data in our programs, using arrays, queues, stacks, lists, maps, and more. We've already covered a few of these data structures, and we'll learn about the others in upcoming modules. Before we get there, we should also look at a couple of the most important operations we can perform on those data structures. 
 
 Consider the classic example of a data structure containing information about students in a school. In the simplest case, we could use an array to store objects created from a `Student` class, each one representing a single student in the school. 

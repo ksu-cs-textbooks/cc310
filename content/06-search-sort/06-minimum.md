@@ -3,6 +3,7 @@ title: "Searching for a Minimum"
 weight: 30
 pre: "6. "
 ---
+
 We may also want to search through a data structure to find an item with a specific property. For example, we could search for the student with the maximum age, or the minimum GPA. For this example, let's consider the case where we'd like to find the minimum value in an array of integers.
 
 Searching for the minimum number in an unordered array is a different problem than searching for a specific number. First of all, we do not know what number we are searching for. And, since the array is not ordered, we will have to check each and every number in the array. 
@@ -24,20 +25,20 @@ Our postcondition is that we return the minimum number of the data in the array,
 
 The function `findMin` is shown below. First, we check to see if the array is empty. If it is, we simply return `-1` in line 3. If not, we assume the location `0` contains the minimum number in the array, and set `min` equal to 0 in line 5. Then we loop through each location in the array (starting with 1) in line 6 and set `min` equal to the minimum of the array data at the current `index`  and the data at `min`. (Note: if the array only has a single number in it, the for loop will not actually execute since `index` will be initialized to 1, which is already larger than the size of the `array – 1`, which is 0.) Once we complete the loop, we will be guaranteed that we have the index of the minimum number in the array. 
 
-```tex
-function FINDMIN(ARRAY) 						(1)
-    if ARRAY is empty then						(2)
-        return -1								(3)
-    end if									    (4)
-    MIN = 0									    (5)
-    loop INDEX from 1 to size of ARRAY - 1	    (6)
-        if ARRAY[INDEX] < ARRAY[MIN] 			(7)
-            MIN = INDEX							(8)
-        end if								    (9)
-    end for									    (10)
-    return MIN								    (11)
-end function									(12)
-```
+{{< highlight lineNos="true" lineNoStart="1" type="py" >}}
+function FINDMIN(ARRAY)
+    if ARRAY is empty then
+        return -1
+    end if
+    MIN = 0
+    loop INDEX from 1 to size of ARRAY - 1
+        if ARRAY[INDEX] < ARRAY[MIN]
+            MIN = INDEX
+        end if
+    end for
+    return MIN
+end function
+{{< /highlight >}}
 
 Next, we will walk through the algorithm using our example array in the figure below. Step 1 shows the initial time through the loop. In line 5, `min` is set to `0` by default and in line 6, `index` is set equal to `1`. Line 7 then computes whether `array[1] < array[0]`. In this case, it is and we set `min = 1` (which is reflected in the next step where `min` has the value `1`). 
 

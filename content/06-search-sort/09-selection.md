@@ -3,13 +3,16 @@ title: "Selection Sort"
 weight: 45
 pre: "9. "
 ---
+
 {{< youtube 76NNveliJQM  >}}
 
 The first sorting algorithm we'll learn about is _selection sort_. The basic idea behind selection sort is to search for the minimum value in the whole container, and place it in the first index. Then, repeat the process for the second smallest value and the second index, and so on until the container is sorted. 
 
 Wikipedia includes a great animation that shows this process:
 
-![Selection Sort GIF](/images/7/7.9.selection.gif)^[File:Selection-Sort-Animation.gif. (2016, February 12). Wikimedia Commons, the free media repository. Retrieved 22:22, March 23, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Selection-Sort-Animation.gif&oldid=187411773.]
+![Selection Sort GIF](/images/7/7.9.selection.gif)[^1]
+
+[^1]: File:Selection-Sort-Animation.gif. (2016, February 12). Wikimedia Commons, the free media repository. Retrieved 22:22, March 23, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Selection-Sort-Animation.gif&oldid=187411773.
 
 In this animation, the element highlighted in blue is the element currently being considered. The red element shows the value that is the minimum value considered, and the yellow elements are the sorted portion of the list.
 

@@ -3,6 +3,7 @@ title: "Merge Sort"
 weight: 75
 pre: "15. "
 ---
+
 {{< youtube MCBt3y_R_Co  >}}
 
 Another commonly used sorting algorithm is _merge sort_. Merge sort uses a recursive, divide and conquer approach to sorting, which makes it very powerful. It was actually developed to handle sorting data sets that were so large that they couldn't fit on a single memory device, way back in the early days of computing. 
@@ -15,7 +16,9 @@ The basic idea of the merge sort algorithm is as follows:
 
 Once again, Wikipedia has a great animation showing this process:
 
-![Merge Sort GIF](/images/7/7.15.merge.gif)^[File:Merge-sort-example-300px.gif. (2020, February 22). Wikimedia Commons, the free media repository. Retrieved 00:06, March 24, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Merge-sort-example-300px.gif&oldid=397192885.]
+![Merge Sort GIF](/images/7/7.15.merge.gif)[^1]
+
+[^1]: File:Merge-sort-example-300px.gif. (2020, February 22). Wikimedia Commons, the free media repository. Retrieved 00:06, March 24, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Merge-sort-example-300px.gif&oldid=397192885.
 
 ## Merge Sort Example
 

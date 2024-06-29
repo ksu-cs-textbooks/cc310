@@ -2,7 +2,9 @@
 title: "Performance of Sorting Algorithms"
 weight: 105
 pre: "21. "
+disableMathJax: false
 ---
+
 We introduced four sorting algorithms in this chapter: selection sort, bubble sort, merge sort, and quicksort. In addition, we performed a basic analysis of the time complexity of each algorithm. In this section, we'll revisit that topic and compare sorting algorithms based on their performance, helping us understand what algorithm to choose based on the situation.
 
 ## Overall Comparison

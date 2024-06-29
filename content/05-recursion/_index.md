@@ -1,9 +1,8 @@
 +++
 title = "Recursion"
-date = 2021-08-17
-weight = 30
+weight = 25
 chapter = true
-pre = "<b>6.  </b>"
+pre = "<b>5.  </b>"
 +++
-### Welcome!
-This page is the main page for Recursion
+
+def: recursion (noun) - see _recursion_

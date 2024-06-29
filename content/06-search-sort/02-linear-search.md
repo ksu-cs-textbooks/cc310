@@ -3,6 +3,7 @@ title: "Linear Search"
 weight: 10
 pre: "2. "
 ---
+
 {{< youtube -V75q4CnlXw  >}}
 
 When searching for a number in an unordered array, our search algorithms are typically designed as functions that take two parameters:
@@ -14,7 +15,7 @@ Our search functions then return an index to the number within the array.
 
 In this module, we will develop a couple of examples of searching an array for a specific number. 
 
-Finding the first occurrence of a number in an unordered array is a fairly straightforward process. A black box depiction of this function is shown below. There are two inputs--`array` and `number`--and a single output, the `index` of the first occurrence of the `number` in `array`. 
+Finding the first occurrence of a number in an unordered array is a fairly straightforward process. A black box depiction of this function is shown below. There are two inputs, `array` and `number`, and a single output, the `index` of the first occurrence of the `number` in `array`. 
 
 ![Function Diagram](/images/7/7.2.function.png)
  

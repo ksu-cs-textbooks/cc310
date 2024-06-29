@@ -3,14 +3,17 @@ title: "Bubble Sort"
 weight: 60
 pre: "12. "
 ---
+
 {{< youtube IyyfpADUpaU  >}}
 
 Next, let's look at another sorting algorithm, bubble sort. The basic idea behind bubble sort is to continuously iterate through the array and swap adjacent elements that are out of order. As a side effect of this process, the largest element in the array will be "bubbled" to the end of the array after the first iteration. Subsequent iterations will do the same for each of the next largest elements, until eventually the entire list is sorted.  
 
 Wikipedia includes a great animation that shows this process:
 
-![Bubble Sort GIF](/images/7/7.12.bubble.gif)^[File:Bubble-sort-example-300px.gif. (2019, June 12). Wikimedia Commons, the free media repository. Retrieved 22:36, March 23, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Bubble-sort-example-300px.gif&oldid=354097364.
-]
+![Bubble Sort GIF](/images/7/7.12.bubble.gif)[^1]
+
+[^1]: File:Bubble-sort-example-300px.gif. (2019, June 12). Wikimedia Commons, the free media repository. Retrieved 22:36, March 23, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Bubble-sort-example-300px.gif&oldid=354097364.
+
 In this animation, the two red boxes slowly move through the array, comparing adjacent elements. If the elements are not in the correct order (that is, the first element is larger than the second element), then it will swap them. Once it reaches the end, the largest element, 8, will be placed at the end and locked in place. 
 
 ## Bubble Sort Example

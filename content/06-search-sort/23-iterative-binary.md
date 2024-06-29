@@ -3,27 +3,28 @@ title: "Iterative Binary Search"
 weight: 115
 pre: "23. "
 ---
+
 The binary search algorithm is easily implemented in both an iterative and recursive function. We'll look at both versions and see how they compare.
 
 The pseudocode for an iterative version of binary search is shown below.
 
-```tex
-function BINARYSEARCH(ARRAY, VALUE)			    (1)
-    START = 0						            (2)
-    END = size of ARRAY - 1				        (3)
-    loop while START <= END				        (4)
-        MIDDLE = INT((START + END) / 2)		    (5)
-        if ARRAY[MIDDLE] == VALUE then			(6)
-            return MIDDLE					    (7)
-        else if ARRAY[MIDDLE] > VALUE then		(8)
-            END = MIDDLE – 1				    (9)
-        else if ARRAY[MIDDLE] < VALUE then		(10)
-            START = MIDDLE + 1				    (11)
-        end if						            (12)
-    end loop							        (13)
-    return -1						            (14)
-end function							        (15)
-```
+{{< highlight lineNos="true" lineNoStart="1" type="py" >}}
+function BINARYSEARCH(ARRAY, VALUE)
+    START = 0
+    END = size of ARRAY - 1
+    loop while START <= END
+        MIDDLE = INT((START + END) / 2)
+        if ARRAY[MIDDLE] == VALUE then
+            return MIDDLE
+        else if ARRAY[MIDDLE] > VALUE then
+            END = MIDDLE – 1
+        else if ARRAY[MIDDLE] < VALUE then
+            START = MIDDLE + 1
+        end if
+    end loop
+    return -1
+end function
+{{< /highlight >}}
 
 This function starts by setting the initial values of `start` and `end` on lines 2 and 3 to the first and last indexes in the array, respectively. Then, the loop starting on line 4 will repeat while the `start` index is less than or equal to the `end` index. If we reach an instance where `start` is greater than `end`, then we have searched the entire array and haven't found our desired value. At that point the loop will end and we will return -1 on line 14.
 

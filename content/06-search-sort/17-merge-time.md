@@ -4,6 +4,7 @@ weight: 85
 pre: "17. "
 disableMathJax: false
 ---
+
 Now that we've reviewed the pseudocode for the merge sort algorithm, let's see if we can analyze the time it takes to complete. Analyzing a recursive algorithm requires quite a bit of math and understanding to do it properly, but we can get a pretty close answer using a bit of intuition about what it does. 
 
 For starters, let's consider a diagram that shows all of the different recursive calls made by merge sort, as shown below. 
@@ -23,9 +24,8 @@ What about the merge operation? How many steps does that take? This is a bit tri
 A better way to phrase that question might be "how many times can we recursively divide an array of $N$ elements in half?" As it turns out, the answer to that question lies in the use of the logarithm. 
 
 
-{{% notice info %}}
+{{% notice info "Logarithm" %}}
 
-# Logarithm
 The logarithm is the inverse of exponentiation. For example, we could have the exponentiation formula:
 
 $$

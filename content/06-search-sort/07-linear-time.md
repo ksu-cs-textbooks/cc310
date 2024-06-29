@@ -2,21 +2,23 @@
 title: "Linear Search Time Complexity"
 weight: 35
 pre: "7. "
+disableMathJax: false
 ---
+
 We've examined many different versions of a linear search algorithm. We can find the first occurrence of a number in an array, the last occurrence of that number, or a value with a particular property, such as the minimum value. Each of these are examples of a linear search, since we look at each element in the container sequentially until we find what we are looking for.
 
 So, what would be the time complexity of this process? To understand that, we must consider what the worst-case input would be. For this discussion, we'll just look at the `find` function, but the results are similar for many other forms of linear search. The pseudocode for `find` is included below for reference.
 
-```tex
-function FIND(NUMBER, ARRAY)						(1)
-    loop INDEX from 0 to size of ARRAY - 1 			(2)
-        if ARRAY[INDEX] == NUMBER					(3)
-            return INDEX							(4)
-        end if								        (5)
-    end for									        (6)
-    return -1								        (7)
-end function									    (8)
-```
+{{< highlight lineNos="true" lineNoStart="1" type="py" >}}
+function FIND(NUMBER, ARRAY)
+    loop INDEX from 0 to size of ARRAY - 1
+        if ARRAY[INDEX] == NUMBER
+            return INDEX
+        end if
+    end for
+    return -1
+end function
+{{< /highlight >}}
 
 How would we determine what the worst-case input for this function would be? In this case, we want to come up with the input that would require the most steps to find the answer, regardless of the size of the container. Obviously, it would take more steps to find a value in a larger container, but that doesn't really tell us what the worst-case input would be. 
 
@@ -40,13 +42,17 @@ We could say that in the worst-case, a linear search algorithm requires "on the 
 
 Our question now becomes, "Is a search that takes on the order of $N$ time really all that bad?". Actually, it depends. Obviously, if $N$ is a small number (less than 1000 or so) it may not be a big deal, if you only do a single search. However, what if we need to do many searches? Is there something we can do to make the process of searching for elements even easier? 
 
-![Stack of Files](/images/7/7.7.files.png)^[File:FileStack retouched.jpg. (2019, January 17). Wikimedia Commons, the free media repository. Retrieved 22:12, March 23, 2020 from https://commons.wikimedia.org/w/index.php?title=File:FileStack_retouched.jpg&oldid=335159723.]
+![Stack of Files](/images/7/7.7.files.png)[^1]
+
+[^1]: File:FileStack retouched.jpg. (2019, January 17). Wikimedia Commons, the free media repository. Retrieved 22:12, March 23, 2020 from https://commons.wikimedia.org/w/index.php?title=File:FileStack_retouched.jpg&oldid=335159723.
 
 Let's consider the real world once again for some insights. For example, think of a pile of loose papers on the floor. If we wanted to find a specific paper, how would we do it?
 
 In most cases, we would simply have to perform a linear search, picking up each paper one at a time and seeing if it is the one we need. This is pretty inefficient, especially if the pile of papers is large.
 
-![File Cabinet](/images/7/7.7.cabinet.png)^[File:Istituto agronomico per l'oltremare, int., biblioteca, schedario 05.JPG. (2016, May 1). Wikimedia Commons, the free media repository. Retrieved 22:11, March 23, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Istituto_agronomico_per_l%27oltremare,_int.,_biblioteca,_schedario_05.JPG&oldid=194959053.]
+![File Cabinet](/images/7/7.7.cabinet.png)[^2]
+
+[^2]: File:Istituto agronomico per l'oltremare, int., biblioteca, schedario 05.JPG. (2016, May 1). Wikimedia Commons, the free media repository. Retrieved 22:11, March 23, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Istituto_agronomico_per_l%27oltremare,_int.,_biblioteca,_schedario_05.JPG&oldid=194959053.
 
 What if we stored the papers in a filing cabinet and organized them somehow? For example, could we sort the papers by title in alphabetical order? Then, when we want to find a particular paper, we can just skip to the section that contains files with the desired first letter and go from there. In fact, we could even do this for the second and third letter, continuing to jump forward in the filing cabinet until we found the paper we need.
 

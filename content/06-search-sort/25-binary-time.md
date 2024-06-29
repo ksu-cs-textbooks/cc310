@@ -2,7 +2,9 @@
 title: "Binary Search Time Complexity"
 weight: 125
 pre: "25. "
+disableMathJax: false
 ---
+
 Analyzing the time complexity of binary search is similar to the analysis done with merge sort. In essence, we must determine how many times it must check the middle element of the array. 
 
 In the worst case, it will continue to do this until it has determined that the `value` is not present in the array at all. Any time that our array doesn't contain our desired value would be our worst-case input. 

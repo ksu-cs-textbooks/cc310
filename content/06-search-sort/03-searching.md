@@ -3,18 +3,19 @@ title: "Searching for a Value"
 weight: 15
 pre: "3. "
 ---
+
 To search for a single number in our array, we will use a loop to search each location in the array until we find the number. The general idea is to iterate over all the elements in the array until we either find the number we are searching for or there are no other elements in the array.
 
-```tex
-function FIND(NUMBER, ARRAY)						(1)
-    loop INDEX from 0 to size of ARRAY - 1 			(2)
-        if ARRAY[INDEX] == NUMBER					(3)
-            return INDEX							(4)
-        end if								        (5)
-    end for									        (6)
-    return -1								        (7)
-end function									    (8)
-```
+{{< highlight lineNos="true" lineNoStart="1" type="py" >}}
+function FIND(NUMBER, ARRAY)
+    loop INDEX from 0 to size of ARRAY - 1
+        if ARRAY[INDEX] == NUMBER
+            return INDEX
+        end if
+    end for
+    return -1
+end function
+{{< /highlight >}}
 
 As we can see in line 1, the function takes both a `number` and `array` parameter. We then enter a `for` loop in line 2 to loop through each location in the array. We keep track of the current location in the array using the `index` variable. For each location, we compare `number` against the value in the `array` at location `index`. If we find the number, we simply return the value of `index` in line 4.  If we do not find the number anywhere in the array, the loop will exit, and the function will return `-1` in line 8.
 

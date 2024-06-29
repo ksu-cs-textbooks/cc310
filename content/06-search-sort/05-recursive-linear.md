@@ -3,21 +3,22 @@ title: "Recursive Linear Search"
 weight: 25
 pre: "5. "
 ---
+
 We looked at an iterative version of the `find` function above. But what would it take to turn that function into a recursive function? While for this particular function, there is not a lot to be gained from the recursive version, it is still instructive to see how we would do it. We will find recursive functions more useful later on in the module.
 
 In this case, to implement a recursive version of the function, we need to add a third parameter, `index`, to tell us where to check in the array. We assume that at the beginning of a search, `index` begins at 0. Then, if `number` is not in location `index` in the `array`, `index` will be incremented before making another recursive call. Of course, if `number` is in location `index`, we will return the number of `index`. The pseudocode for the `findR` function is shown below.
 
-```tex
-function FINDR (NUMBER, ARRAY, INDEX) 		       (1)
-    if INDEX >= size of ARRAY then				   (2)
-        return -1								   (3)
-    else if ARRAY[INDEX] == NUMBER				   (4)
-        return INDEX							   (5)
-    else									       (6)
-        return FINDR (NUMBER, ARRAY, INDEX + 1)	   (7)
-    end if									       (8)
-end function									   (9)
-```
+{{< highlight lineNos="true" lineNoStart="1" type="py" >}}
+function FINDR (NUMBER, ARRAY, INDEX)
+    if INDEX >= size of ARRAY then
+        return -1
+    else if ARRAY[INDEX] == NUMBER
+        return INDEX
+    else
+        return FINDR (NUMBER, ARRAY, INDEX + 1)
+    end if
+end function
+{{< /highlight >}}
 
 First, we check to see if `index` has moved beyond the bounds of the array, which would indicate that we have searched all the locations in `array` for `number`. If that is the case, then we return `-1` in line 3 indicating that we did not find `number` in `array`. Next, we check to see if `number` is found in `array[index]` in line 4. If it is, the we are successful and return the index. However, if we are not finished searching and we have not found `number`, then we recursively call `findR` and increment `index` by 1 to search the next location.
 

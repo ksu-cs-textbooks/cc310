@@ -4,6 +4,7 @@ weight: 110
 pre: "22. "
 disableMathJax: false
 ---
+
 {{< youtube D64RE4R2keI  >}}
 
 Now that we've learned how to sort the data in our container, let's go back and revisit the concept of searching once again. Does our approach change when we know the data has been sorted?
