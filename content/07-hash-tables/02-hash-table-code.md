@@ -2,7 +2,9 @@
 title: "Hash Tables in Code"
 weight: 10
 pre: "2. "
+disableMathJax: false
 ---
+
 As stated previously, a hash table has three main components: an array, a hash function, and a set of buckets that store key-value pairs. We discuss the implementation of these below.
 
 ## Array

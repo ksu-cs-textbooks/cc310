@@ -3,6 +3,7 @@ title: "Hash Tables Summary"
 weight: 35
 pre: "7. "
 ---
+
 In this module, we introduced the concept of a hash table, which is a data structure that provides efficient insertion and retrieval operations. We introduced the three essential elements of hash tables:
 
 1. An array that holds buckets where key-value pairs are stored,

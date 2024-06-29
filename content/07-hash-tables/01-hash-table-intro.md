@@ -3,6 +3,7 @@ title: "What are Hash Tables?"
 weight: 5
 pre: "1. "
 ---
+
 {{< youtube 2o6LDaTDdt4  >}}
 
 A hash table is an unordered collection of key-value pairs, where each key is unique. The great thing about hash tables is that they provide efficient insertion, removal and lookup operations that arrays and linked lists cannot match, such as: 

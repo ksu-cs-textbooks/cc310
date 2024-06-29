@@ -3,6 +3,7 @@ title: "Hash Functions"
 weight: 15
 pre: "3. "
 ---
+
 A _hash function_ converts a key into a hash code, which is an integer value that can be used to index our hash table array.  Obviously, there are some hash functions that are better than others. Specifically, a good hash function is both easy to compute and should uniformly distribute the keys across our hash table array. Both of these are important factors in how fast our hash table operates, since we compute a hash code each time we insert or get a key-value pair from the hash table. If it takes too long to compute the hash code, we lose the benefits of having constant time insertion and retrieval operations. Likewise, if the function does not distribute the keys evenly across the table, we end up with several keys in the same bucket, which causes longer times to retrieve key-value pairs.
 
 A good hash function should have three important properties.
@@ -26,9 +27,7 @@ def compute_index(self, key):
     return hash(key) % self.capacity
 ```
 
-{{% notice tip %}}
-
-# Hashing Passwords
+{{% notice tip "Hashing Passwords" %}}
 
 Another interesting use of hash functions deals with storing and verifying passwords. When we sign up for an account on a website, it asks us for a password that we'd like to use. Obviously, if that website just stored the password directly in their database, it could be a huge security problem if someone was able to gain access to that information. So, how can the website store a password in a way that prevents a hacker from learning our password, but the website can verify that we've entered the correct password?
 

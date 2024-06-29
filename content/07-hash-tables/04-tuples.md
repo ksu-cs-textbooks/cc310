@@ -3,6 +3,7 @@ title: "Tuples"
 weight: 20
 pre: "4. "
 ---
+
 Before we can start describing the basic hash table functions, we first need to create a way to handle key-value pairs. We generally refer to any piece of data that has two parts as a `tuple`. In the case of key-value pairs, our tuple would look like `(key, value)`. Some languages, such as Python, provide built-in support for creating tuples, while others such as Java and C# require us to create our own tuple class, which is easy to do. All we really need our `tuple` class to do is to allow us to:
 
 1. create a tuple consisting of two objects,
