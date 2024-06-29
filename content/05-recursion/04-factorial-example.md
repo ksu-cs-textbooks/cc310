@@ -5,9 +5,11 @@ pre: "4. "
 disableMathJax: false
 ---
 The most popular example of using recursion is calculating the factorial of a positive integer $N$. The factorial of a positive integer $N$ is just the product of all the integers from $1$ to $N$. For example, the factorial of $5$, written as $5!$, is calculated as $5 * 4 * 3 * 2 * 1 = 120$. The definition of the factorial function itself is recursive.
+
 $$
 \text{fact}(N) = N  *  \text{fact}(N - 1)
 $$
+
 The corresponding pseudocode is shown below.
 
 ```tex

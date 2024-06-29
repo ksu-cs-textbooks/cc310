@@ -2,7 +2,9 @@
 title: "Example: Tower of Hanoi"
 weight: 35
 pre: "7. "
+disableMathJax: false
 ---
+
 There are some problems where an iterative solution is difficult to implement and is not always immediately intuitive, while a recursive solution is simple, concise and easy to understand. A classic example is the problem of the _[Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)_.
 
 The Tower of Hanoi is a game that lends itself to a recursive solution. Suppose we have three towers on which we can put discs. The three towers are indicated by a letter, A, B, or C. 

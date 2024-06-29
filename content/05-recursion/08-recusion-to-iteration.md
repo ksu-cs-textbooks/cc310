@@ -3,6 +3,7 @@ title: "Converting Recursion to Iteration"
 weight: 40
 pre: "8. "
 ---
+
 Iteration and recursion have the same expressive power, which means that any problem that has a recursive solution also has an iterative solution and vice versa. There are also standard techniques that allow you to transform a recursive program into an equivalent iterative version. The simplest case is for tail recursion, where the recursive call is the last step in the function. There are two cases of tail recursion to consider when converting to an iterative version.
 
 1. If the recursive function does not have any parameters or the parameters are passed by reference, the conversion is very simple. We just use a simple while loop.

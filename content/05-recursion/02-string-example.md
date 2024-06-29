@@ -9,18 +9,18 @@ We could solve this problem using an array, but since we do not know how many ch
 
 Our solution would look something like this. We've also numbered the lines to make the following discussion easier to understand.
 
-```tex
-function REVERSE()			    (1)
-    read CHARACTER			    (2)
-    if CHARACTER == `*` then	(3)
-        return			        (4)
-    else				        (5)
-        REVERSE()			    (6)
-        print CHARACTER		    (7)
-        return			        (8)
-    end if 				        (9)
-end function				    (10)
-```
+{{< highlight lineNos="true" lineNoStart="1" type="py" >}}
+function REVERSE()
+    read CHARACTER
+    if CHARACTER == `*` then
+        return
+    else
+        REVERSE()
+        print CHARACTER
+        return
+    end if
+end function
+{{< /highlight >}}
 
 ## Base Case
 

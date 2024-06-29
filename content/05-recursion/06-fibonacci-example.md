@@ -4,12 +4,15 @@ weight: 30
 pre: "6. "
 disableMathJax: false
 ---
+
 {{< youtube Qw_SJrtYI88  >}}
 
-Next, we will look at calculating Fibonacci numbers using a tree recursive algorithm. Fibonacci numbers are given by the following recursive formula. 
+Next, we will look at calculating Fibonacci numbers using a tree recursive algorithm. Fibonacci numbers are given by the following recursive formula.
+
 $$
 f_n = f_{n-1} + f_{n-2}
 $$
+
 Notice that Fibonacci numbers are defined recursively, so they should be a perfect application of tree recursion! However, there are cases where recursive functions are too inefficient compared to an iterative version to be of practical use. This typically happens when the recursive solutions to a problem end up solving the same subproblems multiple times. Fibonacci numbers are a great example of this phenomenon. 
 
 ## Calculating Fibonacci Numbers
@@ -82,3 +85,9 @@ We assume that each element in `FA` has been initialized to `-1`. We also assume
 As shown in our original call tree below, using the `FIBOPT` function, none of the function calls in red will be made at all. While the function calls in yellow will be made, they will simply return a precomputed value from the `FA` array. Notice that for `N = 6`, we save 14 of the original 25 function calls required for the `FIB` function, or a $56\%$ savings. As `N` increases, the savings grow even more.
 
 ![Fibonacci Tree Recursion with Memoization](/images/6/6.8.fib2.png)
+
+{{% notice note "Memoization in Python" %}}
+
+Memoization in Python can also be done using [dictionaries](https://www.codecademy.com/resources/docs/python/memoization) or the [functools.cache](https://docs.python.org/3/library/functools.html#functools.cache) method decorator. 
+
+{{% /notice %}}

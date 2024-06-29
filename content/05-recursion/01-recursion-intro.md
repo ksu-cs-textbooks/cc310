@@ -3,6 +3,7 @@ title: "Introducing Recursion"
 weight: 5
 pre: "1. "
 ---
+
 {{< youtube GALIjmSovzM  >}}
 
 We are now used to using functions in our programs that allow us to decompose complex problems into smaller problems that are easier to solve. Now, we will look at a slight wrinkle in how we use functions. Instead of simply having functions call other functions, we now allow for the fact that a function can actually call itself! When a function calls itself, we call it _recursion_.

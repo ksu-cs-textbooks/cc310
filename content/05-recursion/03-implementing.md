@@ -2,21 +2,23 @@
 title: "Implementing Recursion"
 weight: 15
 pre: "3. "
+disableMathJax: false
 ---
+
 {{< youtube CwAAKKRSWI0  >}}
 
-```tex
-function REVERSE2()			    (1)
-    read CHARACTER			    (2)
-    if CHARACTER == `*` then	(3)
-        return			        (4)
-    else				        (5)
-        print CHARACTER		    (6a)
-        REVERSE2()			    (7a)
-        return			        (8)
-    end if 				        (9)
-end function				    (10)
-```
+{{< highlight lineNos="true" lineNoStart="1" type="py" >}}
+function REVERSE2()
+    read CHARACTER
+    if CHARACTER == `*` then
+        return
+    else
+        print CHARACTER
+        REVERSE2()
+        return
+    end if
+end function
+{{< /highlight >}}
 
 The `REVERSE2` function in the previous quiz actually prints the characters entered by the user in the same order in which they are typed. Notice how this small variation in the instruction order significantly changed the outcome of the function. To get a better understanding of why this occurs, we will delve into the order of execution in a little more depth.
 
@@ -32,19 +34,19 @@ While some functions require the use of either head or tail recursion, many time
 
 Before we finish our discussion of head and tail recursion, we need to make sure we understand how a recursive function actually works in the computer. To do this, we will use a new example. Let's assume we want to print all numbers from 0 to $N$, where $N$ is provided as a parameter. A recursive solution to this problem is shown below.
 
-```tex
-function OUTPUT(integer N)			        (1)
-    if N == 0 then					        (2)
-        print N					            (3)
-    else						            (4)
-        print "Calling to OUTPUT " N-1		(5)
-        OUTPUT(N-1)					        (6)
-        print "Returning from OUTPUT " N-1	(7)
-        print N					            (8)
-    end if 						            (9)
-    return						            (10)
-end function							    (11)
-```
+{{< highlight lineNos="true" lineNoStart="1" type="py" >}}
+function OUTPUT(integer N)
+    if N == 0 then
+        print N
+    else
+        print "Calling to OUTPUT " N-1
+        OUTPUT(N-1)
+        print "Returning from OUTPUT " N-1
+        print N
+    end if
+    return
+end function
+{{< /highlight >}}
 
 Notice that we have added some extra `print` statements (lines 5 and 7) to the function just to help us keep track of when we have called `OUTPUT` and when that call has returned. This function is very similar to the `REVERSE` function above, we just don't have to worry about reading a character each time the function runs. Now, if we call `OUTPUT` with an initial parameter of `3`, we get the following output. We've also marked these lines with letters to make the following discussion simpler.
 
@@ -82,44 +84,44 @@ We call this information the _activation record_ for function `A`. When a call t
 
 Next, we will look at how we use the activation stack to implement recursion. For this we will use a simple `MAIN` program that calls our simplified `OUTPUT` function (where we have removed all the print statements used to track our progress).
 
-```tex
+{{< highlight lineNos="true" lineNoStart="1" type="py" >}}
 function MAIN()
-    OUTPUT(3) 					(1)
-    print ("Done")				(2)
+    OUTPUT(3)
+    print ("Done")
 end function
 
 function OUTPUT(integer N)
-    if N == 0 then				(1)
-        print N					(2)
-    else						(3)
-        OUTPUT(N-1)				(4)
-        print N					(5)
-    end if 						(6)
-    return						(7)
+    if N == 0 then
+        print N
+    else
+        OUTPUT(N-1)
+        print N
+    end if
+    return
 end function
-```
+{{< /highlight >}}
 
 When we run `MAIN`, the only record on the activation stack is the record for `MAIN`. Since it has not been "called" from another function, it does not contain a return address. It also has no local variables, so the record is basically empty as shown below.
 
 ![Main Activation Record](/images/6/6.4.mainstack.png)
  
-However, when we execute line 1 in `MAIN`, we call the function `OUTPUT` with a parameter of `3`. This causes the creation of a new function activation record with the return address of line 3 in the calling `MAIN` function and a parameter for `N`, which is `3`. Again, there are no local variables in `OUTPUT`. The stack activation is shown in figure **a** below. 
- 	 	 	 
+However, when we execute line 2 in `MAIN`, we call the function `OUTPUT` with a parameter of `3`. This causes the creation of a new function activation record with the return address of line 3 in the calling `MAIN` function and a parameter for `N`, which is `3`. Again, there are no local variables in `OUTPUT`. The stack activation is shown in figure **a** below. 
+                
 | **a** | **b** | **c** | **d** |
 |:-:|:-:|:-:|:-:|
 | ![Activation Stack 1](/images/6/6.4.stack1.png) | ![Activation Stack 2](/images/6/6.4.stack2.png) | ![Activation Stack 3](/images/6/6.4.stack3.png) | ![Activation Stack 4](/images/6/6.4.stack4.png) | 
              
-Following the execution for `OUTPUT`, we will eventually make our recursive call to `OUTPUT` in line 4, which creates a new activation record on the stack as shown above in **b**. This time, the return address will be line 5 and the parameter `N` is `2`. 
+Following the execution for `OUTPUT`, we will eventually make our recursive call to `OUTPUT` in line 10, which creates a new activation record on the stack as shown above in **b**. This time, the return address will be line 11 and the parameter `N` is `2`. 
 
 Execution of the second instance of `OUTPUT` will follow the first instance, eventually resulting in another recursive call to `OUTPUT` and a new activation record as shown in **c** above. Here the return address is again `5` but now the value of parameter `N` is `1`.  Execution of the third instance of `OUTPUT` yields similar results, giving us another activation record on the stack **d** with the value of parameter `N` being `0`.
 
-Finally, the execution of the fourth instance of `OUTPUT` will reach our base case of `N == 0`. Here we will `write 0` in line 2 and then `return`. This return will cause us to start execution back in the third instance of `OUTPUT` at the line indicated by the return value, or in this case, 5. The stack activation will now look like **e** in the figure below.
- 	 	 	 
+Finally, the execution of the fourth instance of `OUTPUT` will reach our base case of `N == 0`. Here we will `write 0` in line 8 and then `return`. This return will cause us to start execution back in the third instance of `OUTPUT` at the line indicated by the return value, or in this case, 11. The stack activation will now look like **e** in the figure below.
+                
 | **e** | **f** | **g** | **h** |
 |:-:|:-:|:-:|:-:|
 | ![Activation Stack 3](/images/6/6.4.stack3.png) | ![Activation Stack 2](/images/6/6.4.stack2.png) | ![Activation Stack 1](/images/6/6.4.stack1.png) | ![Main Activation Record](/images/6/6.4.mainstack.png) | 
 
-When execution begins in the third instance of `OUTPUT` at line 5, we again write the current value of `N`, which is `1`, and we then `return`. We follow this same process, returning to the second instance of `OUTPUT`, then the first instance of `OUTPUT`. Once the initial instance of `OUTPUT` completes, it returns to line 2 in `MAIN`, where the `print("Done")` statement is executed and `MAIN` ends.
+When execution begins in the third instance of `OUTPUT` at line 11, we again write the current value of `N`, which is `1`, and we then `return`. We follow this same process, returning to the second instance of `OUTPUT`, then the first instance of `OUTPUT`. Once the initial instance of `OUTPUT` completes, it returns to line 3 in `MAIN`, where the `print("Done")` statement is executed and `MAIN` ends.
 
 ## Performance 
 
