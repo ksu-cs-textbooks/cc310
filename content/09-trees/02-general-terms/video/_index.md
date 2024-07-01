@@ -40,7 +40,7 @@ Another special type of node that are present in trees are leaves. A leaf is def
 
 Each node has a property called the degree. The degree of a node is simply the number of children. This means that leaves will always have degree zero as they have no children.
 
-We can also talk about the degree of a tree. The degree of a tree is equal to the degree of the root. In this tree, the root is node `a` which has degree three. Thus, the degree of this tree is three. 
+We can also talk about the degree of a tree. The degree of a tree is equal to the largest degree of any of its nodes. As we can see, the degree of this tree is 3. 
 
 [Slide 7]
 

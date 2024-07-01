@@ -4,6 +4,12 @@ weight: 10
 pre: "2. "
 ---
 
+{{% notice warning %}}
+
+The video incorrectly states the degree of a tree is equal to the degree of the root. The correct definition is that the degree of a tree is the **largest** degree of any node in the tree.
+
+{{% /notice %}}
+
 {{< youtube JvbXXm_KEDY  >}}
 
 [Video Materials](video)
@@ -54,9 +60,10 @@ This tree has four leaves. There is no limit to how many leaves can be in a tree
 
 - `Degree`
     - `Degree of a node` - the number of children a node has. The degree of a leaf is zero. 
-    - `Degree of a tree` - the number of children the root of the tree has.
+    - `Degree of a tree` - the degree of an entire tree is the **largest** degree of any node found in the tree.
 ![Degree](/images/14/2Tree_Degree.png)
-The degree of the nodes are shown as the values on the nodes in this example. The degree of the tree is equal to the degree of the root. Thus, the degree for this tree is 2.
+
+The degree of the nodes are shown as the values on the nodes in this example. The degree of the tree is the largest degree of any node in the tree. Thus, the degree for this tree is 3.
 
 --- 
 

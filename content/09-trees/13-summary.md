@@ -9,7 +9,7 @@ In this module we have introduce vocabulary related to trees and what makes a tr
 - `Child` - a node with an edge that connects to another node closer to the root.
 - `Degree`
     - `Degree of a node` - the number of children a node has. The degree of a leaf is zero. 
-    - `Degree of a tree` - the number of children the root of the tree has.
+    - `Degree of a tree` - the degree of an entire tree is the **largest** degree of any node found in the tree.
 - `Edge` - connection between two nodes. In a tree, the edge will be pointing in a downward direction. 
 - `Leaf` - a node with no children.
 - `Node` - the general term for a structure which contains an item, such as a character or even another data structure. 
