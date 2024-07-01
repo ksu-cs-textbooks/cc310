@@ -1018,6 +1018,201 @@
 
   
 	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 	  
 
@@ -1129,19 +1324,19 @@ $$f_n = f_{n-1} &#43; f_{n-2}$$ Notice that Fibonacci numbers are defined recu
     <link href="/cc310/05-recursion/06-fibonacci-example/index.print.html" rel="alternate" type="text/html" title="Example: Fibonacci Numbers :: CC 310 Textbook">
     <link href="/cc310/05-recursion/06-fibonacci-example/tele.html" rel="alternate" type="text/html" title="Example: Fibonacci Numbers :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1719861953" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719861953" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1719861953" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1719861953" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719861953" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1719861953" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1719861953" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719861953" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1719861953" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1719869960" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719869960" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1719869960" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1719869960" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719869960" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1719869960" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1719869960" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719869960" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1719869960" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1719861953" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1719861953" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1719861953" rel="stylesheet">
-  <link href="/cc310/css/print.css?1719861953" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1719869960" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1719869960" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1719869960" rel="stylesheet">
+  <link href="/cc310/css/print.css?1719869960" rel="stylesheet" media="print">
   
   
   
@@ -1164,7 +1359,7 @@ $$f_n = f_{n-1} &#43; f_{n-2}$$ Notice that Fibonacci numbers are defined recu
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1719861953" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1719869960" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/05-recursion/06-fibonacci-example/embed.html">
@@ -1215,8 +1410,8 @@ end function</code></pre></div><p>While this function is not terribly difficult 
 <p>If we analyze the computation required for the 6th Fibonacci number in both the iterative and recursive algorithms, the truth becomes evident. The recursive algorithm calculates the 5th Fibonacci number by recursively calling <code>FIB(4)</code> and <code>FIB(3)</code>. In turn, <code>FIB(4)</code> calls <code>FIB(3)</code> and <code>FIB(2)</code>. Notice that <code>FIB(3)</code> is actually calculated twice! This is a problem. If we calculate the 36th Fibonacci number, the values of many Fibonacci numbers are calculated repeatedly, over and over.</p>
 <h2 id="tracing-the-program">Tracing the Program</h2>
 <p>To clarify our ideas further, we can consider the recursive tree resulting from the trace of the program to calculate the 6th Fibonacci number. Each of the computations highlighted in the diagram will have been computed previously.</p>
-<p><a href="#R-image-0f44610dd5836f158359225be7f13781" class="lightbox-link"><img alt="Fibonacci Tree Recursion" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.8.fib1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0f44610dd5836f158359225be7f13781"><img alt="Fibonacci Tree Recursion" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.8.fib1.png"></a></p>
+<p><a href="#R-image-05930d1936b994b6e989f46c8008e4a3" class="lightbox-link"><img alt="Fibonacci Tree Recursion" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.8.fib1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-05930d1936b994b6e989f46c8008e4a3"><img alt="Fibonacci Tree Recursion" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.8.fib1.png"></a></p>
 <p>If we count the recomputations, we can see how we calculate the 4th Fibonacci number twice, the 3rd Fibonacci number three times, and the 2nd Fibonacci five times. All of this is due to the fact the we do not consider the work done by other recursive calls. Furthermore, the higher our initial number, the worse the situation grows, and at a very rapid pace.</p>
 <h2 id="memoization">Memoization</h2>
 <p>To avoid recomputing the same Fibonacci number multiple times, we can save the results of various calculations and reuse them directly instead of recomputing them. This technique is called <em>memoization</em>, which can be used to optimize some functions that use tree recursion.</p>
@@ -1234,8 +1429,8 @@ end function</code></pre></div><p>While this function is not terribly difficult 
 </span></span><span class="line"><span class="cl">    end if
 </span></span><span class="line"><span class="cl">end function</span></span></code></pre></div><p>We assume that each element in <code>FA</code> has been initialized to <code>-1</code>. We also assume that <code>N</code> is greater than <code>0</code> and that the length of <code>FA</code> is larger than the Fibonacci number <code>N</code> that we are trying to compute. (Of course, we would normally put these assumptions in our precondition; however, since we are focusing on the recursive nature of the function, we will not explicitly show this for now.) The cases where <code>N == 0</code> and <code>N == 1</code> are the same as we saw in our previous <code>FIB</code> function. There is no need to store these values in the array when we can return them directly, since storing them in the array takes additional time. The interesting cases are the last two. First, we check to see if <code>FA[N] == -1</code>, which would indicate that we have not computed the Fibonacci number for <code>N</code> yet. If we have not yet computed <code>N</code>&rsquo;s Fibonacci number, we recursively call <code>FIBOPT(N-1)</code> and <code>FIBOPT(N-2)</code> to compute its value and then store it in the array and return it. If, however, we have already computed the Fibonacci for <code>N</code> (i.e., if <code>FA[N]</code> is not equal to <code>-1</code>), then we simply return the value stored in the array, <code>FA[N]</code>.</p>
 <p>As shown in our original call tree below, using the <code>FIBOPT</code> function, none of the function calls in red will be made at all. While the function calls in yellow will be made, they will simply return a precomputed value from the <code>FA</code> array. Notice that for <code>N = 6</code>, we save 14 of the original 25 function calls required for the <code>FIB</code> function, or a $56\%$ savings. As <code>N</code> increases, the savings grow even more.</p>
-<p><a href="#R-image-5c4174e4fca7bfaf91fe262949bc5d35" class="lightbox-link"><img alt="Fibonacci Tree Recursion with Memoization" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.8.fib2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5c4174e4fca7bfaf91fe262949bc5d35"><img alt="Fibonacci Tree Recursion with Memoization" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.8.fib2.png"></a></p>
+<p><a href="#R-image-4191a1d0231f5051064791729ce413b9" class="lightbox-link"><img alt="Fibonacci Tree Recursion with Memoization" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.8.fib2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4191a1d0231f5051064791729ce413b9"><img alt="Fibonacci Tree Recursion with Memoization" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.8.fib2.png"></a></p>
 
   
   
@@ -1260,8 +1455,8 @@ end function</code></pre></div><p>While this function is not terribly difficult 
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719861953" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719861953" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719869960" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719869960" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1276,9 +1471,9 @@ end function</code></pre></div><p>While this function is not terribly difficult 
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719861953"></script>
-<script src="/cc310/js/theme.js?1719861953" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719869960"></script>
+<script src="/cc310/js/theme.js?1719869960" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1719861953" defer></script>
+<script src="/cc310/js/embed-iframe.js?1719869960" defer></script>
 </body>
 </html>

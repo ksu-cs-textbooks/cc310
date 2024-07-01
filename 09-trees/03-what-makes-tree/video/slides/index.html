@@ -1,0 +1,99 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="/cc310/reveal/dist/reset.css">
+		<link rel="stylesheet" href="/cc310/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="/cc310/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="/cc310/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="/cc310/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+<img class="stretch plain" src="/images/0/core-logo-on-white.png">
+<h3> Module 2 <br> Trees <br> Not Trees</h3>
+<hr style="height:15px;color:512888;background-color:512888;">
+<h4>CC315</h4>
+</section>
+<section>
+<h3> Tree Criteria </h3>
+<ul>
+<li> Single Root </li>
+<li> Exactly One Parent Per Child </li>
+<li> Fully Connected </li>
+<li> No Cycles </li>
+</ul>
+</section>
+<section>
+<img class="stretch plain" src="/images/14/315_2.3_tree_2root.svg">
+</section>
+<section>
+<img class="stretch plain" src="/images/14/315_2.3_tree_2rootfix.svg">
+</section>
+<section>
+<img class="stretch plain" src="/images/14/315_2.3_tree_legal.svg">
+</section>
+<section>
+<img class="stretch plain" src="/images/14/315_2.3_tree_cycle.svg">
+</section>
+<section>
+<img class="stretch plain" src="/images/14/315_2.3_tree_cyclefix.svg">
+</section>
+<section>
+<h3> Tree Criteria </h3>
+<ul>
+<li> Single Root </li>
+<li> Exactly One Parent Per Child </li>
+<li> Fully Connected </li>
+<li> No Cycles </li>
+</ul>
+</section>
+
+			</div>
+		</div>
+
+		<script src="/cc310/reveal/dist/reveal.js"></script>
+		<script src="/cc310/reveal/plugin/markdown/markdown.js"></script>
+		<script src="/cc310/reveal/plugin/highlight/highlight.js"></script>
+		<script src="/cc310/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

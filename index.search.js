@@ -1018,6 +1018,201 @@
 
   
 	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 	  
 
@@ -1129,6 +1324,14 @@ var relearn_search_index = [
     "uri": "/cc310/05-recursion/01-recursion-intro/"
   },
   {
+    "breadcrumb": "Trees",
+    "content": " YouTube Video Video Materials\nFor the next data structure in the course, we will cover trees, which are used to show hierarchical data. Trees can have many shapes and sizes and there is a wide variety of data that can be organized using them. Real world data that is appropriate for trees can include: family trees, management structures, file systems, biological classifications, anatomical structures and much more.\nWe can look at an example of a tree and the relationships they can show. Consider this file tree; it has folders and files in folders.\nIf we wanted to access the file elm.txt, we would have to follow this file path: Foo/B/Q/E/elm.txt. We can similarly store the file structure as a tree like we below. As before, if we wanted to get to the file elm.txt we would navigate the tree in the order: Foo -\u003e B -\u003e Q -\u003e E -\u003e elm.txt. As mentioned before, trees can be used on very diverse data sets; they are not limited to file trees!\nWhat are trees? In the last module we talked about strings which are a linear data structure. To be explicit, this means that the elements in a string form a line of characters. A tree, by contrast, is a hierarchal structure which is utilized best in multidimensional data. Going back to our file tree example, folders are not limited to just one file, there can be multiple files contained in a single folder- thus making it multidimensional.\nConsider the string “abc123”; this is a linear piece of data where there is exactly one character after another. We can use trees to show linear data as well.\nWhile trees can be used for linear data, it would be excessive and inefficient to implement them for single strings. In an upcoming module, we will see how we can use trees to represent any number of strings! For example, this tree below contains 7 words: ‘a’, ‘an’, ‘and’, ‘ant’, ‘any’, ‘all’, and ‘alp’.\nIn the next sections, we will discuss the properties of a tree data structure and how we would design one ourselves. Once we have a good understanding of trees and the properties of trees, we will implement our own.",
+    "description": "YouTube Video Video Materials\nFor the next data structure in the course, we will cover trees, which are used to show hierarchical data. Trees can have many shapes and sizes and there is a wide variety of data that can be organized using them. Real world data that is appropriate for trees can include: family trees, management structures, file systems, biological classifications, anatomical structures and much more.\nWe can look at an example of a tree and the relationships they can show.",
+    "tags": [],
+    "title": "Introduction",
+    "uri": "/cc310/09-trees/01-tree-intro/"
+  },
+  {
     "breadcrumb": "OOP Review",
     "content": " YouTube Video 1\nObject-oriented programming uses the idea of objects and classes to provide many improvements over other programming paradigms. The key concept of object-oriented programming - encapsulation - allows our data and the operations that manipulate that data to be bundled together within a single object.\nFile:CPT-OOP-inheritance.svg. (2014, June 26). Wikimedia Commons, the free media repository. Retrieved 01:22, January 14, 2020 from https://commons.wikimedia.org/w/index.php?title=File:CPT-OOP-inheritance.svg\u0026oldid=127549650. ↩︎",
     "description": "YouTube Video 1\nObject-oriented programming uses the idea of objects and classes to provide many improvements over other programming paradigms. The key concept of object-oriented programming - encapsulation - allows our data and the operations that manipulate that data to be bundled together within a single object.\nFile:CPT-OOP-inheritance.svg. (2014, June 26). Wikimedia Commons, the free media repository. Retrieved 01:22, January 14, 2020 from https://commons.wikimedia.org/w/index.php?title=File:CPT-OOP-inheritance.svg\u0026oldid=127549650. ↩︎",
@@ -1223,6 +1426,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Functions",
     "uri": "/cc310/02-oop-review/02-functions/"
+  },
+  {
+    "breadcrumb": "Trees",
+    "content": " YouTube Video Video Materials\nTo get ourselves comfortable in working with trees, we will outline some standard vocabulary. Throughout this section, we will use the following tree as a guiding example for visualizing the definitions.\nDefinitions Node - the general term for a structure which contains an item, such as a character or even another data structure. Edge - the connection between two nodes. In a tree, the edge will be pointing in a downward direction. This tree has five edges and six nodes. There is no limit to the number of nodes in a tree. The only stipulation is that the tree is fully connected. This means that there cannot be disjoint portions of the tree. We will look at examples in the next section.\nInfo A rule of thumb for discerning trees is this: if you imagine holding the tree up by the root and gravity took effect, then all edges must be pointing downward. If an edge is pointing upward, we will have a cycle within our structure so it will not be a tree.\nRoot - the topmost node of the tree To be a tree, there must be exactly one root. Having multiple roots, will result in a cycle or a tree that is not fully connected. In short, a cycle is a loop in the tree.\nParent - a node with an edge that connects to another node further from the root. We can also define the root of a tree with respect to this definition; Root: a node with no parent. Child - a node with an edge that connects to another node closer to the root. In a general tree, the children of a node are an unordered set. There is not a fixed or defined order for generic trees. In a tree, child nodes must have exactly one parent node. If a child node has more than one parent, then a cycle will occur. If there is a node without a parent node, then this is necessarily the root node. There is no limit to the number of child nodes a parent node can have, but to be a parent node, the node must have at least one child node. Leaf - a node with no children. This tree has four leaves. There is no limit to how many leaves can be in a tree. Degree Degree of a node - the number of children a node has. The degree of a leaf is zero. Degree of a tree - the number of children the root of the tree has. The degree of the nodes are shown as the values on the nodes in this example. The degree of the tree is equal to the degree of the root. Thus, the degree for this tree is 2. A tree is defined recursively. This means that each child of the root is the root of another tree and the children of those are roots to trees as well. Again, this is a recursive definition so it will continue to the leaves. The leaves are also trees with just a single node as the root.\nIn our example tree, we have six trees. Each tree is outlined in a red dashed circle: the main tree, the tree off the left of the main root, the tree off the left of this root, the tree in the center of this root, the tree off the right of this root, and the tree off the right of the main root with a single node ",
+    "description": "YouTube Video Video Materials\nTo get ourselves comfortable in working with trees, we will outline some standard vocabulary. Throughout this section, we will use the following tree as a guiding example for visualizing the definitions.\nDefinitions Node - the general term for a structure which contains an item, such as a character or even another data structure. Edge - the connection between two nodes. In a tree, the edge will be pointing in a downward direction.",
+    "tags": [],
+    "title": "General Terms",
+    "uri": "/cc310/09-trees/02-general-terms/"
   },
   {
     "breadcrumb": "Hash Tables",
@@ -1353,6 +1564,14 @@ var relearn_search_index = [
     "uri": "/cc310/01-review/03-syntax/"
   },
   {
+    "breadcrumb": "Trees",
+    "content": " YouTube Video Video Materials\nTrees can come in many shapes and sizes. There are, however some constraints to making a valid tree.\nA tree has a single root A child has exactly one parent A tree is fully connected (IE a single tree) A tree has no cycles (IE no loops) Valid Trees Any combination of the following represents a valid tree:\nA tree with a single node; just a root, A tree where each node has a single child, or A tree where nodes have many children. Invalid Trees Below are some examples of invalid trees.\nA cycle Again, cycles are essentially loops that occur in our tree. In this example, we see that our leaf has two parents. One way to determine whether your data structure has a cycle is if there is more than one way to get from the root to any node.\nA cycle Here we can see another cycle. In this case, the node immediately after the root has two parents, which is a clue that a cycle exists. Another test\nTwo Roots Trees must have a single root. In this instance, it may look like we have a tree with two roots. Working through this, we also see that the node in the center has two parents.\nTwo Trees This example would be considered two trees, not a tree with two parts. In this figure, we have two fully connected components. Since they are not connected to each other, this is not a single tree.",
+    "description": "YouTube Video Video Materials\nTrees can come in many shapes and sizes. There are, however some constraints to making a valid tree.\nA tree has a single root A child has exactly one parent A tree is fully connected (IE a single tree) A tree has no cycles (IE no loops) Valid Trees Any combination of the following represents a valid tree:\nA tree with a single node; just a root, A tree where each node has a single child, or A tree where nodes have many children.",
+    "tags": [],
+    "title": "What Makes a Tree a Tree",
+    "uri": "/cc310/09-trees/03-what-makes-tree/"
+  },
+  {
     "breadcrumb": "Introduction",
     "content": " YouTube Video Resources Codio Documentation Video Script This course makes extensive use of several features of Canvas which you may or may not have worked with before. To give you the best experience in this course, this video will briefly describe those features and the best way to access them.\nWhen you first access the course on Canvas, you will be shown this homepage. It contains quick links to the course syllabus and Piazza discussion boards. This is handy if you just need to jump to a particular area.\nLet’s walk through the options in the main menu to the left. The first section is Modules, which is where you’ll primarily interact with the course. You’ll notice that I’ve disabled several of the common menu items in this course, such as Files and Assignments. This is to simplify things for you as students, so you remember that all the course content is available in one place.\nWhen you first arrive at the Modules section, you’ll see all of the content in the course laid out in order. If you like, you can minimize the modules you aren’t working on by clicking the arrow to the left of the module name. I’ll do so, leaving the introductory module open.\nAs you look at each module, you’ll see that it gives quite a bit of information about the course. At the top of each module is an item telling you what parts of the module you must complete to continue. In this case, it says “Complete All Items.” Likewise, the following modules may list a number of prerequisite modules, which you must complete before you can access it.\nWithin each module is a set of items, which must be completed in listed order. Under each item you’ll see information about what you must do in order to complete that item. For many of them, it will simply say view, which means you must view the item at least once to continue. Others may say contribute, submit, or give a minimum score required to continue. For assignments, it also helpfully gives the number of points available, and the due date.\nLet’s click on the first item, Course Introduction, to get started. You’ve already been to this page by this point. Many course pages will consist of an embedded video, followed by links to any resources used or referenced in the video, including the slides and a downloadable version of the video. Finally, a rough video script will be posted on the page for your quick reference.\nWhile I cannot force you to watch each video in its entirety, I highly recommend doing so. The script on the page may not accurately reflect all of the content in the video, nor can it show how to perform some tasks which are purely visual.\nWhen you are ready to move to the next step in a module, click the Next button at the bottom of the page. Canvas will automatically add Next and Previous buttons to each piece of content which is accessed through the Modules section, which makes it very easy to work through the course content. I’ll click through a couple of items here.\nAt any point, you may click on the Modules link in the menu to the left to return to the Modules section of the site. You’ll notice that I’ve viewed the first few items in the first module, so I can access more items here. This is handy if you want to go back and review the content you’ve already seen, or if you leave and want to resume where you left off. Canvas will put green checkmarks to the right of items you’ve completed.\nContinuing down the menu to the left, you’ll find the usual Canvas links to view your grades in the course, as well as a list of fellow students taking the course.\n===\nNow, let’s go back to Canvas and load up one of the Codio projects. To load the first Codio projects, click the Next button at the bottom of this page to go to the next part of this module, which is the Codio Introduction tutorial. On that page, there will be a button to click, which opens Codio in a new browser window or tab.\nOnce Codio loads, it should give you the option to start the Guide for that module. You’ll definitely want to select that option whenever you load a Codio project for the first time.\nFrom there, you can follow the steps in that guide to learn more about the Codio interface. The first page of the guide continues this video. I’ll see you there!",
     "description": "YouTube Video Resources Codio Documentation Video Script This course makes extensive use of several features of Canvas which you may or may not have worked with before. To give you the best experience in this course, this video will briefly describe those features and the best way to access them.\nWhen you first access the course on Canvas, you will be shown this homepage. It contains quick links to the course syllabus and Piazza discussion boards.",
@@ -1441,6 +1660,14 @@ var relearn_search_index = [
     "uri": "/cc310/03-intro-dsa/04-stacks-queues/"
   },
   {
+    "breadcrumb": "Trees",
+    "content": " YouTube Video Video Materials\nAlong with understanding how trees work, we want to also be able to implement a tree of our own. We will now outline key components of a tree class.\nMyTree Recall that trees are defined recursively so we can build them from the leaves up where each leaf is a tree itself. Each tree will have three properties: the item it contains as an object, its parent node of type MyTree, and its children as a list of MyTrees. Upon instantiation of a new MyTree, we will set the item value and initialize the parent node to None and the children to an empty list of type MyTree.\nSuppose that we wanted to construct the following tree.\nWe would start by initializing each node as a tree with no parent, no children, and the item in this instance would be the characters. Then we build it up level by level by add the appropriate children to the respective parent.\nInfo Disclaimer: This implementation will not prevent all cycles. In the next module, we will introduce steps to prevent cycles and maintain true tree structures.\nFinding a child In this method, we will take a value as input and then check if that value is the item of a child of the current node. If the value is not the item for any of the node’s children then we should return none.\nfunction FINDCHILD(VALUE) FOR CHILD in CHILDREN IF CHILD's ITEM is VALUE return CHILD return NONE end function Getting children, item, parent, or degree Each of these will be rather straight forward; children, item, and parent are all attributes of our node, so we can have a getter function that returns the respective values. The slightly more involved task will be getting the degree. Recall that the degree of a node is equal to the number of children. Thus, we can simply count the number of children and return this number for the degree.\nChecking node type We will have two functions to check the node type: one to determine if the node is a leaf and one to determine if it is a root. The definition of a leaf is a node that has no children. Thus, to check if a node is a leaf, we can simply check if the number of children is equal to zero. Similarly, since the definition of a root is a node with no parent, we can check that the parent attribute of the node is None.\nAdding a child YouTube Video When we wish to add a child, we must fisrt make sure we are able to add the child.\nCheck that the child is an instance of MyTree Make sure the child doesn’t already have a parent Make sure the child isn’t already a child of the parent We will return true if the child was successfully added and false otherwise while raising the appropriate errors.\nfunction ADDCHILD(CHILD) IF CHILD has PARENT throw exception IF CHILD is CHILD of PARENT return FALSE ELSE append CHILD to PARENT's children set CHILD's parent to PARENT return TRUE end function As an example, lets walk through the process of building the tree above:\nInstantiate MyTree a with item ‘A’ Instantiate MyTree b with item ‘B’ Instantiate MyTree c with item ‘C’ Instantiate MyTree d with item ‘D’ Instantiate MyTree e with item ‘E’ Instantiate MyTree f with item ‘F’ Instantiate MyTree g with item ‘G’ Instantiate MyTree h with item ‘H’ Instantiate MyTree i with item ‘I’ Add child tree g to tree d Add child tree h to tree d Add child tree i to tree d Add child tree e to tree b Add child tree f to tree b Once we have completed that, visually, we would have the tree above and in code we would have:\nMyTree a with parent_node = None, item = ‘A’, children = {b,c,d} MyTree b with parent_node = a, item = ‘B’, children = {e,f} MyTree c with parent_node = a, item = ‘C’, children = { } MyTree d with parent_node = a, item = ‘D’, children = {g,h,i} MyTree e with parent_node = b, item = ‘E’, children = { } MyTree f with parent_node = b, item = ‘F’, children = { } MyTree g with parent_node = d, item = ‘G’, children = { } MyTree h with parent_node = d, item = ‘H’, children = { } MyTree i with parent_node = d, item = ‘I’, children = { } Note: When adding a child we must currently be at the node we want to be the parent. Much like when you want to add a file to a folder, you must specify exactly where you want it. If you don’t, this could result in a wayward child.\nRemoving a child YouTube Video In the case of removing a child, we first need to check that the child we are attempting to remove is an instance of MyTree. We will return true if we successfully remove the child and false otherwise.\nfunction REMOVECHILD(CHILD) IF CHILD in PARENT'S children REMOVE CHILD from PARENT's children SET CHILD's PARENT to NONE return TRUE ELSE return FALSE end function As with adding a child, we need to ensure that we are in the ‘right place’ when attempting to remove a child. When removing a child, we are not ’erasing’ it, we are just cutting the tie from parent to child and child to parent. Consider removing d from a. Visually, we would have two disjoint trees, shown below:\nIn code, we would have:\nMyTree a with parent_node = None, item = ‘A’, children = {b,c} MyTree b with parent_node = a, item = ‘B’, children = {e,f} MyTree c with parent_node = a, item = ‘C’, children = { } MyTree d with parent_node = None, item = ‘D’, children = {g,h,i} MyTree e with parent_node = b, item = ‘E’, children = { } MyTree f with parent_node = b, item = ‘F’, children = { } MyTree g with parent_node = d, item = ‘G’, children = { } MyTree h with parent_node = d, item = ‘H’, children = { } MyTree i with parent_node = d, item = ‘I’, children = { } ",
+    "description": "YouTube Video Video Materials\nAlong with understanding how trees work, we want to also be able to implement a tree of our own. We will now outline key components of a tree class.\nMyTree Recall that trees are defined recursively so we can build them from the leaves up where each leaf is a tree itself. Each tree will have three properties: the item it contains as an object, its parent node of type MyTree, and its children as a list of MyTrees.",
+    "tags": [],
+    "title": "Tree Operations",
+    "uri": "/cc310/09-trees/04-tree-operations/"
+  },
+  {
     "breadcrumb": "Hash Tables",
     "content": "Before we can start describing the basic hash table functions, we first need to create a way to handle key-value pairs. We generally refer to any piece of data that has two parts as a tuple. In the case of key-value pairs, our tuple would look like (key, value). Some languages, such as Python, provide built-in support for creating tuples, while others such as Java and C# require us to create our own tuple class, which is easy to do. All we really need our tuple class to do is to allow us to:\ncreate a tuple consisting of two objects, access either of the two parts of the tuple, check two tuples for equality, and convert the tuple to a string. The pseudocode for the Tuple class is given below. Each of the operations is simple and thus we do not discuss them individually. However, notice that the class has two attributes, key and value, that are created in the constructor. The getKey and getValue operations are used often in the code below to provide access to the internals of the tuples.\nclass Tuple\tobject key = null object value = null function Tuple(object k, object v) key = k value = v end function function getKey() returns string return key end function function getValue() returns object return value end function function toString() returns string return \"(\" + key.toString() + \",\" + value.toString() + \")\" end function function equals(Object o) returns boolean if o is not an instance of Tuple: return false end if Tuple t = (Tuple)o return (o.key == key) AND (o.value == value) end function",
     "description": "Before we can start describing the basic hash table functions, we first need to create a way to handle key-value pairs. We generally refer to any piece of data that has two parts as a tuple. In the case of key-value pairs, our tuple would look like (key, value). Some languages, such as Python, provide built-in support for creating tuples, while others such as Java and C# require us to create our own tuple class, which is easy to do.",
@@ -1511,6 +1738,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Sets",
     "uri": "/cc310/03-intro-dsa/05-sets/"
+  },
+  {
+    "breadcrumb": "Trees",
+    "content": " YouTube Video Many of the terms used in trees relate to terms used in family trees. Having this in mind can help us to better understand some of the terminology involved with abstract trees. Here we have a sample family tree. Ancestor - The ancestors of a node are those reached from child to parent relationships. We can think of this as our parents and our parent’s parents, and so on. Let’s look at all of the ancestors of each of our nodes in the family tree. Ava’s ancestors: Uzzi, Joe, Myra. This is because, Uzzi is the parent of Ava, Joe is the parent of Uzzi, and Myra is the parent of Joe. Try to work out the following and click the name to reveal the ancestors. Uma: Zia, Myra - Zia is the parent of Uma and Myra is the parent of Zia. Myra: None - Myra does not have a parent node. Raju: Myra - Myra is the parent of Raju. Bev: Uzzi, Joe, Myra - Uzzi is the parent of Bev, Joe is the parent of Uzzi, and Myra is the parent of Joe. Descendant - The descendants of a node are those reached from parent to child relationships. We can think of this as our children and our children’s children and so on. Let’s look at all of the descendants of each of our nodes in the family tree. Ava’s descendants: None. Ava has no child nodes and thus, no descendants. Try to work out the following and click the name to reveal the descendants. Uma: Ang - Ang is the child of Uma Myra: Raju, Joe, Zia, Uzzi, Bert, Uma, Bev, Ava, Ang, Isla, Eoin - All of the nodes in a tree will be descendants of the root. To work it out: Raju, Joe and Zia are the children of Myra, Uma is the child of Zia, Ang is the child of Uma, and we can work the rest out for Joe’s children. Raju: None - Raju has no child nodes. Bev: Isla, Eoin - Isla is the child of Bev and Eoin is the child of Isla. Siblings - Nodes which share the same parent We can think about the siblings of all of our nodes in the family tree. Ava’s siblings: Bev - Uzzi is the parent node of Ava; Uzzi has two child nodes, Ava and Bev. Try to work out the following and click the name to reveal the siblings. Uma: None - Zia is the parent node of Uma; Zia has only one child node, Uma. Myra: None - Myra is the root and thus does not have a parent node resulting in no siblings. Raju: Joe, Zia - Myra is the parent node of Raju; Myra has three child nodes, Joe, Zia, and Raju Bev: Ava - Uzzi is the parent node of Bev; Uzzi has two child nodes, Bev and Ava. ",
+    "description": "YouTube Video Many of the terms used in trees relate to terms used in family trees. Having this in mind can help us to better understand some of the terminology involved with abstract trees. Here we have a sample family tree. Ancestor - The ancestors of a node are those reached from child to parent relationships. We can think of this as our parents and our parent’s parents, and so on.",
+    "tags": [],
+    "title": "Terms I",
+    "uri": "/cc310/09-trees/05-terms-1/"
   },
   {
     "breadcrumb": "Recursion",
@@ -1617,6 +1852,14 @@ var relearn_search_index = [
     "uri": "/cc310/xx-sets/6-sets-summary/"
   },
   {
+    "breadcrumb": "Trees",
+    "content": " YouTube Video We can describe the sizes of trees and position of nodes using different terminology, like level, depth, and height.\nLevel - The level of a node characterizes the distance between the node and the root. The root of the tree is considered level 1. As you move away from the tree, the level increases by one. For our family tree example, what nodes are in the following levels? Think about the answer and then click corresponding arrow. Level 1: Myra - Level 1 is always the root Level 2: Raju, Joe, Zia - These are the nodes which are 1 edge away from the root. Level 3: Uzzi, Bert, Uma - These are the nodes which are 2 edges away from the root. Level 4: Bev, Ava, Ang - These are the nodes which are 3 edges away from the root. Level 5: Isla - This is the only node which is 4 edges away from the root. Level 6: Eoin - This is the only node which is 5 edges away from the root. Depth - The depth of a node is its distance to the root. Thus, the root has depth zero. Level and depth are related in that: level = 1 + depth. For our family tree example, what nodes have the following depths? Depth 0: Myra - The root will always be at depth 0. Depth 1: Raju, Joe, Zia - These are the nodes which are 1 edge away from the root. Depth 2: Uzzi, Bert, Uma - These are the nodes which are 2 edge away from the root. Depth 3: Bev, Ava, Ang - These are the nodes which are 3 edge away from the root. Depth 4: Isla - This is the only node which is 4 edges away from the root. Depth 5: Eoin - This is the only node which is 5 edges away from the root. Height of a Node - The height of a node is the longest path to a leaf descendant. The height of a leaf is zero. For our family tree example, what nodes have the following heights? Height 0: Raju, Eoin, Ava, Bert, Ang - The leaves always have height 0. Height 1: Isla, Uma - Isla -\u003e Eoin and Uma -\u003e Ang Height 2: Bev, Zia - Bev -\u003e Isla -\u003e Eoin and Zia -\u003e Uma -\u003e Ang Height 3: Uzzi - Uzzi -\u003e Bev -\u003e Isla -\u003e Eoin Height 4: Joe - Joe -\u003e Uzzi -\u003e Bev -\u003e Isla -\u003e Eoin Height 5: Myra - Myra -\u003e Joe -\u003e Uzzi -\u003e Bev -\u003e Isla -\u003e Eoin Height of a Tree - The height of a tree is equal to the height of the root. Our family tree would have height 5 ",
+    "description": "YouTube Video We can describe the sizes of trees and position of nodes using different terminology, like level, depth, and height.\nLevel - The level of a node characterizes the distance between the node and the root. The root of the tree is considered level 1. As you move away from the tree, the level increases by one. For our family tree example, what nodes are in the following levels?",
+    "tags": [],
+    "title": "Terms II",
+    "uri": "/cc310/09-trees/06-terms-2/"
+  },
+  {
     "breadcrumb": "Python Review",
     "content": " YouTube Video A variable in a programming language is an abstraction that allows storing one value in each instant of time, but this value can change along with the program execution. A variable can be represented as a box holding a value. If the variable is a container, e.g., a list (or array or vector), a matrix, a tuple, or a set of values, each box in the container contains a single value.\nCharacteristics A variable is characterized by:\nAn identifier or name. The name represents the most important information since it allows us to identify the variable inside the program. This name has to be unique inside the program and it allows us to identify the variable. In order to improve program legibility, and facilitate debugging, and understanding it is important to choose a representative name for the variable that clearly represents the function of the variable. Representative names could be results, number_of_nodes, number_of_edges. For writing variable names composed of two or more words in Python we can use underscores to separate the words. A single value, i.e. the value that is stored in the variable. The value of the variable can be modified during program execution but at each instant of time, the variable holds a single value. A data type. The data type characterizes the set of values that the variable can take. For example, the integer type contains numbers without a decimal part. The decimal or floating point type contains numbers with a decimal part. In mathematics, we call these real numbers. The string type (text) characterizes character sequences, and the Boolean type contains true or false values and is used to hold the result of the conditions. In some untyped languages, like Scratch and Python, the data type is deduced from the value that contains the variable. Since the value can change, its type can also change. For example, a variable can contain an integer value at the beginning of the program, a value that is subsequently changed to a real number. In other programming languages, such as Java, the type must be explicitly indicated at the time of declaration and cannot change. A memory address, which is the memory address, in the RAM of the computer, where the value is stored. We won’t work directly with memory addresses in this course, but we may see them when using a visualizer or debugger to execute our programs. Other Features Depending on the programming language, we could also specify for a variable:\nVisibility. An area of visibility or purpose, which is where inside the program the variable is visible. In Python and Java, visibility can be specified at the global level, i.e. visible in all the program, or local, i.e. visible at the individual procedure level. A lifetime. The lifetime of a variable is closely related to its visibility: when the program performs an instruction outside the purpose of the variable, i.e. outside the scope of a variable, the variable itself ends its life. Variable Operations A programming language allows to perform two basic operations with a variable:\nReading the value of a variable. This value can be used in expression allowing to relate variables by means of operators. The basic operators are: Arithmetic operators: such as addition +, and subtraction -. They allow performing basic arithmetic operations with numbers. Comparison operators: such as less than \u003c, and greater than \u003e. Usually, they allow to comparing two operands, each of which could be a variable. The result of the comparison is either the Boolean value true or the Boolean value false. Logic operators: such as and , or, and not. This operator allows us to relate logical conditions together to create more complex statements. String operators: such union or concatenation of strings of characters. For example, we can use the plus symbol + to concatenate the strings “Hello” and the string “world” to produce the string “Hello world”. These operators allow us to manipulate strings. Writing or storing a value inside a variable. This can be performed by an assignment operation such as a = b. Variables in Flowcharts \u0026 Pseudocode The table below lists the flowchart blocks used to represent variables, as well as the corresponding pseudocode:\nOperation Flowchart Pseudocode Declare X = 0 Assign X = 5 Declare \u0026 Assign X = 5 Notice that variables must be assigned a value when declared in pseudocode. By default, most programming languages automatically assign the value $0$ to a new integer variable, so we’ll use that value in our pseudocode as well.\nLikewise, variables in a flowchart are given a type, whereas variables in pseudocode are not. Instead, the data type of those variables can be inferred by the values stored in them.\nVariables in Python Variables in Python are simply defined by giving them a value. The type of the variable in inferred from the data stored in it at any given time, and a variable’s type may change throughout the program as different values are assigned to it.\nTo define a variable, we can simply use an assignment statement to give it a value:\nx = 5 y = 3.5 Casting We can also convert, or cast, data between different types. When we do this, the results may vary a bit due to how computers store and calculate numbers. So, it is always best to fully test any code that casts data between data types to make sure it works as expected.\nTo cast, we can simply use the new type as a function and place the value to be converted in parentheses:\nx = 1.5 y = int(x) This will convert the floating point value stored in x to an integer value stored in y.",
     "description": "YouTube Video A variable in a programming language is an abstraction that allows storing one value in each instant of time, but this value can change along with the program execution. A variable can be represented as a box holding a value. If the variable is a container, e.g., a list (or array or vector), a matrix, a tuple, or a set of values, each box in the container contains a single value.",
@@ -1697,12 +1940,28 @@ var relearn_search_index = [
     "uri": "/cc310/xx-programming-by-contract-and-introduction-to-performance/7-performance-of-algorithms/"
   },
   {
+    "breadcrumb": "Trees",
+    "content": " YouTube Video When working with multidimensional data structures, we also need to consider how they would be stored in a linear manner. Remember, pieces of data in computers are linear sequences of binary digits. As a result, we need a standard way of storing trees as a linear structure.\nPath - a path is a sequence of nodes and edges, which connect a node with its descendant. We can look at some paths in the tree above:\nFrom Q to O: QRO From Q to Y: QWY From R to P: RP Traversal is a general term we use to describe going through a tree. The following traversals are defined recursively.\nPreorder Traversal Access the root, record its value. Run the preorder traversal each of the children YouTube Video The Pre refers to the root, meaning the root goes before the children. Remember: Root Children For the above tree, the preorder traversal could result in: QWYUERIOPTA Postorder Traversal Run the postorder traversal on each of the children Access the root, record its value YouTube Video The Post refers to the root, meaning the root goes after the children. Remember: Children Root For the above tree, the postorder traversal could result in: YUWEIOPRATQ When we talk about traversals for general trees we have used the phrase ’the traversal could result in’. We would like to expand on why ‘could’ is used here. Each of these general trees are the same but their traversals could be different. The key concept in this is that for a general tree, the children are an unordered set of nodes; they do not have a defined or fixed order. The relationships that are fixed are the parent/child relationships. Tree Preorder Postorder Tree 1 QWYUERIOPTA YUWEIOPRATQ Tree 2 QETARIOPWUY EATIOPRUYWQ Tree 3 QROPITAEWUY OPIRATEUYWQ ",
+    "description": "YouTube Video When working with multidimensional data structures, we also need to consider how they would be stored in a linear manner. Remember, pieces of data in computers are linear sequences of binary digits. As a result, we need a standard way of storing trees as a linear structure.\nPath - a path is a sequence of nodes and edges, which connect a node with its descendant. We can look at some paths in the tree above:",
+    "tags": [],
+    "title": "Terms III",
+    "uri": "/cc310/09-trees/07-terms-3/"
+  },
+  {
     "breadcrumb": "Lists",
     "content": "A queue (pronounced like the letter “q”) data structure organizes data in a First In, First Out (FIFO) order: the first piece of data put into the queue is the first piece of data available to remove from the queue. A queue functions just like the line you would get into to go into a ballgame, movie, or concert: the person that arrives first is the first to get into the venue.\n1\nYou might be thinking that this sounds a lot like the stack structure we studied a few modules back, with the exception that the stack was a Last in, First Out (LIFO) structure. If so, you are correct. The real difference between a stack and a queue is how we take data out of the data structure. In a stack, we put data onto the top of the stack and removed it from the top as well. With a queue, we put data onto the end (or rear) of the queue and remove it from the start (or front) of the queue.\nhttps://commons.wikimedia.org/w/index.php?title=Special:CiteThisPage\u0026page=File%3AReichstag_queue_2.JPG\u0026id=379395710\u0026wpFormIdentifier=titleform ↩︎",
     "description": "A queue (pronounced like the letter “q”) data structure organizes data in a First In, First Out (FIFO) order: the first piece of data put into the queue is the first piece of data available to remove from the queue. A queue functions just like the line you would get into to go into a ballgame, movie, or concert: the person that arrives first is the first to get into the venue.",
     "tags": [],
     "title": "What is a Queue?",
     "uri": "/cc310/04-list/07-queue-intro/"
+  },
+  {
+    "breadcrumb": "Trees",
+    "content": " YouTube Video A binary tree is a type of tree with some special conditions. First, it must follow the guidelines of being a tree:\nThere must be single root, each child node must have a single parent node, it must be fully connected (no disjoint parts), and there can be no cycles (no loops). The special conditions that we impose on binary trees are the following:\nEach node has at most 2 children (nodes can have 0, 1, or 2 children), and unlike general trees, the children in a binary tree are not an unordered set. The children must be ordered such that: all of the descendants in the left tree are less than the parent’s value, and all of the descendants in the right tree are greater than the parent’s value To reinforce these concepts, we will look at examples of binary trees and examples that are not binary trees.",
+    "description": "YouTube Video A binary tree is a type of tree with some special conditions. First, it must follow the guidelines of being a tree:\nThere must be single root, each child node must have a single parent node, it must be fully connected (no disjoint parts), and there can be no cycles (no loops). The special conditions that we impose on binary trees are the following:\nEach node has at most 2 children (nodes can have 0, 1, or 2 children), and unlike general trees, the children in a binary tree are not an unordered set.",
+    "tags": [],
+    "title": "Binary Tree",
+    "uri": "/cc310/09-trees/08-binary-trees/"
   },
   {
     "breadcrumb": "Recursion",
@@ -1777,6 +2036,14 @@ var relearn_search_index = [
     "uri": "/cc310/06-search-sort/08-sorting/"
   },
   {
+    "breadcrumb": "Trees",
+    "content": " YouTube Video Valid Binary Trees This is a valid binary tree. We have a single node, the root, with no children. As with general trees, binary trees are built recursively. Thus, each node and its child(ren) are trees themselves.\nThis is also a valid binary tree. All of the left children are less than their parent. The node with item ‘10’ is also in the correct position as it is less than 12, 13, and 14 but greater than 9.\nWe have the same nodes but our root is now 12 whereas before it was 14. This is also a valid binary tree.\nHere we have an example of a binary tree with alphabetical items. As long as we have items which have a predefined order, we can organize them using a binary tree.\nInvalid Binary Trees We may be inclined to say that this is a binary tree: each node has 0, 1, or 2 children and amongst children and parent nodes, the left child is smaller than the parent and the right child is greater than the parent. However, in binary trees, all of the nodes in the left tree must be smaller than the root and all of the nodes in the right tree must be larger than the root. In this tree, D is out of place. Node D is less than node T but it is also less than node Q. Thus, node D must be on the right of node Q.\nIn this case, we do not have a binary tree. This does fit all of the criteria for being a tree but not the criteria for a binary tree. Nodes in binary trees can have at most 2 children. Node 30 has three children.",
+    "description": "YouTube Video Valid Binary Trees This is a valid binary tree. We have a single node, the root, with no children. As with general trees, binary trees are built recursively. Thus, each node and its child(ren) are trees themselves.\nThis is also a valid binary tree. All of the left children are less than their parent. The node with item ‘10’ is also in the correct position as it is less than 12, 13, and 14 but greater than 9.",
+    "tags": [],
+    "title": "Binary Tree Examples",
+    "uri": "/cc310/09-trees/09-binary-examples/"
+  },
+  {
     "breadcrumb": "OOP Review",
     "content": " YouTube Video In programming, a class describes an individual entity or part of the program. In many cases, the class can be used to describe an actual thing, such as a person, a vehicle, or a game board, or a more abstract thing such as a set of rules for a game, or even an artificial intelligence engine for making business decisions.\nIn object-oriented programming, a class is the basic building block of a larger program. Typically each part of the program is contained within a class, representing either the main logic of the program or the individual entities or things that the program will use.\nRepresenting Classes in UML We can represent the contents of a class in a UML Class Diagram. Below is an example of a class called Person:\nThroughout the next few pages, we will realize the design of this class in code.\nCreating Classes in Python To create a class in Python, we can simply use the class keyword at the beginning of our file:\nclass Person: pass As we’ve already learned, each class declaration in Python includes these parts:\nclass - this keyword says that we are declaring a new class. Person - this is an identifier that gives us the name of the class we are declaring. Following the declaration, we see a colon : marking the start of a new block, inside of which will be all of the fields and methods stored in this class. We’ll need to indent all items inside of this class, just like we do with other blocks in Python.\nIn order for Python to allow this code to run, we cannot have an empty block inside of a class declaration. So, we can add the keyword pass to the block inside of the class so that it is not empty.\nBy convention, we would typically store this class in a file called Person.py.",
     "description": "YouTube Video In programming, a class describes an individual entity or part of the program. In many cases, the class can be used to describe an actual thing, such as a person, a vehicle, or a game board, or a more abstract thing such as a set of rules for a game, or even an artificial intelligence engine for making business decisions.\nIn object-oriented programming, a class is the basic building block of a larger program.",
@@ -1834,6 +2101,14 @@ var relearn_search_index = [
   },
   {
     "breadcrumb": "",
+    "content": "All about trees!",
+    "description": "All about trees!",
+    "tags": [],
+    "title": "Trees",
+    "uri": "/cc310/09-trees/"
+  },
+  {
+    "breadcrumb": "",
     "content": "Welcome! This page is the main page for Sets",
     "description": "Welcome! This page is the main page for Sets",
     "tags": [],
@@ -1855,6 +2130,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Attributes",
     "uri": "/cc310/02-oop-review/10-attributes/"
+  },
+  {
+    "breadcrumb": "Trees",
+    "content": " YouTube Video In the first module we discussed two types of traversals: preorder and postorder. Within that discussion, we noted that for general trees, the preorder and postorder traversal may not be unique. This was due to the fact that children nodes are an unordered set.\nInfo We are now working with binary trees which have a defined child order. As a result, the preorder and postorder traversals will be unique! These means that for a binary tree when we do a preorder traversal there is exactly one string that is possible. The same applies for postorder traversals as well.\nRecall that these were defined as such:\nPreorder Traversal (Remember: Root Children): Access the root Run the preorder traversal on the children Postorder Traversal (Remember: Children Root): Run the postorder traversal on the children Access the root. Now for binary trees, we can modify their definitions to be more explicit:\nPreorder Traversal (Remember: Root Left Right): Access the root Run the preorder traversal on the left child Run the preorder traversal on the right child Postorder Traversal (Remember: Left Right Root): Run the postorder traversal on the left child Run the postorder traversal on the right child Access the root. Let’s practice traversals on the following binary tree.\nPreorder Traversal Postorder Traversal ",
+    "description": "YouTube Video In the first module we discussed two types of traversals: preorder and postorder. Within that discussion, we noted that for general trees, the preorder and postorder traversal may not be unique. This was due to the fact that children nodes are an unordered set.\nInfo We are now working with binary trees which have a defined child order. As a result, the preorder and postorder traversals will be unique!",
+    "tags": [],
+    "title": "Binary Tree Traversals",
+    "uri": "/cc310/09-trees/10-binary-traversals/"
   },
   {
     "breadcrumb": "Introduction to Data Structures \u0026 Algorithms",
@@ -1913,6 +2196,14 @@ var relearn_search_index = [
     "uri": "/cc310/03-intro-dsa/11-algorithms/"
   },
   {
+    "breadcrumb": "Trees",
+    "content": " YouTube Video Since we have fixed order on the children, we can introduce another type of traversal: in-order traversal.\nIn-order Traversal:\nRun the in-order traversal on the left child Access the root, write its value Run the in-order traversal on the right child Remember: Left Root Right ",
+    "description": " YouTube Video Since we have fixed order on the children, we can introduce another type of traversal: in-order traversal.\nIn-order Traversal:\nRun the in-order traversal on the left child Access the root, write its value Run the in-order traversal on the right child Remember: Left Root Right ",
+    "tags": [],
+    "title": "In-Order Traversal",
+    "uri": "/cc310/09-trees/11-in-order/"
+  },
+  {
     "breadcrumb": "OOP Review",
     "content": " YouTube Video We can also add methods to our classes. These methods are used either to modify the attributes of the class or to perform actions based on the attributes stored in the class. Finally, we can even use those methods to perform actions on data provided as arguments. In essence, the sky is the limit with methods in classes, so we’ll be able to do just about anything we need to do in these methods. Let’s see how we can add methods to our classes.\nConstructors YouTube Video A constructor is a special method that is called whenever a new instance of a class is created. It is used to set the initial values of attributes in the class. We can even accept parameters as part of a constructor, and then use those parameters to populate attributes in the class.\nLet’s go back to the Person class example we’ve been working on and add a simple constructor to that class:\nclass Person: __last_name = \"Person\" __first_name = \"Test\" __age = 25 def __init__(self, last_name, first_name, age): self.__last_name = last_name self.__first_name = first_name self.__age = age Since the constructor is an instance method, we need to add a parameter to the function at the very beginning of our list of parameters, typically named self. This parameter is automatically added by Python whenever we call an instance method, and it is a reference to the current instance on which the method is being called. We’ll learn more about this later.\nInside that constructor, notice that we use each parameter to set the corresponding attribute, using the self keyword once again to refer to the current object.\nAlso, since we are now defining the attributes as instance attributes in the constructor, we can remove them from the class definition itself:\nclass Person: def __init__(self, last_name, first_name, age): self.__last_name = last_name self.__first_name = first_name self.__age = age Variable Scope We’ve already discussed variable scope earlier in this course. Recall that two different functions may use the same local variable names without affecting each other because they are in different scopes.\nThe same applies to classes. A class may have an attribute named age, but a method inside of the class may also use a local variable named age. Therefore, we must be careful to make sure that we access the correct variable, using the self reference if we intend to access the attribute’s value in the current instance. Here’s a short example:\nclass Test: age = 15 def foo(self): age = 12 print(age) # 12 print(self.age) # 15 def bar(self): print(self.age) # 15 print(age) # NameError As we can see, in the method foo() we must be careful to use self.age to refer to the attribute, since there is another variable named age declared in that method. However, in the method bar() we see that age itself causes a NameError since there is no other variable named age defined in that scope. We have to use self.age to reference the attribute.\nSo, we should always get in the habit of using self to refer to any attributes, just to avoid any unintended problems later on.\nProperties YouTube Video In Python, we can use a special decorator @property to define special methods, called getters and setters, that can be used to access and update the value of private attributes.\nGetter In Python, a getter method is a method that can be used to access the value of a private attribute. To mark a getter method, we use the @property decorator, as in the following example:\nclass Person: def __init__(self, last_name, first_name, age): self.__last_name = last_name self.__first_name = first_name self.__age = age @property def last_name(self): return self.__last_name @property def first_name(self): return self.__first_name @property def age(self): return self.__age Setter Similarly, we can create another method that can be used to update the value of the age attribute:\nclass Person: def __init__(self, last_name, first_name, age): self.__last_name = last_name self.__first_name = first_name self.__age = age @property def last_name(self): return self.__last_name @property def first_name(self): return self.__first_name @property def age(self): return self.__age @age.setter def age(self, value): self.__age = value However, this method is not required in the UML diagram, so we can omit it.\nAdding Methods To add a method to our class, we can simply add a function declaration inside of our class.\nclass Person: def __init__(self, last_name, first_name, age): self.__last_name = last_name self.__first_name = first_name self.__age = age @property def last_name(self): return self.__last_name @property def first_name(self): return self.__first_name @property def age(self): return self.__age def happy_birthday(self): self.__age = self.age + 1 Notice that once again we must remember to add the self parameter as the first parameter. This method will update the private age attribute by one year.\nInstantiation YouTube Video Now that we have fully constructed our class, we can use it elsewhere in our code through the process of instantiation. In Python, we can simply call the name of the class as a method to create a new instance, which calls the constructor, and then we can use dot-notation to access any attributes or methods inside of that object.\nfrom Person import * john = Person(\"Smith\", \"John\", 25) print(john.last_name) john.happy_birthday() Notice that we don’t have to provide a value for the self parameter when we use any methods. This parameter is added automatically by Python based on the value of the object we are calling the methods from.",
     "description": "YouTube Video We can also add methods to our classes. These methods are used either to modify the attributes of the class or to perform actions based on the attributes stored in the class. Finally, we can even use those methods to perform actions on data provided as arguments. In essence, the sky is the limit with methods in classes, so we’ll be able to do just about anything we need to do in these methods.",
@@ -1959,6 +2250,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Variable Roles",
     "uri": "/cc310/01-review/10-variable-roles/"
+  },
+  {
+    "breadcrumb": "Trees",
+    "content": "\nWhile this is a valid binary tree, it is not balanced. Let’s look at the following tree.\nWe have the same nodes but our root is now 12 whereas before it was 14. This is a valid binary tree. We call this a balanced binary tree. A balanced binary tree looks visually even amongst the left and right trees in terms of number of nodes.\nNote: Balancing is not necessary for a valid binary tree. It is, however, important in terms of time efficiency to have a balanced tree. For example, the number of actions when inserting an element is about the same as the number of levels in the tree. If we tried to add the value 11 into the unbalanced tree, we would traverse 5 nodes. If we tried to add the value 11 in to the balanced tree, we would traverse just 3 nodes.\nWe believe that balancing binary trees is out of the scope of this course. If you are interested in how we might balance a tree, feel free to check out these videos by Dr. Joshua Weese.\nYouTube Video YouTube Video ",
+    "description": "While this is a valid binary tree, it is not balanced. Let’s look at the following tree.\nWe have the same nodes but our root is now 12 whereas before it was 14. This is a valid binary tree. We call this a balanced binary tree. A balanced binary tree looks visually even amongst the left and right trees in terms of number of nodes.\nNote: Balancing is not necessary for a valid binary tree.",
+    "tags": [],
+    "title": "Balance",
+    "uri": "/cc310/09-trees/12-balancing/"
   },
   {
     "breadcrumb": "Introduction to Data Structures \u0026 Algorithms",
@@ -2071,6 +2370,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Static and Abstract",
     "uri": "/cc310/02-oop-review/13-static-abstract/"
+  },
+  {
+    "breadcrumb": "Trees",
+    "content": "In this module we have introduce vocabulary related to trees and what makes a tree a tree. To recap, we have introduced the following:\nChild - a node with an edge that connects to another node closer to the root. Degree Degree of a node - the number of children a node has. The degree of a leaf is zero. Degree of a tree - the number of children the root of the tree has. Edge - connection between two nodes. In a tree, the edge will be pointing in a downward direction. Leaf - a node with no children. Node - the general term for a structure which contains an item, such as a character or even another data structure. Parent - a node with an edge that connects to another node further from the root. We can also define the root of a tree with respect to this definition; Root - the topmost node of the tree; a node with no parent. Now we will work on creating our own implementation of a tree. These definitions will serve as a resource to us when we need refreshing on meanings; feel free to refer back to them as needed.\nWe discussed more terminology related to trees as well as tree traversals. To recap the new vocabulary:\nAncestor - The ancestors of a node are those reached from child to parent relationships. We can think of this as our parents and the parents of our parents, and so on. Depth - The depth of a node is its distance to the root. Thus, the root has depth zero. Level and depth are related in that: level = 1 + depth. Descendant - The descendants of a node are those reached from parent to child relationships. We can think of this as our children and our children’s children and so on. Height of a Node - The height of a node is the longest path to a leaf descendant. The height of a leaf is zero. Height of a Tree - The height of a tree is equal to the height of the root. Level - The level of a node characterizes the distance the node is from the root. The root of the tree is considered level 1. As you move away from the tree, the level increases by one. Path - a sequence of nodes and edges which connect a node with its descendant. Siblings - Nodes which share the same parent Traversal is a general term we use to describe going through a tree. The following traversals are defined recursively. Preorder Traversal (Remember: Root Children or Root Left Right): Access the root Run the preorder traversal on the children Postorder Traversal (Remember: Children Root or Left Right Root): Run the postorder traversal on the children Access the root. Inorder Traversal on Binary Trees (Remember: Left Root Right) ",
+    "description": "In this module we have introduce vocabulary related to trees and what makes a tree a tree. To recap, we have introduced the following:\nChild - a node with an edge that connects to another node closer to the root. Degree Degree of a node - the number of children a node has. The degree of a leaf is zero. Degree of a tree - the number of children the root of the tree has.",
+    "tags": [],
+    "title": "Summary",
+    "uri": "/cc310/09-trees/13-summary/"
   },
   {
     "breadcrumb": "Lists",

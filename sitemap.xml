@@ -1018,6 +1018,201 @@
 
   
 	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 	  
 
@@ -1114,6 +1309,10 @@
     <lastmod>2024-06-29T09:30:52-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/01-tree-intro/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/01-oop/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
@@ -1160,6 +1359,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/02-functions/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/02-general-terms/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/02-hash-table-code/</loc>
@@ -1226,6 +1429,10 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/03-what-makes-tree/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/02-navigating-canvas-codio/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
@@ -1270,6 +1477,10 @@
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/04-tree-operations/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/04-tuples/</loc>
     <lastmod>2024-06-29T16:03:19-05:00</lastmod>
   </url>
@@ -1304,6 +1515,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/05-sets/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/05-terms-1/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/05-recursion/05-tree-recursion/</loc>
@@ -1358,6 +1573,10 @@
     <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/06-terms-2/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/01-review/06-variables/</loc>
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
@@ -1398,8 +1617,16 @@
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/07-terms-3/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/07-queue-intro/</loc>
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/08-binary-trees/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/05-recursion/08-recusion-to-iteration/</loc>
@@ -1438,6 +1665,10 @@
     <lastmod>2024-06-29T14:21:25-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/09-binary-examples/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/09-classes/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
@@ -1466,6 +1697,10 @@
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/xx-sets/</loc>
     <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
@@ -1476,6 +1711,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/10-attributes/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/10-binary-traversals/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/10-heaps/</loc>
@@ -1506,6 +1745,10 @@
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/11-in-order/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/11-methods/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
@@ -1528,6 +1771,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/01-review/10-variable-roles/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/12-balancing/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/12-brute-force/</loc>
@@ -1584,6 +1831,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/13-static-abstract/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/13-summary/</loc>
+    <lastmod>2024-07-01T16:38:34-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/13-list-intro/</loc>

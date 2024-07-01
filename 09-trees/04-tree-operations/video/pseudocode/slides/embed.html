@@ -1,0 +1,171 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="/cc310/reveal/dist/reset.css">
+		<link rel="stylesheet" href="/cc310/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="/cc310/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="/cc310/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="/cc310/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+<img class="stretch plain" src="/images/0/core-logo-on-white.png">
+<h3> Module 2 <br> Trees <br> Pseudocode </h3>
+<hr style="height:15px;color:512888;background-color:512888;">
+<h4>CC315</h4>
+</section>
+<section>
+<img class="stretch plain" src="/images/14/315trees_uml.png">
+</section>
+<section>
+<h3> Attributes </h3>
+<ul>
+<li> Item </li>
+<li> Parent </li>
+<li> Children</li>
+</ul>
+</section>
+<section>
+<h3> Example </h3>
+<div style="float:left;width:49%">
+<small>
+<table>
+<thead>
+<tr>
+<th>Node</th>
+<th>parent</th>
+<th>children</th>
+<th>item</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>None</td>
+<td>{B, C}</td>
+<td>A</td>
+</tr>
+<tr>
+<td>B</td>
+<td>A</td>
+<td>{}</td>
+<td>B</td>
+</tr>
+<tr>
+<td>C</td>
+<td>A</td>
+<td>{D, E}</td>
+<td>C</td>
+</tr>
+<tr>
+<td>D</td>
+<td>C</td>
+<td>{}</td>
+<td>D</td>
+</tr>
+<tr>
+<td>E</td>
+<td>C</td>
+<td>{}</td>
+<td>E</td>
+</tr>
+<tr>
+<td>F</td>
+<td>None</td>
+<td>{}</td>
+<td>F</td>
+</tr>
+</tbody>
+</table>
+</small>
+ </div>
+ <div style="width:49%;float:right">
+<img class="stretch plain" style="height:500px"src="/images/14/315_2.4_code_ex.svg">
+</div>
+</section>
+<section>
+<h3> Initialization </h3>
+<div style="float:top">
+<pre class="" style="font-size: .3em; width: 30%"><code class="java">
+    MyTree foo = MyTree('13')
+ </code></pre>
+ </div>
+<div style="float:bottom">
+<img class="stretch plain" src="/images/14/315_2.4_code_init.svg">
+<div>
+</section>
+<section>
+<h3>Getters</h3>
+<ul>
+<li>getItem <br/>returns the item</li>
+<li>getParent <br/>returns the parent</li>
+<li>getChildren <br/>returns the children</li>
+</ul>
+</section>
+<section>
+<h3>Basic Functions</h3>
+<ul>
+<li>isRoot<br/> returns true if this is the root</li>
+<li>isLeaf<br/> returns true if this is a leaf</li>
+</ul>
+</section>
+<section>
+<h3>Basic Functions</h3>
+<ul>
+<li>getDegree <br/> returns the degree of this node</li>
+<li>findChild(value) <br/> returns the child with the input value </li>
+</ul>
+</section>
+<section>
+<img class="stretch plain" src="/images/14/315trees_uml.png">
+</section>
+
+			</div>
+		</div>
+
+		<script src="/cc310/reveal/dist/reveal.js"></script>
+		<script src="/cc310/reveal/plugin/markdown/markdown.js"></script>
+		<script src="/cc310/reveal/plugin/highlight/highlight.js"></script>
+		<script src="/cc310/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

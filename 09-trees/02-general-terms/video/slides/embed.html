@@ -1,0 +1,94 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="/cc310/reveal/dist/reset.css">
+		<link rel="stylesheet" href="/cc310/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="/cc310/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="/cc310/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="/cc310/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+<img class="stretch plain" src="/images/0/core-logo-on-white.png">
+<h3> Module 2 <br> Trees <br> Terms and Examples</h3>
+<hr style="height:15px;color:512888;background-color:512888;">
+<h4>CC315</h4>
+</section>
+<section>
+<h3>Tree Terms</h3>
+<img class="stretch plain" src="/images/14/315_treeterms_base.svg">
+</section>
+<section>
+<h3>Nodes</h3>
+<img class="stretch plain" src="/images/14/315_treeterms_nodes.svg">
+</section>
+<section>
+<h3>Edges</h3>
+<img class="stretch plain" src="/images/14/315_treeterms_base.svg">
+</section>
+<section>
+<h3>Root</h3>
+<img class="stretch plain" src="/images/14/315_treeterms_root.svg">
+</section>
+<section>
+<h3>Leaves</h3>
+<img class="stretch plain" src="/images/14/315_treeterms_leaves.svg">
+</section>
+<section>
+<h3>Degree</h3>
+<img class="stretch plain" src="/images/14/315_treeterms_degree.gif">
+</section>
+<section>
+<h3>Recursive</h3>
+<img class="stretch plain" src="/images/14/315_treeterms_recursive.svg">
+</section>
+
+			</div>
+		</div>
+
+		<script src="/cc310/reveal/dist/reveal.js"></script>
+		<script src="/cc310/reveal/plugin/markdown/markdown.js"></script>
+		<script src="/cc310/reveal/plugin/highlight/highlight.js"></script>
+		<script src="/cc310/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>
