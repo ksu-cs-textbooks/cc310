@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="325" height="350" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="134.5" cy="61.5" rx="30" ry="30"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="134.5" cy="140.5" rx="30" ry="30"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="62.5" cy="224.5" rx="30" ry="30"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="134.5" cy="224.5" rx="30" ry="30"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="204.5" cy="224.5" rx="30" ry="30"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="134.5" cy="308.5" rx="30" ry="30"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="204.5" cy="308.5" rx="30" ry="30"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="278.5" cy="308.5" rx="30" ry="30"/>
+	<polygon stroke="black" stroke-width="1" points="134.5,91.5 134.5,110.5"/>
+	<polygon fill="black" stroke-width="1" points="134.5,110.5 139.5,102.5 129.5,102.5"/>
+	<polygon stroke="black" stroke-width="1" points="114.976,163.278 82.024,201.722"/>
+	<polygon fill="black" stroke-width="1" points="82.024,201.722 91.026,198.902 83.434,192.394"/>
+	<polygon stroke="black" stroke-width="1" points="134.5,170.5 134.5,194.5"/>
+	<polygon fill="black" stroke-width="1" points="134.5,194.5 139.5,186.5 129.5,186.5"/>
+	<polygon stroke="black" stroke-width="1" points="153.706,163.547 185.294,201.453"/>
+	<polygon fill="black" stroke-width="1" points="185.294,201.453 184.014,192.107 176.332,198.509"/>
+	<polygon stroke="black" stroke-width="1" points="185.294,247.547 153.706,285.453"/>
+	<polygon fill="black" stroke-width="1" points="153.706,285.453 162.668,282.509 154.986,276.107"/>
+	<polygon stroke="black" stroke-width="1" points="204.5,254.5 204.5,278.5"/>
+	<polygon fill="black" stroke-width="1" points="204.5,278.5 209.5,270.5 199.5,270.5"/>
+	<polygon stroke="black" stroke-width="1" points="224.331,247.011 258.669,285.989"/>
+	<polygon fill="black" stroke-width="1" points="258.669,285.989 257.133,276.681 249.629,283.292"/>
+	<path stroke="black" stroke-width="1" fill="none" d="M 164.248,143.958 A 147.503,147.503 0 0 1 279.632,278.573"/>
+	<polygon fill="black" stroke-width="1" points="164.248,143.958 170.981,150.566 173.138,140.801"/>
+</svg>

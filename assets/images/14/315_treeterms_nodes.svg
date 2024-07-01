@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="315_treeterms_nodes.svg"
+   id="svg1192"
+   version="1.1"
+   height="400"
+   width="300">
+  <metadata
+     id="metadata1198">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1196" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg1192"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="40"
+     inkscape:cy="200"
+     inkscape:cx="150"
+     inkscape:zoom="1.8825"
+     showgrid="false"
+     id="namedview1194"
+     inkscape:window-height="983"
+     inkscape:window-width="1444"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <ellipse
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4,2,1,2;stroke-dashoffset:0"
+     id="ellipse1116"
+     ry="30"
+     rx="30"
+     cy="33.5"
+     cx="132.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text1118"
+     font-size="20"
+     font-family="Times New Roman"
+     y="39.5"
+     x="125.5">A</text>
+  <ellipse
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4,2,1,2;stroke-dashoffset:0"
+     id="ellipse1120"
+     ry="30"
+     rx="30"
+     cy="121.5"
+     cx="47.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text1122"
+     font-size="20"
+     font-family="Times New Roman"
+     y="127.5"
+     x="40.5">B</text>
+  <ellipse
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4,2,1,2;stroke-dashoffset:0"
+     id="ellipse1124"
+     ry="30"
+     rx="30"
+     cy="121.5"
+     cx="132.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text1126"
+     font-size="20"
+     font-family="Times New Roman"
+     y="127.5"
+     x="125.5">C</text>
+  <ellipse
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4,2,1,2;stroke-dashoffset:0"
+     id="ellipse1128"
+     ry="30"
+     rx="30"
+     cy="121.5"
+     cx="204.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text1130"
+     font-size="20"
+     font-family="Times New Roman"
+     y="127.5"
+     x="197.5">D</text>
+  <ellipse
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4,2,1,2;stroke-dashoffset:0"
+     id="ellipse1132"
+     ry="30"
+     rx="30"
+     cy="233.5"
+     cx="35.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text1134"
+     font-size="20"
+     font-family="Times New Roman"
+     y="239.5"
+     x="29.5">E</text>
+  <ellipse
+    style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4,2,1,2;stroke-dashoffset:0"
+     id="ellipse1136"
+     ry="30"
+     rx="30"
+     cy="233.5"
+     cx="98.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text1138"
+     font-size="20"
+     font-family="Times New Roman"
+     y="239.5"
+     x="92.5">F</text>
+  <ellipse
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4,2,1,2;stroke-dashoffset:0"
+     id="ellipse1140"
+     ry="30"
+     rx="30"
+     cy="233.5"
+     cx="172.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text1142"
+     font-size="20"
+     font-family="Times New Roman"
+     y="239.5"
+     x="165.5">G</text>
+  <ellipse
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4,2,1,2;stroke-dashoffset:0"
+     id="ellipse1144"
+     ry="30"
+     rx="30"
+     cy="334.5"
+     cx="120.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text1146"
+     font-size="20"
+     font-family="Times New Roman"
+     y="340.5"
+     x="113.5">H</text>
+  <ellipse
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4,2,1,2;stroke-dashoffset:0"
+     id="ellipse1148"
+     ry="30"
+     rx="30"
+     cy="334.5"
+     cx="180.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text1150"
+     font-size="20"
+     font-family="Times New Roman"
+     y="340.5"
+     x="177.5">I</text>
+  <ellipse
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4,2,1,2;stroke-dashoffset:0"
+     id="ellipse1152"
+     ry="30"
+     rx="30"
+     cy="334.5"
+     cx="240.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text1154"
+     font-size="20"
+     font-family="Times New Roman"
+     y="340.5"
+     x="236.5">J</text>
+  <polygon
+     id="polygon1156"
+     points="111.658,55.078 68.342,99.922"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1158"
+     points="68.342,99.922 77.496,97.642 70.304,90.694"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1160"
+     points="132.5,63.5 132.5,91.5"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1162"
+     points="132.5,91.5 137.5,83.5 127.5,83.5"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1164"
+     points="151.497,56.719 185.503,98.281"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1166"
+     points="185.503,98.281 184.307,88.923 176.567,95.256"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1168"
+     points="44.304,151.329 38.696,203.671"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1170"
+     points="38.696,203.671 44.52,196.249 34.577,195.184"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1172"
+     points="123.786,150.206 107.214,204.794"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1174"
+     points="107.214,204.794 114.323,198.591 104.754,195.686"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1176"
+     points="142.59,149.752 162.41,205.248"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1178"
+     points="162.41,205.248 164.428,196.032 155.011,199.395"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1180"
+     points="158.768,260.172 134.232,307.828"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1182"
+     points="134.232,307.828 142.34,303.004 133.449,298.426"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1184"
+     points="174.869,263.406 178.131,304.594"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1186"
+     points="178.131,304.594 182.484,296.224 172.515,297.013"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon1188"
+     points="189.255,258.385 223.745,309.615"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon1190"
+     points="223.745,309.615 223.425,300.186 215.13,305.771"
+     stroke-width="1"
+     fill="black" />
+</svg>

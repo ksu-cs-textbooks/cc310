@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="4Trie_TrueWord.svg"
+   id="svg2389"
+   version="1.1"
+   height="475"
+   width="700">
+  <metadata
+     id="metadata2395">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2393" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg2389"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="44"
+     inkscape:cy="299.20319"
+     inkscape:cx="367.33068"
+     inkscape:zoom="1.255"
+     showgrid="false"
+     id="namedview2391"
+     inkscape:window-height="969"
+     inkscape:window-width="1528"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <ellipse
+     id="ellipse2219"
+     ry="30"
+     rx="30"
+     cy="38.5"
+     cx="365.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2221"
+     ry="30"
+     rx="30"
+     cy="99.5"
+     cx="141.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     style="fill:#000000;"
+     id="text2223"
+     font-size="20"
+     font-family="Times New Roman"
+     y="105.5"
+     x="137.5">a</text>
+  <ellipse
+     id="ellipse2225"
+     ry="30"
+     rx="30"
+     cy="93.5"
+     cx="587.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2227"
+     font-size="20"
+     font-family="Times New Roman"
+     y="99.5"
+     x="582.5">b</text>
+  <ellipse
+     id="ellipse2229"
+     ry="30"
+     rx="30"
+     cy="118.5"
+     cx="365.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2231"
+     font-size="20"
+     font-family="Times New Roman"
+     y="124.5"
+     x="361.5">c</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2233"
+     ry="30"
+     rx="30"
+     cy="188.5"
+     cx="49.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2235"
+     font-size="20"
+     font-family="Times New Roman"
+     y="194.5"
+     x="46.5">t</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2237"
+     ry="30"
+     rx="30"
+     cy="188.5"
+     cx="129.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2239"
+     font-size="20"
+     font-family="Times New Roman"
+     y="194.5"
+     x="124.5">n</text>
+  <ellipse
+     id="ellipse2241"
+     ry="30"
+     rx="30"
+     cy="187.5"
+     cx="218.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2243"
+     font-size="20"
+     font-family="Times New Roman"
+     y="193.5"
+     x="213.5">p</text>
+  <ellipse
+     id="ellipse2245"
+     ry="30"
+     rx="30"
+     cy="188.5"
+     cx="332.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2247"
+     font-size="20"
+     font-family="Times New Roman"
+     y="194.5"
+     x="328.5">a</text>
+  <ellipse
+     id="ellipse2249"
+     ry="30"
+     rx="30"
+     cy="188.5"
+     cx="430.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2251"
+     font-size="20"
+     font-family="Times New Roman"
+     y="194.5"
+     x="425.5">u</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2253"
+     ry="30"
+     rx="30"
+     cy="165.5"
+     cx="549.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2255"
+     font-size="20"
+     font-family="Times New Roman"
+     y="171.5"
+     x="544.5">y</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2257"
+     ry="30"
+     rx="30"
+     cy="165.5"
+     cx="668.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2259"
+     font-size="20"
+     font-family="Times New Roman"
+     y="171.5"
+     x="664.5">e</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2261"
+     ry="30"
+     rx="30"
+     cy="250.5"
+     cx="668.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2263"
+     font-size="20"
+     font-family="Times New Roman"
+     y="256.5"
+     x="664.5">e</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2265"
+     ry="30"
+     rx="30"
+     cy="331.5"
+     cx="668.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2267"
+     font-size="20"
+     font-family="Times New Roman"
+     y="337.5"
+     x="663.5">n</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2269"
+     ry="30"
+     rx="30"
+     cy="274.5"
+     cx="38.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2271"
+     font-size="20"
+     font-family="Times New Roman"
+     y="280.5"
+     x="34.5">e</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2273"
+     ry="30"
+     rx="30"
+     cy="274.5"
+     cx="102.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2275"
+     font-size="20"
+     font-family="Times New Roman"
+     y="280.5"
+     x="97.5">d</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2277"
+     ry="30"
+     rx="30"
+     cy="274.5"
+     cx="169.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2279"
+     font-size="20"
+     font-family="Times New Roman"
+     y="280.5"
+     x="166.5">t</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2281"
+     ry="30"
+     rx="30"
+     cy="274.5"
+     cx="228.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2283"
+     font-size="20"
+     font-family="Times New Roman"
+     y="280.5"
+     x="223.5">p</text>
+  <ellipse
+     id="ellipse2285"
+     ry="30"
+     rx="30"
+     cy="350.5"
+     cx="228.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2287"
+     font-size="20"
+     font-family="Times New Roman"
+     y="356.5"
+     x="225.5">l</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2289"
+     ry="30"
+     rx="30"
+     cy="436.5"
+     cx="228.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2291"
+     font-size="20"
+     font-family="Times New Roman"
+     y="442.5"
+     x="224.5">e</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2293"
+     ry="30"
+     rx="30"
+     cy="257.5"
+     cx="294.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2295"
+     font-size="20"
+     font-family="Times New Roman"
+     y="263.5"
+     x="291.5">t</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2297"
+     ry="30"
+     rx="30"
+     cy="257.5"
+     cx="380.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2299"
+     font-size="20"
+     font-family="Times New Roman"
+     y="263.5"
+     x="375.5">n</text>
+  <ellipse
+     style="fill:#00ff00"
+     id="ellipse2301"
+     ry="30"
+     rx="30"
+     cy="257.5"
+     cx="474.5"
+     fill="none"
+     stroke-width="1"
+     stroke="black" />
+  <text
+     id="text2303"
+     font-size="20"
+     font-family="Times New Roman"
+     y="263.5"
+     x="469.5">p</text>
+  <polygon
+     id="polygon2305"
+     points="336.554,46.383 170.446,91.617"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2307"
+     points="170.446,91.617 179.479,94.34 176.851,84.691"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2309"
+     points="365.5,68.5 365.5,88.5"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2311"
+     points="365.5,88.5 370.5,80.5 360.5,80.5"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2313"
+     points="394.62,45.714 558.38,86.286"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2315"
+     points="558.38,86.286 551.818,79.509 549.413,89.215"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2317"
+     points="119.938,120.359 71.062,167.641"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2319"
+     points="71.062,167.641 80.288,165.673 73.335,158.485"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2321"
+     points="137.491,129.231 133.509,158.769"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2323"
+     points="133.509,158.769 139.533,151.509 129.622,150.173"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2325"
+     points="161.255,122.077 198.745,164.923"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2327"
+     points="198.745,164.923 197.24,155.61 189.714,162.195"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2329"
+     points="45.694,218.258 42.306,244.742"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2331"
+     points="42.306,244.742 48.281,237.441 38.362,236.173"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2333"
+     points="120.514,217.123 111.486,245.877"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2335"
+     points="111.486,245.877 118.653,239.742 109.112,236.747"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2337"
+     points="142.152,215.702 156.848,247.298"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2339"
+     points="156.848,247.298 158.008,237.936 148.941,242.153"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2341"
+     points="221.926,217.304 225.074,244.696"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2343"
+     points="225.074,244.696 229.128,236.178 219.193,237.32"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2345"
+     points="228.5,304.5 228.5,320.5"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2347"
+     points="228.5,320.5 233.5,312.5 223.5,312.5"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2349"
+     points="228.5,380.5 228.5,406.5"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2351"
+     points="228.5,406.5 233.5,398.5 223.5,398.5"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2353"
+     points="352.707,145.636 345.293,161.364"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2355"
+     points="345.293,161.364 353.227,156.26 344.181,151.996"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2357"
+     points="385.914,140.484 410.086,166.516"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2359"
+     points="410.086,166.516 408.307,157.252 400.979,164.056"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2361"
+     points="318.028,214.778 308.972,231.222"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2363"
+     points="308.972,231.222 317.211,226.626 308.452,221.802"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2365"
+     points="349.632,213.127 363.368,232.873"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2367"
+     points="363.368,232.873 362.904,223.45 354.695,229.161"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2369"
+     points="446.63,213.795 458.37,232.205"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2371"
+     points="458.37,232.205 458.284,222.772 449.853,228.148"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2373"
+     points="573.497,120.032 563.503,138.968"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2375"
+     points="563.503,138.968 571.659,134.227 562.815,129.56"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2377"
+     points="609.922,113.431 646.078,145.569"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2379"
+     points="646.078,145.569 643.42,136.517 636.777,143.991"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2381"
+     points="668.5,195.5 668.5,220.5"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2383"
+     points="668.5,220.5 673.5,212.5 663.5,212.5"
+     stroke-width="1"
+     fill="black" />
+  <polygon
+     id="polygon2385"
+     points="668.5,280.5 668.5,301.5"
+     stroke-width="1"
+     stroke="black" />
+  <polygon
+     id="polygon2387"
+     points="668.5,301.5 673.5,293.5 663.5,293.5"
+     stroke-width="1"
+     fill="black" />
+</svg>

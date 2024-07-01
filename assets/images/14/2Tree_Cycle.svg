@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="400" height="280" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="195.5" cy="72.5" rx="30" ry="30"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="137.5" cy="143.5" rx="30" ry="30"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="252.5" cy="143.5" rx="30" ry="30"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="195.5" cy="218.5" rx="30" ry="30"/>
+	<polygon stroke="black" stroke-width="1" points="176.521,95.733 156.479,120.267"/>
+	<polygon fill="black" stroke-width="1" points="156.479,120.267 165.413,117.234 157.668,110.908"/>
+	<polygon stroke="black" stroke-width="1" points="214.281,95.894 233.719,120.106"/>
+	<polygon fill="black" stroke-width="1" points="233.719,120.106 232.61,110.738 224.812,116.998"/>
+	<polygon stroke="black" stroke-width="1" points="155.852,167.232 177.148,194.768"/>
+	<polygon fill="black" stroke-width="1" points="177.148,194.768 176.209,185.381 168.298,191.499"/>
+	<polygon stroke="black" stroke-width="1" points="234.348,167.385 213.652,194.615"/>
+	<polygon fill="black" stroke-width="1" points="213.652,194.615 222.474,191.271 214.512,185.22"/>
+</svg>
