@@ -1325,17 +1325,17 @@ In CC 310 we covered various data structures: stacks, sets, lists, queues, and h
     <link href="/cc310/08-perf-string/10-string-builder/index.xml" rel="alternate" type="application/rss+xml" title="String Builder :: CC 310 Textbook">
     <link href="/cc310/08-perf-string/10-string-builder/index.print.html" rel="alternate" type="text/html" title="String Builder :: CC 310 Textbook">
     <link href="/cc310/08-perf-string/10-string-builder/embed.html" rel="alternate" type="text/html" title="String Builder :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719869972" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719869972" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719869972" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719869972" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719869972" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719869972" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719869972" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719869972" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719869972" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719869972" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719869972" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719869972" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719869972" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719869972"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719877284" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719877284" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719877284" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719877284" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719877284" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719877284" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719877284" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719877284" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719877284" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719877284" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719877284" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719877284" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719877284" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719877284"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1355,7 +1355,7 @@ In CC 310 we covered various data structures: stacks, sets, lists, queues, and h
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719869972" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719877284" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc310/08-perf-string/10-string-builder/">
     
@@ -1393,8 +1393,8 @@ In CC 310 we covered various data structures: stacks, sets, lists, queues, and h
 <p>We begin this course with an often overlooked structure: strings. By the end of this chapter, we will understand how strings are data structures, how we access elements, what types of tasks are appropriate for strings, and how we can improve on strings in our code.</p>
 <h2 id="motivation">Motivation</h2>
 <p>In many data science positions, programmers often work with text-based data. Some examples of text-based data include biology for DNA sequencing, social media for sentiment classification, online libraries for citation networks, and many other types of businesses for data analytics. Currently, strings are often used for word embeddings, which determine how similar or dissimilar words are to one another. An industry leading software for this application is Tensorflow for Python, which generated the image below.</p>
-<p><a href="#R-image-bb49fa06f9ea38115a624dd1c3980cad" class="lightbox-link"><img alt="Word Embeddings Near &lsquo;Python&rsquo;" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/13/1_word_embedding.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-bb49fa06f9ea38115a624dd1c3980cad"><img alt="Word Embeddings Near &lsquo;Python&rsquo;" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/13/1_word_embedding.png"></a></p>
+<p><a href="#R-image-5fd3870cf19ad03bc42ecd18d6d7610b" class="lightbox-link"><img alt="Word Embeddings Near &lsquo;Python&rsquo;" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/13/1_word_embedding.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5fd3870cf19ad03bc42ecd18d6d7610b"><img alt="Word Embeddings Near &lsquo;Python&rsquo;" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/13/1_word_embedding.png"></a></p>
 <!--- https://projector.tensorflow.org/ I generated and took this screen shot. --->
 <p>In an immense oversimplification, the process used for word embeddings is to read in a large amount of text and then use machine learning algorithms to determine similarity by using the words around each word. This impacts general users like us in search engines, streaming services, dating applications, and much more! For example, if you were to search Python topics in your search results may appear referring to the coding language, the reptile, the comedy troupe, and many more. When we use machine learning to determine word meanings, it is important that the data is first parsed correctly and stored in efficient ways so that we can access elements as needed. Understanding how to work with strings and problems that can arise with them is important to utilizing text successfully.</p>
 <p>Reference: <a href="https://projector.tensorflow.org/" rel="external" target="_blank">https://projector.tensorflow.org/</a></p>
@@ -1415,11 +1415,11 @@ In CC 310 we covered various data structures: stacks, sets, lists, queues, and h
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719869972" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719869972" defer></script>
-<script src="/cc310/js/theme.js?1719869972" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719877284" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719877284" defer></script>
+<script src="/cc310/js/theme.js?1719877284" defer></script>
 
-<script src="/cc310/js/tele-scroll.js?1719869972" defer></script>
+<script src="/cc310/js/tele-scroll.js?1719877284" defer></script>
 
 </body>
 </html>

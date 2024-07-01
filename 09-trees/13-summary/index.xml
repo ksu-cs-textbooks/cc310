@@ -1295,7 +1295,7 @@
   <channel>
     <title>Summary :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/13-summary/</link>
-    <description>In this module we have introduce vocabulary related to trees and what makes a tree a tree. To recap, we have introduced the following:&#xA;Child - a node with an edge that connects to another node closer to the root. Degree Degree of a node - the number of children a node has. The degree of a leaf is zero. Degree of a tree - the number of children the root of the tree has.</description>
+    <description>In this module we have introduce vocabulary related to trees and what makes a tree a tree. To recap, we have introduced the following:&#xA;Child - a node with an edge that connects to another node closer to the root. Degree Degree of a node - the number of children a node has. The degree of a leaf is zero. Degree of a tree - the degree of an entire tree is the largest degree of any node found in the tree.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/13-summary/index.xml" rel="self" type="application/rss+xml" />

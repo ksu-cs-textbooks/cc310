@@ -1331,18 +1331,18 @@ In this animation, the element highlighted in blue is the element currently bein
     <link href="/cc310/06-search-sort/09-selection/index.xml" rel="alternate" type="application/rss+xml" title="Selection Sort :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/09-selection/tele.html" rel="alternate" type="text/html" title="Selection Sort :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/09-selection/embed.html" rel="alternate" type="text/html" title="Selection Sort :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719869967" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719869967" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719869967" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719869967" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719869967" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719869967" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719869967" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719869967" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719869967" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719869967" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719869967" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719869967" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719869967" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1719869967" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1719869967"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719877279" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719877279" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719877279" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719877279" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719877279" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719877279" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719877279" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719877279" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719877279" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719877279" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719877279" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719877279" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719877279" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1719877279" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1719877279"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1362,7 +1362,7 @@ In this animation, the element highlighted in blue is the element currently bein
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719869967" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719877279" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/06-search-sort/09-selection/">
     <div id="R-body" class="default-animation">
@@ -1400,28 +1400,28 @@ In this animation, the element highlighted in blue is the element currently bein
 
 <p>The first sorting algorithm we&rsquo;ll learn about is <em>selection sort</em>. The basic idea behind selection sort is to search for the minimum value in the whole container, and place it in the first index. Then, repeat the process for the second smallest value and the second index, and so on until the container is sorted.</p>
 <p>Wikipedia includes a great animation that shows this process:</p>
-<p><a href="#R-image-031fcdb5d141c6adf88baad61b519e8f" class="lightbox-link"><img alt="Selection Sort GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.selection.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-031fcdb5d141c6adf88baad61b519e8f"><img alt="Selection Sort GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.selection.gif"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-084e4fe55d8608860bf8578d1798c591" class="lightbox-link"><img alt="Selection Sort GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.selection.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-084e4fe55d8608860bf8578d1798c591"><img alt="Selection Sort GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.selection.gif"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In this animation, the element highlighted in blue is the element currently being considered. The red element shows the value that is the minimum value considered, and the yellow elements are the sorted portion of the list.</p>
 <h2 id="selection-sort-example">Selection Sort Example</h2>
 <p>Let&rsquo;s look at a few steps in this process to see how it works. First, the algorithm will search through the array to find the minimum value. It will start by looking at index 0 as shown in the figure below.</p>
-<p><a href="#R-image-2eb370ce85f017cd25b2373c1f826591" class="lightbox-link"><img alt="Selection Sort Step 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.select1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2eb370ce85f017cd25b2373c1f826591"><img alt="Selection Sort Step 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.select1.png"></a></p>
+<p><a href="#R-image-fdc0a1e3878140a659525181bf91c431" class="lightbox-link"><img alt="Selection Sort Step 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.select1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fdc0a1e3878140a659525181bf91c431"><img alt="Selection Sort Step 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.select1.png"></a></p>
 <p>Once it reaches the end of the array, it will find that the smallest value 0 is at index 8.</p>
-<p><a href="#R-image-84cc79a214d0007184e5681af3f77203" class="lightbox-link"><img alt="Selection Sort Step 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.select2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-84cc79a214d0007184e5681af3f77203"><img alt="Selection Sort Step 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.select2.png"></a></p>
+<p><a href="#R-image-7c4454e8b4d421e601f7af6294950d7a" class="lightbox-link"><img alt="Selection Sort Step 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.select2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7c4454e8b4d421e601f7af6294950d7a"><img alt="Selection Sort Step 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.select2.png"></a></p>
 <p>Then, it will <em>swap</em> the minimum item with the item at index 0 of the array, placing the smallest item first. That item will now be part of the sorted array, so we&rsquo;ll shade it in since we don&rsquo;t want to move it again.</p>
-<p><a href="#R-image-479a1ff04a4d91c67e06d0ccb0034c99" class="lightbox-link"><img alt="Selection Sort Step 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.select3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-479a1ff04a4d91c67e06d0ccb0034c99"><img alt="Selection Sort Step 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.select3.png"></a></p>
+<p><a href="#R-image-0f290e8c83972baa0efe784313aa0b18" class="lightbox-link"><img alt="Selection Sort Step 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.select3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0f290e8c83972baa0efe784313aa0b18"><img alt="Selection Sort Step 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.select3.png"></a></p>
 <p>Next, it will reset index to 1, and start searching for the next smallest element in the array. Notice that this time it will not look at the element at index 0, which is part of the sorted array. Each time the algorithm resets, it will start looking at the element directly after the sorted portion of the array.</p>
-<p><a href="#R-image-cad876a3264c1034aeac019bf3f7b66a" class="lightbox-link"><img alt="Selection Sort Step 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.select4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-cad876a3264c1034aeac019bf3f7b66a"><img alt="Selection Sort Step 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.select4.png"></a></p>
+<p><a href="#R-image-35e184fb328cea1fe5fe27e911eee35c" class="lightbox-link"><img alt="Selection Sort Step 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.select4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-35e184fb328cea1fe5fe27e911eee35c"><img alt="Selection Sort Step 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.select4.png"></a></p>
 <p>Once again, it will search through the array to find the smallest value, which will be the value 1 at index 6.</p>
-<p><a href="#R-image-77623b4769de58819da1eee8da50fe89" class="lightbox-link"><img alt="Selection Sort Step 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.select5.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-77623b4769de58819da1eee8da50fe89"><img alt="Selection Sort Step 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.select5.png"></a></p>
+<p><a href="#R-image-34e9aec72091b3026514bbdddbbe2853" class="lightbox-link"><img alt="Selection Sort Step 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.select5.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-34e9aec72091b3026514bbdddbbe2853"><img alt="Selection Sort Step 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.select5.png"></a></p>
 <p>Then, it will swap the element at index 1 with the minimum element, this time at index 6. Just like before, we&rsquo;ll shade in the first element since it is now part of the sorted list, and reset the index to begin at index 2</p>
-<p><a href="#R-image-7564ed9b3a54626faee71cf5b2e3af09" class="lightbox-link"><img alt="Selection Sort Step 6" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.select6.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7564ed9b3a54626faee71cf5b2e3af09"><img alt="Selection Sort Step 6" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.select6.png"></a></p>
+<p><a href="#R-image-8e297ba07d2a3bbffe08cce7b50c14a4" class="lightbox-link"><img alt="Selection Sort Step 6" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.9.select6.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8e297ba07d2a3bbffe08cce7b50c14a4"><img alt="Selection Sort Step 6" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.9.select6.png"></a></p>
 <p>This process will repeat until the entire array is sorted in ascending order.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -1453,8 +1453,8 @@ In this animation, the element highlighted in blue is the element currently bein
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1719869967" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719869967" defer></script>
-    <script src="/cc310/js/theme.js?1719869967" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719877279" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719877279" defer></script>
+    <script src="/cc310/js/theme.js?1719877279" defer></script>
   </body>
 </html>

@@ -1323,18 +1323,18 @@ With a linked list, the process of inserting an element at either the beginning 
     <link href="/cc310/08-perf-string/04-lists/index.xml" rel="alternate" type="application/rss+xml" title="Lists :: CC 310 Textbook">
     <link href="/cc310/08-perf-string/04-lists/tele.html" rel="alternate" type="text/html" title="Lists :: CC 310 Textbook">
     <link href="/cc310/08-perf-string/04-lists/embed.html" rel="alternate" type="text/html" title="Lists :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719869967" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719869967" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719869967" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719869967" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719869967" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719869967" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719869967" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719869967" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719869967" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719869967" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719869967" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719869967" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719869967" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1719869967" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1719869967"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719877280" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719877280" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719877280" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719877280" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719877280" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719877280" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719877280" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719877280" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719877280" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719877280" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719877280" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719877280" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719877280" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1719877280" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1719877280"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1354,7 +1354,7 @@ With a linked list, the process of inserting an element at either the beginning 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719869967" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719877280" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/08-perf-string/04-lists/">
     <div id="R-body" class="default-animation">
@@ -1391,16 +1391,16 @@ With a linked list, the process of inserting an element at either the beginning 
 <a href="https://www.youtube.com/watch?v=f8jtcC4p6BM">YouTube Video</a>
 
 <h2 id="unsorted-linked-list">Unsorted Linked List</h2>
-<p><a href="#R-image-d58bda39b4d971d58c0954010312e88a" class="lightbox-link"><img alt="Unsorted Linked List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.5.ulist.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d58bda39b4d971d58c0954010312e88a"><img alt="Unsorted Linked List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.5.ulist.png"></a></p>
+<p><a href="#R-image-06945ea53343f402380bf7b525c644d0" class="lightbox-link"><img alt="Unsorted Linked List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.5.ulist.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-06945ea53343f402380bf7b525c644d0"><img alt="Unsorted Linked List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.5.ulist.png"></a></p>
 <p>The next data structure we learned about is the linked list. Specifically, we will look at the doubly linked list in this example, but in most instances the performance of a singly linked list is comparable.</p>
 <p>With a linked list, the process of inserting an element at either the beginning or the end is a constant time operation since we maintain both a head and a tail reference. All we must do is create a new node and update a few references and we are good to go.</p>
 <p>However, if we would like to access a specific element somewhere in the list, we will have to iterate through the list starting from either the head or the tail until we find the element we need. So, that operation runs in order $N$ time. This is the major difference between linked lists and arrays: with an array, we can directly access items using the array index, but with linked lists we must iterate to get to that element. This becomes important in the next section when we discuss the performance of a sorted linked list.</p>
 <p>Similarly, the process of finding an element also requires iterating through the list, which is an operation that runs in order $N$ time.</p>
 <p>Finally, if we want to find and delete an element, that also runs in order $N$ time since we must search through the list to find the element. Once we have found the element, the process of deleting that element is a constant time operation. So, if we use our list iterator methods in an efficient manner, the actual run time may be more efficient than this analysis would lead us to believe.</p>
 <h2 id="sorted-linked-list">Sorted Linked List</h2>
-<p><a href="#R-image-3790d1734d688649f34f3209ea9f86a6" class="lightbox-link"><img alt="Sorted Linked List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.5.slinked.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3790d1734d688649f34f3209ea9f86a6"><img alt="Sorted Linked List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.5.slinked.png"></a></p>
+<p><a href="#R-image-4e04f6ad4c5ea419d388736d27b8d23a" class="lightbox-link"><img alt="Sorted Linked List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.5.slinked.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4e04f6ad4c5ea419d388736d27b8d23a"><img alt="Sorted Linked List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.5.slinked.png"></a></p>
 <p>We have not directly analyzed the performance of a sorted linked list in this course, but hopefully the analysis makes sense based on what we have learned before. Since the process of iterating through a linked list runs in order of $N$ time, every operation required to build a sorted linked list is limited by that fact.</p>
 <p>For example, if we want to insert an element into a list in sorted order, we must simply iterate through the list to find the correct location to insert it. Once we&rsquo;ve found it, the process of inserting is actually a constant time operation since we don&rsquo;t have to shift any elements around, but because we can&rsquo;t use binary search on a linked list, we don&rsquo;t have any way to take advantage of the fact that the list is sorted.</p>
 <p>The same problem occurs when we want to search for a particular element. Since we cannot use binary search to jump around between various elements in the list, we are limited to a simple linear search process, which runs in order of $N$ time.</p>
@@ -1409,8 +1409,8 @@ With a linked list, the process of inserting an element at either the beginning 
 <p>However, in the real world, we can improve some of these linear algorithms by &ldquo;short-circuiting&rdquo; them. When we &ldquo;short-circuit&rdquo; an algorithm, we provide additional code that allows the algorithm to return early if it realizes that it will not succeed.</p>
 <p>For example, if we are searching for a particular element in a sorted list, we can add an if statement to check and see if the current element is greater than the element we are searching for. If the list is sorted in ascending order, we know that we have gone past the location where we expected to find our element, so we can just return without checking the rest of the list. While this does not change the mathematical analysis of the running time of this operation, it may improve the real-world empirical analysis of the operation.</p>
 <h2 id="linked-list-stack-lifo-and-linked-list-queue-fifo">Linked List Stack (LIFO) and Linked List Queue (FIFO)</h2>
-<p><a href="#R-image-9ac1c1f3051e5e67913ea3dcfa4a6eb2" class="lightbox-link"><img alt="Unsorted Linked List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.5.ulist.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9ac1c1f3051e5e67913ea3dcfa4a6eb2"><img alt="Unsorted Linked List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.5.ulist.png"></a></p>
+<p><a href="#R-image-ca95206a14d938bb267c21ce876aec3b" class="lightbox-link"><img alt="Unsorted Linked List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.5.ulist.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ca95206a14d938bb267c21ce876aec3b"><img alt="Unsorted Linked List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.5.ulist.png"></a></p>
 <p>We already saw how to use the operations from a linked list to implement both a stack and a queue. Since those data structures restrict the operations we can perform a bit, it turns out that we can use a linked list to implement a stack and a queue with comparable performance to an array implementation.</p>
 <p>For example, inserting, accessing, and removing elements in a stack or a queue based on a doubly linked list are all constant time operations, since we can use the head and tail references in a doubly linked list to avoid the need to iterate through the entire list to perform those operations. In fact, the only time we would have to iterate through the entire list is when we want to find a particular element in the stack or the queue. However, since we cannot sort a stack or a queue, finding an element runs in order $N$ time, which is comparable to an array implementation.</p>
 <p>By limiting the actions we want to perform with our linked list, we can get a level of performance similar to an array implementation of a stack or a queue. It is a useful outcome that demonstrates the ability of different data structures to achieve similar outcomes.</p>
@@ -1436,8 +1436,8 @@ With a linked list, the process of inserting an element at either the beginning 
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1719869967" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719869967" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1719877280" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1719877280" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1452,7 +1452,7 @@ With a linked list, the process of inserting an element at either the beginning 
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719869967"></script>
-    <script src="/cc310/js/theme.js?1719869967" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719877280"></script>
+    <script src="/cc310/js/theme.js?1719877280" defer></script>
   </body>
 </html>

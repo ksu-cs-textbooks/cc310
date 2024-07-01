@@ -1295,7 +1295,7 @@
   <channel>
     <title>General Terms :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/02-general-terms/</link>
-    <description>YouTube Video Video Materials&#xA;To get ourselves comfortable in working with trees, we will outline some standard vocabulary. Throughout this section, we will use the following tree as a guiding example for visualizing the definitions.&#xA;Definitions Node - the general term for a structure which contains an item, such as a character or even another data structure. Edge - the connection between two nodes. In a tree, the edge will be pointing in a downward direction.</description>
+    <description>Warning The video incorrectly states the degree of a tree is equal to the degree of the root. The correct definition is that the degree of a tree is the largest degree of any node in the tree.&#xA;YouTube Video Video Materials&#xA;To get ourselves comfortable in working with trees, we will outline some standard vocabulary. Throughout this section, we will use the following tree as a guiding example for visualizing the definitions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/02-general-terms/index.xml" rel="self" type="application/rss+xml" />

@@ -1323,17 +1323,17 @@ The following figure shows how we might implement a queue with an array.">
     <link href="/cc310/04-list/09-queue-code/index.xml" rel="alternate" type="application/rss+xml" title="Queues in Code :: CC 310 Textbook">
     <link href="/cc310/04-list/09-queue-code/index.print.html" rel="alternate" type="text/html" title="Queues in Code :: CC 310 Textbook">
     <link href="/cc310/04-list/09-queue-code/embed.html" rel="alternate" type="text/html" title="Queues in Code :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719869971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719869971" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719869971" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719869971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719869971" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719869971" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719869971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719869971" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719869971" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719869971" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719869971" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719869971" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719869971" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719869971"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719877284" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719877284" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719877284" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719877284" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719877284" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719877284" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719877284" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719877284" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719877284" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719877284" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719877284" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719877284" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719877284" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719877284"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1353,7 +1353,7 @@ The following figure shows how we might implement a queue with an array.">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719869971" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719877284" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc310/04-list/09-queue-code/">
     
@@ -1378,8 +1378,8 @@ The following figure shows how we might implement a queue with an array.">
 
 <p>How do we implement queues in code? Like we did with stacks, we will use an array, which is an easily understandable way to implement queues. We will store data directly in the array and use special <code>start</code> and <code>end</code> variables to keep track of the start of the queue and the end of the queue.</p>
 <p>The following figure shows how we might implement a queue with an array. First, we define our array <code>myQueue</code> to be an array that can hold 10 numbers, with an index of 0 to 9. Then we create a <code>start</code> variable to keep track of the index at the start of the queue and an <code>end</code> variable to keep track of the end of the array.</p>
-<p><a href="#R-image-b9c41fcdf6af193b59dafa2caf38213a" class="lightbox-link"><img alt="Empty Queue" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.empty.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b9c41fcdf6af193b59dafa2caf38213a"><img alt="Empty Queue" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.empty.png"></a></p>
+<p><a href="#R-image-216238c5aa20e519442a14e092cd9904" class="lightbox-link"><img alt="Empty Queue" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.empty.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-216238c5aa20e519442a14e092cd9904"><img alt="Empty Queue" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.empty.png"></a></p>
 <p>Notice that since we have not put any items into the queue, we initialize <code>start</code> to be <code>-1</code>. Although this is not a legal index into the array, we can use it like we did with stacks to recognize when we have not yet put anything into the queue. As we will see, this also makes manipulating items in the array much simpler. However, to make our use of the array more efficient, <code>-1</code> will not always indicate that the queue is empty. We will allow the queue to wrap around the array from the <code>start</code> index to the <code>end</code> index. We&rsquo;ll see an example of this behavior later.</p>
 <p>When we want to <em>enqueue</em> an item into the queue, we follow the simple procedure as shown below. Of course, since our array has a fixed size, we need to make sure that we don&rsquo;t try to put an item in a full array. Thus, the precondition is that the array cannot be full. Enforcing this precondition is the function of the <code>if</code> statement at line 2. If the array is already full, then we&rsquo;ll throw an exception in line 3 and let the caller handle the situation. Next, we store <code>item</code> at the <code>end</code> location and then compute the new value of <code>end</code> in line 5. Line 6 uses the modulo operator <code>%</code> to return the remainder of the division of $(\text{end} + 1) / \text{length of myQueue}$. In our example, this is helpful when we get to the end of our ten-element array. If <code>end == 9</code> before <code>enqueue</code> was called, the function would store <code>item</code> in <code>myQueue[9]</code> and then line 4 would cause <code>end</code> to be $(9 +1) % 10$ or $10 % 10$ which is simply $0$, essentially wrapping the queue around the end of the array and continuing it at the beginning of the array.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="n">function</span> <span class="n">ENQUEUE</span> <span class="p">(</span><span class="n">item</span><span class="p">)</span>
@@ -1393,14 +1393,14 @@ The following figure shows how we might implement a queue with an array.">
 </span></span><span class="line"><span class="ln"> 9</span><span class="cl">  <span class="n">end</span> <span class="k">if</span>
 </span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="n">end</span> <span class="n">function</span></span></span></code></pre></div>
 <p>Given our initial configuration above, if we performed an <code>enqueue(7)</code> function call, the result would look like the following.</p>
-<p><a href="#R-image-1a980ca72cb7df0012a381f50ecd1f87" class="lightbox-link"><img alt="Queue with 1 Element" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.enqueue1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1a980ca72cb7df0012a381f50ecd1f87"><img alt="Queue with 1 Element" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.enqueue1.png"></a></p>
+<p><a href="#R-image-b08282a7c8a0ee640179e55497368fc5" class="lightbox-link"><img alt="Queue with 1 Element" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.enqueue1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b08282a7c8a0ee640179e55497368fc5"><img alt="Queue with 1 Element" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.enqueue1.png"></a></p>
 <p>Notice that the value 7 was stored at <code>myQueue[0]</code> in line 5, <code>end</code> was updated to <code>1</code> in line 6, and <code>start</code> was set to <code>0</code> in line 8. Now, let&rsquo;s assume we continue to perform <code>enqueue</code> operations until <code>myQueue</code> is almost filled as shown below.</p>
-<p><a href="#R-image-8d5afc76cb9409386eb81da388d4aa4d" class="lightbox-link"><img alt="Queue with 9 Elements" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.enqueue9.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8d5afc76cb9409386eb81da388d4aa4d"><img alt="Queue with 9 Elements" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.enqueue9.png"></a></p>
+<p><a href="#R-image-a492f4a205db2d7b27c5fffea8580881" class="lightbox-link"><img alt="Queue with 9 Elements" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.enqueue9.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a492f4a205db2d7b27c5fffea8580881"><img alt="Queue with 9 Elements" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.enqueue9.png"></a></p>
 <p>If at this point, we enqueue another number, say <code>-35</code>, the modulo operator in line 6 would help us wrap the end of the list around the array and back to the beginning as expected.  The result of this function call is shown below.</p>
-<p><a href="#R-image-f40e799b729ef47658db62844328a308" class="lightbox-link"><img alt="Queue with 10 Elements" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.enqueue10.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f40e799b729ef47658db62844328a308"><img alt="Queue with 10 Elements" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.enqueue10.png"></a></p>
+<p><a href="#R-image-e06e640a5831f3f3db17a07f665f4f5f" class="lightbox-link"><img alt="Queue with 10 Elements" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.enqueue10.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e06e640a5831f3f3db17a07f665f4f5f"><img alt="Queue with 10 Elements" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.enqueue10.png"></a></p>
 <p>Now we have a problem! The array is full of numbers and if we try to enqueue another number, the <code>enqueue</code> function will raise an exception in line 3. However, this example also gives us insight into what the <code>isFull</code> condition should be. Notice that both <code>start</code>, and <code>end</code> are pointing at the same array index. You may want to think about this a little, but you should be able to convince yourself that whenever <code>start == end</code> we will be in a situation like the one above where the array is full, and we cannot safely enqueue another number.</p>
 <p>To rectify our situation, we need to have a function to take things out of the queue. We call this function <code>dequeue</code>, which returns the item at the beginning of the queue (pointed at by <code>start</code>) and updates the value of <code>start</code> to point to the next location in the queue. The pseudocode for the <code>dequeue</code> is shown below.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="n">function</span> <span class="n">DEQUEUE</span> <span class="p">()</span>
@@ -1433,8 +1433,8 @@ The following figure shows how we might implement a queue with an array.">
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719869971" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719869971" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719877284" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719877284" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1449,10 +1449,10 @@ The following figure shows how we might implement a queue with an array.">
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719869971"></script>
-<script src="/cc310/js/theme.js?1719869971" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719877284"></script>
+<script src="/cc310/js/theme.js?1719877284" defer></script>
 
-<script src="/cc310/js/tele-scroll.js?1719869971" defer></script>
+<script src="/cc310/js/tele-scroll.js?1719877284" defer></script>
 
 </body>
 </html>
