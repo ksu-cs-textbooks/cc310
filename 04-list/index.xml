@@ -889,6 +889,126 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
 		
 	  
 
@@ -924,51 +1044,6 @@
   
 	
 		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
 		
 	  
 
@@ -1034,7 +1109,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/04-list/01-stack-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/04-list/01-stack-intro/</guid>
-      <description>A stack is a data structure with two main operations that are simple in concept. One is the push operation that lets you put data into the data structure and the other is the pop operation that lets you get data out of the structure.&#xA;Why do we call it a stack? Think about a stack of boxes. When you stack boxes, you can do one of two things: put boxes onto the stack and take boxes off of the stack.</description>
+      <description>YouTube Video A stack is a data structure with two main operations that are simple in concept. One is the push operation that lets you put data into the data structure and the other is the pop operation that lets you get data out of the structure.&#xA;Why do we call it a stack? Think about a stack of boxes. When you stack boxes, you can do one of two things: put boxes onto the stack and take boxes off of the stack.</description>
     </item>
     <item>
       <title>Stacks in the Real World</title>
@@ -1048,7 +1123,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/04-list/03-stack-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/04-list/03-stack-code/</guid>
-      <description>How do we implement stacks in code? One way would be to use something we already understand, an array. Remember that arrays allow us to store multiple items, where each entry in the array has a unique index number. This is a great way to implement stacks. We can store items directly in the array and use a special top variable to hold the index of the top of the stack.</description>
+      <description>YouTube Video How do we implement stacks in code? One way would be to use something we already understand, an array. Remember that arrays allow us to store multiple items, where each entry in the array has a unique index number. This is a great way to implement stacks. We can store items directly in the array and use a special top variable to hold the index of the top of the stack.</description>
     </item>
     <item>
       <title>Stack Operations</title>
@@ -1062,7 +1137,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/04-list/05-using-stack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/04-list/05-using-stack/</guid>
-      <description>Stacks are useful in many applications. Classic real-world software that uses stacks includes the undo feature in a text editor, or the forward and back features of web browsers. In a text editor, each user action is pushed onto the stack as it is performed. Then, if the user wants to undo an action, the text editor simply pops the stack to get the last action performed, and then undoes the action.</description>
+      <description>YouTube Video Stacks are useful in many applications. Classic real-world software that uses stacks includes the undo feature in a text editor, or the forward and back features of web browsers. In a text editor, each user action is pushed onto the stack as it is performed. Then, if the user wants to undo an action, the text editor simply pops the stack to get the last action performed, and then undoes the action.</description>
     </item>
     <item>
       <title>Path Finding Algorithm</title>
@@ -1083,14 +1158,14 @@
       <link>https://textbooks.cs.ksu.edu/cc310/04-list/08-real-world-queue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/04-list/08-real-world-queue/</guid>
-      <description>The name for queues comes the word in British English used to describe a line of people. Instead of forming lines to wait for some service, British form queues. Thus, when we think of queues, often the first picture to come to mind is a group of people standing in a line. Of course, this is exactly how a computer queue operates as well. The first person in line gets served first.</description>
+      <description>YouTube Video The name for queues comes the word in British English used to describe a line of people. Instead of forming lines to wait for some service, British form queues. Thus, when we think of queues, often the first picture to come to mind is a group of people standing in a line. Of course, this is exactly how a computer queue operates as well. The first person in line gets served first.</description>
     </item>
     <item>
       <title>Queues in Code</title>
       <link>https://textbooks.cs.ksu.edu/cc310/04-list/09-queue-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/04-list/09-queue-code/</guid>
-      <description>How do we implement queues in code? Like we did with stacks, we will use an array, which is an easily understandable way to implement queues. We will store data directly in the array and use special start and end variables to keep track of the start of the queue and the end of the queue.&#xA;The following figure shows how we might implement a queue with an array. First, we define our array myQueue to be an array that can hold 10 numbers, with an index of 0 to 9.</description>
+      <description>YouTube Video How do we implement queues in code? Like we did with stacks, we will use an array, which is an easily understandable way to implement queues. We will store data directly in the array and use special start and end variables to keep track of the start of the queue and the end of the queue.&#xA;The following figure shows how we might implement a queue with an array.</description>
     </item>
     <item>
       <title>Using Operations</title>
@@ -1104,7 +1179,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/04-list/11-using-queue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/04-list/11-using-queue/</guid>
-      <description>Queues are useful in many applications. Classic real-world software which uses queues includes the scheduling of tasks, sharing of resources, and processing of messages in the proper order. A common need is to schedule tasks to be executed based on their priority. This type of scheduling can be done in a computer or on an assembly line floor, but the basic concept is the same.&#xA;Let’s assume that we are putting windshields onto new cars in a production line.</description>
+      <description>YouTube Video Queues are useful in many applications. Classic real-world software which uses queues includes the scheduling of tasks, sharing of resources, and processing of messages in the proper order. A common need is to schedule tasks to be executed based on their priority. This type of scheduling can be done in a computer or on an assembly line floor, but the basic concept is the same.&#xA;Let’s assume that we are putting windshields onto new cars in a production line.</description>
     </item>
     <item>
       <title>Windshield Station Example</title>
@@ -1118,7 +1193,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/04-list/13-list-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/04-list/13-list-intro/</guid>
-      <description>A list is a data structure that holds a sequence of data, such as the shopping list shown below. Each list has a head item and a tail item, with all other items placed linearly between the head and the tail. As we pick up items in the store, we will remove them, or cross them off the list. Likewise, if we get a text from our housemate to get some cookies, we can add them to the list as well.</description>
+      <description>YouTube Video A list is a data structure that holds a sequence of data, such as the shopping list shown below. Each list has a head item and a tail item, with all other items placed linearly between the head and the tail. As we pick up items in the store, we will remove them, or cross them off the list. Likewise, if we get a text from our housemate to get some cookies, we can add them to the list as well.</description>
     </item>
     <item>
       <title>Lists in the Real World</title>
@@ -1139,21 +1214,21 @@
       <link>https://textbooks.cs.ksu.edu/cc310/04-list/16-doubly-linked-lists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/04-list/16-doubly-linked-lists/</guid>
-      <description>Note The content for singly-linked lists has been removed to shorten this chapter. Based on the discussion of doubly-linked lists below, you can probably figure out what a singly-linked list does.&#xA;With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list.</description>
+      <description>Note The content for singly-linked lists has been removed to shorten this chapter. Based on the discussion of doubly-linked lists below, you can probably figure out what a singly-linked list does.&#xA;YouTube Video With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list.</description>
     </item>
     <item>
       <title>List Iterators</title>
       <link>https://textbooks.cs.ksu.edu/cc310/04-list/17-list-iterator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/04-list/17-list-iterator/</guid>
-      <description>Note You will not be asked to implement a list iterator, but it is an interesting concept to study. Most languages that have a foreach loop construct use iterators behind the scenes to keep track of the current position in the list. This is also why you should not modify the structure of the list while iterating through it using a foreach loop.&#xA;An iterator is a set of operations a data structure provides to allow users to access the items in the data structure sequentially, without requiring them to know its underlying representation.</description>
+      <description>Note You will not be asked to implement a list iterator, but it is an interesting concept to study. Most languages that have a foreach loop construct use iterators behind the scenes to keep track of the current position in the list. This is also why you should not modify the structure of the list while iterating through it using a foreach loop.&#xA;YouTube Video An iterator is a set of operations a data structure provides to allow users to access the items in the data structure sequentially, without requiring them to know its underlying representation.</description>
     </item>
     <item>
       <title>List-Based Queues</title>
       <link>https://textbooks.cs.ksu.edu/cc310/04-list/18-list-queue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/04-list/18-list-queue/</guid>
-      <description>Implementing a queue with a doubly linked list is straightforward and efficient. The core queue operations (enqueue, dequeue, isEmpty, and peek) can all be implemented by directly calling list operations that run in constant time. The only other major operation is the toString operation, which is also implemented by directly calling the list toString operation; however, it runs in order $N$ time due to the fact that the list toString operation must iterate through each item in the list.</description>
+      <description>YouTube Video Implementing a queue with a doubly linked list is straightforward and efficient. The core queue operations (enqueue, dequeue, isEmpty, and peek) can all be implemented by directly calling list operations that run in constant time. The only other major operation is the toString operation, which is also implemented by directly calling the list toString operation; however, it runs in order $N$ time due to the fact that the list toString operation must iterate through each item in the list.</description>
     </item>
     <item>
       <title>Lists Summary</title>

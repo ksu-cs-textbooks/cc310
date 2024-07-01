@@ -889,6 +889,126 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
 		
 	  
 
@@ -924,51 +1044,6 @@
   
 	
 		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
 		
 	  
 
@@ -1025,7 +1100,7 @@
   <channel>
     <title>Time Complexity :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/xx-programming-by-contract-and-introduction-to-performance/10-time-complexity/</link>
-    <description>It is very useful to compare the two solutions to choose one. In general, you can compare the two solutions by considering:&#xA;The time required to execute it The amount of memory it requires The number of instructions used, and also the understandability of the code Time Complexity To compare programs in terms of the time we can estimate the running time, or time it takes to complete its work.</description>
+    <description>YouTube Video It is very useful to compare the two solutions to choose one. In general, you can compare the two solutions by considering:&#xA;The time required to execute it The amount of memory it requires The number of instructions used, and also the understandability of the code Time Complexity To compare programs in terms of the time we can estimate the running time, or time it takes to complete its work.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/xx-programming-by-contract-and-introduction-to-performance/10-time-complexity/index.xml" rel="self" type="application/rss+xml" />

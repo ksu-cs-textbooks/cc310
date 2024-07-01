@@ -889,6 +889,126 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
 		
 	  
 
@@ -924,51 +1044,6 @@
   
 	
 		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
 		
 	  
 
@@ -1025,7 +1100,7 @@
   <channel>
     <title>Information Hiding :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/04-info-hiding/</link>
-    <description>Two of the most powerful concepts in object orientation are encapsulation and information hiding.&#xA;Encapsulation is capturing both data and behavior into a single object. Information hiding is restricting access to some of the data and behavior of an object. Encapsulation enables information hiding, and information hiding allows us to simplify the interface used to interact with an object. Instead of needing to know everything about a particular class of objects in order to use or interact with those objects.</description>
+    <description>YouTube Video Two of the most powerful concepts in object orientation are encapsulation and information hiding.&#xA;Encapsulation is capturing both data and behavior into a single object. Information hiding is restricting access to some of the data and behavior of an object. Encapsulation enables information hiding, and information hiding allows us to simplify the interface used to interact with an object. Instead of needing to know everything about a particular class of objects in order to use or interact with those objects.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/02-oop-review/04-info-hiding/index.xml" rel="self" type="application/rss+xml" />

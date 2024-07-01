@@ -889,6 +889,126 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
 		
 	  
 
@@ -924,51 +1044,6 @@
   
 	
 		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
 		
 	  
 
@@ -1025,7 +1100,7 @@
   <channel>
     <title>Basic Operations :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/04-list/old/04-stack-operations/</link>
-    <description>We have already seen two basic stack operations: push and pop. However, there are others that make the stack much easier to use. These basic operations are:&#xA;push: places an item on top of the stack, pop: removes the item on the top of the stack and returns it, peek: returns the item on the top of the stack without removing it from the stack, isEmpty: returns true if there are no items on the stack, and isFull: returns true if our stack array is full.</description>
+    <description>YouTube Video We have already seen two basic stack operations: push and pop. However, there are others that make the stack much easier to use. These basic operations are:&#xA;push: places an item on top of the stack, pop: removes the item on the top of the stack and returns it, peek: returns the item on the top of the stack without removing it from the stack, isEmpty: returns true if there are no items on the stack, and isFull: returns true if our stack array is full.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/04-list/old/04-stack-operations/index.xml" rel="self" type="application/rss+xml" />

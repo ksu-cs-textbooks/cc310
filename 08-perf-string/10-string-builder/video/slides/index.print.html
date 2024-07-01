@@ -1,0 +1,89 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="/cc310/reveal/dist/reset.css">
+		<link rel="stylesheet" href="/cc310/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="/cc310/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="/cc310/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="/cc310/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+<img class="stretch plain" src="/images/0/core-logo-on-white.svg">
+<h3> Module 1 <br> Strings and StringBuilders <br> Introduction</h3>
+<hr style="height:15px;color:512888;background-color:512888;">
+<h4>CC315</h4>
+</section>
+<section>
+	<h3>Plan</h3>
+	<ul>
+		<li>Introduce a Data Structure and <br/> How it Works</li>
+		<li>How to Implement One <br/> From Scratch</li>
+	</ul>
+</section>
+<section>
+	<h3>Why Strings?</h3>
+	<ul>
+		<li>Social Media</li>
+		<li>Product Reviews</li>
+		<li>Scientific Abstracts</li>
+	</ul>
+</section>
+<section>
+	<h3>How?</h3>
+	<ul>
+		<li>Social Media &rarr; Sentiment Analysis</li>
+		<li>Product Reviews &rarr; Recommenders</li>
+		<li>Scientific Abstracts &rarr; Categorization & Classification</li>
+	</ul>
+</section>
+
+			</div>
+		</div>
+
+		<script src="/cc310/reveal/dist/reveal.js"></script>
+		<script src="/cc310/reveal/plugin/markdown/markdown.js"></script>
+		<script src="/cc310/reveal/plugin/highlight/highlight.js"></script>
+		<script src="/cc310/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

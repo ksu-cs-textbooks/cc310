@@ -889,6 +889,126 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
 		
 	  
 
@@ -924,51 +1044,6 @@
   
 	
 		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
 		
 	  
 
@@ -1025,7 +1100,7 @@
   <channel>
     <title>Functions :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/15-java/1-functions/</link>
-    <description>In Java, each piece of code is broken down into functions, which are individual routines that we can call in our code. Let’s review how to create functions in Java.&#xA;Functions in Flowcharts &amp; Pseudocode The table below lists the flowchart blocks used to represent functions, as well as the corresponding pseudocode:&#xA;Operation Flowchart Pseudocode Declare Function function FOO(X)&#xA;X = X + 5&#xA;return X&#xA;end function Call Function X = FOO(5) Functions in Java Declaring Functions In general, a function declaration in Java needs a few elements.</description>
+    <description>YouTube Video In Java, each piece of code is broken down into functions, which are individual routines that we can call in our code. Let’s review how to create functions in Java.&#xA;Functions in Flowcharts &amp; Pseudocode The table below lists the flowchart blocks used to represent functions, as well as the corresponding pseudocode:&#xA;Operation Flowchart Pseudocode Declare Function function FOO(X)&#xA;X = X + 5&#xA;return X&#xA;end function Call Function X = FOO(5) Functions in Java Declaring Functions YouTube Video In general, a function declaration in Java needs a few elements.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/02-oop-review/15-java/1-functions/index.xml" rel="self" type="application/rss+xml" />

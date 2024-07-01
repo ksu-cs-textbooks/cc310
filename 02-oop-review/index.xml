@@ -889,6 +889,126 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
 		
 	  
 
@@ -924,51 +1044,6 @@
   
 	
 		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
 		
 	  
 
@@ -1034,7 +1109,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/01-oop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/02-oop-review/01-oop/</guid>
-      <description>1&#xA;Object-oriented programming uses the idea of objects and classes to provide many improvements over other programming paradigms. The key concept of object-oriented programming - encapsulation - allows our data and the operations that manipulate that data to be bundled together within a single object.&#xA;File:CPT-OOP-inheritance.svg. (2014, June 26). Wikimedia Commons, the free media repository. Retrieved 01:22, January 14, 2020 from https://commons.wikimedia.org/w/index.php?title=File:CPT-OOP-inheritance.svg&amp;oldid=127549650. ↩︎</description>
+      <description>YouTube Video 1&#xA;Object-oriented programming uses the idea of objects and classes to provide many improvements over other programming paradigms. The key concept of object-oriented programming - encapsulation - allows our data and the operations that manipulate that data to be bundled together within a single object.&#xA;File:CPT-OOP-inheritance.svg. (2014, June 26). Wikimedia Commons, the free media repository. Retrieved 01:22, January 14, 2020 from https://commons.wikimedia.org/w/index.php?title=File:CPT-OOP-inheritance.svg&amp;oldid=127549650. ↩︎</description>
     </item>
     <item>
       <title>Functions</title>
@@ -1048,70 +1123,70 @@
       <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/03-class-object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/02-oop-review/03-class-object/</guid>
-      <description>As you might guess from its name, object-oriented programming languages are made to create and manipulate entities called objects. But what exactly are these objects? Objects were created to help decompose large complex programs with a lot of complex data into manageable parts.&#xA;Object An object is a programming entity that contains related data and behavior.&#xA;A good example of an object is dog. But not just any dog, or all dogs, but a specific dog.</description>
+      <description>YouTube Video As you might guess from its name, object-oriented programming languages are made to create and manipulate entities called objects. But what exactly are these objects? Objects were created to help decompose large complex programs with a lot of complex data into manageable parts.&#xA;Object An object is a programming entity that contains related data and behavior.&#xA;A good example of an object is dog. But not just any dog, or all dogs, but a specific dog.</description>
     </item>
     <item>
       <title>Information Hiding</title>
       <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/04-info-hiding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/02-oop-review/04-info-hiding/</guid>
-      <description>Two of the most powerful concepts in object orientation are encapsulation and information hiding.&#xA;Encapsulation is capturing both data and behavior into a single object. Information hiding is restricting access to some of the data and behavior of an object. Encapsulation enables information hiding, and information hiding allows us to simplify the interface used to interact with an object. Instead of needing to know everything about a particular class of objects in order to use or interact with those objects.</description>
+      <description>YouTube Video Two of the most powerful concepts in object orientation are encapsulation and information hiding.&#xA;Encapsulation is capturing both data and behavior into a single object. Information hiding is restricting access to some of the data and behavior of an object. Encapsulation enables information hiding, and information hiding allows us to simplify the interface used to interact with an object. Instead of needing to know everything about a particular class of objects in order to use or interact with those objects.</description>
     </item>
     <item>
       <title>Inheritance</title>
       <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/05-inheritance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/02-oop-review/05-inheritance/</guid>
-      <description>Polymorphism Polymorphsim is a concept that describes the fact that similar objects tend to behave in similar ways, even if they are not exactly alike. For example, if we might have a set of shapes such as a square, a circle, and a rhombus. While each shape shares certain attributes like having an area and a perimeter. However, each shape is also unique and may have differing number of sides and angles between those sides, or in the case of a circle, a diameter.</description>
+      <description>YouTube Video Polymorphism Polymorphsim is a concept that describes the fact that similar objects tend to behave in similar ways, even if they are not exactly alike. For example, if we might have a set of shapes such as a square, a circle, and a rhombus. While each shape shares certain attributes like having an area and a perimeter. However, each shape is also unique and may have differing number of sides and angles between those sides, or in the case of a circle, a diameter.</description>
     </item>
     <item>
       <title>Associations</title>
       <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/06-associations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/02-oop-review/06-associations/</guid>
-      <description>For object a to be able to call a method in object b, object a must have a reference (a pointer, or the address of) object b. In many cases, objects a and b will be in a long-term relationship so that one or both objects will need to store the reference to the other in an attribute. When an object holds a reference to another object in an attribute, we call this a link.</description>
+      <description>YouTube Video For object a to be able to call a method in object b, object a must have a reference (a pointer, or the address of) object b. In many cases, objects a and b will be in a long-term relationship so that one or both objects will need to store the reference to the other in an attribute. When an object holds a reference to another object in an attribute, we call this a link.</description>
     </item>
     <item>
       <title>Functions</title>
       <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/07-functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/02-oop-review/07-functions/</guid>
-      <description>In Python, we can break our programs up into individual functions, which are individual routines that we can call in our code. Let’s review how to create functions in Python.&#xA;Functions in Flowcharts &amp; Pseudocode The table below lists the flowchart blocks used to represent functions, as well as the corresponding pseudocode:&#xA;Operation Flowchart Pseudocode Declare Function function FOO(X)&#xA;X = X + 5&#xA;return X&#xA;end function Call Function X = FOO(5) Functions in Python Declaring Functions In general, a function definition in Python needs a few elements.</description>
+      <description>YouTube Video In Python, we can break our programs up into individual functions, which are individual routines that we can call in our code. Let’s review how to create functions in Python.&#xA;Functions in Flowcharts &amp; Pseudocode The table below lists the flowchart blocks used to represent functions, as well as the corresponding pseudocode:&#xA;Operation Flowchart Pseudocode Declare Function function FOO(X)&#xA;X = X + 5&#xA;return X&#xA;end function Call Function X = FOO(5) Functions in Python Declaring Functions YouTube Video In general, a function definition in Python needs a few elements.</description>
     </item>
     <item>
       <title>Overloading</title>
       <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/08-overloading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/02-oop-review/08-overloading/</guid>
-      <description>Python allows us to specify default values for parameters in a function definition. In that way, if those parameters are not provided, the default value will be used instead. So, it may appear that there are multiple functions with the same name that accept a different number of parameters. This is called function overloading.&#xA;Function Overloading using Default Values For example, we could create a function named max() that could take either two or three parameters:</description>
+      <description>YouTube Video Python allows us to specify default values for parameters in a function definition. In that way, if those parameters are not provided, the default value will be used instead. So, it may appear that there are multiple functions with the same name that accept a different number of parameters. This is called function overloading.&#xA;Function Overloading using Default Values For example, we could create a function named max() that could take either two or three parameters:</description>
     </item>
     <item>
       <title>Classes</title>
       <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/09-classes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/02-oop-review/09-classes/</guid>
-      <description>In programming, a class describes an individual entity or part of the program. In many cases, the class can be used to describe an actual thing, such as a person, a vehicle, or a game board, or a more abstract thing such as a set of rules for a game, or even an artificial intelligence engine for making business decisions.&#xA;In object-oriented programming, a class is the basic building block of a larger program.</description>
+      <description>YouTube Video In programming, a class describes an individual entity or part of the program. In many cases, the class can be used to describe an actual thing, such as a person, a vehicle, or a game board, or a more abstract thing such as a set of rules for a game, or even an artificial intelligence engine for making business decisions.&#xA;In object-oriented programming, a class is the basic building block of a larger program.</description>
     </item>
     <item>
       <title>Attributes</title>
       <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/10-attributes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/02-oop-review/10-attributes/</guid>
-      <description>Of course, our classes are not very useful at this point because they don’t include any attributes or methods. Including attributes in a class is one of the simplest uses of classes, so let’s start there.&#xA;Adding Attributes To add an attribute to a class, we can simply declare a variable inside of our class declaration:&#xA;class Person: last_name = &#34;Person&#34; first_name = &#34;Test&#34; age = 25 That’s really all there is to it!</description>
+      <description>YouTube Video Of course, our classes are not very useful at this point because they don’t include any attributes or methods. Including attributes in a class is one of the simplest uses of classes, so let’s start there.&#xA;Adding Attributes To add an attribute to a class, we can simply declare a variable inside of our class declaration:&#xA;class Person: last_name = &#34;Person&#34; first_name = &#34;Test&#34; age = 25 That’s really all there is to it!</description>
     </item>
     <item>
       <title>Methods</title>
       <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/11-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/02-oop-review/11-methods/</guid>
-      <description>We can also add methods to our classes. These methods are used either to modify the attributes of the class or to perform actions based on the attributes stored in the class. Finally, we can even use those methods to perform actions on data provided as arguments. In essence, the sky is the limit with methods in classes, so we’ll be able to do just about anything we need to do in these methods.</description>
+      <description>YouTube Video We can also add methods to our classes. These methods are used either to modify the attributes of the class or to perform actions based on the attributes stored in the class. Finally, we can even use those methods to perform actions on data provided as arguments. In essence, the sky is the limit with methods in classes, so we’ll be able to do just about anything we need to do in these methods.</description>
     </item>
     <item>
       <title>Inheritance &amp; Polymorphism</title>
       <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/12-polymorphism/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/02-oop-review/12-polymorphism/</guid>
-      <description>We can also build classes that inherit attributes and methods from another class. This allows us to build more complex structures in our code, better representing the relationships between real world objects.&#xA;Inheritance in UML As we learned earlier in this chapter, we can represent an inheritance relationship with an open arrow in our UML diagrams, as shown below:&#xA;In this diagram, the Student class inherits from, or is a subclass of, the Person class.</description>
+      <description>YouTube Video We can also build classes that inherit attributes and methods from another class. This allows us to build more complex structures in our code, better representing the relationships between real world objects.&#xA;Inheritance in UML As we learned earlier in this chapter, we can represent an inheritance relationship with an open arrow in our UML diagrams, as shown below:&#xA;In this diagram, the Student class inherits from, or is a subclass of, the Person class.</description>
     </item>
     <item>
       <title>Static and Abstract</title>

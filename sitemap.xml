@@ -889,6 +889,126 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
 		
 	  
 
@@ -924,51 +1044,6 @@
   
 	
 		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
 		
 	  
 
@@ -1027,12 +1102,8 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/10-java-libraries/1-1-java-standard-library/</loc>
-    <lastmod>2024-06-20T09:14:34-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/1-choosing-the-right-structures/</loc>
-    <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/01-choosing/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/01-data-structures/</loc>
@@ -1055,10 +1126,6 @@
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/11-python-libraries/1-python-standard-types/</loc>
-    <lastmod>2024-06-20T09:14:34-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/06-search-sort/01-searching/</loc>
     <lastmod>2024-06-29T14:21:25-05:00</lastmod>
   </url>
@@ -1067,8 +1134,8 @@
     <lastmod>2024-06-29T16:03:19-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/1-what-are-sets-/</loc>
-    <lastmod>2024-06-28T15:58:53-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/xx-sets/1-what-are-sets-/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/01-stack-intro/</loc>
@@ -1079,8 +1146,8 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/2-data-structure-performance/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/02-performance/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/05-recursion/02-string-example/</loc>
@@ -1111,8 +1178,8 @@
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/2-operations-on-sets/</loc>
-    <lastmod>2024-06-28T15:58:53-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/xx-sets/2-operations-on-sets/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/02-real-world-stack/</loc>
@@ -1123,8 +1190,8 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/3-comparing-data-structures/</loc>
-    <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/03-comparing/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/03-hash-functions/</loc>
@@ -1147,8 +1214,8 @@
     <lastmod>2024-06-29T14:21:25-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/3-sets-in-code/</loc>
-    <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/xx-sets/3-sets-in-code/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/03-stack-code/</loc>
@@ -1160,10 +1227,6 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/02-navigating-canvas-codio/</loc>
-    <lastmod>2024-06-20T09:14:34-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/4-arrays/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
@@ -1183,6 +1246,10 @@
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/04-lists/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/01-review/04-run-code/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
@@ -1191,8 +1258,8 @@
     <lastmod>2024-06-29T14:21:25-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/4-set-operations/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/xx-sets/4-set-operations/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/04-stack-operations/</loc>
@@ -1219,11 +1286,11 @@
     <lastmod>2024-06-29T16:03:19-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/05-inheritance/</loc>
-    <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/05-hash-tables/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/5-lists/</loc>
+    <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/05-inheritance/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
@@ -1247,12 +1314,16 @@
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/5-using-sets/</loc>
-    <lastmod>2024-06-28T15:58:53-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/xx-sets/5-using-sets/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/03-where-to-find-help/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/06-algorithms/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/06-associations/</loc>
@@ -1265,10 +1336,6 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/06-hash-table-sets/</loc>
     <lastmod>2024-06-29T16:03:19-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/6-hash-tables/</loc>
-    <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/06-maps/</loc>
@@ -1287,16 +1354,16 @@
     <lastmod>2024-06-29T14:21:25-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/6-sets-summary/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/xx-sets/6-sets-summary/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/01-review/06-variables/</loc>
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/7-algorithms/</loc>
-    <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/07-choosing-algorithm/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/01-review/07-conditionals/</loc>
@@ -1335,12 +1402,12 @@
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/8-choosing-an-algorithm/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/05-recursion/08-recusion-to-iteration/</loc>
     <lastmod>2024-06-29T09:30:52-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/08-uses/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/08-graphs/</loc>
@@ -1359,6 +1426,10 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/08-real-world-queue/</loc>
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
@@ -1371,12 +1442,12 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/9-data-structure-uses/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/xx-programming-by-contract-and-introduction-to-performance/9-max-and-min---pairs/</loc>
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/09-python-library/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/09-queue-code/</loc>
@@ -1395,12 +1466,8 @@
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/10-java-libraries/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/10-sets/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc310/xx-sets/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/05-how-to-learn-programming/</loc>
@@ -1423,16 +1490,16 @@
     <lastmod>2024-06-29T14:21:25-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/10-string-builder/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/xx-programming-by-contract-and-introduction-to-performance/10-time-complexity/</loc>
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/10-queue-operations/</loc>
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/11-python-libraries/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/11-algorithms/</loc>
@@ -1451,16 +1518,16 @@
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/11-theory/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/11-using-queue/</loc>
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/01-review/10-variable-roles/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/12-brute-force/</loc>
@@ -1479,6 +1546,10 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/12-memory/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/06-syllabus/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
@@ -1487,16 +1558,8 @@
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/12-performance/12-summary/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/12-queue-example/</loc>
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/13-hold-for-cc-410/</loc>
-    <lastmod>2021-08-17T10:22:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/06-search-sort/13-bubble-pseudocode/</loc>
@@ -1509,6 +1572,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/01-review/12-exceptions/</loc>
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/13-python-memory/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/xx-programming-by-contract-and-introduction-to-performance/13-programming-by-contract-and-performance-summary/</loc>
@@ -1545,6 +1612,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/14-summary/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/14-summary/</loc>
+    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/01-review/14-documentation/</loc>

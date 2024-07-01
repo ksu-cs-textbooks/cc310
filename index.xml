@@ -889,6 +889,126 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
 		
 	  
 
@@ -924,51 +1044,6 @@
   
 	
 		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
 		
 	  
 
@@ -1086,25 +1161,18 @@
       <description>Maps, Hash Tables, and Dictionaries!</description>
     </item>
     <item>
+      <title>Performance &amp; String Builder</title>
+      <link>https://textbooks.cs.ksu.edu/cc310/08-perf-string/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc310/08-perf-string/</guid>
+      <description>Choosing the correct data structures &amp; writing efficient programs that use strings!</description>
+    </item>
+    <item>
       <title>Sets</title>
-      <link>https://textbooks.cs.ksu.edu/cc310/10-sets/</link>
+      <link>https://textbooks.cs.ksu.edu/cc310/xx-sets/</link>
       <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc310/10-sets/</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc310/xx-sets/</guid>
       <description>Welcome! This page is the main page for Sets</description>
-    </item>
-    <item>
-      <title>Performance</title>
-      <link>https://textbooks.cs.ksu.edu/cc310/12-performance/</link>
-      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc310/12-performance/</guid>
-      <description>Welcome! This page is the main page for Performance</description>
-    </item>
-    <item>
-      <title>Hold for CC 410</title>
-      <link>https://textbooks.cs.ksu.edu/cc310/13-hold-for-cc-410/</link>
-      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc310/13-hold-for-cc-410/</guid>
-      <description>Welcome! This page is the main page for Hold for CC 410</description>
     </item>
     <item>
       <title>Programming by Contract and Introduction to Performance</title>

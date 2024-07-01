@@ -889,6 +889,126 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
 		
 	  
 
@@ -924,51 +1044,6 @@
   
 	
 		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
 		
 	  
 
@@ -1050,17 +1125,17 @@ We must update both the previous and next pointers in all affected nodes. We can
     <meta itemprop="dateModified" content="2024-06-28T15:58:53-05:00">
     <meta itemprop="wordCount" content="837">
     <title>Doubly Linked Lists - Insertion :: CC 310 Textbook</title>
-    <link href="/cc310/css/fontawesome-all.min.css?1719695060" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719695060" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719695060" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719695060" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719695060" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719695060" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719695060" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719695060" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719695060" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719695060" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719695060" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719695060" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719695060" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1719695060"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1719861961" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719861961" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1719861961" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1719861961" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719861961" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1719861961" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1719861961" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719861961" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1719861961" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1719861961" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1719861961" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1719861961" rel="stylesheet">
+    <link href="/cc310/css/print.css?1719861961" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1719861961"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -1080,7 +1155,7 @@ We must update both the previous and next pointers in all affected nodes. We can
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719695060" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1719861961" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc310/04-list/old/10-doubly-linked-lists---insertion/">
     
@@ -1107,20 +1182,20 @@ We must update both the previous and next pointers in all affected nodes. We can
 </ol>
 <h2 id="inserting-at-the-beginning">Inserting at the Beginning</h2>
 <p>Inserting at the beginning of a doubly linked list is almost as straightforward as in a singly linked list. We just need to make sure that we update the <code>previous</code> pointer in each affected node. After creating the new <code>node</code> in line 1, we check to see if the list is empty in line 2. If it is empty, then we only have to worry about updating the <code>head</code> and <code>tail</code> pointers to both point at <code>node</code> in lines 3 and 4. If the list is not empty, we have the situation shown below.</p>
-<p><a href="#R-image-26c09f33bb83c70c211c1c3e359f9760" class="lightbox-link"><img alt="Doubly Linked List Insert 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.11.insert1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-26c09f33bb83c70c211c1c3e359f9760"><img alt="Doubly Linked List Insert 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.11.insert1.png"></a></p>
+<p><a href="#R-image-9d99ff8f65a2641809e90f26d9d7824d" class="lightbox-link"><img alt="Doubly Linked List Insert 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.11.insert1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9d99ff8f65a2641809e90f26d9d7824d"><img alt="Doubly Linked List Insert 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.11.insert1.png"></a></p>
 <p>To insert a node at the beginning of the list, we set <code>head.previous</code> (the <code>previous</code> pointer in the first node in the list) to point to the new node in line 5.</p>
-<p><a href="#R-image-a3ef84f89a6e880f8ee8308a27a1f18e" class="lightbox-link"><img alt="Doubly Linked List Insert 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.11.insert2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a3ef84f89a6e880f8ee8308a27a1f18e"><img alt="Doubly Linked List Insert 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.11.insert2.png"></a></p>
+<p><a href="#R-image-e829e301eacbe05e2d05a9428b9ec594" class="lightbox-link"><img alt="Doubly Linked List Insert 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.11.insert2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e829e301eacbe05e2d05a9428b9ec594"><img alt="Doubly Linked List Insert 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.11.insert2.png"></a></p>
 <p>Next, we set the <code>next</code> pointer in the new node to point to where <code>head</code> is currently pointing in line 6, which is the first node in the list.</p>
-<p><a href="#R-image-eef55b7a93f0c5b177e6692e0d499ccc" class="lightbox-link"><img alt="Doubly Linked List Insert 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.11.insert3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-eef55b7a93f0c5b177e6692e0d499ccc"><img alt="Doubly Linked List Insert 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.11.insert3.png"></a></p>
+<p><a href="#R-image-5dd75a94765fe4e8d9bbccc7893f8c8f" class="lightbox-link"><img alt="Doubly Linked List Insert 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.11.insert3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5dd75a94765fe4e8d9bbccc7893f8c8f"><img alt="Doubly Linked List Insert 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.11.insert3.png"></a></p>
 <p>Finally, we update <code>head</code> to point to the new <code>node</code> and then increment the size in line 8.</p>
-<p><a href="#R-image-3560f7dbb83407248bac3fd366da075a" class="lightbox-link"><img alt="Doubly Linked List Insert 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.11.insert4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3560f7dbb83407248bac3fd366da075a"><img alt="Doubly Linked List Insert 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.11.insert4.png"></a></p>
+<p><a href="#R-image-c42d5307b5966cc678917d2497fb56bb" class="lightbox-link"><img alt="Doubly Linked List Insert 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.11.insert4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c42d5307b5966cc678917d2497fb56bb"><img alt="Doubly Linked List Insert 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.11.insert4.png"></a></p>
 <p>With a little bit of reformatting, we can see that we&rsquo;ve successfully inserted our new node in the list.</p>
-<p><a href="#R-image-9d18f0abac396ea33ae495f0819d32c8" class="lightbox-link"><img alt="Doubly Linked List Insert 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.11.insert5.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9d18f0abac396ea33ae495f0819d32c8"><img alt="Doubly Linked List Insert 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.11.insert5.png"></a></p>
+<p><a href="#R-image-c90b7fb72de665746d9f9a110ac911c5" class="lightbox-link"><img alt="Doubly Linked List Insert 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.11.insert5.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c90b7fb72de665746d9f9a110ac911c5"><img alt="Doubly Linked List Insert 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.11.insert5.png"></a></p>
 <p>The pseudocode for this operation is given below.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">function prepend(data)
 </span></span><span class="line"><span class="cl">	node = new Node(data)	    (1)
@@ -1196,8 +1271,8 @@ We must update both the previous and next pointers in all affected nodes. We can
 
 
 
-<script src="/cc310/js/clipboard.min.js?1719695060" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1719695060" defer></script>
+<script src="/cc310/js/clipboard.min.js?1719861961" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1719861961" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1212,10 +1287,10 @@ We must update both the previous and next pointers in all affected nodes. We can
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719695060"></script>
-<script src="/cc310/js/theme.js?1719695060" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1719861961"></script>
+<script src="/cc310/js/theme.js?1719861961" defer></script>
 
-<script src="/cc310/js/tele-scroll.js?1719695060" defer></script>
+<script src="/cc310/js/tele-scroll.js?1719861961" defer></script>
 
 </body>
 </html>

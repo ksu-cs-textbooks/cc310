@@ -889,6 +889,126 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
 		
 	  
 
@@ -924,51 +1044,6 @@
   
 	
 		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
-		
-		
-	  
-
-  
-	
 		
 	  
 
@@ -1025,7 +1100,7 @@
   <channel>
     <title>Singly Linked Lists - Insertion :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/04-list/old/5-singly-linked-lists---insertion/</link>
-    <description>Given the structure of our linked list, we can easily insert a new node at any location in the list. However, for our purposes we are generally interested in inserting new nodes at the beginning of the list, at some specific location in the list, or in the appropriate order if the list is sorted.&#xA;Inserting at the Beginning Inserting a node at the beginning of a list is straightforward.</description>
+    <description>YouTube Video Given the structure of our linked list, we can easily insert a new node at any location in the list. However, for our purposes we are generally interested in inserting new nodes at the beginning of the list, at some specific location in the list, or in the appropriate order if the list is sorted.&#xA;Inserting at the Beginning Inserting a node at the beginning of a list is straightforward.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/04-list/old/5-singly-linked-lists---insertion/index.xml" rel="self" type="application/rss+xml" />
