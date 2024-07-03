@@ -1384,6 +1384,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -1410,6 +1470,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/10-graphs/01-graph-intro/</loc>
     <lastmod>2024-07-03T10:50:03-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/01-intro/</loc>
+    <lastmod>2024-07-03T15:21:33-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/01-oop/</loc>
@@ -1446,6 +1510,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/02-performance/</loc>
     <lastmod>2024-07-01T14:25:08-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/02-depth-first/</loc>
+    <lastmod>2024-07-03T15:21:33-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/05-recursion/02-string-example/</loc>
@@ -1490,6 +1558,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/10-graphs/02-graph-terms/</loc>
     <lastmod>2024-07-03T10:50:03-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/03-breadth-first/</loc>
+    <lastmod>2024-07-03T15:21:33-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/03-class-object/</loc>
@@ -1556,6 +1628,10 @@
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/04-limits/</loc>
+    <lastmod>2024-07-03T15:21:33-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/</loc>
     <lastmod>2024-07-03T10:50:03-05:00</lastmod>
   </url>
@@ -1620,6 +1696,10 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/05-pathfinding/</loc>
+    <lastmod>2024-07-03T15:21:33-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/05-recursion/</loc>
     <lastmod>2024-07-03T10:50:03-05:00</lastmod>
   </url>
@@ -1670,6 +1750,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/07-hash-tables/06-hash-table-sets/</loc>
     <lastmod>2024-06-29T16:03:19-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/06-practice/</loc>
+    <lastmod>2024-07-03T15:21:33-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/06-maps/</loc>
@@ -1732,6 +1816,10 @@
     <lastmod>2024-07-03T10:50:03-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/07-mst-intro/</loc>
+    <lastmod>2024-07-03T15:21:33-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/07-non-linear/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
@@ -1776,6 +1864,10 @@
     <lastmod>2024-06-28T15:58:53-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/08-minimum-spanning-trees/</loc>
+    <lastmod>2024-07-03T15:21:33-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/08-overloading/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
@@ -1798,6 +1890,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/09-classes/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/09-kruskal/</loc>
+    <lastmod>2024-07-03T15:21:33-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/10-graphs/09-list/</loc>
@@ -1864,6 +1960,10 @@
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/10-prim/</loc>
+    <lastmod>2024-07-03T15:21:33-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/06-search-sort/10-selection-pseudocode/</loc>
     <lastmod>2024-06-29T14:21:25-05:00</lastmod>
   </url>
@@ -1882,6 +1982,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/11-algorithms/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/</loc>
+    <lastmod>2024-07-03T15:21:33-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/09-trees/11-in-order/</loc>
@@ -1906,6 +2010,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/11-theory/</loc>
     <lastmod>2024-07-01T14:25:08-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/11-traveling-salesperson/</loc>
+    <lastmod>2024-07-03T15:21:33-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/04-list/11-using-queue/</loc>

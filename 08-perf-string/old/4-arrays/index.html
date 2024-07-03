@@ -1384,6 +1384,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
@@ -1411,17 +1471,17 @@
     <meta itemprop="dateModified" content="2024-07-01T14:25:08-05:00">
     <meta itemprop="wordCount" content="841">
     <title>Arrays :: CC 310 Textbook</title>
-    <link href="/cc310/css/fontawesome-all.min.css?1720021849" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720021849" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720021849" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720021849" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720021849" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720021849" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720021849" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720021849" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720021849" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720021849" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720021849" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720021849" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720021849" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1720021849"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720038149" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720038149" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720038149" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720038149" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720038149" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720038149" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720038149" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720038149" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720038149" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720038149" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720038149" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720038149" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720038149" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1720038149"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -1441,7 +1501,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720021849" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720038149" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/08-perf-string/old/4-arrays/">
     <div id="R-body" class="default-animation">
@@ -1512,25 +1572,25 @@
     </div>
 
 <h2 id="unsorted-array">Unsorted Array</h2>
-<p><a href="#R-image-7e23fd056882d380fd0d2d5117b0851f" class="lightbox-link"><img alt="Unsorted Array" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.uarray.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7e23fd056882d380fd0d2d5117b0851f"><img alt="Unsorted Array" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.uarray.png"></a></p>
+<p><a href="#R-image-c8ff164af7bb75f5ace3efa559a28c9a" class="lightbox-link"><img alt="Unsorted Array" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.uarray.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c8ff164af7bb75f5ace3efa559a28c9a"><img alt="Unsorted Array" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.uarray.png"></a></p>
 <p>An unsorted array is the most basic data structure, and it is supported by nearly every programming language available. Inserting elements into the array is always a constant time operation since we can simply place it at the end of the array. Of course, this assumes that the array is large enough to hold all our data without needing to be resized. Since we are not worried about memory usage, this is a safe assumption.</p>
 <p>Likewise, since an array allows us to access elements directly by index, we can say that the time it takes to access any single element is also a constant time operation.</p>
 <p>Unfortunately, searching for an element is much more difficult. Since the array is unsorted, we would have to look through each element in the array to find a specific element, making the search operation run on the order of $N$ time.</p>
 <p>Likewise, the process to find and delete a specific item from the list is also on the order of $N$ time, since we&rsquo;d have to iterate through the list to find the element, remove it, and then shift all remaining elements forward one space in the array.</p>
 <p>Unsorted arrays work best when we simply need to store and access data quickly, but we are not really concerned with finding a specific element each time. Iterating across an entire array takes the same amount of time as finding a specific element, so arrays are great data structures to use when looping through data. As we saw in a previous module, we can probably search linearly through the array for a specific item as many as 7 times before it becomes more efficient to sort it first.</p>
 <h2 id="sorted-array">Sorted Array</h2>
-<p><a href="#R-image-14dfb1ae4ea82d4393dbcb4946953ca0" class="lightbox-link"><img alt="Sorted Array" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.sarray.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-14dfb1ae4ea82d4393dbcb4946953ca0"><img alt="Sorted Array" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.sarray.png"></a></p>
+<p><a href="#R-image-9e2fc7234259de1507bf66e5fc5fe9ef" class="lightbox-link"><img alt="Sorted Array" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.sarray.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9e2fc7234259de1507bf66e5fc5fe9ef"><img alt="Sorted Array" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.sarray.png"></a></p>
 <p>We can improve on some aspects of the performance of an unsorted array by sorting it. Thankfully, we can make it easier by just sorting the data as we insert it into the array! However, by doing so, our insert operation now runs in the order of $\text{lg}(N)$ time in the best case.  This is because it must use a binary search process to figure out where to insert the data into the array. However, in the worst case, it must also shift all the elements after the inserted element back one space, which will make the insert operation run in the order of $N$ time.</p>
 <p>Thankfully, since the data is being stored in an array, we can still use array indexes to access single elements directly, making that operation constant time. In addition, now that the array is sorted, the process of finding a specific element is reduced to the order of $\text{lg}(N)$ time, a vast improvement over the performance of an unsorted array.</p>
 <p>Finally, the process of finding and deleting a specific item can be improved to order of $\text{lg}(N)$ time in the best case, but the worst case once again involves shifting all of the elements in the array, which is on the order of $N$ time.</p>
 <p>So, while having a sorted array allows us to improve the performance of finding specific elements, many of the other operations still have poor worst-case performance. Therefore, one of the important things we must consider when choosing whether to store data in a sorted or unsorted array is the number of times we&rsquo;ll be searching for specific elements vs. the number of times we&rsquo;ll just be inserting or iterating across the entire array. If we do more iterating, we may want to just use an unsorted array, but if we need to search for items repeatedly, a sorted array may be a better choice from a performance standpoint.</p>
 <h2 id="array-stack-lifo-and-array-queue-fifo">Array Stack (LIFO) and Array Queue (FIFO)</h2>
-<p><a href="#R-image-563666ce7e05c7a998fdb58e634c1c2e" class="lightbox-link"><img alt="Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.stack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-563666ce7e05c7a998fdb58e634c1c2e"><img alt="Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.stack.png"></a></p>
-<p><a href="#R-image-b1f8e50481b7c5857f0fa7324eb17e1d" class="lightbox-link"><img alt="Queue" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.queue.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b1f8e50481b7c5857f0fa7324eb17e1d"><img alt="Queue" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.queue.png"></a></p>
+<p><a href="#R-image-b2ea46d624e07a6defd33fde5cfdc786" class="lightbox-link"><img alt="Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.stack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b2ea46d624e07a6defd33fde5cfdc786"><img alt="Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.stack.png"></a></p>
+<p><a href="#R-image-3e93176ceaff9fada96f1be41708a0ba" class="lightbox-link"><img alt="Queue" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.queue.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3e93176ceaff9fada96f1be41708a0ba"><img alt="Queue" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.queue.png"></a></p>
 <p>Our array-based implementations of a stack and a queue are very performant examples of data structures based on arrays, simply because we can limit the operations that we perform to the most efficient ones possible.</p>
 <p>For example, since we are only inserting in one position, the insert operation always runs in constant time. While the position may be different depending on the implementation, each data structure simply keeps track of the array index where the next one should be placed, eliminating the need to shift elements around.</p>
 <p>Likewise, since we are only allowed to remove elements from one position in the array, we can once again avoid the need to shift elements around. Therefore, that operation also runs in constant time for both stacks and queues.</p>
@@ -1579,12 +1639,12 @@
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1720021849" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1720021849" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720021849" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1720021849" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1720021849" defer></script>
-        <script src="/cc310/js/search.js?1720021849" defer></script>
+        <script src="/cc310/js/auto-complete.js?1720038149" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1720038149" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720038149" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1720038149" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1720038149" defer></script>
+        <script src="/cc310/js/search.js?1720038149" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1774,6 +1834,18 @@
           <li data-nav-id="/cc310/10-graphs/10-dense-sparse/" class=""><a class="padding" href="/cc310/10-graphs/10-dense-sparse/">10. Dense VS Sparse</a></li>
           <li data-nav-id="/cc310/10-graphs/11-graph-uml/" class=""><a class="padding" href="/cc310/10-graphs/11-graph-uml/">11. List Graph UML</a></li>
           <li data-nav-id="/cc310/10-graphs/12-summary/" class=""><a class="padding" href="/cc310/10-graphs/12-summary/">12. Summary</a></li></ul></li>
+          <li data-nav-id="/cc310/11-graph-algorithms/" class=""><input type="checkbox" id="R-section-a60dc10e384eff0fd46bdce614106dab" aria-controls="R-subsections-a60dc10e384eff0fd46bdce614106dab"><label for="R-section-a60dc10e384eff0fd46bdce614106dab"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Graph Algorithms</span></label><a class="padding" href="/cc310/11-graph-algorithms/"><b>11.  </b>Graph Algorithms</a><ul id="R-subsections-a60dc10e384eff0fd46bdce614106dab" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/11-graph-algorithms/01-intro/" class=""><a class="padding" href="/cc310/11-graph-algorithms/01-intro/">1. Introduction</a></li>
+          <li data-nav-id="/cc310/11-graph-algorithms/02-depth-first/" class=""><a class="padding" href="/cc310/11-graph-algorithms/02-depth-first/">2. Depth First</a></li>
+          <li data-nav-id="/cc310/11-graph-algorithms/03-breadth-first/" class=""><a class="padding" href="/cc310/11-graph-algorithms/03-breadth-first/">3. Breadth First</a></li>
+          <li data-nav-id="/cc310/11-graph-algorithms/04-limits/" class=""><a class="padding" href="/cc310/11-graph-algorithms/04-limits/">4. Limitations</a></li>
+          <li data-nav-id="/cc310/11-graph-algorithms/05-pathfinding/" class=""><a class="padding" href="/cc310/11-graph-algorithms/05-pathfinding/">5. Pathfinding</a></li>
+          <li data-nav-id="/cc310/11-graph-algorithms/06-practice/" class=""><a class="padding" href="/cc310/11-graph-algorithms/06-practice/">6. In Practice</a></li>
+          <li data-nav-id="/cc310/11-graph-algorithms/07-mst-intro/" class=""><a class="padding" href="/cc310/11-graph-algorithms/07-mst-intro/">7. MST Introduction</a></li>
+          <li data-nav-id="/cc310/11-graph-algorithms/08-minimum-spanning-trees/" class=""><a class="padding" href="/cc310/11-graph-algorithms/08-minimum-spanning-trees/">8. Minimum Spanning Trees</a></li>
+          <li data-nav-id="/cc310/11-graph-algorithms/09-kruskal/" class=""><a class="padding" href="/cc310/11-graph-algorithms/09-kruskal/">9. Kruskal</a></li>
+          <li data-nav-id="/cc310/11-graph-algorithms/10-prim/" class=""><a class="padding" href="/cc310/11-graph-algorithms/10-prim/">10. Prim</a></li>
+          <li data-nav-id="/cc310/11-graph-algorithms/11-traveling-salesperson/" class=""><a class="padding" href="/cc310/11-graph-algorithms/11-traveling-salesperson/">11. Traveling Salesperson</a></li></ul></li>
           <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/" class=""><input type="checkbox" id="R-section-8b483a1eb2aa825f055c425f703adc23" aria-controls="R-subsections-8b483a1eb2aa825f055c425f703adc23"><label for="R-section-8b483a1eb2aa825f055c425f703adc23"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Programming by Contract and Introduction to Performance</span></label><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/"><b>3.  </b>Programming by Contract and Introduction to Performance</a><ul id="R-subsections-8b483a1eb2aa825f055c425f703adc23" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/4-invariants/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/4-invariants/">4. Invariants</a></li>
           <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/">5. Correctness</a></li>
@@ -1838,8 +1910,8 @@
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1720021849" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720021849" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720038149" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720038149" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1854,7 +1926,7 @@
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1720021849"></script>
-    <script src="/cc310/js/theme.js?1720021849" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1720038149"></script>
+    <script src="/cc310/js/theme.js?1720038149" defer></script>
   </body>
 </html>

@@ -1384,6 +1384,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -1477,6 +1537,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/10-graphs/</guid>
       <description>Representing data in a graph!</description>
+    </item>
+    <item>
+      <title>Graph Algorithms</title>
+      <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/</guid>
+      <description>Algorithms for working with graphs!</description>
     </item>
     <item>
       <title>Programming by Contract and Introduction to Performance</title>

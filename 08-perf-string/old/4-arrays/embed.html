@@ -1384,6 +1384,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
@@ -1412,19 +1472,19 @@
     <meta itemprop="wordCount" content="841">
     <title>Arrays :: CC 310 Textbook</title>
     
-  <link href="/cc310/css/fontawesome-all.min.css?1720021859" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720021859" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1720021859" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1720021859" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720021859" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1720021859" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1720021859" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720021859" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1720021859" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1720038159" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720038159" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1720038159" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1720038159" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720038159" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1720038159" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1720038159" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720038159" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1720038159" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1720021859" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1720021859" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1720021859" rel="stylesheet">
-  <link href="/cc310/css/print.css?1720021859" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1720038159" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1720038159" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1720038159" rel="stylesheet">
+  <link href="/cc310/css/print.css?1720038159" rel="stylesheet" media="print">
   
   
   
@@ -1447,7 +1507,7 @@
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1720021859" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1720038159" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/08-perf-string/old/4-arrays/embed.html">
@@ -1470,25 +1530,25 @@
 </div>
 
 <h2 id="unsorted-array">Unsorted Array</h2>
-<p><a href="#R-image-1f1e864ca663280a6ee4bd75e582916f" class="lightbox-link"><img alt="Unsorted Array" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.uarray.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1f1e864ca663280a6ee4bd75e582916f"><img alt="Unsorted Array" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.uarray.png"></a></p>
+<p><a href="#R-image-3d1a37f8a1e02a724b2bf6f99c781675" class="lightbox-link"><img alt="Unsorted Array" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.uarray.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3d1a37f8a1e02a724b2bf6f99c781675"><img alt="Unsorted Array" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.uarray.png"></a></p>
 <p>An unsorted array is the most basic data structure, and it is supported by nearly every programming language available. Inserting elements into the array is always a constant time operation since we can simply place it at the end of the array. Of course, this assumes that the array is large enough to hold all our data without needing to be resized. Since we are not worried about memory usage, this is a safe assumption.</p>
 <p>Likewise, since an array allows us to access elements directly by index, we can say that the time it takes to access any single element is also a constant time operation.</p>
 <p>Unfortunately, searching for an element is much more difficult. Since the array is unsorted, we would have to look through each element in the array to find a specific element, making the search operation run on the order of $N$ time.</p>
 <p>Likewise, the process to find and delete a specific item from the list is also on the order of $N$ time, since we&rsquo;d have to iterate through the list to find the element, remove it, and then shift all remaining elements forward one space in the array.</p>
 <p>Unsorted arrays work best when we simply need to store and access data quickly, but we are not really concerned with finding a specific element each time. Iterating across an entire array takes the same amount of time as finding a specific element, so arrays are great data structures to use when looping through data. As we saw in a previous module, we can probably search linearly through the array for a specific item as many as 7 times before it becomes more efficient to sort it first.</p>
 <h2 id="sorted-array">Sorted Array</h2>
-<p><a href="#R-image-0ae5215beec3e5ed67c44dafb8e89c02" class="lightbox-link"><img alt="Sorted Array" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.sarray.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0ae5215beec3e5ed67c44dafb8e89c02"><img alt="Sorted Array" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.sarray.png"></a></p>
+<p><a href="#R-image-fdc8b2fef682082e10d3931fda84b2f8" class="lightbox-link"><img alt="Sorted Array" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.sarray.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fdc8b2fef682082e10d3931fda84b2f8"><img alt="Sorted Array" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.sarray.png"></a></p>
 <p>We can improve on some aspects of the performance of an unsorted array by sorting it. Thankfully, we can make it easier by just sorting the data as we insert it into the array! However, by doing so, our insert operation now runs in the order of $\text{lg}(N)$ time in the best case.  This is because it must use a binary search process to figure out where to insert the data into the array. However, in the worst case, it must also shift all the elements after the inserted element back one space, which will make the insert operation run in the order of $N$ time.</p>
 <p>Thankfully, since the data is being stored in an array, we can still use array indexes to access single elements directly, making that operation constant time. In addition, now that the array is sorted, the process of finding a specific element is reduced to the order of $\text{lg}(N)$ time, a vast improvement over the performance of an unsorted array.</p>
 <p>Finally, the process of finding and deleting a specific item can be improved to order of $\text{lg}(N)$ time in the best case, but the worst case once again involves shifting all of the elements in the array, which is on the order of $N$ time.</p>
 <p>So, while having a sorted array allows us to improve the performance of finding specific elements, many of the other operations still have poor worst-case performance. Therefore, one of the important things we must consider when choosing whether to store data in a sorted or unsorted array is the number of times we&rsquo;ll be searching for specific elements vs. the number of times we&rsquo;ll just be inserting or iterating across the entire array. If we do more iterating, we may want to just use an unsorted array, but if we need to search for items repeatedly, a sorted array may be a better choice from a performance standpoint.</p>
 <h2 id="array-stack-lifo-and-array-queue-fifo">Array Stack (LIFO) and Array Queue (FIFO)</h2>
-<p><a href="#R-image-6f5327149929213a60af1f9a26c270dd" class="lightbox-link"><img alt="Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.stack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6f5327149929213a60af1f9a26c270dd"><img alt="Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.stack.png"></a></p>
-<p><a href="#R-image-ed52a5fdd2028db38b2c726eb6729dbb" class="lightbox-link"><img alt="Queue" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.queue.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ed52a5fdd2028db38b2c726eb6729dbb"><img alt="Queue" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.queue.png"></a></p>
+<p><a href="#R-image-1a18facbc275886bd792c97afb54ccb8" class="lightbox-link"><img alt="Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.stack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1a18facbc275886bd792c97afb54ccb8"><img alt="Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.stack.png"></a></p>
+<p><a href="#R-image-84d8689be2ca50d86c5398bbfa78fba0" class="lightbox-link"><img alt="Queue" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/12/12.4.queue.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-84d8689be2ca50d86c5398bbfa78fba0"><img alt="Queue" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/12/12.4.queue.png"></a></p>
 <p>Our array-based implementations of a stack and a queue are very performant examples of data structures based on arrays, simply because we can limit the operations that we perform to the most efficient ones possible.</p>
 <p>For example, since we are only inserting in one position, the insert operation always runs in constant time. While the position may be different depending on the implementation, each data structure simply keeps track of the array index where the next one should be placed, eliminating the need to shift elements around.</p>
 <p>Likewise, since we are only allowed to remove elements from one position in the array, we can once again avoid the need to shift elements around. Therefore, that operation also runs in constant time for both stacks and queues.</p>
@@ -1508,8 +1568,8 @@
 
 
 
-<script src="/cc310/js/clipboard.min.js?1720021859" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1720021859" defer></script>
+<script src="/cc310/js/clipboard.min.js?1720038159" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1720038159" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1524,9 +1584,9 @@
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1720021859"></script>
-<script src="/cc310/js/theme.js?1720021859" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1720038159"></script>
+<script src="/cc310/js/theme.js?1720038159" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1720021859" defer></script>
+<script src="/cc310/js/embed-iframe.js?1720038159" defer></script>
 </body>
 </html>

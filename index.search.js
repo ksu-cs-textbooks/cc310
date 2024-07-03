@@ -1384,6 +1384,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 var relearn_search_index = [
   {
@@ -1433,6 +1493,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Introduction",
     "uri": "/cc310/10-graphs/01-graph-intro/"
+  },
+  {
+    "breadcrumb": "Graph Algorithms",
+    "content": " YouTube Video In the previous modules, we have introduced graphs and two implementations. This module will cover the traversals through graphs as well as path search techniques.\nMotivation As we have discussed previously, graphs can have many applications. Based on that, there are many things that we may want to infer from graphs. For example, if we have a graph that depicts a railroad or electrical network, we could determine what maximum flow of the network. The standard approach for this task is the Ford-Fulkerson Algorithm. In short, given a graph with edge weights that represent capacities the algorithm will determine the maximum flow throughout the graph.\nFrom the matrix graph module, we used the following distribution network as an example.\nConceptually, we would want to determine the maximum number of units that could leave the distribution center without having excess laying around stores. Using the maximum flow algorithm, we would determine that the maximum number of units would be 15.\nThe driving force in the Ford-Fulkerson algorithm, as well as other maximum flow algorithms, is the ability to find a path from a source to a target. Specifically, these algorithms use breadth first and depth first searches to discover possible paths.\nSearching To get to introducing the searches, we will first discuss the basis of them. Those are the depth first traversal and the breadth first traversal. We will outline the premise of these traversals and then discuss how we can modify their algorithms for various tasks, such as path searches.\nWe can perform these traversals on any type of graph. Conceptually, it will help to have a tree-like structure in mind to differentiate between depth first and breadth first.",
+    "description": "YouTube Video In the previous modules, we have introduced graphs and two implementations. This module will cover the traversals through graphs as well as path search techniques.\nMotivation As we have discussed previously, graphs can have many applications. Based on that, there are many things that we may want to infer from graphs. For example, if we have a graph that depicts a railroad or electrical network, we could determine what maximum flow of the network.",
+    "tags": [],
+    "title": "Introduction",
+    "uri": "/cc310/11-graph-algorithms/01-intro/"
   },
   {
     "breadcrumb": "OOP Review",
@@ -1505,6 +1573,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Data Structure Performance",
     "uri": "/cc310/08-perf-string/02-performance/"
+  },
+  {
+    "breadcrumb": "Graph Algorithms",
+    "content": " YouTube Video Video Slides\nFirst we will discuss Depth First Traversal. We can define the depth first traversal in two ways, iteratively or recursively. For this course, we will define it iteratively.\nIn the iterative algorithm, we will initialize an empty stack and an empty set. The stack will determine which node we search next and the set will track which nodes we have already searched.\nInfo Recall that a stack is a ‘Last In First Out’ (LIFO) structure. Based on this, the depth first traversal will traverse a nodes descendants before its siblings.\nTo do the traversal, we must pick a starting node; this can be an arbitrary node in our graph. If we were doing the traversal on a tree, we would typically select the root at a starting point. We start a while loop to go through the stack which we will be pushing and popping from. We get the top element of the stack, if the node has not been visited yet then we will add it to the set to note that we have now visited it. Then we get the neighbors of the node and put them onto the stack and continue the process until the stack is empty.\nfunction DEPTHFIRST(GRAPH,SRC) STACK = empty array DISCOVERED = empty set append SRC to STACK while STACK is not empty CURR = top of the stack if CURR not in DISCOVERED add CURR to DISCOVERED NEIGHS = neighbors of CURR for EDGE in NEIGHS NODE = first entry in EDGE append NODE to STACK Since the order of the neighbors is not guaranteed, the traversal on the same graph with the same starting node can find nodes in different orders.",
+    "description": "YouTube Video Video Slides\nFirst we will discuss Depth First Traversal. We can define the depth first traversal in two ways, iteratively or recursively. For this course, we will define it iteratively.\nIn the iterative algorithm, we will initialize an empty stack and an empty set. The stack will determine which node we search next and the set will track which nodes we have already searched.\nInfo Recall that a stack is a ‘Last In First Out’ (LIFO) structure.",
+    "tags": [],
+    "title": "Depth First",
+    "uri": "/cc310/11-graph-algorithms/02-depth-first/"
   },
   {
     "breadcrumb": "Recursion",
@@ -1593,6 +1669,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Terms I",
     "uri": "/cc310/10-graphs/02-graph-terms/"
+  },
+  {
+    "breadcrumb": "Graph Algorithms",
+    "content": " YouTube Video Video Slides\nWe can also perform a breadth first traversal either iteratively or recursively. As with the depth first traversal, we will define it iteratively.\nIn the iterative algorithm, we initialize an empty queue and an empty set. Like depth first traversal, the set will track which nodes we have discovered. We now use a queue to track which node we will search next.\nInfo Recall that a queue is a ‘First In First Out’ (FIFO) structure. Based on this, the breadth first traversal will traverse a nodes siblings before its descendants.\nAgain, we must pick a starting node; this can be an arbitrary node in our graph. We add the starting node to our queue and the set of discovered nodes. We start a while loop to go through the queue which we will be enqueue and dequeue from. We get the first element of the queue, then get the neighbors of the current node. We loop through each edge adding the neighbor to the discovered set and the queue if it has not already been discovered. We continue this process until the queue is empty.\nfunction BREADTHFIRST(GRAPH,SRC) QUEUE = empty queue DISCOVERED = empty set add SRC to DISCOVERED add SRC to QUEUE while QUEUE is not empty CURR = first element in QUEUE NEIGHS = neighbors of CURR for EDGE in NEIGHS NODE = first entry in EDGE if NODE is not in DISCOVERED add NODE to DISCOVERED append NODE to QUEUE Info It is important to remember in these implementations that a stack is used for depth first and a queue is used for a breadth first. The stack, being a LIFO structure, will proceed with the newest entry which will put us farther away from the source. The queue, being a FIFO structure, will proceed with oldest entry which will focus the algorithm more on the adjacent nodes. If we were to use say a queue for a depth first search, we would be traversing neighbors before descendants.",
+    "description": "YouTube Video Video Slides\nWe can also perform a breadth first traversal either iteratively or recursively. As with the depth first traversal, we will define it iteratively.\nIn the iterative algorithm, we initialize an empty queue and an empty set. Like depth first traversal, the set will track which nodes we have discovered. We now use a queue to track which node we will search next.\nInfo Recall that a queue is a ‘First In First Out’ (FIFO) structure.",
+    "tags": [],
+    "title": "Breadth First",
+    "uri": "/cc310/11-graph-algorithms/03-breadth-first/"
   },
   {
     "breadcrumb": "OOP Review",
@@ -1723,6 +1807,14 @@ var relearn_search_index = [
     "uri": "/cc310/xx-programming-by-contract-and-introduction-to-performance/4-invariants/"
   },
   {
+    "breadcrumb": "Graph Algorithms",
+    "content": " YouTube Video When introducing graphs, we discussed how the components of a graph didn’t have to all be connected. If our goal is to visit each node, like in the searches, then we will need to perform the search from every node.\nFor example, the graph below has two separate components. Lets walk through which nodes we will discover by calling the traversals from each node.\nStart Visited (in alphabetical order) A {A, D, H} B {B, E, H, I} C {C} D {D} E {E, H, I} F {C, F} G {C, G} H {H} I {I} J {C, F, G, J} In this example, we would need to call either traversal on nodes A, B and J in order to visit all of the nodes.",
+    "description": "YouTube Video When introducing graphs, we discussed how the components of a graph didn’t have to all be connected. If our goal is to visit each node, like in the searches, then we will need to perform the search from every node.\nFor example, the graph below has two separate components. Lets walk through which nodes we will discover by calling the traversals from each node.\nStart Visited (in alphabetical order) A {A, D, H} B {B, E, H, I} C {C} D {D} E {E, H, I} F {C, F} G {C, G} H {H} I {I} J {C, F, G, J} In this example, we would need to call either traversal on nodes A, B and J in order to visit all of the nodes.",
+    "tags": [],
+    "title": "Limitations",
+    "uri": "/cc310/11-graph-algorithms/04-limits/"
+  },
+  {
     "breadcrumb": "",
     "content": "Lists, Stacks, Queues, and Double-Ended Queues (Deques)",
     "description": "Lists, Stacks, Queues, and Double-Ended Queues (Deques)",
@@ -1851,6 +1943,14 @@ var relearn_search_index = [
     "uri": "/cc310/02-oop-review/05-inheritance/"
   },
   {
+    "breadcrumb": "Graph Algorithms",
+    "content": " YouTube Video An important application for these traversals is the ability to find a path between two nodes. This has many applications in railroad networks as well as electrical wiring. With some modifications to the traversals, we can determine if electricity can flow from a source to a target. We will modify depth first and breadth first traversals in similar ways.\nInfo There are three cases that can happen when we search for a path between nodes:\nNo Path: will return nothing One Path: will return the path Multiple Paths: will return A path With these searches, we are not guaranteed to return the same path if there are multiple paths.\nWe will call these Depth First Search (DFS) and Breadth First Search (BFS). In both traversals, we have added the following extra lines: 4, 9-16, and 22 through the end.\nFirst, we have the addition of PARENT_MAP which will be a dictionary to keep track of how we get from one node to another. We will use the convention of having the key be the child and the value be the parent. While we use the terms child and parent, this is not exclusive to trees.\nThe ending portion starting at line 22, will add entries to our dictionary. If we haven’t already found an edge to NODE, then we will add the edge that we are currently on.\nThe other addition is the block of code from line 9 to 16. We will enter this if block if the node that we are currently at is the target. This means that we have finally found a path from the source node to the target node. The process in this segment of code will backtrack through the path and build the path.\nDepth-First Search 1function DEPTHFIRSTSEARCH(GRAPH,SRC,TAR) 2 STACK = empty array 3 DISCOVERED = empty set 4 PARENT_MAP = empty dictionary 5 append SRC to STACK 6 while STACK is not empty 7 CURR = top of the stack 8 if CURR not in DISCOVERED 9 if CURR is TAR 10 PATH = empty array 11 TRACE = TAR 12 while TRACE is not SRC 13 append TRACE to PATH 14 set TRACE equal to PARENT_MAP[TRACE] 15 reverse the order of PATH 16 return PATH 17 add CURR to DISCOVERED 18 NEIGHS = neighbors of CURR 19 for EDGE in NEIGHS 20 NODE = first entry in EDGE 21 append NODE to STACK 22 if PARENT_MAP does not have key NODE 23 in the PARENT_MAP dictionary set key NODE with value CURR 24 return nothing Depth-First Search Example Breadth-First Search 1function BREADTHFIRSTSEARCH(GRAPH,SRC,TAR) 2 QUEUE = empty queue 3 DISCOVERED = empty set 4 PARENT_MAP = empty dictionary 5 add SRC to DISCOVERED 6 add SRC to QUEUE 7 while QUEUE is not empty 8 CURR = first element in QUEUE 9 if CURR is TAR 10 PATH = empty list 11 TRACE = TAR 12 while TRACE is not SRC 13 append TRACE to PATH 14 set TRACE equal to PARENT_MAP[TRACE] 15 reverse the order of PATH 16 return PATH 17 NEIGHS = neighbors of CURR 18 for EDGE in NEIGHS 19 NODE = first entry in EDGE 20 if NODE is not in DISCOVERED 21 add NODE to DISCOVERED 22 if PARENT_MAP does not have key NODE 23 in the PARENT_MAP dictionary set key NODE with value CURR 24 append NODE to QUEUE 25 return nothing Breadth-First Search Example ",
+    "description": "YouTube Video An important application for these traversals is the ability to find a path between two nodes. This has many applications in railroad networks as well as electrical wiring. With some modifications to the traversals, we can determine if electricity can flow from a source to a target. We will modify depth first and breadth first traversals in similar ways.\nInfo There are three cases that can happen when we search for a path between nodes:",
+    "tags": [],
+    "title": "Pathfinding",
+    "uri": "/cc310/11-graph-algorithms/05-pathfinding/"
+  },
+  {
     "breadcrumb": "",
     "content": "def: recursion (noun) - see recursion",
     "description": "def: recursion (noun) - see recursion",
@@ -1953,6 +2053,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Hash Table Based Sets",
     "uri": "/cc310/07-hash-tables/06-hash-table-sets/"
+  },
+  {
+    "breadcrumb": "Graph Algorithms",
+    "content": "Traveling Finding a path in a graph is a very common application in many fields. One application that we benefit from in our day to day lives is traveling. Programs like Google Maps calculate various paths from point A to point B.\n1\nIn the context of graph data structures, we can think of each intersection as a node and each road as an edge. Google Maps, however, tracks more features of edges than we have discussed. Not only do they track the distance between intersections, they also track time, tolls, construction, road surface and much more. In the next module, we will discuss more details of how we can find the shortest path.\nMap Coloring Another application of the general searches is coloring maps. The premise is that we don’t want two adjacent territories to have the coloring. These territories could be states, like in the United States map below, counties, provinces, countries, and much more.\n2\nThe following was generated for this course using the breadth first search and MyMatrixGraph class that we have implemented in this course. To create the visual rendering, the Python library NetworkX^[https://networkx.github.io/] was used. In this rendering, the starting node was Utah. If we were to start from say Alabama or Florida, we would not have a valid four coloring scheme once we got to Nevada. Since Hawaii and Alaska have no land border with any of the states, they can be any color.\nhttps://google.com/maps ↩︎\nhttps://commons.wikimedia.org/wiki/File:Map_of_USA_showing_state_names.png ↩︎",
+    "description": "Traveling Finding a path in a graph is a very common application in many fields. One application that we benefit from in our day to day lives is traveling. Programs like Google Maps calculate various paths from point A to point B.\n1\nIn the context of graph data structures, we can think of each intersection as a node and each road as an edge. Google Maps, however, tracks more features of edges than we have discussed.",
+    "tags": [],
+    "title": "In Practice",
+    "uri": "/cc310/11-graph-algorithms/06-practice/"
   },
   {
     "breadcrumb": "Introduction to Data Structures \u0026 Algorithms",
@@ -2075,6 +2183,14 @@ var relearn_search_index = [
     "uri": "/cc310/10-graphs/07-matrix/"
   },
   {
+    "breadcrumb": "Graph Algorithms",
+    "content": " YouTube Video We will continue to work with graph algorithms in this module, specifically with finding minimum spanning trees (MST). MSTs have many real world applications such as:\nElectrical wiring, Distribution networks, Telecommunication networks, and Network routing Suppose we were building an apartment complex and wanted to determine the most cost-effective wiring schema. Below, we have the possible construction costs for wiring apartment to apartment. Wiring vertically adjacent apartments is cheaper than wiring horizontally adjacent units and those closest to the power closet have lower costs as well.\nTo find the best possible solution, we would find the MST. The final wiring schema may look something like the figure below.\nDetermining a MST can result in lower costs and time used in many applications, especially logistics. To properly define a minimum spanning tree, we will first introduce the concept of a spanning tree.\nSpanning Trees A spanning tree for a graph is a subset of the graphs edges such that each node is visited once, no cycles are present, and there are no disconnected components.\nLet’s look at this graph as an example. We have five nodes and seven edges.\nBelow, we have valid examples of spanning trees. In each of the examples, we visit each node and there are no cycles. Recall that a cycle is a path in which the starting node and ending node are the same.\nInfo To be a spanning tree of a graph, it must:\nspan the graph, meaning all nodes must be visited, and be a tree, meaning there are no cycles and no disconnected components. Further, we can imagine selecting a node in a spanning tree as the root and letting gravity take effect. This gives us a visual motivation as to why they are called spanning trees. In these examples, we have selected node A for the root for each of the spanning trees above.\nCounterexamples Below, we have invalid examples of spanning trees. In the left column, the examples are where all of the nodes are not connected in the same component. In the right column, the examples contain cycles. For example in the top right, we have the cycle B-\u003eC-\u003eD-\u003eE-\u003eB",
+    "description": "YouTube Video We will continue to work with graph algorithms in this module, specifically with finding minimum spanning trees (MST). MSTs have many real world applications such as:\nElectrical wiring, Distribution networks, Telecommunication networks, and Network routing Suppose we were building an apartment complex and wanted to determine the most cost-effective wiring schema. Below, we have the possible construction costs for wiring apartment to apartment. Wiring vertically adjacent apartments is cheaper than wiring horizontally adjacent units and those closest to the power closet have lower costs as well.",
+    "tags": [],
+    "title": "MST Introduction",
+    "uri": "/cc310/11-graph-algorithms/07-mst-intro/"
+  },
+  {
     "breadcrumb": "Introduction to Data Structures \u0026 Algorithms",
     "content": " YouTube Video 1\nThe other type of data structure we can use in our programs is the non-linear data structure.\nBroadly speaking, non-linear data structures allow us to store data across multiple dimensions, and there may be multiple paths through the data to get from one item to another. In fact, much of the information stored in the data structure has to do with the paths between elements more than the elements themselves.\nNon-Linear Data Structure Hierarchy Just like linear data structures, there are several different types of non-linear data structures. In this case, each one is a more specialized version of the previous one, hence the hierarchy shown above. On the next few pages, we’ll explore each one just a bit to see what they look like.\nFile:6n-graf.svg. (2020, January 12). Wikimedia Commons, the free media repository. Retrieved 02:53, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:6n-graf.svg\u0026oldid=386942400. ↩︎",
     "description": "YouTube Video 1\nThe other type of data structure we can use in our programs is the non-linear data structure.\nBroadly speaking, non-linear data structures allow us to store data across multiple dimensions, and there may be multiple paths through the data to get from one item to another. In fact, much of the information stored in the data structure has to do with the paths between elements more than the elements themselves.",
@@ -2163,6 +2279,14 @@ var relearn_search_index = [
     "uri": "/cc310/xx-programming-by-contract-and-introduction-to-performance/8-max-and-min---linear/"
   },
   {
+    "breadcrumb": "Graph Algorithms",
+    "content": " YouTube Video Now that we have an understanding of general spanning trees, we will introduce the concept of minimum spanning trees. First let’s introduce the concept of the cost of a tree.\nThe cost that is associated with a tree, is the sum of its edges weights. Let’s look at this spanning tree which is from the previous page. The cost associated with this spanning tree is: 2+6+10+14=32.\nMinimum Spanning Trees (MST) A minimum spanning tree is a spanning tree that has the smallest cost. Recall the graph from the previous page.\nBelow on the left is a minimum spanning tree for the graph above. On the right is an example of a spanning tree, though it does not have the minimum cost.\nIn this small example, it is rather straightforward to find the minimum spanning tree. We can use a bit of trial and error to determine if we have the minimum spanning tree or not. However, once the graphs start to get more nodes and more edges it quickly becomes more complicated.\nThere are two algorithms that we will introduce to give us a methodical way of finding the minimum spanning tree. The first that we will look at is Kruskal’s algorithm and then we will look at Prim’s algorithm.",
+    "description": "YouTube Video Now that we have an understanding of general spanning trees, we will introduce the concept of minimum spanning trees. First let’s introduce the concept of the cost of a tree.\nThe cost that is associated with a tree, is the sum of its edges weights. Let’s look at this spanning tree which is from the previous page. The cost associated with this spanning tree is: 2+6+10+14=32.\nMinimum Spanning Trees (MST) A minimum spanning tree is a spanning tree that has the smallest cost.",
+    "tags": [],
+    "title": "Minimum Spanning Trees",
+    "uri": "/cc310/11-graph-algorithms/08-minimum-spanning-trees/"
+  },
+  {
     "breadcrumb": "OOP Review",
     "content": " YouTube Video Python allows us to specify default values for parameters in a function definition. In that way, if those parameters are not provided, the default value will be used instead. So, it may appear that there are multiple functions with the same name that accept a different number of parameters. This is called function overloading.\nFunction Overloading using Default Values For example, we could create a function named max() that could take either two or three parameters:\ndef main(): max(2, 3) max(3, 4, 5) def max(x, y, z=None): if z is not None: if x \u003e= y: if x \u003e= z: print(x) else: print(z) else: if y \u003e= z: print(y) else: print(z) else: if x \u003e= y: print(x) else: print(y) # main guard if __name__ == \"__main__\": main() In this example, we are calling max() with both 2 and 3 arguments from main(). When we only provide 2 arguments, the third parameter will be given the default value None, which is a special value in Python showing that the variable is empty. Then, we can use if z is not None as part of an If-Then statement to see if we need to take that variable into account in our code.\nThis example also introduces a new keyword, is. The is keyword in Python is used to determine if two variables are exactly the same object, not just the same value. In this case, we want to check that z is exactly the same object as None, not just that it has the same value. In Python, it is common to use the is keyword when checking to see if an optional parameter is given the value None. We’ll see this keyword again in a later chapter as we start dealing with objects.\nKeyword Arguments Python also allows us to specify function arguments using keywords that match the name of the parameter in the function. In that way, we can specify the arguments we need, and the function can use default values for any unspecified parameters. Here’s a quick example:\ndef main(): args(1) # 6 args(1, 5) # 9 args(1, c=5) # 8 args(b=7, a=2) # 12 args(c=5, a=2, b=3) # 10 def args(a, b=2, c=3): print(str(a + b + c)) # main guard if __name__ == \"__main__\": main() In this example, the args() method has one required parameter, a. It can either be provided as the first argument, known as a positional argument, or as a keyword argument like a=2. The other parameters, b and c, can either be provided as positional arguments or keyword arguments, but they are not required since they have default values.\nAlso, we can see that when we use keyword arguments we do not have to provide the arguments in the order they are defined in the function’s definition. However, any arguments provided without keywords must be placed at the beginning of the function call, and will be matched positionally with the first parameters defined in the function.\nVariable Length Parameters Finally, Python allows us to define a single parameter that is a variable length parameter. In essence, it will allow us to accept anywhere from 0 to many arguments for that single parameter, which will then be stored in a list. Let’s look at an example:\ndef main(): max(2, 3) max(3, 4, 5) max(5, 6, 7, 8) max(10, 11, 12, 13, 14, 15, 16) def max(*values): if len(values) \u003e 0: max = values[0] for value in values: if value \u003e max: max = value print(max) # main guard if __name__ == \"__main__\": main() Here, we have defined a function named max() that accepts a single variable length parameter. To show a parameter is variable length we use an asterisk * before variable name. We must respect two rules when creating a variable length parameter:\nEach function may only have one variable length parameter It must be defined after any positional parameters. Any parameters after the variable length parameter can only be assigned as keyword arguments So, when we run this program, we see that we can call the max() function with any number of arguments, and it will be able to determine the maximum of those values. Inside of the function itself, values can be treated just like a list.",
     "description": "YouTube Video Python allows us to specify default values for parameters in a function definition. In that way, if those parameters are not provided, the default value will be used instead. So, it may appear that there are multiple functions with the same name that accept a different number of parameters. This is called function overloading.\nFunction Overloading using Default Values For example, we could create a function named max() that could take either two or three parameters:",
@@ -2209,6 +2333,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Classes",
     "uri": "/cc310/02-oop-review/09-classes/"
+  },
+  {
+    "breadcrumb": "Graph Algorithms",
+    "content": " YouTube Video As graphs get larger, it is important to go about finding the MST in a methodical way. In the mid 1950’s, there was a desire to form an algorithmic approach for solving the ’traveling salesperson’ problem^[We will describe this problem in a future section of this module]. Joseph Kruskal first published this algorithm in 1956 in the Proceedings of the American Mathematical Society1. The algorithms prior to this were, as Kruskal said, “unnecessarily elaborate” thus the need for a more succinct algorithm arose.\nAlgorithm In his original work, Kruskal outlined three different yet similar algorithms to finding a minimum spanning tree. The Kruskal Algorithm that we use is as follows:\nStart with only the nodes of the graph and an empty set for the edges Order the edges based on weight Make each node their own set Go through the edges in ascending order If nodes u and v are connected by the edge and they are not in the same set yet, then join the two sets and add the edge to your set of edges Starting Graph Resulting MST Pseudocode function KRUSKAL(GRAPH) MST = GRAPH without the edges attribute(s) ALLSETS = an empty list which will contain the sets for NODE in GRAPH NODES SET = a set with element NODE add SET to ALLSETS EDGES = list of GRAPH's edges SORTEDEDGES = EDGES sorted by edge weight, smallest to largest for EDGE in SORTEDEDGES SRC = source node of EDGE TAR = target node of EDGE SRCSET = the set from SETS in which SRC is contained TARSET = the set form SETS in which TAR is contained if SRCSET not equal TARSET UNIONSET = SRCSET union TARSET add UNIONSET to ALLSETS remove SRCSET from ALLSETS remove TARSET from ALLSETS add EDGE to MST as undirected edge return MST https://www.ams.org/journals/proc/1956-007-01/S0002-9939-1956-0078686-7/S0002-9939-1956-0078686-7.pdf ↩︎",
+    "description": "YouTube Video As graphs get larger, it is important to go about finding the MST in a methodical way. In the mid 1950’s, there was a desire to form an algorithmic approach for solving the ’traveling salesperson’ problem^[We will describe this problem in a future section of this module]. Joseph Kruskal first published this algorithm in 1956 in the Proceedings of the American Mathematical Society1. The algorithms prior to this were, as Kruskal said, “unnecessarily elaborate” thus the need for a more succinct algorithm arose.",
+    "tags": [],
+    "title": "Kruskal",
+    "uri": "/cc310/11-graph-algorithms/09-kruskal/"
   },
   {
     "breadcrumb": "Graphs",
@@ -2339,6 +2471,14 @@ var relearn_search_index = [
     "uri": "/cc310/01-review/09-lists/"
   },
   {
+    "breadcrumb": "Graph Algorithms",
+    "content": " YouTube Video The history of Prim's Algorithm is not as straight forward as Kruskal’s. While we often call it Prim's Algorithm, it was originally developed in 1930 by Vojtěch Jarník. Robert Prim later rediscovered and republished this algorithm in 1957, one year after Kruskals. To add to the naming confusion, Edsger Dijkstra also published this work again in 1959. Because of this, the algorithm can go by many names: Jarkík's Algorithm, Jarník-Prim's Algorithm, Prim-Dijkstra's Algorithm, and DJP Algorithm.\nPrim cited “large-scale communication” as the motivation for this algorithm, specifically the “Bell System leased-line”1. Leased lines were used primarily in a commercial setting which connected business offices that were geographically distant (IE in different cities or even states). Companies would want all offices to be connected but wanted to avoid having to lay an excessive amount of wire. Below is a figure which Prim used to motivate the need for the algorithm. This image depicts the minimum spanning tree which connect each of the US continental state capitals along with Washington D.C.\nAlgorithm The basis of the algorithm is to start with only the nodes of the graph, then we do the following\nChoose a random node Grow your tree by one edge, selecting the smallest edge to connect to a node that is not yet in the tree. Repeat until all the nodes have been visited Starting Graph Resulting MST Info Uniqueness\nYou may have noticed that the minimum spanning tree that resulted from Kruskal’s algorithm differed from Prim’s algorithm. We have displaying them both below for reference.\nKruskal Prim While these are different, they are both valid. The trees both have cost 16. The MST of a graph will be unique, meaning there is only one, if none of the edges of the graph have the same weight.\nPseudocode function PRIM(GRAPH, START) MST = GRAPH without the edges attribute(s) VISITED = empty set add START to VISITED AVAILEDGES = list of edges where START is the source sort AVAILEDGES while VISITED is not all of the nodes SMLEDGE = smallest edge in AVAILEDGES SRC = source of SMLEDGE TAR = target of SMLEDGE if TAR not in VISITED add SMLEDGE to MST as undirected edge add TAR to VISITED add the edges where TAR is the source to AVAILEDGES remove SMLEDGE from AVAILEDGES sort AVAILEDGES return MST R.C. Prim, May 8, 1957 Shortest Connection Networks And Some Generalizations https://archive.org/details/bstj36-6-1389 ↩︎",
+    "description": "YouTube Video The history of Prim's Algorithm is not as straight forward as Kruskal’s. While we often call it Prim's Algorithm, it was originally developed in 1930 by Vojtěch Jarník. Robert Prim later rediscovered and republished this algorithm in 1957, one year after Kruskals. To add to the naming confusion, Edsger Dijkstra also published this work again in 1959. Because of this, the algorithm can go by many names: Jarkík's Algorithm, Jarník-Prim's Algorithm, Prim-Dijkstra's Algorithm, and DJP Algorithm.",
+    "tags": [],
+    "title": "Prim",
+    "uri": "/cc310/11-graph-algorithms/10-prim/"
+  },
+  {
     "breadcrumb": "Searching \u0026 Sorting",
     "content": "To describe our selection sort algorithm, we can start with these basic preconditions and postconditions.\nPreconditions:\nThe array stores a type of elements which can be ordered. Postconditions:\nThe array will be sorted in ascending order. We can then represent this algorithm using the following pseudocode.\n1function SELECTIONSORT(ARRAY) 2 loop INDEX from 0 to size of ARRAY – 2 3 MININDEX = 0 4 # find minimum index 5 loop INDEX2 from INDEX to size of ARRAY – 1 6 if ARRAY[INDEX2] \u003c ARRAY[MININDEX] then 7 MININDEX = INDEX 8 end if 9 end loop 10 # swap elements 11 TEMP = ARRAY[MININDEX] 12 ARRAY[MININDEX] = ARRAY[INDEX] 13 ARRAY[INDEX] = TEMP 14 end loop 15end function In this code, we begin by looping through every element in the array except the last one, as seen on line 2. We don’t include this one because if the rest of the array is sorted properly, then the last element must be the maximum value.\nLines 3 through 9 are basically the same as what we saw in our findMin function earlier. It will find the index of the minimum value starting at INDEX through the end of the array. Notice that we are starting at INDEX instead of the beginning. As the outer loop moves through the array, the inner loop will consider fewer and fewer elements. This is because the front of the array contains our sorted elements, and we don’t want to change them once they are in place.\nLines 11 through 13 will then swap the elements at INDEX and MININDEX, putting the smallest element left in the array at the position pointed to by index.\nWe can describe the invariant of our outer loop as follows:\nThe array from index 0 through index is sorted in ascending order. The elements in the array have not changed, only their positions. The second part of the loop invariant is very important. Without that distinction, we could simply place new values into the array before index and satisfy the first part of the invariant. It is always important to specify that the array itself still contains the same elements as before.",
     "description": "To describe our selection sort algorithm, we can start with these basic preconditions and postconditions.\nPreconditions:\nThe array stores a type of elements which can be ordered. Postconditions:\nThe array will be sorted in ascending order. We can then represent this algorithm using the following pseudocode.\n1function SELECTIONSORT(ARRAY) 2 loop INDEX from 0 to size of ARRAY – 2 3 MININDEX = 0 4 # find minimum index 5 loop INDEX2 from INDEX to size of ARRAY – 1 6 if ARRAY[INDEX2] \u003c ARRAY[MININDEX] then 7 MININDEX = INDEX 8 end if 9 end loop 10 # swap elements 11 TEMP = ARRAY[MININDEX] 12 ARRAY[MININDEX] = ARRAY[INDEX] 13 ARRAY[INDEX] = TEMP 14 end loop 15end function In this code, we begin by looping through every element in the array except the last one, as seen on line 2.",
@@ -2377,6 +2517,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Algorithms",
     "uri": "/cc310/03-intro-dsa/11-algorithms/"
+  },
+  {
+    "breadcrumb": "",
+    "content": "Algorithms for working with graphs!",
+    "description": "Algorithms for working with graphs!",
+    "tags": [],
+    "title": "Graph Algorithms",
+    "uri": "/cc310/11-graph-algorithms/"
   },
   {
     "breadcrumb": "Trees",
@@ -2425,6 +2573,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Theory",
     "uri": "/cc310/08-perf-string/11-theory/"
+  },
+  {
+    "breadcrumb": "Graph Algorithms",
+    "content": " YouTube Video YouTube Video While we won’t outline algorithms suited for solving the traveling salesperson problem (TSP), we will outline the premise of the problem. This problem was first posed in 1832, almost a two centuries ago, and is still quite prevalent. It is applicable to traveling routes, distribution networks, computer architecture and much more. The TSP is a seminal problem that has motivated many research breakthroughs, including Kruskal’s algorithm!\nThe motivation of the TSP is this: given a set of locations, what is the shortest path such that we can visit each location and end back where started?\nSuppose we wanted to take a road trip with friends to every state capital in the continental US as well as Washington D.C. To save money and time, we would want to minimize the distance that we travel. Since we are taking a road trip, we would want to avoid frivolous driving. For example, if we start in Sacremento, CA we would not want to end the trip in Boston, MA. The trip should start and end at the same location for efficiency.\nThe figure below shows the shortest trip that visits each state capital and Washington D.C. once. In this example, we can start where ever we like and will end up where we started.\n1\nIn this problem, it is easy to get overwhelmed by all of the possibilities. Since there are 49 cities to visit, there are over 6.2*10^60 possibilities. For reference, 10^12 is equivalent to one trillion! Thus, we need an algorithmic approach to solve this problem as opposed to a brute force method.\nPatriciaNeri, August 2018 https://communities.sas.com/t5/SAS-Communities-Library/What-is-the-shortest-tour-that-visits-only-once-the-48/ta-p/490231 ↩︎",
+    "description": "YouTube Video YouTube Video While we won’t outline algorithms suited for solving the traveling salesperson problem (TSP), we will outline the premise of the problem. This problem was first posed in 1832, almost a two centuries ago, and is still quite prevalent. It is applicable to traveling routes, distribution networks, computer architecture and much more. The TSP is a seminal problem that has motivated many research breakthroughs, including Kruskal’s algorithm!",
+    "tags": [],
+    "title": "Traveling Salesperson",
+    "uri": "/cc310/11-graph-algorithms/11-traveling-salesperson/"
   },
   {
     "breadcrumb": "Lists",

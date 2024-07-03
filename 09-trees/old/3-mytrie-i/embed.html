@@ -1384,6 +1384,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
@@ -1420,19 +1480,19 @@ Adding a Word To add a word to our trie, we traverse through the trie letter by 
     <meta itemprop="wordCount" content="604">
     <title>MyTrie I :: CC 310 Textbook</title>
     
-  <link href="/cc310/css/fontawesome-all.min.css?1720021860" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720021860" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1720021860" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1720021860" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720021860" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1720021860" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1720021860" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720021860" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1720021860" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1720038160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720038160" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1720038160" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1720038160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720038160" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1720038160" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1720038160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720038160" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1720038160" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1720021860" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1720021860" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1720021860" rel="stylesheet">
-  <link href="/cc310/css/print.css?1720021860" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1720038160" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1720038160" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1720038160" rel="stylesheet">
+  <link href="/cc310/css/print.css?1720038160" rel="stylesheet" media="print">
   
   
   
@@ -1455,7 +1515,7 @@ Adding a Word To add a word to our trie, we traverse through the trie letter by 
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1720021860" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1720038160" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/09-trees/old/3-mytrie-i/embed.html">
@@ -1473,8 +1533,8 @@ Adding a Word To add a word to our trie, we traverse through the trie letter by 
     
 
 <p>To implement our own trie, we will build off of MyTree that we built recursively. We will add an attribute to our tree to reinforce which nodes are words and which ones are not.</p>
-<p><a href="#R-image-5ed04479f81c3f5c7ade1f6b5ff07271" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/trie_uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5ed04479f81c3f5c7ade1f6b5ff07271"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/trie_uml.png"></a></p>
+<p><a href="#R-image-b35f03329e9a287373ad7d433a346c15" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/trie_uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b35f03329e9a287373ad7d433a346c15"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/trie_uml.png"></a></p>
 <h3 id="attributes">Attributes</h3>
 <p>We have the existing attributes of MyTree: parent, children, and item. For MyTrie, we introduce the boolean attribute <code>is_word</code> to delineate if our trie is a word.</p>
 <h3 id="adding-a-word">Adding a Word</h3>
@@ -1565,10 +1625,10 @@ Adding a Word To add a word to our trie, we traverse through the trie letter by 
 
 
 
-<script src="/cc310/js/clipboard.min.js?1720021860" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1720021860" defer></script>
-<script src="/cc310/js/theme.js?1720021860" defer></script>
+<script src="/cc310/js/clipboard.min.js?1720038160" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1720038160" defer></script>
+<script src="/cc310/js/theme.js?1720038160" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1720021860" defer></script>
+<script src="/cc310/js/embed-iframe.js?1720038160" defer></script>
 </body>
 </html>
