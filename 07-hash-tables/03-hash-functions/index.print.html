@@ -1289,6 +1289,101 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
@@ -1319,18 +1414,18 @@
     <link href="/cc310/07-hash-tables/03-hash-functions/index.xml" rel="alternate" type="application/rss+xml" title="Hash Functions :: CC 310 Textbook">
     <link href="/cc310/07-hash-tables/03-hash-functions/tele.html" rel="alternate" type="text/html" title="Hash Functions :: CC 310 Textbook">
     <link href="/cc310/07-hash-tables/03-hash-functions/embed.html" rel="alternate" type="text/html" title="Hash Functions :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719877279" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719877279" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719877279" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719877279" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719877279" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719877279" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719877279" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719877279" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719877279" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719877279" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719877279" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719877279" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719877279" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1719877279" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1719877279"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720021867" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720021867" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720021867" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720021867" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720021867" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720021867" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720021867" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720021867" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720021867" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720021867" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720021867" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720021867" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720021867" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1720021867" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1720021867"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1350,7 +1445,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719877279" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720021867" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/07-hash-tables/03-hash-functions/">
     <div id="R-body" class="default-animation">
@@ -1405,8 +1500,8 @@
 <p>Another interesting use of hash functions deals with storing and verifying passwords. When we sign up for an account on a website, it asks us for a password that we&rsquo;d like to use. Obviously, if that website just stored the password directly in their database, it could be a huge security problem if someone was able to gain access to that information. So, how can the website store a password in a way that prevents a hacker from learning our password, but the website can verify that we&rsquo;ve entered the correct password?</p>
 <p>In many cases, we can use a hash function to do just that. When we first enter our password, the website calculates the hash code for the password and then stores the result in the database.</p>
 <p>Then, when we try to log in to the website in the future, we provide the same password, and the website is able to calculate the hash again and verify that they match. As long as the hash function is properly designed, it is very unlikely for two passwords to result in the same hash, even if they are very similar.</p>
-<p><a href="#R-image-6861cae59ed20cb96c349fab442e11a8" class="lightbox-link"><img alt="Hash Function" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/11/11.3.hash.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6861cae59ed20cb96c349fab442e11a8"><img alt="Hash Function" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/11/11.3.hash.png"></a></p>
+<p><a href="#R-image-117f3176d7568f0516749f55a57bf5e7" class="lightbox-link"><img alt="Hash Function" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/11/11.3.hash.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-117f3176d7568f0516749f55a57bf5e7"><img alt="Hash Function" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/11/11.3.hash.png"></a></p>
 <p>In practice, most websites add additional random data to the password before hashing it, just to decrease the chances of two passwords hashing to the same value. This is referred to as &ldquo;salting&rdquo; the password.</p>
 </div>
 </div>
@@ -1434,8 +1529,8 @@
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1719877279" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719877279" defer></script>
-    <script src="/cc310/js/theme.js?1719877279" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720021867" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720021867" defer></script>
+    <script src="/cc310/js/theme.js?1720021867" defer></script>
   </body>
 </html>

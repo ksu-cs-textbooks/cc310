@@ -1289,6 +1289,101 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 var relearn_search_index = [
   {
@@ -1330,6 +1425,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Introduction",
     "uri": "/cc310/09-trees/01-tree-intro/"
+  },
+  {
+    "breadcrumb": "Graphs",
+    "content": " YouTube Video The next data structure we will introduce is a graph.\nGraphs are multidimensional data structures that can represent many different types of data. We can use graphs to represent electronic circuits and wiring, transportation routes, and networks such as the Internet or social groups.\nA popular and fun use of graphs is to build connections between people such as Facebook friends or even connections between performers. One example is the parlor game Six Degrees of Kevin Bacon. Players attempt to connect Kevin Bacon to other performers through movie roles in six people or less.\nFor example, Laurence Fishburne and Kevin Bacon are directly connected via ‘Mystic River’. Keanu Reeves and Kevin Bacon have never performed in the same film, but Keanu Reeves and Laurence Fishburne are connected via ‘The Matrix’. Thus, Keanu and Kevin are connected via Laurence.\nIn this module we will discuss graphs in more detail and build our own implementation of graphs.",
+    "description": "YouTube Video The next data structure we will introduce is a graph.\nGraphs are multidimensional data structures that can represent many different types of data. We can use graphs to represent electronic circuits and wiring, transportation routes, and networks such as the Internet or social groups.\nA popular and fun use of graphs is to build connections between people such as Facebook friends or even connections between performers. One example is the parlor game Six Degrees of Kevin Bacon.",
+    "tags": [],
+    "title": "Introduction",
+    "uri": "/cc310/10-graphs/01-graph-intro/"
   },
   {
     "breadcrumb": "OOP Review",
@@ -1484,6 +1587,14 @@ var relearn_search_index = [
     "uri": "/cc310/04-list/02-real-world-stack/"
   },
   {
+    "breadcrumb": "Graphs",
+    "content": " YouTube Video We will discuss some of the basic terminology associated with graphs. Some of this vocabulary should feel familiar from the trees section; trees are a specific type of graph!\nNodes: Node is the general term for a structure which contains an item. Size: The size of a graph is the number of nodes. Capacity: The capacity of a graph is the maximum number of nodes. Info Nodes can be, but are not limited to the following examples: - physical locations (IE Manhattan, Topeka, Salina), - computer components (IE CPU, GPU, RAM), or - people (IE Kevin Bacon, Laurence Fishburne, Emma Stone)\nEdges: Edges are the connection between two nodes. Depending on the data, edges can represent physical distance, films, cost, and much more. Adjacent: Node A and node B are said to be adjacent if there is an edge from node A to node B. Neighbors: The neighbors of a node are nodes which are adjacent to the node. Info Edges can be, but are not limited to: - physical distances, like the distance between cities or wiring between computer components, - cost, like bus fares, and - films, like the Six Degrees of Kevin Bacon example\nCycles: A cycle is a path where the first and last node are the only repeated nodes. More explicitly, this means that we start at node A and are able to end up back at node A. Example For example, we can translate the Amtrak Train Station Connections into a graph where the edges represent direct train station connections.\n1\nWithin this context, we could say that Little Rock and Fort Worth are adjacent. The neighbors of San Antonio are Fort Worth, Los Angeles, and New Orleans. The Amtrak Train Graph has multiple cycles. One of these is Kansas City -\u003e St. Louis -\u003e Chicago -\u003e Kansas City.\nGenerated using the Amtrak system map from 2018. This graph does not include all stations or connections. ↩︎",
+    "description": "YouTube Video We will discuss some of the basic terminology associated with graphs. Some of this vocabulary should feel familiar from the trees section; trees are a specific type of graph!\nNodes: Node is the general term for a structure which contains an item. Size: The size of a graph is the number of nodes. Capacity: The capacity of a graph is the maximum number of nodes. Info Nodes can be, but are not limited to the following examples: - physical locations (IE Manhattan, Topeka, Salina), - computer components (IE CPU, GPU, RAM), or - people (IE Kevin Bacon, Laurence Fishburne, Emma Stone)",
+    "tags": [],
+    "title": "Terms I",
+    "uri": "/cc310/10-graphs/02-graph-terms/"
+  },
+  {
     "breadcrumb": "OOP Review",
     "content": " YouTube Video As you might guess from its name, object-oriented programming languages are made to create and manipulate entities called objects. But what exactly are these objects? Objects were created to help decompose large complex programs with a lot of complex data into manageable parts.\nObject An object is a programming entity that contains related data and behavior.\nA good example of an object is dog. But not just any dog, or all dogs, but a specific dog. Each dog has specific characteristics that are captured as data such as their name, their height, their weight, their breed, their age, etc. We call these characteristics attributes and all dogs have the same type of attributes, although the values of those attributes may be unique. And generally, all dogs exhibit the same behaviors, or methods. Almost all dogs can walk, run, bark, eat, etc.\nSo, how do we define the basic attributes and behaviors of a dog? We probably start with some kind of idea of what a dog is. How do we describe dogs in general. In object orientation we do that through classes.\nClass A class is a blueprint for an object.\nWhat do we use blueprints for? Well, when we are building a physical structure such as a home or office building, an architect first creates a blueprint that tells the builder what to build and how everything should fit together. That is essentially what a class does. A class describes the types of attributes and methods that an object of that class will have.\nThen to create objects, we say we create an instance of a class by calling the class’s constructor method, which creates an object instance in memory and makes sure it’s attributes are properly created. Once the object has been created, the methods defined by the class can be used to manipulate the attributes and internal data of the object.",
     "description": "YouTube Video As you might guess from its name, object-oriented programming languages are made to create and manipulate entities called objects. But what exactly are these objects? Objects were created to help decompose large complex programs with a lot of complex data into manageable parts.\nObject An object is a programming entity that contains related data and behavior.\nA good example of an object is dog. But not just any dog, or all dogs, but a specific dog.",
@@ -1498,6 +1609,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Comparing Data Structures",
     "uri": "/cc310/08-perf-string/03-comparing/"
+  },
+  {
+    "breadcrumb": "Graphs",
+    "content": " YouTube Video While trees are a type of graph, graphs can have more functionality than trees. For example, recall that to be a single tree, there could be no disconnected pieces.\nConnectedness: Graphs do not require being fully connected. There can be disconnected portions within a graph. For example, the following graph shows all of the students in a sophomore biology class. There is an edge between two student nodes if they are Facebook friends. Graphs can also have loops. In a tree, this would be like a node being its own parent, which is not an allowable condition.\nLoops: Loops are edges which connect a node to itself. These can be useful in depicting graphs that show control flow in programming. In this example, node A is connected to node B and node A is connected to itself. ",
+    "description": "YouTube Video While trees are a type of graph, graphs can have more functionality than trees. For example, recall that to be a single tree, there could be no disconnected pieces.\nConnectedness: Graphs do not require being fully connected. There can be disconnected portions within a graph. For example, the following graph shows all of the students in a sophomore biology class. There is an edge between two student nodes if they are Facebook friends.",
+    "tags": [],
+    "title": "Graph Features",
+    "uri": "/cc310/10-graphs/03-graph-features/"
   },
   {
     "breadcrumb": "Hash Tables",
@@ -1676,6 +1795,14 @@ var relearn_search_index = [
     "uri": "/cc310/07-hash-tables/04-tuples/"
   },
   {
+    "breadcrumb": "Graphs",
+    "content": " YouTube Video A weighted graph is a graph which has weights associated with the edges. These weights quantify the relationships, so they can represent dollars, minutes, miles, and many other factors which our data may depend upon.\nWeights are not limited to physical quantities; they can also be our own defined similarity in text, product types, and anything for which we can create a similarity measure for. Let’s look at concrete weights using the Amtrak example.\nWe are able to expand the Amtrak graph from the previous page to include approximate distances in miles between cities.\n1\nNow that we have weights defined on our edges, we can compare paths in a different way. When we discussed trees, we just looked at the number of edges it took to get to another node. We can also determine the shortest path between nodes with respect to distance. If we wanted to travel from San Antonio to Kansas City, we may be tempted to travel San Antonio -\u003e Los Angeles -\u003e Albuquerque -\u003e Kansas City as it has the fewest stops. This trip would take us 2,531 miles (1201+640+690). With the edge weights in mind, a much better route would be San Antonio -\u003e Fort Worth -\u003e Little Rock -\u003e St. Louis -\u003e Kansas City with a total of 1,089 miles(238+320+293+238) traveled.\nGenerated using the Amtrak system map from 2018. This graph does not include all stations or connections. Distance was calculated approximately ‘as the crow flies’. ↩︎",
+    "description": "YouTube Video A weighted graph is a graph which has weights associated with the edges. These weights quantify the relationships, so they can represent dollars, minutes, miles, and many other factors which our data may depend upon.\nWeights are not limited to physical quantities; they can also be our own defined similarity in text, product types, and anything for which we can create a similarity measure for. Let’s look at concrete weights using the Amtrak example.",
+    "tags": [],
+    "title": "Weighted Graphs",
+    "uri": "/cc310/10-graphs/04-weighted/"
+  },
+  {
     "breadcrumb": "Programming by Contract and Introduction to Performance",
     "content": " YouTube Video If we have defined the correct preconditions, postconditions, and invariants for our code, we can then use those to prove that our code correctly performs its intended operation.\nIn this course, we won’t ask you to do any of this yourself, but it is important to understand what is going on in the background and how this process works. We can use the concepts of preconditions and postconditions when grading your code using our Autograder—in fact, that’s really how it works!\nProving Correctness To prove correctness of a method, we can generally follow this process:\nEstablish (or assume) that the method’s preconditions are all true Use the preconditions and the code to demonstrate that any invariants within the code are always true If the code contains a loop, we can repeat this process for preconditions and postconditions of the loop Use the preconditions and invariants to show that the postcondition is true Let’s do this for our maximum() method described on the previous page. Here is the pseudocode once again:\nfunction MAXIMUM(NUMBERS) MAX = NUMBERS[0] loop I from 1 to length of NUMBERS if NUMBERS[I] \u003e MAX MAX = NUMBERS[I] end if end loop return MAX end function Here are the associated conditions we established as well:\nMethod Precondition: NUMBERS is an array containing at least one numerical value, either a floating point or an integer Loop Precondition: MAX contains the maximum value stored in NUMBERS up to and including index $0$. Loop Invariant: MAX contains the maximum value stored in NUMBERS up to and including index $I$. Loop Postcondition: MAX contains the maximum value stored in NUMBERS up to and including the last index. Method Postconditions: The method returns the maximum value stored in the NUMBERS array, and the NUMBERS array is not modified by the method\nNow that we have that information, we can discuss the correctness of the method.\nA Simple Proof To begin, we assume that the method’s preconditions are true. Therefore, we know that NUMBERS is an array containing at least one numerical value. Earlier in this chapter, we learned that we can’t assume that the method works if the preconditions are false, so we can always begin our proof by assuming they are true.\nNext, we have to use the code as well as the method’s preconditions to establish that the loop’s preconditions are true. In the code, we see that we set the value of MAX equal to the first element in the NUMBERS array. So, since there is only that value in the NUMBERS array up to and including index $0$, it is easy to say that it is indeed the maximum value. So, we’ve shown that our loop’s precondition is true.\nAfter that, we have to show that the loop invariant is true after each iteration of the loop. A proper proof would involve a technique called proof by induction, which is more advanced than we want to cover in this course. However, a simple way to think about it is to say that the value in MAX contains the largest value in the list that we’ve seen so far. On each loop iteration, we look at one more value. If it is larger than MAX, then it becomes the new MAX value. Otherwise, we know that the maximum value we’ve seen so far hasn’t changed. So, we can show that our loop invariant is always true after each loop iteration.\nFinally, once we reach the end of the loop, we’ve looked at every element including the last index, and found the MAX value, so it is easy to see that our loop postcondition is true.\nThen, we can quickly use that loop postcondition to understand that the MAX value is really the largest in the NUMBERS array, which means that the first part of our method’s postcondition is also true.\nBut wait! What about the second part, that insists that we did not modify the contents of the numbers array? Thankfully, we can quickly look at our code and determine that we are not assigning a value into the array, nor do we call any functions on the array, so it is easy to show that our code has not modified it in any way.\nThere we go! This is a quick example for how we can use preconditions, postconditions, and invariants to help understand our code and whether it works correctly.\nOn the next page, we’ll learn about unit testing and how we can write our own code to verify that our code works correctly.",
     "description": "YouTube Video If we have defined the correct preconditions, postconditions, and invariants for our code, we can then use those to prove that our code correctly performs its intended operation.\nIn this course, we won’t ask you to do any of this yourself, but it is important to understand what is going on in the background and how this process works. We can use the concepts of preconditions and postconditions when grading your code using our Autograder—in fact, that’s really how it works!",
@@ -1690,6 +1817,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Debugging",
     "uri": "/cc310/01-review/05-debugging/"
+  },
+  {
+    "breadcrumb": "Graphs",
+    "content": " YouTube Video A directed graph is a graph that has a direction associated with each edge. For example, trees are a directed graph. The edge orientation will imply a fixed direction that we can move about nodes. As with trees, the flat end of the arrow will represent the origin and the arrowhead will represent the destination. If an edge has no arrowheads, then it is assumed that we can traverse both directions.\nIn the following graph, we have an example distribution network where each store ends up with 5 units in its possession. For example, nine units go from the distribution center to Store A. The distribution center will never receive product from stores as it has no incoming edges.\nUnlike trees, directed graphs can have nodes with multiple incoming edges. We can see an example of this at Store B. The distribution center and Store A both send units to Store B.\nInfo In directed graphs, we must be cautious on how we define adjacent. For the following, we would say that the source is adjacent to the target. However, the target is not adjacent to the source.\nFormally, node A and node B are said to be adjacent if there is an edge from node A to node B.\nWhen discussing directed graphs, we must also talk about undirected graphs. An undirected graph is a graph in which none of the edges have an orientation. If there is at least one directed edge, then it is considered a directed graph.\nUndirected Edge: An undirected edge is an edge which has no defined orientation (IE no arrowheads) which implies that we can traverse in either direction. If node A and node B are connected via an undirected edge then we say node A is adjacent to node B and node B is adjacent to node A. Info For the following undirected edge, we would say that the source is adjacent to the target and the target is adjacent to the source.\nInfo Graph types and appearances can vary wildly. We are not limited to just weighted/unweighted or directed/undirected. We can also have combinations of weighted and directed.",
+    "description": "YouTube Video A directed graph is a graph that has a direction associated with each edge. For example, trees are a directed graph. The edge orientation will imply a fixed direction that we can move about nodes. As with trees, the flat end of the arrow will represent the origin and the arrowhead will represent the destination. If an edge has no arrowheads, then it is assumed that we can traverse both directions.",
+    "tags": [],
+    "title": "Directed Graphs",
+    "uri": "/cc310/10-graphs/05-directed/"
   },
   {
     "breadcrumb": "Hash Tables",
@@ -1794,6 +1929,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Associations",
     "uri": "/cc310/02-oop-review/06-associations/"
+  },
+  {
+    "breadcrumb": "Graphs",
+    "content": "In the following graph, we have an example of a weighted and directed map. This map represents a zoo train where each node represents a station and each edge is a part of the track. Zoo guests can get on and off wherever they desire.\nThis graph is weighted as guests must pay the associated fee for each part of the track. Our example train also has a one way direction in most cases. The exception to this is the entrance/exit to the aquarium, this part of the track can go either direction.\nIn this graph, we also have a couple of loops. This would allow for zoo-guests to ride the train around an expansive exhibit such as the elephants or giraffes.\nOne possible way to tour the zoo for a guest starting at the entrance could be: aquarium, primates, big cats, antelope, giraffes, loop around the giraffes, elephants, aquarium, then exit. Their total payment for just the train would be $14.",
+    "description": "In the following graph, we have an example of a weighted and directed map. This map represents a zoo train where each node represents a station and each edge is a part of the track. Zoo guests can get on and off wherever they desire.\nThis graph is weighted as guests must pay the associated fee for each part of the track. Our example train also has a one way direction in most cases.",
+    "tags": [],
+    "title": "Example",
+    "uri": "/cc310/10-graphs/06-example1/"
   },
   {
     "breadcrumb": "Recursion",
@@ -1924,6 +2067,14 @@ var relearn_search_index = [
     "uri": "/cc310/06-search-sort/07-linear-time/"
   },
   {
+    "breadcrumb": "Graphs",
+    "content": " YouTube Video The first way that we can represent graphs is as matrices. In a matrix representation of a graph, we will have an array with all the nodes and a matrix to depict the edges. The matrix that depicts the edges is called the adjacency matrix.\nTo build the adjacency matrix, we go through the nodes and edges. If there is an edge with weight w going from i to j, then we put w in the (i,j) spot in our adjacency matrix. If there is no edge from i to j then we put infinity in the spot (i,j). Let’s look at some examples.\nInfo An edge that starts at source and ends at target will result in an entry at (source,target) in the adjacency matrix.\nInfo For an unweighted graph, we treat the weights as 1 for all edges in our adjacency matrix.\nFor an undirected edge between nodes i and j, we put an edge from i to j and an edge from j to i.\nExample 1 Suppose that we have the following graph:\nAcross the top of the following, we have the array of nodes. This give us the index at which each node is located. For example, node A is in spot 1, node B is in spot 2, node C is in spot 3 and so on.\nBelow that we have the adjacency matrix. For the directed edge with weight 2 that goes from node B to node C, we have the value 2 at (2,3) in the adjacency matrix as B has index 2 and C has index 3. For the directed edge with weight 4 that goes from node A to node F, we have the value 4 at (1,6) in the adjacency matrix as A has index 1 and F has index 6.\nSince there is no edge that connects from node A to node B, we have infinity in (1,2).\nExample 2 Now suppose we have this graph. We now have some loops present. For example, we have a loop on node E with weight 12 so we will put the value 12 in spot (5,5) as E has index 5.\nExample 3 Now suppose we have this graph which is undirected and unweighted. Since this graph is unweighted, we will treat all edges as though they have weight equal to one. Since this graph is undirected, each edge will essentially show up twice.\nFor example, for the edge that connects nodes A and B, we will have an entry in our adjacency matrix at (1,2) and (2,1).",
+    "description": "YouTube Video The first way that we can represent graphs is as matrices. In a matrix representation of a graph, we will have an array with all the nodes and a matrix to depict the edges. The matrix that depicts the edges is called the adjacency matrix.\nTo build the adjacency matrix, we go through the nodes and edges. If there is an edge with weight w going from i to j, then we put w in the (i,j) spot in our adjacency matrix.",
+    "tags": [],
+    "title": "Matrix Representation",
+    "uri": "/cc310/10-graphs/07-matrix/"
+  },
+  {
     "breadcrumb": "Introduction to Data Structures \u0026 Algorithms",
     "content": " YouTube Video 1\nThe other type of data structure we can use in our programs is the non-linear data structure.\nBroadly speaking, non-linear data structures allow us to store data across multiple dimensions, and there may be multiple paths through the data to get from one item to another. In fact, much of the information stored in the data structure has to do with the paths between elements more than the elements themselves.\nNon-Linear Data Structure Hierarchy Just like linear data structures, there are several different types of non-linear data structures. In this case, each one is a more specialized version of the previous one, hence the hierarchy shown above. On the next few pages, we’ll explore each one just a bit to see what they look like.\nFile:6n-graf.svg. (2020, January 12). Wikimedia Commons, the free media repository. Retrieved 02:53, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:6n-graf.svg\u0026oldid=386942400. ↩︎",
     "description": "YouTube Video 1\nThe other type of data structure we can use in our programs is the non-linear data structure.\nBroadly speaking, non-linear data structures allow us to store data across multiple dimensions, and there may be multiple paths through the data to get from one item to another. In fact, much of the information stored in the data structure has to do with the paths between elements more than the elements themselves.",
@@ -1988,6 +2139,14 @@ var relearn_search_index = [
     "uri": "/cc310/03-intro-dsa/08-graphs/"
   },
   {
+    "breadcrumb": "Graphs",
+    "content": " YouTube Video In the previous module, we introduced graphs and a matrix-based implementation. For this module, we will continue working with graphs and change our implementation to lists.\nWhy Another Implementation? When using graphs, a lot of situational variation can occur. Some graphs can have a few nodes with many edges, many nodes with few edges, and so on. When we use the matrix implementation, we initialize a matrix with the number of columns and rows equal to the number of nodes. For example, if we have a graph with 20 nodes, our adjacency matrix would have 20 rows and 20 columns, resulting in 400 potential entries.\nFirst let’s look at the implementation and then we will discuss when one may be better than the other.",
+    "description": "YouTube Video In the previous module, we introduced graphs and a matrix-based implementation. For this module, we will continue working with graphs and change our implementation to lists.\nWhy Another Implementation? When using graphs, a lot of situational variation can occur. Some graphs can have a few nodes with many edges, many nodes with few edges, and so on. When we use the matrix implementation, we initialize a matrix with the number of columns and rows equal to the number of nodes.",
+    "tags": [],
+    "title": "Introduction",
+    "uri": "/cc310/10-graphs/08-list-intro/"
+  },
+  {
     "breadcrumb": "Python Review",
     "content": " YouTube Video Loops are another way we can control the flow of our program, this time by repeating steps based on a given criteria. A computer is able to repeat the same instructions many times. There are several ways to tell a computer to repeat a sequence of instructions:\nRepeat an infinite number of times, e.g. while true. This construct is useful in software applications such as servers that will offer a service. The service is supposed to be available forever. Repeat a specific number of times, e.g. Repeat 10 times or for i = 1 to 10. This loop can be used when you know the number of repetitions. There are also loops that allow you to repeat as many times as there are elements of a collection, such as for each item in list Repeat according to a condition. The number of repetitions depends on the condition. Most programming languages support the while loop, which repeats while the condition is true. In repeat while loops, the number of repetitions depends on the occurrence of a condition: the cycle repeats if the condition is true. Loops can also be nested, just like conditional statements.\nLoops in Flowcharts \u0026 Pseudocode The table below lists the flowchart blocks used to represent loop statements, as well as the corresponding pseudocode:\nOperation Flowchart Pseudocode While Loop loop while A \u003c 5\nA = A + 1\nend loop For Loop loop I from 1 to 10\nA = A + I\nend loop For Loop with Step loop I from 1 to 10 step by 2\nA = A + I\nend loop For Each Loop loop each I in LIST\nA = A + I\nend loop Loops in Python To see how loops look in Python, let’s recreate them from the flowcharts shown above.\nwhile a \u003c 5: a = a + 1 for i in range(1, 11): a = a + i for i in range(1, 11, 2): a = a + i for i in list: a = a + i As we can see in the examples above, we must carefully indent each block of code to help set it apart from the other parts of the program. In addition, each line containing for and while must end in a colon :. Finally, notice that the range() function in Python does not include the second parameter in the output. So, to get the numbers $1$ through $10$, inclusive, we must use range(1, 11) in our code.",
     "description": "YouTube Video Loops are another way we can control the flow of our program, this time by repeating steps based on a given criteria. A computer is able to repeat the same instructions many times. There are several ways to tell a computer to repeat a sequence of instructions:\nRepeat an infinite number of times, e.g. while true. This construct is useful in software applications such as servers that will offer a service.",
@@ -2050,6 +2209,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Classes",
     "uri": "/cc310/02-oop-review/09-classes/"
+  },
+  {
+    "breadcrumb": "Graphs",
+    "content": " YouTube Video In the matrix representation, we had an array of the node items. In the list representation, we will have an array of node objects. Each node object will keep track of the node item, the node index, and the outgoing edges.\nThe item can be any object and the index will be a value within our capacity. The edges will be a list of pairs where the first entry is the index of the target node and the second entry is the weight of the edge.\nSince each node will track its neighbors, it is important that we are consistent in our indexing of nodes. If our nodes were to get out of order, then our edges would as well.\nExample 1 Consider the following graph which we saw in the matrix representation.\nThe following list of nodes depicts the graph above. We can see that each node object has the item and index.\nIf we look closer at the edges of the node with item A and index 1, we see that the set of edges is equal to [(4, 3.0), (6, 4.0)]. This corresponds to the fact that there are two edges with the source as node 1. The first ordered pair, (4, 3.0), means that there is an edge with source node 1 (A) and target node 4 (D) that has weight 3. We can confirm that in our graph we do have an edge from A to D with weight 3.\nExample 2 The following includes a couple of examples of loops within our graph.\nWe have loops on nodes D, E, and F in our graph. Recall that a loop is an edge where the source and target are the same. For example, we have an edge with source D and target D that has weight 12. We see this in our list representation in the node object with item D and index 4, where we have the entry (4,12.0) in the edges.",
+    "description": "YouTube Video In the matrix representation, we had an array of the node items. In the list representation, we will have an array of node objects. Each node object will keep track of the node item, the node index, and the outgoing edges.\nThe item can be any object and the index will be a value within our capacity. The edges will be a list of pairs where the first entry is the index of the target node and the second entry is the weight of the edge.",
+    "tags": [],
+    "title": "List Representation",
+    "uri": "/cc310/10-graphs/09-list/"
   },
   {
     "breadcrumb": "Programming by Contract and Introduction to Performance",
@@ -2140,6 +2307,22 @@ var relearn_search_index = [
     "uri": "/cc310/09-trees/10-binary-traversals/"
   },
   {
+    "breadcrumb": "Graphs",
+    "content": " YouTube Video When considering which implementation to use, we need to consider the connectivity in our graph. The terms that we use to describe the connectedness are dense and sparse.\nDense Graph: A dense graph is a graph in which there is a large number of edges. Typically in a dense graph, the number of edges is close to the maximum number of edges. Sparse Graph: A sparse graph is a graph in which there is a small number of edges. In this case the number of edges is considerably less than the maximum number of edges. Info Intuitively, we can think of dense and sparse in terms of populations. For example, if 100 people lived in a city block, we can consider that to be densely populated. If 100 people lived in 100 square miles we can consider that to be sparsely populated.\nLet’s look at some motivating examples to get an idea of how the different structures will handle these cases.\nDense The following is a dense graph. In this case, our graph does have the maximum number of edges. This means that every node is connected to every other node including itself.\nSparse The following is a sparse graph.\nList or Matrix? For dense graphs, the matrix representation will have better qualities as we are already setting aside space for the maximum number of edges. Sparse graphs are better represented in the list representation.\nWhen we initialize the matrix implementation, we initialize the nodes attribute to have dimension equal to the capacity of the graph. The edges attribute is initialized to be a square matrix with dimension equal to capacity by capacity. Thus, if we have a sparse matrix, we are representing a lot of non-existent edges.\nWhen we initialize the list implementation, we just have the nodes attribute which has dimension equal to the capacity and each node tracks its own edges. If we have a dense matrix and we are searching for an edge, we must loop through each edge from the target node to see if the edge exists. In the matrix representation, we can access that edge directly.\nInfo If the proportion of edges to the maximum number of edges is greater than 1/64, then the matrix representation is better in terms of space.",
+    "description": "YouTube Video When considering which implementation to use, we need to consider the connectivity in our graph. The terms that we use to describe the connectedness are dense and sparse.\nDense Graph: A dense graph is a graph in which there is a large number of edges. Typically in a dense graph, the number of edges is close to the maximum number of edges. Sparse Graph: A sparse graph is a graph in which there is a small number of edges.",
+    "tags": [],
+    "title": "Dense VS Sparse",
+    "uri": "/cc310/10-graphs/10-dense-sparse/"
+  },
+  {
+    "breadcrumb": "",
+    "content": "Representing data in a graph!",
+    "description": "Representing data in a graph!",
+    "tags": [],
+    "title": "Graphs",
+    "uri": "/cc310/10-graphs/"
+  },
+  {
     "breadcrumb": "Introduction to Data Structures \u0026 Algorithms",
     "content": " 1\nThe last non-linear data structure we’ll talk about is the heap, which is a specialized version of a tree. In a heap, we try to accomplish a few goals:\nStore either the largest or smallest element in the heap at the root node, Ensure that each parent node is either larger or smaller than all of its children, and Minimize the height, or number of levels, of the tree. If we follow those three guidelines, a heap becomes the most efficient data structure for managing a set of data where we always want to get the maximum or minimum value each time we remove an element. These are typically called priority queues, since we remove items based on their priority instead of the order they entered the queue.\nBecause of this, heaps are very important in creating efficient algorithms that deal with ordered data.\nWhen to Use a Heap As discussed above, a heap is an excellent data structure for when we need to store elements and then always be able to quickly retrieve either the smallest or largest element in the data structure. Heaps are a very specific version of a tree that specialize in efficiency over everything else, so they are only really good for a few specific uses.\nFile:Max-Heap.svg. (2014, December 28). Wikimedia Commons, the free media repository. Retrieved 03:25, February 8, 2020 from https://commons.wikimedia.org/w/index.php?title=File:Max-Heap.svg\u0026oldid=144372033. ↩︎",
     "description": "1\nThe last non-linear data structure we’ll talk about is the heap, which is a specialized version of a tree. In a heap, we try to accomplish a few goals:\nStore either the largest or smallest element in the heap at the root node, Ensure that each parent node is either larger or smaller than all of its children, and Minimize the height, or number of levels, of the tree.",
@@ -2202,6 +2385,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "In-Order Traversal",
     "uri": "/cc310/09-trees/11-in-order/"
+  },
+  {
+    "breadcrumb": "Graphs",
+    "content": " YouTube Video Attributes nodes: This will keep track of the nodes which are in our graph as well as the node values. The nodes can have any type of value such as numbers, characters, and even other data structures. size: This will keep track of the number of nodes that are active in our graph. Upon initialization, we will initialize nodes to be an empty array with dimension capacity and size to be zero as we start with no actual nodes.\nGetters get nodes: returns a list of the nodes with their respective indexes. This will be the same logic from our matrix graph. function GETNODES() LIST = [] for NODE in NODES if NODE has a VALUE append (VALUE, INDEX) to LIST return LIST get edges: returns a list of the edges in the format (source, target, weight). function GETEDGES() LIST = [] for NODE in NODES if NODE is not empty for EDGE in NODE EDGES TAR = first entry of EDGE WEIGHT = second entry of EDGE append (NODE,TAR,WEIGHT) to LIST return LIST get node: returns the node with the given index. If the index is within the possible range, then we return the value of that node. This will be the same logic from our matrix graph.\nfind node: returns the index of the given node. We iterate through our nodes and if we find that value, then we return the index. Otherwise, return -1. This will be the same logic from our matrix graph.\nget edge: returns the weight of the edge between the given indexes of the source node and target node. If one or both of the indexes are out of range, then we should return infinity. From the source node object, we will call the graph node get edge function on the target index.\nfunction GETEDGE(SRC,TAR) if SRC and TAR are between 0 and capacity SRCNODE = the node at index SRC of the NODES attribute WEIGHT = call the graph node GETEDGE from SRCNODE on TAR return WEIGHT else return infinity get capacity: returns the maximum number of nodes we are allowed to have. Upon initialization, we will have a fixed number of possible nodes in our node array. We can simply return the size of this array. This will be the same logic from our matrix graph.\nget size: returns the size attribute. This will be the same logic from our matrix graph.\nget number of edges: returns the number of edges currently in the graph.\nfunction NUMBEROFEDGES() COUNT = 0 for NODE in NODES if NODE is not empty for EDGE in NODE EDGES increment COUNT by one return COUNT get neighbors: returns the neighbors of the given node. We will access our row adjacency matrix that corresponds to the node and return the indexes and values of those entries which are not infinity. function GETNEIGHBORS(IDX) SRCNODE = the node at index IDX of the NODES attribute if SRCNODE is not empty return SRCNODE's edges else return nothing ",
+    "description": "YouTube Video Attributes nodes: This will keep track of the nodes which are in our graph as well as the node values. The nodes can have any type of value such as numbers, characters, and even other data structures. size: This will keep track of the number of nodes that are active in our graph. Upon initialization, we will initialize nodes to be an empty array with dimension capacity and size to be zero as we start with no actual nodes.",
+    "tags": [],
+    "title": "List Graph UML",
+    "uri": "/cc310/10-graphs/11-graph-uml/"
   },
   {
     "breadcrumb": "OOP Review",
@@ -2314,6 +2505,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Strings",
     "uri": "/cc310/01-review/11-strings/"
+  },
+  {
+    "breadcrumb": "Graphs",
+    "content": "In this module, we have introduced the graph data structure. We also looked at how we would implement a graph using a matrix representation. We introduced the following new concepts in this module:\nDirected Graphs: A directed graph is a graph that has a direction associated with each edge. The flat end of the arrow will represent the origin and the arrowhead will represent the destination. If an edge has no arrowheads, then it is assumed that we can traverse both directions.\nEdges: Edges are the connection between two nodes. Depending on the data, edges can represent physical distance, films, cost, and much more.\nAdjacent: Node A and node B are said to be adjacent if there is an edge from node A to node B. Neighbors: The neighbors of a node are nodes which are adjacent to the node. Undirected Edge: An undirected edge is an edge which has no defined orientation (IE no arrowheads). If node A and node B are connected via an undirected edge then we say node A is adjacent to node B and node B is adjacent to node A. Loops: Loops are edges which connect a node to itself.\nNodes: Node is the general term for a structure which contains an item.\nSize: The size of a graph is the number of nodes. Capacity: The capacity of a graph is the maximum number of nodes. Weighted Graphs: A weighted graph is a graph which has weights associated with the edges. These weights will quantify the relationships so they can represent dollars, minutes, miles, and many other factors which our data may depend on.\nMatrix Representation Graphs can be represented using a matrix of edges between nodes.\nList Representation In this module, we also introduced a new way to store the graph data structure. Thus, we now have two ways to work with graphs, in lists and in matrices:\nWhile these methods show the same information, there are cases when one way may be more desirable than the other.\nWe discussed how a sparse graph is better suited for a list representation and a dense graph is better suited for a matrix representation. We also touched on how working with the edges in a list representation can add complexity to our edge functions. If we are needing to access edge weights or update edges frequently, a matrix representation would be a good choice – especially if we have a lot of nodes.",
+    "description": "In this module, we have introduced the graph data structure. We also looked at how we would implement a graph using a matrix representation. We introduced the following new concepts in this module:\nDirected Graphs: A directed graph is a graph that has a direction associated with each edge. The flat end of the arrow will represent the origin and the arrowhead will represent the destination. If an edge has no arrowheads, then it is assumed that we can traverse both directions.",
+    "tags": [],
+    "title": "Summary",
+    "uri": "/cc310/10-graphs/12-summary/"
   },
   {
     "breadcrumb": "Lists",

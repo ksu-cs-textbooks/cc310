@@ -1289,6 +1289,101 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -1375,6 +1470,13 @@
       <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/xx-sets/</guid>
       <description>Welcome! This page is the main page for Sets</description>
+    </item>
+    <item>
+      <title>Graphs</title>
+      <link>https://textbooks.cs.ksu.edu/cc310/10-graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc310/10-graphs/</guid>
+      <description>Representing data in a graph!</description>
     </item>
     <item>
       <title>Programming by Contract and Introduction to Performance</title>

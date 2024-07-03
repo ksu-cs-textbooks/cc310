@@ -1289,6 +1289,101 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
@@ -1323,18 +1418,18 @@ In this section we will investigate another type of recursion called tree recurs
     <link href="/cc310/05-recursion/05-tree-recursion/index.xml" rel="alternate" type="application/rss+xml" title="Tree Recursion :: CC 310 Textbook">
     <link href="/cc310/05-recursion/05-tree-recursion/tele.html" rel="alternate" type="text/html" title="Tree Recursion :: CC 310 Textbook">
     <link href="/cc310/05-recursion/05-tree-recursion/embed.html" rel="alternate" type="text/html" title="Tree Recursion :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1719877279" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1719877279" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1719877279" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1719877279" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1719877279" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1719877279" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1719877279" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1719877279" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1719877279" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1719877279" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1719877279" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1719877279" rel="stylesheet">
-    <link href="/cc310/css/print.css?1719877279" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1719877279" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1719877279"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720021866" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720021866" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720021866" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720021866" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720021866" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720021866" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720021866" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720021866" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720021866" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720021866" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720021866" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720021866" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720021866" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1720021866" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1720021866"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1354,7 +1449,7 @@ In this section we will investigate another type of recursion called tree recurs
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1719877279" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720021866" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/05-recursion/05-tree-recursion/">
     <div id="R-body" class="default-animation">
@@ -1398,8 +1493,8 @@ In this section we will investigate another type of recursion called tree recurs
 <li>Compare <code>MAX1</code> and <code>MAX2</code> to find the maximum of all elements.</li>
 </ol>
 <p>Our process recursively decomposes the problem by searching for the maximum in the first $N/2$ elements and the second $N/2$ elements until we reach the base case. In this problem, the base case is when we either have 1 or 2 elements in the array. If we just have 1, we return that value. If we have 2, we return the larger of those two values. An overview of the process is shown below.</p>
-<p><a href="#R-image-e9984aca7861033a74a5ea614854bf42" class="lightbox-link"><img alt="Tree Recursion" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.6.tree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e9984aca7861033a74a5ea614854bf42"><img alt="Tree Recursion" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.6.tree.png"></a></p>
+<p><a href="#R-image-280676b6decd1e4e709e45e704cdcd70" class="lightbox-link"><img alt="Tree Recursion" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/6/6.6.tree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-280676b6decd1e4e709e45e704cdcd70"><img alt="Tree Recursion" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/6/6.6.tree.png"></a></p>
 <p>The pseudocode for the algorithm is shown below.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">function MAX(VALUES, START, END)
 </span></span><span class="line"><span class="cl">    print &#34;Called MAX with start = &#34; + START + &#34;, end = &#34; + END
@@ -1458,8 +1553,8 @@ In this section we will investigate another type of recursion called tree recurs
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1719877279" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1719877279" defer></script>
-    <script src="/cc310/js/theme.js?1719877279" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720021866" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720021866" defer></script>
+    <script src="/cc310/js/theme.js?1720021866" defer></script>
   </body>
 </html>
