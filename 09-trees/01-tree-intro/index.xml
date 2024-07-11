@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Introduction :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/01-tree-intro/</link>
-    <description>YouTube Video Video Materials&#xA;For the next data structure in the course, we will cover trees, which are used to show hierarchical data. Trees can have many shapes and sizes and there is a wide variety of data that can be organized using them. Real world data that is appropriate for trees can include: family trees, management structures, file systems, biological classifications, anatomical structures and much more.&#xA;We can look at an example of a tree and the relationships they can show.</description>
+    <description>Video Materials&#xA;For the next data structure in the course, we will cover trees, which are used to show hierarchical data. Trees can have many shapes and sizes and there is a wide variety of data that can be organized using them. Real world data that is appropriate for trees can include: family trees, management structures, file systems, biological classifications, anatomical structures and much more.&#xA;We can look at an example of a tree and the relationships they can show.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/01-tree-intro/index.xml" rel="self" type="application/rss+xml" />

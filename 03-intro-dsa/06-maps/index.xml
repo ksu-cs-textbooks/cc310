@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Maps :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/06-maps/</link>
-    <description>YouTube Video The last of the linear data structures may seem linear from the outside, but inside it can be quite a bit more complex.&#xA;The map data structure is an example of a key-value data structure, also known as a dictionary or associative array. In the simplest case, a map data structure keeps track of a key that uniquely identifies a particular value, and stores that value along with the key in the data structure.</description>
+    <description>The last of the linear data structures may seem linear from the outside, but inside it can be quite a bit more complex.&#xA;The map data structure is an example of a key-value data structure, also known as a dictionary or associative array. In the simplest case, a map data structure keeps track of a key that uniquely identifies a particular value, and stores that value along with the key in the data structure.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/06-maps/index.xml" rel="self" type="application/rss+xml" />

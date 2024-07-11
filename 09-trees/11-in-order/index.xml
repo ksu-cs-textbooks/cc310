@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>In-Order Traversal :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/11-in-order/</link>
-    <description> YouTube Video Since we have fixed order on the children, we can introduce another type of traversal: in-order traversal.&#xA;In-order Traversal:&#xA;Run the in-order traversal on the left child Access the root, write its value Run the in-order traversal on the right child Remember: Left Root Right </description>
+    <description> Since we have fixed order on the children, we can introduce another type of traversal: in-order traversal.&#xA;In-order Traversal:&#xA;Run the in-order traversal on the left child Access the root, write its value Run the in-order traversal on the right child Remember: Left Root Right </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/11-in-order/index.xml" rel="self" type="application/rss+xml" />

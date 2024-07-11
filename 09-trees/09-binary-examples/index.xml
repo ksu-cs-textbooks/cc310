@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Binary Tree Examples :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/09-binary-examples/</link>
-    <description>YouTube Video Valid Binary Trees This is a valid binary tree. We have a single node, the root, with no children. As with general trees, binary trees are built recursively. Thus, each node and its child(ren) are trees themselves.&#xA;This is also a valid binary tree. All of the left children are less than their parent. The node with item ‘10’ is also in the correct position as it is less than 12, 13, and 14 but greater than 9.</description>
+    <description>Valid Binary Trees This is a valid binary tree. We have a single node, the root, with no children. As with general trees, binary trees are built recursively. Thus, each node and its child(ren) are trees themselves.&#xA;This is also a valid binary tree. All of the left children are less than their parent. The node with item ‘10’ is also in the correct position as it is less than 12, 13, and 14 but greater than 9.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/09-binary-examples/index.xml" rel="self" type="application/rss+xml" />

@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1478,17 +1503,17 @@ Our intuition tells us that it should. Recall that we discussed how much easier 
     <link href="/cc310/06-search-sort/22-binary-search/index.print.html" rel="alternate" type="text/html" title="Binary Search :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/22-binary-search/tele.html" rel="alternate" type="text/html" title="Binary Search :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/22-binary-search/embed.html" rel="alternate" type="text/html" title="Binary Search :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720038147" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720038147" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720038147" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720038147" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720038147" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720038147" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720038147" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720038147" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720038147" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720038147" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720038147" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720038147" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720038147" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1720038147"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720728584" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728584" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720728584" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720728584" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728584" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720728584" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720728584" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728584" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720728584" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720728584" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720728584" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720728584" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720728584" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1720728584"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1508,7 +1533,7 @@ Our intuition tells us that it should. Recall that we discussed how much easier 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720038147" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720728584" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/06-search-sort/22-binary-search/">
     <div id="R-body" class="default-animation">
@@ -1586,30 +1611,30 @@ Our intuition tells us that it should. Recall that we discussed how much easier 
 <p>Once an occurrence of the desired value is found, we can also look at the values before it to see if there any more of the desired values in the container. Since it is sorted, they should all be grouped together. If we want our algorithm to return the index of the first occurrence of the desired value, we can simply move toward the front of the array until we find that first occurrence.</p>
 <h2 id="binary-search-example">Binary Search Example</h2>
 <p>Let&rsquo;s work through a quick example of the binary search algorithm to see how it works in practice. Let&rsquo;s assume we have the array shown in the diagram below, which is already sorted in ascending order. We wish to find out if the array contains the value 5. So, we&rsquo;ll store that in our <code>value</code> variable. We also have variables <code>start</code> and <code>end</code> representing the first and last index in the array that we are considering.</p>
-<p><a href="#R-image-16e8a39bf70b17dcda63a5d2e5ecbe00" class="lightbox-link"><img alt="Binary Search Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-16e8a39bf70b17dcda63a5d2e5ecbe00"><img alt="Binary Search Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary1.png"></a></p>
+<p><a href="#R-image-21fb1b26b148da559926c7a9c29f7820" class="lightbox-link"><img alt="Binary Search Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-21fb1b26b148da559926c7a9c29f7820"><img alt="Binary Search Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary1.png"></a></p>
 <p>First, we must calculate the middle index of the array. To do that, we can use the following formula.</p>
 $$
 \text{int}((\text{start} + \text{end}) / 2)
 $$
 <p>In this case, we&rsquo;ll find that the middle index is 5.</p>
-<p><a href="#R-image-ac7efb714b0b253a945d3b4a97a5239a" class="lightbox-link"><img alt="Binary Search Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ac7efb714b0b253a945d3b4a97a5239a"><img alt="Binary Search Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary2.png"></a></p>
+<p><a href="#R-image-6a1077319f43a07b2402a2b068488b9c" class="lightbox-link"><img alt="Binary Search Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6a1077319f43a07b2402a2b068488b9c"><img alt="Binary Search Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary2.png"></a></p>
 <p>Next, we&rsquo;ll compare our desired value with the element at the middle index, which is 2. Since our desired value 5 is greater than 2, we know that 5 must be present in the second half of the array. We will then update our starting value to be one greater than the middle element and start over. In practice, this could be done either iteratively or recursively. We&rsquo;ll see both implementations later in this section. The portion of the array we are ignoring has been given a grey background in the diagram below.</p>
-<p><a href="#R-image-410b1ec2826c2a5259be97263954b1da" class="lightbox-link"><img alt="Binary Search Example 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-410b1ec2826c2a5259be97263954b1da"><img alt="Binary Search Example 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary3.png"></a></p>
+<p><a href="#R-image-06412d85e0bbdde55b953a1a682317c8" class="lightbox-link"><img alt="Binary Search Example 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-06412d85e0bbdde55b953a1a682317c8"><img alt="Binary Search Example 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary3.png"></a></p>
 <p>Once again, we&rsquo;ll start by calculating a new middle index. In this case, it will be 8.</p>
-<p><a href="#R-image-625ec3de353dc3a400a86aba400c60ee" class="lightbox-link"><img alt="Binary Search Example 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-625ec3de353dc3a400a86aba400c60ee"><img alt="Binary Search Example 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary4.png"></a></p>
+<p><a href="#R-image-081714dfb2cd234c86cb5e9bb1dff37f" class="lightbox-link"><img alt="Binary Search Example 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-081714dfb2cd234c86cb5e9bb1dff37f"><img alt="Binary Search Example 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary4.png"></a></p>
 <p>The value at index 8 is 7, which is greater than our desired value 5. So we know that 5 should be in the first half of the array from index 6 through 10. We need to update the end variable to be one less than middle and try once again.</p>
-<p><a href="#R-image-3404b2daedf017e526322eb9b6b989e5" class="lightbox-link"><img alt="Binary Search Example 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary5.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3404b2daedf017e526322eb9b6b989e5"><img alt="Binary Search Example 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary5.png"></a></p>
+<p><a href="#R-image-45163e745eba5dbdaab56b3018a9f7f5" class="lightbox-link"><img alt="Binary Search Example 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary5.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-45163e745eba5dbdaab56b3018a9f7f5"><img alt="Binary Search Example 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary5.png"></a></p>
 <p>We&rsquo;ll first calculate the middle index, which will be 6. This is because (6 + 7) / 2 is 6.5, but when we convert it to an integer it will be truncated, resulting in just 6.</p>
-<p><a href="#R-image-689e3deb966122cb12eacc7ded12cc91" class="lightbox-link"><img alt="Binary Search Example 6" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary6.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-689e3deb966122cb12eacc7ded12cc91"><img alt="Binary Search Example 6" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary6.png"></a></p>
+<p><a href="#R-image-4ca4dc65f0aad6c5f19c5ab95a9a4085" class="lightbox-link"><img alt="Binary Search Example 6" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary6.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4ca4dc65f0aad6c5f19c5ab95a9a4085"><img alt="Binary Search Example 6" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary6.png"></a></p>
 <p>Since the value at index 6 is 4, which is less than our desired value 5, we know that we should be looking at the portion of the array which comes after our middle element. Once again, we&rsquo;ll update our start index to be one greater than the middle and start over.</p>
-<p><a href="#R-image-01fcb9753c56614811e031c0e3d75f4d" class="lightbox-link"><img alt="Binary Search Example 7" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary7.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-01fcb9753c56614811e031c0e3d75f4d"><img alt="Binary Search Example 7" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary7.png"></a></p>
+<p><a href="#R-image-6a1f558fe24da29b1e1367bd6ffb2b1e" class="lightbox-link"><img alt="Binary Search Example 7" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary7.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6a1f558fe24da29b1e1367bd6ffb2b1e"><img alt="Binary Search Example 7" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary7.png"></a></p>
 <p>In this case, since both <code>start</code> and <code>end</code> are the same, we know that the middle index will also be 7.  We can compare the value at index 7 to our desired value. As it turns out, they are a match, so we&rsquo;ve found our value! We can just return <code>middle</code> as the index for this value. Of course, if we want to make sure it is the first instance of our desired value, we can quickly check the elements before it until we find one that isn&rsquo;t our desired value. We won&rsquo;t worry about that for now, but it is something that can easily be added to our code later.</p>
 
             <footer class="footline">
@@ -1654,12 +1679,12 @@ $$
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1720038147" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1720038147" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720038147" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1720038147" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1720038147" defer></script>
-        <script src="/cc310/js/search.js?1720038147" defer></script>
+        <script src="/cc310/js/auto-complete.js?1720728584" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1720728584" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720728584" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1720728584" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1720728584" defer></script>
+        <script src="/cc310/js/search.js?1720728584" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1823,13 +1848,6 @@ $$
           <li data-nav-id="/cc310/09-trees/11-in-order/" class=""><a class="padding" href="/cc310/09-trees/11-in-order/">11. In-Order Traversal</a></li>
           <li data-nav-id="/cc310/09-trees/12-balancing/" class=""><a class="padding" href="/cc310/09-trees/12-balancing/">12. Balance</a></li>
           <li data-nav-id="/cc310/09-trees/13-summary/" class=""><a class="padding" href="/cc310/09-trees/13-summary/">13. Summary</a></li></ul></li>
-          <li data-nav-id="/cc310/xx-sets/" class=""><input type="checkbox" id="R-section-2fdf42f59fdce9bd62ac50dedb433bcc" aria-controls="R-subsections-2fdf42f59fdce9bd62ac50dedb433bcc"><label for="R-section-2fdf42f59fdce9bd62ac50dedb433bcc"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Sets</span></label><a class="padding" href="/cc310/xx-sets/"><b>10.  </b>Sets</a><ul id="R-subsections-2fdf42f59fdce9bd62ac50dedb433bcc" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/xx-sets/1-what-are-sets-/" class=""><a class="padding" href="/cc310/xx-sets/1-what-are-sets-/">1. What are Sets?</a></li>
-          <li data-nav-id="/cc310/xx-sets/2-operations-on-sets/" class=""><a class="padding" href="/cc310/xx-sets/2-operations-on-sets/">2. Operations on Sets</a></li>
-          <li data-nav-id="/cc310/xx-sets/3-sets-in-code/" class=""><a class="padding" href="/cc310/xx-sets/3-sets-in-code/">3. Sets in Code</a></li>
-          <li data-nav-id="/cc310/xx-sets/4-set-operations/" class=""><a class="padding" href="/cc310/xx-sets/4-set-operations/">4. Set Operations</a></li>
-          <li data-nav-id="/cc310/xx-sets/5-using-sets/" class=""><a class="padding" href="/cc310/xx-sets/5-using-sets/">5. Using Sets</a></li>
-          <li data-nav-id="/cc310/xx-sets/6-sets-summary/" class=""><a class="padding" href="/cc310/xx-sets/6-sets-summary/">6. Sets Summary</a></li></ul></li>
           <li data-nav-id="/cc310/10-graphs/" class=""><input type="checkbox" id="R-section-6651a442c9c50f701fbee74c505f8bab" aria-controls="R-subsections-6651a442c9c50f701fbee74c505f8bab"><label for="R-section-6651a442c9c50f701fbee74c505f8bab"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Graphs</span></label><a class="padding" href="/cc310/10-graphs/"><b>10.  </b>Graphs</a><ul id="R-subsections-6651a442c9c50f701fbee74c505f8bab" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/10-graphs/01-graph-intro/" class=""><a class="padding" href="/cc310/10-graphs/01-graph-intro/">1. Introduction</a></li>
           <li data-nav-id="/cc310/10-graphs/02-graph-terms/" class=""><a class="padding" href="/cc310/10-graphs/02-graph-terms/">2. Terms I</a></li>
@@ -1855,16 +1873,11 @@ $$
           <li data-nav-id="/cc310/11-graph-algorithms/09-kruskal/" class=""><a class="padding" href="/cc310/11-graph-algorithms/09-kruskal/">9. Kruskal</a></li>
           <li data-nav-id="/cc310/11-graph-algorithms/10-prim/" class=""><a class="padding" href="/cc310/11-graph-algorithms/10-prim/">10. Prim</a></li>
           <li data-nav-id="/cc310/11-graph-algorithms/11-traveling-salesperson/" class=""><a class="padding" href="/cc310/11-graph-algorithms/11-traveling-salesperson/">11. Traveling Salesperson</a></li></ul></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/" class=""><input type="checkbox" id="R-section-8b483a1eb2aa825f055c425f703adc23" aria-controls="R-subsections-8b483a1eb2aa825f055c425f703adc23"><label for="R-section-8b483a1eb2aa825f055c425f703adc23"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Programming by Contract and Introduction to Performance</span></label><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/"><b>3.  </b>Programming by Contract and Introduction to Performance</a><ul id="R-subsections-8b483a1eb2aa825f055c425f703adc23" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/4-invariants/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/4-invariants/">4. Invariants</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/">5. Correctness</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/7-performance-of-algorithms/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/7-performance-of-algorithms/">7. Performance of Algorithms</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/8-max-and-min---linear/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/8-max-and-min---linear/">8. Max and Min - Linear</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/9-max-and-min---pairs/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/9-max-and-min---pairs/">9. Max and Min - Pairs</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/10-time-complexity/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/10-time-complexity/">10. Time Complexity</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/11-space-complexity/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/11-space-complexity/">11. Space Complexity</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/12-code-complexity/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/12-code-complexity/">12. Code Complexity</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/13-programming-by-contract-and-performance-summary/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/13-programming-by-contract-and-performance-summary/">13. Programming by Contract and Performance Summary</a></li></ul></li>
+          <li data-nav-id="/cc310/12-priority-queues/" class=""><input type="checkbox" id="R-section-e6b8ab89062b4ee04a58287048ddb5ba" aria-controls="R-subsections-e6b8ab89062b4ee04a58287048ddb5ba"><label for="R-section-e6b8ab89062b4ee04a58287048ddb5ba"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Priority Queues</span></label><a class="padding" href="/cc310/12-priority-queues/"><b>12.  </b>Priority Queues</a><ul id="R-subsections-e6b8ab89062b4ee04a58287048ddb5ba" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/12-priority-queues/01-intro/" class=""><a class="padding" href="/cc310/12-priority-queues/01-intro/">1. Introduction</a></li>
+          <li data-nav-id="/cc310/12-priority-queues/02-nodes/" class=""><a class="padding" href="/cc310/12-priority-queues/02-nodes/">2. Node Relationships</a></li>
+          <li data-nav-id="/cc310/12-priority-queues/03-priority-queues/" class=""><a class="padding" href="/cc310/12-priority-queues/03-priority-queues/">3. Priority Queues</a></li>
+          <li data-nav-id="/cc310/12-priority-queues/04-dijkstras/" class=""><a class="padding" href="/cc310/12-priority-queues/04-dijkstras/">4. Dijkstras</a></li></ul></li>
           </ul>
         </div>
         <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
@@ -1919,8 +1932,8 @@ $$
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1720038147" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720038147" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720728584" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720728584" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1935,7 +1948,7 @@ $$
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1720038147"></script>
-    <script src="/cc310/js/theme.js?1720038147" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1720728584"></script>
+    <script src="/cc310/js/theme.js?1720728584" defer></script>
   </body>
 </html>

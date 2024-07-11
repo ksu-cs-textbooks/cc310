@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Queues in Code :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/04-list/09-queue-code/</link>
-    <description>YouTube Video How do we implement queues in code? Like we did with stacks, we will use an array, which is an easily understandable way to implement queues. We will store data directly in the array and use special start and end variables to keep track of the start of the queue and the end of the queue.&#xA;The following figure shows how we might implement a queue with an array.</description>
+    <description>How do we implement queues in code? Like we did with stacks, we will use an array, which is an easily understandable way to implement queues. We will store data directly in the array and use special start and end variables to keep track of the start of the queue and the end of the queue.&#xA;The following figure shows how we might implement a queue with an array. First, we define our array myQueue to be an array that can hold 10 numbers, with an index of 0 to 9.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/04-list/09-queue-code/index.xml" rel="self" type="application/rss+xml" />

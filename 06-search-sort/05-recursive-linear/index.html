@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1478,17 +1503,17 @@ In this case, to implement a recursive version of the function, we need to add a
     <link href="/cc310/06-search-sort/05-recursive-linear/index.print.html" rel="alternate" type="text/html" title="Recursive Linear Search :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/05-recursive-linear/tele.html" rel="alternate" type="text/html" title="Recursive Linear Search :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/05-recursive-linear/embed.html" rel="alternate" type="text/html" title="Recursive Linear Search :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720038146" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720038146" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720038146" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720038146" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720038146" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720038146" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720038146" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720038146" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720038146" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720038146" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720038146" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720038146" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720038146" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1720038146"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720728583" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728583" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720728583" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720728583" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728583" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720728583" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720728583" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728583" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720728583" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720728583" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720728583" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720728583" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720728583" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1720728583"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1508,7 +1533,7 @@ In this case, to implement a recursive version of the function, we need to add a
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720038146" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720728583" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/06-search-sort/05-recursive-linear/">
     <div id="R-body" class="default-animation">
@@ -1577,8 +1602,8 @@ In this case, to implement a recursive version of the function, we need to add a
 <p>First, we check to see if <code>index</code> has moved beyond the bounds of the array, which would indicate that we have searched all the locations in <code>array</code> for <code>number</code>. If that is the case, then we return <code>-1</code> in line 3 indicating that we did not find <code>number</code> in <code>array</code>. Next, we check to see if <code>number</code> is found in <code>array[index]</code> in line 4. If it is, the we are successful and return the index. However, if we are not finished searching and we have not found <code>number</code>, then we recursively call <code>findR</code> and increment <code>index</code> by 1 to search the next location.</p>
 <p>An example of using the <code>findR</code> function is shown below. The top half of the figure shows the state of the data in the initial call to the <code>findR</code> function (instance 1). The bottom half of the figure shows the recursive path through the function. The beginning of instance 1 shows the <code>if</code> statement in line 2. In instance 1, since we have not searched the entire array (line 2) and <code>array[0]</code> is not equal to <code>number</code> (line 4), we fall down to the <code>else</code> part function and execute line 7, the recursive call. Since <code>index</code> is <code>0</code> in instance 1, we call instance 2 of the function with an <code>index</code> of 1.</p>
 <p>In instance 2, the same thing happens as in instance 1 and we fall down to the <code>else</code> part of the <code>if</code> statement. Once again, we call a new instance of <code>findR</code>, this time with <code>index</code> set at 2. Now, in instance 3, <code>array[index]</code> is equal to <code>number</code> in line 4 and so we execute the <code>return index</code> statement in line 5.  The value of <code>index</code> (2) is returned to instance 2, which, in line 7, simply returns the value of 2 to instance 1. Again, in line 7, instance 1 returns that same value (2) to the original calling function.</p>
-<p><a href="#R-image-5e24cdd42daea7080c0a4a751f20d9f8" class="lightbox-link"><img alt="Recursive Linear Search" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.5.recursivelinear.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5e24cdd42daea7080c0a4a751f20d9f8"><img alt="Recursive Linear Search" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.5.recursivelinear.png"></a></p>
+<p><a href="#R-image-b820f027d8bde7681c5e2fabd245caea" class="lightbox-link"><img alt="Recursive Linear Search" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.5.recursivelinear.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b820f027d8bde7681c5e2fabd245caea"><img alt="Recursive Linear Search" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.5.recursivelinear.png"></a></p>
 <p>Notice that the actual process of searching the array is the same for both the iterative and recursive functions. It is only the implementation of that process that is different between the two.</p>
 
             <footer class="footline">
@@ -1623,12 +1648,12 @@ In this case, to implement a recursive version of the function, we need to add a
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1720038146" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1720038146" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720038146" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1720038146" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1720038146" defer></script>
-        <script src="/cc310/js/search.js?1720038146" defer></script>
+        <script src="/cc310/js/auto-complete.js?1720728583" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1720728583" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720728583" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1720728583" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1720728583" defer></script>
+        <script src="/cc310/js/search.js?1720728583" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1792,13 +1817,6 @@ In this case, to implement a recursive version of the function, we need to add a
           <li data-nav-id="/cc310/09-trees/11-in-order/" class=""><a class="padding" href="/cc310/09-trees/11-in-order/">11. In-Order Traversal</a></li>
           <li data-nav-id="/cc310/09-trees/12-balancing/" class=""><a class="padding" href="/cc310/09-trees/12-balancing/">12. Balance</a></li>
           <li data-nav-id="/cc310/09-trees/13-summary/" class=""><a class="padding" href="/cc310/09-trees/13-summary/">13. Summary</a></li></ul></li>
-          <li data-nav-id="/cc310/xx-sets/" class=""><input type="checkbox" id="R-section-2fdf42f59fdce9bd62ac50dedb433bcc" aria-controls="R-subsections-2fdf42f59fdce9bd62ac50dedb433bcc"><label for="R-section-2fdf42f59fdce9bd62ac50dedb433bcc"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Sets</span></label><a class="padding" href="/cc310/xx-sets/"><b>10.  </b>Sets</a><ul id="R-subsections-2fdf42f59fdce9bd62ac50dedb433bcc" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/xx-sets/1-what-are-sets-/" class=""><a class="padding" href="/cc310/xx-sets/1-what-are-sets-/">1. What are Sets?</a></li>
-          <li data-nav-id="/cc310/xx-sets/2-operations-on-sets/" class=""><a class="padding" href="/cc310/xx-sets/2-operations-on-sets/">2. Operations on Sets</a></li>
-          <li data-nav-id="/cc310/xx-sets/3-sets-in-code/" class=""><a class="padding" href="/cc310/xx-sets/3-sets-in-code/">3. Sets in Code</a></li>
-          <li data-nav-id="/cc310/xx-sets/4-set-operations/" class=""><a class="padding" href="/cc310/xx-sets/4-set-operations/">4. Set Operations</a></li>
-          <li data-nav-id="/cc310/xx-sets/5-using-sets/" class=""><a class="padding" href="/cc310/xx-sets/5-using-sets/">5. Using Sets</a></li>
-          <li data-nav-id="/cc310/xx-sets/6-sets-summary/" class=""><a class="padding" href="/cc310/xx-sets/6-sets-summary/">6. Sets Summary</a></li></ul></li>
           <li data-nav-id="/cc310/10-graphs/" class=""><input type="checkbox" id="R-section-6651a442c9c50f701fbee74c505f8bab" aria-controls="R-subsections-6651a442c9c50f701fbee74c505f8bab"><label for="R-section-6651a442c9c50f701fbee74c505f8bab"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Graphs</span></label><a class="padding" href="/cc310/10-graphs/"><b>10.  </b>Graphs</a><ul id="R-subsections-6651a442c9c50f701fbee74c505f8bab" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/10-graphs/01-graph-intro/" class=""><a class="padding" href="/cc310/10-graphs/01-graph-intro/">1. Introduction</a></li>
           <li data-nav-id="/cc310/10-graphs/02-graph-terms/" class=""><a class="padding" href="/cc310/10-graphs/02-graph-terms/">2. Terms I</a></li>
@@ -1824,16 +1842,11 @@ In this case, to implement a recursive version of the function, we need to add a
           <li data-nav-id="/cc310/11-graph-algorithms/09-kruskal/" class=""><a class="padding" href="/cc310/11-graph-algorithms/09-kruskal/">9. Kruskal</a></li>
           <li data-nav-id="/cc310/11-graph-algorithms/10-prim/" class=""><a class="padding" href="/cc310/11-graph-algorithms/10-prim/">10. Prim</a></li>
           <li data-nav-id="/cc310/11-graph-algorithms/11-traveling-salesperson/" class=""><a class="padding" href="/cc310/11-graph-algorithms/11-traveling-salesperson/">11. Traveling Salesperson</a></li></ul></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/" class=""><input type="checkbox" id="R-section-8b483a1eb2aa825f055c425f703adc23" aria-controls="R-subsections-8b483a1eb2aa825f055c425f703adc23"><label for="R-section-8b483a1eb2aa825f055c425f703adc23"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Programming by Contract and Introduction to Performance</span></label><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/"><b>3.  </b>Programming by Contract and Introduction to Performance</a><ul id="R-subsections-8b483a1eb2aa825f055c425f703adc23" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/4-invariants/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/4-invariants/">4. Invariants</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/">5. Correctness</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/7-performance-of-algorithms/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/7-performance-of-algorithms/">7. Performance of Algorithms</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/8-max-and-min---linear/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/8-max-and-min---linear/">8. Max and Min - Linear</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/9-max-and-min---pairs/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/9-max-and-min---pairs/">9. Max and Min - Pairs</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/10-time-complexity/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/10-time-complexity/">10. Time Complexity</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/11-space-complexity/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/11-space-complexity/">11. Space Complexity</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/12-code-complexity/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/12-code-complexity/">12. Code Complexity</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/13-programming-by-contract-and-performance-summary/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/13-programming-by-contract-and-performance-summary/">13. Programming by Contract and Performance Summary</a></li></ul></li>
+          <li data-nav-id="/cc310/12-priority-queues/" class=""><input type="checkbox" id="R-section-e6b8ab89062b4ee04a58287048ddb5ba" aria-controls="R-subsections-e6b8ab89062b4ee04a58287048ddb5ba"><label for="R-section-e6b8ab89062b4ee04a58287048ddb5ba"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Priority Queues</span></label><a class="padding" href="/cc310/12-priority-queues/"><b>12.  </b>Priority Queues</a><ul id="R-subsections-e6b8ab89062b4ee04a58287048ddb5ba" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/12-priority-queues/01-intro/" class=""><a class="padding" href="/cc310/12-priority-queues/01-intro/">1. Introduction</a></li>
+          <li data-nav-id="/cc310/12-priority-queues/02-nodes/" class=""><a class="padding" href="/cc310/12-priority-queues/02-nodes/">2. Node Relationships</a></li>
+          <li data-nav-id="/cc310/12-priority-queues/03-priority-queues/" class=""><a class="padding" href="/cc310/12-priority-queues/03-priority-queues/">3. Priority Queues</a></li>
+          <li data-nav-id="/cc310/12-priority-queues/04-dijkstras/" class=""><a class="padding" href="/cc310/12-priority-queues/04-dijkstras/">4. Dijkstras</a></li></ul></li>
           </ul>
         </div>
         <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
@@ -1888,8 +1901,8 @@ In this case, to implement a recursive version of the function, we need to add a
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1720038146" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720038146" defer></script>
-    <script src="/cc310/js/theme.js?1720038146" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720728583" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720728583" defer></script>
+    <script src="/cc310/js/theme.js?1720728583" defer></script>
   </body>
 </html>

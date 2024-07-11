@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1452,6 +1477,7 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="YouTube Video Different data structures can be used to represents sets and efficiently support their operations. Among the data structures considered so far, it is possible to use both lists and arrays to represent sets. Even though sets by definition are unordered, we could store the elements in order, which has its pros and cons. Storing elements in order will speed up the contains operation since we won’t have to check each element in the set.">
     <meta name="author" content="Russell Feldhausen">
     <meta name="twitter:card" content="summary">
@@ -1470,22 +1496,18 @@
     <meta itemprop="dateModified" content="2024-07-01T14:25:08-05:00">
     <meta itemprop="wordCount" content="418">
     <title>Sets in Code :: CC 310 Textbook</title>
-    <link href="https://textbooks.cs.ksu.edu/cc310/xx-sets/3-sets-in-code/" rel="canonical" type="text/html" title="Sets in Code :: CC 310 Textbook">
-    <link href="/cc310/xx-sets/3-sets-in-code/index.xml" rel="alternate" type="application/rss+xml" title="Sets in Code :: CC 310 Textbook">
-    <link href="/cc310/xx-sets/3-sets-in-code/tele.html" rel="alternate" type="text/html" title="Sets in Code :: CC 310 Textbook">
-    <link href="/cc310/xx-sets/3-sets-in-code/embed.html" rel="alternate" type="text/html" title="Sets in Code :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720038169" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720038169" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720038169" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720038169" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720038169" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720038169" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720038169" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720038169" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720038169" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720038169" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720038169" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720038169" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720038169" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1720038169" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1720038169"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720728608" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728608" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720728608" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720728608" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728608" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720728608" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720728608" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728608" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720728608" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720728608" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720728608" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720728608" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720728608" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1720728608" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1720728608"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1505,7 +1527,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720038169" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720728608" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/xx-sets/3-sets-in-code/">
     <div id="R-body" class="default-animation">
@@ -1570,8 +1592,8 @@
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1720038169" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720038169" defer></script>
-    <script src="/cc310/js/theme.js?1720038169" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720728608" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720728608" defer></script>
+    <script src="/cc310/js/theme.js?1720728608" defer></script>
   </body>
 </html>

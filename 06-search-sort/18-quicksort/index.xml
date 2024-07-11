@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Quicksort :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/06-search-sort/18-quicksort/</link>
-    <description>YouTube Video The last sorting algorithm we will review in this module is quicksort. Quicksort is another example of a recursive, divide and conquer sorting algorithm, and at first glance it may look very similar to merge sort. However, quicksort uses a different process for dividing the array, and that can produce some very interesting results.&#xA;The basic idea of quicksort is as follows:&#xA;Choose a pivot value, called pivotValue.</description>
+    <description>The last sorting algorithm we will review in this module is quicksort. Quicksort is another example of a recursive, divide and conquer sorting algorithm, and at first glance it may look very similar to merge sort. However, quicksort uses a different process for dividing the array, and that can produce some very interesting results.&#xA;The basic idea of quicksort is as follows:&#xA;Choose a pivot value, called pivotValue. This value could be any random value in the array.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/06-search-sort/18-quicksort/index.xml" rel="self" type="application/rss+xml" />

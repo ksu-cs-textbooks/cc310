@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1475,19 +1500,19 @@
     <link href="/cc310/11-graph-algorithms/10-prim/index.print.html" rel="alternate" type="text/html" title="Prim :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/10-prim/tele.html" rel="alternate" type="text/html" title="Prim :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1720038161" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720038161" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1720038161" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1720038161" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720038161" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1720038161" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1720038161" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720038161" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1720038161" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1720728599" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728599" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1720728599" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1720728599" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728599" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1720728599" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1720728599" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728599" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1720728599" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1720038161" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1720038161" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1720038161" rel="stylesheet">
-  <link href="/cc310/css/print.css?1720038161" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1720728599" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1720728599" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1720728599" rel="stylesheet">
+  <link href="/cc310/css/print.css?1720728599" rel="stylesheet" media="print">
   
   
   
@@ -1510,7 +1535,7 @@
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1720038161" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1720728599" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/11-graph-algorithms/10-prim/embed.html">
@@ -1534,8 +1559,8 @@
 
 <p>The history of <code>Prim's Algorithm</code> is not as straight forward as Kruskal&rsquo;s. While we often call it <code>Prim's Algorithm</code>, it was originally developed in 1930 by Vojtěch Jarník. Robert Prim later rediscovered and republished this algorithm in 1957, one year after Kruskals. To add to the naming confusion, Edsger Dijkstra also published this work again in 1959. Because of this, the algorithm can go by many names: <code>Jarkík's Algorithm</code>, <code>Jarník-Prim's Algorithm</code>, <code>Prim-Dijkstra's Algorithm</code>, and <code>DJP Algorithm</code>.</p>
 <p>Prim cited &ldquo;large-scale communication&rdquo; as the motivation for this algorithm, specifically the &ldquo;Bell System leased-line&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Leased lines were used primarily in a commercial setting which connected business offices that were geographically distant (IE in different cities or even states). Companies would want all offices to be connected but wanted to avoid having to lay an excessive amount of wire. Below is a figure which Prim used to motivate the need for the algorithm. This image depicts the minimum spanning tree which connect each of the US continental state capitals along with Washington D.C.</p>
-<p><a href="#R-image-d348e2068421f8bdaddbaaef3712aa78" class="lightbox-link"><img alt="Prim&rsquo;s Motivation" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/prim_US.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d348e2068421f8bdaddbaaef3712aa78"><img alt="Prim&rsquo;s Motivation" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/prim_US.png"></a></p>
+<p><a href="#R-image-7353ba524ca0b3d8116a8e7dede8d80d" class="lightbox-link"><img alt="Prim&rsquo;s Motivation" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/prim_US.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7353ba524ca0b3d8116a8e7dede8d80d"><img alt="Prim&rsquo;s Motivation" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/prim_US.png"></a></p>
 <h3 id="algorithm">Algorithm</h3>
 <p>The basis of the algorithm is to start with only the nodes of the graph, then we do the following</p>
 <ol>
@@ -1543,13 +1568,13 @@
 <li>Grow your tree by one edge, selecting the smallest edge to connect to a node that is not yet in the tree. Repeat until all the nodes have been visited</li>
 </ol>
 <h3 id="starting-graph">Starting Graph</h3>
-<p><a href="#R-image-6b5e6fe95e13a994a8b7b2a4d16028e1" class="lightbox-link"><img alt="Prim Example Start" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6b5e6fe95e13a994a8b7b2a4d16028e1"><img alt="Prim Example Start" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg"></a></p>
-<p><a href="#R-image-c30b27b5a24aca637af4bdd746bca3d1" class="lightbox-link"><img alt="Prim Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/prim.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c30b27b5a24aca637af4bdd746bca3d1"><img alt="Prim Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/prim.gif"></a></p>
+<p><a href="#R-image-a0ba5b97655b5f262168346109457825" class="lightbox-link"><img alt="Prim Example Start" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a0ba5b97655b5f262168346109457825"><img alt="Prim Example Start" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg"></a></p>
+<p><a href="#R-image-d2ec52db527e3744d5db6e5845fbeb13" class="lightbox-link"><img alt="Prim Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/prim.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d2ec52db527e3744d5db6e5845fbeb13"><img alt="Prim Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/prim.gif"></a></p>
 <h3 id="resulting-mst">Resulting MST</h3>
-<p><a href="#R-image-3ea7f0efeeec7006b1f02e29f6aa5261" class="lightbox-link"><img alt="Prim Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3ea7f0efeeec7006b1f02e29f6aa5261"><img alt="Prim Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg"></a></p>
+<p><a href="#R-image-4a04beb3a8b3d1baac43f06c795fec9d" class="lightbox-link"><img alt="Prim Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4a04beb3a8b3d1baac43f06c795fec9d"><img alt="Prim Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg"></a></p>
 
   
   
@@ -1568,10 +1593,10 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="#R-image-1dffdd549a44a217a666367a56210002" class="lightbox-link"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1dffdd549a44a217a666367a56210002"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg"></a></td>
-<td><a href="#R-image-622930dc94a1533652e1dfae65d358da" class="lightbox-link"><img alt="Prim Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-622930dc94a1533652e1dfae65d358da"><img alt="Prim Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg"></a></td>
+<td><a href="#R-image-12f93ca35e4cc143d18baef41ca686f0" class="lightbox-link"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-12f93ca35e4cc143d18baef41ca686f0"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg"></a></td>
+<td><a href="#R-image-a6c787df7f29b7586bea2e7724ae32cf" class="lightbox-link"><img alt="Prim Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a6c787df7f29b7586bea2e7724ae32cf"><img alt="Prim Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg"></a></td>
 </tr>
 </tbody>
 </table>
@@ -1617,10 +1642,10 @@
 
 
 
-<script src="/cc310/js/clipboard.min.js?1720038161" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1720038161" defer></script>
-<script src="/cc310/js/theme.js?1720038161" defer></script>
+<script src="/cc310/js/clipboard.min.js?1720728599" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1720728599" defer></script>
+<script src="/cc310/js/theme.js?1720728599" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1720038161" defer></script>
+<script src="/cc310/js/embed-iframe.js?1720728599" defer></script>
 </body>
 </html>

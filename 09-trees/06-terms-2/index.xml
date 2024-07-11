@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Terms II :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/06-terms-2/</link>
-    <description>YouTube Video We can describe the sizes of trees and position of nodes using different terminology, like level, depth, and height.&#xA;Level - The level of a node characterizes the distance between the node and the root. The root of the tree is considered level 1. As you move away from the tree, the level increases by one. For our family tree example, what nodes are in the following levels?</description>
+    <description>We can describe the sizes of trees and position of nodes using different terminology, like level, depth, and height.&#xA;Level - The level of a node characterizes the distance between the node and the root. The root of the tree is considered level 1. As you move away from the tree, the level increases by one. For our family tree example, what nodes are in the following levels? Think about the answer and then click corresponding arrow.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/06-terms-2/index.xml" rel="self" type="application/rss+xml" />

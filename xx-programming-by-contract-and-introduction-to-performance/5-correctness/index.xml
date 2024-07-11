@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Correctness :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/</link>
-    <description>YouTube Video If we have defined the correct preconditions, postconditions, and invariants for our code, we can then use those to prove that our code correctly performs its intended operation.&#xA;In this course, we won’t ask you to do any of this yourself, but it is important to understand what is going on in the background and how this process works. We can use the concepts of preconditions and postconditions when grading your code using our Autograder—in fact, that’s really how it works!</description>
+    <description>If we have defined the correct preconditions, postconditions, and invariants for our code, we can then use those to prove that our code correctly performs its intended operation.&#xA;In this course, we won’t ask you to do any of this yourself, but it is important to understand what is going on in the background and how this process works. We can use the concepts of preconditions and postconditions when grading your code using our Autograder—in fact, that’s really how it works!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/index.xml" rel="self" type="application/rss+xml" />

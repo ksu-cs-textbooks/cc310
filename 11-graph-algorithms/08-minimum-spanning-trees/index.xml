@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Minimum Spanning Trees :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/08-minimum-spanning-trees/</link>
-    <description>YouTube Video Now that we have an understanding of general spanning trees, we will introduce the concept of minimum spanning trees. First let’s introduce the concept of the cost of a tree.&#xA;The cost that is associated with a tree, is the sum of its edges weights. Let’s look at this spanning tree which is from the previous page. The cost associated with this spanning tree is: 2+6+10+14=32.&#xA;Minimum Spanning Trees (MST) A minimum spanning tree is a spanning tree that has the smallest cost.</description>
+    <description>Now that we have an understanding of general spanning trees, we will introduce the concept of minimum spanning trees. First let’s introduce the concept of the cost of a tree.&#xA;The cost that is associated with a tree, is the sum of its edges weights. Let’s look at this spanning tree which is from the previous page. The cost associated with this spanning tree is: 2+6+10+14=32.&#xA;Minimum Spanning Trees (MST) A minimum spanning tree is a spanning tree that has the smallest cost.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/08-minimum-spanning-trees/index.xml" rel="self" type="application/rss+xml" />

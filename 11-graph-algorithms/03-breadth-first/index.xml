@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Breadth First :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/03-breadth-first/</link>
-    <description>YouTube Video Video Slides&#xA;We can also perform a breadth first traversal either iteratively or recursively. As with the depth first traversal, we will define it iteratively.&#xA;In the iterative algorithm, we initialize an empty queue and an empty set. Like depth first traversal, the set will track which nodes we have discovered. We now use a queue to track which node we will search next.&#xA;Info Recall that a queue is a ‘First In First Out’ (FIFO) structure.</description>
+    <description>Video Slides&#xA;We can also perform a breadth first traversal either iteratively or recursively. As with the depth first traversal, we will define it iteratively.&#xA;In the iterative algorithm, we initialize an empty queue and an empty set. Like depth first traversal, the set will track which nodes we have discovered. We now use a queue to track which node we will search next.&#xA;Info Recall that a queue is a ‘First In First Out’ (FIFO) structure.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/03-breadth-first/index.xml" rel="self" type="application/rss+xml" />

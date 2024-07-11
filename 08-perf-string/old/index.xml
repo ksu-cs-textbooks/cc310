@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1459,14 +1484,14 @@
       <link>https://textbooks.cs.ksu.edu/cc310/08-perf-string/old/4-arrays/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/08-perf-string/old/4-arrays/</guid>
-      <description>YouTube Video Unsorted Array An unsorted array is the most basic data structure, and it is supported by nearly every programming language available. Inserting elements into the array is always a constant time operation since we can simply place it at the end of the array. Of course, this assumes that the array is large enough to hold all our data without needing to be resized. Since we are not worried about memory usage, this is a safe assumption.</description>
+      <description>Unsorted Array An unsorted array is the most basic data structure, and it is supported by nearly every programming language available. Inserting elements into the array is always a constant time operation since we can simply place it at the end of the array. Of course, this assumes that the array is large enough to hold all our data without needing to be resized. Since we are not worried about memory usage, this is a safe assumption.</description>
     </item>
     <item>
       <title>Limitations Java</title>
       <link>https://textbooks.cs.ksu.edu/cc310/08-perf-string/old/04-j-memory-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/08-perf-string/old/04-j-memory-example/</guid>
-      <description>YouTube Video Video Materials&#xA;As a result of being immutable, strings can be cumbersome to work with in certain applications. When long strings or strings that we are continually appending to, such as in the memory example, we end up creating a lot of sizable copies.&#xA;Recall from the memory example the block of pseudocode.&#xA;1. function APPENDER(NUMBER, BASE) 2. RESULT = &#34;&#34; 3. loop I from 1 to NUMBER 4.</description>
+      <description>Video Materials&#xA;As a result of being immutable, strings can be cumbersome to work with in certain applications. When long strings or strings that we are continually appending to, such as in the memory example, we end up creating a lot of sizable copies.&#xA;Recall from the memory example the block of pseudocode.&#xA;1. function APPENDER(NUMBER, BASE) 2. RESULT = &#34;&#34; 3. loop I from 1 to NUMBER 4. RESULT = RESULT + BASE 5.</description>
     </item>
     <item>
       <title>Java Libraries</title>

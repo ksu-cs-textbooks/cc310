@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>MyTree Recursive II :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/old/7-mytree-recursive-ii/</link>
-    <description>Determine relationships (Ancestor, Descendant, Sibling) We can determine many relationships within the tree. For example, given a node is it an ancestor of another node, a descendant, or a sibling?&#xA;YouTube Video Is Ancestor? For this function, we are asking: is this node an ancestor of the current instance? In this implementation, we will start at our instance and work down through the tree trying to find the node in question.</description>
+    <description>Determine relationships (Ancestor, Descendant, Sibling) We can determine many relationships within the tree. For example, given a node is it an ancestor of another node, a descendant, or a sibling?&#xA;Is Ancestor? For this function, we are asking: is this node an ancestor of the current instance? In this implementation, we will start at our instance and work down through the tree trying to find the node in question. With that in mind, we can define this process recursively:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/old/7-mytree-recursive-ii/index.xml" rel="self" type="application/rss+xml" />

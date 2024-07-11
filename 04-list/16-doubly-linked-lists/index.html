@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1478,17 +1503,17 @@ With singly linked lists, each node in the list had a pointer to the next node i
     <link href="/cc310/04-list/16-doubly-linked-lists/index.print.html" rel="alternate" type="text/html" title="Doubly Linked Lists :: CC 310 Textbook">
     <link href="/cc310/04-list/16-doubly-linked-lists/tele.html" rel="alternate" type="text/html" title="Doubly Linked Lists :: CC 310 Textbook">
     <link href="/cc310/04-list/16-doubly-linked-lists/embed.html" rel="alternate" type="text/html" title="Doubly Linked Lists :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720038145" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720038145" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720038145" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720038145" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720038145" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720038145" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720038145" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720038145" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720038145" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720038145" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720038145" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720038145" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720038145" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1720038145"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720728581" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728581" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720728581" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720728581" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728581" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720728581" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720728581" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728581" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720728581" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720728581" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720728581" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720728581" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720728581" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1720728581"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1508,7 +1533,7 @@ With singly linked lists, each node in the list had a pointer to the next node i
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720038145" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720728581" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/04-list/16-doubly-linked-lists/">
     <div id="R-body" class="default-animation">
@@ -1589,12 +1614,12 @@ With singly linked lists, each node in the list had a pointer to the next node i
 
 <p>With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list. However, we often had to use two pointers when manipulating the list to allow us to access the previous node in the list as well as the current node. One way to solve this problem and make our list even more flexible is to allow a node to point at both the previous node in the list as well as the next node in the list. We call this a doubly linked list.</p>
 <p>The concept of a doubly linked list is shown below. Here, each node in the list has a link to the next node and a link to the previous node. If there is no previous or next node, we set the pointers to null.</p>
-<p><a href="#R-image-cbfecd8ea7629106d272266c42d8bb8e" class="lightbox-link"><img alt="Doubly Linked List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.3.double.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-cbfecd8ea7629106d272266c42d8bb8e"><img alt="Doubly Linked List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.3.double.png"></a></p>
+<p><a href="#R-image-798969d7e4e05cfa951afe3e897024cf" class="lightbox-link"><img alt="Doubly Linked List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.3.double.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-798969d7e4e05cfa951afe3e897024cf"><img alt="Doubly Linked List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.3.double.png"></a></p>
 <h2 id="doubly-linked-node">Doubly Linked Node</h2>
 <p>A doubly linked list node is the same as a singly linked list node with the addition of the <code>previous</code> attribute that points to the previous node in the list as shown below.</p>
-<p><a href="#R-image-f027a2c9b44da8eb4e0837a269b2ccc7" class="lightbox-link"><img alt="Doubly Linked List Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.doublenode.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f027a2c9b44da8eb4e0837a269b2ccc7"><img alt="Doubly Linked List Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.doublenode.png"></a></p>
+<p><a href="#R-image-c16497554d85c16eb51b230d184d19a2" class="lightbox-link"><img alt="Doubly Linked List Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.doublenode.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c16497554d85c16eb51b230d184d19a2"><img alt="Doubly Linked List Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.doublenode.png"></a></p>
 <p>The class representation of a doubly linked list <code>Node</code> is shown below. As discussed above, we have three attributes:</p>
 <ul>
 <li><code>data</code>, which holds the data of the node,</li>
@@ -1602,13 +1627,13 @@ With singly linked lists, each node in the list had a pointer to the next node i
 <li><code>previous</code>, which is a pointer to the previous node.</li>
 </ul>
 <p>We also use a constructor and the standard <code>toString</code> operation to create a string for the data stored in the node.</p>
-<p><a href="#R-image-8a10b526f7bf8898b969eb0a2c97056f" class="lightbox-link"><img alt="Doubly Linked List Node UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.doublenodeuml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8a10b526f7bf8898b969eb0a2c97056f"><img alt="Doubly Linked List Node UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.doublenodeuml.png"></a></p>
+<p><a href="#R-image-b093f99dbd95a41e30c8809771764096" class="lightbox-link"><img alt="Doubly Linked List Node UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.doublenodeuml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b093f99dbd95a41e30c8809771764096"><img alt="Doubly Linked List Node UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.doublenodeuml.png"></a></p>
 <h2 id="doubly-linked-list">Doubly Linked List</h2>
 <p>As with our singly linked list, we start off a doubly linked list with a pointer to the first node in the list, which we call <code>head</code>. However, if we also store the pointer to the last node in the list, we can simplify some of our insertion and removal operations as well as reduce the time complexity of operations that insert, remove, or peek at the last node in the list.</p>
 <p>The figure below shows a doubly linked list with five nodes. The variable <code>head</code> points to the first node in the list, while the variable <code>tail</code> points to the last node in the list. Each node in the list now has two pointers, <code>next</code> and <code>previous</code>, which point to the appropriate node in the list. Notice that the first node&rsquo;s <code>previous</code> pointer is null, while the last node&rsquo;s <code>next</code> pointer is also null.</p>
-<p><a href="#R-image-ba0e3fb72691d77ddb8124ab151a43b4" class="lightbox-link"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.double.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ba0e3fb72691d77ddb8124ab151a43b4"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.double.png"></a></p>
+<p><a href="#R-image-b5bb23c1edb2b47a8a98a4858949ec56" class="lightbox-link"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.double.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b5bb23c1edb2b47a8a98a4858949ec56"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.double.png"></a></p>
 <h2 id="doubly-linked-list-class">Doubly Linked List Class</h2>
 <p>Like we did for our singly linked list, we capture the necessary details for our doubly linked list in a class. The doubly linked list class has four attributes:</p>
 <ul>
@@ -1664,12 +1689,12 @@ With singly linked lists, each node in the list had a pointer to the next node i
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1720038145" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1720038145" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720038145" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1720038145" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1720038145" defer></script>
-        <script src="/cc310/js/search.js?1720038145" defer></script>
+        <script src="/cc310/js/auto-complete.js?1720728581" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1720728581" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720728581" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1720728581" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1720728581" defer></script>
+        <script src="/cc310/js/search.js?1720728581" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1833,13 +1858,6 @@ With singly linked lists, each node in the list had a pointer to the next node i
           <li data-nav-id="/cc310/09-trees/11-in-order/" class=""><a class="padding" href="/cc310/09-trees/11-in-order/">11. In-Order Traversal</a></li>
           <li data-nav-id="/cc310/09-trees/12-balancing/" class=""><a class="padding" href="/cc310/09-trees/12-balancing/">12. Balance</a></li>
           <li data-nav-id="/cc310/09-trees/13-summary/" class=""><a class="padding" href="/cc310/09-trees/13-summary/">13. Summary</a></li></ul></li>
-          <li data-nav-id="/cc310/xx-sets/" class=""><input type="checkbox" id="R-section-2fdf42f59fdce9bd62ac50dedb433bcc" aria-controls="R-subsections-2fdf42f59fdce9bd62ac50dedb433bcc"><label for="R-section-2fdf42f59fdce9bd62ac50dedb433bcc"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Sets</span></label><a class="padding" href="/cc310/xx-sets/"><b>10.  </b>Sets</a><ul id="R-subsections-2fdf42f59fdce9bd62ac50dedb433bcc" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/xx-sets/1-what-are-sets-/" class=""><a class="padding" href="/cc310/xx-sets/1-what-are-sets-/">1. What are Sets?</a></li>
-          <li data-nav-id="/cc310/xx-sets/2-operations-on-sets/" class=""><a class="padding" href="/cc310/xx-sets/2-operations-on-sets/">2. Operations on Sets</a></li>
-          <li data-nav-id="/cc310/xx-sets/3-sets-in-code/" class=""><a class="padding" href="/cc310/xx-sets/3-sets-in-code/">3. Sets in Code</a></li>
-          <li data-nav-id="/cc310/xx-sets/4-set-operations/" class=""><a class="padding" href="/cc310/xx-sets/4-set-operations/">4. Set Operations</a></li>
-          <li data-nav-id="/cc310/xx-sets/5-using-sets/" class=""><a class="padding" href="/cc310/xx-sets/5-using-sets/">5. Using Sets</a></li>
-          <li data-nav-id="/cc310/xx-sets/6-sets-summary/" class=""><a class="padding" href="/cc310/xx-sets/6-sets-summary/">6. Sets Summary</a></li></ul></li>
           <li data-nav-id="/cc310/10-graphs/" class=""><input type="checkbox" id="R-section-6651a442c9c50f701fbee74c505f8bab" aria-controls="R-subsections-6651a442c9c50f701fbee74c505f8bab"><label for="R-section-6651a442c9c50f701fbee74c505f8bab"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Graphs</span></label><a class="padding" href="/cc310/10-graphs/"><b>10.  </b>Graphs</a><ul id="R-subsections-6651a442c9c50f701fbee74c505f8bab" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/10-graphs/01-graph-intro/" class=""><a class="padding" href="/cc310/10-graphs/01-graph-intro/">1. Introduction</a></li>
           <li data-nav-id="/cc310/10-graphs/02-graph-terms/" class=""><a class="padding" href="/cc310/10-graphs/02-graph-terms/">2. Terms I</a></li>
@@ -1865,16 +1883,11 @@ With singly linked lists, each node in the list had a pointer to the next node i
           <li data-nav-id="/cc310/11-graph-algorithms/09-kruskal/" class=""><a class="padding" href="/cc310/11-graph-algorithms/09-kruskal/">9. Kruskal</a></li>
           <li data-nav-id="/cc310/11-graph-algorithms/10-prim/" class=""><a class="padding" href="/cc310/11-graph-algorithms/10-prim/">10. Prim</a></li>
           <li data-nav-id="/cc310/11-graph-algorithms/11-traveling-salesperson/" class=""><a class="padding" href="/cc310/11-graph-algorithms/11-traveling-salesperson/">11. Traveling Salesperson</a></li></ul></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/" class=""><input type="checkbox" id="R-section-8b483a1eb2aa825f055c425f703adc23" aria-controls="R-subsections-8b483a1eb2aa825f055c425f703adc23"><label for="R-section-8b483a1eb2aa825f055c425f703adc23"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Programming by Contract and Introduction to Performance</span></label><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/"><b>3.  </b>Programming by Contract and Introduction to Performance</a><ul id="R-subsections-8b483a1eb2aa825f055c425f703adc23" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/4-invariants/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/4-invariants/">4. Invariants</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/">5. Correctness</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/7-performance-of-algorithms/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/7-performance-of-algorithms/">7. Performance of Algorithms</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/8-max-and-min---linear/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/8-max-and-min---linear/">8. Max and Min - Linear</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/9-max-and-min---pairs/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/9-max-and-min---pairs/">9. Max and Min - Pairs</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/10-time-complexity/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/10-time-complexity/">10. Time Complexity</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/11-space-complexity/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/11-space-complexity/">11. Space Complexity</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/12-code-complexity/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/12-code-complexity/">12. Code Complexity</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/13-programming-by-contract-and-performance-summary/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/13-programming-by-contract-and-performance-summary/">13. Programming by Contract and Performance Summary</a></li></ul></li>
+          <li data-nav-id="/cc310/12-priority-queues/" class=""><input type="checkbox" id="R-section-e6b8ab89062b4ee04a58287048ddb5ba" aria-controls="R-subsections-e6b8ab89062b4ee04a58287048ddb5ba"><label for="R-section-e6b8ab89062b4ee04a58287048ddb5ba"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Priority Queues</span></label><a class="padding" href="/cc310/12-priority-queues/"><b>12.  </b>Priority Queues</a><ul id="R-subsections-e6b8ab89062b4ee04a58287048ddb5ba" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/12-priority-queues/01-intro/" class=""><a class="padding" href="/cc310/12-priority-queues/01-intro/">1. Introduction</a></li>
+          <li data-nav-id="/cc310/12-priority-queues/02-nodes/" class=""><a class="padding" href="/cc310/12-priority-queues/02-nodes/">2. Node Relationships</a></li>
+          <li data-nav-id="/cc310/12-priority-queues/03-priority-queues/" class=""><a class="padding" href="/cc310/12-priority-queues/03-priority-queues/">3. Priority Queues</a></li>
+          <li data-nav-id="/cc310/12-priority-queues/04-dijkstras/" class=""><a class="padding" href="/cc310/12-priority-queues/04-dijkstras/">4. Dijkstras</a></li></ul></li>
           </ul>
         </div>
         <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
@@ -1929,8 +1942,8 @@ With singly linked lists, each node in the list had a pointer to the next node i
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1720038145" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720038145" defer></script>
-    <script src="/cc310/js/theme.js?1720038145" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720728581" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720728581" defer></script>
+    <script src="/cc310/js/theme.js?1720728581" defer></script>
   </body>
 </html>

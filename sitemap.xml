@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1474,6 +1499,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/01-intro/</loc>
     <lastmod>2024-07-03T15:21:33-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-priority-queues/01-intro/</loc>
+    <lastmod>2024-07-11T15:08:40-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/01-oop/</loc>
@@ -1544,6 +1573,10 @@
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-priority-queues/02-nodes/</loc>
+    <lastmod>2024-07-11T15:08:40-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/02-oop-review/</loc>
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
@@ -1592,6 +1625,10 @@
     <lastmod>2024-06-21T09:30:00-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-priority-queues/03-priority-queues/</loc>
+    <lastmod>2024-07-11T15:08:40-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/06-search-sort/03-searching/</loc>
     <lastmod>2024-06-29T14:21:25-05:00</lastmod>
   </url>
@@ -1614,6 +1651,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/02-navigating-canvas-codio/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-priority-queues/04-dijkstras/</loc>
+    <lastmod>2024-07-11T15:08:40-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/05-recursion/04-factorial-example/</loc>
@@ -1928,10 +1969,6 @@
     <lastmod>2024-07-03T10:50:03-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc310/xx-sets/</loc>
-    <lastmod>2024-07-01T14:25:08-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/05-how-to-learn-programming/</loc>
     <lastmod>2024-06-20T09:14:34-05:00</lastmod>
   </url>
@@ -2046,6 +2083,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/08-perf-string/12-memory/</loc>
     <lastmod>2024-07-01T14:25:08-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/12-priority-queues/</loc>
+    <lastmod>2024-07-11T15:08:40-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/00-introduction/06-syllabus/</loc>
@@ -2237,7 +2278,11 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/xx-programming-by-contract-and-introduction-to-performance/</loc>
-    <lastmod>2024-06-28T15:58:53-05:00</lastmod>
+    <lastmod>2024-07-11T15:08:40-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc310/xx-sets/</loc>
+    <lastmod>2024-07-11T15:08:40-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc310/categories/</loc>

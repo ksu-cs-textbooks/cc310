@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Immutable :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/08-perf-string/11-theory/video/</link>
-    <description>YouTube Video Resources Slides Video Script [Slide 1]&#xA;In this video we will discuss what is going on behind the scenes when we utilize strings.&#xA;[Slide 2]&#xA;A String is a structure that contains an ordered set of characters. Characters can be letters, numbers, symbols, and whitespace. Strings can contain any number and combination of characters. Thus, strings could be single characters, words, sentences, and even literal books!&#xA;[Slide 3]</description>
+    <description>Resources Slides Video Script [Slide 1]&#xA;In this video we will discuss what is going on behind the scenes when we utilize strings.&#xA;[Slide 2]&#xA;A String is a structure that contains an ordered set of characters. Characters can be letters, numbers, symbols, and whitespace. Strings can contain any number and combination of characters. Thus, strings could be single characters, words, sentences, and even literal books!&#xA;[Slide 3]&#xA;I will take a moment to explain the notation that we will be using in this course to work with strings.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jul 2024 14:25:08 -0500</lastBuildDate>

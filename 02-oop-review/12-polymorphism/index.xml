@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Inheritance &amp; Polymorphism :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/02-oop-review/12-polymorphism/</link>
-    <description>YouTube Video We can also build classes that inherit attributes and methods from another class. This allows us to build more complex structures in our code, better representing the relationships between real world objects.&#xA;Inheritance in UML As we learned earlier in this chapter, we can represent an inheritance relationship with an open arrow in our UML diagrams, as shown below:&#xA;In this diagram, the Student class inherits from, or is a subclass of, the Person class.</description>
+    <description>We can also build classes that inherit attributes and methods from another class. This allows us to build more complex structures in our code, better representing the relationships between real world objects.&#xA;Inheritance in UML As we learned earlier in this chapter, we can represent an inheritance relationship with an open arrow in our UML diagrams, as shown below:&#xA;In this diagram, the Student class inherits from, or is a subclass of, the Person class.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/02-oop-review/12-polymorphism/index.xml" rel="self" type="application/rss+xml" />

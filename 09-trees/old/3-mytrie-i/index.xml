@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>MyTrie I :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/old/3-mytrie-i/</link>
-    <description>To implement our own trie, we will build off of MyTree that we built recursively. We will add an attribute to our tree to reinforce which nodes are words and which ones are not.&#xA;Attributes We have the existing attributes of MyTree: parent, children, and item. For MyTrie, we introduce the boolean attribute is_word to delineate if our trie is a word.&#xA;Adding a Word YouTube Video To add a word to our trie, we traverse through the trie letter by letter.</description>
+    <description>To implement our own trie, we will build off of MyTree that we built recursively. We will add an attribute to our tree to reinforce which nodes are words and which ones are not.&#xA;Attributes We have the existing attributes of MyTree: parent, children, and item. For MyTrie, we introduce the boolean attribute is_word to delineate if our trie is a word.&#xA;Adding a Word To add a word to our trie, we traverse through the trie letter by letter.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/old/3-mytrie-i/index.xml" rel="self" type="application/rss+xml" />

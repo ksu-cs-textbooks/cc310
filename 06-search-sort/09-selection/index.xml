@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Selection Sort :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/06-search-sort/09-selection/</link>
-    <description>YouTube Video The first sorting algorithm we’ll learn about is selection sort. The basic idea behind selection sort is to search for the minimum value in the whole container, and place it in the first index. Then, repeat the process for the second smallest value and the second index, and so on until the container is sorted.&#xA;Wikipedia includes a great animation that shows this process:&#xA;1&#xA;In this animation, the element highlighted in blue is the element currently being considered.</description>
+    <description>The first sorting algorithm we’ll learn about is selection sort. The basic idea behind selection sort is to search for the minimum value in the whole container, and place it in the first index. Then, repeat the process for the second smallest value and the second index, and so on until the container is sorted.&#xA;Wikipedia includes a great animation that shows this process:&#xA;1&#xA;In this animation, the element highlighted in blue is the element currently being considered.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/06-search-sort/09-selection/index.xml" rel="self" type="application/rss+xml" />

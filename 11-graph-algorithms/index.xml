@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1459,35 +1484,35 @@
       <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/01-intro/</guid>
-      <description>YouTube Video In the previous modules, we have introduced graphs and two implementations. This module will cover the traversals through graphs as well as path search techniques.&#xA;Motivation As we have discussed previously, graphs can have many applications. Based on that, there are many things that we may want to infer from graphs. For example, if we have a graph that depicts a railroad or electrical network, we could determine what maximum flow of the network.</description>
+      <description>In the previous modules, we have introduced graphs and two implementations. This module will cover the traversals through graphs as well as path search techniques.&#xA;Motivation As we have discussed previously, graphs can have many applications. Based on that, there are many things that we may want to infer from graphs. For example, if we have a graph that depicts a railroad or electrical network, we could determine what maximum flow of the network.</description>
     </item>
     <item>
       <title>Depth First</title>
       <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/02-depth-first/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/02-depth-first/</guid>
-      <description>YouTube Video Video Slides&#xA;First we will discuss Depth First Traversal. We can define the depth first traversal in two ways, iteratively or recursively. For this course, we will define it iteratively.&#xA;In the iterative algorithm, we will initialize an empty stack and an empty set. The stack will determine which node we search next and the set will track which nodes we have already searched.&#xA;Info Recall that a stack is a ‘Last In First Out’ (LIFO) structure.</description>
+      <description>Video Slides&#xA;First we will discuss Depth First Traversal. We can define the depth first traversal in two ways, iteratively or recursively. For this course, we will define it iteratively.&#xA;In the iterative algorithm, we will initialize an empty stack and an empty set. The stack will determine which node we search next and the set will track which nodes we have already searched.&#xA;Info Recall that a stack is a ‘Last In First Out’ (LIFO) structure.</description>
     </item>
     <item>
       <title>Breadth First</title>
       <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/03-breadth-first/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/03-breadth-first/</guid>
-      <description>YouTube Video Video Slides&#xA;We can also perform a breadth first traversal either iteratively or recursively. As with the depth first traversal, we will define it iteratively.&#xA;In the iterative algorithm, we initialize an empty queue and an empty set. Like depth first traversal, the set will track which nodes we have discovered. We now use a queue to track which node we will search next.&#xA;Info Recall that a queue is a ‘First In First Out’ (FIFO) structure.</description>
+      <description>Video Slides&#xA;We can also perform a breadth first traversal either iteratively or recursively. As with the depth first traversal, we will define it iteratively.&#xA;In the iterative algorithm, we initialize an empty queue and an empty set. Like depth first traversal, the set will track which nodes we have discovered. We now use a queue to track which node we will search next.&#xA;Info Recall that a queue is a ‘First In First Out’ (FIFO) structure.</description>
     </item>
     <item>
       <title>Limitations</title>
       <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/04-limits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/04-limits/</guid>
-      <description>YouTube Video When introducing graphs, we discussed how the components of a graph didn’t have to all be connected. If our goal is to visit each node, like in the searches, then we will need to perform the search from every node.&#xA;For example, the graph below has two separate components. Lets walk through which nodes we will discover by calling the traversals from each node.&#xA;Start Visited (in alphabetical order) A {A, D, H} B {B, E, H, I} C {C} D {D} E {E, H, I} F {C, F} G {C, G} H {H} I {I} J {C, F, G, J} In this example, we would need to call either traversal on nodes A, B and J in order to visit all of the nodes.</description>
+      <description>When introducing graphs, we discussed how the components of a graph didn’t have to all be connected. If our goal is to visit each node, like in the searches, then we will need to perform the search from every node.&#xA;For example, the graph below has two separate components. Lets walk through which nodes we will discover by calling the traversals from each node.&#xA;Start Visited (in alphabetical order) A {A, D, H} B {B, E, H, I} C {C} D {D} E {E, H, I} F {C, F} G {C, G} H {H} I {I} J {C, F, G, J} In this example, we would need to call either traversal on nodes A, B and J in order to visit all of the nodes.</description>
     </item>
     <item>
       <title>Pathfinding</title>
       <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/05-pathfinding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/05-pathfinding/</guid>
-      <description>YouTube Video An important application for these traversals is the ability to find a path between two nodes. This has many applications in railroad networks as well as electrical wiring. With some modifications to the traversals, we can determine if electricity can flow from a source to a target. We will modify depth first and breadth first traversals in similar ways.&#xA;Info There are three cases that can happen when we search for a path between nodes:</description>
+      <description>An important application for these traversals is the ability to find a path between two nodes. This has many applications in railroad networks as well as electrical wiring. With some modifications to the traversals, we can determine if electricity can flow from a source to a target. We will modify depth first and breadth first traversals in similar ways.&#xA;Info There are three cases that can happen when we search for a path between nodes:</description>
     </item>
     <item>
       <title>In Practice</title>
@@ -1501,35 +1526,35 @@
       <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/07-mst-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/07-mst-intro/</guid>
-      <description>YouTube Video We will continue to work with graph algorithms in this module, specifically with finding minimum spanning trees (MST). MSTs have many real world applications such as:&#xA;Electrical wiring, Distribution networks, Telecommunication networks, and Network routing Suppose we were building an apartment complex and wanted to determine the most cost-effective wiring schema. Below, we have the possible construction costs for wiring apartment to apartment. Wiring vertically adjacent apartments is cheaper than wiring horizontally adjacent units and those closest to the power closet have lower costs as well.</description>
+      <description>We will continue to work with graph algorithms in this module, specifically with finding minimum spanning trees (MST). MSTs have many real world applications such as:&#xA;Electrical wiring, Distribution networks, Telecommunication networks, and Network routing Suppose we were building an apartment complex and wanted to determine the most cost-effective wiring schema. Below, we have the possible construction costs for wiring apartment to apartment. Wiring vertically adjacent apartments is cheaper than wiring horizontally adjacent units and those closest to the power closet have lower costs as well.</description>
     </item>
     <item>
       <title>Minimum Spanning Trees</title>
       <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/08-minimum-spanning-trees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/08-minimum-spanning-trees/</guid>
-      <description>YouTube Video Now that we have an understanding of general spanning trees, we will introduce the concept of minimum spanning trees. First let’s introduce the concept of the cost of a tree.&#xA;The cost that is associated with a tree, is the sum of its edges weights. Let’s look at this spanning tree which is from the previous page. The cost associated with this spanning tree is: 2+6+10+14=32.&#xA;Minimum Spanning Trees (MST) A minimum spanning tree is a spanning tree that has the smallest cost.</description>
+      <description>Now that we have an understanding of general spanning trees, we will introduce the concept of minimum spanning trees. First let’s introduce the concept of the cost of a tree.&#xA;The cost that is associated with a tree, is the sum of its edges weights. Let’s look at this spanning tree which is from the previous page. The cost associated with this spanning tree is: 2+6+10+14=32.&#xA;Minimum Spanning Trees (MST) A minimum spanning tree is a spanning tree that has the smallest cost.</description>
     </item>
     <item>
       <title>Kruskal</title>
       <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/09-kruskal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/09-kruskal/</guid>
-      <description>YouTube Video As graphs get larger, it is important to go about finding the MST in a methodical way. In the mid 1950’s, there was a desire to form an algorithmic approach for solving the ’traveling salesperson’ problem^[We will describe this problem in a future section of this module]. Joseph Kruskal first published this algorithm in 1956 in the Proceedings of the American Mathematical Society1. The algorithms prior to this were, as Kruskal said, “unnecessarily elaborate” thus the need for a more succinct algorithm arose.</description>
+      <description>As graphs get larger, it is important to go about finding the MST in a methodical way. In the mid 1950’s, there was a desire to form an algorithmic approach for solving the ’traveling salesperson’ problem^[We will describe this problem in a future section of this module]. Joseph Kruskal first published this algorithm in 1956 in the Proceedings of the American Mathematical Society1. The algorithms prior to this were, as Kruskal said, “unnecessarily elaborate” thus the need for a more succinct algorithm arose.</description>
     </item>
     <item>
       <title>Prim</title>
       <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/10-prim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/10-prim/</guid>
-      <description>YouTube Video The history of Prim&#39;s Algorithm is not as straight forward as Kruskal’s. While we often call it Prim&#39;s Algorithm, it was originally developed in 1930 by Vojtěch Jarník. Robert Prim later rediscovered and republished this algorithm in 1957, one year after Kruskals. To add to the naming confusion, Edsger Dijkstra also published this work again in 1959. Because of this, the algorithm can go by many names: Jarkík&#39;s Algorithm, Jarník-Prim&#39;s Algorithm, Prim-Dijkstra&#39;s Algorithm, and DJP Algorithm.</description>
+      <description>The history of Prim&#39;s Algorithm is not as straight forward as Kruskal’s. While we often call it Prim&#39;s Algorithm, it was originally developed in 1930 by Vojtěch Jarník. Robert Prim later rediscovered and republished this algorithm in 1957, one year after Kruskals. To add to the naming confusion, Edsger Dijkstra also published this work again in 1959. Because of this, the algorithm can go by many names: Jarkík&#39;s Algorithm, Jarník-Prim&#39;s Algorithm, Prim-Dijkstra&#39;s Algorithm, and DJP Algorithm.</description>
     </item>
     <item>
       <title>Traveling Salesperson</title>
       <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/11-traveling-salesperson/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/11-traveling-salesperson/</guid>
-      <description>YouTube Video YouTube Video While we won’t outline algorithms suited for solving the traveling salesperson problem (TSP), we will outline the premise of the problem. This problem was first posed in 1832, almost a two centuries ago, and is still quite prevalent. It is applicable to traveling routes, distribution networks, computer architecture and much more. The TSP is a seminal problem that has motivated many research breakthroughs, including Kruskal’s algorithm!</description>
+      <description>While we won’t outline algorithms suited for solving the traveling salesperson problem (TSP), we will outline the premise of the problem. This problem was first posed in 1832, almost a two centuries ago, and is still quite prevalent. It is applicable to traveling routes, distribution networks, computer architecture and much more. The TSP is a seminal problem that has motivated many research breakthroughs, including Kruskal’s algorithm!&#xA;The motivation of the TSP is this: given a set of locations, what is the shortest path such that we can visit each location and end back where started?</description>
     </item>
   </channel>
 </rss>

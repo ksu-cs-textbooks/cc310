@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1459,7 +1484,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/10-graphs/old/4-uml---graph-node/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/10-graphs/old/4-uml---graph-node/</guid>
-      <description>YouTube Video In this representation, we will have an array of graph node objects. We will first cover the UML for the graph node objects and then discuss the graph functions and attributes.&#xA;Attributes item: the value that the node contains. index: the index of the node. edges: ordered pairs (e, w) where this node is the source, e is the target node index, and w is the weight of the edge as a double.</description>
+      <description>In this representation, we will have an array of graph node objects. We will first cover the UML for the graph node objects and then discuss the graph functions and attributes.&#xA;Attributes item: the value that the node contains. index: the index of the node. edges: ordered pairs (e, w) where this node is the source, e is the target node index, and w is the weight of the edge as a double.</description>
     </item>
     <item>
       <title>Node and Edge Functions</title>
@@ -1480,14 +1505,14 @@
       <link>https://textbooks.cs.ksu.edu/cc310/10-graphs/old/8-uml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/10-graphs/old/8-uml/</guid>
-      <description>YouTube Video Attributes nodes: This will keep track of the nodes which are in our graph as well as the node values. The nodes can have any type of value such as numbers, characters, and even other data structures. edges: This will keep track of the edges which are in our graph. size: This will keep track of the number of nodes that are active in our graph. Upon initialization, we will initialize nodes to be an empty array of size capacity, edges to be an empty two-dimensional array with dimensions capacity by capacity and size to be zero as we start with no actual nodes.</description>
+      <description>Attributes nodes: This will keep track of the nodes which are in our graph as well as the node values. The nodes can have any type of value such as numbers, characters, and even other data structures. edges: This will keep track of the edges which are in our graph. size: This will keep track of the number of nodes that are active in our graph. Upon initialization, we will initialize nodes to be an empty array of size capacity, edges to be an empty two-dimensional array with dimensions capacity by capacity and size to be zero as we start with no actual nodes.</description>
     </item>
     <item>
       <title>Node and Edge Functions</title>
       <link>https://textbooks.cs.ksu.edu/cc310/10-graphs/old/9-node-and-edge-functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/10-graphs/old/9-node-and-edge-functions/</guid>
-      <description>YouTube Video add node: will add a node to the graph with the given value if our graph still has room. Procedurally, we will try to put the node in the first empty place we find. To do this, we start with IDX equal to negative one then loop through all of the indexes of the graphs nodes attribute. At each index, we check if that entry is equal to the value we are trying to add.</description>
+      <description>add node: will add a node to the graph with the given value if our graph still has room. Procedurally, we will try to put the node in the first empty place we find. To do this, we start with IDX equal to negative one then loop through all of the indexes of the graphs nodes attribute. At each index, we check if that entry is equal to the value we are trying to add.</description>
     </item>
   </channel>
 </rss>

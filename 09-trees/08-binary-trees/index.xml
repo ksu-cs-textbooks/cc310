@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Binary Tree :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/08-binary-trees/</link>
-    <description>YouTube Video A binary tree is a type of tree with some special conditions. First, it must follow the guidelines of being a tree:&#xA;There must be single root, each child node must have a single parent node, it must be fully connected (no disjoint parts), and there can be no cycles (no loops). The special conditions that we impose on binary trees are the following:&#xA;Each node has at most 2 children (nodes can have 0, 1, or 2 children), and unlike general trees, the children in a binary tree are not an unordered set.</description>
+    <description>A binary tree is a type of tree with some special conditions. First, it must follow the guidelines of being a tree:&#xA;There must be single root, each child node must have a single parent node, it must be fully connected (no disjoint parts), and there can be no cycles (no loops). The special conditions that we impose on binary trees are the following:&#xA;Each node has at most 2 children (nodes can have 0, 1, or 2 children), and unlike general trees, the children in a binary tree are not an unordered set.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/08-binary-trees/index.xml" rel="self" type="application/rss+xml" />

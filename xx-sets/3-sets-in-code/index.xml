@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Sets in Code :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/xx-sets/3-sets-in-code/</link>
-    <description>YouTube Video Different data structures can be used to represents sets and efficiently support their operations. Among the data structures considered so far, it is possible to use both lists and arrays to represent sets. Even though sets by definition are unordered, we could store the elements in order, which has its pros and cons. Storing elements in order will speed up the contains operation since we won’t have to check each element in the set.</description>
+    <description>Different data structures can be used to represents sets and efficiently support their operations. Among the data structures considered so far, it is possible to use both lists and arrays to represent sets. Even though sets by definition are unordered, we could store the elements in order, which has its pros and cons. Storing elements in order will speed up the contains operation since we won’t have to check each element in the set.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/xx-sets/3-sets-in-code/index.xml" rel="self" type="application/rss+xml" />

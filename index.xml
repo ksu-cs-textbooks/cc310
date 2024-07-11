@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1525,13 +1550,6 @@
       <description>All about trees!</description>
     </item>
     <item>
-      <title>Sets</title>
-      <link>https://textbooks.cs.ksu.edu/cc310/xx-sets/</link>
-      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc310/xx-sets/</guid>
-      <description>Welcome! This page is the main page for Sets</description>
-    </item>
-    <item>
       <title>Graphs</title>
       <link>https://textbooks.cs.ksu.edu/cc310/10-graphs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1546,11 +1564,11 @@
       <description>Algorithms for working with graphs!</description>
     </item>
     <item>
-      <title>Programming by Contract and Introduction to Performance</title>
-      <link>https://textbooks.cs.ksu.edu/cc310/xx-programming-by-contract-and-introduction-to-performance/</link>
-      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc310/xx-programming-by-contract-and-introduction-to-performance/</guid>
-      <description>Welcome! This page is the main page for Programming by Contract and Introduction to Performance</description>
+      <title>Priority Queues</title>
+      <link>https://textbooks.cs.ksu.edu/cc310/12-priority-queues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc310/12-priority-queues/</guid>
+      <description>A queue that efficiently sorts as data is inserted!</description>
     </item>
   </channel>
 </rss>

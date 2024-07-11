@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>Doubly Linked Lists :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/04-list/16-doubly-linked-lists/</link>
-    <description>Note The content for singly-linked lists has been removed to shorten this chapter. Based on the discussion of doubly-linked lists below, you can probably figure out what a singly-linked list does.&#xA;YouTube Video With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list.</description>
+    <description>Note The content for singly-linked lists has been removed to shorten this chapter. Based on the discussion of doubly-linked lists below, you can probably figure out what a singly-linked list does.&#xA;With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/04-list/16-doubly-linked-lists/index.xml" rel="self" type="application/rss+xml" />

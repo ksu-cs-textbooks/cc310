@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1486,18 +1511,18 @@ Info Recall that a stack is a ‘Last In First Out’ (LIFO) structure.">
     <link href="/cc310/11-graph-algorithms/02-depth-first/index.xml" rel="alternate" type="application/rss+xml" title="Depth First :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/02-depth-first/tele.html" rel="alternate" type="text/html" title="Depth First :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/02-depth-first/embed.html" rel="alternate" type="text/html" title="Depth First :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720038169" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720038169" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720038169" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720038169" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720038169" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720038169" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720038169" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720038169" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720038169" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720038169" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720038169" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720038169" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720038169" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1720038169" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1720038169"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720728607" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728607" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720728607" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720728607" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728607" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720728607" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720728607" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728607" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720728607" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720728607" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720728607" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720728607" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720728607" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1720728607" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1720728607"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1517,7 +1542,7 @@ Info Recall that a stack is a ‘Last In First Out’ (LIFO) structure.">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720038169" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720728607" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/11-graph-algorithms/02-depth-first/">
     <div id="R-body" class="default-animation">
@@ -1567,8 +1592,8 @@ Info Recall that a stack is a ‘Last In First Out’ (LIFO) structure.">
 </div>
 </div>
 <p>To do the traversal, we must pick a starting node; this can be an arbitrary node in our graph. If we were doing the traversal on a tree, we would typically select the root at a starting point. We start a while loop to go through the stack which we will be pushing and popping from. We get the top element of the stack, if the node has not been visited yet then we will add it to the set to note that we have now visited it. Then we get the neighbors of the node and put them onto the stack and continue the process until the stack is empty.</p>
-<p><a href="#R-image-16761ebb4c99b72b662683f6f3c94835" class="lightbox-link"><img alt="DFS Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/SEARCH_DFS.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-16761ebb4c99b72b662683f6f3c94835"><img alt="DFS Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/SEARCH_DFS.gif"></a></p>
+<p><a href="#R-image-a0de3eaaac0177cdf20c6a589a41246c" class="lightbox-link"><img alt="DFS Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/SEARCH_DFS.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a0de3eaaac0177cdf20c6a589a41246c"><img alt="DFS Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/SEARCH_DFS.gif"></a></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">function DEPTHFIRST(GRAPH,SRC)
 </span></span><span class="line"><span class="cl">    STACK = empty array
 </span></span><span class="line"><span class="cl">    DISCOVERED = empty set
@@ -1603,8 +1628,8 @@ Info Recall that a stack is a ‘Last In First Out’ (LIFO) structure.">
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1720038169" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720038169" defer></script>
-    <script src="/cc310/js/theme.js?1720038169" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720728607" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720728607" defer></script>
+    <script src="/cc310/js/theme.js?1720728607" defer></script>
   </body>
 </html>

@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1450,7 +1475,7 @@
   <channel>
     <title>What are Sets? :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/xx-sets/1-what-are-sets-/</link>
-    <description>YouTube Video A set is a collection of elements that are usually related to each other. They can be sets of numbers, letters, people, cars, or even sets themselves! Thus, the elements stored in a stack, queue or list can all be considered as sets. When we define the elements in a set, we typically enclose them in curly brackets as follows.&#xA;$$&#xD;\text{A} = \{ \text{Emily}, \text{Don}, \text{Mohammed}, \text{Huichen} \}&#xD;$$ Here, $\text{A}$ is the name of the set and Emily, Don, Mohammed, and Huichen are members of set $\text{A}$.</description>
+    <description>A set is a collection of elements that are usually related to each other. They can be sets of numbers, letters, people, cars, or even sets themselves! Thus, the elements stored in a stack, queue or list can all be considered as sets. When we define the elements in a set, we typically enclose them in curly brackets as follows.&#xA;$$&#xD;\text{A} = \{ \text{Emily}, \text{Don}, \text{Mohammed}, \text{Huichen} \}&#xD;$$ Here, $\text{A}$ is the name of the set and Emily, Don, Mohammed, and Huichen are members of set $\text{A}$.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/xx-sets/1-what-are-sets-/index.xml" rel="self" type="application/rss+xml" />

@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1478,17 +1503,17 @@ The following figure shows how we might implement a queue with an array. First, 
     <link href="/cc310/04-list/09-queue-code/index.print.html" rel="alternate" type="text/html" title="Queues in Code :: CC 310 Textbook">
     <link href="/cc310/04-list/09-queue-code/tele.html" rel="alternate" type="text/html" title="Queues in Code :: CC 310 Textbook">
     <link href="/cc310/04-list/09-queue-code/embed.html" rel="alternate" type="text/html" title="Queues in Code :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720038144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720038144" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720038144" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720038144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720038144" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720038144" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720038144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720038144" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720038144" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720038144" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720038144" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720038144" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720038144" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1720038144"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720728581" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728581" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720728581" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720728581" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728581" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720728581" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720728581" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728581" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720728581" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720728581" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720728581" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720728581" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720728581" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1720728581"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1508,7 +1533,7 @@ The following figure shows how we might implement a queue with an array. First, 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720038144" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720728581" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/04-list/09-queue-code/">
     <div id="R-body" class="default-animation">
@@ -1573,8 +1598,8 @@ The following figure shows how we might implement a queue with an array. First, 
 
 <p>How do we implement queues in code? Like we did with stacks, we will use an array, which is an easily understandable way to implement queues. We will store data directly in the array and use special <code>start</code> and <code>end</code> variables to keep track of the start of the queue and the end of the queue.</p>
 <p>The following figure shows how we might implement a queue with an array. First, we define our array <code>myQueue</code> to be an array that can hold 10 numbers, with an index of 0 to 9. Then we create a <code>start</code> variable to keep track of the index at the start of the queue and an <code>end</code> variable to keep track of the end of the array.</p>
-<p><a href="#R-image-4821ab22cf4fb5b24d44a236254d88d5" class="lightbox-link"><img alt="Empty Queue" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.empty.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4821ab22cf4fb5b24d44a236254d88d5"><img alt="Empty Queue" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.empty.png"></a></p>
+<p><a href="#R-image-93276a7bb47ca5813712950e120a07f6" class="lightbox-link"><img alt="Empty Queue" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.empty.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-93276a7bb47ca5813712950e120a07f6"><img alt="Empty Queue" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.empty.png"></a></p>
 <p>Notice that since we have not put any items into the queue, we initialize <code>start</code> to be <code>-1</code>. Although this is not a legal index into the array, we can use it like we did with stacks to recognize when we have not yet put anything into the queue. As we will see, this also makes manipulating items in the array much simpler. However, to make our use of the array more efficient, <code>-1</code> will not always indicate that the queue is empty. We will allow the queue to wrap around the array from the <code>start</code> index to the <code>end</code> index. We&rsquo;ll see an example of this behavior later.</p>
 <p>When we want to <em>enqueue</em> an item into the queue, we follow the simple procedure as shown below. Of course, since our array has a fixed size, we need to make sure that we don&rsquo;t try to put an item in a full array. Thus, the precondition is that the array cannot be full. Enforcing this precondition is the function of the <code>if</code> statement at line 2. If the array is already full, then we&rsquo;ll throw an exception in line 3 and let the caller handle the situation. Next, we store <code>item</code> at the <code>end</code> location and then compute the new value of <code>end</code> in line 5. Line 6 uses the modulo operator <code>%</code> to return the remainder of the division of $(\text{end} + 1) / \text{length of myQueue}$. In our example, this is helpful when we get to the end of our ten-element array. If <code>end == 9</code> before <code>enqueue</code> was called, the function would store <code>item</code> in <code>myQueue[9]</code> and then line 4 would cause <code>end</code> to be $(9 +1) % 10$ or $10 % 10$ which is simply $0$, essentially wrapping the queue around the end of the array and continuing it at the beginning of the array.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="n">function</span> <span class="n">ENQUEUE</span> <span class="p">(</span><span class="n">item</span><span class="p">)</span>
@@ -1588,14 +1613,14 @@ The following figure shows how we might implement a queue with an array. First, 
 </span></span><span class="line"><span class="ln"> 9</span><span class="cl">  <span class="n">end</span> <span class="k">if</span>
 </span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="n">end</span> <span class="n">function</span></span></span></code></pre></div>
 <p>Given our initial configuration above, if we performed an <code>enqueue(7)</code> function call, the result would look like the following.</p>
-<p><a href="#R-image-0bd6b3ccece0c1b1513dd899f96cceb7" class="lightbox-link"><img alt="Queue with 1 Element" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.enqueue1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0bd6b3ccece0c1b1513dd899f96cceb7"><img alt="Queue with 1 Element" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.enqueue1.png"></a></p>
+<p><a href="#R-image-54107c4736eb76c30fe2c45571b8aaca" class="lightbox-link"><img alt="Queue with 1 Element" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.enqueue1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-54107c4736eb76c30fe2c45571b8aaca"><img alt="Queue with 1 Element" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.enqueue1.png"></a></p>
 <p>Notice that the value 7 was stored at <code>myQueue[0]</code> in line 5, <code>end</code> was updated to <code>1</code> in line 6, and <code>start</code> was set to <code>0</code> in line 8. Now, let&rsquo;s assume we continue to perform <code>enqueue</code> operations until <code>myQueue</code> is almost filled as shown below.</p>
-<p><a href="#R-image-955095b8731d1b88559f5efd283ef72e" class="lightbox-link"><img alt="Queue with 9 Elements" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.enqueue9.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-955095b8731d1b88559f5efd283ef72e"><img alt="Queue with 9 Elements" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.enqueue9.png"></a></p>
+<p><a href="#R-image-5199483a7e6f578854f228a61548b7e6" class="lightbox-link"><img alt="Queue with 9 Elements" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.enqueue9.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5199483a7e6f578854f228a61548b7e6"><img alt="Queue with 9 Elements" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.enqueue9.png"></a></p>
 <p>If at this point, we enqueue another number, say <code>-35</code>, the modulo operator in line 6 would help us wrap the end of the list around the array and back to the beginning as expected.  The result of this function call is shown below.</p>
-<p><a href="#R-image-cf63a899e8e0884ded9f0cda08505e66" class="lightbox-link"><img alt="Queue with 10 Elements" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.enqueue10.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-cf63a899e8e0884ded9f0cda08505e66"><img alt="Queue with 10 Elements" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.enqueue10.png"></a></p>
+<p><a href="#R-image-e84b531be52ce059dd47ec3069c098e8" class="lightbox-link"><img alt="Queue with 10 Elements" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/8/8.3.enqueue10.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e84b531be52ce059dd47ec3069c098e8"><img alt="Queue with 10 Elements" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/8/8.3.enqueue10.png"></a></p>
 <p>Now we have a problem! The array is full of numbers and if we try to enqueue another number, the <code>enqueue</code> function will raise an exception in line 3. However, this example also gives us insight into what the <code>isFull</code> condition should be. Notice that both <code>start</code>, and <code>end</code> are pointing at the same array index. You may want to think about this a little, but you should be able to convince yourself that whenever <code>start == end</code> we will be in a situation like the one above where the array is full, and we cannot safely enqueue another number.</p>
 <p>To rectify our situation, we need to have a function to take things out of the queue. We call this function <code>dequeue</code>, which returns the item at the beginning of the queue (pointed at by <code>start</code>) and updates the value of <code>start</code> to point to the next location in the queue. The pseudocode for the <code>dequeue</code> is shown below.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="n">function</span> <span class="n">DEQUEUE</span> <span class="p">()</span>
@@ -1654,12 +1679,12 @@ The following figure shows how we might implement a queue with an array. First, 
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1720038144" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1720038144" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720038144" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1720038144" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1720038144" defer></script>
-        <script src="/cc310/js/search.js?1720038144" defer></script>
+        <script src="/cc310/js/auto-complete.js?1720728581" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1720728581" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720728581" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1720728581" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1720728581" defer></script>
+        <script src="/cc310/js/search.js?1720728581" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1823,13 +1848,6 @@ The following figure shows how we might implement a queue with an array. First, 
           <li data-nav-id="/cc310/09-trees/11-in-order/" class=""><a class="padding" href="/cc310/09-trees/11-in-order/">11. In-Order Traversal</a></li>
           <li data-nav-id="/cc310/09-trees/12-balancing/" class=""><a class="padding" href="/cc310/09-trees/12-balancing/">12. Balance</a></li>
           <li data-nav-id="/cc310/09-trees/13-summary/" class=""><a class="padding" href="/cc310/09-trees/13-summary/">13. Summary</a></li></ul></li>
-          <li data-nav-id="/cc310/xx-sets/" class=""><input type="checkbox" id="R-section-2fdf42f59fdce9bd62ac50dedb433bcc" aria-controls="R-subsections-2fdf42f59fdce9bd62ac50dedb433bcc"><label for="R-section-2fdf42f59fdce9bd62ac50dedb433bcc"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Sets</span></label><a class="padding" href="/cc310/xx-sets/"><b>10.  </b>Sets</a><ul id="R-subsections-2fdf42f59fdce9bd62ac50dedb433bcc" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/xx-sets/1-what-are-sets-/" class=""><a class="padding" href="/cc310/xx-sets/1-what-are-sets-/">1. What are Sets?</a></li>
-          <li data-nav-id="/cc310/xx-sets/2-operations-on-sets/" class=""><a class="padding" href="/cc310/xx-sets/2-operations-on-sets/">2. Operations on Sets</a></li>
-          <li data-nav-id="/cc310/xx-sets/3-sets-in-code/" class=""><a class="padding" href="/cc310/xx-sets/3-sets-in-code/">3. Sets in Code</a></li>
-          <li data-nav-id="/cc310/xx-sets/4-set-operations/" class=""><a class="padding" href="/cc310/xx-sets/4-set-operations/">4. Set Operations</a></li>
-          <li data-nav-id="/cc310/xx-sets/5-using-sets/" class=""><a class="padding" href="/cc310/xx-sets/5-using-sets/">5. Using Sets</a></li>
-          <li data-nav-id="/cc310/xx-sets/6-sets-summary/" class=""><a class="padding" href="/cc310/xx-sets/6-sets-summary/">6. Sets Summary</a></li></ul></li>
           <li data-nav-id="/cc310/10-graphs/" class=""><input type="checkbox" id="R-section-6651a442c9c50f701fbee74c505f8bab" aria-controls="R-subsections-6651a442c9c50f701fbee74c505f8bab"><label for="R-section-6651a442c9c50f701fbee74c505f8bab"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Graphs</span></label><a class="padding" href="/cc310/10-graphs/"><b>10.  </b>Graphs</a><ul id="R-subsections-6651a442c9c50f701fbee74c505f8bab" class="morespace collapsible-menu">
           <li data-nav-id="/cc310/10-graphs/01-graph-intro/" class=""><a class="padding" href="/cc310/10-graphs/01-graph-intro/">1. Introduction</a></li>
           <li data-nav-id="/cc310/10-graphs/02-graph-terms/" class=""><a class="padding" href="/cc310/10-graphs/02-graph-terms/">2. Terms I</a></li>
@@ -1855,16 +1873,11 @@ The following figure shows how we might implement a queue with an array. First, 
           <li data-nav-id="/cc310/11-graph-algorithms/09-kruskal/" class=""><a class="padding" href="/cc310/11-graph-algorithms/09-kruskal/">9. Kruskal</a></li>
           <li data-nav-id="/cc310/11-graph-algorithms/10-prim/" class=""><a class="padding" href="/cc310/11-graph-algorithms/10-prim/">10. Prim</a></li>
           <li data-nav-id="/cc310/11-graph-algorithms/11-traveling-salesperson/" class=""><a class="padding" href="/cc310/11-graph-algorithms/11-traveling-salesperson/">11. Traveling Salesperson</a></li></ul></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/" class=""><input type="checkbox" id="R-section-8b483a1eb2aa825f055c425f703adc23" aria-controls="R-subsections-8b483a1eb2aa825f055c425f703adc23"><label for="R-section-8b483a1eb2aa825f055c425f703adc23"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Programming by Contract and Introduction to Performance</span></label><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/"><b>3.  </b>Programming by Contract and Introduction to Performance</a><ul id="R-subsections-8b483a1eb2aa825f055c425f703adc23" class="morespace collapsible-menu">
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/4-invariants/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/4-invariants/">4. Invariants</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/5-correctness/">5. Correctness</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/7-performance-of-algorithms/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/7-performance-of-algorithms/">7. Performance of Algorithms</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/8-max-and-min---linear/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/8-max-and-min---linear/">8. Max and Min - Linear</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/9-max-and-min---pairs/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/9-max-and-min---pairs/">9. Max and Min - Pairs</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/10-time-complexity/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/10-time-complexity/">10. Time Complexity</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/11-space-complexity/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/11-space-complexity/">11. Space Complexity</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/12-code-complexity/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/12-code-complexity/">12. Code Complexity</a></li>
-          <li data-nav-id="/cc310/xx-programming-by-contract-and-introduction-to-performance/13-programming-by-contract-and-performance-summary/" class=""><a class="padding" href="/cc310/xx-programming-by-contract-and-introduction-to-performance/13-programming-by-contract-and-performance-summary/">13. Programming by Contract and Performance Summary</a></li></ul></li>
+          <li data-nav-id="/cc310/12-priority-queues/" class=""><input type="checkbox" id="R-section-e6b8ab89062b4ee04a58287048ddb5ba" aria-controls="R-subsections-e6b8ab89062b4ee04a58287048ddb5ba"><label for="R-section-e6b8ab89062b4ee04a58287048ddb5ba"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Priority Queues</span></label><a class="padding" href="/cc310/12-priority-queues/"><b>12.  </b>Priority Queues</a><ul id="R-subsections-e6b8ab89062b4ee04a58287048ddb5ba" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/12-priority-queues/01-intro/" class=""><a class="padding" href="/cc310/12-priority-queues/01-intro/">1. Introduction</a></li>
+          <li data-nav-id="/cc310/12-priority-queues/02-nodes/" class=""><a class="padding" href="/cc310/12-priority-queues/02-nodes/">2. Node Relationships</a></li>
+          <li data-nav-id="/cc310/12-priority-queues/03-priority-queues/" class=""><a class="padding" href="/cc310/12-priority-queues/03-priority-queues/">3. Priority Queues</a></li>
+          <li data-nav-id="/cc310/12-priority-queues/04-dijkstras/" class=""><a class="padding" href="/cc310/12-priority-queues/04-dijkstras/">4. Dijkstras</a></li></ul></li>
           </ul>
         </div>
         <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
@@ -1919,8 +1932,8 @@ The following figure shows how we might implement a queue with an array. First, 
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1720038144" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720038144" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720728581" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720728581" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1935,7 +1948,7 @@ The following figure shows how we might implement a queue with an array. First, 
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1720038144"></script>
-    <script src="/cc310/js/theme.js?1720038144" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1720728581"></script>
+    <script src="/cc310/js/theme.js?1720728581" defer></script>
   </body>
 </html>

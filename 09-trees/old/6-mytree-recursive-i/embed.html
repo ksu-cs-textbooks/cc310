@@ -1239,41 +1239,6 @@
   
 	
 		
-		
-	  
-
-  
-	
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -1414,6 +1379,66 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
 	  
 
   
@@ -1480,19 +1505,19 @@ A base case—a simple version of the problem that can be solved directly, and A
     <meta itemprop="wordCount" content="556">
     <title>MyTree Recursive I :: CC 310 Textbook</title>
     
-  <link href="/cc310/css/fontawesome-all.min.css?1720038160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720038160" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1720038160" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1720038160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720038160" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1720038160" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1720038160" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720038160" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1720038160" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1720728598" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728598" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1720728598" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1720728598" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728598" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1720728598" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1720728598" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728598" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1720728598" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1720038160" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1720038160" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1720038160" rel="stylesheet">
-  <link href="/cc310/css/print.css?1720038160" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1720728598" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1720728598" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1720728598" rel="stylesheet">
+  <link href="/cc310/css/print.css?1720728598" rel="stylesheet" media="print">
   
   
   
@@ -1515,7 +1540,7 @@ A base case—a simple version of the problem that can be solved directly, and A
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1720038160" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1720728598" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/09-trees/old/6-mytree-recursive-i/embed.html">
@@ -1561,11 +1586,11 @@ A base case—a simple version of the problem that can be solved directly, and A
 </div>
 </div>
 <p>In the first module, we discussed how we can define trees recursively, meaning a tree consists of trees. We looked at the following example. Each red dashed line represented a distinct tree, thus we had five trees within the largest tree making six trees in total.
-<a href="#R-image-125445326d04a4e291882aab9d72e1eb" class="lightbox-link"><img alt="Subtrees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-125445326d04a4e291882aab9d72e1eb"><img alt="Subtrees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png"></a></p>
+<a href="#R-image-2499e7aa83dfc061ac248d91a8e9e60b" class="lightbox-link"><img alt="Subtrees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2499e7aa83dfc061ac248d91a8e9e60b"><img alt="Subtrees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png"></a></p>
 <p>We will use our existing implementation from the first module. Now to make our tree recursive, we will include more getter functions as well as functions for traversals and defining node relationships.</p>
-<p><a href="#R-image-6329ba2321790626115e4241df6d847c" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/rec_tree_uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6329ba2321790626115e4241df6d847c"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/rec_tree_uml.png"></a></p>
+<p><a href="#R-image-a2900645c5819400cc3268fdfc154ded" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/rec_tree_uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a2900645c5819400cc3268fdfc154ded"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/rec_tree_uml.png"></a></p>
 <hr>
 <h3 id="get-depth-height-size-and-root">Get depth, height, size, and root</h3>
 <p>We can define each of these recursively.</p>
@@ -1652,10 +1677,10 @@ A base case—a simple version of the problem that can be solved directly, and A
 
 
 
-<script src="/cc310/js/clipboard.min.js?1720038160" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1720038160" defer></script>
-<script src="/cc310/js/theme.js?1720038160" defer></script>
+<script src="/cc310/js/clipboard.min.js?1720728598" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1720728598" defer></script>
+<script src="/cc310/js/theme.js?1720728598" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1720038160" defer></script>
+<script src="/cc310/js/embed-iframe.js?1720728598" defer></script>
 </body>
 </html>
