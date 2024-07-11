@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>UML - Graph Node :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/10-graphs/old/4-uml---graph-node/</link>
-    <description>In this representation, we will have an array of graph node objects. We will first cover the UML for the graph node objects and then discuss the graph functions and attributes.&#xA;Attributes item: the value that the node contains. index: the index of the node. edges: ordered pairs (e, w) where this node is the source, e is the target node index, and w is the weight of the edge as a double.</description>
+    <description>YouTube Video In this representation, we will have an array of graph node objects. We will first cover the UML for the graph node objects and then discuss the graph functions and attributes.&#xA;Attributes item: the value that the node contains. index: the index of the node. edges: ordered pairs (e, w) where this node is the source, e is the target node index, and w is the weight of the edge as a double.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/10-graphs/old/4-uml---graph-node/index.xml" rel="self" type="application/rss+xml" />

@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>MyBinaryTree :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/old/5-mybinarytree/</link>
-    <description>Our implementation of binary trees will inherit from our MyTree implementation as binary trees are types of trees. Thus, MyBinaryTree will have the functionality of MyTree in addition to the following.&#xA;Attributes The binary tree has two attributes&#xA;Left Child: an instance of MyBinaryTree, the item should be less than the item of the parent. Right Child: an instance of MyBinaryTree, the item should be greater than the item of the parent.</description>
+    <description>YouTube Video Our implementation of binary trees will inherit from our MyTree implementation as binary trees are types of trees. Thus, MyBinaryTree will have the functionality of MyTree in addition to the following.&#xA;Attributes The binary tree has two attributes&#xA;Left Child: an instance of MyBinaryTree, the item should be less than the item of the parent. Right Child: an instance of MyBinaryTree, the item should be greater than the item of the parent.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/old/5-mybinarytree/index.xml" rel="self" type="application/rss+xml" />

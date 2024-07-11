@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Introduction :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/01-intro/</link>
-    <description>In the previous modules, we have introduced graphs and two implementations. This module will cover the traversals through graphs as well as path search techniques.&#xA;Motivation As we have discussed previously, graphs can have many applications. Based on that, there are many things that we may want to infer from graphs. For example, if we have a graph that depicts a railroad or electrical network, we could determine what maximum flow of the network.</description>
+    <description>YouTube Video In the previous modules, we have introduced graphs and two implementations. This module will cover the traversals through graphs as well as path search techniques.&#xA;Motivation As we have discussed previously, graphs can have many applications. Based on that, there are many things that we may want to infer from graphs. For example, if we have a graph that depicts a railroad or electrical network, we could determine what maximum flow of the network.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/01-intro/index.xml" rel="self" type="application/rss+xml" />

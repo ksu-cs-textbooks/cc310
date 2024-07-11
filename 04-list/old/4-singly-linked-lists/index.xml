@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Singly Linked Lists :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/04-list/old/4-singly-linked-lists/</link>
-    <description>Linked Node To solve the disadvantages of arrays, we need a data structure that allows us to insert and remove items in an ordered collection in constant time, independently from the number of items in the data structure.&#xA;The solution lies in creating our own specialized data structure where each node contains the data of interest as well as a reference, or pointer to the next node in the list.</description>
+    <description>YouTube Video Linked Node To solve the disadvantages of arrays, we need a data structure that allows us to insert and remove items in an ordered collection in constant time, independently from the number of items in the data structure.&#xA;The solution lies in creating our own specialized data structure where each node contains the data of interest as well as a reference, or pointer to the next node in the list.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/04-list/old/4-singly-linked-lists/index.xml" rel="self" type="application/rss+xml" />

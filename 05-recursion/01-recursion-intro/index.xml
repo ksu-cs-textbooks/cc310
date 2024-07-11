@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Introducing Recursion :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/05-recursion/01-recursion-intro/</link>
-    <description>We are now used to using functions in our programs that allow us to decompose complex problems into smaller problems that are easier to solve. Now, we will look at a slight wrinkle in how we use functions. Instead of simply having functions call other functions, we now allow for the fact that a function can actually call itself! When a function calls itself, we call it recursion.&#xA;Using recursion often allows us to solve complex problems elegantly—with only a few lines of code.</description>
+    <description>YouTube Video We are now used to using functions in our programs that allow us to decompose complex problems into smaller problems that are easier to solve. Now, we will look at a slight wrinkle in how we use functions. Instead of simply having functions call other functions, we now allow for the fact that a function can actually call itself! When a function calls itself, we call it recursion.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/05-recursion/01-recursion-intro/index.xml" rel="self" type="application/rss+xml" />

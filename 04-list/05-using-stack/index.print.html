@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1499,18 +1579,18 @@
     <link href="/cc310/04-list/05-using-stack/index.xml" rel="alternate" type="application/rss+xml" title="Using a Stack :: CC 310 Textbook">
     <link href="/cc310/04-list/05-using-stack/tele.html" rel="alternate" type="text/html" title="Using a Stack :: CC 310 Textbook">
     <link href="/cc310/04-list/05-using-stack/embed.html" rel="alternate" type="text/html" title="Using a Stack :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720728603" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728603" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720728603" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720728603" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728603" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720728603" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720728603" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728603" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720728603" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720728603" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720728603" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720728603" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720728603" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1720728603" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1720728603"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720737462" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737462" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720737462" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720737462" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737462" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720737462" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720737462" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737462" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720737462" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720737462" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720737462" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720737462" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720737462" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1720737462" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1720737462"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1530,7 +1610,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720728603" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720737462" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/04-list/05-using-stack/">
     <div id="R-body" class="default-animation">
@@ -1569,24 +1649,24 @@
 <p>Stacks are useful in many applications. Classic real-world software that uses stacks includes the undo feature in a text editor, or the forward and back features of web browsers. In a text editor, each user action is pushed onto the stack as it is performed. Then, if the user wants to undo an action, the text editor simply pops the stack to get the last action performed, and then undoes the action. The redo command can be implemented as a second stack. In this case, when actions are popped from the stack in order to undo them, they are pushed onto the redo stack.</p>
 <h2 id="maze-explorer">Maze Explorer</h2>
 <p>Another example is a maze exploration application. In this application, we are given a maze, a starting location, and an ending location. Our first goal is to find a path from the start location to the end location. Once we&rsquo;ve arrived at the end location, our goal becomes returning to the start location in the most direct manner.</p>
-<p><a href="#R-image-121bb24bc7816d387d07d4d9249a9931" class="lightbox-link"><img alt="Empty Maze" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.mazeempty.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-121bb24bc7816d387d07d4d9249a9931"><img alt="Empty Maze" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.mazeempty.png"></a></p>
+<p><a href="#R-image-ae3acdc90f07b3f7242e6d580fadb063" class="lightbox-link"><img alt="Empty Maze" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.mazeempty.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ae3acdc90f07b3f7242e6d580fadb063"><img alt="Empty Maze" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.mazeempty.png"></a></p>
 <p>We can do this simply with a stack. We will have to search the maze to find the path from the starting location to the ending location. Each time we take a step forward, we push that move onto a stack. If we run into a dead end, we can simply retrace our steps by popping moves off the list and looking for an alternative path. Once we reach the end state, we will have our path stored in the stack. At this point it becomes easy to follow our path backward by popping each move off the top of the stack and performing it. There is no searching involved.</p>
 <p>We start with a maze, a <code>startCell</code>, a <code>goalCell</code>, and a <code>stack</code> as shown below. In this case our startCell is <code>0,0</code> and our end goal is <code>1,1</code>. We will store each location on the stack as we move to that location. We will also keep track of the direction we are headed: up, right, down, or left, which we&rsquo;ll abbreviate as <code>u</code>,<code>r</code>,<code>d</code>,and <code>l</code>.</p>
-<p><a href="#R-image-03e7c43b3029a92aa32ecb0dcaa003ce" class="lightbox-link"><img alt="Maze Step 0" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.maze0.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-03e7c43b3029a92aa32ecb0dcaa003ce"><img alt="Maze Step 0" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.maze0.png"></a></p>
+<p><a href="#R-image-d86f96bc930e91717db3a5bca59e15f6" class="lightbox-link"><img alt="Maze Step 0" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.maze0.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d86f96bc930e91717db3a5bca59e15f6"><img alt="Maze Step 0" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.maze0.png"></a></p>
 <p>In our first step, we will store our location and direction <code>0,0,u</code> on the stack.</p>
-<p><a href="#R-image-fb26491a33c2f543097a389cb99195cb" class="lightbox-link"><img alt="Maze Step 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.maze1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fb26491a33c2f543097a389cb99195cb"><img alt="Maze Step 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.maze1.png"></a></p>
+<p><a href="#R-image-8360beaccd7a50851f2b11382fcf3164" class="lightbox-link"><img alt="Maze Step 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.maze1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8360beaccd7a50851f2b11382fcf3164"><img alt="Maze Step 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.maze1.png"></a></p>
 <p>For the second step, we will try to move &ldquo;up&rdquo;, or to location <code>1,0</code>. However, that square in the maze is blocked. So, we change our direction to <code>r</code> as shown below.</p>
-<p><a href="#R-image-0a0931955c94ed1277f7a59c134fe50e" class="lightbox-link"><img alt="Maze Step 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.maze2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0a0931955c94ed1277f7a59c134fe50e"><img alt="Maze Step 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.maze2.png"></a></p>
+<p><a href="#R-image-69410af917803f5f079b100bbc2e1551" class="lightbox-link"><img alt="Maze Step 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.maze2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-69410af917803f5f079b100bbc2e1551"><img alt="Maze Step 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.maze2.png"></a></p>
 <p>After turning right, we attempt to move in that direction to square <code>0,1</code>, which is successful. Thus, we create a new location <code>0,1,u</code> and push it on the stack. (Here we always assume we point up when we enter a new square.) The new state of the maze and our stack are shown below.</p>
-<p><a href="#R-image-cd031b6678c0ea332375c3eb1cf28df8" class="lightbox-link"><img alt="Maze Step 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.maze3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-cd031b6678c0ea332375c3eb1cf28df8"><img alt="Maze Step 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.maze3.png"></a></p>
+<p><a href="#R-image-e985f05343fa0c1dec0117d100e631f9" class="lightbox-link"><img alt="Maze Step 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.maze3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e985f05343fa0c1dec0117d100e631f9"><img alt="Maze Step 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.maze3.png"></a></p>
 <p>Next, we try to move to <code>1,1</code>, which again is successful. We again push our new location <code>1,1,u</code> onto the stack. And, since our current location matches our <code>goalCell</code> location (ignoring the direction indicator) we recognize that we have reached our goal.</p>
-<p><a href="#R-image-161ee0e71d504e0ec704254c582ad7d7" class="lightbox-link"><img alt="Maze Step 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.maze4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-161ee0e71d504e0ec704254c582ad7d7"><img alt="Maze Step 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.maze4.png"></a></p>
+<p><a href="#R-image-82cd523db4bba5ddb30f9f420ded26d8" class="lightbox-link"><img alt="Maze Step 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.7.maze4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-82cd523db4bba5ddb30f9f420ded26d8"><img alt="Maze Step 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.7.maze4.png"></a></p>
 <p>Of course, it&rsquo;s one thing to find our goal cell, but it&rsquo;s another thing to get back to our starting position. However, we already know the path back given our wise choice of data structures. Since we stored the path in a stack, we can now simply reverse our path and move back to the start cell. All we need to do is pop the top location off of the stack and move to that location over and over again until the stack is empty. The pseudocode for following the path back home is simple.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">loop while !MYSTACK.ISEMPTY()
 </span></span><span class="line"><span class="cl">	NEXTLOCATION = MYSTACK.POP()
@@ -1613,8 +1693,8 @@
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1720728603" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720728603" defer></script>
-    <script src="/cc310/js/theme.js?1720728603" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720737462" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720737462" defer></script>
+    <script src="/cc310/js/theme.js?1720737462" defer></script>
   </body>
 </html>

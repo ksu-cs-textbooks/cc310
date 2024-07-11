@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Theory :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/08-perf-string/11-theory/</link>
-    <description>Video Materials&#xA;What are Strings? Strings are data structures which store an ordered set of characters. Recall that a character can be a: letter, number, symbol, punctuation mark, or white space. Strings can contain any number and any combination of these. As such, strings can be single characters, words, sentences, and even more.&#xA;How do we work with Strings? Let’s refresh ourselves on how strings work, starting with the example string: s = &#34;Go Cats!</description>
+    <description>YouTube Video Video Materials&#xA;What are Strings? Strings are data structures which store an ordered set of characters. Recall that a character can be a: letter, number, symbol, punctuation mark, or white space. Strings can contain any number and any combination of these. As such, strings can be single characters, words, sentences, and even more.&#xA;How do we work with Strings? Let’s refresh ourselves on how strings work, starting with the example string: s = &#34;Go Cats!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/08-perf-string/11-theory/index.xml" rel="self" type="application/rss+xml" />

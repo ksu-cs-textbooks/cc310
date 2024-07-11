@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>MyTrie II :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/old/4-mytrie-ii/</link>
-    <description>Getters Getting word count For this function, we want to get the total number of words that are contained within our trie. We will fan out through all of the children and count all of the nodes that have their is_word attribute equal to true.&#xA;function WORDCOUNT() COUNT = 0 if is_word COUNT = 1 for CHILD in CHILDREN COUNT += CHILD.WORDCOUNT() return COUNT end function Get max word length Next, we want to get the longest word contained in our trie.</description>
+    <description>Getters YouTube Video Getting word count For this function, we want to get the total number of words that are contained within our trie. We will fan out through all of the children and count all of the nodes that have their is_word attribute equal to true.&#xA;function WORDCOUNT() COUNT = 0 if is_word COUNT = 1 for CHILD in CHILDREN COUNT += CHILD.WORDCOUNT() return COUNT end function Get max word length Next, we want to get the longest word contained in our trie.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/old/4-mytrie-ii/index.xml" rel="self" type="application/rss+xml" />

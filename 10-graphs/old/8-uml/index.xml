@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>UML :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/10-graphs/old/8-uml/</link>
-    <description>Attributes nodes: This will keep track of the nodes which are in our graph as well as the node values. The nodes can have any type of value such as numbers, characters, and even other data structures. edges: This will keep track of the edges which are in our graph. size: This will keep track of the number of nodes that are active in our graph. Upon initialization, we will initialize nodes to be an empty array of size capacity, edges to be an empty two-dimensional array with dimensions capacity by capacity and size to be zero as we start with no actual nodes.</description>
+    <description>YouTube Video Attributes nodes: This will keep track of the nodes which are in our graph as well as the node values. The nodes can have any type of value such as numbers, characters, and even other data structures. edges: This will keep track of the edges which are in our graph. size: This will keep track of the number of nodes that are active in our graph. Upon initialization, we will initialize nodes to be an empty array of size capacity, edges to be an empty two-dimensional array with dimensions capacity by capacity and size to be zero as we start with no actual nodes.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/10-graphs/old/8-uml/index.xml" rel="self" type="application/rss+xml" />

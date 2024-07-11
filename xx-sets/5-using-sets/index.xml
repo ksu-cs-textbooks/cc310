@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Using Sets :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/xx-sets/5-using-sets/</link>
-    <description>One of the most common uses of set operations is in database systems. While we will not create a full database system here, we will show you the basics of how they work using our set operations. Assume you have three sets of people:&#xA;$$&#xD;\text{Students} = \{ \text{&#34;Vanessa&#34;}, \text{&#34;Travis&#34;}, \text{&#34;Lu&#34;}, \text{&#34;Cole&#34;}, \text{&#34;Jordan&#34;}, \text{&#34;Elaine&#34;}, \text{&#34;Caleb&#34;} \} \\&#xD;\text{Family} = \{ \text{&#34;Amy&#34;}, \text{&#34;Scott&#34;}, \text{&#34;Vanessa&#34;}, \text{&#34;Lauren&#34;}, \text{&#34;Zachary&#34;}, \text{&#34;Jordan&#34;}, \text{&#34;Caleb&#34;} \} \\&#xD;\text{Workers} = \{\text{&#34;</description>
+    <description>YouTube Video One of the most common uses of set operations is in database systems. While we will not create a full database system here, we will show you the basics of how they work using our set operations. Assume you have three sets of people:&#xA;$$&#xD;\text{Students} = \{ \text{&#34;Vanessa&#34;}, \text{&#34;Travis&#34;}, \text{&#34;Lu&#34;}, \text{&#34;Cole&#34;}, \text{&#34;Jordan&#34;}, \text{&#34;Elaine&#34;}, \text{&#34;Caleb&#34;} \} \\&#xD;\text{Family} = \{ \text{&#34;Amy&#34;}, \text{&#34;Scott&#34;}, \text{&#34;Vanessa&#34;}, \text{&#34;Lauren&#34;}, \text{&#34;Zachary&#34;}, \text{&#34;Jordan&#34;}, \text{&#34;Caleb&#34;} \} \\&#xD;\text{Workers} = \{\text{&#34;</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/xx-sets/5-using-sets/index.xml" rel="self" type="application/rss+xml" />

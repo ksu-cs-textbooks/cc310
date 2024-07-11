@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Prim :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/10-prim/</link>
-    <description>The history of Prim&#39;s Algorithm is not as straight forward as Kruskal’s. While we often call it Prim&#39;s Algorithm, it was originally developed in 1930 by Vojtěch Jarník. Robert Prim later rediscovered and republished this algorithm in 1957, one year after Kruskals. To add to the naming confusion, Edsger Dijkstra also published this work again in 1959. Because of this, the algorithm can go by many names: Jarkík&#39;s Algorithm, Jarník-Prim&#39;s Algorithm, Prim-Dijkstra&#39;s Algorithm, and DJP Algorithm.</description>
+    <description>YouTube Video The history of Prim&#39;s Algorithm is not as straight forward as Kruskal’s. While we often call it Prim&#39;s Algorithm, it was originally developed in 1930 by Vojtěch Jarník. Robert Prim later rediscovered and republished this algorithm in 1957, one year after Kruskals. To add to the naming confusion, Edsger Dijkstra also published this work again in 1959. Because of this, the algorithm can go by many names: Jarkík&#39;s Algorithm, Jarník-Prim&#39;s Algorithm, Prim-Dijkstra&#39;s Algorithm, and DJP Algorithm.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/11-graph-algorithms/10-prim/index.xml" rel="self" type="application/rss+xml" />

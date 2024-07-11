@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Linear Structures :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/02-linear-structures/</link>
-    <description>First, we can broadly separate the data structures we’re going to learn about into two types, linear and non-linear data structures.&#xA;A linear data structure typically stores data in a single dimension, just like an array. By using a linear data structure, we would know that a particular element in the data structure comes before another element or vice-versa, but that’s about it. A great example is seen in the image above.</description>
+    <description>YouTube Video First, we can broadly separate the data structures we’re going to learn about into two types, linear and non-linear data structures.&#xA;A linear data structure typically stores data in a single dimension, just like an array. By using a linear data structure, we would know that a particular element in the data structure comes before another element or vice-versa, but that’s about it. A great example is seen in the image above.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/03-intro-dsa/02-linear-structures/index.xml" rel="self" type="application/rss+xml" />

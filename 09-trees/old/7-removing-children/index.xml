@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Removing Children :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/old/7-removing-children/</link>
-    <description>Removing children is not as straightforward as inserting them. The general procedure for removing a child is to replace that nodes value with its smallest right descendant. First we will traverse the binary tree until we find the node with the value we are trying to remove (lines 18-32 below). Then we have three separate cases, discussed in detail below.&#xA;Removing a Leaf Removing a leaf is the most straightforward.</description>
+    <description>YouTube Video Removing children is not as straightforward as inserting them. The general procedure for removing a child is to replace that nodes value with its smallest right descendant. First we will traverse the binary tree until we find the node with the value we are trying to remove (lines 18-32 below). Then we have three separate cases, discussed in detail below.&#xA;Removing a Leaf Removing a leaf is the most straightforward.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/old/7-removing-children/index.xml" rel="self" type="application/rss+xml" />

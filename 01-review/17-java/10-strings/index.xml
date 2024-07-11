@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Strings :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/01-review/17-java/10-strings/</link>
-    <description>Strings are another very important data type in programming. A string is simply a set of characters that represent text in our programs. We can then write programs that use and manipulate strings in a variety of ways, allowing us to easily work with textual data.&#xA;Strings in Flowcharts &amp; Pseudocode The table below lists the flowchart blocks used to represent strings, as well as the corresponding pseudocode:&#xA;Operation Flowchart Pseudocode Create String STR = “abc” Access Character C = STR[0] String Length X = size of STR Strings in Java Let’s review the syntax for working with strings in Java.</description>
+    <description>YouTube Video Strings are another very important data type in programming. A string is simply a set of characters that represent text in our programs. We can then write programs that use and manipulate strings in a variety of ways, allowing us to easily work with textual data.&#xA;Strings in Flowcharts &amp; Pseudocode The table below lists the flowchart blocks used to represent strings, as well as the corresponding pseudocode:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/01-review/17-java/10-strings/index.xml" rel="self" type="application/rss+xml" />

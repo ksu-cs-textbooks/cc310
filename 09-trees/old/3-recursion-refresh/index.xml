@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Recursion Refresh :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/old/3-recursion-refresh/</link>
-    <description>Info A recursive program is broken into two parts:&#xA;A base case—a simple version of the problem that can be solved directly, and A recursive case—a general solution to the problem that uses smaller versions of the problem to compute the solution to the larger problem. In principle, the recursive case breaks the problem down into smaller portions until we reach the base case. Recursion presents itself in many ways when dealing with trees.</description>
+    <description>YouTube Video Info A recursive program is broken into two parts:&#xA;A base case—a simple version of the problem that can be solved directly, and A recursive case—a general solution to the problem that uses smaller versions of the problem to compute the solution to the larger problem. In principle, the recursive case breaks the problem down into smaller portions until we reach the base case. Recursion presents itself in many ways when dealing with trees.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/old/3-recursion-refresh/index.xml" rel="self" type="application/rss+xml" />

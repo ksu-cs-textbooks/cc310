@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1500,17 +1580,17 @@ we simply change the next pointer in the “-2” node to point to node “18”
     <meta itemprop="dateModified" content="2024-06-28T15:58:53-05:00">
     <meta itemprop="wordCount" content="1035">
     <title>Singly Linked Lists - Removal :: CC 310 Textbook</title>
-    <link href="/cc310/css/fontawesome-all.min.css?1720728612" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728612" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720728612" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720728612" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728612" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720728612" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720728612" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728612" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720728612" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720728612" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720728612" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720728612" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720728612" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1720728612"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720737472" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737472" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720737472" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720737472" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737472" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720737472" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720737472" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737472" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720737472" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720737472" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720737472" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720737472" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720737472" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1720737472"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -1530,7 +1610,7 @@ we simply change the next pointer in the “-2” node to point to node “18”
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720728612" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720737472" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc310/04-list/old/6-singly-linked-lists---removal/">
     
@@ -1551,8 +1631,8 @@ we simply change the next pointer in the “-2” node to point to node “18”
 <h1 id="singly-linked-lists---removal">Singly Linked Lists - Removal</h1>
 
 <p>The process of removing a node from a linked list is fairly straightforward. First, we find the node we want to remove from the list and then change the <code>next</code> pointer from the previous node in the list to the next node in the list.  This effectively bypasses the node we want to remove. For instance, if we want to remove node &ldquo;3&rdquo; from the following list,</p>
-<p><a href="#R-image-7833feb22da08a730e0181cf40324965" class="lightbox-link"><img alt="Linked List Remove 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.6.remove1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7833feb22da08a730e0181cf40324965"><img alt="Linked List Remove 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.6.remove1.png"></a></p>
+<p><a href="#R-image-191052df9d994d84759d30a3e2409d77" class="lightbox-link"><img alt="Linked List Remove 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.6.remove1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-191052df9d994d84759d30a3e2409d77"><img alt="Linked List Remove 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.6.remove1.png"></a></p>
 <p>we simply change the <code>next</code> pointer in the &ldquo;-2&rdquo; node to point to node &ldquo;18&rdquo; instead of node &ldquo;3&rdquo;. Since no other nodes are pointing at node &ldquo;3&rdquo; it is effectively removed from our list as shown below. We then return the data in that node to the requesting function. Eventually, the garbage collector will come along and realize that nothing is referencing node &ldquo;3&rdquo; and put it back into available memory.</p>
 
   
@@ -1640,8 +1720,8 @@ we simply change the next pointer in the “-2” node to point to node “18”
 
 
 
-<script src="/cc310/js/clipboard.min.js?1720728612" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1720728612" defer></script>
+<script src="/cc310/js/clipboard.min.js?1720737472" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1720737472" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1656,10 +1736,10 @@ we simply change the next pointer in the “-2” node to point to node “18”
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1720728612"></script>
-<script src="/cc310/js/theme.js?1720728612" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1720737472"></script>
+<script src="/cc310/js/theme.js?1720737472" defer></script>
 
-<script src="/cc310/js/tele-scroll.js?1720728612" defer></script>
+<script src="/cc310/js/tele-scroll.js?1720737472" defer></script>
 
 </body>
 </html>

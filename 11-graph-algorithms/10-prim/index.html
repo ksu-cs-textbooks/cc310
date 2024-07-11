@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1499,17 +1579,17 @@
     <link href="/cc310/11-graph-algorithms/10-prim/index.print.html" rel="alternate" type="text/html" title="Prim :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/10-prim/tele.html" rel="alternate" type="text/html" title="Prim :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/10-prim/embed.html" rel="alternate" type="text/html" title="Prim :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720728589" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728589" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720728589" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720728589" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728589" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720728589" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720728589" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728589" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720728589" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720728589" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720728589" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720728589" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720728589" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1720728589"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720737448" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737448" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720737448" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720737448" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737448" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720737448" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720737448" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737448" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720737448" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720737448" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720737448" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720737448" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720737448" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1720737448"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1529,7 +1609,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720728589" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720737448" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/11-graph-algorithms/10-prim/">
     <div id="R-body" class="default-animation">
@@ -1605,8 +1685,8 @@
 
 <p>The history of <code>Prim's Algorithm</code> is not as straight forward as Kruskal&rsquo;s. While we often call it <code>Prim's Algorithm</code>, it was originally developed in 1930 by Vojtěch Jarník. Robert Prim later rediscovered and republished this algorithm in 1957, one year after Kruskals. To add to the naming confusion, Edsger Dijkstra also published this work again in 1959. Because of this, the algorithm can go by many names: <code>Jarkík's Algorithm</code>, <code>Jarník-Prim's Algorithm</code>, <code>Prim-Dijkstra's Algorithm</code>, and <code>DJP Algorithm</code>.</p>
 <p>Prim cited &ldquo;large-scale communication&rdquo; as the motivation for this algorithm, specifically the &ldquo;Bell System leased-line&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Leased lines were used primarily in a commercial setting which connected business offices that were geographically distant (IE in different cities or even states). Companies would want all offices to be connected but wanted to avoid having to lay an excessive amount of wire. Below is a figure which Prim used to motivate the need for the algorithm. This image depicts the minimum spanning tree which connect each of the US continental state capitals along with Washington D.C.</p>
-<p><a href="#R-image-7722615769c345edf889b483d6e90ebb" class="lightbox-link"><img alt="Prim&rsquo;s Motivation" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/prim_US.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7722615769c345edf889b483d6e90ebb"><img alt="Prim&rsquo;s Motivation" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/prim_US.png"></a></p>
+<p><a href="#R-image-a71b92c45f566ccd85d76095c0a66a91" class="lightbox-link"><img alt="Prim&rsquo;s Motivation" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/prim_US.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a71b92c45f566ccd85d76095c0a66a91"><img alt="Prim&rsquo;s Motivation" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/prim_US.png"></a></p>
 <h3 id="algorithm">Algorithm</h3>
 <p>The basis of the algorithm is to start with only the nodes of the graph, then we do the following</p>
 <ol>
@@ -1614,13 +1694,13 @@
 <li>Grow your tree by one edge, selecting the smallest edge to connect to a node that is not yet in the tree. Repeat until all the nodes have been visited</li>
 </ol>
 <h3 id="starting-graph">Starting Graph</h3>
-<p><a href="#R-image-b6db2029c3f32d35199b1bdea51894d4" class="lightbox-link"><img alt="Prim Example Start" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b6db2029c3f32d35199b1bdea51894d4"><img alt="Prim Example Start" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg"></a></p>
-<p><a href="#R-image-02ecbbe9eb1932e948fa3627e19e7124" class="lightbox-link"><img alt="Prim Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/prim.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-02ecbbe9eb1932e948fa3627e19e7124"><img alt="Prim Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/prim.gif"></a></p>
+<p><a href="#R-image-36fab52b2a98cd64b0272d97de09b9aa" class="lightbox-link"><img alt="Prim Example Start" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-36fab52b2a98cd64b0272d97de09b9aa"><img alt="Prim Example Start" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg"></a></p>
+<p><a href="#R-image-27104d159eaea96b67a4c98154b1333c" class="lightbox-link"><img alt="Prim Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/prim.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-27104d159eaea96b67a4c98154b1333c"><img alt="Prim Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/prim.gif"></a></p>
 <h3 id="resulting-mst">Resulting MST</h3>
-<p><a href="#R-image-c67dee39e28639bc251611d957b19c6b" class="lightbox-link"><img alt="Prim Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c67dee39e28639bc251611d957b19c6b"><img alt="Prim Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg"></a></p>
+<p><a href="#R-image-92ee2ec89e9a1ef8cfefc131858d37ab" class="lightbox-link"><img alt="Prim Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-92ee2ec89e9a1ef8cfefc131858d37ab"><img alt="Prim Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg"></a></p>
 
   
   
@@ -1639,10 +1719,10 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="#R-image-21ee243b66e10b482bd8234005a8616e" class="lightbox-link"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-21ee243b66e10b482bd8234005a8616e"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg"></a></td>
-<td><a href="#R-image-68e8db0e7c10de4e787fd27b9572ea91" class="lightbox-link"><img alt="Prim Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-68e8db0e7c10de4e787fd27b9572ea91"><img alt="Prim Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg"></a></td>
+<td><a href="#R-image-227d9749cbd5f336b86410d0295a0bc1" class="lightbox-link"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-227d9749cbd5f336b86410d0295a0bc1"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg"></a></td>
+<td><a href="#R-image-12be7c0518946c434daa46ebb316ff2a" class="lightbox-link"><img alt="Prim Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-12be7c0518946c434daa46ebb316ff2a"><img alt="Prim Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg"></a></td>
 </tr>
 </tbody>
 </table>
@@ -1717,12 +1797,12 @@
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1720728589" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1720728589" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720728589" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1720728589" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1720728589" defer></script>
-        <script src="/cc310/js/search.js?1720728589" defer></script>
+        <script src="/cc310/js/auto-complete.js?1720737448" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1720737448" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720737448" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1720737448" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1720737448" defer></script>
+        <script src="/cc310/js/search.js?1720737448" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1916,6 +1996,22 @@
           <li data-nav-id="/cc310/12-priority-queues/02-nodes/" class=""><a class="padding" href="/cc310/12-priority-queues/02-nodes/">2. Node Relationships</a></li>
           <li data-nav-id="/cc310/12-priority-queues/03-priority-queues/" class=""><a class="padding" href="/cc310/12-priority-queues/03-priority-queues/">3. Priority Queues</a></li>
           <li data-nav-id="/cc310/12-priority-queues/04-dijkstras/" class=""><a class="padding" href="/cc310/12-priority-queues/04-dijkstras/">4. Dijkstras</a></li></ul></li>
+          <li data-nav-id="/cc310/13-performance/" class=""><input type="checkbox" id="R-section-65b71b99168f172a163062018cab7f7c" aria-controls="R-subsections-65b71b99168f172a163062018cab7f7c"><label for="R-section-65b71b99168f172a163062018cab7f7c"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Performance</span></label><a class="padding" href="/cc310/13-performance/"><b>13.  </b>Performance</a><ul id="R-subsections-65b71b99168f172a163062018cab7f7c" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/13-performance/01-intro/" class=""><a class="padding" href="/cc310/13-performance/01-intro/">1. Introduction</a></li>
+          <li data-nav-id="/cc310/13-performance/02-trees/" class=""><a class="padding" href="/cc310/13-performance/02-trees/">2. Trees</a></li>
+          <li data-nav-id="/cc310/13-performance/03-graphs/" class=""><a class="padding" href="/cc310/13-performance/03-graphs/">3. Graphs</a></li>
+          <li data-nav-id="/cc310/13-performance/04-priority-queues/" class=""><a class="padding" href="/cc310/13-performance/04-priority-queues/">4. Priority Queues</a></li>
+          <li data-nav-id="/cc310/13-performance/05-summary-1/" class=""><a class="padding" href="/cc310/13-performance/05-summary-1/">5. Summary 1</a></li>
+          <li data-nav-id="/cc310/13-performance/06-tree-algorithms/" class=""><a class="padding" href="/cc310/13-performance/06-tree-algorithms/">6. Tree Algorithms</a></li>
+          <li data-nav-id="/cc310/13-performance/07-graph-algorithms/" class=""><a class="padding" href="/cc310/13-performance/07-graph-algorithms/">7. Graph Algorithms</a></li>
+          <li data-nav-id="/cc310/13-performance/08-summary-2/" class=""><a class="padding" href="/cc310/13-performance/08-summary-2/">8. Summary 2</a></li></ul></li>
+          <li data-nav-id="/cc310/14-requirements-analysis/" class=""><input type="checkbox" id="R-section-674dfc54dd092ce56d7e52372ea534c7" aria-controls="R-subsections-674dfc54dd092ce56d7e52372ea534c7"><label for="R-section-674dfc54dd092ce56d7e52372ea534c7"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Requirements Analysis</span></label><a class="padding" href="/cc310/14-requirements-analysis/"><b>14.  </b>Requirements Analysis</a><ul id="R-subsections-674dfc54dd092ce56d7e52372ea534c7" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/14-requirements-analysis/01-intro/" class=""><a class="padding" href="/cc310/14-requirements-analysis/01-intro/">1. Intro</a></li>
+          <li data-nav-id="/cc310/14-requirements-analysis/02-types-of-data/" class=""><a class="padding" href="/cc310/14-requirements-analysis/02-types-of-data/">2. Types of Data</a></li>
+          <li data-nav-id="/cc310/14-requirements-analysis/03-trees/" class=""><a class="padding" href="/cc310/14-requirements-analysis/03-trees/">3. Trees</a></li>
+          <li data-nav-id="/cc310/14-requirements-analysis/04-graphs/" class=""><a class="padding" href="/cc310/14-requirements-analysis/04-graphs/">4. Graphs</a></li>
+          <li data-nav-id="/cc310/14-requirements-analysis/05-priority-queues/" class=""><a class="padding" href="/cc310/14-requirements-analysis/05-priority-queues/">5. Priority Queues</a></li>
+          <li data-nav-id="/cc310/14-requirements-analysis/06-examples/" class=""><a class="padding" href="/cc310/14-requirements-analysis/06-examples/">6. Examples</a></li></ul></li>
           </ul>
         </div>
         <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
@@ -1970,8 +2066,8 @@
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1720728589" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720728589" defer></script>
-    <script src="/cc310/js/theme.js?1720728589" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720737448" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720737448" defer></script>
+    <script src="/cc310/js/theme.js?1720737448" defer></script>
   </body>
 </html>

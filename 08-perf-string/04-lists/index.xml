@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Lists :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/08-perf-string/04-lists/</link>
-    <description>Unsorted Linked List The next data structure we learned about is the linked list. Specifically, we will look at the doubly linked list in this example, but in most instances the performance of a singly linked list is comparable.&#xA;With a linked list, the process of inserting an element at either the beginning or the end is a constant time operation since we maintain both a head and a tail reference.</description>
+    <description>YouTube Video Unsorted Linked List The next data structure we learned about is the linked list. Specifically, we will look at the doubly linked list in this example, but in most instances the performance of a singly linked list is comparable.&#xA;With a linked list, the process of inserting an element at either the beginning or the end is a constant time operation since we maintain both a head and a tail reference.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/08-perf-string/04-lists/index.xml" rel="self" type="application/rss+xml" />

@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Removing Child :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/04-tree-operations/video/removing/</link>
-    <description>Resources Slides Video Script [Slide 1]&#xA;For full functionality of our tree, we need to be able to remove children as well as add them. Thinking of the example of a file tree, if we were to delete a file, that would remove it from our tree. In most cases, deleting a file just removes it from the current directory and into a trash or recycle folder. Meaning it is not removed from existence.</description>
+    <description>YouTube Video Resources Slides Video Script [Slide 1]&#xA;For full functionality of our tree, we need to be able to remove children as well as add them. Thinking of the example of a file tree, if we were to delete a file, that would remove it from our tree. In most cases, deleting a file just removes it from the current directory and into a trash or recycle folder. Meaning it is not removed from existence.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jul 2024 16:38:34 -0500</lastBuildDate>

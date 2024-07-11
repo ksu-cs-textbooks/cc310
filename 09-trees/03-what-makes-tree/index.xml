@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>What Makes a Tree a Tree :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/03-what-makes-tree/</link>
-    <description>Video Materials&#xA;Trees can come in many shapes and sizes. There are, however some constraints to making a valid tree.&#xA;A tree has a single root A child has exactly one parent A tree is fully connected (IE a single tree) A tree has no cycles (IE no loops) Valid Trees Any combination of the following represents a valid tree:&#xA;A tree with a single node; just a root, A tree where each node has a single child, or A tree where nodes have many children.</description>
+    <description>YouTube Video Video Materials&#xA;Trees can come in many shapes and sizes. There are, however some constraints to making a valid tree.&#xA;A tree has a single root A child has exactly one parent A tree is fully connected (IE a single tree) A tree has no cycles (IE no loops) Valid Trees Any combination of the following represents a valid tree:&#xA;A tree with a single node; just a root, A tree where each node has a single child, or A tree where nodes have many children.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/03-what-makes-tree/index.xml" rel="self" type="application/rss+xml" />

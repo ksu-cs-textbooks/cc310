@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Tree Pseudocode :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/04-tree-operations/video/pseudocode/</link>
-    <description>Resources Slides Video Script [Slide 1]&#xA;The goal in this course is not only to understand the data structure but to implement one of our own. For this next portion, we will cover how to implement trees.&#xA;Here we have the UML diagram for our initial tree implementation. In this implementation, we are not yet able to prevent cycles. In a future module, we will introduce ways to determine cycles recursively.</description>
+    <description>YouTube Video Resources Slides Video Script [Slide 1]&#xA;The goal in this course is not only to understand the data structure but to implement one of our own. For this next portion, we will cover how to implement trees.&#xA;Here we have the UML diagram for our initial tree implementation. In this implementation, we are not yet able to prevent cycles. In a future module, we will introduce ways to determine cycles recursively.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jul 2024 16:38:34 -0500</lastBuildDate>

@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1491,7 +1571,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/06-search-sort/02-linear-search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/06-search-sort/02-linear-search/</guid>
-      <description>When searching for a number in an unordered array, our search algorithms are typically designed as functions that take two parameters:&#xA;the number to find, and the array to search. Our search functions then return an index to the number within the array.&#xA;In this module, we will develop a couple of examples of searching an array for a specific number.&#xA;Finding the first occurrence of a number in an unordered array is a fairly straightforward process.</description>
+      <description>YouTube Video When searching for a number in an unordered array, our search algorithms are typically designed as functions that take two parameters:&#xA;the number to find, and the array to search. Our search functions then return an index to the number within the array.&#xA;In this module, we will develop a couple of examples of searching an array for a specific number.&#xA;Finding the first occurrence of a number in an unordered array is a fairly straightforward process.</description>
     </item>
     <item>
       <title>Searching for a Value</title>
@@ -1540,7 +1620,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/06-search-sort/09-selection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/06-search-sort/09-selection/</guid>
-      <description>The first sorting algorithm we’ll learn about is selection sort. The basic idea behind selection sort is to search for the minimum value in the whole container, and place it in the first index. Then, repeat the process for the second smallest value and the second index, and so on until the container is sorted.&#xA;Wikipedia includes a great animation that shows this process:&#xA;1&#xA;In this animation, the element highlighted in blue is the element currently being considered.</description>
+      <description>YouTube Video The first sorting algorithm we’ll learn about is selection sort. The basic idea behind selection sort is to search for the minimum value in the whole container, and place it in the first index. Then, repeat the process for the second smallest value and the second index, and so on until the container is sorted.&#xA;Wikipedia includes a great animation that shows this process:&#xA;1&#xA;In this animation, the element highlighted in blue is the element currently being considered.</description>
     </item>
     <item>
       <title>Selection Sort Pseudocode</title>
@@ -1561,7 +1641,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/06-search-sort/12-bubble/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/06-search-sort/12-bubble/</guid>
-      <description>Next, let’s look at another sorting algorithm, bubble sort. The basic idea behind bubble sort is to continuously iterate through the array and swap adjacent elements that are out of order. As a side effect of this process, the largest element in the array will be “bubbled” to the end of the array after the first iteration. Subsequent iterations will do the same for each of the next largest elements, until eventually the entire list is sorted.</description>
+      <description>YouTube Video Next, let’s look at another sorting algorithm, bubble sort. The basic idea behind bubble sort is to continuously iterate through the array and swap adjacent elements that are out of order. As a side effect of this process, the largest element in the array will be “bubbled” to the end of the array after the first iteration. Subsequent iterations will do the same for each of the next largest elements, until eventually the entire list is sorted.</description>
     </item>
     <item>
       <title>Bubble Sort Pseudocode</title>
@@ -1582,7 +1662,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/06-search-sort/15-merge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/06-search-sort/15-merge/</guid>
-      <description>Another commonly used sorting algorithm is merge sort. Merge sort uses a recursive, divide and conquer approach to sorting, which makes it very powerful. It was actually developed to handle sorting data sets that were so large that they couldn’t fit on a single memory device, way back in the early days of computing.&#xA;The basic idea of the merge sort algorithm is as follows:&#xA;If the container only contains one or two elements, we can quickly sort that container by swapping the elements if needed.</description>
+      <description>YouTube Video Another commonly used sorting algorithm is merge sort. Merge sort uses a recursive, divide and conquer approach to sorting, which makes it very powerful. It was actually developed to handle sorting data sets that were so large that they couldn’t fit on a single memory device, way back in the early days of computing.&#xA;The basic idea of the merge sort algorithm is as follows:&#xA;If the container only contains one or two elements, we can quickly sort that container by swapping the elements if needed.</description>
     </item>
     <item>
       <title>Merge Sort Pseudocode</title>
@@ -1603,7 +1683,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/06-search-sort/18-quicksort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/06-search-sort/18-quicksort/</guid>
-      <description>The last sorting algorithm we will review in this module is quicksort. Quicksort is another example of a recursive, divide and conquer sorting algorithm, and at first glance it may look very similar to merge sort. However, quicksort uses a different process for dividing the array, and that can produce some very interesting results.&#xA;The basic idea of quicksort is as follows:&#xA;Choose a pivot value, called pivotValue. This value could be any random value in the array.</description>
+      <description>YouTube Video The last sorting algorithm we will review in this module is quicksort. Quicksort is another example of a recursive, divide and conquer sorting algorithm, and at first glance it may look very similar to merge sort. However, quicksort uses a different process for dividing the array, and that can produce some very interesting results.&#xA;The basic idea of quicksort is as follows:&#xA;Choose a pivot value, called pivotValue.</description>
     </item>
     <item>
       <title>Quicksort Pseudocode</title>
@@ -1631,7 +1711,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/06-search-sort/22-binary-search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/06-search-sort/22-binary-search/</guid>
-      <description>Now that we’ve learned how to sort the data in our container, let’s go back and revisit the concept of searching once again. Does our approach change when we know the data has been sorted?&#xA;Our intuition tells us that it should. Recall that we discussed how much easier it would be to find a particular paper in a sorted filing cabinet rather than just searching through a random pile of papers on the floor.</description>
+      <description>YouTube Video Now that we’ve learned how to sort the data in our container, let’s go back and revisit the concept of searching once again. Does our approach change when we know the data has been sorted?&#xA;Our intuition tells us that it should. Recall that we discussed how much easier it would be to find a particular paper in a sorted filing cabinet rather than just searching through a random pile of papers on the floor.</description>
     </item>
     <item>
       <title>Iterative Binary Search</title>
@@ -1659,7 +1739,7 @@
       <link>https://textbooks.cs.ksu.edu/cc310/06-search-sort/26-sort-important/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/06-search-sort/26-sort-important/</guid>
-      <description>Let’s go back and look at the performance of our sorting algorithms, now that we know how quickly binary search can find a particular value in an array. Let’s add the function $\text{lg}(N)$ to our graph from earlier, shown below.&#xA;As we can see, the function $\text{lg}(N)$ is even smaller than $N$. So performing a binary search is much faster than a linear search, which we already know runs in the order of $N$ time.</description>
+      <description>YouTube Video Let’s go back and look at the performance of our sorting algorithms, now that we know how quickly binary search can find a particular value in an array. Let’s add the function $\text{lg}(N)$ to our graph from earlier, shown below.&#xA;As we can see, the function $\text{lg}(N)$ is even smaller than $N$. So performing a binary search is much faster than a linear search, which we already know runs in the order of $N$ time.</description>
     </item>
     <item>
       <title>Searching &amp; Sorting Summary</title>

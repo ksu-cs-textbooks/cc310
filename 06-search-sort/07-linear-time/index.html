@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1503,17 +1583,17 @@ So, what would be the time complexity of this process?">
     <link href="/cc310/06-search-sort/07-linear-time/index.print.html" rel="alternate" type="text/html" title="Linear Search Time Complexity :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/07-linear-time/tele.html" rel="alternate" type="text/html" title="Linear Search Time Complexity :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/07-linear-time/embed.html" rel="alternate" type="text/html" title="Linear Search Time Complexity :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720728583" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728583" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720728583" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720728583" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728583" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720728583" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720728583" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728583" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720728583" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720728583" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720728583" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720728583" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720728583" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1720728583"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720737441" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737441" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720737441" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720737441" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737441" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720737441" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720737441" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737441" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720737441" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720737441" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720737441" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720737441" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720737441" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1720737441"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1533,7 +1613,7 @@ So, what would be the time complexity of this process?">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720728583" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720737441" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/06-search-sort/07-linear-time/">
     <div id="R-body" class="default-animation">
@@ -1606,20 +1686,20 @@ So, what would be the time complexity of this process?">
 <p>Therefore, the time complexity for a linear search algorithm is clearly proportional to the number of items that we need to search through, in this case the size of our array. Whether we use an iterative algorithm or a recursive algorithm, we still need to search the array one item at a time. We&rsquo;ll refer to the size of the array as $N$.</p>
 <p>Here&rsquo;s the key: when searching for minimum or maximum values, the search will always take exactly $N$ comparisons since we have to check each value. However, if we are searching for a specific value, the actual number of comparisons required may be fewer than $N$.</p>
 <p>To build a worst-case input for the <code>find</code> function, we would search for the situation where the value to find is either the last value in the array, or it is not present at all. For example, consider the array we&rsquo;ve been using to explore each linear search algorithm so far.</p>
-<p><a href="#R-image-cf20a9009e419c852e6cbf043b919cbb" class="lightbox-link"><img alt="Array of Numbers" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.7.array.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-cf20a9009e419c852e6cbf043b919cbb"><img alt="Array of Numbers" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.7.array.png"></a></p>
+<p><a href="#R-image-e8e1a847a7f1b8f87ebd4ce888cf51fc" class="lightbox-link"><img alt="Array of Numbers" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.7.array.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e8e1a847a7f1b8f87ebd4ce888cf51fc"><img alt="Array of Numbers" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.7.array.png"></a></p>
 <p>What if we are trying to find the value 55 in this array? In that case, we&rsquo;ll end up looking at 4 of the 8 elements in the array. This would take $N/2$ steps. Can we think of another input that would be worse?</p>
 <p>Consider the case where we try to find 0 instead. Will that be worse? In that case, we&rsquo;ll need to look at all 8 elements in the array before we find it. That requires $N$ steps!</p>
 <p>What if we are asked to find 1 in the array? Since 1 is not in the array, we&rsquo;ll have to look at every single element before we know that it can&rsquo;t be found. Once again, that requires $N$ steps.</p>
 <p>We could say that in the worst-case, a linear search algorithm requires &ldquo;on the order of $N$&rdquo; time to find an answer. Put another way, if we double the size of the array, we would also need to double the expected number of steps required to find an item in the worst case. We sometimes call this linear time, since the number of steps required grows at the same rate as the size of the input.</p>
 <h2 id="can-we-do-better">Can We Do Better?</h2>
 <p>Our question now becomes, &ldquo;Is a search that takes on the order of $N$ time really all that bad?&rdquo;. Actually, it depends. Obviously, if $N$ is a small number (less than 1000 or so) it may not be a big deal, if you only do a single search. However, what if we need to do many searches? Is there something we can do to make the process of searching for elements even easier?</p>
-<p><a href="#R-image-add1560351239757c9ede6eb2e085dec" class="lightbox-link"><img alt="Stack of Files" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.7.files.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-add1560351239757c9ede6eb2e085dec"><img alt="Stack of Files" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.7.files.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-6049a0e34877facb8987446c03e9cd7c" class="lightbox-link"><img alt="Stack of Files" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.7.files.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6049a0e34877facb8987446c03e9cd7c"><img alt="Stack of Files" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.7.files.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>Let&rsquo;s consider the real world once again for some insights. For example, think of a pile of loose papers on the floor. If we wanted to find a specific paper, how would we do it?</p>
 <p>In most cases, we would simply have to perform a linear search, picking up each paper one at a time and seeing if it is the one we need. This is pretty inefficient, especially if the pile of papers is large.</p>
-<p><a href="#R-image-2496ad77597ec69aa06448b78e3ddc48" class="lightbox-link"><img alt="File Cabinet" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.7.cabinet.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2496ad77597ec69aa06448b78e3ddc48"><img alt="File Cabinet" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.7.cabinet.png"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p><a href="#R-image-6166b8ee959933eacb5ae75f3d9e3343" class="lightbox-link"><img alt="File Cabinet" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.7.cabinet.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6166b8ee959933eacb5ae75f3d9e3343"><img alt="File Cabinet" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.7.cabinet.png"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>What if we stored the papers in a filing cabinet and organized them somehow? For example, could we sort the papers by title in alphabetical order? Then, when we want to find a particular paper, we can just skip to the section that contains files with the desired first letter and go from there. In fact, we could even do this for the second and third letter, continuing to jump forward in the filing cabinet until we found the paper we need.</p>
 <p>This seems like a much more efficient way to go about searching for things. In fact, we do this naturally without even realizing it. Most computers have a way to sort files alphabetically when viewing the file system, and anyone who has a collection of items has probably spent time organizing and alphabetizing the collection to make it easier to find specific items.</p>
 <p>Therefore, if we can come up with a way to organize the elements in our array, we may be able to make the process of finding a particular item much more efficient. In the next section, we&rsquo;ll look at how we can use various sorting algorithms to do just that.</p>
@@ -1677,12 +1757,12 @@ So, what would be the time complexity of this process?">
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1720728583" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1720728583" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720728583" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1720728583" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1720728583" defer></script>
-        <script src="/cc310/js/search.js?1720728583" defer></script>
+        <script src="/cc310/js/auto-complete.js?1720737441" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1720737441" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720737441" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1720737441" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1720737441" defer></script>
+        <script src="/cc310/js/search.js?1720737441" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1876,6 +1956,22 @@ So, what would be the time complexity of this process?">
           <li data-nav-id="/cc310/12-priority-queues/02-nodes/" class=""><a class="padding" href="/cc310/12-priority-queues/02-nodes/">2. Node Relationships</a></li>
           <li data-nav-id="/cc310/12-priority-queues/03-priority-queues/" class=""><a class="padding" href="/cc310/12-priority-queues/03-priority-queues/">3. Priority Queues</a></li>
           <li data-nav-id="/cc310/12-priority-queues/04-dijkstras/" class=""><a class="padding" href="/cc310/12-priority-queues/04-dijkstras/">4. Dijkstras</a></li></ul></li>
+          <li data-nav-id="/cc310/13-performance/" class=""><input type="checkbox" id="R-section-65b71b99168f172a163062018cab7f7c" aria-controls="R-subsections-65b71b99168f172a163062018cab7f7c"><label for="R-section-65b71b99168f172a163062018cab7f7c"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Performance</span></label><a class="padding" href="/cc310/13-performance/"><b>13.  </b>Performance</a><ul id="R-subsections-65b71b99168f172a163062018cab7f7c" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/13-performance/01-intro/" class=""><a class="padding" href="/cc310/13-performance/01-intro/">1. Introduction</a></li>
+          <li data-nav-id="/cc310/13-performance/02-trees/" class=""><a class="padding" href="/cc310/13-performance/02-trees/">2. Trees</a></li>
+          <li data-nav-id="/cc310/13-performance/03-graphs/" class=""><a class="padding" href="/cc310/13-performance/03-graphs/">3. Graphs</a></li>
+          <li data-nav-id="/cc310/13-performance/04-priority-queues/" class=""><a class="padding" href="/cc310/13-performance/04-priority-queues/">4. Priority Queues</a></li>
+          <li data-nav-id="/cc310/13-performance/05-summary-1/" class=""><a class="padding" href="/cc310/13-performance/05-summary-1/">5. Summary 1</a></li>
+          <li data-nav-id="/cc310/13-performance/06-tree-algorithms/" class=""><a class="padding" href="/cc310/13-performance/06-tree-algorithms/">6. Tree Algorithms</a></li>
+          <li data-nav-id="/cc310/13-performance/07-graph-algorithms/" class=""><a class="padding" href="/cc310/13-performance/07-graph-algorithms/">7. Graph Algorithms</a></li>
+          <li data-nav-id="/cc310/13-performance/08-summary-2/" class=""><a class="padding" href="/cc310/13-performance/08-summary-2/">8. Summary 2</a></li></ul></li>
+          <li data-nav-id="/cc310/14-requirements-analysis/" class=""><input type="checkbox" id="R-section-674dfc54dd092ce56d7e52372ea534c7" aria-controls="R-subsections-674dfc54dd092ce56d7e52372ea534c7"><label for="R-section-674dfc54dd092ce56d7e52372ea534c7"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Requirements Analysis</span></label><a class="padding" href="/cc310/14-requirements-analysis/"><b>14.  </b>Requirements Analysis</a><ul id="R-subsections-674dfc54dd092ce56d7e52372ea534c7" class="morespace collapsible-menu">
+          <li data-nav-id="/cc310/14-requirements-analysis/01-intro/" class=""><a class="padding" href="/cc310/14-requirements-analysis/01-intro/">1. Intro</a></li>
+          <li data-nav-id="/cc310/14-requirements-analysis/02-types-of-data/" class=""><a class="padding" href="/cc310/14-requirements-analysis/02-types-of-data/">2. Types of Data</a></li>
+          <li data-nav-id="/cc310/14-requirements-analysis/03-trees/" class=""><a class="padding" href="/cc310/14-requirements-analysis/03-trees/">3. Trees</a></li>
+          <li data-nav-id="/cc310/14-requirements-analysis/04-graphs/" class=""><a class="padding" href="/cc310/14-requirements-analysis/04-graphs/">4. Graphs</a></li>
+          <li data-nav-id="/cc310/14-requirements-analysis/05-priority-queues/" class=""><a class="padding" href="/cc310/14-requirements-analysis/05-priority-queues/">5. Priority Queues</a></li>
+          <li data-nav-id="/cc310/14-requirements-analysis/06-examples/" class=""><a class="padding" href="/cc310/14-requirements-analysis/06-examples/">6. Examples</a></li></ul></li>
           </ul>
         </div>
         <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
@@ -1930,8 +2026,8 @@ So, what would be the time complexity of this process?">
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1720728583" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720728583" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720737441" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720737441" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1946,7 +2042,7 @@ So, what would be the time complexity of this process?">
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1720728583"></script>
-    <script src="/cc310/js/theme.js?1720728583" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1720737441"></script>
+    <script src="/cc310/js/theme.js?1720737441" defer></script>
   </body>
 </html>

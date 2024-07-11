@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Linear Search :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/06-search-sort/02-linear-search/</link>
-    <description>When searching for a number in an unordered array, our search algorithms are typically designed as functions that take two parameters:&#xA;the number to find, and the array to search. Our search functions then return an index to the number within the array.&#xA;In this module, we will develop a couple of examples of searching an array for a specific number.&#xA;Finding the first occurrence of a number in an unordered array is a fairly straightforward process.</description>
+    <description>YouTube Video When searching for a number in an unordered array, our search algorithms are typically designed as functions that take two parameters:&#xA;the number to find, and the array to search. Our search functions then return an index to the number within the array.&#xA;In this module, we will develop a couple of examples of searching an array for a specific number.&#xA;Finding the first occurrence of a number in an unordered array is a fairly straightforward process.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/06-search-sort/02-linear-search/index.xml" rel="self" type="application/rss+xml" />

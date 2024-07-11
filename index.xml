@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1569,6 +1649,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/12-priority-queues/</guid>
       <description>A queue that efficiently sorts as data is inserted!</description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>https://textbooks.cs.ksu.edu/cc310/13-performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc310/13-performance/</guid>
+      <description>Analyzing the performance of data structures and algorithms</description>
+    </item>
+    <item>
+      <title>Requirements Analysis</title>
+      <link>https://textbooks.cs.ksu.edu/cc310/14-requirements-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc310/14-requirements-analysis/</guid>
+      <description>How to analyze data and determine the appropriate data structure and algorithm!</description>
     </item>
   </channel>
 </rss>

@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Limitations in Python :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/08-perf-string/13-python-memory/</link>
-    <description>Video Materials&#xA;As a result of being immutable, strings can be cumbersome to work with in certain applications. When working with long strings or strings that we are continually appending to, such as in the memory example, we end up creating a lot of sizable copies.&#xA;Recall from the memory example the block of pseudocode.&#xA;1. function APPENDER(NUMBER, BASE) 2. RESULT = &#34;&#34; 3. loop I from 1 to NUMBER 4.</description>
+    <description>YouTube Video Video Materials&#xA;As a result of being immutable, strings can be cumbersome to work with in certain applications. When working with long strings or strings that we are continually appending to, such as in the memory example, we end up creating a lot of sizable copies.&#xA;Recall from the memory example the block of pseudocode.&#xA;1. function APPENDER(NUMBER, BASE) 2. RESULT = &#34;&#34; 3. loop I from 1 to NUMBER 4.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/08-perf-string/13-python-memory/index.xml" rel="self" type="application/rss+xml" />

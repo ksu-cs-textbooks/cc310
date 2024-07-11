@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>List-Based Stacks :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/04-list/old/8-list-based-stacks/</link>
-    <description>If we implement a stack using a singly linked list, we can simplify many things about the implementation. First of all, we can totally remove the isFull, doubleCapacity, and halveCapacity operations since we can grow and shrink our list-based stack as needed. The rest of the operations can be implemented directly with list operations. The front of the list will be the top of the stack since the operations to insert and remove items from the front of list are very efficient.</description>
+    <description>YouTube Video If we implement a stack using a singly linked list, we can simplify many things about the implementation. First of all, we can totally remove the isFull, doubleCapacity, and halveCapacity operations since we can grow and shrink our list-based stack as needed. The rest of the operations can be implemented directly with list operations. The front of the list will be the top of the stack since the operations to insert and remove items from the front of list are very efficient.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/04-list/old/8-list-based-stacks/index.xml" rel="self" type="application/rss+xml" />

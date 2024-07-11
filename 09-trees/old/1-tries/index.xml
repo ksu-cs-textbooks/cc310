@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Tries :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/old/1-tries/</link>
-    <description>Recall that in the beginning of our discussions about trees, we looked at a small tree which contained seven strings as motivation for trees. This was a small example of a trie (pronounced ’try’) which is a type of tree that can represent sets of words. Tries can be used for a variety of tasks ranging from leisurely games to accessibility applications. One example is ‘Boggle’ where players have a set of random letters and try to make as many words as possible.</description>
+    <description>YouTube Video Recall that in the beginning of our discussions about trees, we looked at a small tree which contained seven strings as motivation for trees. This was a small example of a trie (pronounced ’try’) which is a type of tree that can represent sets of words. Tries can be used for a variety of tasks ranging from leisurely games to accessibility applications. One example is ‘Boggle’ where players have a set of random letters and try to make as many words as possible.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/09-trees/old/1-tries/index.xml" rel="self" type="application/rss+xml" />

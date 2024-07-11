@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1484,77 +1564,77 @@
       <link>https://textbooks.cs.ksu.edu/cc310/09-trees/01-tree-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/09-trees/01-tree-intro/</guid>
-      <description>Video Materials&#xA;For the next data structure in the course, we will cover trees, which are used to show hierarchical data. Trees can have many shapes and sizes and there is a wide variety of data that can be organized using them. Real world data that is appropriate for trees can include: family trees, management structures, file systems, biological classifications, anatomical structures and much more.&#xA;We can look at an example of a tree and the relationships they can show.</description>
+      <description>YouTube Video Video Materials&#xA;For the next data structure in the course, we will cover trees, which are used to show hierarchical data. Trees can have many shapes and sizes and there is a wide variety of data that can be organized using them. Real world data that is appropriate for trees can include: family trees, management structures, file systems, biological classifications, anatomical structures and much more.&#xA;We can look at an example of a tree and the relationships they can show.</description>
     </item>
     <item>
       <title>General Terms</title>
       <link>https://textbooks.cs.ksu.edu/cc310/09-trees/02-general-terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/09-trees/02-general-terms/</guid>
-      <description>Warning The video incorrectly states the degree of a tree is equal to the degree of the root. The correct definition is that the degree of a tree is the largest degree of any node in the tree.&#xA;Video Materials&#xA;To get ourselves comfortable in working with trees, we will outline some standard vocabulary. Throughout this section, we will use the following tree as a guiding example for visualizing the definitions.</description>
+      <description>Warning The video incorrectly states the degree of a tree is equal to the degree of the root. The correct definition is that the degree of a tree is the largest degree of any node in the tree.&#xA;YouTube Video Video Materials&#xA;To get ourselves comfortable in working with trees, we will outline some standard vocabulary. Throughout this section, we will use the following tree as a guiding example for visualizing the definitions.</description>
     </item>
     <item>
       <title>What Makes a Tree a Tree</title>
       <link>https://textbooks.cs.ksu.edu/cc310/09-trees/03-what-makes-tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/09-trees/03-what-makes-tree/</guid>
-      <description>Video Materials&#xA;Trees can come in many shapes and sizes. There are, however some constraints to making a valid tree.&#xA;A tree has a single root A child has exactly one parent A tree is fully connected (IE a single tree) A tree has no cycles (IE no loops) Valid Trees Any combination of the following represents a valid tree:&#xA;A tree with a single node; just a root, A tree where each node has a single child, or A tree where nodes have many children.</description>
+      <description>YouTube Video Video Materials&#xA;Trees can come in many shapes and sizes. There are, however some constraints to making a valid tree.&#xA;A tree has a single root A child has exactly one parent A tree is fully connected (IE a single tree) A tree has no cycles (IE no loops) Valid Trees Any combination of the following represents a valid tree:&#xA;A tree with a single node; just a root, A tree where each node has a single child, or A tree where nodes have many children.</description>
     </item>
     <item>
       <title>Tree Operations</title>
       <link>https://textbooks.cs.ksu.edu/cc310/09-trees/04-tree-operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/09-trees/04-tree-operations/</guid>
-      <description>Video Materials&#xA;Along with understanding how trees work, we want to also be able to implement a tree of our own. We will now outline key components of a tree class.&#xA;MyTree Recall that trees are defined recursively so we can build them from the leaves up where each leaf is a tree itself. Each tree will have three properties: the item it contains as an object, its parent node of type MyTree, and its children as a list of MyTrees.</description>
+      <description>YouTube Video Video Materials&#xA;Along with understanding how trees work, we want to also be able to implement a tree of our own. We will now outline key components of a tree class.&#xA;MyTree Recall that trees are defined recursively so we can build them from the leaves up where each leaf is a tree itself. Each tree will have three properties: the item it contains as an object, its parent node of type MyTree, and its children as a list of MyTrees.</description>
     </item>
     <item>
       <title>Terms I</title>
       <link>https://textbooks.cs.ksu.edu/cc310/09-trees/05-terms-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/09-trees/05-terms-1/</guid>
-      <description>Many of the terms used in trees relate to terms used in family trees. Having this in mind can help us to better understand some of the terminology involved with abstract trees. Here we have a sample family tree. Ancestor - The ancestors of a node are those reached from child to parent relationships. We can think of this as our parents and our parent’s parents, and so on. Let’s look at all of the ancestors of each of our nodes in the family tree.</description>
+      <description>YouTube Video Many of the terms used in trees relate to terms used in family trees. Having this in mind can help us to better understand some of the terminology involved with abstract trees. Here we have a sample family tree. Ancestor - The ancestors of a node are those reached from child to parent relationships. We can think of this as our parents and our parent’s parents, and so on.</description>
     </item>
     <item>
       <title>Terms II</title>
       <link>https://textbooks.cs.ksu.edu/cc310/09-trees/06-terms-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/09-trees/06-terms-2/</guid>
-      <description>We can describe the sizes of trees and position of nodes using different terminology, like level, depth, and height.&#xA;Level - The level of a node characterizes the distance between the node and the root. The root of the tree is considered level 1. As you move away from the tree, the level increases by one. For our family tree example, what nodes are in the following levels? Think about the answer and then click corresponding arrow.</description>
+      <description>YouTube Video We can describe the sizes of trees and position of nodes using different terminology, like level, depth, and height.&#xA;Level - The level of a node characterizes the distance between the node and the root. The root of the tree is considered level 1. As you move away from the tree, the level increases by one. For our family tree example, what nodes are in the following levels?</description>
     </item>
     <item>
       <title>Terms III</title>
       <link>https://textbooks.cs.ksu.edu/cc310/09-trees/07-terms-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/09-trees/07-terms-3/</guid>
-      <description>When working with multidimensional data structures, we also need to consider how they would be stored in a linear manner. Remember, pieces of data in computers are linear sequences of binary digits. As a result, we need a standard way of storing trees as a linear structure.&#xA;Path - a path is a sequence of nodes and edges, which connect a node with its descendant. We can look at some paths in the tree above:</description>
+      <description>YouTube Video When working with multidimensional data structures, we also need to consider how they would be stored in a linear manner. Remember, pieces of data in computers are linear sequences of binary digits. As a result, we need a standard way of storing trees as a linear structure.&#xA;Path - a path is a sequence of nodes and edges, which connect a node with its descendant. We can look at some paths in the tree above:</description>
     </item>
     <item>
       <title>Binary Tree</title>
       <link>https://textbooks.cs.ksu.edu/cc310/09-trees/08-binary-trees/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/09-trees/08-binary-trees/</guid>
-      <description>A binary tree is a type of tree with some special conditions. First, it must follow the guidelines of being a tree:&#xA;There must be single root, each child node must have a single parent node, it must be fully connected (no disjoint parts), and there can be no cycles (no loops). The special conditions that we impose on binary trees are the following:&#xA;Each node has at most 2 children (nodes can have 0, 1, or 2 children), and unlike general trees, the children in a binary tree are not an unordered set.</description>
+      <description>YouTube Video A binary tree is a type of tree with some special conditions. First, it must follow the guidelines of being a tree:&#xA;There must be single root, each child node must have a single parent node, it must be fully connected (no disjoint parts), and there can be no cycles (no loops). The special conditions that we impose on binary trees are the following:&#xA;Each node has at most 2 children (nodes can have 0, 1, or 2 children), and unlike general trees, the children in a binary tree are not an unordered set.</description>
     </item>
     <item>
       <title>Binary Tree Examples</title>
       <link>https://textbooks.cs.ksu.edu/cc310/09-trees/09-binary-examples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/09-trees/09-binary-examples/</guid>
-      <description>Valid Binary Trees This is a valid binary tree. We have a single node, the root, with no children. As with general trees, binary trees are built recursively. Thus, each node and its child(ren) are trees themselves.&#xA;This is also a valid binary tree. All of the left children are less than their parent. The node with item ‘10’ is also in the correct position as it is less than 12, 13, and 14 but greater than 9.</description>
+      <description>YouTube Video Valid Binary Trees This is a valid binary tree. We have a single node, the root, with no children. As with general trees, binary trees are built recursively. Thus, each node and its child(ren) are trees themselves.&#xA;This is also a valid binary tree. All of the left children are less than their parent. The node with item ‘10’ is also in the correct position as it is less than 12, 13, and 14 but greater than 9.</description>
     </item>
     <item>
       <title>Binary Tree Traversals</title>
       <link>https://textbooks.cs.ksu.edu/cc310/09-trees/10-binary-traversals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/09-trees/10-binary-traversals/</guid>
-      <description>In the first module we discussed two types of traversals: preorder and postorder. Within that discussion, we noted that for general trees, the preorder and postorder traversal may not be unique. This was due to the fact that children nodes are an unordered set.&#xA;Info We are now working with binary trees which have a defined child order. As a result, the preorder and postorder traversals will be unique! These means that for a binary tree when we do a preorder traversal there is exactly one string that is possible.</description>
+      <description>YouTube Video In the first module we discussed two types of traversals: preorder and postorder. Within that discussion, we noted that for general trees, the preorder and postorder traversal may not be unique. This was due to the fact that children nodes are an unordered set.&#xA;Info We are now working with binary trees which have a defined child order. As a result, the preorder and postorder traversals will be unique!</description>
     </item>
     <item>
       <title>In-Order Traversal</title>
       <link>https://textbooks.cs.ksu.edu/cc310/09-trees/11-in-order/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc310/09-trees/11-in-order/</guid>
-      <description> Since we have fixed order on the children, we can introduce another type of traversal: in-order traversal.&#xA;In-order Traversal:&#xA;Run the in-order traversal on the left child Access the root, write its value Run the in-order traversal on the right child Remember: Left Root Right </description>
+      <description> YouTube Video Since we have fixed order on the children, we can introduce another type of traversal: in-order traversal.&#xA;In-order Traversal:&#xA;Run the in-order traversal on the left child Access the root, write its value Run the in-order traversal on the right child Remember: Left Root Right </description>
     </item>
     <item>
       <title>Balance</title>

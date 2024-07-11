@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Dijkstras :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/12-priority-queues/04-dijkstras/</link>
-    <description>Video Slides&#xA;A good application of priority queues is finding the shortest path in a graph. A common algorithm for this is Dijkstra’s algorithm.&#xA;Edsger Dijkstra was a Dutch computer scientist who researched many fields. He is credited for his work in physics, programming, software engineering, and as a systems scientist. His motivation for this algorithm in particular was to be able to find the shortest path between two cities.</description>
+    <description>YouTube Video Video Slides&#xA;A good application of priority queues is finding the shortest path in a graph. A common algorithm for this is Dijkstra’s algorithm.&#xA;Edsger Dijkstra was a Dutch computer scientist who researched many fields. He is credited for his work in physics, programming, software engineering, and as a systems scientist. His motivation for this algorithm in particular was to be able to find the shortest path between two cities.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/12-priority-queues/04-dijkstras/index.xml" rel="self" type="application/rss+xml" />

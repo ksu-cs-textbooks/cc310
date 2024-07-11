@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Not Trees :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/09-trees/03-what-makes-tree/video/</link>
-    <description>Resources Slides Video Script [Slide 1]&#xA;Now that we have outlined key tree terms, we will cover some examples of trees and not trees. To be a tree, four main criteria must be met.&#xA;There must be just a single root. Each child can only have one parent. They must be fully connected. There must be no cycles. [Slide 2]&#xA;In this figure, we have two key issues. Feel free to pause the video now if you would like determine them for yourself.</description>
+    <description>YouTube Video Resources Slides Video Script [Slide 1]&#xA;Now that we have outlined key tree terms, we will cover some examples of trees and not trees. To be a tree, four main criteria must be met.&#xA;There must be just a single root. Each child can only have one parent. They must be fully connected. There must be no cycles. [Slide 2]&#xA;In this figure, we have two key issues.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jul 2024 16:38:34 -0500</lastBuildDate>

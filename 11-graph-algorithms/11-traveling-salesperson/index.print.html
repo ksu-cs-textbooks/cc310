@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1499,18 +1579,18 @@
     <link href="/cc310/11-graph-algorithms/11-traveling-salesperson/index.xml" rel="alternate" type="application/rss+xml" title="Traveling Salesperson :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/11-traveling-salesperson/tele.html" rel="alternate" type="text/html" title="Traveling Salesperson :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/11-traveling-salesperson/embed.html" rel="alternate" type="text/html" title="Traveling Salesperson :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720728608" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720728608" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720728608" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720728608" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720728608" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720728608" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720728608" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720728608" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720728608" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720728608" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720728608" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720728608" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720728608" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1720728608" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1720728608"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1720737467" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737467" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1720737467" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1720737467" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737467" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1720737467" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1720737467" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737467" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1720737467" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1720737467" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1720737467" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1720737467" rel="stylesheet">
+    <link href="/cc310/css/print.css?1720737467" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1720737467" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1720737467"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1530,7 +1610,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720728608" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1720737467" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/11-graph-algorithms/11-traveling-salesperson/">
     <div id="R-body" class="default-animation">
@@ -1573,8 +1653,8 @@
 <p>The motivation of the TSP is this: given a set of locations, what is the shortest path such that we can visit each location and end back where started?</p>
 <p>Suppose we wanted to take a road trip with friends to every state capital in the continental US as well as Washington D.C. To save money and time, we would want to minimize the distance that we travel. Since we are taking a road trip, we would want to avoid frivolous driving. For example, if we start in Sacremento, CA we would not want to end the trip in Boston, MA. The trip should start and end at the same location for efficiency.</p>
 <p>The figure below shows the shortest trip that visits each state capital and Washington D.C. once. In this example, we can start where ever we like and will end up where we started.</p>
-<p><a href="#R-image-780170af0bd067a297c40faf75392b90" class="lightbox-link"><img alt="Visit each state capital" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/7_TSP_TOUR.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-780170af0bd067a297c40faf75392b90"><img alt="Visit each state capital" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/7_TSP_TOUR.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-c47ab2aa45489d01816dd4057ea39157" class="lightbox-link"><img alt="Visit each state capital" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/7_TSP_TOUR.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c47ab2aa45489d01816dd4057ea39157"><img alt="Visit each state capital" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/7_TSP_TOUR.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In this problem, it is easy to get overwhelmed by all of the possibilities. Since there are 49 cities to visit, there are over <code>6.2*10^60</code> possibilities. For reference, <code>10^12</code> is equivalent to one trillion! Thus, we need an algorithmic approach to solve this problem as opposed to a brute force method.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -1606,8 +1686,8 @@
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1720728608" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720728608" defer></script>
-    <script src="/cc310/js/theme.js?1720728608" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1720737467" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1720737467" defer></script>
+    <script src="/cc310/js/theme.js?1720737467" defer></script>
   </body>
 </html>

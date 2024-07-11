@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Loops :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/01-review/17-java/6-loops/</link>
-    <description>Loops are another way we can control the flow of our program, this time by repeating steps based on a given criteria. A computer is able to repeat the same instructions many times. There are several ways to tell a computer to repeat a sequence of instructions:&#xA;Repeat an infinite number of times, e.g. while true. This construct is useful in software applications such as servers that will offer a service.</description>
+    <description>YouTube Video Loops are another way we can control the flow of our program, this time by repeating steps based on a given criteria. A computer is able to repeat the same instructions many times. There are several ways to tell a computer to repeat a sequence of instructions:&#xA;Repeat an infinite number of times, e.g. while true. This construct is useful in software applications such as servers that will offer a service.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc310/01-review/17-java/6-loops/index.xml" rel="self" type="application/rss+xml" />

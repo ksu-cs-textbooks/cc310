@@ -1429,6 +1429,86 @@
   
 	
 		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -1475,7 +1555,7 @@
   <channel>
     <title>Python Character Arrays :: CC 310 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc310/08-perf-string/13-python-memory/video/</link>
-    <description>Resources Slides Video Script [Slide 1]&#xA;In the previous sections, we have talked about why we would need to use strings and how they are a natural choice. When looking into the implementation of strings, we also saw that they could be less than ideal.&#xA;[Slide 2]&#xA;We will now talk about how we can have the best of both worlds: utilizing text based data and avoiding repetitive character writes.</description>
+    <description>YouTube Video Resources Slides Video Script [Slide 1]&#xA;In the previous sections, we have talked about why we would need to use strings and how they are a natural choice. When looking into the implementation of strings, we also saw that they could be less than ideal.&#xA;[Slide 2]&#xA;We will now talk about how we can have the best of both worlds: utilizing text based data and avoiding repetitive character writes.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jul 2024 14:25:08 -0500</lastBuildDate>
