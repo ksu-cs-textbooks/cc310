@@ -1584,19 +1584,19 @@ With singly linked lists, each node in the list had a pointer to the next node i
     <link href="/cc310/04-list/16-doubly-linked-lists/index.print.html" rel="alternate" type="text/html" title="Doubly Linked Lists :: CC 310 Textbook">
     <link href="/cc310/04-list/16-doubly-linked-lists/tele.html" rel="alternate" type="text/html" title="Doubly Linked Lists :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1720737453" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737453" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1720737453" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1720737453" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737453" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1720737453" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1720737453" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737453" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1720737453" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1723740700" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740700" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1723740700" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1723740700" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740700" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1723740700" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1723740700" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740700" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1723740700" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1720737453" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1720737453" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1720737453" rel="stylesheet">
-  <link href="/cc310/css/print.css?1720737453" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1723740700" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1723740700" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1723740700" rel="stylesheet">
+  <link href="/cc310/css/print.css?1723740700" rel="stylesheet" media="print">
   
   
   
@@ -1619,7 +1619,7 @@ With singly linked lists, each node in the list had a pointer to the next node i
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1720737453" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1723740700" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/04-list/16-doubly-linked-lists/embed.html">
@@ -1653,12 +1653,12 @@ With singly linked lists, each node in the list had a pointer to the next node i
 
 <p>With singly linked lists, each node in the list had a pointer to the next node in the list. This structure allowed us to grow and shrink the list as needed and gave us the ability to insert and delete nodes at the front, middle, or end of the list. However, we often had to use two pointers when manipulating the list to allow us to access the previous node in the list as well as the current node. One way to solve this problem and make our list even more flexible is to allow a node to point at both the previous node in the list as well as the next node in the list. We call this a doubly linked list.</p>
 <p>The concept of a doubly linked list is shown below. Here, each node in the list has a link to the next node and a link to the previous node. If there is no previous or next node, we set the pointers to null.</p>
-<p><a href="#R-image-4923f2e4e2cd754a06e236604bfcf171" class="lightbox-link"><img alt="Doubly Linked List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.3.double.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4923f2e4e2cd754a06e236604bfcf171"><img alt="Doubly Linked List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.3.double.png"></a></p>
+<p><a href="#R-image-5079a907d98663c98ad261b16c7e3046" class="lightbox-link"><img alt="Doubly Linked List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.3.double.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5079a907d98663c98ad261b16c7e3046"><img alt="Doubly Linked List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.3.double.png"></a></p>
 <h2 id="doubly-linked-node">Doubly Linked Node</h2>
 <p>A doubly linked list node is the same as a singly linked list node with the addition of the <code>previous</code> attribute that points to the previous node in the list as shown below.</p>
-<p><a href="#R-image-cf2629c7cf1a686fe6dc681da6bd4985" class="lightbox-link"><img alt="Doubly Linked List Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.doublenode.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-cf2629c7cf1a686fe6dc681da6bd4985"><img alt="Doubly Linked List Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.doublenode.png"></a></p>
+<p><a href="#R-image-d330c3005dae33a5356cd58d143ca5bd" class="lightbox-link"><img alt="Doubly Linked List Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.doublenode.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d330c3005dae33a5356cd58d143ca5bd"><img alt="Doubly Linked List Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.doublenode.png"></a></p>
 <p>The class representation of a doubly linked list <code>Node</code> is shown below. As discussed above, we have three attributes:</p>
 <ul>
 <li><code>data</code>, which holds the data of the node,</li>
@@ -1666,13 +1666,13 @@ With singly linked lists, each node in the list had a pointer to the next node i
 <li><code>previous</code>, which is a pointer to the previous node.</li>
 </ul>
 <p>We also use a constructor and the standard <code>toString</code> operation to create a string for the data stored in the node.</p>
-<p><a href="#R-image-46ef3ae11779ae06478a6ad825797c22" class="lightbox-link"><img alt="Doubly Linked List Node UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.doublenodeuml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-46ef3ae11779ae06478a6ad825797c22"><img alt="Doubly Linked List Node UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.doublenodeuml.png"></a></p>
+<p><a href="#R-image-b932de144bb4e4ed1b6b327fe73af6e9" class="lightbox-link"><img alt="Doubly Linked List Node UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.doublenodeuml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b932de144bb4e4ed1b6b327fe73af6e9"><img alt="Doubly Linked List Node UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.doublenodeuml.png"></a></p>
 <h2 id="doubly-linked-list">Doubly Linked List</h2>
 <p>As with our singly linked list, we start off a doubly linked list with a pointer to the first node in the list, which we call <code>head</code>. However, if we also store the pointer to the last node in the list, we can simplify some of our insertion and removal operations as well as reduce the time complexity of operations that insert, remove, or peek at the last node in the list.</p>
 <p>The figure below shows a doubly linked list with five nodes. The variable <code>head</code> points to the first node in the list, while the variable <code>tail</code> points to the last node in the list. Each node in the list now has two pointers, <code>next</code> and <code>previous</code>, which point to the appropriate node in the list. Notice that the first node&rsquo;s <code>previous</code> pointer is null, while the last node&rsquo;s <code>next</code> pointer is also null.</p>
-<p><a href="#R-image-7e207edb10adf6a93a6e5a20c5937338" class="lightbox-link"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.double.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7e207edb10adf6a93a6e5a20c5937338"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.double.png"></a></p>
+<p><a href="#R-image-94b5c8387696449af9dedb8c83c35b3a" class="lightbox-link"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.10.double.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-94b5c8387696449af9dedb8c83c35b3a"><img alt="Doubly Linked List Detail" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.10.double.png"></a></p>
 <h2 id="doubly-linked-list-class">Doubly Linked List Class</h2>
 <p>Like we did for our singly linked list, we capture the necessary details for our doubly linked list in a class. The doubly linked list class has four attributes:</p>
 <ul>
@@ -1699,10 +1699,10 @@ With singly linked lists, each node in the list had a pointer to the next node i
 
 
 
-<script src="/cc310/js/clipboard.min.js?1720737453" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1720737453" defer></script>
-<script src="/cc310/js/theme.js?1720737453" defer></script>
+<script src="/cc310/js/clipboard.min.js?1723740700" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1723740700" defer></script>
+<script src="/cc310/js/theme.js?1723740700" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1720737453" defer></script>
+<script src="/cc310/js/embed-iframe.js?1723740700" defer></script>
 </body>
 </html>

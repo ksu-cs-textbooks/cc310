@@ -1577,18 +1577,18 @@
     <link href="/cc310/11-graph-algorithms/index.xml" rel="alternate" type="application/rss+xml" title="Graph Algorithms :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/tele.html" rel="alternate" type="text/html" title="Graph Algorithms :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/embed.html" rel="alternate" type="text/html" title="Graph Algorithms :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720737466" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737466" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720737466" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720737466" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737466" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720737466" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720737466" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737466" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720737466" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720737466" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720737466" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720737466" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720737466" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1720737466" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1720737466"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1723740713" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740713" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1723740713" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1723740713" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740713" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1723740713" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1723740713" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740713" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1723740713" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1723740713" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1723740713" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1723740713" rel="stylesheet">
+    <link href="/cc310/css/print.css?1723740713" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1723740713" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1723740713"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..';
@@ -1608,7 +1608,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720737466" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1723740713" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/11-graph-algorithms/">
     <div id="R-body" class="default-animation">
@@ -1670,17 +1670,17 @@
 <h2 id="motivation">Motivation</h2>
 <p>As we have discussed previously, graphs can have many applications. Based on that, there are many things that we may want to infer from graphs. For example, if we have a graph that depicts a railroad or electrical network, we could determine what maximum flow of the network. The standard approach for this task is the <a href="https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/" rel="external" target="_blank">Ford-Fulkerson Algorithm</a>. In short, given a graph with edge weights that represent capacities the algorithm will determine the maximum flow throughout the graph.</p>
 <p>From the matrix graph module, we used the following distribution network as an example.</p>
-<p><a href="#R-image-9d0a8fcc01f81b6708f4a23ea4b2d1d3" class="lightbox-link"><img alt="Sample Distribution Network" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/distribution-3.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9d0a8fcc01f81b6708f4a23ea4b2d1d3"><img alt="Sample Distribution Network" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/distribution-3.svg"></a></p>
+<p><a href="#R-image-70a3f8947817757fc81d4431b0ae07ce" class="lightbox-link"><img alt="Sample Distribution Network" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/distribution-3.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-70a3f8947817757fc81d4431b0ae07ce"><img alt="Sample Distribution Network" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/distribution-3.svg"></a></p>
 <p>Conceptually, we would want to determine the maximum number of units that could leave the distribution center without having excess laying around stores. Using the maximum flow algorithm, we would determine that the maximum number of units would be 15.</p>
-<p><a href="#R-image-33f8f753c531d429a7ab5c5f63878697" class="lightbox-link"><img alt="Max Flow" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/distribution-3MAX.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-33f8f753c531d429a7ab5c5f63878697"><img alt="Max Flow" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/distribution-3MAX.svg"></a></p>
+<p><a href="#R-image-3a3a78d2a4ec10946f03056d045046ea" class="lightbox-link"><img alt="Max Flow" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/distribution-3MAX.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3a3a78d2a4ec10946f03056d045046ea"><img alt="Max Flow" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/distribution-3MAX.svg"></a></p>
 <p>The driving force in the Ford-Fulkerson algorithm, as well as other maximum flow algorithms, is the ability to find a path from a source to a target. Specifically, these algorithms use breadth first and depth first searches to discover possible paths.</p>
 <h2 id="searching">Searching</h2>
 <p>To get to introducing the searches, we will first discuss the basis of them. Those are the depth first traversal and the breadth first traversal. We will outline the premise of these traversals and then discuss how we can modify their algorithms for various tasks, such as path searches.</p>
 <p>We can perform these traversals on any type of graph. Conceptually, it will help to have a tree-like structure in mind to differentiate between depth first and breadth first.</p>
-<p><a href="#R-image-5b85fdef59e01a8a9c77b04a87f60d71" class="lightbox-link"><img alt="Breadth VS Depth" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/8search_breadthVSdepth.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5b85fdef59e01a8a9c77b04a87f60d71"><img alt="Breadth VS Depth" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/8search_breadthVSdepth.svg"></a></p>
+<p><a href="#R-image-866ecd0359ea41958618b7b459194efd" class="lightbox-link"><img alt="Breadth VS Depth" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/8search_breadthVSdepth.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-866ecd0359ea41958618b7b459194efd"><img alt="Breadth VS Depth" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/8search_breadthVSdepth.svg"></a></p>
 
             <footer class="footline">
               
@@ -1715,8 +1715,8 @@
 </div>
 </div>
 <p>To do the traversal, we must pick a starting node; this can be an arbitrary node in our graph. If we were doing the traversal on a tree, we would typically select the root at a starting point. We start a while loop to go through the stack which we will be pushing and popping from. We get the top element of the stack, if the node has not been visited yet then we will add it to the set to note that we have now visited it. Then we get the neighbors of the node and put them onto the stack and continue the process until the stack is empty.</p>
-<p><a href="#R-image-988939d320b9a7e9e672d0daff9c368e" class="lightbox-link"><img alt="DFS Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/SEARCH_DFS.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-988939d320b9a7e9e672d0daff9c368e"><img alt="DFS Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/SEARCH_DFS.gif"></a></p>
+<p><a href="#R-image-2180be05bde051b1da8f8f41ed498e7d" class="lightbox-link"><img alt="DFS Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/SEARCH_DFS.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2180be05bde051b1da8f8f41ed498e7d"><img alt="DFS Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/SEARCH_DFS.gif"></a></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">function DEPTHFIRST(GRAPH,SRC)
 </span></span><span class="line"><span class="cl">    STACK = empty array
 </span></span><span class="line"><span class="cl">    DISCOVERED = empty set
@@ -1763,8 +1763,8 @@
 </div>
 </div>
 <p>Again, we must pick a starting node; this can be an arbitrary node in our graph. We add the starting node to our queue and the set of discovered nodes. We start a while loop to go through the queue which we will be enqueue  and dequeue from. We get the first element of the queue, then get the neighbors of the current node. We loop through each edge adding the neighbor to the discovered set and the queue if it has not already been discovered. We continue this process until the queue is empty.</p>
-<p><a href="#R-image-dc749479eb4e9249236e2d3249b40f62" class="lightbox-link"><img alt="BFS Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/SEARCH_BFS.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dc749479eb4e9249236e2d3249b40f62"><img alt="BFS Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/SEARCH_BFS.gif"></a></p>
+<p><a href="#R-image-e899174191b16e53bd3e31fab0c7a75c" class="lightbox-link"><img alt="BFS Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/SEARCH_BFS.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e899174191b16e53bd3e31fab0c7a75c"><img alt="BFS Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/SEARCH_BFS.gif"></a></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">function BREADTHFIRST(GRAPH,SRC)
 </span></span><span class="line"><span class="cl">    QUEUE = empty queue
 </span></span><span class="line"><span class="cl">    DISCOVERED = empty set
@@ -1809,8 +1809,8 @@
 
 <p>When introducing graphs, we discussed how the components of a graph didn&rsquo;t have to all be connected. If our goal is to visit each node, like in the searches, then we will need to perform the search from every node.</p>
 <p>For example, the graph below has two separate components. Lets walk through which nodes we will discover by calling the traversals from each node.</p>
-<p><a href="#R-image-10ce62786568003eb1c491284adbdae5" class="lightbox-link"><img alt="Disconnected Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/8search_dis.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-10ce62786568003eb1c491284adbdae5"><img alt="Disconnected Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/8search_dis.svg"></a></p>
+<p><a href="#R-image-80f07566dba06be822ef1f7e1cd3f111" class="lightbox-link"><img alt="Disconnected Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/8search_dis.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-80f07566dba06be822ef1f7e1cd3f111"><img alt="Disconnected Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/8search_dis.svg"></a></p>
 <table>
 <thead>
 <tr>
@@ -1929,8 +1929,8 @@
 </span></span><span class="line"><span class="ln">23</span><span class="cl">                    <span class="ow">in</span> <span class="n">the</span> <span class="n">PARENT_MAP</span> <span class="n">dictionary</span> <span class="nb">set</span> <span class="n">key</span> <span class="n">NODE</span> <span class="k">with</span> <span class="n">value</span> <span class="n">CURR</span>
 </span></span><span class="line"><span class="ln">24</span><span class="cl">    <span class="k">return</span> <span class="n">nothing</span></span></span></code></pre></div>
 <h3 id="depth-first-search-example">Depth-First Search Example</h3>
-<p><a href="#R-image-b7d8ff41ea0edb55355ee0bf5e5669e6" class="lightbox-link"><img alt="DFS Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/DFS.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b7d8ff41ea0edb55355ee0bf5e5669e6"><img alt="DFS Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/DFS.gif"></a></p>
+<p><a href="#R-image-a1f3ee1b7344b1d1b0b8bc438671f473" class="lightbox-link"><img alt="DFS Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/DFS.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a1f3ee1b7344b1d1b0b8bc438671f473"><img alt="DFS Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/DFS.gif"></a></p>
 <h3 id="breadth-first-search">Breadth-First Search</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="n">function</span> <span class="n">BREADTHFIRSTSEARCH</span><span class="p">(</span><span class="n">GRAPH</span><span class="p">,</span><span class="n">SRC</span><span class="p">,</span><span class="n">TAR</span><span class="p">)</span>
 </span></span><span class="line"><span class="ln"> 2</span><span class="cl">    <span class="n">QUEUE</span> <span class="o">=</span> <span class="n">empty</span> <span class="n">queue</span>
@@ -1958,8 +1958,8 @@
 </span></span><span class="line"><span class="ln">24</span><span class="cl">                <span class="n">append</span> <span class="n">NODE</span> <span class="n">to</span> <span class="n">QUEUE</span>
 </span></span><span class="line"><span class="ln">25</span><span class="cl">    <span class="k">return</span> <span class="n">nothing</span></span></span></code></pre></div>
 <h3 id="breadth-first-search-example">Breadth-First Search Example</h3>
-<p><a href="#R-image-83e8d48651ebf8559bec4a1cbb86b716" class="lightbox-link"><img alt="BFS Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/BFS.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-83e8d48651ebf8559bec4a1cbb86b716"><img alt="BFS Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/BFS.gif"></a></p>
+<p><a href="#R-image-51fbd4139c840ab3600187b58e0f2f98" class="lightbox-link"><img alt="BFS Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/BFS.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-51fbd4139c840ab3600187b58e0f2f98"><img alt="BFS Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/BFS.gif"></a></p>
 
             <footer class="footline">
               
@@ -1979,16 +1979,16 @@
 
 <h2 id="traveling">Traveling</h2>
 <p>Finding a path in a graph is a very common application in many fields. One application that we benefit from in our day to day lives is traveling. Programs like Google Maps calculate various paths from point A to point B.</p>
-<p><a href="#R-image-027786a279493a63f046ada205826823" class="lightbox-link"><img alt="Google Map" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/Map.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-027786a279493a63f046ada205826823"><img alt="Google Map" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/Map.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-c585091e12dd5eb71add3478bdffbc23" class="lightbox-link"><img alt="Google Map" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/Map.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c585091e12dd5eb71add3478bdffbc23"><img alt="Google Map" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/Map.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In the context of graph data structures, we can think of each intersection as a node and each road as an edge. Google Maps, however, tracks more features of edges than we have discussed. Not only do they track the distance between intersections, they also track time, tolls, construction, road surface and much more. In the next module, we will discuss more details of how we can find the shortest path.</p>
 <h2 id="map-coloring">Map Coloring</h2>
 <p>Another application of the general searches is coloring maps. The premise is that we don&rsquo;t want two adjacent territories to have the coloring. These territories could be states, like in the United States map below, counties, provinces, countries, and much more.</p>
-<p><a href="#R-image-5e72bcd9dc9ea3cdc8eca438161f8225" class="lightbox-link"><img alt="US Map" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/USMap.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5e72bcd9dc9ea3cdc8eca438161f8225"><img alt="US Map" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/USMap.png"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p><a href="#R-image-9be653e20629b847590cdf04b52399de" class="lightbox-link"><img alt="US Map" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/USMap.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9be653e20629b847590cdf04b52399de"><img alt="US Map" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/USMap.png"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>The following was generated for this course using the breadth first search and <code>MyMatrixGraph</code> class that we have implemented in this course. To create the visual rendering, the Python library <code>NetworkX</code>^[https://networkx.github.io/] was used. In this rendering, the starting node was Utah. If we were to start from say Alabama or Florida, we would not have a valid four coloring scheme once we got to Nevada. Since Hawaii and Alaska have no land border with any of the states, they can be any color.</p>
-<p><a href="#R-image-b4892d9fbbe6fbd6a91c06be5f44a70a" class="lightbox-link"><img alt="Color Generation" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/UsMapColor.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b4892d9fbbe6fbd6a91c06be5f44a70a"><img alt="Color Generation" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/UsMapColor.gif"></a></p>
+<p><a href="#R-image-d018a42fbaea32fc3fb1a2ee3f7fd892" class="lightbox-link"><img alt="Color Generation" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/UsMapColor.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d018a42fbaea32fc3fb1a2ee3f7fd892"><img alt="Color Generation" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/UsMapColor.gif"></a></p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -2028,21 +2028,21 @@
 <li>Network routing</li>
 </ul>
 <p>Suppose we were building an apartment complex and wanted to determine the most cost-effective wiring schema. Below, we have the possible construction costs for wiring apartment to apartment. Wiring vertically adjacent apartments is cheaper than wiring horizontally adjacent units and those closest to the power closet have lower costs as well.</p>
-<p><a href="#R-image-be895b88d763f0783be696104164aec0" class="lightbox-link"><img alt="Possible Wiring" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/possibe_wiring.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-be895b88d763f0783be696104164aec0"><img alt="Possible Wiring" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/possibe_wiring.svg"></a></p>
+<p><a href="#R-image-1f6bcf438c2dc0c41c7bd03779b3a692" class="lightbox-link"><img alt="Possible Wiring" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/possibe_wiring.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1f6bcf438c2dc0c41c7bd03779b3a692"><img alt="Possible Wiring" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/possibe_wiring.svg"></a></p>
 <p>To find the best possible solution, we would find the MST. The final wiring schema may look something like the figure below.</p>
-<p><a href="#R-image-dbcf92015ff1835155f9218bf2395141" class="lightbox-link"><img alt="Possible Wiring" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/mini_wire.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dbcf92015ff1835155f9218bf2395141"><img alt="Possible Wiring" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/mini_wire.svg"></a></p>
+<p><a href="#R-image-a860a28da2e14cb402b3238be4f35523" class="lightbox-link"><img alt="Possible Wiring" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/mini_wire.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a860a28da2e14cb402b3238be4f35523"><img alt="Possible Wiring" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/mini_wire.svg"></a></p>
 <p>Determining a MST can result in lower costs and time used in many applications, especially logistics.
 To properly define a minimum spanning tree, we will first introduce the concept of a spanning tree.</p>
 <h2 id="spanning-trees">Spanning Trees</h2>
 <p>A <strong>spanning tree</strong> for a graph is a subset of the graphs edges such that each node is visited once, no cycles are present, and there are no disconnected components.</p>
 <p>Let&rsquo;s look at this graph as an example. We have five nodes and seven edges.</p>
-<p><a href="#R-image-269c7b9752976cd18db54719cf183b97" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-269c7b9752976cd18db54719cf183b97"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg"></a></p>
+<p><a href="#R-image-19759afcee41f26e5a664971e4ff6a00" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-19759afcee41f26e5a664971e4ff6a00"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg"></a></p>
 <p>Below, we have valid examples of spanning trees. In each of the examples, we visit each node and there are no cycles. Recall that a cycle is a path in which the starting node and ending node are the same.</p>
-<p><a href="#R-image-d66da6c6f75f8714c1b2224abc91386c" class="lightbox-link"><img alt="Spanning Trees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1STs.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d66da6c6f75f8714c1b2224abc91386c"><img alt="Spanning Trees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1STs.svg"></a></p>
+<p><a href="#R-image-3790e3c2212aa3ba3a3741efe359e0ba" class="lightbox-link"><img alt="Spanning Trees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1STs.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3790e3c2212aa3ba3a3741efe359e0ba"><img alt="Spanning Trees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1STs.svg"></a></p>
 
   
   
@@ -2056,14 +2056,14 @@ To properly define a minimum spanning tree, we will first introduce the concept 
 <li>be a <strong>tree</strong>, meaning there are no cycles and no disconnected components.</li>
 </ul>
 <p>Further, we can imagine selecting a node in a spanning tree as the root and letting gravity take effect. This gives us a visual motivation as to why they are called spanning trees. In these examples, we have selected node A for the root for each of the spanning trees above.</p>
-<p><a href="#R-image-8d1793479ad891d103e666bd3f4c6927" class="lightbox-link"><img alt="Spanning Trees as Trees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1STsTREES.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8d1793479ad891d103e666bd3f4c6927"><img alt="Spanning Trees as Trees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1STsTREES.svg"></a></p>
+<p><a href="#R-image-3891a233ac353d07e2b796368af55ecb" class="lightbox-link"><img alt="Spanning Trees as Trees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1STsTREES.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3891a233ac353d07e2b796368af55ecb"><img alt="Spanning Trees as Trees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1STsTREES.svg"></a></p>
 </div>
 </div>
 <h2 id="counterexamples">Counterexamples</h2>
 <p>Below, we have invalid examples of spanning trees. In the left column, the examples are where all of the nodes are not connected in the same component. In the right column, the examples contain cycles. For example in the top right, we have the cycle <code>B-&gt;C-&gt;D-&gt;E-&gt;B</code></p>
-<p><a href="#R-image-0a4546f5284d5d9ecd46abdeb8d31682" class="lightbox-link"><img alt="Not Spanning Trees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1notSTs.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0a4546f5284d5d9ecd46abdeb8d31682"><img alt="Not Spanning Trees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1notSTs.svg"></a></p>
+<p><a href="#R-image-23600f0c4ffcc74b773ff3d1baa2d7e1" class="lightbox-link"><img alt="Not Spanning Trees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1notSTs.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-23600f0c4ffcc74b773ff3d1baa2d7e1"><img alt="Not Spanning Trees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1notSTs.svg"></a></p>
 
             <footer class="footline">
               
@@ -2086,18 +2086,18 @@ To properly define a minimum spanning tree, we will first introduce the concept 
 
 <p>Now that we have an understanding of general spanning trees, we will introduce the concept of minimum spanning trees. First let&rsquo;s introduce the concept of the cost of a tree.</p>
 <p>The <strong>cost</strong> that is associated with a tree, is the sum of its edges weights. Let&rsquo;s look at this spanning tree which is from the previous page. The cost associated with this spanning tree is: <code>2+6+10+14=32</code>.</p>
-<p><a href="#R-image-5ded0f8b34cfedd9d282ed728b7dd154" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_cost.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5ded0f8b34cfedd9d282ed728b7dd154"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_cost.svg"></a></p>
+<p><a href="#R-image-b1722f9142175b2ff1232a7b7e400717" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_cost.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b1722f9142175b2ff1232a7b7e400717"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_cost.svg"></a></p>
 <h3 id="minimum-spanning-trees-mst">Minimum Spanning Trees (MST)</h3>
 <p>A <strong>minimum spanning tree</strong> is a spanning tree that has the smallest cost. Recall the graph from the previous page.</p>
-<p><a href="#R-image-fce874406321c8e40eee677f799535a4" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fce874406321c8e40eee677f799535a4"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg"></a></p>
+<p><a href="#R-image-64ca4576785f97103309db6c73536ce6" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-64ca4576785f97103309db6c73536ce6"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg"></a></p>
 <p>Below on the left is a minimum spanning tree for the graph above. On the right is an example of a spanning tree, though it does not have the minimum cost.</p>
-<p><a href="#R-image-8b8e1c6711d6edb2917129935e3f8998" class="lightbox-link"><img alt="Minimum Spanning Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1MST.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8b8e1c6711d6edb2917129935e3f8998"><img alt="Minimum Spanning Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1MST.svg"></a></p>
+<p><a href="#R-image-dd20b1d6b0eb6196a4036dc0502a4bb8" class="lightbox-link"><img alt="Minimum Spanning Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1MST.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-dd20b1d6b0eb6196a4036dc0502a4bb8"><img alt="Minimum Spanning Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1MST.svg"></a></p>
 <p>In this small example, it is rather straightforward to find the minimum spanning tree. We can use a bit of trial and error to determine if we have the minimum spanning tree or not. However, once the graphs start to get more nodes and more edges it quickly becomes more complicated.</p>
-<p><a href="#R-image-20ca5bb2b822082e3c1d09f586f3ce2d" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9lrgTree.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-20ca5bb2b822082e3c1d09f586f3ce2d"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9lrgTree.svg"></a></p>
+<p><a href="#R-image-9281d8b3367fa64840f13cfba0e05d22" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9lrgTree.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9281d8b3367fa64840f13cfba0e05d22"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9lrgTree.svg"></a></p>
 <p>There are two algorithms that we will introduce to give us a methodical way of finding the minimum spanning tree. The first that we will look at is Kruskal&rsquo;s algorithm and then we will look at Prim&rsquo;s algorithm.</p>
 
             <footer class="footline">
@@ -2130,13 +2130,13 @@ To properly define a minimum spanning tree, we will first introduce the concept 
 <li>If nodes <code>u</code> and <code>v</code> are connected by the edge and they are not in the same set yet, then join the two sets and add the edge to your set of edges</li>
 </ol>
 <h3 id="starting-graph">Starting Graph</h3>
-<p><a href="#R-image-66ccac5c5ec7ae0f857fd68fa3fcc4e9" class="lightbox-link"><img alt="Kruskal Example Start" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-66ccac5c5ec7ae0f857fd68fa3fcc4e9"><img alt="Kruskal Example Start" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg"></a></p>
-<p><a href="#R-image-0d88c58384939d61c7e7d05d1900270c" class="lightbox-link"><img alt="Kruskal Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/kruskal.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0d88c58384939d61c7e7d05d1900270c"><img alt="Kruskal Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/kruskal.gif"></a></p>
+<p><a href="#R-image-ee53cafe83d2fa6a4d40f10f8cc75e4c" class="lightbox-link"><img alt="Kruskal Example Start" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ee53cafe83d2fa6a4d40f10f8cc75e4c"><img alt="Kruskal Example Start" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg"></a></p>
+<p><a href="#R-image-1990edd7e25929ceded0c438a0d142df" class="lightbox-link"><img alt="Kruskal Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/kruskal.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1990edd7e25929ceded0c438a0d142df"><img alt="Kruskal Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/kruskal.gif"></a></p>
 <h3 id="resulting-mst">Resulting MST</h3>
-<p><a href="#R-image-2db2ec057bec2c2a474a4051de720017" class="lightbox-link"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2db2ec057bec2c2a474a4051de720017"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg"></a></p>
+<p><a href="#R-image-f1c9e39858ea2ffe378661ec92432827" class="lightbox-link"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f1c9e39858ea2ffe378661ec92432827"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg"></a></p>
 <h3 id="pseudocode">Pseudocode</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">function KRUSKAL(GRAPH)
 </span></span><span class="line"><span class="cl">    MST = GRAPH without the edges attribute(s)
@@ -2187,8 +2187,8 @@ To properly define a minimum spanning tree, we will first introduce the concept 
 
 <p>The history of <code>Prim's Algorithm</code> is not as straight forward as Kruskal&rsquo;s. While we often call it <code>Prim's Algorithm</code>, it was originally developed in 1930 by Vojtěch Jarník. Robert Prim later rediscovered and republished this algorithm in 1957, one year after Kruskals. To add to the naming confusion, Edsger Dijkstra also published this work again in 1959. Because of this, the algorithm can go by many names: <code>Jarkík's Algorithm</code>, <code>Jarník-Prim's Algorithm</code>, <code>Prim-Dijkstra's Algorithm</code>, and <code>DJP Algorithm</code>.</p>
 <p>Prim cited &ldquo;large-scale communication&rdquo; as the motivation for this algorithm, specifically the &ldquo;Bell System leased-line&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Leased lines were used primarily in a commercial setting which connected business offices that were geographically distant (IE in different cities or even states). Companies would want all offices to be connected but wanted to avoid having to lay an excessive amount of wire. Below is a figure which Prim used to motivate the need for the algorithm. This image depicts the minimum spanning tree which connect each of the US continental state capitals along with Washington D.C.</p>
-<p><a href="#R-image-f4861c47e8a9185bbf9b0e0652b2c038" class="lightbox-link"><img alt="Prim&rsquo;s Motivation" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/prim_US.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f4861c47e8a9185bbf9b0e0652b2c038"><img alt="Prim&rsquo;s Motivation" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/prim_US.png"></a></p>
+<p><a href="#R-image-021a6c2b25425b96b69c7adede14634f" class="lightbox-link"><img alt="Prim&rsquo;s Motivation" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/prim_US.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-021a6c2b25425b96b69c7adede14634f"><img alt="Prim&rsquo;s Motivation" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/prim_US.png"></a></p>
 <h3 id="algorithm">Algorithm</h3>
 <p>The basis of the algorithm is to start with only the nodes of the graph, then we do the following</p>
 <ol>
@@ -2196,13 +2196,13 @@ To properly define a minimum spanning tree, we will first introduce the concept 
 <li>Grow your tree by one edge, selecting the smallest edge to connect to a node that is not yet in the tree. Repeat until all the nodes have been visited</li>
 </ol>
 <h3 id="starting-graph">Starting Graph</h3>
-<p><a href="#R-image-d0d56061fb58bfaa933f4d516ab837f0" class="lightbox-link"><img alt="Prim Example Start" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d0d56061fb58bfaa933f4d516ab837f0"><img alt="Prim Example Start" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg"></a></p>
-<p><a href="#R-image-b7c81d23780450ab7601bc3885aee1ea" class="lightbox-link"><img alt="Prim Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/prim.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b7c81d23780450ab7601bc3885aee1ea"><img alt="Prim Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/prim.gif"></a></p>
+<p><a href="#R-image-6f38850ccd34f820cb5d17b979847404" class="lightbox-link"><img alt="Prim Example Start" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6f38850ccd34f820cb5d17b979847404"><img alt="Prim Example Start" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Lex.svg"></a></p>
+<p><a href="#R-image-b0d04997d989ade196afde3fa6818316" class="lightbox-link"><img alt="Prim Example GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/prim.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b0d04997d989ade196afde3fa6818316"><img alt="Prim Example GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/prim.gif"></a></p>
 <h3 id="resulting-mst">Resulting MST</h3>
-<p><a href="#R-image-6447fa4cd39157e3968c3a3cd1bb6c56" class="lightbox-link"><img alt="Prim Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6447fa4cd39157e3968c3a3cd1bb6c56"><img alt="Prim Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg"></a></p>
+<p><a href="#R-image-88f5e3fb64f2737ae697e17cd265e38d" class="lightbox-link"><img alt="Prim Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-88f5e3fb64f2737ae697e17cd265e38d"><img alt="Prim Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg"></a></p>
 
   
   
@@ -2221,10 +2221,10 @@ To properly define a minimum spanning tree, we will first introduce the concept 
 </thead>
 <tbody>
 <tr>
-<td><a href="#R-image-b88d2e8fb91eb881bec8f9e51a81f4a3" class="lightbox-link"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b88d2e8fb91eb881bec8f9e51a81f4a3"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg"></a></td>
-<td><a href="#R-image-ac1f0be5ad04101290b39b57b5deb5e6" class="lightbox-link"><img alt="Prim Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ac1f0be5ad04101290b39b57b5deb5e6"><img alt="Prim Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg"></a></td>
+<td><a href="#R-image-e832b2ff71c6555f8cd35b2f93f5b892" class="lightbox-link"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e832b2ff71c6555f8cd35b2f93f5b892"><img alt="Kruskal Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Kdone.svg"></a></td>
+<td><a href="#R-image-8bb948021d7a5c07f30d7bec435d98da" class="lightbox-link"><img alt="Prim Example Result" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8bb948021d7a5c07f30d7bec435d98da"><img alt="Prim Example Result" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_Pdone.svg"></a></td>
 </tr>
 </tbody>
 </table>
@@ -2283,8 +2283,8 @@ To properly define a minimum spanning tree, we will first introduce the concept 
 <p>The motivation of the TSP is this: given a set of locations, what is the shortest path such that we can visit each location and end back where started?</p>
 <p>Suppose we wanted to take a road trip with friends to every state capital in the continental US as well as Washington D.C. To save money and time, we would want to minimize the distance that we travel. Since we are taking a road trip, we would want to avoid frivolous driving. For example, if we start in Sacremento, CA we would not want to end the trip in Boston, MA. The trip should start and end at the same location for efficiency.</p>
 <p>The figure below shows the shortest trip that visits each state capital and Washington D.C. once. In this example, we can start where ever we like and will end up where we started.</p>
-<p><a href="#R-image-c47ab2aa45489d01816dd4057ea39157" class="lightbox-link"><img alt="Visit each state capital" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/7_TSP_TOUR.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c47ab2aa45489d01816dd4057ea39157"><img alt="Visit each state capital" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/7_TSP_TOUR.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-9579620477d916e04ee6541ac2cf6663" class="lightbox-link"><img alt="Visit each state capital" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/7_TSP_TOUR.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9579620477d916e04ee6541ac2cf6663"><img alt="Visit each state capital" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/7_TSP_TOUR.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In this problem, it is easy to get overwhelmed by all of the possibilities. Since there are 49 cities to visit, there are over <code>6.2*10^60</code> possibilities. For reference, <code>10^12</code> is equivalent to one trillion! Thus, we need an algorithmic approach to solve this problem as opposed to a brute force method.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -2317,8 +2317,8 @@ To properly define a minimum spanning tree, we will first introduce the concept 
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1720737466" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720737466" defer></script>
-    <script src="/cc310/js/theme.js?1720737466" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1723740713" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1723740713" defer></script>
+    <script src="/cc310/js/theme.js?1723740713" defer></script>
   </body>
 </html>

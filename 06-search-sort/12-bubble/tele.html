@@ -1579,17 +1579,17 @@
     <link href="/cc310/06-search-sort/12-bubble/index.xml" rel="alternate" type="application/rss+xml" title="Bubble Sort :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/12-bubble/index.print.html" rel="alternate" type="text/html" title="Bubble Sort :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/12-bubble/embed.html" rel="alternate" type="text/html" title="Bubble Sort :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720737472" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737472" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720737472" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720737472" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737472" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720737472" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720737472" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737472" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720737472" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720737472" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720737472" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720737472" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720737472" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1720737472"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1723740719" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740719" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1723740719" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1723740719" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740719" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1723740719" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1723740719" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740719" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1723740719" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1723740719" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1723740719" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1723740719" rel="stylesheet">
+    <link href="/cc310/css/print.css?1723740719" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1723740719"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1609,7 +1609,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720737472" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1723740719" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc310/06-search-sort/12-bubble/">
     
@@ -1634,37 +1634,37 @@
 
 <p>Next, let&rsquo;s look at another sorting algorithm, bubble sort. The basic idea behind bubble sort is to continuously iterate through the array and swap adjacent elements that are out of order. As a side effect of this process, the largest element in the array will be &ldquo;bubbled&rdquo; to the end of the array after the first iteration. Subsequent iterations will do the same for each of the next largest elements, until eventually the entire list is sorted.</p>
 <p>Wikipedia includes a great animation that shows this process:</p>
-<p><a href="#R-image-a0829a67cdd21bc612a7b55ddd08dabe" class="lightbox-link"><img alt="Bubble Sort GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a0829a67cdd21bc612a7b55ddd08dabe"><img alt="Bubble Sort GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble.gif"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-8c07ecae55b108ab9cd121b59cd7a92c" class="lightbox-link"><img alt="Bubble Sort GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8c07ecae55b108ab9cd121b59cd7a92c"><img alt="Bubble Sort GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble.gif"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In this animation, the two red boxes slowly move through the array, comparing adjacent elements. If the elements are not in the correct order (that is, the first element is larger than the second element), then it will swap them. Once it reaches the end, the largest element, 8, will be placed at the end and locked in place.</p>
 <h2 id="bubble-sort-example">Bubble Sort Example</h2>
 <p>Let&rsquo;s walk through a few steps of this process and see how it works. We&rsquo;ll use the array we used previously for selection sort, just to keep things simple. At first, the array will look like the diagram below.</p>
-<p><a href="#R-image-cb20617c4ec342dfae06d6041a4bccfa" class="lightbox-link"><img alt="Bubble Sort Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-cb20617c4ec342dfae06d6041a4bccfa"><img alt="Bubble Sort Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble1.png"></a></p>
+<p><a href="#R-image-766bfd812afcb7c107fbcd13d960c587" class="lightbox-link"><img alt="Bubble Sort Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-766bfd812afcb7c107fbcd13d960c587"><img alt="Bubble Sort Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble1.png"></a></p>
 <p>We&rsquo;ll begin with the <code>index</code> variable pointing at index 0. Our algorithm should compare the values at index 0 and index 1 and see if they need to be swapped. We&rsquo;ll put a bold border around the elements we are currently comparing in the figure below.</p>
-<p><a href="#R-image-c9ca83e7d6b3b913b5957c163cb783b6" class="lightbox-link"><img alt="Bubble Sort Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c9ca83e7d6b3b913b5957c163cb783b6"><img alt="Bubble Sort Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble2.png"></a></p>
+<p><a href="#R-image-e3226b16fe7c1777e68b107452a138cc" class="lightbox-link"><img alt="Bubble Sort Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e3226b16fe7c1777e68b107452a138cc"><img alt="Bubble Sort Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble2.png"></a></p>
 <p>Since the element at index 0 is 8, and the element at index 1 is 5, we know that they must be swapped since 8 is greater than 5. We need to swap those two elements in the array, as shown below.</p>
-<p><a href="#R-image-9e3f94b03b07b5beb2b93ab4f094bc6b" class="lightbox-link"><img alt="Bubble Sort Example 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9e3f94b03b07b5beb2b93ab4f094bc6b"><img alt="Bubble Sort Example 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble3.png"></a></p>
+<p><a href="#R-image-5c7c84caeca4340df36930644ed7f60e" class="lightbox-link"><img alt="Bubble Sort Example 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5c7c84caeca4340df36930644ed7f60e"><img alt="Bubble Sort Example 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble3.png"></a></p>
 <p>Once those two elements have been swapped, the index variable will be incremented by 1, and we&rsquo;ll look at the elements at indexes 1 and 2 next.</p>
-<p><a href="#R-image-2cfba360636e120d6dc0b61399913664" class="lightbox-link"><img alt="Bubble Sort Example 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2cfba360636e120d6dc0b61399913664"><img alt="Bubble Sort Example 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble4.png"></a></p>
+<p><a href="#R-image-7e8461d64b25ab129527529d25e0cdb2" class="lightbox-link"><img alt="Bubble Sort Example 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7e8461d64b25ab129527529d25e0cdb2"><img alt="Bubble Sort Example 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble4.png"></a></p>
 <p>Since 8 is greater than 2, we&rsquo;ll swap these two elements before incrementing index to 2 and comparing the next two elements.</p>
-<p><a href="#R-image-797c4afdd2e4df702600e8340925cbd0" class="lightbox-link"><img alt="Bubble Sort Example 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble5.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-797c4afdd2e4df702600e8340925cbd0"><img alt="Bubble Sort Example 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble5.png"></a></p>
+<p><a href="#R-image-802d4463158687ef487dbb5e4c7abe1b" class="lightbox-link"><img alt="Bubble Sort Example 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble5.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-802d4463158687ef487dbb5e4c7abe1b"><img alt="Bubble Sort Example 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble5.png"></a></p>
 <p>Again, we&rsquo;ll find that 8 is greater than 6, so we&rsquo;ll swap these two elements and move on to index 3.</p>
-<p><a href="#R-image-ee1a1860d3d1312926c99a86b76d57ed" class="lightbox-link"><img alt="Bubble Sort Example 6" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble6.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ee1a1860d3d1312926c99a86b76d57ed"><img alt="Bubble Sort Example 6" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble6.png"></a></p>
+<p><a href="#R-image-c19dea04d846f11cf7ca5594b7db29e9" class="lightbox-link"><img alt="Bubble Sort Example 6" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble6.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c19dea04d846f11cf7ca5594b7db29e9"><img alt="Bubble Sort Example 6" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble6.png"></a></p>
 <p>Now we are looking at the element at index 3, which is 8, and the element at index 4, which is 9. In this case, 8 is less than 9, so we don&rsquo;t need to swap anything. We&rsquo;ll just increment index by 1 and look at the elements at indexes 4 and 5.</p>
-<p><a href="#R-image-2893b577cb29a59a273155ee9105cdb5" class="lightbox-link"><img alt="Bubble Sort Example 7" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble7.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2893b577cb29a59a273155ee9105cdb5"><img alt="Bubble Sort Example 7" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble7.png"></a></p>
+<p><a href="#R-image-9074f93d42af07e3d7588f5fb1a9cab4" class="lightbox-link"><img alt="Bubble Sort Example 7" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble7.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9074f93d42af07e3d7588f5fb1a9cab4"><img alt="Bubble Sort Example 7" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble7.png"></a></p>
 <p>As we&rsquo;ve done before, we&rsquo;ll find that 9 is greater than 3, so we&rsquo;ll need to swap those two items. In fact, as we continue to move through the array, we&rsquo;ll find that 9 is the largest item in the entire array, so we&rsquo;ll end up swapping it with every element down to the end of the array. At that point, it will be in its final position, so we&rsquo;ll lock it and restart the process again.</p>
-<p><a href="#R-image-7e6c115e9cadfe1104bad94e6b7b0642" class="lightbox-link"><img alt="Bubble Sort Example 8" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble8.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7e6c115e9cadfe1104bad94e6b7b0642"><img alt="Bubble Sort Example 8" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble8.png"></a></p>
+<p><a href="#R-image-a62c2ebc2f87ae7fb18d48cbb7c0cb68" class="lightbox-link"><img alt="Bubble Sort Example 8" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble8.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a62c2ebc2f87ae7fb18d48cbb7c0cb68"><img alt="Bubble Sort Example 8" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble8.png"></a></p>
 <p>After making a second pass through the array, swapping elements that must be swapped as we find them, we&rsquo;ll eventually get to the end and find that 8 should be placed at index 8 since it is the next largest value in the array.</p>
-<p><a href="#R-image-e418f8ec4b2973a5bfed33a37fbd61d7" class="lightbox-link"><img alt="Bubble Sort Example 9" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble9.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e418f8ec4b2973a5bfed33a37fbd61d7"><img alt="Bubble Sort Example 9" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble9.png"></a></p>
+<p><a href="#R-image-451ecf3d6ed82c2f860cfe9d87b79a78" class="lightbox-link"><img alt="Bubble Sort Example 9" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.12.bubble9.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-451ecf3d6ed82c2f860cfe9d87b79a78"><img alt="Bubble Sort Example 9" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.12.bubble9.png"></a></p>
 <p>We can then continue this process until we have locked each element in place at the end of the array.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -1691,11 +1691,11 @@
 
 
 
-<script src="/cc310/js/clipboard.min.js?1720737472" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1720737472" defer></script>
-<script src="/cc310/js/theme.js?1720737472" defer></script>
+<script src="/cc310/js/clipboard.min.js?1723740719" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1723740719" defer></script>
+<script src="/cc310/js/theme.js?1723740719" defer></script>
 
-<script src="/cc310/js/tele-scroll.js?1720737472" defer></script>
+<script src="/cc310/js/tele-scroll.js?1723740719" defer></script>
 
 </body>
 </html>

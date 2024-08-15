@@ -1592,19 +1592,19 @@ So, what does that mean?">
     <link href="/cc310/03-intro-dsa/04-stacks-queues/index.print.html" rel="alternate" type="text/html" title="Stacks and Queues :: CC 310 Textbook">
     <link href="/cc310/03-intro-dsa/04-stacks-queues/tele.html" rel="alternate" type="text/html" title="Stacks and Queues :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1720737452" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737452" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1720737452" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1720737452" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737452" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1720737452" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1720737452" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737452" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1720737452" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1723740699" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740699" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1723740699" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1723740699" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740699" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1723740699" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1723740699" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740699" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1723740699" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1720737452" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1720737452" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1720737452" rel="stylesheet">
-  <link href="/cc310/css/print.css?1720737452" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1723740699" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1723740699" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1723740699" rel="stylesheet">
+  <link href="/cc310/css/print.css?1723740699" rel="stylesheet" media="print">
   
   
   
@@ -1627,7 +1627,7 @@ So, what does that mean?">
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1720737452" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1723740699" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/03-intro-dsa/04-stacks-queues/embed.html">
@@ -1646,13 +1646,13 @@ So, what does that mean?">
 
 <p>The next two data structures we&rsquo;ll look at are <em>stacks</em> and <em>queues</em>. They are both very similar to lists in most respects, but each one puts a specific limitation on how the data structure operates that make them very useful in certain situations.</p>
 <h2 id="stack">Stack</h2>
-<p><a href="#R-image-2b2375b909fef40ac8ed897e4173ea5c" class="lightbox-link"><img alt="Stack Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.stack_wiki.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2b2375b909fef40ac8ed897e4173ea5c"><img alt="Stack Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.stack_wiki.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-dc7910051d39ff4b189824360746d012" class="lightbox-link"><img alt="Stack Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.stack_wiki.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-dc7910051d39ff4b189824360746d012"><img alt="Stack Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.stack_wiki.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>A <em>stack</em> is one special version of a list. Specifically, a stack is a <strong>Last In, First Out</strong> or <strong>LIFO</strong> data structure.</p>
 <p>So, what does that mean? Basically, we can only add elements to the end, or <em>top</em> of the stack. Then, when we want to get an element from the stack, we can only take the one from the top&ndash;the one that was most recently added.</p>
 <p>A great way to think of a stack is like a stack of plates, such as the one pictured below:</p>
-<p><a href="#R-image-da427427a315146ba2c59e7c4dfc89b4" class="lightbox-link"><img alt="Stack of Plates" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.plates_wiki.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-da427427a315146ba2c59e7c4dfc89b4"><img alt="Stack of Plates" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.plates_wiki.jpg"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p><a href="#R-image-149835754962e40485292d6dd4de4468" class="lightbox-link"><img alt="Stack of Plates" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.plates_wiki.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-149835754962e40485292d6dd4de4468"><img alt="Stack of Plates" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.plates_wiki.jpg"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>When we want to add a new plate to the stack, we can just set it on top. Likewise, if we need a plate, we&rsquo;ll just take the top one off and use it.</p>
 <p>A stack supports three major unique operations:</p>
 <ul>
@@ -1662,13 +1662,13 @@ So, what does that mean?">
 </ul>
 <p>Many stacks also include additional operations such as <strong>size</strong> and <strong>find</strong> as well.</p>
 <h2 id="queue">Queue</h2>
-<p><a href="#R-image-1331aacb29649b1abb7d9524ce038efb" class="lightbox-link"><img alt="Queue Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.queue_wiki.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1331aacb29649b1abb7d9524ce038efb"><img alt="Queue Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.queue_wiki.svg"></a><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p><a href="#R-image-33328e99133909142817b91d08eb26d3" class="lightbox-link"><img alt="Queue Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.queue_wiki.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-33328e99133909142817b91d08eb26d3"><img alt="Queue Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.queue_wiki.svg"></a><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
 <p>A <em>queue</em> is another special version of a list, this time representing a <strong>First In, First Out</strong> or <strong>FIFO</strong> data structure.</p>
 <p>As seen in the diagram above, new items are added to the <em>back</em> of the queue. But, when we need to take an item from a queue, we&rsquo;ll take the item that is in the <em>front</em>, which is the one that was added first.</p>
 <p>Where have we seen this before? A great example is waiting our turn in line at the train station,</p>
-<p><a href="#R-image-57d382bcbb356b1d289cf93cf84432e4" class="lightbox-link"><img alt="Waiting in Line" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.line_wiki.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-57d382bcbb356b1d289cf93cf84432e4"><img alt="Waiting in Line" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.line_wiki.jpg"></a><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<p><a href="#R-image-4b4348d1691a9bab2bc1f40068c3eed5" class="lightbox-link"><img alt="Waiting in Line" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/4/4.4.line_wiki.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4b4348d1691a9bab2bc1f40068c3eed5"><img alt="Waiting in Line" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/4/4.4.line_wiki.jpg"></a><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
 <p>In many parts of the world, the term <em>queueing</em> is commonly used to refer to the act of standing in line. So, it makes perfect sense to use that same word to refer to a data structure.</p>
 <h2 id="when-to-use-a-stack-or-a-queue">When to Use a Stack or a Queue</h2>
 <p>As we can probably guess, we would definitely want to use a stack if we need our data structure to follow the last in, first out, or LIFO ordering. Similarly, we&rsquo;d use a queue if we need first in, first out or FIFO ordering.</p>
@@ -1709,10 +1709,10 @@ So, what does that mean?">
 
 
 
-<script src="/cc310/js/clipboard.min.js?1720737452" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1720737452" defer></script>
-<script src="/cc310/js/theme.js?1720737452" defer></script>
+<script src="/cc310/js/clipboard.min.js?1723740699" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1723740699" defer></script>
+<script src="/cc310/js/theme.js?1723740699" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1720737452" defer></script>
+<script src="/cc310/js/embed-iframe.js?1723740699" defer></script>
 </body>
 </html>

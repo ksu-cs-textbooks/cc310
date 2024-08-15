@@ -1579,18 +1579,18 @@
     <link href="/cc310/04-list/03-stack-code/index.xml" rel="alternate" type="application/rss+xml" title="Stacks in Code :: CC 310 Textbook">
     <link href="/cc310/04-list/03-stack-code/tele.html" rel="alternate" type="text/html" title="Stacks in Code :: CC 310 Textbook">
     <link href="/cc310/04-list/03-stack-code/embed.html" rel="alternate" type="text/html" title="Stacks in Code :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720737462" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737462" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720737462" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720737462" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737462" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720737462" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720737462" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737462" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720737462" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720737462" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720737462" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720737462" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720737462" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1720737462" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1720737462"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1723740708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740708" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1723740708" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1723740708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740708" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1723740708" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1723740708" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740708" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1723740708" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1723740708" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1723740708" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1723740708" rel="stylesheet">
+    <link href="/cc310/css/print.css?1723740708" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1723740708" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1723740708"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1610,7 +1610,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720737462" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1723740708" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/04-list/03-stack-code/">
     <div id="R-body" class="default-animation">
@@ -1648,8 +1648,8 @@
 
 <p>How do we implement stacks in code? One way would be to use something we already understand, an array. Remember that arrays allow us to store multiple items, where each entry in the array has a unique index number. This is a great way to implement stacks. We can store items directly in the array and use a special <code>top</code> variable to hold the index of the top of the stack.</p>
 <p>The following figure shows how we might implement a stack with an array. First, we define our array <code>myStack</code> to be an array that can hold 10 numbers, with an index of 0 to 9. Then we create a <code>top</code> variable that keeps track of the index at the top of the array.</p>
-<p><a href="#R-image-483ce4b6c66ff585e60519fee32b8249" class="lightbox-link"><img alt="Empty Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.3.empty.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-483ce4b6c66ff585e60519fee32b8249"><img alt="Empty Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.3.empty.png"></a></p>
+<p><a href="#R-image-c2803a9af5c622962057db8b68ac331f" class="lightbox-link"><img alt="Empty Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.3.empty.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c2803a9af5c622962057db8b68ac331f"><img alt="Empty Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.3.empty.png"></a></p>
 <p>Notice that since we have not put any items onto the stack, we initialize <code>top</code> to be <code>-1</code>. Although this is not a legal index into the array, we can use it to recognize when the stack is empty, and it makes manipulating items in the array much simpler. When we want to <code>push</code> an item onto the stack, we follow a simple procedure as shown below. Of course, since our array has a fixed size, we need to make sure that we don&rsquo;t try to put an item in a full array. Thus, the precondition is that the array cannot be full. Enforcing this precondition is the function of the <code>if</code> statement at the beginning of the function. If the array is already full, then we&rsquo;ll throw an exception and let the user handle the situation. Next, we increment the <code>top</code> variable to point to the next available location to store our data. Then it is just a matter of storing the item into the array at the index stored in <code>top</code>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">function PUSH(ITEM)
 </span></span><span class="line"><span class="cl">    if MYSTACK is full then
@@ -1658,17 +1658,17 @@
 </span></span><span class="line"><span class="cl">    TOP = TOP + 1
 </span></span><span class="line"><span class="cl">    MYSTACK[TOP] = ITEM
 </span></span><span class="line"><span class="cl">end function</span></span></code></pre></div><p>If we call the function <code>push(a)</code> and follow the pseudocode above, we will get an array with <code>a</code> stored in <code>myStack[0]</code> and <code>top</code> will have the value <code>0</code> as shown below.</p>
-<p><a href="#R-image-262ebef7c284eac695402983232ebc99" class="lightbox-link"><img alt="One Item" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.3.one.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-262ebef7c284eac695402983232ebc99"><img alt="One Item" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.3.one.png"></a></p>
+<p><a href="#R-image-34a48f6757db3aa37b41fcf4c21a2ae0" class="lightbox-link"><img alt="One Item" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.3.one.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-34a48f6757db3aa37b41fcf4c21a2ae0"><img alt="One Item" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.3.one.png"></a></p>
 <p>As we push items onto the stack, we continue to increment <code>top</code> and store the items on the stack. The figure below shows how the stack would look if we performed the following <code>push</code> operations.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">push(&#34;b&#34;)
 </span></span><span class="line"><span class="cl">push(&#34;c&#34;)
 </span></span><span class="line"><span class="cl">push(&#34;d&#34;)
-</span></span><span class="line"><span class="cl">push(&#34;e&#34;)</span></span></code></pre></div><p><a href="#R-image-7a75b4ac2d036e5450c1640d6735f54e" class="lightbox-link"><img alt="Partial Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.3.partial.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7a75b4ac2d036e5450c1640d6735f54e"><img alt="Partial Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.3.partial.png"></a></p>
+</span></span><span class="line"><span class="cl">push(&#34;e&#34;)</span></span></code></pre></div><p><a href="#R-image-6d13145207fc25a302e2700970b10de4" class="lightbox-link"><img alt="Partial Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.3.partial.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6d13145207fc25a302e2700970b10de4"><img alt="Partial Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.3.partial.png"></a></p>
 <p>Although we are implementing our stack with an array, we often show stacks vertically instead of horizontally as shown below. In this way the semantics of <code>top</code> makes more sense.</p>
-<p><a href="#R-image-5c728cdada81468f73c891d5ce38c778" class="lightbox-link"><img alt="Vertical Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.3.vertical.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5c728cdada81468f73c891d5ce38c778"><img alt="Vertical Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.3.vertical.png"></a></p>
+<p><a href="#R-image-0f84f351dcdb2158ee68ea1107298382" class="lightbox-link"><img alt="Vertical Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.3.vertical.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0f84f351dcdb2158ee68ea1107298382"><img alt="Vertical Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.3.vertical.png"></a></p>
 <p>Of course, the next question you might ask is &ldquo;how do we get items off the stack?”. As discussed above, we have a special operation called <code>pop</code> to take care of that for us. The pseudocode for the <code>pop</code> operation is shown below and is similar in structure to the <code>push</code> operation.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">function POP
 </span></span><span class="line"><span class="cl">    if TOP == -1 then
@@ -1678,8 +1678,8 @@
 </span></span><span class="line"><span class="cl">    return MYSTACK[TOP + 1]
 </span></span><span class="line"><span class="cl">end function</span></span></code></pre></div><p>However, instead of checking to see if the stack is full, we need to check if the stack is empty. Thus, our precondition is that the stack is not empty, which we evaluate by checking if <code>top</code> is equal to <code>-1</code>. If it is, we simply throw an exception and let the user handle it. If <code>myStack</code> is not empty, then we can go ahead and perform the <code>pop</code> function. We simply decrement the value of <code>top</code> and return the value stored in <code>myStack[top+1]</code>.</p>
 <p>Now, if we perform three straight <code>pop</code> operations, we get the following stack.</p>
-<p><a href="#R-image-8e5066e536fe0a87756a4e2b223fb0cc" class="lightbox-link"><img alt="Popped Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.3.popped.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8e5066e536fe0a87756a4e2b223fb0cc"><img alt="Popped Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.3.popped.png"></a></p>
+<p><a href="#R-image-0d3c1f2c10b54e500b68b137ccf71089" class="lightbox-link"><img alt="Popped Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/5/5.3.popped.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0d3c1f2c10b54e500b68b137ccf71089"><img alt="Popped Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/5/5.3.popped.png"></a></p>
 
             <footer class="footline">
               
@@ -1702,8 +1702,8 @@
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1720737462" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720737462" defer></script>
-    <script src="/cc310/js/theme.js?1720737462" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1723740708" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1723740708" defer></script>
+    <script src="/cc310/js/theme.js?1723740708" defer></script>
   </body>
 </html>

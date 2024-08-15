@@ -1583,17 +1583,17 @@ The item can be any object and the index will be a value within our capacity. Th
     <link href="/cc310/10-graphs/09-list/index.print.html" rel="alternate" type="text/html" title="List Representation :: CC 310 Textbook">
     <link href="/cc310/10-graphs/09-list/tele.html" rel="alternate" type="text/html" title="List Representation :: CC 310 Textbook">
     <link href="/cc310/10-graphs/09-list/embed.html" rel="alternate" type="text/html" title="List Representation :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720737446" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737446" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720737446" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720737446" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737446" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720737446" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720737446" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737446" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720737446" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720737446" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720737446" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720737446" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720737446" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1720737446"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1723740692" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740692" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1723740692" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1723740692" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740692" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1723740692" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1723740692" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740692" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1723740692" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1723740692" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1723740692" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1723740692" rel="stylesheet">
+    <link href="/cc310/css/print.css?1723740692" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1723740692"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1613,7 +1613,7 @@ The item can be any object and the index will be a value within our capacity. Th
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720737446" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1723740692" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/10-graphs/09-list/">
     <div id="R-body" class="default-animation">
@@ -1682,25 +1682,25 @@ The item can be any object and the index will be a value within our capacity. Th
     </div>
 
 <p>In the matrix representation, we had an array of the node items. In the list representation, we will have an array of node objects. Each <strong>node object</strong> will keep track of the node item, the node index, and the outgoing edges.</p>
-<p><a href="#R-image-056aedc5597bc501952646e197b8679c" class="lightbox-link"><img alt="Set Up" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/list_graph_setup.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-056aedc5597bc501952646e197b8679c"><img alt="Set Up" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/list_graph_setup.svg"></a></p>
+<p><a href="#R-image-5788d4a6450e32004e10eeeabd73ca75" class="lightbox-link"><img alt="Set Up" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/list_graph_setup.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5788d4a6450e32004e10eeeabd73ca75"><img alt="Set Up" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/list_graph_setup.svg"></a></p>
 <p>The <code>item</code> can be any object and the <code>index</code> will be a value within our capacity. The <code>edges</code> will be a list of pairs where the first entry is the index of the target node and the second entry is the weight of the edge.</p>
 <p>Since each node will track its neighbors, it is important that we are consistent in our indexing of nodes. If our nodes were to get out of order, then our edges would as well.</p>
 <h2 id="example-1">Example 1</h2>
 <p>Consider the following graph which we saw in the matrix representation.</p>
-<p><a href="#R-image-3fb3b340edb97790c48db5bfcdbfad56" class="lightbox-link"><img alt="Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/graphA.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3fb3b340edb97790c48db5bfcdbfad56"><img alt="Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/graphA.svg"></a></p>
+<p><a href="#R-image-45c86d6ae5717f2fc8c207cac023bbbb" class="lightbox-link"><img alt="Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/graphA.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-45c86d6ae5717f2fc8c207cac023bbbb"><img alt="Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/graphA.svg"></a></p>
 <p>The following list of nodes depicts the graph above. We can see that each node object has the item and index.</p>
 <p>If we look closer at the <code>edges</code> of the node with item <code>A</code> and index <code>1</code>, we see that the set of edges is equal to <code>[(4, 3.0), (6, 4.0)]</code>. This corresponds to the fact that there are two edges with the source as node <code>1</code>. The first ordered pair, <code>(4, 3.0)</code>, means that there is an edge with source node <code>1</code> (<code>A</code>) and target node <code>4</code> (<code>D</code>) that has weight <code>3</code>. We can confirm that in our graph we do have an edge from <code>A</code> to <code>D</code> with weight <code>3</code>.</p>
-<p><a href="#R-image-886b9981a46e0c63e4d94c48da265b93" class="lightbox-link"><img alt="List Representation for Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/graphA_list_rep.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-886b9981a46e0c63e4d94c48da265b93"><img alt="List Representation for Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/graphA_list_rep.svg"></a></p>
+<p><a href="#R-image-10f1922b1f123e339d4b19dd9ab00394" class="lightbox-link"><img alt="List Representation for Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/graphA_list_rep.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-10f1922b1f123e339d4b19dd9ab00394"><img alt="List Representation for Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/graphA_list_rep.svg"></a></p>
 <h2 id="example-2">Example 2</h2>
 <p>The following includes a couple of examples of loops within our graph.</p>
-<p><a href="#R-image-fbf5bd8dd97efe8124a94d1c85cbe1fb" class="lightbox-link"><img alt="Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/graphB.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fbf5bd8dd97efe8124a94d1c85cbe1fb"><img alt="Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/graphB.svg"></a></p>
+<p><a href="#R-image-b220ace99b894e9ca5bb3dac0217a675" class="lightbox-link"><img alt="Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/graphB.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b220ace99b894e9ca5bb3dac0217a675"><img alt="Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/graphB.svg"></a></p>
 <p>We have loops on nodes <code>D</code>, <code>E</code>, and <code>F</code> in our graph. Recall that a loop is an edge where the source and target are the same. For example, we have an edge with source <code>D</code> and target <code>D</code> that has weight <code>12</code>. We see this in our list representation in the node object with item <code>D</code> and index <code>4</code>, where we have the entry <code>(4,12.0)</code> in the edges.</p>
-<p><a href="#R-image-8159b27732733142434a89f6ce5532db" class="lightbox-link"><img alt="List Representation for Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/graphB_list_rep.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8159b27732733142434a89f6ce5532db"><img alt="List Representation for Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/graphB_list_rep.svg"></a></p>
+<p><a href="#R-image-c8425b0e6feaecb229767174de8d1d7b" class="lightbox-link"><img alt="List Representation for Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/graphB_list_rep.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c8425b0e6feaecb229767174de8d1d7b"><img alt="List Representation for Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/graphB_list_rep.svg"></a></p>
 
             <footer class="footline">
               
@@ -1744,12 +1744,12 @@ The item can be any object and the index will be a value within our capacity. Th
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1720737446" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1720737446" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1720737446" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1720737446" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1720737446" defer></script>
-        <script src="/cc310/js/search.js?1720737446" defer></script>
+        <script src="/cc310/js/auto-complete.js?1723740692" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1723740692" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1723740692" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1723740692" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1723740692" defer></script>
+        <script src="/cc310/js/search.js?1723740692" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -2013,8 +2013,8 @@ The item can be any object and the index will be a value within our capacity. Th
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1720737446" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720737446" defer></script>
-    <script src="/cc310/js/theme.js?1720737446" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1723740692" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1723740692" defer></script>
+    <script src="/cc310/js/theme.js?1723740692" defer></script>
   </body>
 </html>

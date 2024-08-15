@@ -1584,19 +1584,19 @@ Motivation As we have discussed previously, graphs can have many applications. B
     <link href="/cc310/11-graph-algorithms/01-intro/index.print.html" rel="alternate" type="text/html" title="Introduction :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/01-intro/tele.html" rel="alternate" type="text/html" title="Introduction :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1720737457" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737457" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1720737457" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1720737457" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737457" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1720737457" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1720737457" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737457" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1720737457" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1723740704" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740704" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1723740704" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1723740704" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740704" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1723740704" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1723740704" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740704" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1723740704" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1720737457" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1720737457" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1720737457" rel="stylesheet">
-  <link href="/cc310/css/print.css?1720737457" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1723740704" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1723740704" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1723740704" rel="stylesheet">
+  <link href="/cc310/css/print.css?1723740704" rel="stylesheet" media="print">
   
   
   
@@ -1619,7 +1619,7 @@ Motivation As we have discussed previously, graphs can have many applications. B
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1720737457" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1723740704" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/11-graph-algorithms/01-intro/embed.html">
@@ -1645,17 +1645,17 @@ Motivation As we have discussed previously, graphs can have many applications. B
 <h2 id="motivation">Motivation</h2>
 <p>As we have discussed previously, graphs can have many applications. Based on that, there are many things that we may want to infer from graphs. For example, if we have a graph that depicts a railroad or electrical network, we could determine what maximum flow of the network. The standard approach for this task is the <a href="https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/" rel="external" target="_blank">Ford-Fulkerson Algorithm</a>. In short, given a graph with edge weights that represent capacities the algorithm will determine the maximum flow throughout the graph.</p>
 <p>From the matrix graph module, we used the following distribution network as an example.</p>
-<p><a href="#R-image-0f52c9e74f4deefb89eda070d1615dc7" class="lightbox-link"><img alt="Sample Distribution Network" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/distribution-3.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0f52c9e74f4deefb89eda070d1615dc7"><img alt="Sample Distribution Network" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/distribution-3.svg"></a></p>
+<p><a href="#R-image-3f4651823d4e343b11b89f97fe4a973f" class="lightbox-link"><img alt="Sample Distribution Network" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/15/distribution-3.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3f4651823d4e343b11b89f97fe4a973f"><img alt="Sample Distribution Network" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/15/distribution-3.svg"></a></p>
 <p>Conceptually, we would want to determine the maximum number of units that could leave the distribution center without having excess laying around stores. Using the maximum flow algorithm, we would determine that the maximum number of units would be 15.</p>
-<p><a href="#R-image-39bba9c8c048564b1b00f9d7dfd32171" class="lightbox-link"><img alt="Max Flow" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/distribution-3MAX.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-39bba9c8c048564b1b00f9d7dfd32171"><img alt="Max Flow" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/distribution-3MAX.svg"></a></p>
+<p><a href="#R-image-431f306124469c993d20cb06a3207df6" class="lightbox-link"><img alt="Max Flow" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/distribution-3MAX.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-431f306124469c993d20cb06a3207df6"><img alt="Max Flow" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/distribution-3MAX.svg"></a></p>
 <p>The driving force in the Ford-Fulkerson algorithm, as well as other maximum flow algorithms, is the ability to find a path from a source to a target. Specifically, these algorithms use breadth first and depth first searches to discover possible paths.</p>
 <h2 id="searching">Searching</h2>
 <p>To get to introducing the searches, we will first discuss the basis of them. Those are the depth first traversal and the breadth first traversal. We will outline the premise of these traversals and then discuss how we can modify their algorithms for various tasks, such as path searches.</p>
 <p>We can perform these traversals on any type of graph. Conceptually, it will help to have a tree-like structure in mind to differentiate between depth first and breadth first.</p>
-<p><a href="#R-image-b052625e025fb02ea52f795c3d72a9c0" class="lightbox-link"><img alt="Breadth VS Depth" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/8search_breadthVSdepth.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b052625e025fb02ea52f795c3d72a9c0"><img alt="Breadth VS Depth" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/8search_breadthVSdepth.svg"></a></p>
+<p><a href="#R-image-999ebf36a65b5847d33bf6b648d8dc90" class="lightbox-link"><img alt="Breadth VS Depth" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/8search_breadthVSdepth.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-999ebf36a65b5847d33bf6b648d8dc90"><img alt="Breadth VS Depth" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/8search_breadthVSdepth.svg"></a></p>
 
             <footer class="footline">
               
@@ -1670,10 +1670,10 @@ Motivation As we have discussed previously, graphs can have many applications. B
 
 
 
-<script src="/cc310/js/clipboard.min.js?1720737457" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1720737457" defer></script>
-<script src="/cc310/js/theme.js?1720737457" defer></script>
+<script src="/cc310/js/clipboard.min.js?1723740704" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1723740704" defer></script>
+<script src="/cc310/js/theme.js?1723740704" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1720737457" defer></script>
+<script src="/cc310/js/embed-iframe.js?1723740704" defer></script>
 </body>
 </html>

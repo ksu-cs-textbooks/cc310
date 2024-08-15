@@ -1583,18 +1583,18 @@ Electrical wiring, Distribution networks, Telecommunication networks, and Networ
     <link href="/cc310/11-graph-algorithms/07-mst-intro/index.xml" rel="alternate" type="application/rss+xml" title="MST Introduction :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/07-mst-intro/tele.html" rel="alternate" type="text/html" title="MST Introduction :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/07-mst-intro/embed.html" rel="alternate" type="text/html" title="MST Introduction :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1720737467" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737467" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1720737467" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1720737467" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737467" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1720737467" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1720737467" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737467" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1720737467" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1720737467" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1720737467" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1720737467" rel="stylesheet">
-    <link href="/cc310/css/print.css?1720737467" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1720737467" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1720737467"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1723740713" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740713" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1723740713" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1723740713" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740713" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1723740713" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1723740713" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740713" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1723740713" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1723740713" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1723740713" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1723740713" rel="stylesheet">
+    <link href="/cc310/css/print.css?1723740713" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1723740713" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1723740713"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1614,7 +1614,7 @@ Electrical wiring, Distribution networks, Telecommunication networks, and Networ
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1720737467" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1723740713" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/11-graph-algorithms/07-mst-intro/">
     <div id="R-body" class="default-animation">
@@ -1658,21 +1658,21 @@ Electrical wiring, Distribution networks, Telecommunication networks, and Networ
 <li>Network routing</li>
 </ul>
 <p>Suppose we were building an apartment complex and wanted to determine the most cost-effective wiring schema. Below, we have the possible construction costs for wiring apartment to apartment. Wiring vertically adjacent apartments is cheaper than wiring horizontally adjacent units and those closest to the power closet have lower costs as well.</p>
-<p><a href="#R-image-be895b88d763f0783be696104164aec0" class="lightbox-link"><img alt="Possible Wiring" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/possibe_wiring.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-be895b88d763f0783be696104164aec0"><img alt="Possible Wiring" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/possibe_wiring.svg"></a></p>
+<p><a href="#R-image-1f6bcf438c2dc0c41c7bd03779b3a692" class="lightbox-link"><img alt="Possible Wiring" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/possibe_wiring.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1f6bcf438c2dc0c41c7bd03779b3a692"><img alt="Possible Wiring" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/possibe_wiring.svg"></a></p>
 <p>To find the best possible solution, we would find the MST. The final wiring schema may look something like the figure below.</p>
-<p><a href="#R-image-dbcf92015ff1835155f9218bf2395141" class="lightbox-link"><img alt="Possible Wiring" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/mini_wire.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dbcf92015ff1835155f9218bf2395141"><img alt="Possible Wiring" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/mini_wire.svg"></a></p>
+<p><a href="#R-image-a860a28da2e14cb402b3238be4f35523" class="lightbox-link"><img alt="Possible Wiring" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/mini_wire.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a860a28da2e14cb402b3238be4f35523"><img alt="Possible Wiring" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/mini_wire.svg"></a></p>
 <p>Determining a MST can result in lower costs and time used in many applications, especially logistics.
 To properly define a minimum spanning tree, we will first introduce the concept of a spanning tree.</p>
 <h2 id="spanning-trees">Spanning Trees</h2>
 <p>A <strong>spanning tree</strong> for a graph is a subset of the graphs edges such that each node is visited once, no cycles are present, and there are no disconnected components.</p>
 <p>Let&rsquo;s look at this graph as an example. We have five nodes and seven edges.</p>
-<p><a href="#R-image-269c7b9752976cd18db54719cf183b97" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-269c7b9752976cd18db54719cf183b97"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg"></a></p>
+<p><a href="#R-image-19759afcee41f26e5a664971e4ff6a00" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-19759afcee41f26e5a664971e4ff6a00"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg"></a></p>
 <p>Below, we have valid examples of spanning trees. In each of the examples, we visit each node and there are no cycles. Recall that a cycle is a path in which the starting node and ending node are the same.</p>
-<p><a href="#R-image-d66da6c6f75f8714c1b2224abc91386c" class="lightbox-link"><img alt="Spanning Trees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1STs.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d66da6c6f75f8714c1b2224abc91386c"><img alt="Spanning Trees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1STs.svg"></a></p>
+<p><a href="#R-image-3790e3c2212aa3ba3a3741efe359e0ba" class="lightbox-link"><img alt="Spanning Trees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1STs.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3790e3c2212aa3ba3a3741efe359e0ba"><img alt="Spanning Trees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1STs.svg"></a></p>
 
   
   
@@ -1686,14 +1686,14 @@ To properly define a minimum spanning tree, we will first introduce the concept 
 <li>be a <strong>tree</strong>, meaning there are no cycles and no disconnected components.</li>
 </ul>
 <p>Further, we can imagine selecting a node in a spanning tree as the root and letting gravity take effect. This gives us a visual motivation as to why they are called spanning trees. In these examples, we have selected node A for the root for each of the spanning trees above.</p>
-<p><a href="#R-image-8d1793479ad891d103e666bd3f4c6927" class="lightbox-link"><img alt="Spanning Trees as Trees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1STsTREES.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8d1793479ad891d103e666bd3f4c6927"><img alt="Spanning Trees as Trees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1STsTREES.svg"></a></p>
+<p><a href="#R-image-3891a233ac353d07e2b796368af55ecb" class="lightbox-link"><img alt="Spanning Trees as Trees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1STsTREES.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3891a233ac353d07e2b796368af55ecb"><img alt="Spanning Trees as Trees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1STsTREES.svg"></a></p>
 </div>
 </div>
 <h2 id="counterexamples">Counterexamples</h2>
 <p>Below, we have invalid examples of spanning trees. In the left column, the examples are where all of the nodes are not connected in the same component. In the right column, the examples contain cycles. For example in the top right, we have the cycle <code>B-&gt;C-&gt;D-&gt;E-&gt;B</code></p>
-<p><a href="#R-image-0a4546f5284d5d9ecd46abdeb8d31682" class="lightbox-link"><img alt="Not Spanning Trees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1notSTs.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0a4546f5284d5d9ecd46abdeb8d31682"><img alt="Not Spanning Trees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1notSTs.svg"></a></p>
+<p><a href="#R-image-23600f0c4ffcc74b773ff3d1baa2d7e1" class="lightbox-link"><img alt="Not Spanning Trees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1notSTs.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-23600f0c4ffcc74b773ff3d1baa2d7e1"><img alt="Not Spanning Trees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1notSTs.svg"></a></p>
 
             <footer class="footline">
               
@@ -1716,8 +1716,8 @@ To properly define a minimum spanning tree, we will first introduce the concept 
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1720737467" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1720737467" defer></script>
-    <script src="/cc310/js/theme.js?1720737467" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1723740713" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1723740713" defer></script>
+    <script src="/cc310/js/theme.js?1723740713" defer></script>
   </body>
 </html>

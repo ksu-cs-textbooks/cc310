@@ -1577,19 +1577,19 @@
     <meta itemprop="wordCount" content="347">
     <title>Tries :: CC 310 Textbook</title>
     
-  <link href="/cc310/css/fontawesome-all.min.css?1720737456" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1720737456" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1720737456" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1720737456" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1720737456" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1720737456" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1720737456" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1720737456" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1720737456" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1723740703" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740703" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1723740703" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1723740703" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740703" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1723740703" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1723740703" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740703" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1723740703" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1720737456" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1720737456" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1720737456" rel="stylesheet">
-  <link href="/cc310/css/print.css?1720737456" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1723740703" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1723740703" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1723740703" rel="stylesheet">
+  <link href="/cc310/css/print.css?1723740703" rel="stylesheet" media="print">
   
   
   
@@ -1612,7 +1612,7 @@
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1720737456" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1723740703" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/09-trees/old/1-tries/embed.html">
@@ -1635,8 +1635,8 @@
 </div>
 
 <p>Recall that in the beginning of our discussions about trees, we looked at a small tree which contained seven strings as motivation for trees. This was a small example of a trie (pronounced &rsquo;try&rsquo;) which is a type of tree that can represent sets of words.
-<a href="#R-image-692501026df03dc41c6ed126e8dffc57" class="lightbox-link"><img alt="Trie Small Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-692501026df03dc41c6ed126e8dffc57"><img alt="Trie Small Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png"></a></p>
+<a href="#R-image-09f6aec9399e3d8e8cb9dcbedef48e98" class="lightbox-link"><img alt="Trie Small Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-09f6aec9399e3d8e8cb9dcbedef48e98"><img alt="Trie Small Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png"></a></p>
 <p>Tries can be used for a variety of tasks ranging from leisurely games to accessibility applications. One example is &lsquo;Boggle&rsquo; where players have a set of random letters and try to make as many words as possible. To code this game, we could create a vocabulary with a trie then traverse it to determine if players have played legal words. We can also use tries to provide better typing accessibility. Users could type a few letters of a word and our code could traverse the trie and suggest what letters or words they may be trying to enter.</p>
 <p>A trie is a type of tree with some special characteristics. First it must follow the guidelines of being a tree:</p>
 <ul>
@@ -1651,8 +1651,8 @@
 <li>Each node has a boolean property to indicate if it is the end of a word.</li>
 </ul>
 <p>In this course, we will display nodes with two circles as a convention to show which nodes are the end of words. Looking at this small trie as an example, we can determine which words are contained in our trie.
-<a href="#R-image-c28c297a17dbd6301330cd559d3ec97f" class="lightbox-link"><img alt="Trie Small Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c28c297a17dbd6301330cd559d3ec97f"><img alt="Trie Small Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png"></a>
+<a href="#R-image-488626451e89734ad4a8a38e20e0f184" class="lightbox-link"><img alt="Trie Small Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-488626451e89734ad4a8a38e20e0f184"><img alt="Trie Small Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png"></a>
 We start at the root, which will typically be an empty string, and traverse to a double lined node. <code>&quot;&quot; -&gt; a -&gt; l -&gt; l</code>. Thus, the word &lsquo;all&rsquo; is contained in our trie. Words within our tries do not have to end at leaves. For example, we can traverse <code>&quot;&quot; -&gt; a</code> for the word &lsquo;a&rsquo;. We say this trie &lsquo;contains&rsquo; seven words: &lsquo;a&rsquo;, &lsquo;an&rsquo;, &lsquo;and&rsquo;, &lsquo;ant&rsquo;, &lsquo;any&rsquo;, &lsquo;all&rsquo;, and &lsquo;alp&rsquo;.</p>
 
             <footer class="footline">
@@ -1668,10 +1668,10 @@ We start at the root, which will typically be an empty string, and traverse to a
 
 
 
-<script src="/cc310/js/clipboard.min.js?1720737456" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1720737456" defer></script>
-<script src="/cc310/js/theme.js?1720737456" defer></script>
+<script src="/cc310/js/clipboard.min.js?1723740703" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1723740703" defer></script>
+<script src="/cc310/js/theme.js?1723740703" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1720737456" defer></script>
+<script src="/cc310/js/embed-iframe.js?1723740703" defer></script>
 </body>
 </html>
