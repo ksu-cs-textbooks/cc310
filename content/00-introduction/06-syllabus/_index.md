@@ -35,6 +35,20 @@ Exploration of data structures & related algorithms in computer programming. Bas
 
 This course introduces simple data structures such as sets, lists, stacks, queues, and maps. Students learn how to create data structures and the algorithms that use them. Students are introduced to algorithm analysis to determine the efficiency of algorithms.
 
+### Learning Objectives
+
+After completing this course, a successful student will be able to:
+
+1. Use preconditions, postconditions, and invariants to describe how a function works
+1. Write a function that meets a set of given preconditions, postconditions, and invariants
+1. Describe different types of data structures and algorithmic techniques
+1. Develop implementations of the stack, queue, linked list, set, and hash table data structure
+1. Develop implementations of standard searching and sorting algorithms
+1. Implement recursive functions and compare and contrast them with iterative implementations
+1. Compare and contrast data structures based on their uses and performance characteristics
+1. Compare and contrast common algorithms based on their uses and performance characteristics
+1. Use standard library implementations of the various data structures covered in this class
+
 ### Major Course Topics
 
 * Data Structures
@@ -121,10 +135,6 @@ Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https:
 ### Recommended Texts & Supplies
 
 To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
-
-Students will make use of [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/) for source code management.
-
-Students may choose to do some development work on their own computer. The recommended software is [Visual Studio Code](https://code.visualstudio.com/) along with access to a system running [Ubuntu](https://ubuntu.com/). For Windows systems, Ubuntu can be installed via the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10). For Mac systems, Ubuntu can be installed in a virtual machine through [VirtualBox](https://www.virtualbox.org/).
 
 ### Subject to Change
 
