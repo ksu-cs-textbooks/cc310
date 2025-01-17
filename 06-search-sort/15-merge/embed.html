@@ -1588,19 +1588,19 @@ If the container only contains one or two elements, we can quickly sort that con
     <link href="/cc310/06-search-sort/15-merge/index.print.html" rel="alternate" type="text/html" title="Merge Sort :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/15-merge/tele.html" rel="alternate" type="text/html" title="Merge Sort :: CC 310 Textbook">
     
-  <link href="/cc310/css/fontawesome-all.min.css?1723740701" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740701" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1723740701" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1723740701" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740701" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1723740701" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1723740701" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740701" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1723740701" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1737134922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1737134922" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1737134922" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1737134922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1737134922" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1737134922" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1737134922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1737134922" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1737134922" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1723740701" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1723740701" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1723740701" rel="stylesheet">
-  <link href="/cc310/css/print.css?1723740701" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1737134922" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1737134922" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1737134922" rel="stylesheet">
+  <link href="/cc310/css/print.css?1737134922" rel="stylesheet" media="print">
   
   
   
@@ -1623,7 +1623,7 @@ If the container only contains one or two elements, we can quickly sort that con
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1723740701" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1737134922" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/06-search-sort/15-merge/embed.html">
@@ -1653,33 +1653,33 @@ If the container only contains one or two elements, we can quickly sort that con
 <li>Once each half is sorted, we can then merge them back together into a single container.</li>
 </ol>
 <p>Once again, Wikipedia has a great animation showing this process:</p>
-<p><a href="#R-image-64c6486bf66968703dbd9382c3ad48eb" class="lightbox-link"><img alt="Merge Sort GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-64c6486bf66968703dbd9382c3ad48eb"><img alt="Merge Sort GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge.gif"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-8f8140b3663e6d1783fa730f49c38c52" class="lightbox-link"><img alt="Merge Sort GIF" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8f8140b3663e6d1783fa730f49c38c52"><img alt="Merge Sort GIF" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge.gif"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <h2 id="merge-sort-example">Merge Sort Example</h2>
 <p>Let&rsquo;s walk through a simple example and see how it works. First, we&rsquo;ll start with the same initial array as before, shown in the figure below. To help us keep track, we&rsquo;ll refer to this function call using the array indexes it covers. It will be <code>mergeSort(0, 9)</code>.</p>
-<p><a href="#R-image-d2488a9ffc1dd5a3dd8922e0bba170ec" class="lightbox-link"><img alt="Merge Sort Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d2488a9ffc1dd5a3dd8922e0bba170ec"><img alt="Merge Sort Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge1.png"></a></p>
+<p><a href="#R-image-6b1d2d4fe184a98164b5a975c69483e8" class="lightbox-link"><img alt="Merge Sort Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6b1d2d4fe184a98164b5a975c69483e8"><img alt="Merge Sort Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge1.png"></a></p>
 <p>Since this array contains more than 2 elements, we won&rsquo;t be able to sort it quickly. Instead, we&rsquo;ll divide it in half, and sort each half using merge sort again. Let&rsquo;s continue the process with the first half of the array. We&rsquo;ll use a thick outline to show the current portion of the array we are sorting, but we&rsquo;ll retain the original array indexes to help keep track of everything.</p>
-<p><a href="#R-image-a90be17ab4f8699c614010f9124b07b8" class="lightbox-link"><img alt="Merge Sort Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a90be17ab4f8699c614010f9124b07b8"><img alt="Merge Sort Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge2.png"></a></p>
+<p><a href="#R-image-b74bb3d1e08842f98194e1b5ee9c4934" class="lightbox-link"><img alt="Merge Sort Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b74bb3d1e08842f98194e1b5ee9c4934"><img alt="Merge Sort Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge2.png"></a></p>
 <p>Now we are in the first recursive call, <code>mergeSort(0, 4)</code>,which is looking at the first half of the original array. Once again, we have more than 2 elements, so we&rsquo;ll split it in half and recursively call <code>mergeSort(0, 1)</code> first.</p>
-<p><a href="#R-image-80468ee6f8ad6960c47dbc560647a816" class="lightbox-link"><img alt="Merge Sort Example 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-80468ee6f8ad6960c47dbc560647a816"><img alt="Merge Sort Example 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge3.png"></a></p>
+<p><a href="#R-image-ddc38a740be054e28650f35f0846e94c" class="lightbox-link"><img alt="Merge Sort Example 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ddc38a740be054e28650f35f0846e94c"><img alt="Merge Sort Example 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge3.png"></a></p>
 <p>At this point, we now have an array with just 2 elements. We can use one of our base cases to sort that array by swapping the two elements, if needed. In this case, we should swap them, so we&rsquo;ll get the result shown below.</p>
-<p><a href="#R-image-72de0751eca4cf37548e2ebdb5b1a3a4" class="lightbox-link"><img alt="Merge Sort Example 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-72de0751eca4cf37548e2ebdb5b1a3a4"><img alt="Merge Sort Example 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge4.png"></a></p>
+<p><a href="#R-image-e4b6a38660575f108f4096703f63d5f9" class="lightbox-link"><img alt="Merge Sort Example 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e4b6a38660575f108f4096703f63d5f9"><img alt="Merge Sort Example 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge4.png"></a></p>
 <p>Now that the first half of the smaller array has been sorted, our recursive call <code>mergeSort(0, 1)</code> will return and we&rsquo;ll look at the second half of the smaller array in the second recursive call, <code>mergeSort(2, 4)</code>, as highlighted below.</p>
-<p><a href="#R-image-d7f294df92976a669134d7de458d1d79" class="lightbox-link"><img alt="Merge Sort Example 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge5.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d7f294df92976a669134d7de458d1d79"><img alt="Merge Sort Example 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge5.png"></a></p>
+<p><a href="#R-image-48614e16adea0142ff90b7305710bdde" class="lightbox-link"><img alt="Merge Sort Example 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge5.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-48614e16adea0142ff90b7305710bdde"><img alt="Merge Sort Example 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge5.png"></a></p>
 <p>As we&rsquo;ve seen before, this array has more than 2 elements, so we&rsquo;ll need to divide it in half and recursively call the function again. First, we&rsquo;ll call <code>mergeSort(2, 2)</code>.</p>
-<p><a href="#R-image-e89d7abc782ed1421f54e77e77302099" class="lightbox-link"><img alt="Merge Sort Example 6" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge6.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e89d7abc782ed1421f54e77e77302099"><img alt="Merge Sort Example 6" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge6.png"></a></p>
+<p><a href="#R-image-99ef40fc0eb024a95abf1c738220a239" class="lightbox-link"><img alt="Merge Sort Example 6" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge6.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-99ef40fc0eb024a95abf1c738220a239"><img alt="Merge Sort Example 6" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge6.png"></a></p>
 <p>In this case, the current array we are considering contains a single element, so it is already sorted. Therefore, the recursive call to <code>mergeSort(2, 2)</code> will return quickly, and we&rsquo;ll consider the second part of the smaller array in <code>mergeSort(3, 4)</code>, highlighted below.</p>
-<p><a href="#R-image-3c65851231003d89496d45e061ca1fe8" class="lightbox-link"><img alt="Merge Sort Example 7" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge7.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3c65851231003d89496d45e061ca1fe8"><img alt="Merge Sort Example 7" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge7.png"></a></p>
+<p><a href="#R-image-919dcc888c03e5ae92154db1ba400727" class="lightbox-link"><img alt="Merge Sort Example 7" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge7.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-919dcc888c03e5ae92154db1ba400727"><img alt="Merge Sort Example 7" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge7.png"></a></p>
 <p>Here, we have 2 elements, and this time they are already sorted. So, we don&rsquo;t need to do anything, and our recursive call to <code>mergeSort(3, 4)</code> will return. At this point, we will be back in our call to <code>mergeSort(2, 4)</code>, and both halves of that array have been sorted. We&rsquo;re back to looking at the highlighted elements below.</p>
-<p><a href="#R-image-d43497ab005e8a98be6d51dec8c8ad8e" class="lightbox-link"><img alt="Merge Sort Example 8" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge8.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d43497ab005e8a98be6d51dec8c8ad8e"><img alt="Merge Sort Example 8" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge8.png"></a></p>
+<p><a href="#R-image-80b6bbf8e6dc2b267e49808338be122c" class="lightbox-link"><img alt="Merge Sort Example 8" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge8.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-80b6bbf8e6dc2b267e49808338be122c"><img alt="Merge Sort Example 8" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge8.png"></a></p>
 <p>Now we have to merge these two arrays together. Thankfully, since they are sorted, we can follow this simple process:</p>
 <ol>
 <li>Create a temporary array that has the same size as both halves combined.</li>
@@ -1690,48 +1690,48 @@ If the container only contains one or two elements, we can quickly sort that con
 <li>Replace the original array with the temporary array.</li>
 </ol>
 <p>Let&rsquo;s take a look at what that process would look like. First, we&rsquo;ll create a new temporary array to store the result.</p>
-<p><a href="#R-image-6dc727e00f2602afceb547bbe80a7229" class="lightbox-link"><img alt="Merge Sort Example 9" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge9.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6dc727e00f2602afceb547bbe80a7229"><img alt="Merge Sort Example 9" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge9.png"></a></p>
+<p><a href="#R-image-550f888c66dea9428c978baecf99e762" class="lightbox-link"><img alt="Merge Sort Example 9" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge9.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-550f888c66dea9428c978baecf99e762"><img alt="Merge Sort Example 9" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge9.png"></a></p>
 <p>Next, we will look at the first element in each of the two sorted halves of the original array. In this case, we&rsquo;ll compare 2 and 6, which are highlighted below.</p>
-<p><a href="#R-image-8f411d807bf02bbcc20ee4e8bf02c9ef" class="lightbox-link"><img alt="Merge Sort Example 10" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge10.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8f411d807bf02bbcc20ee4e8bf02c9ef"><img alt="Merge Sort Example 10" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge10.png"></a></p>
+<p><a href="#R-image-024649912956e535c8a94d7d1509d3e8" class="lightbox-link"><img alt="Merge Sort Example 10" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge10.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-024649912956e535c8a94d7d1509d3e8"><img alt="Merge Sort Example 10" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge10.png"></a></p>
 <p>Now we should pick the smaller of those two values, which will be 2. That value will be placed in the new temporary array at the very beginning.</p>
-<p><a href="#R-image-2f65571eb3275b8fad9efb46b4dd325e" class="lightbox-link"><img alt="Merge Sort Example 11" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge11.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2f65571eb3275b8fad9efb46b4dd325e"><img alt="Merge Sort Example 11" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge11.png"></a></p>
+<p><a href="#R-image-384c0f7092d4c6e319cbc29e5cade0d0" class="lightbox-link"><img alt="Merge Sort Example 11" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge11.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-384c0f7092d4c6e319cbc29e5cade0d0"><img alt="Merge Sort Example 11" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge11.png"></a></p>
 <p>Next, we should look at the remaining halves of the array. Since the first half is empty, we can just place the remaining elements from the second half into the temporary array.</p>
-<p><a href="#R-image-af3bcae90eb24b2cd324fe19efbc8271" class="lightbox-link"><img alt="Merge Sort Example 12" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge12.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-af3bcae90eb24b2cd324fe19efbc8271"><img alt="Merge Sort Example 12" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge12.png"></a></p>
+<p><a href="#R-image-4f97f061c70aa25ccf10a70983316024" class="lightbox-link"><img alt="Merge Sort Example 12" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge12.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4f97f061c70aa25ccf10a70983316024"><img alt="Merge Sort Example 12" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge12.png"></a></p>
 <p>Finally, we should replace the portion of the original array that we are looking at in this recursive call with the temporary array. In most cases, we&rsquo;ll just copy these elements into the correct places in the original array. In the diagram, we&rsquo;ll just replace them.</p>
-<p><a href="#R-image-202e64e61f5dc360a0ef3dd212d2bfb1" class="lightbox-link"><img alt="Merge Sort Example 13" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge13.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-202e64e61f5dc360a0ef3dd212d2bfb1"><img alt="Merge Sort Example 13" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge13.png"></a></p>
+<p><a href="#R-image-5aec9b24d94df5c50eee42c80a47b980" class="lightbox-link"><img alt="Merge Sort Example 13" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge13.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5aec9b24d94df5c50eee42c80a47b980"><img alt="Merge Sort Example 13" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge13.png"></a></p>
 <p>There we go! We&rsquo;ve now completed the recursive call <code>mergeSort(2, 4)</code>. We can return from that recursive call and go back to <code>mergeSort(0, 4)</code>.</p>
-<p><a href="#R-image-be6e8b8d598356c9c169e41dbe8454e4" class="lightbox-link"><img alt="Merge Sort Example 14" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge14.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-be6e8b8d598356c9c169e41dbe8454e4"><img alt="Merge Sort Example 14" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge14.png"></a></p>
+<p><a href="#R-image-9d7024fdba6a682877b9e98ed1c25c27" class="lightbox-link"><img alt="Merge Sort Example 14" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge14.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9d7024fdba6a682877b9e98ed1c25c27"><img alt="Merge Sort Example 14" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge14.png"></a></p>
 <p>Since both halves of the array in <code>mergeSort(0, 4)</code> are sorted, we must do the merge process again.  We&rsquo;ll start with a new temporary array and compare the first element in each half.</p>
-<p><a href="#R-image-3ebf3c1e760455672d8e302c5f24cef0" class="lightbox-link"><img alt="Merge Sort Example 15" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge15.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3ebf3c1e760455672d8e302c5f24cef0"><img alt="Merge Sort Example 15" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge15.png"></a></p>
+<p><a href="#R-image-96c4d166fabe151d56922c4784decd81" class="lightbox-link"><img alt="Merge Sort Example 15" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge15.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-96c4d166fabe151d56922c4784decd81"><img alt="Merge Sort Example 15" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge15.png"></a></p>
 <p>At this point, we&rsquo;ll see that 2 is the smaller of those elements, so we&rsquo;ll place it in the first slot in the temporary array and consider the next element in the second half.</p>
-<p><a href="#R-image-d3dc05f9ef8d2370ecc604560411b322" class="lightbox-link"><img alt="Merge Sort Example 16" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge16.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d3dc05f9ef8d2370ecc604560411b322"><img alt="Merge Sort Example 16" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge16.png"></a></p>
+<p><a href="#R-image-85541d718e1ac29e3a43af2f27cf9369" class="lightbox-link"><img alt="Merge Sort Example 16" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge16.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-85541d718e1ac29e3a43af2f27cf9369"><img alt="Merge Sort Example 16" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge16.png"></a></p>
 <p>Next, we&rsquo;ll compare the values 5 and 6, and see that 5 is smaller. It should be placed in the next available element in our temporary array and we should continue onward.</p>
-<p><a href="#R-image-189498d822e26d006b755d8b68f6bb56" class="lightbox-link"><img alt="Merge Sort Example 17" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge17.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-189498d822e26d006b755d8b68f6bb56"><img alt="Merge Sort Example 17" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge17.png"></a></p>
+<p><a href="#R-image-700905adec83dee8a1d1f1a17af46007" class="lightbox-link"><img alt="Merge Sort Example 17" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge17.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-700905adec83dee8a1d1f1a17af46007"><img alt="Merge Sort Example 17" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge17.png"></a></p>
 <p>We&rsquo;ll repeat this process again, placing the 6 in the temporary array, then the 8, then finally the 9.  After completing the merge process, we&rsquo;ll have the following temporary array.</p>
-<p><a href="#R-image-68e4e182e7cbb0b5a4a8a52740da9c9a" class="lightbox-link"><img alt="Merge Sort Example 18" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge18.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-68e4e182e7cbb0b5a4a8a52740da9c9a"><img alt="Merge Sort Example 18" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge18.png"></a></p>
+<p><a href="#R-image-d4893a3bae0b54bc29594c843e5ec550" class="lightbox-link"><img alt="Merge Sort Example 18" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge18.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d4893a3bae0b54bc29594c843e5ec550"><img alt="Merge Sort Example 18" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge18.png"></a></p>
 <p>Finally, we&rsquo;ll replace the original elements with the now merged elements in the temporary array.</p>
-<p><a href="#R-image-8014fec0f568ca5a72b4c5631c5e56d6" class="lightbox-link"><img alt="Merge Sort Example 19" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge19.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8014fec0f568ca5a72b4c5631c5e56d6"><img alt="Merge Sort Example 19" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge19.png"></a></p>
+<p><a href="#R-image-8073ca7fdc0b234f70a2dda9bd105a9e" class="lightbox-link"><img alt="Merge Sort Example 19" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge19.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8073ca7fdc0b234f70a2dda9bd105a9e"><img alt="Merge Sort Example 19" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge19.png"></a></p>
 <p>There we go! We&rsquo;ve now completed the process in the <code>mergeSort(0, 4)</code> recursive call. Once that returns, we&rsquo;ll be back in our original call to <code>mergeSort(0, 9)</code>. In that function, we&rsquo;ll recursively call the process again on the second half of the array using <code>mergeSort(5, 9)</code>.</p>
 <p>Hopefully by now we understand that it will work just like we intended, so by the time that recursive call returns, we&rsquo;ll now have the second half of the array sorted as well.</p>
-<p><a href="#R-image-5c5946ec2448f35f24b95dc47132f7ef" class="lightbox-link"><img alt="Merge Sort Example 20" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge20.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5c5946ec2448f35f24b95dc47132f7ef"><img alt="Merge Sort Example 20" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge20.png"></a></p>
+<p><a href="#R-image-758394d385887d6d1ae29be45ef00f2c" class="lightbox-link"><img alt="Merge Sort Example 20" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge20.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-758394d385887d6d1ae29be45ef00f2c"><img alt="Merge Sort Example 20" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge20.png"></a></p>
 <p>The last step in the original <code>mergeSort(0, 9)</code> function call is to merge these two halves together. So, once again, we&rsquo;ll follow that same process as before, creating a new temporary array and moving through the elements in each half, placing the smaller of the two in the new array. Once we are done, we&rsquo;ll end up with a temporary array that has been populated as shown below.</p>
-<p><a href="#R-image-827661b42c10be8577c9727b1c65771a" class="lightbox-link"><img alt="Merge Sort Example 21" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge21.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-827661b42c10be8577c9727b1c65771a"><img alt="Merge Sort Example 21" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge21.png"></a></p>
+<p><a href="#R-image-a530298f35778283e5a5caf6afd6851c" class="lightbox-link"><img alt="Merge Sort Example 21" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge21.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a530298f35778283e5a5caf6afd6851c"><img alt="Merge Sort Example 21" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge21.png"></a></p>
 <p>Finally, we&rsquo;ll replace the elements in the original array with the ones in the temporary array, resulting in a completely sorted result.</p>
-<p><a href="#R-image-6d73217827de702cc8ec7ff5b83d3bae" class="lightbox-link"><img alt="Merge Sort Example 22" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge22.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6d73217827de702cc8ec7ff5b83d3bae"><img alt="Merge Sort Example 22" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge22.png"></a></p>
+<p><a href="#R-image-9e6d45f9058d67b65220bcd43648c856" class="lightbox-link"><img alt="Merge Sort Example 22" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.15.merge22.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9e6d45f9058d67b65220bcd43648c856"><img alt="Merge Sort Example 22" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.15.merge22.png"></a></p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -1754,10 +1754,10 @@ If the container only contains one or two elements, we can quickly sort that con
 
 
 
-<script src="/cc310/js/clipboard.min.js?1723740701" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1723740701" defer></script>
-<script src="/cc310/js/theme.js?1723740701" defer></script>
+<script src="/cc310/js/clipboard.min.js?1737134922" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1737134922" defer></script>
+<script src="/cc310/js/theme.js?1737134922" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1723740701" defer></script>
+<script src="/cc310/js/embed-iframe.js?1737134922" defer></script>
 </body>
 </html>

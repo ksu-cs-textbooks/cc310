@@ -1574,18 +1574,18 @@
     <meta itemprop="dateModified" content="2024-07-01T16:38:34-05:00">
     <meta itemprop="wordCount" content="2">
     <title>Old Conetnt :: CC 310 Textbook</title>
-    <link href="/cc310/css/fontawesome-all.min.css?1723740712" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740712" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1723740712" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1723740712" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740712" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1723740712" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1723740712" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740712" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1723740712" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1723740712" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1723740712" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1723740712" rel="stylesheet">
-    <link href="/cc310/css/print.css?1723740712" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1723740712" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1723740712"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1737134928" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1737134928" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1737134928" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1737134928" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1737134928" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1737134928" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1737134928" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1737134928" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1737134928" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1737134928" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1737134928" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1737134928" rel="stylesheet">
+    <link href="/cc310/css/print.css?1737134928" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1737134928" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1737134928"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1605,7 +1605,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1723740712" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1737134928" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/09-trees/old/">
     <div id="R-body" class="default-animation">
@@ -1662,8 +1662,8 @@
 <a href="https://www.youtube.com/watch?v=BNA3tbURiZk">YouTube Video</a>
 
 <p>Recall that in the beginning of our discussions about trees, we looked at a small tree which contained seven strings as motivation for trees. This was a small example of a trie (pronounced &rsquo;try&rsquo;) which is a type of tree that can represent sets of words.
-<a href="#R-image-77b3ac47bfb2be79362b12741f7d0d58" class="lightbox-link"><img alt="Trie Small Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-77b3ac47bfb2be79362b12741f7d0d58"><img alt="Trie Small Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png"></a></p>
+<a href="#R-image-8f5854e6b0ddd79d70aa711a39e4cfbf" class="lightbox-link"><img alt="Trie Small Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8f5854e6b0ddd79d70aa711a39e4cfbf"><img alt="Trie Small Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png"></a></p>
 <p>Tries can be used for a variety of tasks ranging from leisurely games to accessibility applications. One example is &lsquo;Boggle&rsquo; where players have a set of random letters and try to make as many words as possible. To code this game, we could create a vocabulary with a trie then traverse it to determine if players have played legal words. We can also use tries to provide better typing accessibility. Users could type a few letters of a word and our code could traverse the trie and suggest what letters or words they may be trying to enter.</p>
 <p>A trie is a type of tree with some special characteristics. First it must follow the guidelines of being a tree:</p>
 <ul>
@@ -1678,8 +1678,8 @@
 <li>Each node has a boolean property to indicate if it is the end of a word.</li>
 </ul>
 <p>In this course, we will display nodes with two circles as a convention to show which nodes are the end of words. Looking at this small trie as an example, we can determine which words are contained in our trie.
-<a href="#R-image-56793a370de9ed0ff2587bdcd90cbafc" class="lightbox-link"><img alt="Trie Small Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-56793a370de9ed0ff2587bdcd90cbafc"><img alt="Trie Small Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png"></a>
+<a href="#R-image-57ab863617da9e13bee121846e8e240f" class="lightbox-link"><img alt="Trie Small Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-57ab863617da9e13bee121846e8e240f"><img alt="Trie Small Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png"></a>
 We start at the root, which will typically be an empty string, and traverse to a double lined node. <code>&quot;&quot; -&gt; a -&gt; l -&gt; l</code>. Thus, the word &lsquo;all&rsquo; is contained in our trie. Words within our tries do not have to end at leaves. For example, we can traverse <code>&quot;&quot; -&gt; a</code> for the word &lsquo;a&rsquo;. We say this trie &lsquo;contains&rsquo; seven words: &lsquo;a&rsquo;, &lsquo;an&rsquo;, &lsquo;and&rsquo;, &lsquo;ant&rsquo;, &lsquo;any&rsquo;, &lsquo;all&rsquo;, and &lsquo;alp&rsquo;.</p>
 
             <footer class="footline">
@@ -1701,14 +1701,14 @@ We start at the root, which will typically be an empty string, and traverse to a
 <p>Let&rsquo;s look at another example of a trie. Here we have a larger trie. Think about how many words are captured by the tree; click the tree to see how many!
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-57043949144b0a46ff86f6658df6fb77" aria-controls="R-expandcontent-57043949144b0a46ff86f6658df6fb77" >
-    <label class="expand-label" for="R-expand-57043949144b0a46ff86f6658df6fb77" >
+    <input type="checkbox" id="R-expand-b3ad163721ef8e950f99b658e2e21bee" aria-controls="R-expandcontent-b3ad163721ef8e950f99b658e2e21bee" >
+    <label class="expand-label" for="R-expand-b3ad163721ef8e950f99b658e2e21bee" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
-        <a href="#R-image-f423896e116c6590c95b5d6ebd3facce" class="lightbox-link"><img alt="Trie Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Trie_Example.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f423896e116c6590c95b5d6ebd3facce"><img alt="Trie Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Trie_Example.png"></a>
+        <a href="#R-image-e01832db84d45bc01e493bb4a3cf249f" class="lightbox-link"><img alt="Trie Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Trie_Example.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e01832db84d45bc01e493bb4a3cf249f"><img alt="Trie Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Trie_Example.png"></a>
     </label>
-    <div id="R-expandcontent-57043949144b0a46ff86f6658df6fb77" class="expand-content">
+    <div id="R-expandcontent-b3ad163721ef8e950f99b658e2e21bee" class="expand-content">
 <p>
 This tree contains <strong>12</strong> words: &lsquo;ate&rsquo;, &lsquo;an&rsquo;, &lsquo;and&rsquo;, &lsquo;ant&rsquo;, &lsquo;app&rsquo;, &lsquo;apple&rsquo;, &lsquo;cat&rsquo;, &lsquo;can&rsquo;, &lsquo;cup&rsquo;, &lsquo;by&rsquo;, &lsquo;be&rsquo;, and &lsquo;been&rsquo;.</div>
 </div></p>
@@ -1731,8 +1731,8 @@ This tree contains <strong>12</strong> words: &lsquo;ate&rsquo;, &lsquo;an&rsquo
 <h1 id="mytrie-i">MyTrie I</h1>
 
 <p>To implement our own trie, we will build off of MyTree that we built recursively. We will add an attribute to our tree to reinforce which nodes are words and which ones are not.</p>
-<p><a href="#R-image-9f3f19c5ba62bc52b0ab3b1a9006a71c" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/trie_uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9f3f19c5ba62bc52b0ab3b1a9006a71c"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/trie_uml.png"></a></p>
+<p><a href="#R-image-dc859cd33ff6cb6da581690029d8324f" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/trie_uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-dc859cd33ff6cb6da581690029d8324f"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/trie_uml.png"></a></p>
 <h3 id="attributes">Attributes</h3>
 <p>We have the existing attributes of MyTree: parent, children, and item. For MyTrie, we introduce the boolean attribute <code>is_word</code> to delineate if our trie is a word.</p>
 <h3 id="adding-a-word">Adding a Word</h3>
@@ -1823,8 +1823,8 @@ This tree contains <strong>12</strong> words: &lsquo;ate&rsquo;, &lsquo;an&rsquo
 
 <a href="https://www.youtube.com/watch?v=7ee0C0v2L1w">YouTube Video</a>
 
-<p><a href="#R-image-24d88fb26183f8f084e6b07cfc996ecd" class="lightbox-link"><img alt="Subtrees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-24d88fb26183f8f084e6b07cfc996ecd"><img alt="Subtrees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png"></a></p>
+<p><a href="#R-image-1f0748a7439c96e2c5a8de07b109944f" class="lightbox-link"><img alt="Subtrees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1f0748a7439c96e2c5a8de07b109944f"><img alt="Subtrees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png"></a></p>
 
   
   
@@ -1935,8 +1935,8 @@ This tree contains <strong>12</strong> words: &lsquo;ate&rsquo;, &lsquo;an&rsquo
 <a href="https://www.youtube.com/watch?v=0U5EXtcHcsU">YouTube Video</a>
 
 <p>Our implementation of binary trees will inherit from our MyTree implementation as binary trees are types of trees. Thus, MyBinaryTree will have the functionality of MyTree in addition to the following.</p>
-<p><a href="#R-image-514ef9f77108a9a671503da7115fa1a9" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/binary_uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-514ef9f77108a9a671503da7115fa1a9"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/binary_uml.png"></a></p>
+<p><a href="#R-image-6bee682e7659a4ecc99c1411d552f9d2" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/binary_uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6bee682e7659a4ecc99c1411d552f9d2"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/binary_uml.png"></a></p>
 <h2 id="attributes">Attributes</h2>
 <p>The binary tree has two attributes</p>
 <ul>
@@ -1993,22 +1993,22 @@ This tree contains <strong>12</strong> words: &lsquo;ate&rsquo;, &lsquo;an&rsquo
 
 <p>When inserting children to a binary tree, we must take some special considerations. All of the node items in the left tree must be less than the parent node item and all of the node items in the right tree must be greater than the parent node item.</p>
 <p>The general procedure for adding a child is the following:
-<a href="#R-image-1086761892b9bc5a1b3701f05161d62b" class="lightbox-link"><img alt="Binary Tree Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_AddFlowChart.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1086761892b9bc5a1b3701f05161d62b"><img alt="Binary Tree Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_AddFlowChart.png"></a></p>
+<a href="#R-image-dd3795437f4bba8f7fc522cecea6fa85" class="lightbox-link"><img alt="Binary Tree Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_AddFlowChart.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-dd3795437f4bba8f7fc522cecea6fa85"><img alt="Binary Tree Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_AddFlowChart.png"></a></p>
 <p>Suppose that we have the following tree and we want to add a node with item &lsquo;85&rsquo;. Click the binary tree to see the resulting tree.</p>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-f2f15b8aff8d6db8e56242d7e713e44e" aria-controls="R-expandcontent-f2f15b8aff8d6db8e56242d7e713e44e" >
-    <label class="expand-label" for="R-expand-f2f15b8aff8d6db8e56242d7e713e44e" >
+    <input type="checkbox" id="R-expand-ae101c5c10770d4deffea78e0ab4efd7" aria-controls="R-expandcontent-ae101c5c10770d4deffea78e0ab4efd7" >
+    <label class="expand-label" for="R-expand-ae101c5c10770d4deffea78e0ab4efd7" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
-        <a href="#R-image-fefc525e1ff64979e0eb97ba1be03804" class="lightbox-link"><img alt="Tree To Add To" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Add.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fefc525e1ff64979e0eb97ba1be03804"><img alt="Tree To Add To" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Add.png"></a>
+        <a href="#R-image-b6821f77f680cff2dce302011180875d" class="lightbox-link"><img alt="Tree To Add To" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Add.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b6821f77f680cff2dce302011180875d"><img alt="Tree To Add To" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Add.png"></a>
     </label>
-    <div id="R-expandcontent-f2f15b8aff8d6db8e56242d7e713e44e" class="expand-content">
+    <div id="R-expandcontent-ae101c5c10770d4deffea78e0ab4efd7" class="expand-content">
 
-<p><a href="#R-image-0f41bbb968cbf294bf30a81fe5182aba" class="lightbox-link"><img alt="Tree Adding" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_AddChild.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0f41bbb968cbf294bf30a81fe5182aba"><img alt="Tree Adding" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_AddChild.gif"></a></p>
+<p><a href="#R-image-5018224e24452461c07212300e008fd6" class="lightbox-link"><img alt="Tree Adding" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_AddChild.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5018224e24452461c07212300e008fd6"><img alt="Tree Adding" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_AddChild.gif"></a></p>
 </div>
 </div>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">function INSERT(VALUE)
@@ -2081,11 +2081,11 @@ This tree contains <strong>12</strong> words: &lsquo;ate&rsquo;, &lsquo;an&rsquo
 </div>
 </div>
 <p>In the first module, we discussed how we can define trees recursively, meaning a tree consists of trees. We looked at the following example. Each red dashed line represented a distinct tree, thus we had five trees within the largest tree making six trees in total.
-<a href="#R-image-40884c786d95a4379ce0f7e98ad6c46f" class="lightbox-link"><img alt="Subtrees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-40884c786d95a4379ce0f7e98ad6c46f"><img alt="Subtrees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png"></a></p>
+<a href="#R-image-9e1a1e65901c3aff5ee596acf4cf4cd8" class="lightbox-link"><img alt="Subtrees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9e1a1e65901c3aff5ee596acf4cf4cd8"><img alt="Subtrees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png"></a></p>
 <p>We will use our existing implementation from the first module. Now to make our tree recursive, we will include more getter functions as well as functions for traversals and defining node relationships.</p>
-<p><a href="#R-image-5d95f04e6c2d48b7056509d76f5b3e3c" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/rec_tree_uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5d95f04e6c2d48b7056509d76f5b3e3c"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/rec_tree_uml.png"></a></p>
+<p><a href="#R-image-11444d0b95465ea155d3e26cbd7a915c" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/rec_tree_uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-11444d0b95465ea155d3e26cbd7a915c"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/rec_tree_uml.png"></a></p>
 <hr>
 <h3 id="get-depth-height-size-and-root">Get depth, height, size, and root</h3>
 <p>We can define each of these recursively.</p>
@@ -2264,17 +2264,17 @@ This tree contains <strong>12</strong> words: &lsquo;ate&rsquo;, &lsquo;an&rsquo
 <p>Suppose we have this binary tree and we want to remove value <code>5</code>. What do you think the resulting binary tree will look like? Click the binary tree to see the result.</p>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-c83947db6973ebd7422cd98281a01d1c" aria-controls="R-expandcontent-c83947db6973ebd7422cd98281a01d1c" >
-    <label class="expand-label" for="R-expand-c83947db6973ebd7422cd98281a01d1c" >
+    <input type="checkbox" id="R-expand-01f2c249e9f7555975e896057a4336c9" aria-controls="R-expandcontent-01f2c249e9f7555975e896057a4336c9" >
+    <label class="expand-label" for="R-expand-01f2c249e9f7555975e896057a4336c9" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
-        <a href="#R-image-3afda0bd6e2d3ea4805c85620485fb6a" class="lightbox-link"><img alt="Tree to Remove Leaf" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Bin_Remove.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3afda0bd6e2d3ea4805c85620485fb6a"><img alt="Tree to Remove Leaf" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Bin_Remove.png"></a>
+        <a href="#R-image-71a70b23dddb79eb1facb6fe05cd0106" class="lightbox-link"><img alt="Tree to Remove Leaf" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Bin_Remove.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-71a70b23dddb79eb1facb6fe05cd0106"><img alt="Tree to Remove Leaf" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Bin_Remove.png"></a>
     </label>
-    <div id="R-expandcontent-c83947db6973ebd7422cd98281a01d1c" class="expand-content">
+    <div id="R-expandcontent-01f2c249e9f7555975e896057a4336c9" class="expand-content">
 
-<p><a href="#R-image-123b3b5d51009ee947bafb780a0d9ccd" class="lightbox-link"><img alt="Result of Remove Leaf" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Bin_Remove2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-123b3b5d51009ee947bafb780a0d9ccd"><img alt="Result of Remove Leaf" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Bin_Remove2.png"></a></p>
+<p><a href="#R-image-8339b9a9d5addfd6c9e76e7973930a14" class="lightbox-link"><img alt="Result of Remove Leaf" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Bin_Remove2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8339b9a9d5addfd6c9e76e7973930a14"><img alt="Result of Remove Leaf" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Bin_Remove2.png"></a></p>
 </div>
 </div>
 <h2 id="removing-a-node-without-right-child">Removing a Node without Right Child</h2>
@@ -2282,17 +2282,17 @@ This tree contains <strong>12</strong> words: &lsquo;ate&rsquo;, &lsquo;an&rsquo
 <p>Suppose we have this binary tree and we want to remove value <code>4</code>. What do you think the resulting binary tree will look like? Click the binary tree to see the result.</p>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-716cd54a8b32b6740f174c50ada98fab" aria-controls="R-expandcontent-716cd54a8b32b6740f174c50ada98fab" >
-    <label class="expand-label" for="R-expand-716cd54a8b32b6740f174c50ada98fab" >
+    <input type="checkbox" id="R-expand-f920a281755ebbb50866df2451508a89" aria-controls="R-expandcontent-f920a281755ebbb50866df2451508a89" >
+    <label class="expand-label" for="R-expand-f920a281755ebbb50866df2451508a89" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
-        <a href="#R-image-ad317bd198ee72ea6da668461d440249" class="lightbox-link"><img alt="Tree to Remove w/o RightChild" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Bin_Remove2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ad317bd198ee72ea6da668461d440249"><img alt="Tree to Remove w/o RightChild" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Bin_Remove2.png"></a>
+        <a href="#R-image-f1fc95d4ef022a611e1df3cf7ec26801" class="lightbox-link"><img alt="Tree to Remove w/o RightChild" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Bin_Remove2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f1fc95d4ef022a611e1df3cf7ec26801"><img alt="Tree to Remove w/o RightChild" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Bin_Remove2.png"></a>
     </label>
-    <div id="R-expandcontent-716cd54a8b32b6740f174c50ada98fab" class="expand-content">
+    <div id="R-expandcontent-f920a281755ebbb50866df2451508a89" class="expand-content">
 
-<p><a href="#R-image-ad8c1fee0a9f31e59b4fe37986b118fd" class="lightbox-link"><img alt="Result of Remove w/o RightChild" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Bin_Remove3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ad8c1fee0a9f31e59b4fe37986b118fd"><img alt="Result of Remove w/o RightChild" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Bin_Remove3.png"></a></p>
+<p><a href="#R-image-70571138b02df85a822bfa686bba671a" class="lightbox-link"><img alt="Result of Remove w/o RightChild" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Bin_Remove3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-70571138b02df85a822bfa686bba671a"><img alt="Result of Remove w/o RightChild" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Bin_Remove3.png"></a></p>
 </div>
 </div>
 <h2 id="removing-a-node-with-right-child">Removing a Node with Right Child</h2>
@@ -2300,17 +2300,17 @@ This tree contains <strong>12</strong> words: &lsquo;ate&rsquo;, &lsquo;an&rsquo
 <p>Suppose we have this binary tree and we want to remove value <code>10</code>. What do you think the resulting binary tree will look like? Click the binary tree to see the result.</p>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-ff0149cc8d6a02f7e8f780e40f14f86a" aria-controls="R-expandcontent-ff0149cc8d6a02f7e8f780e40f14f86a" >
-    <label class="expand-label" for="R-expand-ff0149cc8d6a02f7e8f780e40f14f86a" >
+    <input type="checkbox" id="R-expand-2c66e128936c2527d263265fbb2b74ae" aria-controls="R-expandcontent-2c66e128936c2527d263265fbb2b74ae" >
+    <label class="expand-label" for="R-expand-2c66e128936c2527d263265fbb2b74ae" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
-        <a href="#R-image-2f8642e5a90141a6cf003c6f8e0b248d" class="lightbox-link"><img alt="Tree to Remove with RightChild" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Bin_Remove.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2f8642e5a90141a6cf003c6f8e0b248d"><img alt="Tree to Remove with RightChild" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Bin_Remove.png"></a>
+        <a href="#R-image-a3835048c36910315635e2e5c7d8f772" class="lightbox-link"><img alt="Tree to Remove with RightChild" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Bin_Remove.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a3835048c36910315635e2e5c7d8f772"><img alt="Tree to Remove with RightChild" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Bin_Remove.png"></a>
     </label>
-    <div id="R-expandcontent-ff0149cc8d6a02f7e8f780e40f14f86a" class="expand-content">
+    <div id="R-expandcontent-2c66e128936c2527d263265fbb2b74ae" class="expand-content">
 
-<p><a href="#R-image-188a3aa0811613b91716db93549a937b" class="lightbox-link"><img alt="Result of Remove with RightChild" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Bin_Remove1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-188a3aa0811613b91716db93549a937b"><img alt="Result of Remove with RightChild" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Bin_Remove1.png"></a></p>
+<p><a href="#R-image-35db728909bb36f7dfc9906b3efbd055" class="lightbox-link"><img alt="Result of Remove with RightChild" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Bin_Remove1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-35db728909bb36f7dfc9906b3efbd055"><img alt="Result of Remove with RightChild" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Bin_Remove1.png"></a></p>
 </div>
 </div>
 <h2 id="complete-pseudocode">Complete Pseudocode</h2>
@@ -2428,8 +2428,8 @@ This tree contains <strong>12</strong> words: &lsquo;ate&rsquo;, &lsquo;an&rsquo
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1723740712" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1723740712" defer></script>
-    <script src="/cc310/js/theme.js?1723740712" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1737134928" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1737134928" defer></script>
+    <script src="/cc310/js/theme.js?1737134928" defer></script>
   </body>
 </html>

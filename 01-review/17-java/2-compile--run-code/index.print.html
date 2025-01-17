@@ -1580,18 +1580,18 @@ Terminal Codio includes a built-in Linux terminal, which allows us to perform ac
     <meta itemprop="dateModified" content="2024-06-20T09:14:34-05:00">
     <meta itemprop="wordCount" content="1365">
     <title>Compile &amp; Run Code :: CC 310 Textbook</title>
-    <link href="/cc310/css/fontawesome-all.min.css?1723740707" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740707" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1723740707" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1723740707" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740707" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1723740707" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1723740707" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740707" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1723740707" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1723740707" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1723740707" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1723740707" rel="stylesheet">
-    <link href="/cc310/css/print.css?1723740707" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1723740707" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1723740707"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1737134926" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1737134926" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1737134926" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1737134926" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1737134926" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1737134926" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1737134926" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1737134926" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1737134926" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1737134926" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1737134926" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1737134926" rel="stylesheet">
+    <link href="/cc310/css/print.css?1737134926" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1737134926" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1737134926"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -1611,7 +1611,7 @@ Terminal Codio includes a built-in Linux terminal, which allows us to perform ac
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1723740707" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1737134926" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/01-review/17-java/2-compile--run-code/">
     <div id="R-body" class="default-animation">
@@ -1673,31 +1673,31 @@ Terminal Codio includes a built-in Linux terminal, which allows us to perform ac
 </div>
 </div>
 <p>Let&rsquo;s go to the terminal window and navigate to our program. When we first open the Terminal window, it should show us a prompt that looks somewhat like this one:</p>
-<p><a href="#R-image-017dba301a46f5d06a13669529d03a21" class="lightbox-link"><img alt="Initial Terminal View" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.terminal1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-017dba301a46f5d06a13669529d03a21"><img alt="Initial Terminal View" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.terminal1.png"></a></p>
+<p><a href="#R-image-b890c40454c1ec122b50c4b04cb86fa2" class="lightbox-link"><img alt="Initial Terminal View" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.terminal1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b890c40454c1ec122b50c4b04cb86fa2"><img alt="Initial Terminal View" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.terminal1.png"></a></p>
 <p>There is quite a bit of information there, but we&rsquo;re interested in the last little bit of the last line, where it says <code>~/workspace</code>. That is the current directory, or folder, our terminal is looking at, also known as our <em>working directory</em>. We can always find the full location of our working directory by typing the <code>pwd</code> command, short for &ldquo;Print Working Directory,&rdquo; in the terminal. Let&rsquo;s try it now!</p>
 <p>Enter this command in the terminal:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pwd</span></span></code></pre></div><p>and we should see output similar to this:</p>
-<p><a href="#R-image-1924ea409940169ee587bad1d4c21eb4" class="lightbox-link"><img alt="pwd Command Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.pwd.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1924ea409940169ee587bad1d4c21eb4"><img alt="pwd Command Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.pwd.png"></a></p>
+<p><a href="#R-image-9b5e96813bfa901787d01c764ee2ef71" class="lightbox-link"><img alt="pwd Command Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.pwd.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9b5e96813bfa901787d01c764ee2ef71"><img alt="pwd Command Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.pwd.png"></a></p>
 <p>In that output, we&rsquo;ll see that the full path to our working directory is <code>/home/codio/workspace</code>. This is the default location for all of our content in Codio, and its where everything shown in the file tree to the far left is stored. When working in Codio, we&rsquo;ll always want to store our work in this directory.</p>
 <p>Next, let&rsquo;s use the <code>ls</code> command, short for &ldquo;LiSt,&rdquo; to see a list of all of the items in that directory:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls</span></span></code></pre></div><p><a href="#R-image-ff7626a6a91ad976779e50c5d5902459" class="lightbox-link"><img alt="ls Command Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.ls.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ff7626a6a91ad976779e50c5d5902459"><img alt="ls Command Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.ls.png"></a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls</span></span></code></pre></div><p><a href="#R-image-0645e946862cdd1b5aededa7750070e1" class="lightbox-link"><img alt="ls Command Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.ls.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0645e946862cdd1b5aededa7750070e1"><img alt="ls Command Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.ls.png"></a></p>
 <p>We should see a whole list of items appear in the terminal. Most of them are directories containing examples for the chapters this textbook, including the <code>HelloWorld.java</code> file that we edited in the last page. Thankfully, the directories are named in a very logical way, making it easy for us to find what we need. For example, to find the directory for Chapter 1 that contains examples for Java, look for the directory with the name starting with <code>1j</code>. In this case, it would be <code>1j-hello</code>.</p>
 <p>Finally, we can use the <code>cd</code> command, short for &ldquo;Change Directory,&rdquo; to change the working directory. To change to the <code>1j-hello</code> directory, type <code>cd</code> into the terminal window, followed by the name of that directory:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> 1j-hello</span></span></code></pre></div><p><a href="#R-image-bdc32dd6820d6f49affc88f1049d4c88" class="lightbox-link"><img alt="cd Command Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.cd.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-bdc32dd6820d6f49affc88f1049d4c88"><img alt="cd Command Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.cd.png"></a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> 1j-hello</span></span></code></pre></div><p><a href="#R-image-e4a5560810a86a24dccedb4c8fb7ef3f" class="lightbox-link"><img alt="cd Command Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.cd.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e4a5560810a86a24dccedb4c8fb7ef3f"><img alt="cd Command Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.cd.png"></a></p>
 <p>We are now in the <code>1j-hello</code> directory, as we can see by observing the <code>~/workspace/1j-hello</code> on the current line in the terminal. Finally, we can do the <code>ls</code> command again to see the files in that directory:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls</span></span></code></pre></div><p><a href="#R-image-821ba504e7ed1611d5ccd5cb7c272ef4" class="lightbox-link"><img alt="ls Command Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.ls2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-821ba504e7ed1611d5ccd5cb7c272ef4"><img alt="ls Command Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.ls2.png"></a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls</span></span></code></pre></div><p><a href="#R-image-280b6731e90f6c335e1df5a7f50ac506" class="lightbox-link"><img alt="ls Command Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.ls2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-280b6731e90f6c335e1df5a7f50ac506"><img alt="ls Command Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.ls2.png"></a></p>
 <p>We should see our <code>HelloWorld.java</code> file! If it doesn&rsquo;t appear, try using this command to get to the correct directory: <code>cd /home/codio/workspace/1j-hello</code>.</p>
 <p>Once we&rsquo;re at the point where we can see the <code>HelloWorld.java</code> file, we can move on to actually compiling and running the program.</p>
 <h2 id="compiling-in-terminal">Compiling in Terminal</h2>
 <p>To compile a Java program in the terminal, we&rsquo;ll use the <code>javac</code> command, short for <em>Java Compiler</em>, followed by the name of the Java file we&rsquo;d like to compile. So, in our case, we&rsquo;ll do the following:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">javac HelloWorld.java</span></span></code></pre></div><p>If it works correctly, we shouldn&rsquo;t get any additional output. The compiler will look through our Java file and create a new file containing the Java bytecode for our program, called <code>HelloWorld.class</code>. We can use the <code>ls</code> command to see it:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls</span></span></code></pre></div><p><a href="#R-image-5d5d57b2d4773d28a2067292e2abeb97" class="lightbox-link"><img alt="javac Command Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.javac.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5d5d57b2d4773d28a2067292e2abeb97"><img alt="javac Command Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.javac.png"></a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls</span></span></code></pre></div><p><a href="#R-image-ec2c569d637a53381a34bafb91b98f4b" class="lightbox-link"><img alt="javac Command Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.javac.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ec2c569d637a53381a34bafb91b98f4b"><img alt="javac Command Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.javac.png"></a></p>
 
   
   
@@ -1712,8 +1712,8 @@ Terminal Codio includes a built-in Linux terminal, which allows us to perform ac
 </div>
 <h2 id="running-in-terminal">Running in Terminal</h2>
 <p>Finally, we can now run our program! Once it is compiled, just type the following in the terminal to run it:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">java HelloWorld</span></span></code></pre></div><p><a href="#R-image-78da9b9034c557fc3fad1e993f95163f" class="lightbox-link"><img alt="java Command Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.java.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-78da9b9034c557fc3fad1e993f95163f"><img alt="java Command Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.java.png"></a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">java HelloWorld</span></span></code></pre></div><p><a href="#R-image-108a5511fde1c0a32efdcc4288c2c9fc" class="lightbox-link"><img alt="java Command Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.java.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-108a5511fde1c0a32efdcc4288c2c9fc"><img alt="java Command Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.java.png"></a></p>
 <p>That&rsquo;s all there is to it! We&rsquo;ve now successfully compiled and run our first Java program. Of course, we can run the program as many times as we want by repeating the previous <code>java</code> command. If we make changes to the <code>HelloWorld.java</code> file, we&rsquo;ll need to recompile it using the previous <code>javac</code> command first. Then, if those changes instruct the computer to do something different, we should see those changes when we run the program after compiling it.</p>
 
   
@@ -1728,8 +1728,8 @@ Terminal Codio includes a built-in Linux terminal, which allows us to perform ac
 </div>
 <h2 id="run-menu">Run Menu</h2>
 <p>In many of the Codio projects and tutorials in this course, the <strong>Run Menu</strong> will be populated with helpful commands. The <strong>Run Menu</strong> can be found at the top of the screen, right here:</p>
-<p><a href="#R-image-2bdab29824328271e0acf1e8e160e4aa" class="lightbox-link"><img alt="Run Menu Location" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.runmenu.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2bdab29824328271e0acf1e8e160e4aa"><img alt="Run Menu Location" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.runmenu.png"></a></p>
+<p><a href="#R-image-a29f37072cbd1d8e22e54a564baf8146" class="lightbox-link"><img alt="Run Menu Location" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.runmenu.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a29f37072cbd1d8e22e54a564baf8146"><img alt="Run Menu Location" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.runmenu.png"></a></p>
 <p>Each Codio project or tutorial may have different items in this menu, since they can be configured by the author of the project. For this book, there will always be the following options:</p>
 <ul>
 <li>Java - Compile File</li>
@@ -1737,12 +1737,12 @@ Terminal Codio includes a built-in Linux terminal, which allows us to perform ac
 </ul>
 <p>To use these commands, we must simply open up the file we&rsquo;d like to use, then select the appropriate option from the <strong>Run Menu</strong>. It will automatically use the currently open file in the command.</p>
 <p>So, to compile and run our file, we must simply open <code>HelloWorld.java</code> in the panel to the left, then click the arrow in the <strong>Run Menu</strong> and first select <strong>Java - Compile File</strong>. It should open up a Terminal tab and show output similar to the following:</p>
-<p><a href="#R-image-26f8f48e5155a010b5f86c0a2a12fe33" class="lightbox-link"><img alt="Compile from Run Menu Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.runjavac.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-26f8f48e5155a010b5f86c0a2a12fe33"><img alt="Compile from Run Menu Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.runjavac.png"></a></p>
+<p><a href="#R-image-472bf88db7c0190a7aff5804c317d6e1" class="lightbox-link"><img alt="Compile from Run Menu Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.runjavac.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-472bf88db7c0190a7aff5804c317d6e1"><img alt="Compile from Run Menu Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.runjavac.png"></a></p>
 <p>It looks very similar to the command we entered manually. The only difference is that it uses the folder name along with the filename in the command, which ensures that it gets the correct file without even opening that directory.</p>
 <p>Once we&rsquo;ve compiled the file, we can go back to that tab and select the <strong>Java - Run File</strong> option. It should show output similar to this:</p>
-<p><a href="#R-image-e4188b4d8544f34fdd3261fc187c3e5b" class="lightbox-link"><img alt="Run from Run Menu Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.runjava.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e4188b4d8544f34fdd3261fc187c3e5b"><img alt="Run from Run Menu Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.runjava.png"></a></p>
+<p><a href="#R-image-79810a1a0ef162886e6d37a0d279345e" class="lightbox-link"><img alt="Run from Run Menu Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/1/1.3.j.3.runjava.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-79810a1a0ef162886e6d37a0d279345e"><img alt="Run from Run Menu Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/1/1.3.j.3.runjava.png"></a></p>
 <p>Again, it looks very similar to the commands we performed earlier. Since the Java bytecode file is in a directory, we have to use a <code>-classpath</code> option to let Java know where to find the file.</p>
 
   
@@ -1781,8 +1781,8 @@ Terminal Codio includes a built-in Linux terminal, which allows us to perform ac
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1723740707" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1723740707" defer></script>
-    <script src="/cc310/js/theme.js?1723740707" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1737134926" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1737134926" defer></script>
+    <script src="/cc310/js/theme.js?1737134926" defer></script>
   </body>
 </html>

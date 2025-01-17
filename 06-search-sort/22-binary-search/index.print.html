@@ -1583,18 +1583,18 @@ Our intuition tells us that it should. Recall that we discussed how much easier 
     <link href="/cc310/06-search-sort/22-binary-search/index.xml" rel="alternate" type="application/rss+xml" title="Binary Search :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/22-binary-search/tele.html" rel="alternate" type="text/html" title="Binary Search :: CC 310 Textbook">
     <link href="/cc310/06-search-sort/22-binary-search/embed.html" rel="alternate" type="text/html" title="Binary Search :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1723740710" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740710" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1723740710" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1723740710" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740710" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1723740710" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1723740710" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740710" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1723740710" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1723740710" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1723740710" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1723740710" rel="stylesheet">
-    <link href="/cc310/css/print.css?1723740710" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1723740710" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1723740710"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1737134928" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1737134928" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1737134928" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1737134928" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1737134928" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1737134928" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1737134928" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1737134928" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1737134928" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1737134928" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1737134928" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1737134928" rel="stylesheet">
+    <link href="/cc310/css/print.css?1737134928" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1737134928" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1737134928"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1614,7 +1614,7 @@ Our intuition tells us that it should. Recall that we discussed how much easier 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1723740710" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1737134928" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/06-search-sort/22-binary-search/">
     <div id="R-body" class="default-animation">
@@ -1661,30 +1661,30 @@ Our intuition tells us that it should. Recall that we discussed how much easier 
 <p>Once an occurrence of the desired value is found, we can also look at the values before it to see if there any more of the desired values in the container. Since it is sorted, they should all be grouped together. If we want our algorithm to return the index of the first occurrence of the desired value, we can simply move toward the front of the array until we find that first occurrence.</p>
 <h2 id="binary-search-example">Binary Search Example</h2>
 <p>Let&rsquo;s work through a quick example of the binary search algorithm to see how it works in practice. Let&rsquo;s assume we have the array shown in the diagram below, which is already sorted in ascending order. We wish to find out if the array contains the value 5. So, we&rsquo;ll store that in our <code>value</code> variable. We also have variables <code>start</code> and <code>end</code> representing the first and last index in the array that we are considering.</p>
-<p><a href="#R-image-599b4bc3c7e5fcef0b6a35c67294a156" class="lightbox-link"><img alt="Binary Search Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-599b4bc3c7e5fcef0b6a35c67294a156"><img alt="Binary Search Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary1.png"></a></p>
+<p><a href="#R-image-018be723e7415c3cd32805f58ecf2e32" class="lightbox-link"><img alt="Binary Search Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-018be723e7415c3cd32805f58ecf2e32"><img alt="Binary Search Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary1.png"></a></p>
 <p>First, we must calculate the middle index of the array. To do that, we can use the following formula.</p>
 $$
 \text{int}((\text{start} + \text{end}) / 2)
 $$
 <p>In this case, we&rsquo;ll find that the middle index is 5.</p>
-<p><a href="#R-image-f8c28283f836970a997b52359e494082" class="lightbox-link"><img alt="Binary Search Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f8c28283f836970a997b52359e494082"><img alt="Binary Search Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary2.png"></a></p>
+<p><a href="#R-image-f6b5a6c9fde1e198095bca561647483b" class="lightbox-link"><img alt="Binary Search Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f6b5a6c9fde1e198095bca561647483b"><img alt="Binary Search Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary2.png"></a></p>
 <p>Next, we&rsquo;ll compare our desired value with the element at the middle index, which is 2. Since our desired value 5 is greater than 2, we know that 5 must be present in the second half of the array. We will then update our starting value to be one greater than the middle element and start over. In practice, this could be done either iteratively or recursively. We&rsquo;ll see both implementations later in this section. The portion of the array we are ignoring has been given a grey background in the diagram below.</p>
-<p><a href="#R-image-aa5e242b3e69d63336e2f9b691431e3b" class="lightbox-link"><img alt="Binary Search Example 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-aa5e242b3e69d63336e2f9b691431e3b"><img alt="Binary Search Example 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary3.png"></a></p>
+<p><a href="#R-image-4e9c33c3c6bea6c34776f9b7951d834f" class="lightbox-link"><img alt="Binary Search Example 3" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4e9c33c3c6bea6c34776f9b7951d834f"><img alt="Binary Search Example 3" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary3.png"></a></p>
 <p>Once again, we&rsquo;ll start by calculating a new middle index. In this case, it will be 8.</p>
-<p><a href="#R-image-c0dc50c786a1200be59bae67aea8e9db" class="lightbox-link"><img alt="Binary Search Example 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c0dc50c786a1200be59bae67aea8e9db"><img alt="Binary Search Example 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary4.png"></a></p>
+<p><a href="#R-image-a32e6c809240029b31e63d070cdb4ef5" class="lightbox-link"><img alt="Binary Search Example 4" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a32e6c809240029b31e63d070cdb4ef5"><img alt="Binary Search Example 4" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary4.png"></a></p>
 <p>The value at index 8 is 7, which is greater than our desired value 5. So we know that 5 should be in the first half of the array from index 6 through 10. We need to update the end variable to be one less than middle and try once again.</p>
-<p><a href="#R-image-8c29dc05e549931fa4e70500f3b50bae" class="lightbox-link"><img alt="Binary Search Example 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary5.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8c29dc05e549931fa4e70500f3b50bae"><img alt="Binary Search Example 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary5.png"></a></p>
+<p><a href="#R-image-3336d1528e175bffd1cbb21d3cdd4850" class="lightbox-link"><img alt="Binary Search Example 5" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary5.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3336d1528e175bffd1cbb21d3cdd4850"><img alt="Binary Search Example 5" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary5.png"></a></p>
 <p>We&rsquo;ll first calculate the middle index, which will be 6. This is because (6 + 7) / 2 is 6.5, but when we convert it to an integer it will be truncated, resulting in just 6.</p>
-<p><a href="#R-image-44d29539beffd8db15604a1e4925391f" class="lightbox-link"><img alt="Binary Search Example 6" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary6.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-44d29539beffd8db15604a1e4925391f"><img alt="Binary Search Example 6" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary6.png"></a></p>
+<p><a href="#R-image-db6906b2b39339d4ecb013db79ec6a42" class="lightbox-link"><img alt="Binary Search Example 6" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary6.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-db6906b2b39339d4ecb013db79ec6a42"><img alt="Binary Search Example 6" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary6.png"></a></p>
 <p>Since the value at index 6 is 4, which is less than our desired value 5, we know that we should be looking at the portion of the array which comes after our middle element. Once again, we&rsquo;ll update our start index to be one greater than the middle and start over.</p>
-<p><a href="#R-image-a6a5bff4311f4182f2f3d88b4ff06cfc" class="lightbox-link"><img alt="Binary Search Example 7" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary7.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a6a5bff4311f4182f2f3d88b4ff06cfc"><img alt="Binary Search Example 7" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary7.png"></a></p>
+<p><a href="#R-image-9c6d6827f09f36cb1ed9fa6109a847aa" class="lightbox-link"><img alt="Binary Search Example 7" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/7/7.22.binary7.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9c6d6827f09f36cb1ed9fa6109a847aa"><img alt="Binary Search Example 7" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/7/7.22.binary7.png"></a></p>
 <p>In this case, since both <code>start</code> and <code>end</code> are the same, we know that the middle index will also be 7.  We can compare the value at index 7 to our desired value. As it turns out, they are a match, so we&rsquo;ve found our value! We can just return <code>middle</code> as the index for this value. Of course, if we want to make sure it is the first instance of our desired value, we can quickly check the elements before it until we find one that isn&rsquo;t our desired value. We won&rsquo;t worry about that for now, but it is something that can easily be added to our code later.</p>
 
             <footer class="footline">
@@ -1708,8 +1708,8 @@ $$
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1723740710" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1723740710" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1737134928" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1737134928" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -1724,7 +1724,7 @@ $$
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1723740710"></script>
-    <script src="/cc310/js/theme.js?1723740710" defer></script>
+    <script id="MathJax-script" async src="/cc310/js/mathjax/tex-mml-chtml.js?1737134928"></script>
+    <script src="/cc310/js/theme.js?1737134928" defer></script>
   </body>
 </html>

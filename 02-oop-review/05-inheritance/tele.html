@@ -1579,17 +1579,17 @@
     <link href="/cc310/02-oop-review/05-inheritance/index.xml" rel="alternate" type="application/rss+xml" title="Inheritance :: CC 310 Textbook">
     <link href="/cc310/02-oop-review/05-inheritance/index.print.html" rel="alternate" type="text/html" title="Inheritance :: CC 310 Textbook">
     <link href="/cc310/02-oop-review/05-inheritance/embed.html" rel="alternate" type="text/html" title="Inheritance :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1723740718" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740718" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1723740718" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1723740718" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740718" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1723740718" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1723740718" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740718" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1723740718" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1723740718" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1723740718" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1723740718" rel="stylesheet">
-    <link href="/cc310/css/print.css?1723740718" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1723740718"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1737134932" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1737134932" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1737134932" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1737134932" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1737134932" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1737134932" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1737134932" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1737134932" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1737134932" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1737134932" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1737134932" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1737134932" rel="stylesheet">
+    <link href="/cc310/css/print.css?1737134932" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1737134932"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1609,7 +1609,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1723740718" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1737134932" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc310/02-oop-review/05-inheritance/">
     
@@ -1634,14 +1634,14 @@
 
 <h2 id="polymorphism">Polymorphism</h2>
 <p>Polymorphsim is a concept that describes the fact that similar objects tend to behave in similar ways, even if they are not exactly alike. For example, if we might have a set of shapes such as a square, a circle, and a rhombus. While each shape shares certain attributes like having an area and a perimeter. However, each shape is also unique and may have differing number of sides and angles between those sides, or in the case of a circle, a diameter. We describe this relationship by saying a circle (or rectangle, or rhombus) &ldquo;is a&rdquo; shape as shown in the figure below.</p>
-<p><a href="#R-image-159748a800ad62d36d2bd1f0fd460282" class="lightbox-link"><img alt="Polymorphism Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/2/2.5.polymorphism.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-159748a800ad62d36d2bd1f0fd460282"><img alt="Polymorphism Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/2/2.5.polymorphism.png"></a></p>
+<p><a href="#R-image-5245232735218b1ebb5f5fd3a0cc1384" class="lightbox-link"><img alt="Polymorphism Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/2/2.5.polymorphism.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5245232735218b1ebb5f5fd3a0cc1384"><img alt="Polymorphism Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/2/2.5.polymorphism.png"></a></p>
 <h2 id="inheritance">Inheritance</h2>
 <p>Inheritance is a mechanism that captures polymorphism by allowing classes to <em>inherit</em> the methods and attributes from another class. The basic purpose of inheritance to to reuse code in a principled and organized manner. We generally call the inheriting class the <em>subclass</em> or <em>child class</em>, while the class it inherits from is called the <em>superclass</em> or <em>parent class</em>.</p>
 <p>Basically, when class &lsquo;A&rsquo; inherits from class &lsquo;B&rsquo;, all the methods and attributes of class &lsquo;A&rsquo; are automatically copied to class &lsquo;B&rsquo;. Class &lsquo;B&rsquo; can then add additional methods or attributes to <em>extend</em> class &lsquo;A&rsquo;, or overwrite the implementations of methods  in class &lsquo;A&rsquo; to <em>specialize</em> it.</p>
 <p>When programming, we use inheritance to implement polymorphism. In our shape example, we would have a generic (or <em>abstract</em>) Shape class, which is inherited by a set of more specific shape classes (or <em>specializations</em>) as shown below.</p>
-<p><a href="#R-image-a53520765d1170986446a3683c78e489" class="lightbox-link"><img alt="Polymorphism Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/2/2.5.inheritance.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a53520765d1170986446a3683c78e489"><img alt="Polymorphism Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/2/2.5.inheritance.png"></a></p>
+<p><a href="#R-image-d1d67dca0475d8613a8893bc2475aea3" class="lightbox-link"><img alt="Polymorphism Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/2/2.5.inheritance.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d1d67dca0475d8613a8893bc2475aea3"><img alt="Polymorphism Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/2/2.5.inheritance.png"></a></p>
 <p>In this example, the Shape class defines the &lsquo;color&rsquo; attribute and the &lsquo;getArea&rsquo; and &lsquo;getCircumference&rsquo; methods, which are inherited by the Rectangle, Circle, and Rhombus classes. Each of the subclasses define additional attributes that are unique to the definition of each shape type.</p>
 <p>Notice that although the Shape class defines the signatures for the &lsquo;getArea&rsquo; and &lsquo;getCircumference&rsquo; methods, it cannot define the implementation of the methods, since this is unique to each subclass shape. Thus, each subclass shape will specialize the Shape class by implementing their own &lsquo;getArea&rsquo; and &lsquo;getCircumference&rsquo; methods.</p>
 <h2 id="multiple-inheritance">Multiple Inheritance</h2>
@@ -1663,11 +1663,11 @@
 
 
 
-<script src="/cc310/js/clipboard.min.js?1723740718" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1723740718" defer></script>
-<script src="/cc310/js/theme.js?1723740718" defer></script>
+<script src="/cc310/js/clipboard.min.js?1737134932" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1737134932" defer></script>
+<script src="/cc310/js/theme.js?1737134932" defer></script>
 
-<script src="/cc310/js/tele-scroll.js?1723740718" defer></script>
+<script src="/cc310/js/tele-scroll.js?1737134932" defer></script>
 
 </body>
 </html>

@@ -1581,19 +1581,19 @@ The solution lies in creating our own specialized data structure where each node
     <meta itemprop="wordCount" content="513">
     <title>Singly Linked Lists :: CC 310 Textbook</title>
     
-  <link href="/cc310/css/fontawesome-all.min.css?1723740700" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740700" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1723740700" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1723740700" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740700" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1723740700" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1723740700" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740700" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1723740700" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1737134922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1737134922" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1737134922" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1737134922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1737134922" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1737134922" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1737134922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1737134922" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1737134922" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1723740700" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1723740700" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1723740700" rel="stylesheet">
-  <link href="/cc310/css/print.css?1723740700" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1737134922" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1737134922" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1737134922" rel="stylesheet">
+  <link href="/cc310/css/print.css?1737134922" rel="stylesheet" media="print">
   
   
   
@@ -1616,7 +1616,7 @@ The solution lies in creating our own specialized data structure where each node
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1723740700" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1737134922" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/04-list/old/4-singly-linked-lists/embed.html">
@@ -1642,16 +1642,16 @@ The solution lies in creating our own specialized data structure where each node
 <p>To solve the disadvantages of arrays, we need a data structure that allows us to insert and remove items in an ordered collection in constant time, independently from the number of items in the data structure.</p>
 <p>The solution lies in creating our own specialized data structure where each node contains the data of interest as well as a reference, or pointer to the next node in the list. Of course, we would also need to have a pointer to the first node in the list, which we call the <code>head</code>.</p>
 <p>The figure below shows how we can construct a linked list data structure. The <code>head</code> entity shown in the figure is a variable that contains a pointer to the first node in the list, in this case the node containing <code>-2</code>. Each node in the list is an object that has two main parts: the data that it holds, and a pointer to the next item in the list.</p>
-<p><a href="#R-image-9c186b31ab140dd81c7ee7616315b1c2" class="lightbox-link"><img alt="Linked Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.listnode.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9c186b31ab140dd81c7ee7616315b1c2"><img alt="Linked Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.listnode.png"></a></p>
+<p><a href="#R-image-66b031e0dcca4a22b4225380d47f41ae" class="lightbox-link"><img alt="Linked Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.listnode.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-66b031e0dcca4a22b4225380d47f41ae"><img alt="Linked Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.listnode.png"></a></p>
 <p>The class representation of a singly linked list <code>Node</code> is shown below. As discussed above, we have two attributes: <code>data</code>, which holds the data of the node, and <code>next</code>, which is a reference or pointer to the next node. We also use a constructor and a standard <code>toString</code> operation to appropriately create a string representation for the data stored in the node.</p>
-<p><a href="#R-image-79eaf05c4e47955f090ccac1951a9c34" class="lightbox-link"><img alt="Linked Node UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.listnodeuml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-79eaf05c4e47955f090ccac1951a9c34"><img alt="Linked Node UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.listnodeuml.png"></a></p>
+<p><a href="#R-image-e322a865da57a7a6938d7c36637ecbf4" class="lightbox-link"><img alt="Linked Node UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.listnodeuml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e322a865da57a7a6938d7c36637ecbf4"><img alt="Linked Node UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.listnodeuml.png"></a></p>
 <h2 id="linked-list">Linked List</h2>
 <p>A list is represented by a special variable <code>head</code> that contains a pointer to the first item in the list. If the <code>head</code> is <code>null</code> (equal to <code>0</code>), then we have an empty list, which is a list with no items in it.</p>
 <p>However, if we have items in the list, <code>head</code> will point to a node as shown in the figure below. This node has some data (in this case <code>-2</code>) and its own pointer that points to the next node in the list. As we can see in our example, <code>head</code> points to a sequence of five nodes that makes up our list. The node with the data 67 in it is the last item in the list since its pointer is <code>null</code>. We often refer to this condition as having a <code>null</code> pointer.</p>
-<p><a href="#R-image-e82750268e1c31874fa758ec23f3a3ad" class="lightbox-link"><img alt="Linked List Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.single.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e82750268e1c31874fa758ec23f3a3ad"><img alt="Linked List Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.single.png"></a></p>
+<p><a href="#R-image-870f0cc4e9ea19c73a6e110a8073d8f8" class="lightbox-link"><img alt="Linked List Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.single.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-870f0cc4e9ea19c73a6e110a8073d8f8"><img alt="Linked List Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.single.png"></a></p>
 <p>While we will not show them explicitly in this module, each pointer is actually an address in memory. If we have a pointer to node <code>X</code> in our node, that means that we actually store the address of <code>X</code> in memory in our node.</p>
 <h2 id="linked-list-class">Linked List Class</h2>
 <p>To capture the necessary details for a singly linked list, we put everything into a class. The singly linked list class has two attributes:</p>
@@ -1672,28 +1672,28 @@ The solution lies in creating our own specialized data structure where each node
 <tbody>
 <tr>
 <td style="text-align:center"><code>node</code></td>
-<td style="text-align:center"><a href="#R-image-084b79e46d364891fede60f610e36abc" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.node.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-084b79e46d364891fede60f610e36abc"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.node.png"></a></td>
+<td style="text-align:center"><a href="#R-image-5af13c10ed733552b3de7479c685c031" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.node.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5af13c10ed733552b3de7479c685c031"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.node.png"></a></td>
 </tr>
 <tr>
 <td style="text-align:center"><code>node.next</code></td>
-<td style="text-align:center"><a href="#R-image-4110ae42c19d92c5ee2d30443cc48f05" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.node.next.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4110ae42c19d92c5ee2d30443cc48f05"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.node.next.png"></a></td>
+<td style="text-align:center"><a href="#R-image-699a7fe1c22e94604c770066c59081d5" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.node.next.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-699a7fe1c22e94604c770066c59081d5"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.node.next.png"></a></td>
 </tr>
 <tr>
 <td style="text-align:center"><code>node.next.next</code></td>
-<td style="text-align:center"><a href="#R-image-a0224c79fd9fe015ac32b9dd8d6970e8" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.node.next.next.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a0224c79fd9fe015ac32b9dd8d6970e8"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.node.next.next.png"></a></td>
+<td style="text-align:center"><a href="#R-image-e686da825559715f63a314b4f8899342" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.node.next.next.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e686da825559715f63a314b4f8899342"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.node.next.next.png"></a></td>
 </tr>
 <tr>
 <td style="text-align:center"><code>head</code></td>
-<td style="text-align:center"><a href="#R-image-ef72339b67dd4fd0851dfcc02ba999ed" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.head.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ef72339b67dd4fd0851dfcc02ba999ed"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.head.png"></a></td>
+<td style="text-align:center"><a href="#R-image-da806c69dc67f564cc6bc75450c98236" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.head.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-da806c69dc67f564cc6bc75450c98236"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.head.png"></a></td>
 </tr>
 <tr>
 <td style="text-align:center"><code>head.next</code></td>
-<td style="text-align:center"><a href="#R-image-96d97f9e47d89c29fa1a12421ef3413a" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.head.next.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-96d97f9e47d89c29fa1a12421ef3413a"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.head.next.png"></a></td>
+<td style="text-align:center"><a href="#R-image-f3c3c7c0acb13ed732c68a23f5b40141" class="lightbox-link"><img alt="Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/9/9.4.head.next.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f3c3c7c0acb13ed732c68a23f5b40141"><img alt="Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/9/9.4.head.next.png"></a></td>
 </tr>
 </tbody>
 </table>
@@ -1711,10 +1711,10 @@ The solution lies in creating our own specialized data structure where each node
 
 
 
-<script src="/cc310/js/clipboard.min.js?1723740700" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1723740700" defer></script>
-<script src="/cc310/js/theme.js?1723740700" defer></script>
+<script src="/cc310/js/clipboard.min.js?1737134922" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1737134922" defer></script>
+<script src="/cc310/js/theme.js?1737134922" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1723740700" defer></script>
+<script src="/cc310/js/embed-iframe.js?1737134922" defer></script>
 </body>
 </html>

@@ -1587,17 +1587,17 @@ Minimum Spanning Trees (MST) A minimum spanning tree is a spanning tree that has
     <link href="/cc310/11-graph-algorithms/08-minimum-spanning-trees/index.print.html" rel="alternate" type="text/html" title="Minimum Spanning Trees :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/08-minimum-spanning-trees/tele.html" rel="alternate" type="text/html" title="Minimum Spanning Trees :: CC 310 Textbook">
     <link href="/cc310/11-graph-algorithms/08-minimum-spanning-trees/embed.html" rel="alternate" type="text/html" title="Minimum Spanning Trees :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1723740693" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740693" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1723740693" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1723740693" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740693" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1723740693" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1723740693" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740693" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1723740693" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1723740693" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1723740693" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1723740693" rel="stylesheet">
-    <link href="/cc310/css/print.css?1723740693" rel="stylesheet" media="print">
-    <script src="/cc310/js/variant.js?1723740693"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1737134919" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1737134919" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1737134919" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1737134919" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1737134919" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1737134919" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1737134919" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1737134919" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1737134919" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1737134919" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1737134919" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1737134919" rel="stylesheet">
+    <link href="/cc310/css/print.css?1737134919" rel="stylesheet" media="print">
+    <script src="/cc310/js/variant.js?1737134919"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -1617,7 +1617,7 @@ Minimum Spanning Trees (MST) A minimum spanning tree is a spanning tree that has
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1723740693" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1737134919" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc310/11-graph-algorithms/08-minimum-spanning-trees/">
     <div id="R-body" class="default-animation">
@@ -1690,18 +1690,18 @@ Minimum Spanning Trees (MST) A minimum spanning tree is a spanning tree that has
 
 <p>Now that we have an understanding of general spanning trees, we will introduce the concept of minimum spanning trees. First let&rsquo;s introduce the concept of the cost of a tree.</p>
 <p>The <strong>cost</strong> that is associated with a tree, is the sum of its edges weights. Let&rsquo;s look at this spanning tree which is from the previous page. The cost associated with this spanning tree is: <code>2+6+10+14=32</code>.</p>
-<p><a href="#R-image-081608bb574dc3f99066dbc22f7a5abe" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_cost.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-081608bb574dc3f99066dbc22f7a5abe"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_cost.svg"></a></p>
+<p><a href="#R-image-8a260daf8b5a7b77a83e8e4101f3f9d1" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_cost.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8a260daf8b5a7b77a83e8e4101f3f9d1"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_cost.svg"></a></p>
 <h3 id="minimum-spanning-trees-mst">Minimum Spanning Trees (MST)</h3>
 <p>A <strong>minimum spanning tree</strong> is a spanning tree that has the smallest cost. Recall the graph from the previous page.</p>
-<p><a href="#R-image-c90253a1abb9d94c7395843ac89852a8" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c90253a1abb9d94c7395843ac89852a8"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg"></a></p>
+<p><a href="#R-image-019089a5523d38ca5da5479fc88db684" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-019089a5523d38ca5da5479fc88db684"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1.svg"></a></p>
 <p>Below on the left is a minimum spanning tree for the graph above. On the right is an example of a spanning tree, though it does not have the minimum cost.</p>
-<p><a href="#R-image-6036e3a7544160c0ca57c08ee28139e3" class="lightbox-link"><img alt="Minimum Spanning Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1MST.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6036e3a7544160c0ca57c08ee28139e3"><img alt="Minimum Spanning Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1MST.svg"></a></p>
+<p><a href="#R-image-8a22705a4aecf45c8f8cc070afd58e2a" class="lightbox-link"><img alt="Minimum Spanning Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9_tree1MST.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8a22705a4aecf45c8f8cc070afd58e2a"><img alt="Minimum Spanning Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9_tree1MST.svg"></a></p>
 <p>In this small example, it is rather straightforward to find the minimum spanning tree. We can use a bit of trial and error to determine if we have the minimum spanning tree or not. However, once the graphs start to get more nodes and more edges it quickly becomes more complicated.</p>
-<p><a href="#R-image-3ac19c010205258d47834ea41efa60f2" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9lrgTree.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3ac19c010205258d47834ea41efa60f2"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9lrgTree.svg"></a></p>
+<p><a href="#R-image-ec30b167dbe7981f51694d7edd112249" class="lightbox-link"><img alt="Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/16/315_9lrgTree.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ec30b167dbe7981f51694d7edd112249"><img alt="Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/16/315_9lrgTree.svg"></a></p>
 <p>There are two algorithms that we will introduce to give us a methodical way of finding the minimum spanning tree. The first that we will look at is Kruskal&rsquo;s algorithm and then we will look at Prim&rsquo;s algorithm.</p>
 
             <footer class="footline">
@@ -1746,12 +1746,12 @@ Minimum Spanning Trees (MST) A minimum spanning tree is a spanning tree that has
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc310/js/auto-complete.js?1723740693" defer></script>
-        <script src="/cc310/js/lunr/lunr.min.js?1723740693" defer></script>
-        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1723740693" defer></script>
-        <script src="/cc310/js/lunr/lunr.multi.min.js?1723740693" defer></script>
-        <script src="/cc310/js/lunr/lunr.en.min.js?1723740693" defer></script>
-        <script src="/cc310/js/search.js?1723740693" defer></script>
+        <script src="/cc310/js/auto-complete.js?1737134919" defer></script>
+        <script src="/cc310/js/lunr/lunr.min.js?1737134919" defer></script>
+        <script src="/cc310/js/lunr/lunr.stemmer.support.min.js?1737134919" defer></script>
+        <script src="/cc310/js/lunr/lunr.multi.min.js?1737134919" defer></script>
+        <script src="/cc310/js/lunr/lunr.en.min.js?1737134919" defer></script>
+        <script src="/cc310/js/search.js?1737134919" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -2015,8 +2015,8 @@ Minimum Spanning Trees (MST) A minimum spanning tree is a spanning tree that has
         </div>
       </div>
     </aside>
-    <script src="/cc310/js/clipboard.min.js?1723740693" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1723740693" defer></script>
-    <script src="/cc310/js/theme.js?1723740693" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1737134919" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1737134919" defer></script>
+    <script src="/cc310/js/theme.js?1737134919" defer></script>
   </body>
 </html>

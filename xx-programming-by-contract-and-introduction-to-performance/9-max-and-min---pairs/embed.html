@@ -1585,19 +1585,19 @@ The variable max holds the maximum of all the numbers considered so far The vari
     <meta itemprop="wordCount" content="388">
     <title>Max and Min - Pairs :: CC 310 Textbook</title>
     
-  <link href="/cc310/css/fontawesome-all.min.css?1723740705" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740705" rel="stylesheet"></noscript>
-  <link href="/cc310/css/nucleus.css?1723740705" rel="stylesheet">
-  <link href="/cc310/css/auto-complete.css?1723740705" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740705" rel="stylesheet"></noscript>
-  <link href="/cc310/css/perfect-scrollbar.min.css?1723740705" rel="stylesheet">
-  <link href="/cc310/css/fonts.css?1723740705" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740705" rel="stylesheet"></noscript>
-  <link href="/cc310/css/theme.css?1723740705" rel="stylesheet">
+  <link href="/cc310/css/fontawesome-all.min.css?1737134925" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1737134925" rel="stylesheet"></noscript>
+  <link href="/cc310/css/nucleus.css?1737134925" rel="stylesheet">
+  <link href="/cc310/css/auto-complete.css?1737134925" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1737134925" rel="stylesheet"></noscript>
+  <link href="/cc310/css/perfect-scrollbar.min.css?1737134925" rel="stylesheet">
+  <link href="/cc310/css/fonts.css?1737134925" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1737134925" rel="stylesheet"></noscript>
+  <link href="/cc310/css/theme.css?1737134925" rel="stylesheet">
   
   
   
-  <link href="/cc310/css/theme-light-theme.css?1723740705" rel="stylesheet" id="R-variant-style">
-  <link href="/cc310/css/chroma-relearn-light.css?1723740705" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc310/css/variant.css?1723740705" rel="stylesheet">
-  <link href="/cc310/css/print.css?1723740705" rel="stylesheet" media="print">
+  <link href="/cc310/css/theme-light-theme.css?1737134925" rel="stylesheet" id="R-variant-style">
+  <link href="/cc310/css/chroma-relearn-light.css?1737134925" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc310/css/variant.css?1737134925" rel="stylesheet">
+  <link href="/cc310/css/print.css?1737134925" rel="stylesheet" media="print">
   
   
   
@@ -1620,7 +1620,7 @@ The variable max holds the maximum of all the numbers considered so far The vari
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc310/css/custom.css?1723740705" rel="stylesheet">
+  <link href="/cc310/css/custom.css?1737134925" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc310/xx-programming-by-contract-and-introduction-to-performance/9-max-and-min---pairs/embed.html">
@@ -1650,16 +1650,16 @@ The variable max holds the maximum of all the numbers considered so far The vari
 <li>The variable <code>min</code> holds the minimum of all the numbers considered so far</li>
 </ol>
 <p>The algorithm is depicted by the following flowchart and pseudocode:</p>
-<p><a href="#R-image-5bbba22aaa477215e3a9ffaa3c4d8e45" class="lightbox-link"><img alt="Min Max Flowchart Base" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/3/3.9.base.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5bbba22aaa477215e3a9ffaa3c4d8e45"><img alt="Min Max Flowchart Base" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/3/3.9.base.png"></a></p>
+<p><a href="#R-image-35f240720ce4ed99acc355b03bfff086" class="lightbox-link"><img alt="Min Max Flowchart Base" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/3/3.9.base.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-35f240720ce4ed99acc355b03bfff086"><img alt="Min Max Flowchart Base" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/3/3.9.base.png"></a></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">print &#34;Enter a Number:&#34;
 </span></span><span class="line"><span class="cl">input X
 </span></span><span class="line"><span class="cl">MAX = X
 </span></span><span class="line"><span class="cl">MIN = X</span></span></code></pre></div><h2 id="the-next-two-numbers">The Next Two Numbers</h2>
 <p>In this program, instead of just considering one number at a time, we&rsquo;ll ask the user to input two numbers. Then, we can determine which of those two inputs is larger (we&rsquo;ll call it <code>lastmax</code>), and compare it to the value in <code>max</code>. Similarly, we can do the same for the smaller value (called <code>lastmin</code>) and <code>min</code>. Would this program be more efficient?</p>
 <p>The algorithm is depicted by the following flowchart and pseudocode:</p>
-<p><a href="#R-image-b0f09511c682ed5c6dbcc766c60314d7" class="lightbox-link"><img alt="Min Max Pairs Loop" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/3/3.10.loop.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b0f09511c682ed5c6dbcc766c60314d7"><img alt="Min Max Pairs Loop" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/3/3.10.loop.png"></a></p>
+<p><a href="#R-image-ca3b7d7a49612b9658d82fa2c7f8c792" class="lightbox-link"><img alt="Min Max Pairs Loop" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/3/3.10.loop.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ca3b7d7a49612b9658d82fa2c7f8c792"><img alt="Min Max Pairs Loop" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/3/3.10.loop.png"></a></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">loop I from 1 to 10 step by 2:
 </span></span><span class="line"><span class="cl">    output &#34;Enter a Number:&#34;
 </span></span><span class="line"><span class="cl">    input X
@@ -1717,10 +1717,10 @@ The variable max holds the maximum of all the numbers considered so far The vari
 
 
 
-<script src="/cc310/js/clipboard.min.js?1723740705" defer></script>
-<script src="/cc310/js/perfect-scrollbar.min.js?1723740705" defer></script>
-<script src="/cc310/js/theme.js?1723740705" defer></script>
+<script src="/cc310/js/clipboard.min.js?1737134925" defer></script>
+<script src="/cc310/js/perfect-scrollbar.min.js?1737134925" defer></script>
+<script src="/cc310/js/theme.js?1737134925" defer></script>
 
-<script src="/cc310/js/embed-iframe.js?1723740705" defer></script>
+<script src="/cc310/js/embed-iframe.js?1737134925" defer></script>
 </body>
 </html>

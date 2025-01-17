@@ -1577,18 +1577,18 @@
     <link href="/cc310/09-trees/index.xml" rel="alternate" type="application/rss+xml" title="Trees :: CC 310 Textbook">
     <link href="/cc310/09-trees/tele.html" rel="alternate" type="text/html" title="Trees :: CC 310 Textbook">
     <link href="/cc310/09-trees/embed.html" rel="alternate" type="text/html" title="Trees :: CC 310 Textbook">
-    <link href="/cc310/css/fontawesome-all.min.css?1723740711" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1723740711" rel="stylesheet"></noscript>
-    <link href="/cc310/css/nucleus.css?1723740711" rel="stylesheet">
-    <link href="/cc310/css/auto-complete.css?1723740711" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1723740711" rel="stylesheet"></noscript>
-    <link href="/cc310/css/perfect-scrollbar.min.css?1723740711" rel="stylesheet">
-    <link href="/cc310/css/fonts.css?1723740711" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1723740711" rel="stylesheet"></noscript>
-    <link href="/cc310/css/theme.css?1723740711" rel="stylesheet">
-    <link href="/cc310/css/theme-auto.css?1723740711" rel="stylesheet" id="R-variant-style">
-    <link href="/cc310/css/chroma-auto.css?1723740711" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc310/css/variant.css?1723740711" rel="stylesheet">
-    <link href="/cc310/css/print.css?1723740711" rel="stylesheet" media="print">
-    <link href="/cc310/css/format-print.css?1723740711" rel="stylesheet">
-    <script src="/cc310/js/variant.js?1723740711"></script>
+    <link href="/cc310/css/fontawesome-all.min.css?1737134928" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fontawesome-all.min.css?1737134928" rel="stylesheet"></noscript>
+    <link href="/cc310/css/nucleus.css?1737134928" rel="stylesheet">
+    <link href="/cc310/css/auto-complete.css?1737134928" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/auto-complete.css?1737134928" rel="stylesheet"></noscript>
+    <link href="/cc310/css/perfect-scrollbar.min.css?1737134928" rel="stylesheet">
+    <link href="/cc310/css/fonts.css?1737134928" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc310/css/fonts.css?1737134928" rel="stylesheet"></noscript>
+    <link href="/cc310/css/theme.css?1737134928" rel="stylesheet">
+    <link href="/cc310/css/theme-auto.css?1737134928" rel="stylesheet" id="R-variant-style">
+    <link href="/cc310/css/chroma-auto.css?1737134928" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc310/css/variant.css?1737134928" rel="stylesheet">
+    <link href="/cc310/css/print.css?1737134928" rel="stylesheet" media="print">
+    <link href="/cc310/css/format-print.css?1737134928" rel="stylesheet">
+    <script src="/cc310/js/variant.js?1737134928"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..';
@@ -1608,7 +1608,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc310/css/custom.css?1723740711" rel="stylesheet">
+    <link href="/cc310/css/custom.css?1737134928" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc310/09-trees/">
     <div id="R-body" class="default-animation">
@@ -1670,19 +1670,19 @@
 <p>For the next data structure in the course, we will cover trees, which are used to show hierarchical data. Trees can have many shapes and sizes and there is a wide variety of data that can be organized using them. Real world data that is appropriate for trees can include: family trees, management structures, file systems, biological classifications, anatomical structures and much more.</p>
 <hr>
 <p>We can look at an example of a tree and the relationships they can show. Consider this file tree; it has folders and files in folders.</p>
-<p><a href="#R-image-8f58e9d00f27e8f7468848e5b5178212" class="lightbox-link"><img alt="File Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2FileTree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8f58e9d00f27e8f7468848e5b5178212"><img alt="File Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2FileTree.png"></a></p>
+<p><a href="#R-image-254ff67812e0f8688da2b54938ea7fa2" class="lightbox-link"><img alt="File Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2FileTree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-254ff67812e0f8688da2b54938ea7fa2"><img alt="File Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2FileTree.png"></a></p>
 <p>If we wanted to access the file <code>elm.txt</code>, we would have to follow this file path: <code>Foo/B/Q/E/elm.txt</code>. We can similarly store the file structure as a tree like we below. As before, if we wanted to get to the file <code>elm.txt</code> we would navigate the tree in the order: <code>Foo -&gt; B -&gt; Q -&gt; E -&gt; elm.txt</code>. As mentioned before, trees can be used on very diverse data sets; they are not limited to file trees!</p>
-<p><a href="#R-image-6e16a01932e286ed611e5b46464ac54a" class="lightbox-link"><img alt="File Tree as Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_FileTree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6e16a01932e286ed611e5b46464ac54a"><img alt="File Tree as Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_FileTree.png"></a></p>
+<p><a href="#R-image-c82f8ab522974c5fca3b6f34fea002da" class="lightbox-link"><img alt="File Tree as Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_FileTree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c82f8ab522974c5fca3b6f34fea002da"><img alt="File Tree as Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_FileTree.png"></a></p>
 <h2 id="what-are-trees">What are trees?</h2>
 <p>In the last module we talked about strings which are a linear data structure. To be explicit, this means that the elements in a string form a line of characters. A tree, by contrast, is a <strong>hierarchal structure</strong> which is utilized best in multidimensional data. Going back to our file tree example, folders are not limited to just one file, there can be multiple files contained in a single folder- thus making it multidimensional.</p>
 <p>Consider the string &ldquo;abc123&rdquo;; this is a linear piece of data where there is exactly one character after another. We can use trees to show linear data as well.</p>
-<p><a href="#R-image-4f494fdfb38fb07f35790e961e33b131" class="lightbox-link"><img alt="String as Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_String.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4f494fdfb38fb07f35790e961e33b131"><img alt="String as Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_String.png"></a></p>
+<p><a href="#R-image-fc2df5cd8f60572e2f9593efc96c8bc6" class="lightbox-link"><img alt="String as Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_String.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fc2df5cd8f60572e2f9593efc96c8bc6"><img alt="String as Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_String.png"></a></p>
 <p>While trees <em>can</em> be used for linear data, it would be excessive and inefficient to implement them for single strings. In an upcoming module, we will see how we can use trees to represent any number of strings! For example, this tree below contains 7 words: &lsquo;a&rsquo;, &lsquo;an&rsquo;, &lsquo;and&rsquo;, &lsquo;ant&rsquo;, &lsquo;any&rsquo;, &lsquo;all&rsquo;, and &lsquo;alp&rsquo;.</p>
-<p><a href="#R-image-0b7e26728d7e3be3764eaa067c8b2f0e" class="lightbox-link"><img alt="Small Words" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0b7e26728d7e3be3764eaa067c8b2f0e"><img alt="Small Words" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png"></a></p>
+<p><a href="#R-image-e94598a02222bd5f0c5bfc94a289347c" class="lightbox-link"><img alt="Small Words" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e94598a02222bd5f0c5bfc94a289347c"><img alt="Small Words" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SmallWords.png"></a></p>
 <p>In the next sections, we will discuss the properties of a tree data structure and how we would design one ourselves. Once we have a good understanding of trees and the properties of trees, we will implement our own.</p>
 
             <footer class="footline">
@@ -1721,15 +1721,15 @@
 
 <p><a href="/cc310/09-trees/02-general-terms/video/">Video Materials</a></p>
 <p>To get ourselves comfortable in working with trees, we will outline some standard vocabulary. Throughout this section, we will use the following tree as a guiding example for visualizing the definitions.<br>
-<a href="#R-image-03fdc221a95307994e9e9811b3cfb1e4" class="lightbox-link"><img alt="Blank" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Blank.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-03fdc221a95307994e9e9811b3cfb1e4"><img alt="Blank" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Blank.png"></a></p>
+<a href="#R-image-49a764a3f5ba65293ea90499b101d3eb" class="lightbox-link"><img alt="Blank" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Blank.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-49a764a3f5ba65293ea90499b101d3eb"><img alt="Blank" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Blank.png"></a></p>
 <h2 id="definitions">Definitions</h2>
 <ul>
 <li><code>Node</code> - the general term for a structure which contains an item, such as a character or even another data structure.</li>
 <li><code>Edge</code> - the connection between two nodes. In a tree, the edge will be pointing in a downward direction.</li>
 </ul>
-<p><a href="#R-image-b1a9d249d79c0e344a07eed3382236d5" class="lightbox-link"><img alt="Nodes and Edges" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_NodeEdge.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b1a9d249d79c0e344a07eed3382236d5"><img alt="Nodes and Edges" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_NodeEdge.png"></a></p>
+<p><a href="#R-image-1d4786b7e4702bf26e26dc64ab260efd" class="lightbox-link"><img alt="Nodes and Edges" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_NodeEdge.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1d4786b7e4702bf26e26dc64ab260efd"><img alt="Nodes and Edges" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_NodeEdge.png"></a></p>
 <p>This tree has five edges and six nodes. There is no limit to the number of nodes in a tree. The only stipulation is that the tree is <code>fully connected</code>. This means that there cannot be disjoint portions of the tree. We will look at examples in the next section.</p>
 
   
@@ -1745,8 +1745,8 @@
 <ul>
 <li><code>Root</code> - the topmost node of the tree</li>
 </ul>
-<p><a href="#R-image-385e4b09bf6494378b9e005238a0ef75" class="lightbox-link"><img alt="Root" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Root.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-385e4b09bf6494378b9e005238a0ef75"><img alt="Root" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Root.png"></a></p>
+<p><a href="#R-image-ac81e8174399a3ab54e662ad41ebaae9" class="lightbox-link"><img alt="Root" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Root.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ac81e8174399a3ab54e662ad41ebaae9"><img alt="Root" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Root.png"></a></p>
 <p>To be a tree, there must be exactly one root. Having multiple roots, will result in a <code>cycle</code> or a tree that is not <code>fully connected</code>. In short, a <code>cycle</code> is a loop in the tree.</p>
 <hr>
 <ul>
@@ -1754,10 +1754,10 @@
 <li><code>Child</code> - a node with an edge that connects to another node closer to the root.
 <ul>
 <li>In a general tree, the children of a node are an unordered set. There is not a fixed or defined order for generic trees.
-<a href="#R-image-529402f4558a3fb8d487013fd1e462c3" class="lightbox-link"><img alt="Parent and Child" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_ParentChild1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-529402f4558a3fb8d487013fd1e462c3"><img alt="Parent and Child" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_ParentChild1.png"></a>
-<a href="#R-image-282a9c66067cb692ad9b09d422f1e064" class="lightbox-link"><img alt="Parent and Child" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_ParentChild2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-282a9c66067cb692ad9b09d422f1e064"><img alt="Parent and Child" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_ParentChild2.png"></a>
+<a href="#R-image-359ed227fe03abf917f6e592d34401d9" class="lightbox-link"><img alt="Parent and Child" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_ParentChild1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-359ed227fe03abf917f6e592d34401d9"><img alt="Parent and Child" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_ParentChild1.png"></a>
+<a href="#R-image-b964b395544f8bff9f26c485e3d16b12" class="lightbox-link"><img alt="Parent and Child" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_ParentChild2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b964b395544f8bff9f26c485e3d16b12"><img alt="Parent and Child" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_ParentChild2.png"></a>
 In a tree, child nodes must have exactly one parent node. If a child node has more than one parent, then a <code>cycle</code> will occur. If there is a node without a parent node, then this is necessarily the root node. There is no limit to the number of child nodes a parent node can have, but to be a parent node, the node must have at least one child node.</li>
 </ul>
 </li>
@@ -1765,8 +1765,8 @@ In a tree, child nodes must have exactly one parent node. If a child node has mo
 <hr>
 <ul>
 <li><code>Leaf</code> - a node with no children.
-<a href="#R-image-9364fa57aa5f960fc38b86127ad2d06c" class="lightbox-link"><img alt="Leaf" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Leaf.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9364fa57aa5f960fc38b86127ad2d06c"><img alt="Leaf" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Leaf.png"></a>
+<a href="#R-image-02bdbc312da66d0f6cf5011bf81640d7" class="lightbox-link"><img alt="Leaf" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Leaf.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-02bdbc312da66d0f6cf5011bf81640d7"><img alt="Leaf" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Leaf.png"></a>
 This tree has four leaves. There is no limit to how many leaves can be in a tree.</li>
 </ul>
 <hr>
@@ -1775,8 +1775,8 @@ This tree has four leaves. There is no limit to how many leaves can be in a tree
 <ul>
 <li><code>Degree of a node</code> - the number of children a node has. The degree of a leaf is zero.</li>
 <li><code>Degree of a tree</code> - the degree of an entire tree is the <strong>largest</strong> degree of any node found in the tree.
-<a href="#R-image-b95f622032ea5cfcc8473875bcaa7ccc" class="lightbox-link"><img alt="Degree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Degree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b95f622032ea5cfcc8473875bcaa7ccc"><img alt="Degree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Degree.png"></a></li>
+<a href="#R-image-4a48e31ec16df07560baaf75322c4259" class="lightbox-link"><img alt="Degree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Degree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4a48e31ec16df07560baaf75322c4259"><img alt="Degree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Degree.png"></a></li>
 </ul>
 </li>
 </ul>
@@ -1784,8 +1784,8 @@ This tree has four leaves. There is no limit to how many leaves can be in a tree
 <hr>
 <ul>
 <li>A <code>tree</code> is defined recursively. This means that each child of the root is the root of another tree and the children of those are roots to trees as well. Again, this is a recursive definition so it will continue to the leaves. The leaves are also trees with just a single node as the root.<br>
-<a href="#R-image-d78ccbae0d5f4ebdb50222521d4e6782" class="lightbox-link"><img alt="Subtrees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d78ccbae0d5f4ebdb50222521d4e6782"><img alt="Subtrees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png"></a>
+<a href="#R-image-b04f67be8ac8164af43f203937f6b91d" class="lightbox-link"><img alt="Subtrees" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b04f67be8ac8164af43f203937f6b91d"><img alt="Subtrees" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_SubTree.png"></a>
 In our example tree, we have six trees. Each tree is outlined in a red dashed circle:
 <ul>
 <li>the main tree,
@@ -1841,18 +1841,18 @@ In our example tree, we have six trees. Each tree is outlined in a red dashed ci
 <ul>
 <li>
 <p>A tree with a single node; just a root,
-<a href="#R-image-8c4ed9414f5583a4b86475b09dc8434e" class="lightbox-link"><img alt="Single" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Simple.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8c4ed9414f5583a4b86475b09dc8434e"><img alt="Single" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Simple.png"></a></p>
+<a href="#R-image-60679b005777604aea8bb1444ada1d29" class="lightbox-link"><img alt="Single" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Simple.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-60679b005777604aea8bb1444ada1d29"><img alt="Single" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Simple.png"></a></p>
 </li>
 <li>
 <p>A tree where each node has a single child, or
-<a href="#R-image-51c78712c7d630a397fc023d7dd8b8b4" class="lightbox-link"><img alt="Linear" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Linear.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-51c78712c7d630a397fc023d7dd8b8b4"><img alt="Linear" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Linear.png"></a></p>
+<a href="#R-image-b42f70fa0e1bdc4693a339eeb94fccff" class="lightbox-link"><img alt="Linear" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Linear.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b42f70fa0e1bdc4693a339eeb94fccff"><img alt="Linear" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Linear.png"></a></p>
 </li>
 <li>
 <p>A tree where nodes have many children.
-<a href="#R-image-48ddeb7bfd777aa8ebc929b6cdeaf267" class="lightbox-link"><img alt="Linear" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Wide.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-48ddeb7bfd777aa8ebc929b6cdeaf267"><img alt="Linear" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Wide.png"></a></p>
+<a href="#R-image-d33ab1158491f37e6c7fc536bbba1544" class="lightbox-link"><img alt="Linear" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Wide.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d33ab1158491f37e6c7fc536bbba1544"><img alt="Linear" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Wide.png"></a></p>
 </li>
 </ul>
 <h2 id="invalid-trees">Invalid Trees</h2>
@@ -1860,26 +1860,26 @@ In our example tree, we have six trees. Each tree is outlined in a red dashed ci
 <ul>
 <li>
 <p>A cycle
-<a href="#R-image-e5ef053c8f5dcce19248a59f687122ce" class="lightbox-link"><img alt="Cycle" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Cycle.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e5ef053c8f5dcce19248a59f687122ce"><img alt="Cycle" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Cycle.png"></a>
+<a href="#R-image-91e03c25c87608b35b3b49ca02324dd7" class="lightbox-link"><img alt="Cycle" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Cycle.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-91e03c25c87608b35b3b49ca02324dd7"><img alt="Cycle" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Cycle.png"></a>
 Again, cycles are essentially loops that occur in our tree. In this example, we see that our leaf has two parents. One way to determine whether your data structure has a cycle is if there is more than one way to get from the root to any node.</p>
 </li>
 <li>
 <p>A cycle
-<a href="#R-image-09f7194513fee62b9829f45855eec846" class="lightbox-link"><img alt="Cycle" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Cycle2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-09f7194513fee62b9829f45855eec846"><img alt="Cycle" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Cycle2.png"></a>
+<a href="#R-image-2ff490aa50e34cc0cba48efa8d26cd2b" class="lightbox-link"><img alt="Cycle" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Cycle2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2ff490aa50e34cc0cba48efa8d26cd2b"><img alt="Cycle" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Cycle2.png"></a>
 Here we can see another cycle. In this case, the node immediately after the root has two parents, which is a clue that a cycle exists. Another test</p>
 </li>
 <li>
 <p>Two Roots
-<a href="#R-image-455ea5f20f429dc160b3bad0febf1d8d" class="lightbox-link"><img alt="Two Roots" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_TwoRoots.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-455ea5f20f429dc160b3bad0febf1d8d"><img alt="Two Roots" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_TwoRoots.png"></a>
+<a href="#R-image-5aad213669a69298312215499278b2d2" class="lightbox-link"><img alt="Two Roots" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_TwoRoots.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5aad213669a69298312215499278b2d2"><img alt="Two Roots" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_TwoRoots.png"></a>
 Trees must have a single root. In this instance, it may look like we have a tree with two roots. Working through this, we also see that the node in the center has two parents.</p>
 </li>
 <li>
 <p>Two Trees
-<a href="#R-image-042553d772ed7ed94e1e09f5711242f5" class="lightbox-link"><img alt="Double Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_DoubleTree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-042553d772ed7ed94e1e09f5711242f5"><img alt="Double Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_DoubleTree.png"></a>
+<a href="#R-image-12f97bc7c6ce86fd1d2bc4386a6ba7f7" class="lightbox-link"><img alt="Double Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_DoubleTree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-12f97bc7c6ce86fd1d2bc4386a6ba7f7"><img alt="Double Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_DoubleTree.png"></a>
 This example would be considered two trees, not a tree with two parts. In this figure, we have two fully connected components. Since they are not connected to each other, this is not a single tree.</p>
 </li>
 </ul>
@@ -1913,11 +1913,11 @@ This example would be considered two trees, not a tree with two parts. In this f
 <hr>
 <h3 id="mytree">MyTree</h3>
 <p>Recall that trees are defined recursively so we can build them from the leaves up where each leaf is a tree itself. Each tree will have three properties: the item it contains as an object, its parent node of type MyTree, and its children as a list of MyTrees. Upon instantiation of a new MyTree, we will set the item value and initialize the parent node to None and the children to an empty list of type MyTree.</p>
-<p><a href="#R-image-b06c4fd7ce8ecf0b55e76237eeef874a" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/tree_uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b06c4fd7ce8ecf0b55e76237eeef874a"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/tree_uml.png"></a></p>
+<p><a href="#R-image-1383717ed563cfc4ca30fa6fe49eae95" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/tree_uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1383717ed563cfc4ca30fa6fe49eae95"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/tree_uml.png"></a></p>
 <p>Suppose that we wanted to construct the following tree.</p>
-<p><a href="#R-image-0b6c004468e81f39dfe43ef66574f7e2" class="lightbox-link"><img alt="Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Implementation.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0b6c004468e81f39dfe43ef66574f7e2"><img alt="Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Implementation.png"></a></p>
+<p><a href="#R-image-f18b30cf6e184a961e9a5965f21e3ffa" class="lightbox-link"><img alt="Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Implementation.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f18b30cf6e184a961e9a5965f21e3ffa"><img alt="Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Implementation.png"></a></p>
 <p>We would start by initializing each node as a tree with no parent, no children, and the item in this instance would be the characters. Then we build it up level by level by add the appropriate children to the respective parent.</p>
 
   
@@ -2008,8 +2008,8 @@ This example would be considered two trees, not a tree with two parts. In this f
 </span></span><span class="line"><span class="cl">    ELSE
 </span></span><span class="line"><span class="cl">        return FALSE
 </span></span><span class="line"><span class="cl">end function</span></span></code></pre></div><p>As with adding a child, we need to ensure that we are in the &lsquo;right place&rsquo; when attempting to remove a child. When removing a child, we are not &rsquo;erasing&rsquo; it, we are just cutting the tie from parent to child and child to parent. Consider removing <code>d</code> from <code>a</code>. Visually, we would have two disjoint trees, shown below:</p>
-<p><a href="#R-image-a10a801e498e613de1f8c2a90ffa1baa" class="lightbox-link"><img alt="Tree 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Implementation2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a10a801e498e613de1f8c2a90ffa1baa"><img alt="Tree 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Implementation2.png"></a></p>
+<p><a href="#R-image-9adbdf974df0df5804c03e44c41c4298" class="lightbox-link"><img alt="Tree 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/2Tree_Implementation2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9adbdf974df0df5804c03e44c41c4298"><img alt="Tree 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/2Tree_Implementation2.png"></a></p>
 <p>In code, we would have:</p>
 <ul>
 <li>MyTree <code>a</code> with parent_node = None, item = &lsquo;A&rsquo;, children = {<code>b</code>,<code>c</code>}</li>
@@ -2048,8 +2048,8 @@ This example would be considered two trees, not a tree with two parts. In this f
 <a href="https://www.youtube.com/watch?v=uSagfd4L2D8">YouTube Video</a>
 
 <p>Many of the terms used in trees relate to terms used in family trees. Having this in mind can help us to better understand some of the terminology involved with abstract trees. Here we have a sample family tree.
-<a href="#R-image-13c20208f6c83591b6ec64fb8bab4b13" class="lightbox-link"><img alt="Family Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_FamilyTree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-13c20208f6c83591b6ec64fb8bab4b13"><img alt="Family Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_FamilyTree.png"></a></p>
+<a href="#R-image-e412cde0f652e35750af3211d8e21180" class="lightbox-link"><img alt="Family Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_FamilyTree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e412cde0f652e35750af3211d8e21180"><img alt="Family Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_FamilyTree.png"></a></p>
 <ul>
 <li><code>Ancestor</code> - The ancestors of a node are those reached from child to parent relationships. We can think of this as our parents and our parent&rsquo;s parents, and so on.
 <ul>
@@ -2058,49 +2058,49 @@ This example would be considered two trees, not a tree with two parts. In this f
 <li>Ava&rsquo;s ancestors: <u>Uzzi, Joe, Myra</u>. This is because, <strong>Uzzi</strong> is the parent of Ava, <strong>Joe</strong> is the parent of Uzzi, and <strong>Myra</strong> is the parent of Joe. Try to work out the following and click the name to reveal the ancestors.
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-4873454b7a249abdb52c4bf05029400f" aria-controls="R-expandcontent-4873454b7a249abdb52c4bf05029400f" >
-    <label class="expand-label" for="R-expand-4873454b7a249abdb52c4bf05029400f" >
+    <input type="checkbox" id="R-expand-19b559b95cf88097a5849f5481278ac3" aria-controls="R-expandcontent-19b559b95cf88097a5849f5481278ac3" >
+    <label class="expand-label" for="R-expand-19b559b95cf88097a5849f5481278ac3" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Uma:
     </label>
-    <div id="R-expandcontent-4873454b7a249abdb52c4bf05029400f" class="expand-content">
+    <div id="R-expandcontent-19b559b95cf88097a5849f5481278ac3" class="expand-content">
 
 <u>Zia, Myra</u> - <strong>Zia</strong> is the parent of Uma and <strong>Myra</strong> is the parent of Zia.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-d3258b35642b2b02ca693019d33588f0" aria-controls="R-expandcontent-d3258b35642b2b02ca693019d33588f0" >
-    <label class="expand-label" for="R-expand-d3258b35642b2b02ca693019d33588f0" >
+    <input type="checkbox" id="R-expand-576576e8099a517171eab0ec5697d88b" aria-controls="R-expandcontent-576576e8099a517171eab0ec5697d88b" >
+    <label class="expand-label" for="R-expand-576576e8099a517171eab0ec5697d88b" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Myra:
     </label>
-    <div id="R-expandcontent-d3258b35642b2b02ca693019d33588f0" class="expand-content">
+    <div id="R-expandcontent-576576e8099a517171eab0ec5697d88b" class="expand-content">
 
 <u>None</u> - Myra does not have a parent node.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-5a1a0f2e477b61f30babf0eeae846702" aria-controls="R-expandcontent-5a1a0f2e477b61f30babf0eeae846702" >
-    <label class="expand-label" for="R-expand-5a1a0f2e477b61f30babf0eeae846702" >
+    <input type="checkbox" id="R-expand-deb749dc6c46212660fee86a3a7d2c8b" aria-controls="R-expandcontent-deb749dc6c46212660fee86a3a7d2c8b" >
+    <label class="expand-label" for="R-expand-deb749dc6c46212660fee86a3a7d2c8b" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Raju:
     </label>
-    <div id="R-expandcontent-5a1a0f2e477b61f30babf0eeae846702" class="expand-content">
+    <div id="R-expandcontent-deb749dc6c46212660fee86a3a7d2c8b" class="expand-content">
 
 <u>Myra</u> - <strong>Myra</strong> is the parent of Raju.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-c50f816968c328d23e3d0de624735fea" aria-controls="R-expandcontent-c50f816968c328d23e3d0de624735fea" >
-    <label class="expand-label" for="R-expand-c50f816968c328d23e3d0de624735fea" >
+    <input type="checkbox" id="R-expand-82b8b1775d5fa77720b1b57a0d8d52fb" aria-controls="R-expandcontent-82b8b1775d5fa77720b1b57a0d8d52fb" >
+    <label class="expand-label" for="R-expand-82b8b1775d5fa77720b1b57a0d8d52fb" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Bev:
     </label>
-    <div id="R-expandcontent-c50f816968c328d23e3d0de624735fea" class="expand-content">
+    <div id="R-expandcontent-82b8b1775d5fa77720b1b57a0d8d52fb" class="expand-content">
 
 <u>Uzzi, Joe, Myra</u> - <strong>Uzzi</strong> is the parent of Bev, <strong>Joe</strong> is the parent of Uzzi, and <strong>Myra</strong> is the parent of Joe.</div>
 </div></li>
@@ -2115,49 +2115,49 @@ This example would be considered two trees, not a tree with two parts. In this f
 <li>Ava&rsquo;s descendants: <u>None</u>. Ava has no child nodes and thus, no descendants. Try to work out the following and click the name to reveal the descendants.
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-88ddf4bb9aed810440c51fb548b41780" aria-controls="R-expandcontent-88ddf4bb9aed810440c51fb548b41780" >
-    <label class="expand-label" for="R-expand-88ddf4bb9aed810440c51fb548b41780" >
+    <input type="checkbox" id="R-expand-337352c8f3242c2ef04d413e3c057e91" aria-controls="R-expandcontent-337352c8f3242c2ef04d413e3c057e91" >
+    <label class="expand-label" for="R-expand-337352c8f3242c2ef04d413e3c057e91" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Uma:
     </label>
-    <div id="R-expandcontent-88ddf4bb9aed810440c51fb548b41780" class="expand-content">
+    <div id="R-expandcontent-337352c8f3242c2ef04d413e3c057e91" class="expand-content">
 
 <u>Ang</u> - <strong>Ang</strong> is the child of Uma</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-11aeec984de4dd129d090c82202b35e2" aria-controls="R-expandcontent-11aeec984de4dd129d090c82202b35e2" >
-    <label class="expand-label" for="R-expand-11aeec984de4dd129d090c82202b35e2" >
+    <input type="checkbox" id="R-expand-91444dc9ed8ffb6c656edd0ba330e40f" aria-controls="R-expandcontent-91444dc9ed8ffb6c656edd0ba330e40f" >
+    <label class="expand-label" for="R-expand-91444dc9ed8ffb6c656edd0ba330e40f" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Myra:
     </label>
-    <div id="R-expandcontent-11aeec984de4dd129d090c82202b35e2" class="expand-content">
+    <div id="R-expandcontent-91444dc9ed8ffb6c656edd0ba330e40f" class="expand-content">
 
 <u>Raju, Joe, Zia, Uzzi, Bert, Uma, Bev, Ava, Ang, Isla, Eoin</u> - All of the nodes in a tree will be descendants of the root. To work it out: <strong>Raju, Joe</strong> and <strong>Zia</strong> are the children of Myra, <strong>Uma</strong> is the child of Zia, <strong>Ang</strong> is the child of Uma, and we can work the rest out for Joe&rsquo;s children.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-0a13087b4e4a2bf199740bc79e5c940f" aria-controls="R-expandcontent-0a13087b4e4a2bf199740bc79e5c940f" >
-    <label class="expand-label" for="R-expand-0a13087b4e4a2bf199740bc79e5c940f" >
+    <input type="checkbox" id="R-expand-4657d8be6089f06fa6d8a7de6a088340" aria-controls="R-expandcontent-4657d8be6089f06fa6d8a7de6a088340" >
+    <label class="expand-label" for="R-expand-4657d8be6089f06fa6d8a7de6a088340" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Raju:
     </label>
-    <div id="R-expandcontent-0a13087b4e4a2bf199740bc79e5c940f" class="expand-content">
+    <div id="R-expandcontent-4657d8be6089f06fa6d8a7de6a088340" class="expand-content">
 
 <u>None</u> - Raju has no child nodes.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-3883da7346911a85388d7f7fa05cd9c3" aria-controls="R-expandcontent-3883da7346911a85388d7f7fa05cd9c3" >
-    <label class="expand-label" for="R-expand-3883da7346911a85388d7f7fa05cd9c3" >
+    <input type="checkbox" id="R-expand-aedfcbf05c67f378c42e9475d4e27454" aria-controls="R-expandcontent-aedfcbf05c67f378c42e9475d4e27454" >
+    <label class="expand-label" for="R-expand-aedfcbf05c67f378c42e9475d4e27454" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Bev:
     </label>
-    <div id="R-expandcontent-3883da7346911a85388d7f7fa05cd9c3" class="expand-content">
+    <div id="R-expandcontent-aedfcbf05c67f378c42e9475d4e27454" class="expand-content">
 
 <u>Isla, Eoin</u> - <strong>Isla</strong> is the child of Bev and <strong>Eoin</strong> is the child of Isla.</div>
 </div></li>
@@ -2172,49 +2172,49 @@ This example would be considered two trees, not a tree with two parts. In this f
 <li>Ava&rsquo;s siblings: <u>Bev</u> - Uzzi is the parent node of Ava; Uzzi has two child nodes, Ava and <strong>Bev</strong>. Try to work out the following and click the name to reveal the siblings.
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-5b7bdaa2186c2d91b6bd993195e7d562" aria-controls="R-expandcontent-5b7bdaa2186c2d91b6bd993195e7d562" >
-    <label class="expand-label" for="R-expand-5b7bdaa2186c2d91b6bd993195e7d562" >
+    <input type="checkbox" id="R-expand-895accf08564c704df667d6dc4ec5c09" aria-controls="R-expandcontent-895accf08564c704df667d6dc4ec5c09" >
+    <label class="expand-label" for="R-expand-895accf08564c704df667d6dc4ec5c09" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Uma:
     </label>
-    <div id="R-expandcontent-5b7bdaa2186c2d91b6bd993195e7d562" class="expand-content">
+    <div id="R-expandcontent-895accf08564c704df667d6dc4ec5c09" class="expand-content">
 
 <u>None</u> - Zia is the parent node of Uma; Zia has only one child node, Uma.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-b338e32b6285bcb0d4ae73806b1c7077" aria-controls="R-expandcontent-b338e32b6285bcb0d4ae73806b1c7077" >
-    <label class="expand-label" for="R-expand-b338e32b6285bcb0d4ae73806b1c7077" >
+    <input type="checkbox" id="R-expand-2471b758d5d7c207c4d3806a6ff7f7c6" aria-controls="R-expandcontent-2471b758d5d7c207c4d3806a6ff7f7c6" >
+    <label class="expand-label" for="R-expand-2471b758d5d7c207c4d3806a6ff7f7c6" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Myra:
     </label>
-    <div id="R-expandcontent-b338e32b6285bcb0d4ae73806b1c7077" class="expand-content">
+    <div id="R-expandcontent-2471b758d5d7c207c4d3806a6ff7f7c6" class="expand-content">
 
 <u>None</u> - Myra is the root and thus does not have a parent node resulting in no siblings.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-7687d5db486b4991567605f69d45daf2" aria-controls="R-expandcontent-7687d5db486b4991567605f69d45daf2" >
-    <label class="expand-label" for="R-expand-7687d5db486b4991567605f69d45daf2" >
+    <input type="checkbox" id="R-expand-809c2361994300e4ebe4a6f5799e881a" aria-controls="R-expandcontent-809c2361994300e4ebe4a6f5799e881a" >
+    <label class="expand-label" for="R-expand-809c2361994300e4ebe4a6f5799e881a" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Raju:
     </label>
-    <div id="R-expandcontent-7687d5db486b4991567605f69d45daf2" class="expand-content">
+    <div id="R-expandcontent-809c2361994300e4ebe4a6f5799e881a" class="expand-content">
 
 <u>Joe, Zia</u> -  Myra is the parent node of Raju; Myra has three child nodes, <strong>Joe</strong>, <strong>Zia</strong>, and Raju</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-eff8ce9edbc8dc30cee36f63597be961" aria-controls="R-expandcontent-eff8ce9edbc8dc30cee36f63597be961" >
-    <label class="expand-label" for="R-expand-eff8ce9edbc8dc30cee36f63597be961" >
+    <input type="checkbox" id="R-expand-f188c00dc167a89a464ac6841e51fe7b" aria-controls="R-expandcontent-f188c00dc167a89a464ac6841e51fe7b" >
+    <label class="expand-label" for="R-expand-f188c00dc167a89a464ac6841e51fe7b" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Bev:
     </label>
-    <div id="R-expandcontent-eff8ce9edbc8dc30cee36f63597be961" class="expand-content">
+    <div id="R-expandcontent-f188c00dc167a89a464ac6841e51fe7b" class="expand-content">
 
 <u>Ava</u> - Uzzi is the parent node of Bev; Uzzi has two child nodes, Bev and <strong>Ava</strong>.</div>
 </div></li>
@@ -2244,81 +2244,81 @@ This example would be considered two trees, not a tree with two parts. In this f
 <a href="https://www.youtube.com/watch?v=86uWWXaanCo">YouTube Video</a>
 
 <p>We can describe the sizes of trees and position of nodes using different terminology, like level, depth, and height.</p>
-<p><a href="#R-image-df41cc3c90b798fed63acf7e5d7ccefa" class="lightbox-link"><img alt="Family Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_FamilyTree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-df41cc3c90b798fed63acf7e5d7ccefa"><img alt="Family Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_FamilyTree.png"></a></p>
+<p><a href="#R-image-bcd181815c3227533001c0651f01914d" class="lightbox-link"><img alt="Family Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_FamilyTree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bcd181815c3227533001c0651f01914d"><img alt="Family Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_FamilyTree.png"></a></p>
 <ul>
 <li><code>Level</code> - The level of a node characterizes the distance between the node and the root. The root of the tree is considered level 1. As you move away from the tree, the level increases by one.
 <ul>
 <li>For our family tree example, what nodes are in the following levels? Think about the answer and then click corresponding arrow.
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-f63eaf9e2e46ee47fbe1bbaceed8344f" aria-controls="R-expandcontent-f63eaf9e2e46ee47fbe1bbaceed8344f" >
-    <label class="expand-label" for="R-expand-f63eaf9e2e46ee47fbe1bbaceed8344f" >
+    <input type="checkbox" id="R-expand-2a1a46b5fcdae14bead107eee3bdc384" aria-controls="R-expandcontent-2a1a46b5fcdae14bead107eee3bdc384" >
+    <label class="expand-label" for="R-expand-2a1a46b5fcdae14bead107eee3bdc384" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Level 1:
     </label>
-    <div id="R-expandcontent-f63eaf9e2e46ee47fbe1bbaceed8344f" class="expand-content">
+    <div id="R-expandcontent-2a1a46b5fcdae14bead107eee3bdc384" class="expand-content">
 
 <u>Myra</u> - Level 1 is always the root</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-23e647c32568c919961310a9dc487baf" aria-controls="R-expandcontent-23e647c32568c919961310a9dc487baf" >
-    <label class="expand-label" for="R-expand-23e647c32568c919961310a9dc487baf" >
+    <input type="checkbox" id="R-expand-f4d9e64283ad96b1e499c21d84fe388c" aria-controls="R-expandcontent-f4d9e64283ad96b1e499c21d84fe388c" >
+    <label class="expand-label" for="R-expand-f4d9e64283ad96b1e499c21d84fe388c" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Level 2:
     </label>
-    <div id="R-expandcontent-23e647c32568c919961310a9dc487baf" class="expand-content">
+    <div id="R-expandcontent-f4d9e64283ad96b1e499c21d84fe388c" class="expand-content">
 
 <u>Raju, Joe, Zia</u> - These are the nodes which are 1 edge away from the root.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-678ea7ee3fbaa1bf7302a4512bbf5135" aria-controls="R-expandcontent-678ea7ee3fbaa1bf7302a4512bbf5135" >
-    <label class="expand-label" for="R-expand-678ea7ee3fbaa1bf7302a4512bbf5135" >
+    <input type="checkbox" id="R-expand-1398fdc9d4eaaa63a42f7909b00401a2" aria-controls="R-expandcontent-1398fdc9d4eaaa63a42f7909b00401a2" >
+    <label class="expand-label" for="R-expand-1398fdc9d4eaaa63a42f7909b00401a2" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Level 3:
     </label>
-    <div id="R-expandcontent-678ea7ee3fbaa1bf7302a4512bbf5135" class="expand-content">
+    <div id="R-expandcontent-1398fdc9d4eaaa63a42f7909b00401a2" class="expand-content">
 
 <u>Uzzi, Bert, Uma</u> - These are the nodes which are 2 edges away from the root.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-c42d21ea6c0789c135199e4c775aea78" aria-controls="R-expandcontent-c42d21ea6c0789c135199e4c775aea78" >
-    <label class="expand-label" for="R-expand-c42d21ea6c0789c135199e4c775aea78" >
+    <input type="checkbox" id="R-expand-81c0e5deacd51fa2d19866fdd2c9b9fb" aria-controls="R-expandcontent-81c0e5deacd51fa2d19866fdd2c9b9fb" >
+    <label class="expand-label" for="R-expand-81c0e5deacd51fa2d19866fdd2c9b9fb" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Level 4:
     </label>
-    <div id="R-expandcontent-c42d21ea6c0789c135199e4c775aea78" class="expand-content">
+    <div id="R-expandcontent-81c0e5deacd51fa2d19866fdd2c9b9fb" class="expand-content">
 
 <u>Bev, Ava, Ang</u> - These are the nodes which are 3 edges away from the root.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-d4b473edf160e964654bbe65a5aef7cd" aria-controls="R-expandcontent-d4b473edf160e964654bbe65a5aef7cd" >
-    <label class="expand-label" for="R-expand-d4b473edf160e964654bbe65a5aef7cd" >
+    <input type="checkbox" id="R-expand-c2b9a2865ec48bed4ceb37da8ca3bc72" aria-controls="R-expandcontent-c2b9a2865ec48bed4ceb37da8ca3bc72" >
+    <label class="expand-label" for="R-expand-c2b9a2865ec48bed4ceb37da8ca3bc72" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Level 5:
     </label>
-    <div id="R-expandcontent-d4b473edf160e964654bbe65a5aef7cd" class="expand-content">
+    <div id="R-expandcontent-c2b9a2865ec48bed4ceb37da8ca3bc72" class="expand-content">
 
 <u>Isla</u> - This is the only node which is 4 edges away from the root.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-90544409105dc5af782618f62c4def3a" aria-controls="R-expandcontent-90544409105dc5af782618f62c4def3a" >
-    <label class="expand-label" for="R-expand-90544409105dc5af782618f62c4def3a" >
+    <input type="checkbox" id="R-expand-8a9ac148109b991b770828740197d061" aria-controls="R-expandcontent-8a9ac148109b991b770828740197d061" >
+    <label class="expand-label" for="R-expand-8a9ac148109b991b770828740197d061" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Level 6:
     </label>
-    <div id="R-expandcontent-90544409105dc5af782618f62c4def3a" class="expand-content">
+    <div id="R-expandcontent-8a9ac148109b991b770828740197d061" class="expand-content">
 
 <u>Eoin</u> - This is the only node which is 5 edges away from the root.</div>
 </div></li>
@@ -2329,73 +2329,73 @@ This example would be considered two trees, not a tree with two parts. In this f
 <li>For our family tree example, what nodes have the following depths?
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-08fb6751ffc32720fd35039809ff89f4" aria-controls="R-expandcontent-08fb6751ffc32720fd35039809ff89f4" >
-    <label class="expand-label" for="R-expand-08fb6751ffc32720fd35039809ff89f4" >
+    <input type="checkbox" id="R-expand-95a7a6af5073be7bbfb9fe828197d8fc" aria-controls="R-expandcontent-95a7a6af5073be7bbfb9fe828197d8fc" >
+    <label class="expand-label" for="R-expand-95a7a6af5073be7bbfb9fe828197d8fc" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Depth 0:
     </label>
-    <div id="R-expandcontent-08fb6751ffc32720fd35039809ff89f4" class="expand-content">
+    <div id="R-expandcontent-95a7a6af5073be7bbfb9fe828197d8fc" class="expand-content">
 
 <u>Myra</u> - The root will always be at depth 0.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-a8b5e4ed68225e315d75017e03142720" aria-controls="R-expandcontent-a8b5e4ed68225e315d75017e03142720" >
-    <label class="expand-label" for="R-expand-a8b5e4ed68225e315d75017e03142720" >
+    <input type="checkbox" id="R-expand-e67a0e5cb06aeb67c6762bb4920ca161" aria-controls="R-expandcontent-e67a0e5cb06aeb67c6762bb4920ca161" >
+    <label class="expand-label" for="R-expand-e67a0e5cb06aeb67c6762bb4920ca161" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Depth 1:
     </label>
-    <div id="R-expandcontent-a8b5e4ed68225e315d75017e03142720" class="expand-content">
+    <div id="R-expandcontent-e67a0e5cb06aeb67c6762bb4920ca161" class="expand-content">
 
 <u>Raju, Joe, Zia</u> - These are the nodes which are 1 edge away from the root.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-db1b134bb187ec384b229f1b3522227b" aria-controls="R-expandcontent-db1b134bb187ec384b229f1b3522227b" >
-    <label class="expand-label" for="R-expand-db1b134bb187ec384b229f1b3522227b" >
+    <input type="checkbox" id="R-expand-be42395ead2a9ce277c76dcd544a410e" aria-controls="R-expandcontent-be42395ead2a9ce277c76dcd544a410e" >
+    <label class="expand-label" for="R-expand-be42395ead2a9ce277c76dcd544a410e" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Depth 2:
     </label>
-    <div id="R-expandcontent-db1b134bb187ec384b229f1b3522227b" class="expand-content">
+    <div id="R-expandcontent-be42395ead2a9ce277c76dcd544a410e" class="expand-content">
 
 <u>Uzzi, Bert, Uma</u> - These are the nodes which are 2 edge away from the root.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-8ac9fc89398266e980beb76390ceeb21" aria-controls="R-expandcontent-8ac9fc89398266e980beb76390ceeb21" >
-    <label class="expand-label" for="R-expand-8ac9fc89398266e980beb76390ceeb21" >
+    <input type="checkbox" id="R-expand-837c16530e5ae64496b37e770fecd863" aria-controls="R-expandcontent-837c16530e5ae64496b37e770fecd863" >
+    <label class="expand-label" for="R-expand-837c16530e5ae64496b37e770fecd863" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Depth 3:
     </label>
-    <div id="R-expandcontent-8ac9fc89398266e980beb76390ceeb21" class="expand-content">
+    <div id="R-expandcontent-837c16530e5ae64496b37e770fecd863" class="expand-content">
 
 <u>Bev, Ava, Ang</u> - These are the nodes which are 3 edge away from the root.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-a980e9cf554654483d7fe328f128632d" aria-controls="R-expandcontent-a980e9cf554654483d7fe328f128632d" >
-    <label class="expand-label" for="R-expand-a980e9cf554654483d7fe328f128632d" >
+    <input type="checkbox" id="R-expand-98ebdc451b21fd43887b1d2e1c1f4558" aria-controls="R-expandcontent-98ebdc451b21fd43887b1d2e1c1f4558" >
+    <label class="expand-label" for="R-expand-98ebdc451b21fd43887b1d2e1c1f4558" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Depth 4:
     </label>
-    <div id="R-expandcontent-a980e9cf554654483d7fe328f128632d" class="expand-content">
+    <div id="R-expandcontent-98ebdc451b21fd43887b1d2e1c1f4558" class="expand-content">
 
 <u>Isla</u> - This is the only node which is 4 edges away from the root.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-da69f406dae6b298721568b18de1ebe7" aria-controls="R-expandcontent-da69f406dae6b298721568b18de1ebe7" >
-    <label class="expand-label" for="R-expand-da69f406dae6b298721568b18de1ebe7" >
+    <input type="checkbox" id="R-expand-7458e5722c71374e87b63770e033dd91" aria-controls="R-expandcontent-7458e5722c71374e87b63770e033dd91" >
+    <label class="expand-label" for="R-expand-7458e5722c71374e87b63770e033dd91" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Depth 5:
     </label>
-    <div id="R-expandcontent-da69f406dae6b298721568b18de1ebe7" class="expand-content">
+    <div id="R-expandcontent-7458e5722c71374e87b63770e033dd91" class="expand-content">
 
 <u>Eoin</u> - This is the only node which is 5 edges away from the root.</div>
 </div></li>
@@ -2406,73 +2406,73 @@ This example would be considered two trees, not a tree with two parts. In this f
 <li>For our family tree example, what nodes have the following heights?
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-59d7a234e25c00a576fc80dd5ded9e32" aria-controls="R-expandcontent-59d7a234e25c00a576fc80dd5ded9e32" >
-    <label class="expand-label" for="R-expand-59d7a234e25c00a576fc80dd5ded9e32" >
+    <input type="checkbox" id="R-expand-b065b932134c631185d0aab4503e6178" aria-controls="R-expandcontent-b065b932134c631185d0aab4503e6178" >
+    <label class="expand-label" for="R-expand-b065b932134c631185d0aab4503e6178" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Height 0:
     </label>
-    <div id="R-expandcontent-59d7a234e25c00a576fc80dd5ded9e32" class="expand-content">
+    <div id="R-expandcontent-b065b932134c631185d0aab4503e6178" class="expand-content">
 
 <u>Raju, Eoin, Ava, Bert, Ang</u> - The leaves always have height 0.</div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-c6099494c90c89bf61d2b2f8d9ebecef" aria-controls="R-expandcontent-c6099494c90c89bf61d2b2f8d9ebecef" >
-    <label class="expand-label" for="R-expand-c6099494c90c89bf61d2b2f8d9ebecef" >
+    <input type="checkbox" id="R-expand-20b0464ff0600d4ef098cdc187b97821" aria-controls="R-expandcontent-20b0464ff0600d4ef098cdc187b97821" >
+    <label class="expand-label" for="R-expand-20b0464ff0600d4ef098cdc187b97821" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Height 1:
     </label>
-    <div id="R-expandcontent-c6099494c90c89bf61d2b2f8d9ebecef" class="expand-content">
+    <div id="R-expandcontent-20b0464ff0600d4ef098cdc187b97821" class="expand-content">
 
 <u>Isla, Uma</u> - <code>Isla -&gt; Eoin</code>  and <code>Uma -&gt; Ang</code></div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-bbedd6994f322d7a86d7a1b874ce8a0c" aria-controls="R-expandcontent-bbedd6994f322d7a86d7a1b874ce8a0c" >
-    <label class="expand-label" for="R-expand-bbedd6994f322d7a86d7a1b874ce8a0c" >
+    <input type="checkbox" id="R-expand-3a742221f8d6af2e015b8ed52d19690c" aria-controls="R-expandcontent-3a742221f8d6af2e015b8ed52d19690c" >
+    <label class="expand-label" for="R-expand-3a742221f8d6af2e015b8ed52d19690c" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Height 2:
     </label>
-    <div id="R-expandcontent-bbedd6994f322d7a86d7a1b874ce8a0c" class="expand-content">
+    <div id="R-expandcontent-3a742221f8d6af2e015b8ed52d19690c" class="expand-content">
 
 <u>Bev, Zia</u> - <code>Bev -&gt; Isla -&gt; Eoin</code> and <code>Zia -&gt; Uma -&gt; Ang</code></div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-0bd722ec3481771babba73e01214a1d5" aria-controls="R-expandcontent-0bd722ec3481771babba73e01214a1d5" >
-    <label class="expand-label" for="R-expand-0bd722ec3481771babba73e01214a1d5" >
+    <input type="checkbox" id="R-expand-637496ff5e12e43333b5721fcf422af8" aria-controls="R-expandcontent-637496ff5e12e43333b5721fcf422af8" >
+    <label class="expand-label" for="R-expand-637496ff5e12e43333b5721fcf422af8" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Height 3:
     </label>
-    <div id="R-expandcontent-0bd722ec3481771babba73e01214a1d5" class="expand-content">
+    <div id="R-expandcontent-637496ff5e12e43333b5721fcf422af8" class="expand-content">
 
 <u>Uzzi</u> - <code>Uzzi -&gt; Bev -&gt; Isla -&gt; Eoin</code></div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-9f6b9a60e5809759ef4e8c33192216da" aria-controls="R-expandcontent-9f6b9a60e5809759ef4e8c33192216da" >
-    <label class="expand-label" for="R-expand-9f6b9a60e5809759ef4e8c33192216da" >
+    <input type="checkbox" id="R-expand-a00ae08f58f0b6010bed188f79a4a767" aria-controls="R-expandcontent-a00ae08f58f0b6010bed188f79a4a767" >
+    <label class="expand-label" for="R-expand-a00ae08f58f0b6010bed188f79a4a767" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Height 4:
     </label>
-    <div id="R-expandcontent-9f6b9a60e5809759ef4e8c33192216da" class="expand-content">
+    <div id="R-expandcontent-a00ae08f58f0b6010bed188f79a4a767" class="expand-content">
 
 <u>Joe</u> - <code>Joe -&gt; Uzzi -&gt; Bev -&gt; Isla -&gt; Eoin</code></div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-fcb305cb1c3b7b9c49811264992d9990" aria-controls="R-expandcontent-fcb305cb1c3b7b9c49811264992d9990" >
-    <label class="expand-label" for="R-expand-fcb305cb1c3b7b9c49811264992d9990" >
+    <input type="checkbox" id="R-expand-767158751fcc91d9c018dc08283d85ff" aria-controls="R-expandcontent-767158751fcc91d9c018dc08283d85ff" >
+    <label class="expand-label" for="R-expand-767158751fcc91d9c018dc08283d85ff" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         Height 5:
     </label>
-    <div id="R-expandcontent-fcb305cb1c3b7b9c49811264992d9990" class="expand-content">
+    <div id="R-expandcontent-767158751fcc91d9c018dc08283d85ff" class="expand-content">
 
 <u>Myra</u> - <code>Myra -&gt; Joe -&gt; Uzzi -&gt; Bev -&gt; Isla -&gt; Eoin</code></div>
 </div></li>
@@ -2505,8 +2505,8 @@ This example would be considered two trees, not a tree with two parts. In this f
 <a href="https://www.youtube.com/watch?v=Jurg4tZKCwI">YouTube Video</a>
 
 <p>When working with multidimensional data structures, we also need to consider how they would be stored in a linear manner. Remember, pieces of data in computers are linear sequences of binary digits. As a result, we need a standard way of storing trees as a linear structure.</p>
-<p><a href="#R-image-9a67b56cbba3e19c49075755148fefe7" class="lightbox-link"><img alt="Traversal Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9a67b56cbba3e19c49075755148fefe7"><img alt="Traversal Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal.png"></a></p>
+<p><a href="#R-image-4cfc1a69aa256f750ef88738bafb967a" class="lightbox-link"><img alt="Traversal Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4cfc1a69aa256f750ef88738bafb967a"><img alt="Traversal Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal.png"></a></p>
 <ul>
 <li>
 <p><code>Path</code> - a path is a sequence of nodes and edges, which connect a node with its descendant. We can look at some paths in the tree above:</p>
@@ -2514,25 +2514,25 @@ This example would be considered two trees, not a tree with two parts. In this f
 <li>From <code>Q</code> to <code>O</code>: <code>QRO</code>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-7a358dfcebaf21f1451b6b712a382b69" aria-controls="R-expandcontent-7a358dfcebaf21f1451b6b712a382b69" >
-    <label class="expand-label" for="R-expand-7a358dfcebaf21f1451b6b712a382b69" >
+    <input type="checkbox" id="R-expand-4197b8582aa826c10a4049f69073ed28" aria-controls="R-expandcontent-4197b8582aa826c10a4049f69073ed28" >
+    <label class="expand-label" for="R-expand-4197b8582aa826c10a4049f69073ed28" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         From <code>Q</code> to <code>Y</code>:
     </label>
-    <div id="R-expandcontent-7a358dfcebaf21f1451b6b712a382b69" class="expand-content">
+    <div id="R-expandcontent-4197b8582aa826c10a4049f69073ed28" class="expand-content">
 
 <code>QWY</code></div>
 </div>
 
 <div class="expand">
-    <input type="checkbox" id="R-expand-352855fc41edc167441e973787ec128b" aria-controls="R-expandcontent-352855fc41edc167441e973787ec128b" >
-    <label class="expand-label" for="R-expand-352855fc41edc167441e973787ec128b" >
+    <input type="checkbox" id="R-expand-55c54ece3e9ea021044ab57390e57fbe" aria-controls="R-expandcontent-55c54ece3e9ea021044ab57390e57fbe" >
+    <label class="expand-label" for="R-expand-55c54ece3e9ea021044ab57390e57fbe" >
         <i class="fa-fw fas fa-chevron-down"></i>
         <i class="fa-fw fas fa-chevron-right"></i>
         From <code>R</code> to <code>P</code>:
     </label>
-    <div id="R-expandcontent-352855fc41edc167441e973787ec128b" class="expand-content">
+    <div id="R-expandcontent-55c54ece3e9ea021044ab57390e57fbe" class="expand-content">
 
 <code>RP</code></div>
 </div></li>
@@ -2554,8 +2554,8 @@ This example would be considered two trees, not a tree with two parts. In this f
 <li>The <code>Pre</code> refers to the root, meaning the root goes before the children.</li>
 <li>Remember: Root Children</li>
 <li>For the above tree, the preorder traversal could result in: <code>QWYUERIOPTA</code>
-<a href="#R-image-a11470b3c884a34542cd9406841a49ab" class="lightbox-link"><img alt="Preorder Traversal" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_Preorder.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a11470b3c884a34542cd9406841a49ab"><img alt="Preorder Traversal" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_Preorder.gif"></a></li>
+<a href="#R-image-551219e90c7f80c8099c445fb09d40f2" class="lightbox-link"><img alt="Preorder Traversal" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_Preorder.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-551219e90c7f80c8099c445fb09d40f2"><img alt="Preorder Traversal" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_Preorder.gif"></a></li>
 </ul>
 <h2 id="postorder-traversal">Postorder Traversal</h2>
 <ol>
@@ -2569,17 +2569,17 @@ This example would be considered two trees, not a tree with two parts. In this f
 <li>The <code>Post</code> refers to the root, meaning the root goes after the children.</li>
 <li>Remember: Children Root</li>
 <li>For the above tree, the postorder traversal could result in: <code>YUWEIOPRATQ</code>
-<a href="#R-image-9317b7031ca8abbc39cb0a1b599609d4" class="lightbox-link"><img alt="Postorder Traversal" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_Postorder.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9317b7031ca8abbc39cb0a1b599609d4"><img alt="Postorder Traversal" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_Postorder.gif"></a></li>
+<a href="#R-image-7fbf97f902f580da2d27bfd8b2a9828f" class="lightbox-link"><img alt="Postorder Traversal" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_Postorder.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7fbf97f902f580da2d27bfd8b2a9828f"><img alt="Postorder Traversal" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_Postorder.gif"></a></li>
 </ul>
 <hr>
 <p>When we talk about traversals for general trees we have used the phrase &rsquo;the traversal <em>could</em> result in&rsquo;. We would like to expand on why &lsquo;could&rsquo; is used here. Each of these general trees are the same but their traversals could be different. The key concept in this is that for a general tree, the children are an unordered set of nodes; they do not have a defined or fixed order. The relationships that are fixed are the parent/child relationships.
-<a href="#R-image-f265c21527a253fdf5ee4aad82bb6e9c" class="lightbox-link"><img alt="Traversal Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f265c21527a253fdf5ee4aad82bb6e9c"><img alt="Traversal Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal.png"></a>
-<a href="#R-image-9e231da9ee89f52473a1da1acfe7d52c" class="lightbox-link"><img alt="Traversal Tree1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9e231da9ee89f52473a1da1acfe7d52c"><img alt="Traversal Tree1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal1.png"></a>
-<a href="#R-image-a40680909e72fbfb750a660d170396c2" class="lightbox-link"><img alt="Traversal Tree2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a40680909e72fbfb750a660d170396c2"><img alt="Traversal Tree2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal2.png"></a></p>
+<a href="#R-image-6910acefde8b6472a31a97462b9f7efc" class="lightbox-link"><img alt="Traversal Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6910acefde8b6472a31a97462b9f7efc"><img alt="Traversal Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal.png"></a>
+<a href="#R-image-604c90f589d5ff716ad20571997e253e" class="lightbox-link"><img alt="Traversal Tree1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-604c90f589d5ff716ad20571997e253e"><img alt="Traversal Tree1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal1.png"></a>
+<a href="#R-image-5bdc4b240b543a8a3eb3f61d8a977ddd" class="lightbox-link"><img alt="Traversal Tree2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5bdc4b240b543a8a3eb3f61d8a977ddd"><img alt="Traversal Tree2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/3Tree_Traversal2.png"></a></p>
 <table>
 <thead>
 <tr>
@@ -2626,8 +2626,8 @@ This example would be considered two trees, not a tree with two parts. In this f
 
 <a href="https://www.youtube.com/watch?v=FugxsgsFu9I">YouTube Video</a>
 
-<p><a href="#R-image-0339f285d2288fb472c05213cbbb8b04" class="lightbox-link"><img alt="Binary Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Tree_Binary.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0339f285d2288fb472c05213cbbb8b04"><img alt="Binary Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Tree_Binary.png"></a></p>
+<p><a href="#R-image-b294154d25ca567f44466f6aaebc35c1" class="lightbox-link"><img alt="Binary Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Tree_Binary.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b294154d25ca567f44466f6aaebc35c1"><img alt="Binary Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Tree_Binary.png"></a></p>
 <p>A binary tree is a type of tree with some special conditions. First, it must follow the guidelines of being a tree:</p>
 <ul>
 <li>There must be single root,</li>
@@ -2667,24 +2667,24 @@ This example would be considered two trees, not a tree with two parts. In this f
 <a href="https://www.youtube.com/watch?v=8uSNprLBCpE">YouTube Video</a>
 
 <h2 id="valid-binary-trees">Valid Binary Trees</h2>
-<p><a href="#R-image-341e688926bff37c61521be216e67025" class="lightbox-link"><img alt="Single Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Single.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-341e688926bff37c61521be216e67025"><img alt="Single Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Single.png"></a></p>
+<p><a href="#R-image-cdb937a7d7fed2e0654506936eda6c88" class="lightbox-link"><img alt="Single Node" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Single.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cdb937a7d7fed2e0654506936eda6c88"><img alt="Single Node" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Single.png"></a></p>
 <p>This is a valid binary tree. We have a single node, the root, with no children. As with general trees, binary trees are built recursively. Thus, each node and its child(ren) are trees themselves.</p>
-<p><a href="#R-image-5bc6010c7b4f11295fafdb9bda011db7" class="lightbox-link"><img alt="Unbalanced" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_UnBal.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5bc6010c7b4f11295fafdb9bda011db7"><img alt="Unbalanced" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_UnBal.png"></a></p>
+<p><a href="#R-image-8984e455fce51cf7958a4dcec785baf4" class="lightbox-link"><img alt="Unbalanced" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_UnBal.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8984e455fce51cf7958a4dcec785baf4"><img alt="Unbalanced" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_UnBal.png"></a></p>
 <p>This is also a valid binary tree. All of the left children are less than their parent. The node with item &lsquo;10&rsquo; is also in the correct position as it is less than 12, 13, and 14 but greater than 9.</p>
-<p><a href="#R-image-3488a24635fb6fc431701dc210490ac6" class="lightbox-link"><img alt="Balanced" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Bal.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3488a24635fb6fc431701dc210490ac6"><img alt="Balanced" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Bal.png"></a></p>
+<p><a href="#R-image-4d244de3770add55d9ebfa4d02f8d75d" class="lightbox-link"><img alt="Balanced" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Bal.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4d244de3770add55d9ebfa4d02f8d75d"><img alt="Balanced" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Bal.png"></a></p>
 <p>We have the same nodes but our root is now 12 whereas before it was 14. This is also a valid binary tree.</p>
-<p><a href="#R-image-fe373e69df53e7615635f640646a1e6b" class="lightbox-link"><img alt="Alphabet Binary Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Alpha.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fe373e69df53e7615635f640646a1e6b"><img alt="Alphabet Binary Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Alpha.png"></a></p>
+<p><a href="#R-image-78279130b3e996cbb7f347e6728766a0" class="lightbox-link"><img alt="Alphabet Binary Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Alpha.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-78279130b3e996cbb7f347e6728766a0"><img alt="Alphabet Binary Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Alpha.png"></a></p>
 <p>Here we have an example of a binary tree with alphabetical items. As long as we have items which have a predefined order, we can organize them using a binary tree.</p>
 <h2 id="invalid-binary-trees">Invalid Binary Trees</h2>
-<p><a href="#R-image-e12ca988cc38167e42db8047fec464c3" class="lightbox-link"><img alt="Alphabet Non-Binary Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_NOTAlpha.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e12ca988cc38167e42db8047fec464c3"><img alt="Alphabet Non-Binary Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_NOTAlpha.png"></a></p>
+<p><a href="#R-image-4684f1fcad08dd17705b424eed1717e7" class="lightbox-link"><img alt="Alphabet Non-Binary Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_NOTAlpha.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4684f1fcad08dd17705b424eed1717e7"><img alt="Alphabet Non-Binary Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_NOTAlpha.png"></a></p>
 <p>We may be inclined to say that this is a binary tree: each node has 0, 1, or 2 children and amongst children and parent nodes, the left child is smaller than the parent and the right child is greater than the parent. However, in binary trees, all of the nodes in the left tree must be smaller than the root and all of the nodes in the right tree must be larger than the root. In this tree, <code>D</code> is out of place. Node <code>D</code> is less than node <code>T</code> but it is also less than node <code>Q</code>. Thus, node <code>D</code> must be on the right of node <code>Q</code>.</p>
-<p><a href="#R-image-87c7b8e07a7fa6f92f0a9367e300d80f" class="lightbox-link"><img alt="Too Many Children" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_ManyChildren.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-87c7b8e07a7fa6f92f0a9367e300d80f"><img alt="Too Many Children" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_ManyChildren.png"></a></p>
+<p><a href="#R-image-bbee6faf7237769def02032b12b05a36" class="lightbox-link"><img alt="Too Many Children" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_ManyChildren.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bbee6faf7237769def02032b12b05a36"><img alt="Too Many Children" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_ManyChildren.png"></a></p>
 <p>In this case, we do not have a binary tree. This does fit all of the criteria for being a tree but not the criteria for a binary tree. Nodes in binary trees can have at most 2 children. Node <code>30</code> has three children.</p>
 
             <footer class="footline">
@@ -2750,14 +2750,14 @@ This example would be considered two trees, not a tree with two parts. In this f
 </li>
 </ul>
 <p>Let&rsquo;s practice traversals on the following binary tree.</p>
-<p><a href="#R-image-4bbf92495f4ab1cbd1cca3b830f79679" class="lightbox-link"><img alt="Traversal Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Traversal.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4bbf92495f4ab1cbd1cca3b830f79679"><img alt="Traversal Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Traversal.png"></a></p>
+<p><a href="#R-image-85e996633ee4a5cdae28a702052a6e7f" class="lightbox-link"><img alt="Traversal Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Traversal.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-85e996633ee4a5cdae28a702052a6e7f"><img alt="Traversal Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Traversal.png"></a></p>
 <h2 id="preorder-traversal">Preorder Traversal</h2>
-<p><a href="#R-image-fbdec1c8a7d8e611a13c4f1a530cf4e2" class="lightbox-link"><img alt="Preorder" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Pre.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fbdec1c8a7d8e611a13c4f1a530cf4e2"><img alt="Preorder" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Pre.gif"></a></p>
+<p><a href="#R-image-3ab8999c10c36b22b787f1deaded9f84" class="lightbox-link"><img alt="Preorder" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Pre.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3ab8999c10c36b22b787f1deaded9f84"><img alt="Preorder" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Pre.gif"></a></p>
 <h2 id="postorder-traversal">Postorder Traversal</h2>
-<p><a href="#R-image-bb21a16324b7903d0f31dd7b24624558" class="lightbox-link"><img alt="Postorder" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Post.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-bb21a16324b7903d0f31dd7b24624558"><img alt="Postorder" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Post.gif"></a></p>
+<p><a href="#R-image-26e54e36368ae0db5036ba9f34ac6a7d" class="lightbox-link"><img alt="Postorder" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Post.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-26e54e36368ae0db5036ba9f34ac6a7d"><img alt="Postorder" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Post.gif"></a></p>
 
             <footer class="footline">
               
@@ -2792,8 +2792,8 @@ This example would be considered two trees, not a tree with two parts. In this f
 </ul>
 </li>
 </ul>
-<p><a href="#R-image-e54147949381fc6269cfa962dce8b200" class="lightbox-link"><img alt="In-order" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_In.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e54147949381fc6269cfa962dce8b200"><img alt="In-order" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_In.gif"></a></p>
+<p><a href="#R-image-de694175d67eb9de5313f4d3a837fa8a" class="lightbox-link"><img alt="In-order" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_In.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-de694175d67eb9de5313f4d3a837fa8a"><img alt="In-order" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_In.gif"></a></p>
 
             <footer class="footline">
               
@@ -2811,11 +2811,11 @@ This example would be considered two trees, not a tree with two parts. In this f
 
 <h1 id="balance">Balance</h1>
 
-<p><a href="#R-image-1198bb1462348a6f289fef1914c18718" class="lightbox-link"><img alt="Unbalanced" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_UnBal.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1198bb1462348a6f289fef1914c18718"><img alt="Unbalanced" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_UnBal.png"></a></p>
+<p><a href="#R-image-907911eb6e9b3629f1f0365db51c3271" class="lightbox-link"><img alt="Unbalanced" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_UnBal.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-907911eb6e9b3629f1f0365db51c3271"><img alt="Unbalanced" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_UnBal.png"></a></p>
 <p>While this is a valid binary tree, it is not balanced. Let&rsquo;s look at the following tree.</p>
-<p><a href="#R-image-c8a2bb35de9a0e6abd2dad385d1c1599" class="lightbox-link"><img alt="Balanced" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Bal.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c8a2bb35de9a0e6abd2dad385d1c1599"><img alt="Balanced" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Bal.png"></a></p>
+<p><a href="#R-image-998050a1100b82cfb8f7d38a6725dd07" class="lightbox-link"><img alt="Balanced" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc310/images/14/4Binary_Bal.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-998050a1100b82cfb8f7d38a6725dd07"><img alt="Balanced" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc310/images/14/4Binary_Bal.png"></a></p>
 <p>We have the same nodes but our root is now 12 whereas before it was 14. This is a valid binary tree. We call this a <code>balanced</code> binary tree. A balanced binary tree looks visually even amongst the left and right trees in terms of number of nodes.</p>
 <p><strong>Note:</strong> Balancing is not necessary for a valid binary tree. It is, however, important in terms of time efficiency to have a balanced tree. For example, the number of actions when inserting an element is about the same as the number of levels in the tree. If we tried to add the value 11 into the unbalanced tree, we would traverse 5 nodes. If we tried to add the value 11 in to the balanced tree, we would traverse just 3 nodes.</p>
 <p>We believe that balancing binary trees is out of the scope of this course. If you are interested in how we might balance a tree, feel free to check out these videos by Dr. Joshua Weese.</p>
@@ -2911,8 +2911,8 @@ This example would be considered two trees, not a tree with two parts. In this f
   
     
     </div>
-    <script src="/cc310/js/clipboard.min.js?1723740711" defer></script>
-    <script src="/cc310/js/perfect-scrollbar.min.js?1723740711" defer></script>
-    <script src="/cc310/js/theme.js?1723740711" defer></script>
+    <script src="/cc310/js/clipboard.min.js?1737134928" defer></script>
+    <script src="/cc310/js/perfect-scrollbar.min.js?1737134928" defer></script>
+    <script src="/cc310/js/theme.js?1737134928" defer></script>
   </body>
 </html>
